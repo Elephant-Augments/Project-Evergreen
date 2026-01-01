@@ -1,0 +1,94 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "lithostitched"
+  },
+  //<-------------------------------------------------------Flag For Fixes------------------------------------------------------>
+  {
+    "op": "include",
+    "path": "structures/flag_structures_for_fixing"
+  },
+  //<------------------------------------------------------Allow All Biomes----------------------------------------------------->
+  {
+    "op": "include",
+    "path": "structures/fixes/allow_all_biomes"
+  },
+  //<---------------------------------------------------------Apply Fixes------------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "disable_this_for_now"
+    },
+    {
+      "op": "include",
+      "path": "structures/fixes/biome_radius_check"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ignore_structure_type",
+      "inverse": true
+    },
+    {
+      "op": "include",
+      "path": "structures/fixes/normalize_structure_type"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ignore_water_restriction",
+      "inverse": true
+    },
+    {
+      "op": "include",
+      "path": "structures/fixes/cannot_spawn_in_water"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "disable_this_for_now"
+    },
+    {
+      "op": "test",
+      "path": "/ignore_flatness_check",
+      "inverse": true
+    },
+    {
+      "op": "test",
+      "path": "/ignore_water_restriction",
+      "inverse": true
+    },
+    {
+      "op": "include",
+      "path": "structures/fixes/normalize_terrain_restriction"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/flatness_check_wide",
+      "value": true
+    },
+    {
+      "op": "include",
+      "path": "structures/fixes/integrated_api_terrain_restriction_wide"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/flatness_check_narrow",
+      "value": true
+    },
+    {
+      "op": "include",
+      "path": "structures/fixes/integrated_api_terrain_restriction_narrow"
+    }
+  ]
+]

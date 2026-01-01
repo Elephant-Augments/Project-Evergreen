@@ -1,0 +1,658 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "towns_and_towers:pillager_outpost_wooded_badlands",
+        "towns_and_towers:exclusives/pillager_outpost_oriental",
+        "towns_and_towers:exclusives/pillager_outpost_mediterranean",
+        "towns_and_towers:pillager_outpost_badlands",
+        "towns_and_towers:pillager_outpost_desert",
+        "towns_and_towers:mimic_desert"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "idas:desert_pyramid",
+        "idas:labyrinth",
+        "idas:dig_site/dig_site_desert",
+        "idas:ancient_statue/ancient_statue_desert"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Minecraft Core---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_minecraft"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "integrated_minecraft:deathworm_pit"
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "ati_structures:desert_outpost",
+        "ati_structures:fortified_temple"
+      ]
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_arise:bandit_village",
+        "dungeons_arise:bandit_towers",
+        "dungeons_arise:shiraz_palace",
+        "dungeons_arise:coliseum"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_arise:bandit_village",
+        "dungeons_arise:bandit_towers",
+        "dungeons_arise:shiraz_palace",
+        "dungeons_arise:desert_hall"
+      ]
+    }
+  ],
+  //<----------------------------------------------Dawncraft---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "custom:deity_corpse",
+        "custom:npc_spawn_desert"
+      ]
+    }
+  ],
+  //<----------------------------------------------Dust's Quest Giver (Dawncraft)---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "quest_giver"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Ice and Fire---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "iceandfire"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Cataclysm---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "cataclysm"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "cataclysm:cursed_pyramid"
+      ]
+    }
+  ],
+  //<-------------------------------------------Legendary Monsters------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "legendary_monsters"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "legendary_monsters:ruined_pyramid"
+      ]
+    }
+  ],
+  //<----------------------------------------------Dungeons+---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_plus"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_plus:leviathan"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Species------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "species"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------------BrassAmber BattleTowers------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ba_bt"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "ba_bt:sandy_land_battle_tower"
+      ]
+    }
+  ],
+  //<------------------------------------------Better Archaeology------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterarcheology"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "betterarcheology:buried_ruins_sand",
+        "betterarcheology:ruins_sand",
+        "betterarcheology:desert_obelisk",
+        "betterarcheology:mesa_ruins"
+      ]
+    }
+  ],
+  //<------------------------------------------Feur Extension: Fossil------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_fossil"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "feur_extension_fossil:rex_camp",
+        "feur_extension_fossil:bones_tree",
+        "feur_extension_fossil:fossil_hand",
+        "feur_extension_fossil:fossil_dragon",
+        "feur_extension_fossil:fossil_fang",
+        "feur_extension_fossil:fossil_snake",
+        "feur_extension_fossil:small_rex_camp",
+        "feur_extension_fossil:fossil_chest",
+        "feur_extension_fossil:fossil_arc"
+      ]
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "structory:outcast_villager_desert"
+      ]
+    }
+  ],
+  //<------------------------------------------------Terramity------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_17"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "terramity"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "terramity:ancient_outcrop"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Yung's Desert Temples--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_18"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterdeserttemples"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "betterdeserttemples:desert_temple"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Biome Makeover--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_19"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "biomemakeover"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "biomemakeover:ghost_town"
+      ]
+    }
+  ],
+  //<------------------------------------------------------More Sniffer Flowers------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_20"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "moresnifferflowers"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "moresnifferflowers:dessert_sniffer_temple"
+      ]
+    }
+  ],
+  //<----------------------------------------------Towers of the Wild---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_21"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "totw_modded"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "totw_modded:desert"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Explorify------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_22"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "explorify"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "explorify:supply_cache/desert",
+        "explorify:desert_shrine"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Goety------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_23"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "goety"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "goety:buried_ritual"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Bosses Rise------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_24"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "block_factorys_bosses"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "block_factorys_bosses:sandworm_nest"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Darker Depths------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_25"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "darkerdepths"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "darkerdepths:rope_mine_desert"
+      ]
+    }
+  ],
+  //<-------------------------------------------------Underground Rooms------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_26"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "underground_rooms"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "underground_rooms:desert_crypt"
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_27"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "wabi_sabi_structures:sphinx_hidey_hole_sandy"
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_28"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "additionalstructures:pyramid_dungeon",
+        "additionalstructures:sandstone_rock_1",
+        "additionalstructures:sandstone_rock_2",
+        "additionalstructures:sandstone_rock_3",
+        "additionalstructures:sandstone_totem_1",
+        "additionalstructures:sandstone_totem_2",
+        "additionalstructures:sandstone_totem_3",
+        "additionalstructures:red_sandstone_totem_1",
+        "additionalstructures:red_sandstone_totem_2",
+        "additionalstructures:pyramid_1",
+        "additionalstructures:pyramid_2",
+        "additionalstructures:temple_1",
+        "additionalstructures:temple_2",
+        "additionalstructures:sphinx",
+        "additionalstructures:desert_tomb_1",
+        "additionalstructures:desert_tomb_2",
+        "additionalstructures:desert_pillars_1",
+        "additionalstructures:desert_pillars_2",
+        "additionalstructures:fossil_1",
+        "additionalstructures:fossil_2",
+        "additionalstructures:dragon_fossil_1",
+        "additionalstructures:dragon_fossil_2",
+        "additionalstructures:suspicious_sand_patch_1",
+        "additionalstructures:suspicious_sand_patch_2",
+        "additionalstructures:suspicious_sand_patch_3",
+        "additionalstructures:suspicious_sand_patch_4"
+      ]
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_desert_29"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "repurposed_structures:ruins_land_hot",
+        "repurposed_structures:mansion_desert",
+        "repurposed_structures:monument_desert",
+        "repurposed_structures:outpost_desert",
+        "repurposed_structures:outpost_badlands"
+      ]
+    }
+  ]
+]

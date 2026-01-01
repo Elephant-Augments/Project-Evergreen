@@ -1,0 +1,17 @@
+{
+    "replace": true,
+    "values": [
+        {
+            "id": "terralith:warm_river",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:tropical_river",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:tropical_river",
+            "required": false
+        }
+    ]
+}

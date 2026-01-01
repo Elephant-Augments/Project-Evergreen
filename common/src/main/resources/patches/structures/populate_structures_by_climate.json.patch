@@ -1,0 +1,210 @@
+[
+  {
+    "op": "include",
+    "path": "structures/by_climate/underground_land"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/river"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/river_or_coast_normal"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/river_or_coast_frozen"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/ocean_rare_shallow"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/ocean_rare_deep"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/ocean"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/ocean_deep"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/ocean_frozen"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/ocean_not_frozen"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/ocean_warm"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/all_civilization"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_snow"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_desert"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_desert_red"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_arid"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_tropical"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_temperate"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_fields"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_deciduous"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_coniferous"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_special_coastal"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_special_mountainous"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_special_autumnal"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_special_oriental"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_special_mediterranean"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/civilization_special_flowery"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/all_wilderness"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_snow"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_desert"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_desert_red"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_arid"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_tropical"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_temperate"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_fields"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_deciduous"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_coniferous"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_special_coastal"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_special_mountainous_hot"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_special_mountainous_cold"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_special_autumnal"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_special_craggy"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_special_oriental"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/wilderness_special_mediterranean"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/special_swampy"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/special_swampy_warm"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/special_magical"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/special_shroomy"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/special_spooky"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/special_ruined"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/special_rocky"
+  },
+  {
+    "op": "include",
+    "path": "structures/by_climate/special_icy"
+  }
+]

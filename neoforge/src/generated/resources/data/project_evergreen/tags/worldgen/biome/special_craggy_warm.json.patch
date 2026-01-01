@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:windswept_savanna",
+      "minecraft:savanna_plateau",
+      "terralith:fractured_savanna",
+      "terralith:amethyst_canyon",
+      "wythers:jungle_canyon",
+      "wythers:tropical_forest_canyon",
+      "wythers:warm_stony_shore",
+      "wythers:windswept_jungle",
+      "wythers:tsingy_forest"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

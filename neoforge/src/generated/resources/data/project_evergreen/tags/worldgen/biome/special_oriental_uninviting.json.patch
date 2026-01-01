@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:bamboo_jungle",
+      "regions_unexplored:bamboo_forest",
+      "regions_unexplored:magnolia_woodland",
+      "natures_spirit:bamboo_wetlands",
+      "aromatic:cinnamon_rainforest",
+      "natures_spirit:sugi_forest",
+      "natures_spirit:blooming_sugi_forest",
+      "natures_spirit:windswept_sugi_forest",
+      "wythers:bamboo_jungle_swamp",
+      "wythers:bamboo_swamp",
+      "wythers:jade_highlands"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

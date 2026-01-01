@@ -1,0 +1,13 @@
+{
+    "replace": true,
+    "values": [
+        "#project_evergreen:plains_grassy_arid",
+        "#project_evergreen:plains_grassy_snow",
+        "#project_evergreen:plains_grassy_temperate",
+        "#project_evergreen:plains_grassy_tropical",
+        "#project_evergreen:plains_shrubby_arid",
+        "#project_evergreen:plains_shrubby_snow",
+        "#project_evergreen:plains_shrubby_temperate",
+        "#project_evergreen:plains_shrubby_tropical"
+    ]
+}

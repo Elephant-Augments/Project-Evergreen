@@ -1,0 +1,282 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dawncraft---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "custom:ice_dragon_spawn"
+      ]
+    }
+  ],
+  //<----------------------------------------------Sky Arena---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "skyarena"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "skyarena:ice_arena"
+      ]
+    }
+  ],
+  //<----------------------------------------------Dungeon Crawl---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeoncrawl"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Feur Extension: Fossil------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_fossil"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Iron's Spells n' Spellbooks---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "irons_spellbooks"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "irons_spellbooks:mountain_tower"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Explorify------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "explorify"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "explorify:guide_post_cold"
+      ]
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "wabi_sabi_structures:lumpy_tower"
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_special_mountainous_cold_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ]
+]

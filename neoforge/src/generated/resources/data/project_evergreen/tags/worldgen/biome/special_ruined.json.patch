@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "regions_unexplored:ashen_woodland"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

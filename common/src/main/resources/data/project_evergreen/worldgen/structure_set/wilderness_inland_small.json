@@ -1,0 +1,32 @@
+{
+  "__comment": "wilderness_inland_small",
+  "placement": {
+    "salt": 0,
+    "spacing": 15,
+    "separation": 11,
+    "type": "minecraft:random_spread",
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "minecraft:ruined_portal",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:ruined_portal_desert",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:ruined_portal_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:ruined_portal_swamp",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:ruined_portal_mountain",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/use_expansion_hack",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/use_expansion_hack",
+      "value": false
+    }
+  ]
+]

@@ -1,0 +1,281 @@
+[
+  //<----------------------------------------------Integrated Minecraft Core---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_large_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_minecraft"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "integrated_minecraft:torii_gate",
+          "weight": 1
+        },
+        {
+          "structure": "integrated_minecraft:witches_abode",
+          "weight": 1
+        },
+        {
+          "structure": "integrated_minecraft:ancient_archwood_tree",
+          "weight": 1
+        },
+        {
+          "structure": "integrated_minecraft:arcane_abode",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_large_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "ati_structures:dojo",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_large_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "dungeons_arise:giant_mushroom",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<---------------------------------------------------Integrated Dungeons's Arise--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_large_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+      ]
+    }
+  ],
+  //<----------------------------------------------Ars Additions---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_large_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ars_additions"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "ars_additions:nexus_tower",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_large_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "structory:old_manor",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Iron's Spells n' Spellbooks---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_large_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "irons_spellbooks"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "irons_spellbooks:mangrove_hut",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<-------------------------------------------Born In Chaos------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_large_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "born_in_chaos_v1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_minecraft",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "born_in_chaos_v1:dark_tower_plain",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Companions---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_large_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "companions"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "companions:companions_teddytower",
+          "weight": 1
+        },
+        {
+          "structure": "companions:companions_babayaga",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_large_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "mvs:ruins/castle_ruins",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:nature/big_oak_tree",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:houses/large_warped_tower",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_large_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "wabi_sabi_structures:zen_chair_museum",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+]

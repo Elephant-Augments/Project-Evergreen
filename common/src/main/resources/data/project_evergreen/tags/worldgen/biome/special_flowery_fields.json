@@ -1,0 +1,63 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:meadow",
+        "minecraft:sunflower_plains",
+        {
+            "id": "terralith:blooming_plateau",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:flower_fields",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:rocky_meadow",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:carnation_fields",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:lavender_fields",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:poppy_fields",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:blooming_highlands",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:flowering_shrubland",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:marigold_meadows",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:alpine_fields",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:lush_grassland",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:lush_meadow",
+            "required": false
+        },
+        {
+            "id": "windswept:lavender_fields",
+            "required": false
+        },
+        {
+            "id": "windswept:lavender_hills",
+            "required": false
+        }
+    ]
+}

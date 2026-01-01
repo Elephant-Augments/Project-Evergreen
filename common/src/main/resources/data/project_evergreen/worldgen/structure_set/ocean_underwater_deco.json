@@ -1,0 +1,11 @@
+{
+  "__comment": "ocean_underwater_deco",
+  "placement": {
+    "salt": 0,
+    "spacing": 10,
+    "separation": 2,
+    "type": "minecraft:random_spread",
+    "spread_type": "triangular"
+  },
+  "structures": []
+}

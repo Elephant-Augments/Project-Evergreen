@@ -1,0 +1,28 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:savanna",
+      "terralith:savanna_badlands",
+      "natures_spirit:arid_savanna",
+      "natures_spirit:arid_highlands",
+      "natures_spirit:wooded_drylands",
+      "regions_unexplored:steppe",
+      "natures_spirit:xeric_plains",
+      "dreamwoods:arid_plains",
+      "windswept:flowering_savanna",
+      "wythers:dry_tropical_grassland",
+      "wythers:flooded_savanna",
+      "wythers:flowering_pantanal",
+      "wythers:jacaranda_savanna"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

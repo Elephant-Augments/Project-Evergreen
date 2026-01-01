@@ -1,0 +1,442 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "ati_structures:rotting_temple"
+      ]
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dawncraft---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "custom:lightning_dragon_spawn",
+        "custom:obsidian_spikes"
+      ]
+    }
+  ],
+  //<----------------------------------------------Dust's Quest Giver (Dawncraft)---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "quest_giver"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "quest_giver:giant_hideout"]
+    }
+  ],
+  //<----------------------------------------------Ice and Fire---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "iceandfire"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Cataclysm---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "cataclysm"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<-------------------------------------------Legendary Monsters------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "legendary_monsters"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Mowzie's Mobs---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mowziesmobs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dungeons+---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_plus"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dungeon Crawl---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeoncrawl"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Better Archaeology------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterarcheology"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Feur Extension: Fossil------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_fossil"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Goblins & Dungeons---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "goblinsanddungeons"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Iron's Spells n' Spellbooks---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "irons_spellbooks"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Oreganized---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_17"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "oreganized"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "oreganized:boulder"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Threateningly Mobs------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_18"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "threateningly_mobs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_19"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "mvs:nature/boulder",
+        "mvs:nature/stone_rock",
+        "mvs:houses/deepslate_house"
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_20"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "wabi_sabi_structures:infested_castle"
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_21"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "additionalstructures:stone_rock_1",
+        "additionalstructures:stone_rock_2",
+        "additionalstructures:stone_rock_3",
+        "additionalstructures:stone_rock_4"
+      ]
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_rocky_22"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "repurposed_structures:igloo_stone"
+      ]
+    }
+  ]
+]

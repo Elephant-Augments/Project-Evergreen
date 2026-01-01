@@ -1,0 +1,10 @@
+{
+  "__comment": "wilderness_inland_massive",
+  "placement": {
+    "salt": 0,
+    "spacing": 40,
+    "separation": 24,
+    "type": "minecraft:random_spread"
+  },
+  "structures": []
+}

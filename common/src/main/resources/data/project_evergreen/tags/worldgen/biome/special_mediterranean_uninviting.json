@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "natures_spirit:shrubby_highlands",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:woody_highlands",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:xeric_plains",
+            "required": false
+        }
+    ]
+}

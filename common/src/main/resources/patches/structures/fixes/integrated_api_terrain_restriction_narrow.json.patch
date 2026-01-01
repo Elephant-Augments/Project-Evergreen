@@ -1,0 +1,33 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "integrated_api"
+  },
+  [
+    [
+      {
+        "op": "test",
+        "path": "/terrain_height_radius_check",
+        "inverse": true
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 1
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/allowed_terrain_height_range",
+        "inverse": true
+      },
+      {
+        "op": "add",
+        "path": "/allowed_terrain_height_range",
+        "value": 18
+      }
+    ]
+  ]
+]

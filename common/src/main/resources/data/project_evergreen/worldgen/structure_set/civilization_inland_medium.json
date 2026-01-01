@@ -1,0 +1,10 @@
+{
+  "__comment": "civilization_inland_medium",
+  "placement": {
+    "salt": 0,
+    "spacing": 18,
+    "separation": 8,
+    "type": "minecraft:random_spread"
+  },
+  "structures": []
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "terralith:brushland",
+      "dreamwoods:jungle_bushland",
+      "wythers:humid_tropical_grassland",
+      "wythers:sandy_jungle"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

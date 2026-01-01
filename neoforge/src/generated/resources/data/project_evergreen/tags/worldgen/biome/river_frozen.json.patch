@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:frozen_river",
+      "wythers:icy_river"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  //<--------------------------------------------Normalize Terrain Adaptation-------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/terrain_adaptation",
+      "inverse": true
+    },
+    {
+      "op": "test",
+      "path": "/enhanced_terrain_adaptation",
+      "inverse": true
+    },
+    {
+      "op": "include",
+      "path": "structures/fixes/terrain_beard_thin"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrain_adaptation",
+      "value": "none"
+    },
+    {
+      "op": "include",
+      "path": "structures/fixes/terrain_beard_thin"
+    }
+  ]
+]

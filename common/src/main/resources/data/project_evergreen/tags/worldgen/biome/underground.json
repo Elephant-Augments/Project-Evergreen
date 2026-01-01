@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:dripstone_caves",
+        "minecraft:lush_caves",
+        {
+            "id": "#forge:is_cave",
+            "required": false
+        }
+    ]
+}

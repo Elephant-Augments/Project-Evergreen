@@ -1,0 +1,20 @@
+[
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_large_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": []
+    }
+  ]
+]

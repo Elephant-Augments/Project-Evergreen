@@ -1,0 +1,12 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "regions_unexplored"
+  },
+  {
+    "op": "replace",
+    "path": "/feature",
+    "value": "regions_unexplored:white_magnolia_tree"
+  }
+]

@@ -1,0 +1,347 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "towns_and_towers:village_birch_forest",
+        "towns_and_towers:village_forest",
+        "towns_and_towers:exclusives/village_swedish"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Villages---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_villages"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "idas:lumber_camp/lumber_camp_oak",
+        "idas:lumber_camp/lumber_camp_birch"
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Integrated Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_arise:greenwood_pub"
+      ]
+    }
+  ],
+  //<----------------------------------------------Dawncraft---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Better Archaeology------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterarcheology"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<-------------------------------------------Queen Bee------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "queen_bee"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Human Companions---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "humancompanions"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "humancompanions:oak_house",
+        "humancompanions:birch_house"
+      ]
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "mvs:ruins/tree_monument",
+        "mvs:log_pile/birch_log_pile",
+        "mvs:log_pile/oak_log_pile",
+        "mvs:nature/small_oak_pond"
+      ]
+    }
+  ],
+  //<----------------------------------------------------Tax's Giant Trees---------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "taxtg"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "taxtg:giant_oak_tree"
+      ]
+    }
+  ],
+  //<--------------------------------------------------------Terralith-------------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:pack_enabled",
+      "value": ["file/Terralith", "file/Terralith.zip", "mod/Terralith"]
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "wabi_sabi_structures:water_tower_forest",
+        "wabi_sabi_structures:water_tower_dark_oak",
+        "wabi_sabi_structures:tall_birch_house",
+        "wabi_sabi_structures:candlemaker_house",
+        "wabi_sabi_structures:bee_farm_forest"
+      ]
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_deciduous_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "additionalstructures:standing_oak_log",
+        "additionalstructures:oak_log_1",
+        "additionalstructures:oak_log_2",
+        "additionalstructures:log_bundle",
+        "additionalstructures:birch_log",
+        "additionalstructures:bush_1",
+        "additionalstructures:bush_2",
+        "additionalstructures:bush_3",
+        "additionalstructures:bush_4",
+        "additionalstructures:stone_rock_1",
+        "additionalstructures:stone_rock_2",
+        "additionalstructures:stone_rock_3",
+        "additionalstructures:stone_rock_4"
+      ]
+    }
+  ]
+]

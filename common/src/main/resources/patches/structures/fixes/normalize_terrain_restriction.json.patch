@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/type",
+      "value": "integrated_api:mod_adaptive_structure",
+      "inverse": true
+    },
+    {
+      "op": "test",
+      "path": "/type",
+      "value": "integrated_api:optional_dependency_structure",
+      "inverse": true
+    },
+    {
+      "op": "test",
+      "path": "/type",
+      "value": "integrated_api:biome_facing_structure",
+      "inverse": true
+    },
+    {
+      "op": "test",
+      "path": "/step",
+      "value": "underground_structures",
+      "inverse": true
+    },
+    {
+      "op": "test",
+      "path": "/step",
+      "value": "underground_decoration",
+      "inverse": true
+    },
+    {
+      "op": "test",
+      "path": "/step",
+      "value": "strongholds",
+      "inverse": true
+    },
+    [
+      {
+        "op": "test",
+        "path": "/size"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ]
+  ]
+]

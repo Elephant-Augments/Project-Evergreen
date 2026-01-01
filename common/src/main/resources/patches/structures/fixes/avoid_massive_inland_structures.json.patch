@@ -1,0 +1,15 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "integrated_api"
+  },
+  {
+    "op": "add",
+    "path": "/placement/super_exclusion_zone",
+    "value": {
+      "chunk_count": 4,
+      "other_set": "#project_evergreen:inland_massive"
+    }
+  }
+]

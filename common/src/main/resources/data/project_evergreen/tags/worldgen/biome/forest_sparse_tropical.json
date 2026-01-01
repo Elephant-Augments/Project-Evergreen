@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:sparse_jungle",
+        {
+            "id": "terralith:rocky_jungle",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:sparse_rainforest",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:sparse_tropical_woods",
+            "required": false
+        }
+    ]
+}

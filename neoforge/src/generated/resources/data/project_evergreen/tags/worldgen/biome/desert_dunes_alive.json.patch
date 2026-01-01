@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:desert",
+      "terralith:desert_oasis",
+      "regions_unexplored:joshua_desert",
+      "regions_unexplored:saguaro_desert",
+      "dreamwoods:arid_plains",
+      "wythers:cactus_desert",
+      "wythers:danakil_desert",
+      "wythers:desert_lakes",
+      "wythers:guelta",
+      "wythers:outback_desert",
+      "wythers:wooded_desert"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

@@ -1,0 +1,611 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "towns_and_towers:exclusives/pillager_outpost_iberian",
+        "towns_and_towers:pillager_outpost_savanna",
+        "towns_and_towers:pillager_outpost_savanna_plateau"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "ati_structures:granite_fort"
+      ]
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Integrated Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_arise:keep_kayra"
+      ]
+    }
+  ],
+  //<----------------------------------------------Dawncraft---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "custom:fire_dragon_spawn"
+      ]
+    }
+  ],
+  //<----------------------------------------------Dust's Quest Giver (Dawncraft)---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "quest_giver"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Ice and Fire---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "iceandfire"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Cataclysm---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "cataclysm"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<-------------------------------------------Legendary Monsters------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "legendary_monsters"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Mowzie's Mobs---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mowziesmobs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "mowziesmobs:umvuthana_grove"
+      ]
+    }
+  ],
+  //<----------------------------------------------Dungeons+---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_plus"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dungeon Crawl---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeoncrawl"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------------BrassAmber BattleTowers------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ba_bt"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Better Archaeology------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterarcheology"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Feur Extension: Fossil------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_fossil"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "feur_extension_fossil:skull_camp"
+      ]
+    }
+  ],
+  //<------------------------------------------Feur Extension: Jungle------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_jungle"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Goblins & Dungeons---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_17"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "goblinsanddungeons"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Hunter Illager---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_18"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hunterillager"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_19"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Ars Nouveau---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_20"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ars_nouveau"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Ars Additions---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_21"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ars_additions"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Iron's Spells n' Spellbooks---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_22"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "irons_spellbooks"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<---------------------------------------------------Yung's Jungle Temples--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_23"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterjungletemples"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<---------------------------------------------------Biome Makeover--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_24"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "biomemakeover"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------------------Goety------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_25"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "goety"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "goety:wind_shrine"
+      ]
+    }
+  ],
+  //<--------------------------------------------------------Terralith-------------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_26"
+    },
+    {
+      "op": "test",
+      "type": "patched:pack_enabled",
+      "value": ["file/Terralith", "file/Terralith.zip", "mod/Terralith"]
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Towers of the Wild---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_27"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "totw_modded"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "totw_modded:derelict_grass"
+      ]
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_28"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "mvs:nature/acacia_tree",
+        "mvs:dead_tree/acacia"
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_29"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "wabi_sabi_structures:effigy_patch_savanna"
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_30"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "additionalstructures:standing_acacia_log",
+        "additionalstructures:acacia_log"
+      ]
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_arid_31"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "repurposed_structures:mansion_savanna"
+      ]
+    }
+  ]
+]

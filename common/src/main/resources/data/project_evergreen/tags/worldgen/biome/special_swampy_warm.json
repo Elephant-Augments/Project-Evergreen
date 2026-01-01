@@ -1,0 +1,30 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:mangrove_swamp",
+        {
+            "id": "wildbackport:mangrove_swamp",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:bayou",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:old_growth_bayou",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:tropical_basin",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:flooded_rainforest",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:bayou",
+            "required": false
+        }
+    ]
+}

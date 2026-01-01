@@ -1,0 +1,31 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:plains",
+      "minecraft:sunflower_plains",
+      "terralith:highlands",
+      "natures_spirit:prairie",
+      "regions_unexplored:grassland",
+      "regions_unexplored:clover_plains",
+      "natures_spirit:heather_fields",
+      "natures_spirit:alpine_clearings",
+      "natures_spirit:white_cliffs",
+      "dreamwoods:lush_grassland",
+      "dreamwoods:lush_meadow",
+      "dreamwoods:poplar_fields",
+      "dreamwoods:prairie",
+      "wythers:cool_plains",
+      "wythers:harvest_fields",
+      "wythers:highland_plains"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "op": "find",
+    "path": "/temp_structures",
+    "multi": true,
+    "test": [],
+    "then": {
+      "op": "copy",
+      "from": "",
+      "path": "/structures/-"
+    }
+  },
+  {
+    "op": "remove",
+    "path": "/temp_structures"
+  }
+]

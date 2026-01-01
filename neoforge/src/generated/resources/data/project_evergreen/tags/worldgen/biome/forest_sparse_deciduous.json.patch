@@ -1,0 +1,31 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "terralith:temperate_highlands",
+      "terralith:forested_highlands",
+      "terralith:valley_clearing",
+      "regions_unexplored:orchard",
+      "regions_unexplored:temperate_grove",
+      "regions_unexplored:sparse_redwoods",
+      "regions_unexplored:prairie",
+      "natures_spirit:cypress_fields",
+      "natures_spirit:oak_savanna",
+      "natures_spirit:floral_ridges",
+      "dreamwoods:spinney",
+      "dreamwoods:poplar_grove",
+      "dreamwoods:poplar_slopes",
+      "windswept:lavender_hills",
+      "wythers:forest_edge",
+      "wythers:cool_forest_edge"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

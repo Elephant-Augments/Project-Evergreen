@@ -1,0 +1,447 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "idas:haunted_manor"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Minecraft Core---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_minecraft"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "idas:dark_tower"
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dawncraft---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dust's Quest Giver (Dawncraft)---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "quest_giver"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Ice and Fire---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "iceandfire"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Cataclysm---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "cataclysm"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Born In Chaos---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "born_in_chaos_v1"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "born_in_chaos_v1:clown_caravan_plains",
+        "born_in_chaos_v1:clown_caravan_savanna",
+        "born_in_chaos_v1:clown_caravan_taiga",
+        "born_in_chaos_v1:dark_tower_taiga",
+        "born_in_chaos_v1:dark_tower_plain",
+        "born_in_chaos_v1:dark_tower_forest",
+        "born_in_chaos_v1:grave_2003wise",
+        "born_in_chaos_v1:grave_darktitan",
+        "born_in_chaos_v1:grave_derivas",
+        "born_in_chaos_v1:grave_orion",
+        "born_in_chaos_v1:grave_petasi",
+        "born_in_chaos_v1:infernal_pumpkin",
+        "born_in_chaos_v1:mound_of_hounds"
+      ]
+    }
+  ],
+  //<-------------------------------------------Legendary Monsters------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "legendary_monsters"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dungeons+---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_plus"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------------------Myths And Legends------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mythsandlegends"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "mythsandlegends:graveyard"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Goety------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "goety"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "goety:crypt",
+        "goety:graveyard",
+        "goety:black_assembly"
+      ]
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "structory:old_manor",
+        "structory:abandoned_chapel",
+        "structory:graveyard"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Hexerei--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hexerei"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "mvs:gallows",
+        "mvs:ruins/stone_pillars"
+      ]
+    }
+  ],
+  //<------------------------------------------------Terramity------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_17"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "terramity"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "terramity:infested_laboratory",
+        "terramity:mausoleum"
+      ]
+    }
+  ],
+  //<-------------------------------------------------Katters Structures------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_18"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "kattersstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "kattersstructures:graveyard"
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_19"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "wabi_sabi_structures:gallows"
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_20"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "additionalstructures:fallen_dead_tree_1",
+        "additionalstructures:fallen_dead_tree_2",
+        "additionalstructures:fallen_dead_tree_3",
+        "additionalstructures:skeleton_skull",
+        "additionalstructures:ruin_1"
+      ]
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_spooky_21"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ]
+]

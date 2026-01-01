@@ -1,0 +1,18 @@
+[
+  {
+    "op": "test",
+    "path": "/features/6/0"
+  },
+  {
+    "op": "find",
+    "path": "/features/6/0",
+    "test": {
+      "path": "",
+      "value": "minecraft:disk_sand"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  }
+]

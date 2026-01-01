@@ -1,0 +1,137 @@
+[
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "betteroceanmonuments:ocean_monument"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "betteroceanmonuments:ocean_monument",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "cataclysm:acropolis"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "cataclysm:acropolis",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "cataclysm:sunken_city"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "cataclysm:sunken_city",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "dungeons_arise:typhon"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "dungeons_arise:typhon",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "dungeons_plus:warped_garden"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "dungeons_plus:warped_garden",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "kattersstructures:deep_blue_city"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "kattersstructures:deep_blue_city",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "minecraft:monument"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "minecraft:monument",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "repurposed_structures:pyramid_ocean"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "repurposed_structures:pyramid_ocean",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "terramity:trial_spire"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "terramity:trial_spire",
+				"weight": 1
+			}
+		}
+	]
+]

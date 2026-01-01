@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:beach",
+        "minecraft:stony_shore",
+        {
+            "id": "terralith:gravel_beach",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:gravel_beach",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:gravel_beach",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:white_shore",
+            "required": false
+        }
+    ]
+}

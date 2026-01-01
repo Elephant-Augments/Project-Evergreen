@@ -1,0 +1,337 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "towns_and_towers:village_savanna_plateau",
+        "towns_and_towers:exclusives/village_nilotic"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Villages---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_villages"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "integrated_villages:mediterranean_village"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "idas:lumber_camp/lumber_camp_acacia"
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dawncraft---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Better Archaeology------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterarcheology"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Human Companions---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "humancompanions"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "humancompanions:acacia_house"
+      ]
+    }
+  ],
+  //<------------------------------------------------More Critters------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "more_critters"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "more_critters:collector_wagon_savanna"
+      ]
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "mvs:other_decoration/lamp_chest",
+        "mvs:lantern/small_acacia_lantern",
+        "mvs:log_pile/acacia_log_pile",
+        "mvs:sunzi_gate"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Explorify------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "explorify"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "explorify:watchtower/savanna"
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "wabi_sabi_structures:water_tower_savanna",
+        "wabi_sabi_structures:llama_sanctuary_plateau",
+        "wabi_sabi_structures:spider_cellar"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Hopo's Mineshafts--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hopo"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "hopo:mineshaft/acacia_mineshaft"
+      ]
+    }
+  ],
+  //<-----------------------------------------------Yung's Better Mineshafts----------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "bettermineshafts"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "bettermineshafts:mineshaft_acacia"
+      ]
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_arid_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "additionalstructures:standing_acacia_log",
+        "additionalstructures:acacia_log"
+      ]
+    }
+  ]
+]

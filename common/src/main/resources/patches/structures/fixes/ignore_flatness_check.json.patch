@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/ignore_flatness_check",
+    "value": true
+  }
+]

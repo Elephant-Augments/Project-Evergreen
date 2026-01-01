@@ -1,0 +1,26 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:ocean",
+        "minecraft:deep_ocean",
+        "#project_evergreen:all_deciduous",
+        "#project_evergreen:coastal_temperate",
+        "minecraft:river",
+        {
+            "id": "regions_unexplored:muddy_river",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:sugi_forest",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:blooming_sugi_forest",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:windswept_sugi_forest",
+            "required": false
+        }
+    ]
+}

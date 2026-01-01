@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:savanna_plateau",
+      "terralith:hot_shrubland",
+      "regions_unexplored:shrubland",
+      "regions_unexplored:dry_bushland",
+      "regions_unexplored:baobab_savanna",
+      "regions_unexplored:outback",
+      "dreamwoods:savanna_grove",
+      "natures_spirit:shrubland",
+      "natures_spirit:shrubby_highlands",
+      "natures_spirit:chaparral",
+      "wythers:chaparral",
+      "wythers:dry_tropical_forest",
+      "wythers:dry_savanna",
+      "wythers:outback",
+      "wythers:savanna_badlands",
+      "wythers:savanna_basaltic_incursions",
+      "wythers:scrub_forest",
+      "wythers:scrubland",
+      "wythers:wooded_savanna"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

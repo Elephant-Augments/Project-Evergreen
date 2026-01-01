@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "regions_unexplored:barley_fields",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:pumpkin_fields",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:golden_wilds",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:fall_fruitfull_grove",
+            "required": false
+        }
+    ]
+}

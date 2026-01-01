@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:snowy_slopes",
+      "minecraft:frozen_peaks",
+      "minecraft:jagged_peaks",
+      "terralith:scarlet_mountains",
+      "terralith:alpine_grove",
+      "terralith:emerald_peaks",
+      "terralith:rocky_mountains",
+      "terralith:mountain_steppe",
+      "terralith:glacial_chasm",
+      "terralith:frozen_cliffs",
+      "regions_unexplored:mountains",
+      "regions_unexplored:pine_slopes",
+      "regions_unexplored:icy_heights",
+      "natures_spirit:red_peaks",
+      "natures_spirit:snowcapped_red_peaks",
+      "natures_spirit:sleeted_slopes",
+      "wythers:maple_mountains",
+      "wythers:snowy_peaks",
+      "wythers:tibesti_mountains"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

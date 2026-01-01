@@ -1,0 +1,38 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:taiga",
+      "minecraft:old_growth_pine_taiga",
+      "minecraft:old_growth_spruce_taiga",
+      "terralith:shield",
+      "natures_spirit:boreal_taiga",
+      "regions_unexplored:pine_taiga",
+      "regions_unexplored:boreal_taiga",
+      "regions_unexplored:golden_boreal_taiga",
+      "regions_unexplored:maple_forest",
+      "natures_spirit:fir_forest",
+      "dreamwoods:seasonal_taiga",
+      "dreamwoods:fir_forest",
+      "dreamwoods:spruce_slopes",
+      "windswept:pine_barrens",
+      "wythers:ancient_taiga",
+      "wythers:boreal_forest_red",
+      "wythers:boreal_forest_yellow",
+      "wythers:old_growth_taiga_crags",
+      "wythers:taiga_crags",
+      "wythers:larch_taiga",
+      "wythers:pine_barrens",
+      "wythers:thermal_taiga",
+      "wythers:thermal_taiga_crags"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

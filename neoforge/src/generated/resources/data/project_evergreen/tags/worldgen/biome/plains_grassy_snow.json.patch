@@ -1,0 +1,21 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:snowy_plains",
+      "terralith:mountain_steppe",
+      "natures_spirit:tundra",
+      "dreamwoods:fall_snowy_grove",
+      "wythers:cold_plains",
+      "wythers:tundra"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

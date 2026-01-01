@@ -1,0 +1,46 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:meadow",
+        {
+            "id": "terralith:yosemite_lowlands",
+            "required": false
+        },
+        {
+            "id": "terralith:shield_clearing",
+            "required": false
+        },
+        {
+            "id": "terralith:alpine_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:forested_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:temperate_highlands",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:towering_cliffs",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:coniferous_covert",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:taiga_shield",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:alpine_fields",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:spruce_lowlands",
+            "required": false
+        }
+    ]
+}

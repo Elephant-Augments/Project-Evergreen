@@ -1,0 +1,229 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "integrated_api"
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "path": "/performance_friendly_mode",
+    "value": "performance_friendly_mode"
+  },
+  {
+    "op": "test",
+    "path": "/performance_friendly_mode",
+    "value": false
+  },
+  //<---------------------------------------------------Update Spread Type--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/placement/type"
+    },
+    {
+      "op": "replace",
+      "path": "/placement/type",
+      "value": "integrated_api:advanced_random_spread"
+    },
+    //<--------------------------------------------------Add Exclusion Zones-------------------------------------------------->
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "disable_this_for_now"
+    },
+    {
+      "op": "include",
+      "path": "structures/spread/use_integrated_api_exclusion_zone"
+    }
+  ],
+  //<-------------------------------------------------Inland Structure Spreads------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 16
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 2
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 22
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 18
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_massive"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 48
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 44
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 18
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 10
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 20
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 12
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_massive"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 34
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 28
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_small"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 13
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 3
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 17
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 11
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_massive"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 25
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 21
+    }
+  ],
+  //<-------------------------------------------------Coastal Structure Spreads------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 33
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 21
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_coastal_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 31
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 25
+    }
+  ]
+]

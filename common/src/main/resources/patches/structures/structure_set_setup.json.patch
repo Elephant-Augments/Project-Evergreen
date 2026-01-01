@@ -1,0 +1,17 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "lithostitched"
+  },
+  //<-------------------------------------------------------Mark For Fixes------------------------------------------------------>
+  {
+    "op": "include",
+    "path": "structures/flag_structures_for_fixing"
+  },
+  //<-----------------------------------------------------Empty Structure Set--------------------------------------------------->
+  {
+    "op": "include",
+    "path": "structures/fixes/empty_structure_set"
+  }
+]

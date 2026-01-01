@@ -1,0 +1,543 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "towns_and_towers:village_swamp"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Minecraft Core---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_minecraft"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "integrated_minecraft:witches_abode"
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dawncraft---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "custom:ogre_swamp_spawn"
+      ]
+    }
+  ],
+  //<----------------------------------------------Ice and Fire---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "iceandfire"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Cataclysm---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "cataclysm"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<-------------------------------------------Legendary Monsters------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "legendary_monsters"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Mowzie's Mobs---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mowziesmobs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dungeons+---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_plus"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Better Archaeology------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterarcheology"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Feur Extension: Fossil------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_fossil"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------------More Critters------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "more_critters"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "more_critters:collector_wagon_swamp"
+      ]
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "structory:swamp_ruin"
+      ]
+    }
+  ],
+  //<----------------------------------------------Iron's Spells n' Spellbooks---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "irons_spellbooks"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<---------------------------------------------------Biome Makeover--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "biomemakeover"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "biomemakeover:sunken_ruin"
+      ]
+    }
+  ],
+  //<----------------------------------------------Ribbits---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ribbits"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "ribbits:ribbit_village"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Hexerei--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_17"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hexerei"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "hexerei:dark_coven",
+        "hexerei:baba_yaga_hut",
+        "hexerei:witch_hut"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Hexalia--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_18"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hexalia"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "hexalia:herbalist_hut"
+      ]
+    }
+  ],
+  //<----------------------------------------------Companions---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_19"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "companions"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "companions:companions_babayaga"
+      ]
+    }
+  ],
+  //<------------------------------------------------Terramity------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_20"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "terramity"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "terramity:mudhut"
+      ]
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_21"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "mvs:houses/small_swamp_house"
+      ]
+    }
+  ],
+  //<-------------------------------------------------Katters Structures------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_22"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "kattersstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "kattersstructures:village_swamp"
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_23"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "wabi_sabi_structures:effigy_patch_swamp",
+        "wabi_sabi_structures:rot_tree",
+        "wabi_sabi_structures:mossy_roof_shed",
+        "wabi_sabi_structures:mossy_roof_house"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Hopo's Mineshafts--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_24"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hopo"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "hopo:mineshaft/mud_mineshaft"
+      ]
+    }
+  ],
+  //<-----------------------------------------------Yung's Better Mineshafts----------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_25"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "bettermineshafts"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_26"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "repurposed_structures:village_swamp"
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_swampy_27"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ]
+]

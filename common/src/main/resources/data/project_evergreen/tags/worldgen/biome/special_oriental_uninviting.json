@@ -1,0 +1,34 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:bamboo_jungle",
+        {
+            "id": "regions_unexplored:bamboo_forest",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:magnolia_woodland",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:bamboo_wetlands",
+            "required": false
+        },
+        {
+            "id": "aromatic:cinnamon_rainforest",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:sugi_forest",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:blooming_sugi_forest",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:windswept_sugi_forest",
+            "required": false
+        }
+    ]
+}

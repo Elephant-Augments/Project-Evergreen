@@ -1,0 +1,410 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "lithostitched"
+  },
+  {
+    "op": "test",
+    "path": "/flatness_check_narrow",
+    "inverse": true
+  },
+  {
+    "op": "test",
+    "path": "/allowed_terrain_height_range",
+    "inverse": true
+  },
+  //<------------------------------------------------Add Delegating Condition------------------------------------------------>
+  {
+    "op": "add",
+    "path": "/delegate",
+    "value": {}
+  },
+  [
+    {
+      "op": "test",
+      "path": "/type"
+    },
+    {
+      "op": "move",
+      "from": "/type",
+      "path": "/delegate/type"
+    }
+  ],
+  {
+    "op": "add",
+    "path": "/type",
+    "value": "lithostitched:delegating"
+  },
+  {
+    "op": "add",
+    "path": "/spawn_condition",
+    "value": {
+      "type": "lithostitched:grid",
+      "radius": 32,
+      "distance_between_points": 4,
+      "condition": {
+        "type": "lithostitched:not",
+        "condition": {
+          "type": "lithostitched:height_filter",
+          "range_type": "heightmap_relative",
+          "heightmap": "WORLD_SURFACE_WG",
+          "permitted_range": [
+            -3,
+            3
+          ]
+        }
+      },
+      "allowed_count": 0
+    }
+  },
+  //<-----------------------------------------------Wrap Existing Structure Type - Vanilla----------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/start_pool"
+    },
+    {
+      "op": "move",
+      "from": "/start_pool",
+      "path": "/delegate/start_pool"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/biomes"
+    },
+    {
+      "op": "move",
+      "from": "/biomes",
+      "path": "/delegate/biomes"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/step"
+    },
+    {
+      "op": "move",
+      "from": "/step",
+      "path": "/delegate/step"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/size"
+    },
+    {
+      "op": "move",
+      "from": "/size",
+      "path": "/delegate/size"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/flatness_check"
+    },
+    {
+      "op": "move",
+      "from": "/flatness_check",
+      "path": "/delegate/flatness_check"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/rotation_fixed"
+    },
+    {
+      "op": "move",
+      "from": "/rotation_fixed",
+      "path": "/delegate/rotation_fixed"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/adapt_noise"
+    },
+    {
+      "op": "move",
+      "from": "/adapt_noise",
+      "path": "/delegate/adapt_noise"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/max_distance_from_center"
+    },
+    {
+      "op": "move",
+      "from": "/max_distance_from_center",
+      "path": "/delegate/max_distance_from_center"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/start_height"
+    },
+    {
+      "op": "move",
+      "from": "/start_height",
+      "path": "/delegate/start_height"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/spawn_overrides"
+    },
+    {
+      "op": "move",
+      "from": "/spawn_overrides",
+      "path": "/delegate/spawn_overrides"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/project_start_to_heightmap"
+    },
+    {
+      "op": "move",
+      "from": "/project_start_to_heightmap",
+      "path": "/delegate/project_start_to_heightmap"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrain_adaptation"
+    },
+    {
+      "op": "move",
+      "from": "/terrain_adaptation",
+      "path": "/delegate/terrain_adaptation"
+    }
+  ],
+  //<-----------------------------------------------Integrated API - Generic Structure----------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/enhanced_terrain_adaptation"
+    },
+    {
+      "op": "move",
+      "from": "/enhanced_terrain_adaptation",
+      "path": "/delegate/enhanced_terrain_adaptation"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/valid_biome_radius_check"
+    },
+    {
+      "op": "move",
+      "from": "/valid_biome_radius_check",
+      "path": "/delegate/valid_biome_radius_check"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/allowed_y_range_from_start"
+    },
+    {
+      "op": "move",
+      "from": "/allowed_y_range_from_start",
+      "path": "/delegate/allowed_y_range_from_start"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terrain_height_radius_check"
+    },
+    {
+      "op": "move",
+      "from": "/terrain_height_radius_check",
+      "path": "/delegate/terrain_height_radius_check"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/allowed_terrain_height_range"
+    },
+    {
+      "op": "move",
+      "from": "/allowed_terrain_height_range",
+      "path": "/delegate/allowed_terrain_height_range"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cannot_spawn_in_liquid"
+    },
+    {
+      "op": "move",
+      "from": "/cannot_spawn_in_liquid",
+      "path": "/delegate/cannot_spawn_in_liquid"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/use_expansion_hack"
+    },
+    {
+      "op": "move",
+      "from": "/use_expansion_hack",
+      "path": "/delegate/use_expansion_hack"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/use_bounding_box_hack"
+    },
+    {
+      "op": "move",
+      "from": "/use_bounding_box_hack",
+      "path": "/delegate/use_bounding_box_hack"
+    }
+  ],
+  //<-----------------------------------------------Integrated API - Nether Structure----------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/land_search_direction"
+    },
+    {
+      "op": "move",
+      "from": "/land_search_direction",
+      "path": "/delegate/land_search_direction"
+    }
+  ],
+  //<---------------------------------------------Integrated API - Biome-Facing Structure--------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/target_biomes"
+    },
+    {
+      "op": "move",
+      "from": "/target_biomes",
+      "path": "/delegate/target_biomes"
+    }
+  ],
+  //<------------------------------------------Integrated API - Optional Dependency Structure------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/required_mods"
+    },
+    {
+      "op": "move",
+      "from": "/required_mods",
+      "path": "/delegate/required_mods"
+    }
+  ],
+  //<--------------------------------------------Integrated API - Mod Adaptive Structure-------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/change_pool_mods"
+    },
+    {
+      "op": "move",
+      "from": "/change_pool_mods",
+      "path": "/delegate/change_pool_mods"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/new_pool"
+    },
+    {
+      "op": "move",
+      "from": "/new_pool",
+      "path": "/delegate/new_pool"
+    }
+  ],
+  //<-------------------------------------------------------It Takes A Pillage------------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/terrain_search_radius"
+    },
+    {
+      "op": "move",
+      "from": "/terrain_search_radius",
+      "path": "/delegate/terrain_search_radius"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/max_terrain_range"
+    },
+    {
+      "op": "move",
+      "from": "/max_terrain_range",
+      "path": "/delegate/max_terrain_range"
+    }
+  ],
+  //<--------------------------------------------------------Biome Makeover-------------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/large_probability"
+    },
+    {
+      "op": "move",
+      "from": "/large_probability",
+      "path": "/delegate/large_probability"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cluster_probability"
+    },
+    {
+      "op": "move",
+      "from": "/cluster_probability",
+      "path": "/delegate/cluster_probability"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/details"
+    },
+    {
+      "op": "move",
+      "from": "/details",
+      "path": "/delegate/details"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/templates"
+    },
+    {
+      "op": "move",
+      "from": "/templates",
+      "path": "/delegate/templates"
+    }
+  ]
+]

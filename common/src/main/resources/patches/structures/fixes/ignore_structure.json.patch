@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/ignore",
+    "value": true
+  }
+]

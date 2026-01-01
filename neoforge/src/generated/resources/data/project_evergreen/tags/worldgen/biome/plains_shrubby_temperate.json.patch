@@ -1,0 +1,28 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "terralith:steppe",
+      "terralith:shrubland",
+      "terralith:rocky_shrubland",
+      "regions_unexplored:shrubland",
+      "natures_spirit:shrubland",
+      "regions_unexplored:highland_fields",
+      "regions_unexplored:chalk_cliffs",
+      "dreamwoods:grassy_shore",
+      "dreamwoods:highlands",
+      "dreamwoods:moor",
+      "dreamwoods:boskage",
+      "wythers:highlands",
+      "wythers:huangshan_highlands"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

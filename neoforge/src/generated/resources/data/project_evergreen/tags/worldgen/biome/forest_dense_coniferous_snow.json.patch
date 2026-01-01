@@ -1,0 +1,38 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:snowy_taiga",
+      "terralith:siberian_grove",
+      "terralith:snowy_shield",
+      "terralith:siberian_taiga",
+      "terralith:snowy_maple_forest",
+      "terralith:wintry_forest",
+      "terralith:wintry_lowlands",
+      "natures_spirit:snowy_fir_forest",
+      "regions_unexplored:cold_boreal_taiga",
+      "regions_unexplored:cold_deciduous_forest",
+      "regions_unexplored:spires",
+      "atmospheric:kousa_jungle",
+      "environmental:snowy_old_growth_pine_barrens",
+      "environmental:snowy_pine_barrens",
+      "environmental:old_growth_pine_barrens",
+      "environmental:pine_barrens",
+      "environmental:pine_slopes",
+      "dreamwoods:autumnal_hills",
+      "dreamwoods:snowy_pinelands",
+      "windswept:snowy_chestnut_forest",
+      "windswept:snowy_pine_barrens",
+      "wythers:deep_snowy_taiga",
+      "wythers:snowy_thermal_taiga"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

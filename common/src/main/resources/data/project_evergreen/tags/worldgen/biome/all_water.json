@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#project_evergreen:has_structures/all_rivers",
+    "#project_evergreen:has_structures/all_ocean_deep",
+    "#project_evergreen:has_structures/all_ocean_shallow"
+  ]
+}

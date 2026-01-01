@@ -1,0 +1,372 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "towns_and_towers:village_jungle",
+        "towns_and_towers:village_sparse_jungle"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Villages---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_villages"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "idas:treetop_tavern",
+        "idas:ancient_statue/ancient_statue_jungle",
+        "idas:lumber_camp/lumber_camp_jungle"
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "ati_structures:deepslate_keep"
+      ]
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dawncraft---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Better Archaeology------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterarcheology"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Feur Extension: Jungle------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_jungle"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "feur_extension_jungle:fountain",
+        "feur_extension_jungle:old_house",
+        "feur_extension_jungle:tree_ancestral",
+        "feur_extension_jungle:tree_ancestral_house"
+      ]
+    }
+  ],
+  //<------------------------------------------------More Critters------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "more_critters"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "more_critters:collector_wagon_jungle"
+      ]
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "mvs:other_decoration/villager_statue",
+        "mvs:well/wells/jungle_well",
+        "mvs:carts/medium_bamboo_cart",
+        "mvs:lantern/small_bamboo_lantern",
+        "mvs:lantern/small_jungle_lantern",
+        "mvs:log_pile/jungle_log_pile"
+      ]
+    }
+  ],
+  //<----------------------------------------------Towers of the Wild---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "totw_modded"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "totw_modded:jungle"
+      ]
+    }
+  ],
+  //<----------------------------------------------------Tax's Giant Trees---------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "taxtg"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "taxtg:giant_jungle_tree"
+      ]
+    }
+  ],
+  //<----------------------------------------------------Lios Spiral Tower Villages---------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "spiral_tower_village"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "lios_outlandish_villages:spiral_tower_village"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Hopo's Mineshafts--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hopo"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "hopo:mineshaft/bamboo_mineshaft",
+        "hopo:mineshaft/jungle_mineshaft"
+      ]
+    }
+  ],
+  //<-----------------------------------------------Yung's Better Mineshafts----------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "bettermineshafts"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "bettermineshafts:mineshaft_jungle",
+        "bettermineshafts:mineshaft_lush"
+      ]
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "repurposed_structures:ruins_land_warm",
+        "repurposed_structures:village_jungle"
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_tropical_17"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "additionalstructures:standing_jungle_log",
+        "additionalstructures:jungle_log",
+        "additionalstructures:villager_statue_1",
+        "additionalstructures:villager_statue_2",
+        "additionalstructures:villager_statue_3",
+        "additionalstructures:villager_statue_4",
+        "additionalstructures:villager_statue_5"
+      ]
+    }
+  ]
+]

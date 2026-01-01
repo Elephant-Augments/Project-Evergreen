@@ -1,0 +1,68 @@
+[
+  //<----------------------------------------------Aquamirae---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_floating_deco_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "aquamirae"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "aquamirae:ice_maze/common",
+          "weight": 5
+        },
+        {
+          "structure": "aquamirae:ice_maze/arch",
+          "weight": 1
+        },
+        {
+          "structure": "aquamirae:ice_maze/spiral",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_floating_deco_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "additionalstructures:ice_floes_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:ice_floes_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:ice_floes_3",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:ice_floes_4",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+]

@@ -1,0 +1,944 @@
+[
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "idas:cottage",
+          "weight": 2
+        },
+        {
+          "structure": "idas:enchantingtower",
+          "weight": 1
+        },
+        {
+          "structure": "idas:lumber_camp/lumber_camp_oak",
+          "weight": 1
+        },
+        {
+          "structure": "idas:lumber_camp/lumber_camp_spruce",
+          "weight": 1
+        },
+        {
+          "structure": "idas:lumber_camp/lumber_camp_birch",
+          "weight": 1
+        },
+        {
+          "structure": "idas:lumber_camp/lumber_camp_jungle",
+          "weight": 1
+        },
+        {
+          "structure": "idas:lumber_camp/lumber_camp_acacia",
+          "weight": 1
+        },
+        {
+          "structure": "idas:lumber_camp/lumber_camp_dark_oak",
+          "weight": 1
+        },
+        {
+          "structure": "idas:desert_camp/desert_camp",
+          "weight": 2
+        },
+        {
+          "structure": "idas:desert_camp/desert_camp_red",
+          "weight": 1
+        },
+        {
+          "structure": "idas:desert_camp/desert_camp_orange",
+          "weight": 1
+        },
+        {
+          "structure": "idas:washing_camp",
+          "weight": 2
+        },
+        {
+          "structure": "idas:desert_market/desert_market",
+          "weight": 1
+        },
+        {
+          "structure": "idas:desert_market/desert_market_red",
+          "weight": 1
+        },
+        {
+          "structure": "idas:desert_market/desert_market_orange",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Minecraft Core---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_minecraft"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "integrated_minecraft:farm",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "ati_structures:old_home",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "towns_and_towers:exclusives/village_wandering_trader_camp",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:mimic_desert",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Better Archaeology------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterarcheology"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "betterarcheology:mott",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:stonehenge_grassy",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:tumulus_grassy",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:archeologist_camp_grassy",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:archeologist_camp_redsand",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:archeologist_camp_sand",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------Feur Extension: Jungle------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_jungle"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "feur_extension_jungle:fountain",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_jungle:old_house",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_jungle:tree_ancestral",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_jungle:tree_ancestral_house",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Human Companions---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "humancompanions"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "humancompanions:oak_house",
+          "weight": 1
+        },
+        {
+          "structure": "humancompanions:oak_birch_house",
+          "weight": 1
+        },
+        {
+          "structure": "humancompanions:birch_house",
+          "weight": 1
+        },
+        {
+          "structure": "humancompanions:sandstone_house",
+          "weight": 1
+        },
+        {
+          "structure": "humancompanions:acacia_house",
+          "weight": 1
+        },
+        {
+          "structure": "humancompanions:spruce_house",
+          "weight": 1
+        },
+        {
+          "structure": "humancompanions:darkoak_house",
+          "weight": 1
+        },
+        {
+          "structure": "humancompanions:terracotta_house",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Companions---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "companions"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dawncraft---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "custom:npc_spawn",
+          "weight": 1
+        },
+        {
+          "structure": "custom:npc_spawn_desert",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<-------------------------------------------Let's Do: Bakery------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "bakery"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "bakery:bakery",
+          "weight": 2
+        },
+        {
+          "structure": "bakery:oat_field",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  //<-------------------------------------------Create: Structures Arise------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "create_structures_arise"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "create_structures_arise:createairdrop",
+          "weight": 1
+        },
+        {
+          "structure": "create_structures_arise:createcontainer",
+          "weight": 1
+        },
+        {
+          "structure": "create_structures_arise:createfluidtank",
+          "weight": 1
+        },
+        {
+          "structure": "create_structures_arise:createlittleman",
+          "weight": 1
+        },
+        {
+          "structure": "create_structures_arise:createlosttrainstation",
+          "weight": 1
+        },
+        {
+          "structure": "create_structures_arise:createpickaxestatue",
+          "weight": 1
+        },
+        {
+          "structure": "create_structures_arise:create_copper_statue",
+          "weight": 1
+        },
+        {
+          "structure": "create_structures_arise:minetrain",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------More Critters------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "more_critters"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "more_critters:collector_wagon_badlands",
+          "weight": 1
+        },
+        {
+          "structure": "more_critters:collector_wagon_desert",
+          "weight": 1
+        },
+        {
+          "structure": "more_critters:collector_wagon_jungle",
+          "weight": 1
+        },
+        {
+          "structure": "more_critters:collector_wagon_plains",
+          "weight": 1
+        },
+        {
+          "structure": "more_critters:collector_wagon_savanna",
+          "weight": 1
+        },
+        {
+          "structure": "more_critters:collector_wagon_tundra",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------------Explorify------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "explorify"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "explorify:watchtower/plains",
+          "weight": 1
+        },
+        {
+          "structure": "explorify:watchtower/taiga",
+          "weight": 1
+        },
+        {
+          "structure": "explorify:watchtower/savanna",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------------Verdant Vibes------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "verdantvibes"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "verdantvibes:spruce_overgrown_hut",
+          "weight": 1
+        },
+        {
+          "structure": "verdantvibes:oak_overgrown_hut",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<-------------------------------------------------Katters Structures------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "kattersstructures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "kattersstructures:villager_desert",
+          "weight": 1
+        },
+        {
+          "structure": "kattersstructures:villager_mountain",
+          "weight": 1
+        },
+        {
+          "structure": "kattersstructures:windmill",
+          "weight": 2
+        },
+        {
+          "structure": "kattersstructures:trader_outposts",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "mvs:carts/cart",
+          "weight": 2
+        },
+        {
+          "structure": "mvs:cartographer_tower",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:houses/tall_house",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:horse_pen",
+          "weight": 2
+        },
+        {
+          "structure": "mvs:houses/house",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:houses/deepslate_house",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:houses/desert_house",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:houses/azelea_house",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:houses/small_igloo",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:houses/medium_igloo_1",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:houses/medium_igloo_2",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:houses/barn",
+          "weight": 2
+        },
+        {
+          "structure": "mvs:other_decoration/villager_statue",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:other_decoration/mine_with_campsite",
+          "weight": 2
+        },
+        {
+          "structure": "mvs:other_decoration/snowy_dog_hut",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:other_decoration/wheat_grain_bin",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:other_decoration/windmill",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:other_decoration/wooden_wheat_farm",
+          "weight": 2
+        },
+        {
+          "structure": "mvs:ruins/tree_monument",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:other_decoration/lecturn_garden",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:railway",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:stone_fountain",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:other_decoration/bee_dome",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:well/small_well",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:well/small_copper_well",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:well/wells/acacia_well",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:well/wells/dark_oak_well",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:well/wells/birch_well",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:well/wells/jungle_well",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:well/wells/oak_well",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:well/wells/rocky_well",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:well/wells/snowy_well",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:well/wells/spruce_well",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:well/small_tower_well",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:other_decoration/desert_pump",
+          "weight": 2
+        },
+        {
+          "structure": "mvs:well/wells/desert_well",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_17"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "wabi_sabi_structures:ice_shanty",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:water_tower_spruce",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:water_tower_oak",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:water_tower_savanna",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:water_tower_forest",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:water_tower_dark_oak",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:wandering_trader_cart_temperate",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:wandering_trader_cart_cold",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:totem_pole",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:tall_birch_house",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:spruce_cabin",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:spruce_berry_farm",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:spider_cellar",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:potato_patch",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:old_tiny_house",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:old_stable",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:hide_tannery_oak",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:concrete_mill_ruins_desert",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:carrot_patch",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:beetroot_patch",
+          "weight": 2
+        },
+        {
+          "structure": "wabi_sabi_structures:candlemaker_house",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:bee_farm_forest",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_18"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "repurposed_structures:igloo_grassy",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:igloo_stone",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:igloo_mushroom",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small_19"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "additionalstructures:farm_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:farm_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:villager_house_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:villager_house_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:villager_house_3",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:villager_house_4",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:villager_statue_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:villager_statue_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:villager_statue_3",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:villager_statue_4",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:villager_statue_5",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:well_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:well_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:log_bundle",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:tower_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:tower_2",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+]

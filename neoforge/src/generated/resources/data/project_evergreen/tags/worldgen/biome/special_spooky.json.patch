@@ -1,0 +1,29 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:pale_garden",
+      "nyctophobia:ancient_dead_coral_reef",
+      "nyctophobia:deep_dark_forest",
+      "nyctophobia:eroded_haunted_forest",
+      "nyctophobia:haunted_forest",
+      "nyctophobia:haunted_lakes",
+      "sleepy_hollows:sleepy_hollows",
+      "dreamwoods:grim_woods",
+      "dreamwoods:twilight_wetlands",
+      "wythers:tangled_forest",
+      "wythers:forbidden_forest",
+      "wythers:phantasmal_forest",
+      "wythers:phantasmal_swamp",
+      "wythers:wistman_woods"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

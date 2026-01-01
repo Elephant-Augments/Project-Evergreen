@@ -1,0 +1,61 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "terralith:temperate_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:forested_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:valley_clearing",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:orchard",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:temperate_grove",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:sparse_redwoods",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:prairie",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:cypress_fields",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:oak_savanna",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:floral_ridges",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:spinney",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:poplar_grove",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:poplar_slopes",
+            "required": false
+        },
+        {
+            "id": "windswept:lavender_hills",
+            "required": false
+        }
+    ]
+}

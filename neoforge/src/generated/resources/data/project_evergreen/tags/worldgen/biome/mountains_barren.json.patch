@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:jagged_peaks",
+      "minecraft:stony_peaks",
+      "terralith:scarlet_mountains",
+      "terralith:painted_mountains",
+      "terralith:volcanic_peaks",
+      "terralith:volcanic_crater",
+      "terralith:caldera",
+      "terralith:emerald_peaks",
+      "terralith:rocky_mountains",
+      "natures_spirit:red_peaks",
+      "natures_spirit:sleeted_slopes",
+      "wythers:tibesti_mountains"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

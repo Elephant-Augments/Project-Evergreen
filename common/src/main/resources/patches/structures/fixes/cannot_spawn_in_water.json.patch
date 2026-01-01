@@ -1,0 +1,30 @@
+[
+  {
+    "op": "test",
+    "path": "/step",
+    "value": "underground_structures",
+    "inverse": true
+  },
+  {
+    "op": "test",
+    "path": "/step",
+    "value": "underground_decoration",
+    "inverse": true
+  },
+  {
+    "op": "test",
+    "path": "/step",
+    "value": "strongholds",
+    "inverse": true
+  },
+  {
+    "op": "test",
+    "path": "/cannot_spawn_in_liquid",
+    "inverse": true
+  },
+  {
+    "op": "add",
+    "path": "/cannot_spawn_in_liquid",
+    "value": true
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "__comment": "ocean_all_medium",
+  "placement": {
+    "salt": 0,
+    "spacing": 24,
+    "separation": 12,
+    "type": "minecraft:random_spread"
+  },
+  "structures": []
+}

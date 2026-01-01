@@ -1,0 +1,932 @@
+[
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:acacia_log"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:acacia_log",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:birch_log"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:birch_log",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:bush_1"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:bush_1",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:bush_2"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:bush_2",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:bush_3"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:bush_3",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:bush_4"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:bush_4",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:desert_pillars_1"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:desert_pillars_1",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:desert_pillars_2"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:desert_pillars_2",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:jungle_log"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:jungle_log",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:oak_log_1"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:oak_log_1",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:oak_log_2"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:oak_log_2",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:sandstone_rock_1"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:sandstone_rock_1",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:sandstone_rock_2"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:sandstone_rock_2",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:sandstone_rock_3"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:sandstone_rock_3",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:snow_pile_1"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:snow_pile_1",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:snow_pile_2"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:snow_pile_2",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:snow_pile_3"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:snow_pile_3",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:snowman_1"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:snowman_1",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:snowman_2"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:snowman_2",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:spruce_log_1"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:spruce_log_1",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:spruce_log_2"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:spruce_log_2",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:standing_acacia_log"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:standing_acacia_log",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:standing_jungle_log"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:standing_jungle_log",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:standing_oak_log"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:standing_oak_log",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:standing_spruce_log"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:standing_spruce_log",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:stone_rock_1"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:stone_rock_1",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:stone_rock_2"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:stone_rock_2",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:stone_rock_3"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:stone_rock_3",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "additionalstructures:stone_rock_4"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "additionalstructures:stone_rock_4",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:carts/large_cart_1"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:carts/large_cart_1",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:carts/large_cart_2"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:carts/large_cart_2",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:lantern/medium_oak_lantern"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:lantern/medium_oak_lantern",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:lantern/small_acacia_lantern"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:lantern/small_acacia_lantern",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:lantern/small_bamboo_lantern"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:lantern/small_bamboo_lantern",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:lantern/small_birch_lantern"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:lantern/small_birch_lantern",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:lantern/small_campfire_lantern"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:lantern/small_campfire_lantern",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:lantern/small_cherry_lantern"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:lantern/small_cherry_lantern",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:lantern/small_dark_oak_lantern"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:lantern/small_dark_oak_lantern",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:lantern/small_jungle_lantern"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:lantern/small_jungle_lantern",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:lantern/small_spruce_lantern"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:lantern/small_spruce_lantern",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:log_pile/acacia_log_pile"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:log_pile/acacia_log_pile",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:log_pile/birch_log_pile"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:log_pile/birch_log_pile",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:log_pile/jungle_log_pile"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:log_pile/jungle_log_pile",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:log_pile/oak_log_pile"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:log_pile/oak_log_pile",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:log_pile/spruce_log_pile"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:log_pile/spruce_log_pile",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:nature/cherry_tree"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:nature/cherry_tree",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:nature/paths"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:nature/paths",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:nature/small_oak_pond"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:nature/small_oak_pond",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:other_decoration/bench"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:other_decoration/bench",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:other_decoration/fire_camp"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:other_decoration/fire_camp",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:other_decoration/haystack"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:other_decoration/haystack",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:other_decoration/lamp_chest"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:other_decoration/lamp_chest",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:other_decoration/pile"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:other_decoration/pile",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:out_house"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:out_house",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:shed"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:shed",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:stall/blue_stall"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:stall/blue_stall",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:stall/orange_stall"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:stall/orange_stall",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:stall/pink_stall"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:stall/pink_stall",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "mvs:stall/red_stall"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "mvs:stall/red_stall",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "wabi_sabi_structures:pumpkin_field"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "wabi_sabi_structures:pumpkin_field",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "wabi_sabi_structures:pumpkin_patch"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "wabi_sabi_structures:pumpkin_patch",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "wabi_sabi_structures:wheat_patch"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "wabi_sabi_structures:wheat_patch",
+				"weight": 1
+			}
+		}
+	]
+]

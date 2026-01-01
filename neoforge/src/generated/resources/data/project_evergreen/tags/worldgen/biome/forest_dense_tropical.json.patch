@@ -1,0 +1,39 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:jungle",
+      "terralith:tropical_jungle",
+      "terralith:amethyst_rainforest",
+      "regions_unexplored:rainforest",
+      "regions_unexplored:tropics",
+      "natures_spirit:tropical_woods",
+      "regions_unexplored:eucalyptus_forest",
+      "dreamwoods:flooded_rainforest",
+      "dreamwoods:roofed_tropical_forest",
+      "wythers:bamboo_jungle_canyon",
+      "wythers:bamboo_jungle_highlands",
+      "wythers:eucalyptus_jungle",
+      "wythers:eucalyptus_jungle_canyon",
+      "wythers:eucalyptus_deanei_forest",
+      "wythers:eucalyptus_salubris_woodland",
+      "wythers:eucalyptus_woodland",
+      "wythers:flooded_jungle",
+      "wythers:flooded_rainforest",
+      "wythers:subtropical_forest",
+      "wythers:highland_tropical_rainforest",
+      "wythers:tropical_forest",
+      "wythers:tropical_forest_canyon",
+      "wythers:tropical_rainforest",
+      "wythers:windswept_jungle"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

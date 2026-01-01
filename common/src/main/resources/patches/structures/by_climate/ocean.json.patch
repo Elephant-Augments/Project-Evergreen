@@ -1,0 +1,379 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "towns_and_towers:wreckage_ocean"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "idas:sunken_ship/sunken_ship",
+        "idas:sunken_ship/sunken_ship_ruins"
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_arise:typhon"
+      ]
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise: Seven Seas---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise_seven_seas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------------BrassAmber BattleTowers------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ba_bt"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Better Archaeology------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterarcheology"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "betterarcheology:underwater_0",
+        "betterarcheology:underwater_1",
+        "betterarcheology:underwater_2",
+        "betterarcheology:underwater_3"
+      ]
+    }
+  ],
+  //<------------------------------------------Feur Extension: Fossil------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_fossil"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "feur_extension_fossil:fossil_bone_fish",
+        "feur_extension_fossil:fossil_guardian",
+        "feur_extension_fossil:fossil_fish",
+        "feur_extension_fossil:fossil_baby_fish"
+      ]
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Biome Makeover---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "biomemakeover"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<---------------------------------------------------Yung's Ocean Monuments--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betteroceanmonuments"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Towers of the Wild---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "totw_modded"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "totw_modded:ocean"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Threateningly Mobs------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "threateningly_mobs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------------Terramity------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "terramity"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<-------------------------------------------------Katters Structures------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "kattersstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "kattersstructures:red_coral",
+        "kattersstructures:deep_blue_labs",
+        "kattersstructures:deep_blue_lab_ruin",
+        "kattersstructures:deep_blue_city"
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "wabi_sabi_structures:sunken_steamboat",
+        "wabi_sabi_structures:marine_observation_hub"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Repurposed Structures--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_17"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "repurposed_structures:mineshaft_ocean"
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_18"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "additionalstructures:flotsam_1",
+        "additionalstructures:flotsam_2",
+        "additionalstructures:flotsam_3",
+        "additionalstructures:flotsam_4",
+        "additionalstructures:flotsam_5"
+      ]
+    }
+  ]
+]

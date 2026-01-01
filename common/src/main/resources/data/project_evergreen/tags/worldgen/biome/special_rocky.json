@@ -1,0 +1,19 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:stony_shore",
+        "minecraft:windswept_gravelly_hills",
+        {
+            "id": "terralith:windswept_spires",
+            "required": false
+        },
+        {
+            "id": "terralith:stony_spires",
+            "required": false
+        },
+        {
+            "id": "terralith:gravel_desert",
+            "required": false
+        }
+    ]
+}

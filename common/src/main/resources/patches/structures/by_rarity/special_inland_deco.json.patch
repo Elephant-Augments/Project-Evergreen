@@ -1,0 +1,143 @@
+[
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_deco_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "mvs:nature/mushroom_pond",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:lantern/small_cherry_lantern",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:nature/cherry_tree",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:lantern/small_mangrove_lantern",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:dead_tree/cherry",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:dead_tree/mangrove",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:nature/cherry_tree",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:other_decoration/pile",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:other_decoration/haystack",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_deco_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "wabi_sabi_structures:wheat_patch",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:pumpkin_patch",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:pumpkin_field",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:moss_blob",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_deco_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "additionalstructures:scarecrow",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:wall_ruin_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:wall_ruin_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:damaged_mushroom_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:damaged_mushroom_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:bone_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:bone_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:skeleton_skull",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+]

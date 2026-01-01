@@ -1,0 +1,727 @@
+[
+  //<-------------------------------------------------Inland Structure Spreads------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_deco"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 6
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 1
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 58065452
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_small"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 24
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 12
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 7201003
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 32
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 26
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 12928598
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_inland_massive"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 65
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 55
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 10387309
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_deco"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 6
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 2
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 99712746
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 24
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 12
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 25054185
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 48
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 24
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 13818713
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_massive"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 50
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 45
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 23156429
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_deco"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 5
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 2
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 40680100
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_small"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 32
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 18
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 78573226
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 32
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 10
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 66279569
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "special_inland_massive"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 60
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 52
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 21368838
+      }
+    ]
+  ],
+  //<-------------------------------------------------Coastal Structure Spreads------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 37
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 33
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 53414413
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_small"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 31
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 27
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 50392742
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_coastal_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 41
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 35
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 16036585
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_coastal_small"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 27
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 23
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 48313305
+      }
+    ]
+  ],
+  //<---------------------------------------------------Ocean Structure Spreads--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_floating_deco"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 4
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 1
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 41405299
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_floating_small"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 52
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 34
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 6377951
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_floating_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 52
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 42
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 63168949
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_floating_massive"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 75
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 56
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 9263403
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_underwater_deco"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 4
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 2
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 68183841
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_underwater_small"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 32
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 12
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 90595931
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_underwater_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 40
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 32
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 63844135
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_underwater_massive"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 80
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 76
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 50081911
+      }
+    ]
+  ],
+  //<------------------------------------------------Underground Structure Spreads------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_small"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 12
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 4
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 91119944
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 24
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 12
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 59546327
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_massive"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 32
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 24
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 67316659
+      }
+    ]
+  ],
+  //<---------------------------------------------------Sky Structure Spreads--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "sky_small"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 40
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 26
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 46785181
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "sky_large"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 60
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 44
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 10757863
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "sky_massive"
+    },
+    {
+      "op": "add",
+      "path": "/placement/spacing",
+      "value": 90
+    },
+    {
+      "op": "add",
+      "path": "/placement/separation",
+      "value": 86
+    },
+    [
+      {
+        "op": "add",
+        "path": "/placement/salt",
+        "value": 11308308
+      }
+    ]
+  ]
+]

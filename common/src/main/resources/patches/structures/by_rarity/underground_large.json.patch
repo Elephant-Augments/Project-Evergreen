@@ -1,0 +1,369 @@
+[
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_large_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "idas:ancient_portal/ancient_portal",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_large_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "ati_structures:underground_monument",
+          "weight": 1
+        },
+        {
+          "structure": "ati_structures:spider_nest",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_large_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Mowzie's Mobs---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_large_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mowziesmobs"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "mowziesmobs:wrought_chamber",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------------Darker Depths------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_large_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "darkerdepths"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "darkerdepths:catacombs",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<-------------------------------------------Create: Structures Arise------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_large_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "create_structures_arise"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "create_structures_arise:create_dungeon_base",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------Terramity------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_large_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "terramity"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "terramity:infested_laboratory",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<-------------------------------------------------Katters Structures------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_large_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "kattersstructures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "kattersstructures:village_underground",
+          "weight": 1
+        },
+        {
+          "structure": "kattersstructures:better_vanilla_dungeon",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<-------------------------------------------------Trials Chambers------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_large_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "trials"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "trials:trials_chambers",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<-----------------------------------------------Yung's Better Mineshafts----------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_large_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "bettermineshafts"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "bettermineshafts:mineshaft_acacia",
+          "weight": 1
+        },
+        {
+          "structure": "bettermineshafts:mineshaft_desert",
+          "weight": 1
+        },
+        {
+          "structure": "bettermineshafts:mineshaft_ice",
+          "weight": 1
+        },
+        {
+          "structure": "bettermineshafts:mineshaft_jungle",
+          "weight": 1
+        },
+        {
+          "structure": "bettermineshafts:mineshaft_lush",
+          "weight": 1
+        },
+        {
+          "structure": "bettermineshafts:mineshaft_mesa",
+          "weight": 1
+        },
+        {
+          "structure": "bettermineshafts:mineshaft_mushroom",
+          "weight": 1
+        },
+        {
+          "structure": "bettermineshafts:mineshaft_oak",
+          "weight": 1
+        },
+        {
+          "structure": "bettermineshafts:mineshaft_red_desert",
+          "weight": 1
+        },
+        {
+          "structure": "bettermineshafts:mineshaft_spruce",
+          "weight": 1
+        },
+        {
+          "structure": "bettermineshafts:mineshaft_spruce_snowy",
+          "weight": 1
+        },
+        {
+          "structure": "bettermineshafts:mineshaft_overgrown",
+          "weight": 1
+        },
+        {
+          "structure": "bettermineshafts:mineshaft_dripstone",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_large_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "repurposed_structures:mineshaft_birch",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:mineshaft_dark_forest",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:mineshaft_desert",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:mineshaft_icy",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:mineshaft_jungle",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:mineshaft_savanna",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:mineshaft_stone",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:mineshaft_swamp",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:mineshaft_taiga",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_large_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "additionalstructures:underground_dungeon_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:underground_dungeon_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:sewage_system_1",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+]

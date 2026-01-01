@@ -1,0 +1,276 @@
+[
+  //Includes floating structures for both the sky and the ocean.
+  
+  
+  //<----------------------------------------------Integrated Villages---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "floating_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_villages"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "integrated_villages:airship_village",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "floating_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "additionalstructures:boat_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:boat_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:flotsam_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:flotsam_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:flotsam_3",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:flotsam_4",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:flotsam_5",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:ice_floes_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:ice_floes_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:ice_floes_3",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:ice_floes_4",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "floating_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "floating_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "dungeons_arise:illager_corsair",
+          "weight": 1
+        },
+        {
+          "structure": "dungeons_arise:illager_galley",
+          "weight": 1
+        },
+        {
+          "structure": "dungeons_arise:undead_pirate_ship",
+          "weight": 1
+        },
+        {
+          "structure": "dungeons_arise:heavenly_rider",
+          "weight": 1
+        },
+        {
+          "structure": "dungeons_arise:heavenly_conqueror",
+          "weight": 1
+        },
+        {
+          "structure": "dungeons_arise:heavenly_challenger",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise: Seven Seas---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "floating_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise_seven_seas"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "dungeons_arise_seven_seas:unicorn_galleon",
+          "weight": 1
+        },
+        {
+          "structure": "dungeons_arise_seven_seas:pirate_junk",
+          "weight": 1
+        },
+        {
+          "structure": "dungeons_arise_seven_seas:small_yacht",
+          "weight": 1
+        },
+        {
+          "structure": "dungeons_arise_seven_seas:victory_frigate",
+          "weight": 1
+        },
+        {
+          "structure": "dungeons_arise_seven_seas:corsair_corvette",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Dawncraft---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "floating_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "custom:floating_island",
+          "weight": 1
+        },
+        {
+          "structure": "custom:rootless",
+          "weight": 1
+        },
+        {
+          "structure": "custom:skull_island",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "floating_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "mvs:small_ship",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:houses/large_floating_island",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:nature/floating_islands",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "floating_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "structory:boat",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+]

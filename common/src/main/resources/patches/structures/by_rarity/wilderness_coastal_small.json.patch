@@ -1,0 +1,116 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_coastal_small_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "towns_and_towers:pillager_outpost_beach",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_snowy_beach",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_coastal_small_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "idas:abandoned_lighthouse",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_coastal_small_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": []
+    }
+  ],
+  //<--------------------------------------------Let's Do: Beach Party-------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_coastal_small_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "beachparty"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "beachparty:ritual_circle",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_coastal_small_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "wabi_sabi_structures:concrete_mill_ruins_shore",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+]

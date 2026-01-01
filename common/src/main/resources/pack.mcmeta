@@ -2,5 +2,8 @@
     "pack": {
         "description": "${mod_name}",
         "pack_format": 8
+    },
+    "patched": {
+        "format_version": 1
     }
 }

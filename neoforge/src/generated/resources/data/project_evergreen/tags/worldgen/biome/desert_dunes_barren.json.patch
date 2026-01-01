@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:desert",
+      "terralith:desert_spires",
+      "terralith:white_mesa",
+      "natures_spirit:scorched_dunes",
+      "natures_spirit:drylands",
+      "wythers:deep_desert",
+      "wythers:desert_pinnacles",
+      "wythers:sand_dunes"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

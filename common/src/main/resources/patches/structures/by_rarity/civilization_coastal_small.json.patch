@@ -1,0 +1,231 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_small_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "towns_and_towers:village_beach",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_small_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "idas:fishermans_lodge",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Minecraft Core---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_small_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_minecraft"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "integrated_minecraft:beach_house",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_small_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_small_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "dungeons_arise:fishing_hut",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<--------------------------------------------T.O Magic 'n Extras-------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_small_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "traveloptics"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "traveloptics:aqua_mage_tower",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<--------------------------------------------Let's Do: Beach Party-------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_small_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "beachparty"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "beachparty:excavated_treasure",
+          "weight": 1
+        },
+        {
+          "structure": "beachparty:beach_hut",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------------Verdant Vibes------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_small_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "verdantvibes"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "verdantvibes:palm_campfire",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<--------------------------------------------Moog's Voyager Structures-------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_small_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "mvs:well/well",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_coastal_small_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "wabi_sabi_structures:lighthouse",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+]

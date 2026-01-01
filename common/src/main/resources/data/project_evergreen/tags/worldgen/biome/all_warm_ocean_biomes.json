@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:warm_ocean",
+        "minecraft:lukewarm_ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "#project_evergreen:river_warm",
+        "#project_evergreen:all_desert",
+        "#project_evergreen:all_tropical",
+        "#project_evergreen:coastal_warm",
+        "#project_evergreen:special_swampy_warm",
+        "#project_evergreen:all_special_mediterranean",
+        {
+            "id": "natures_spirit:white_cliffs",
+            "required": false
+        }
+    ]
+}

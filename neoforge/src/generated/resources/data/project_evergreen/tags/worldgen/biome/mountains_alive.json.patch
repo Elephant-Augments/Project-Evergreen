@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:grove",
+      "terralith:jungle_mountains",
+      "regions_unexplored:arid_mountains",
+      "terralith:mountain_steppe",
+      "terralith:savanna_slopes",
+      "terralith:alpine_grove",
+      "regions_unexplored:pine_slopes",
+      "dreamwoods:poplar_slopes",
+      "wythers:maple_mountains"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

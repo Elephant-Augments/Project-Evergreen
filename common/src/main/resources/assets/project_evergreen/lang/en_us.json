@@ -1,0 +1,13 @@
+{
+  "itemGroup.project_evergreen": "Example Mod Tab",
+  "block.project_evergreen.example_block": "Example Block",
+  "item.project_evergreen.example_item": "Example Item",
+
+  "project_evergreen.configuration.title": "Project Evergreen Configs",
+  "project_evergreen.configuration.section.project_evergreen.common.toml": "Project Evergreen Configs",
+  "project_evergreen.configuration.section.project_evergreen.common.toml.title": "Project Evergreen Configs",
+  "project_evergreen.configuration.items": "Item List",
+  "project_evergreen.configuration.logDirtBlock": "Log Dirt Block",
+  "project_evergreen.configuration.magicNumberIntroduction": "Magic Number Text",
+  "project_evergreen.configuration.magicNumber": "Magic Number"
+}

@@ -1,0 +1,10 @@
+{
+  "__comment": "ocean_floating_massive",
+  "placement": {
+    "salt": 0,
+    "spacing": 40,
+    "separation": 32,
+    "type": "minecraft:random_spread"
+  },
+  "structures": []
+}

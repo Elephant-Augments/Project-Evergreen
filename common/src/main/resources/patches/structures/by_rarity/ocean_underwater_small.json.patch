@@ -1,0 +1,119 @@
+[
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_underwater_small_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Better Archaeology------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_underwater_small_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterarcheology"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "betterarcheology:underwater_0",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:underwater_1",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:underwater_2",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:underwater_3",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------Terramity------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_underwater_small_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "terramity"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": []
+    }
+  ],
+  //<------------------------------------------------------Threateningly Mobs------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_underwater_small_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "threateningly_mobs"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "threateningly_mobs:underwater_altar",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------Feur Extension: Fossil------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_underwater_small_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_fossil"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "feur_extension_fossil:fossil_baby_fish",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+]

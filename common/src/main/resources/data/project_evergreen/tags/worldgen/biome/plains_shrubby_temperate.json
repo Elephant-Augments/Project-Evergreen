@@ -1,0 +1,49 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "terralith:steppe",
+            "required": false
+        },
+        {
+            "id": "terralith:shrubland",
+            "required": false
+        },
+        {
+            "id": "terralith:rocky_shrubland",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:shrubland",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:shrubland",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:highland_fields",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:chalk_cliffs",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:grassy_shore",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:highlands",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:moor",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:boskage",
+            "required": false
+        }
+    ]
+}

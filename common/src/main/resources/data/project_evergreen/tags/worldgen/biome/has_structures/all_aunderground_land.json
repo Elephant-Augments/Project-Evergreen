@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#project_evergreen:has_structures/all_civilization",
+    "#project_evergreen:has_structures/all_wilderness",
+    "#project_evergreen:all_special",
+    "#project_evergreen:all_underground"
+  ]
+}

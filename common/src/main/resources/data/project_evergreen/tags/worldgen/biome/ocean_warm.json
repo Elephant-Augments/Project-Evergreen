@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#project_evergreen:ocean_shallow_warm",
+        "#project_evergreen:ocean_deep_warm"
+    ]
+}

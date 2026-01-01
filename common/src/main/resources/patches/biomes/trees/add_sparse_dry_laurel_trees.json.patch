@@ -1,0 +1,12 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "atmospheric"
+  },
+  {
+    "op": "replace",
+    "path": "/feature",
+    "value": "atmospheric:dry_laurel"
+  }
+]

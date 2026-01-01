@@ -1,0 +1,19 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "natures_spirit:shrubby_highlands",
+      "natures_spirit:woody_highlands",
+      "natures_spirit:xeric_plains",
+      "wythers:mediterranean_island_thermal_springs"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

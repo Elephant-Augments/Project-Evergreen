@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#project_evergreen:special_ruined",
+        "#project_evergreen:special_rocky"
+    ]
+}

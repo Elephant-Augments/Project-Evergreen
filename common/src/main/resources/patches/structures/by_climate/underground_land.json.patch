@@ -1,0 +1,506 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "alexscaves"
+  },
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "idas:nexus",
+        "idas:ancient_portal/ancient_portal",
+        "idas:underground_camp/underground_camp",
+        "idas:underground_camp/underground_camp_deep"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Stronghold---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_stronghold"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "integrated_stronghold:stronghold"
+      ]
+    }
+  ],
+  //<----------------------------------------------Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_arise:foundry",
+        "dungeons_arise:plague_asylum",
+        "dungeons_arise:mining_system"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Dungeon's Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_dungeons_arise",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "ati_structures:underground_monument",
+        "ati_structures:spider_nest",
+        "ati_structures:silverfish_nest",
+        "ati_structures:rotting_temple_underground"
+      ]
+    }
+  ],
+  //<----------------------------------------------Dungeons+---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_plus"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_plus:reanimated_ruins_mossy",
+        "dungeons_plus:reanimated_ruins_mesa",
+        "dungeons_plus:reanimated_ruins_frozen"
+      ]
+    }
+  ],
+  //<----------------------------------------------Iron's Spells n' Spellbooks---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "irons_spellbooks"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "irons_spellbooks:catacombs"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Cataclysm------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "cataclysm"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "cataclysm:ancient_factory"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Darker Depths------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "darkerdepths"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "darkerdepths:catacombs"
+      ]
+    }
+  ],
+  //<----------------------------------------------Mowzie's Mobs---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mowziesmobs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "mowziesmobs:wrought_chamber"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Goety------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "goety"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "goety:spider_den"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Hopo's Mineshafts--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hopo"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "hopo:mineshaft/acacia_mineshaft",
+        "hopo:mineshaft/bamboo_mineshaft",
+        "hopo:mineshaft/birch_mineshaft",
+        "hopo:mineshaft/cherry_mineshaft",
+        "hopo:mineshaft/dark_oak_mineshaft",
+        "hopo:mineshaft/jungle_mineshaft",
+        "hopo:mineshaft/oak_mineshaft",
+        "hopo:mineshaft/spruce_mineshaft",
+        "hopo:mineshaft/mangrove_mineshaft",
+        "hopo:mineshaft/mud_mineshaft",
+        "hopo:mineshaft/stone_mineshaft",
+        "hopo:mineshaft/deepslate_mineshaft"
+      ]
+    }
+  ],
+  //<-----------------------------------------------Yung's Better Mineshafts----------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "bettermineshafts"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "bettermineshafts:mineshaft_acacia",
+        "bettermineshafts:mineshaft_desert",
+        "bettermineshafts:mineshaft_ice",
+        "bettermineshafts:mineshaft_jungle",
+        "bettermineshafts:mineshaft_lush",
+        "bettermineshafts:mineshaft_mesa",
+        "bettermineshafts:mineshaft_mushroom",
+        "bettermineshafts:mineshaft_oak",
+        "bettermineshafts:mineshaft_red_desert",
+        "bettermineshafts:mineshaft_spruce",
+        "bettermineshafts:mineshaft_spruce_snowy",
+        "bettermineshafts:mineshaft_overgrown",
+        "bettermineshafts:mineshaft_dripstone"
+      ]
+    }
+  ],
+  //<-------------------------------------------------Trials Chambers------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "trials"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "trials:trials_chambers"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Dungeons Revival--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_revival"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_revival:redstone_mines"
+      ]
+    }
+  ],
+  //<-------------------------------------------Legendary Monsters------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "legendary_monsters"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "legendary_monsters:ancient_stronghold"
+      ]
+    }
+  ],
+  //<-------------------------------------------Create: Structures Arise------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "create_structures_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "create_structures_arise:create_dungeon_base"
+      ]
+    }
+  ],
+  //<------------------------------------------------Terramity------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_17"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "terramity"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "terramity:infested_laboratory",
+        "terramity:fairy_fountain",
+        "terramity:subterranean_shrine"
+      ]
+    }
+  ],
+  //<-------------------------------------------------Katters Structures------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_18"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "kattersstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "kattersstructures:village_underground",
+        "kattersstructures:better_vanilla_dungeon",
+        "kattersstructures:shroom_cave"
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_19"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "wabi_sabi_structures:monster_egg_banquet",
+        "wabi_sabi_structures:monster_egg",
+        "wabi_sabi_structures:bat_monolith",
+        "wabi_sabi_structures:forgotten_remnants"
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_20"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "additionalstructures:underground_dungeon_1",
+        "additionalstructures:underground_dungeon_2",
+        "additionalstructures:sewage_system_1",
+        "additionalstructures:underground_base_1",
+        "additionalstructures:underground_base_2",
+        "additionalstructures:underground_nether_portal",
+        "additionalstructures:underground_stollen_1"
+      ]
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_land_21"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "repurposed_structures:bastion_underground",
+        "repurposed_structures:mineshaft_birch",
+        "repurposed_structures:mineshaft_dark_forest",
+        "repurposed_structures:mineshaft_desert",
+        "repurposed_structures:mineshaft_icy",
+        "repurposed_structures:mineshaft_jungle",
+        "repurposed_structures:mineshaft_savanna",
+        "repurposed_structures:mineshaft_stone",
+        "repurposed_structures:mineshaft_swamp",
+        "repurposed_structures:mineshaft_taiga"
+      ]
+    }
+  ]
+]

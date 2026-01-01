@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#project_evergreen:coastal_alive",
+    "#project_evergreen:coastal_barren",
+    "#project_evergreen:coastal_frozen",
+    "#project_evergreen:coastal_temperate",
+    "#project_evergreen:coastal_warm"
+  ]
+}

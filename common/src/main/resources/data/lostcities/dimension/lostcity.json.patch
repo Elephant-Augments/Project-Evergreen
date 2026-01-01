@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/generator/settings",
+    "value": "lostcities:lostcity"
+  },
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "larion"
+    },
+    {
+      "op": "add",
+      "path": "/generator/settings",
+      "value": "lostcities:lostcity_larion"
+    }
+  ],
+  {
+    "op": "add",
+    "path": "/generator/biome_source/type",
+    "value": "minecraft:fixed"
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "path": "/generator/biome_source/biome",
+    "value": "lost_cities_biome"
+  },
+  {
+    "op": "remove",
+    "path": "/generator/biome_source/preset"
+  }
+]

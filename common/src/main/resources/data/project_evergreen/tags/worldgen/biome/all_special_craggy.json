@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#project_evergreen:special_craggy_cold",
+        "#project_evergreen:special_craggy_temperate",
+        "#project_evergreen:special_craggy_warm"
+    ]
+}

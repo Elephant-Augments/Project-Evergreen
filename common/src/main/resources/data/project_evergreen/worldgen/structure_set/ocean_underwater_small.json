@@ -1,0 +1,16 @@
+{
+  "__comment": "ocean_underwater_small",
+  "placement": {
+    "salt": 0,
+    "spacing": 24,
+    "separation": 12,
+    "type": "minecraft:random_spread",
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "minecraft:ruined_portal_ocean",
+      "weight": 1
+    }
+  ]
+}

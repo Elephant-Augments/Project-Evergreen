@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#project_evergreen:plains_grassy_temperate",
+    "#project_evergreen:special_flowery_fields",
+    "#project_evergreen:special_autumnal_fields"
+  ]
+}

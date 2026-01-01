@@ -1,0 +1,1457 @@
+[
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "idas:snifferhenge",
+          "weight": 1
+        },
+        {
+          "structure": "idas:frozen_crypt",
+          "weight": 1
+        },
+        {
+          "structure": "idas:pillager_camp",
+          "weight": 1
+        },
+        {
+          "structure": "idas:hunters_cabin",
+          "weight": 1
+        },
+        {
+          "structure": "idas:animal_den/forest_den",
+          "weight": 1
+        },
+        {
+          "structure": "idas:animal_den/polar_bear_den",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Minecraft Core---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_minecraft"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "integrated_minecraft:travelers_camp",
+          "weight": 1
+        },
+        {
+          "structure": "integrated_minecraft:strange_ruins",
+          "weight": 1
+        },
+        {
+          "structure": "integrated_minecraft:illusioner_shack",
+          "weight": 1
+        },
+        {
+          "structure": "integrated_minecraft:firecaller_tower",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "towns_and_towers:pillager_outpost_badlands",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_birch_forest",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_desert",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_flower_forest",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_forest",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_grove",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_jungle",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_meadow",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_mushroom_fields",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_savanna",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_snowy_plains",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_snowy_slopes",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_sparse_jungle",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_sunflower_plains",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_swamp",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_taiga",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_snowy_taiga",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:pillager_outpost_wooded_badlands",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:exclusives/pillager_outpost_mediterranean",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:exclusives/pillager_outpost_tudor",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:exclusives/pillager_outpost_classic",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:exclusives/pillager_outpost_oriental",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:exclusives/pillager_outpost_swedish",
+          "weight": 1
+        },
+        {
+          "structure": "towns_and_towers:exclusives/pillager_outpost_iberian",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Ars Nouveau---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ars_nouveau"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "ars_nouveau:hunter_wilden_den",
+          "weight": 1
+        },
+        {
+          "structure": "ars_nouveau:guardian_wilden_den",
+          "weight": 1
+        },
+        {
+          "structure": "ars_nouveau:stalker_wilden_den",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "structory:firetower",
+          "weight": 1
+        },
+        {
+          "structure": "structory:jungle_ruin",
+          "weight": 1
+        },
+        {
+          "structure": "structory:taiga_ruin_surface",
+          "weight": 1
+        },
+        {
+          "structure": "structory:dense_forest_ruin",
+          "weight": 1
+        },
+        {
+          "structure": "structory:abandoned_camp",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------Better Archaeology------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterarcheology"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "betterarcheology:buried_ruins_sand",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:ruins_sand",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:fossil_chicken",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:fossil_chicken_birch",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:fossil_creeper",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:fossil_jungle_0",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:fossil_jungle_1",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:fossil_sheep_0",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:fossil_wolf",
+          "weight": 1
+        },
+        {
+          "structure": "betterarcheology:villager_grave",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------Feur Extension: Fossil------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_fossil"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "feur_extension_fossil:small_coal_rex_camp",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_fossil:bones_tree",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_fossil:fossil_arc",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_fossil:fossil_fang",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_fossil:fossil_snake",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_fossil:small_rex_camp",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------Feur Extension: Jungle------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_jungle"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "feur_extension_jungle:ancient_statue",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_jungle:big_melon",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_jungle:lost_explorer",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_jungle:tree_double",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_jungle:tree_giant",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_jungle:tree_old",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_jungle:tree_spline",
+          "weight": 1
+        },
+        {
+          "structure": "feur_extension_jungle:tree_stump",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Goblins & Dungeons---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "goblinsanddungeons"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "goblinsanddungeons:small_goblin_camp",
+          "weight": 1
+        },
+        {
+          "structure": "goblinsanddungeons:medium_goblin_camp",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Hunter Illager---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hunterillager"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "hunterillager:hunter_house",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Dawncraft---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "custom:barrel_house",
+          "weight": 1
+        },
+        {
+          "structure": "custom:npc_spawn",
+          "weight": 1
+        },
+        {
+          "structure": "custom:npc_spawn_desert",
+          "weight": 1
+        },
+        {
+          "structure": "custom:wolf_hideout",
+          "weight": 1
+        },
+        {
+          "structure": "custom:fallen_house",
+          "weight": 1
+        },
+        {
+          "structure": "custom:rat",
+          "weight": 1
+        },
+        {
+          "structure": "custom:barbarian_camp",
+          "weight": 1
+        },
+        {
+          "structure": "custom:cult_informer_ruin",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Dust's Quest Giver (Dawncraft)---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "quest_giver"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "quest_giver:pillager_base",
+          "weight": 1
+        },
+        {
+          "structure": "quest_giver:pillager_hideout",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Hexerei---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hexerei"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "hexerei:owl_post_office",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<-------------------------------------------Queen Bee------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "queen_bee"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": []
+    }
+  ],
+  //<-------------------------------------------Illager Invasion------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "illagerinvasion"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "illagerinvasion:sorcerer_hut",
+          "weight": 1
+        },
+        {
+          "structure": "illagerinvasion:firecaller_hut",
+          "weight": 1
+        },
+        {
+          "structure": "illagerinvasion:illager_fort",
+          "weight": 1
+        },
+        {
+          "structure": "illagerinvasion:illusioner_tower",
+          "weight": 1
+        },
+        {
+          "structure": "illagerinvasion:labyrinth",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------------Oreganized------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "oreganized"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "oreganized:boulder",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------------Species------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_17"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "species"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "species:libra",
+          "weight": 1
+        },
+        {
+          "structure": "species:paleontology_dig_site",
+          "weight": 1
+        },
+        {
+          "structure": "species:spectralibur_chamber",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------------Darker Depths------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_18"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "darkerdepths"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "darkerdepths:rope_mine_desert",
+          "weight": 1
+        },
+        {
+          "structure": "darkerdepths:rope_mine_forest",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<-------------------------------------------Create: Structures Arise------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_19"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "create_structures_arise"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "create_structures_arise:createoldruine",
+          "weight": 1
+        },
+        {
+          "structure": "create_structures_arise:create_dungeon_base",
+          "weight": 1
+        },
+        {
+          "structure": "create_structures_arise:createhouse",
+          "weight": 1
+        },
+        {
+          "structure": "create_structures_arise:create_ruined_castle",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------Terramity------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_20"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "terramity"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "terramity:fire_lookout_tower",
+          "weight": 1
+        },
+        {
+          "structure": "terramity:sword_shrine",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------------Explorify------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_21"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "explorify"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "explorify:campsite",
+          "weight": 1
+        },
+        {
+          "structure": "explorify:guide_post_cold",
+          "weight": 1
+        },
+        {
+          "structure": "explorify:guide_post_warm",
+          "weight": 1
+        },
+        {
+          "structure": "explorify:supply_cache/birch",
+          "weight": 1
+        },
+        {
+          "structure": "explorify:supply_cache/dark",
+          "weight": 1
+        },
+        {
+          "structure": "explorify:supply_cache/desert",
+          "weight": 1
+        },
+        {
+          "structure": "explorify:supply_cache/forest",
+          "weight": 1
+        },
+        {
+          "structure": "explorify:supply_cache/jungle",
+          "weight": 1
+        },
+        {
+          "structure": "explorify:supply_cache/mangrove",
+          "weight": 1
+        },
+        {
+          "structure": "explorify:supply_cache/taiga",
+          "weight": 1
+        },
+        {
+          "structure": "explorify:desert_shrine",
+          "weight": 1
+        },
+        {
+          "structure": "explorify:badlands_pyramid",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------------Goety------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_22"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "goety"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "goety:wind_shrine",
+          "weight": 1
+        },
+        {
+          "structure": "goety:secluded_igloo",
+          "weight": 1
+        },
+        {
+          "structure": "goety:buried_ritual",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------------More Sniffer Flowers------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_23"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "moresnifferflowers"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "moresnifferflowers:snow_sniffer_temple",
+          "weight": 1
+        },
+        {
+          "structure": "moresnifferflowers:dessert_sniffer_temple",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<-----------------------------------------------------------Occult----------------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_24"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "occult"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "occult:shaded_hut",
+          "weight": 1
+        },
+        {
+          "structure": "occult:shaded_ruins",
+          "weight": 1
+        },
+        {
+          "structure": "occult:shaded_tower",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------------Threateningly Mobs------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_25"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "threateningly_mobs"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": []
+    }
+  ],
+  //<-------------------------------------------------Katters Structures------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_26"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "kattersstructures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "kattersstructures:armory",
+          "weight": 1
+        },
+        {
+          "structure": "kattersstructures:desert_dungeon",
+          "weight": 1
+        },
+        {
+          "structure": "kattersstructures:ruined_village",
+          "weight": 1
+        },
+        {
+          "structure": "kattersstructures:skyhold",
+          "weight": 1
+        },
+        {
+          "structure": "kattersstructures:mini_dungeon_rugged_shack",
+          "weight": 1
+        },
+        {
+          "structure": "kattersstructures:mini_dungeon_ruin",
+          "weight": 1
+        },
+        {
+          "structure": "kattersstructures:mini_dungeon_stone",
+          "weight": 1
+        },
+        {
+          "structure": "kattersstructures:mini_dungeon_tuff",
+          "weight": 1
+        },
+        {
+          "structure": "kattersstructures:spider_den",
+          "weight": 1
+        },
+        {
+          "structure": "kattersstructures:dark_tree",
+          "weight": 1
+        },
+        {
+          "structure": "kattersstructures:birch_tree",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_27"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "mvs:jungle_tower",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:small_pillager_tower",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:gallows",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:ruins/small_ruin",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:ruins/statue_ruins",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:ruins/log_ruin",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:other_decoration/fox_hut",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:other_decoration/campsite",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:other_decoration/horse_campsite",
+          "weight": 1
+        },
+        {
+          "structure": "mvs:other_decoration/snowy_fossil",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_28"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "wabi_sabi_structures:sphinx_hidey_hole_sandy",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:woody_camp",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:vigilante_fort",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:muddy_badlands_well",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:lumpy_tower",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:lost_foot",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:infested_castle",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:frost_reactor_plant",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:gallows",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:frost_reactor_plant",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:firewatch_tower",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:effigy_patch_savanna",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:effigy_patch_jungle",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:effigy_patch_forest",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:birch_mushroom_cave",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:badlands_dwelling",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:abandoned_small_castle",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:memorial_of_tonkis",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:old_fort",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_29"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "repurposed_structures:outpost_birch",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:outpost_jungle",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:outpost_giant_tree_taiga",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:outpost_desert",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:outpost_badlands",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:outpost_snowy",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:outpost_icy",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:outpost_taiga",
+          "weight": 1
+        },
+        {
+          "structure": "repurposed_structures:outpost_oak",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "wilderness_inland_small_30"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "additionalstructures:illager_house_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:spider_nest_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:spider_nest_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:spider_nest_3",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:suspicious_sand_patch_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:suspicious_sand_patch_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:suspicious_sand_patch_3",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:suspicious_sand_patch_4",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:suspicious_gravel_patch_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:suspicious_gravel_patch_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:oasis_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:oasis_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:fossil_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:fossil_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:dragon_fossil_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:dragon_fossil_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:pillar_ruin_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:pillar_ruin_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:pillar_ruin_3",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:desert_pillars_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:desert_pillars_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:stone_circle_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:stone_circle_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:stone_circle_3",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:spawn_altar_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:spawn_altar_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:spawn_altar_3",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:spawn_altar_4",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:spawn_altar_5",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:spawn_altar_6",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:spawn_altar_7",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:sandstone_totem_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:sandstone_totem_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:sandstone_totem_3",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:red_sandstone_totem_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:red_sandstone_totem_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:pyramid_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:pyramid_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:sphinx",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:tomb_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:tomb_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:tomb_3",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:desert_tomb_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:desert_tomb_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:temple_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:temple_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:camp_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:camp_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:camp_3",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+]

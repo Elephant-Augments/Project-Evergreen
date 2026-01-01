@@ -1,0 +1,289 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "towns_and_towers:village_ocean"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "idas:sunken_ship/sunken_ship",
+        "idas:sunken_ship/sunken_ship_ruins",
+        "idas:sunken_ship/sunken_ship_coral"
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "ati_structures:ancient_vessel"
+      ]
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_arise:typhon"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_arise:mechanical_nest"
+      ]
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise: Seven Seas---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise_seven_seas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_arise_seven_seas:unicorn_galleon",
+        "dungeons_arise_seven_seas:victory_frigate",
+        "dungeons_arise_seven_seas:corsair_corvette",
+        "dungeons_arise_seven_seas:pirate_junk"
+      ]
+    }
+  ],
+  //<------------------------------------------------BrassAmber BattleTowers------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ba_bt"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "ba_bt:ocean_battle_tower"
+      ]
+    }
+  ],
+  //<------------------------------------------Feur Extension: Fossil------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_fossil"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "feur_extension_fossil:fossil_bone_fish",
+        "feur_extension_fossil:fossil_guardian",
+        "feur_extension_fossil:fossil_fish"
+      ]
+    }
+  ],
+  //<--------------------------------------------------------Dungeons+-------------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_plus"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_plus:warped_garden"
+      ]
+    }
+  ],
+  //<--------------------------------------------------------Cataclysm-------------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "cataclysm"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "cataclysm:sunken_city"
+      ]
+    }
+  ],
+  //<-------------------------------------------Create: Structures Arise------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "create_structures_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "create_structures_arise:pillager_boat"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Threateningly Mobs------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "threateningly_mobs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "threateningly_mobs:underwater_altar"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Yung's Ocean Monuments--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betteroceanmonuments"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "betteroceanmonuments:ocean_monument"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Repurposed Structures--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "ocean_deep_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "repurposed_structures:pyramid_ocean"
+      ]
+    }
+  ]
+]

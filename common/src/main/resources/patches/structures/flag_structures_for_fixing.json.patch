@@ -1,0 +1,3970 @@
+[
+  //  ### USE THE FOLLOWING PATCHES TO TWEAK INDIVIDUAL STRUCTURES/STRUCTURE SETS ###
+  //
+  //
+  //    ignore_structure          -  Structure file will not be altered in any way.
+  //    ignore_structure_type     -  Original structure type will not be altered.
+  //    ignore_water_restriction  -  Structure will be allowed to spawn on/under the water, including rivers and lakes.
+  //    ignore_terrain_adaptation -  Structure terrain adaptation will not be normalized to beard_thin.
+  //    ignore_flatness_check     -  Structure will not be flagged with flatness_check_wide by default.
+  //    flatness_check_wide       -  Large structures will only be allowed to spawn on reasonably flat terrain.
+  //    flatness_check_narrow     -  Small structures will only be allowed to spawn on reasonably flat terrain.
+  //    check_y_level             -  Normalizes the allowed y level for underground structure spawns. Adapts to mods that altered world height.
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "_EXAMPLE_PATCHES_"
+    },
+    [
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_terrain_adaptation"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/check_y_level"
+      }
+    ]
+  ],
+  //<===================================================Minecraft===================================================>
+  [
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "minecraft:end_city"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "minecraft:fortress"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "minecraft:nether_fossil"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "minecraft:end_city"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "minecraft:fortress"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "minecraft:nether_fossil"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "minecraft:bastion/starts"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/biomes",
+        "value": "#minecraft:has_structure/end_city"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/biomes",
+        "value": "#minecraft:has_structure/ruined_portal_nether"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/biomes",
+        "value": "#minecraft:has_structure/nether_fossil"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/biomes",
+        "value": "#minecraft:has_structure/nether_fortress"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "minecraft:village/desert/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "minecraft:village/taiga/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "minecraft:village/snowy/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "minecraft:village/savanna/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "minecraft:village/plains/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "minecraft:buried_treasure"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "minecraft:ocean_monument"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "minecraft:ocean_ruin"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "minecraft:ocean_ruin"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "minecraft:shipwreck"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ]
+  ],
+  //<===================================================Integrated Structures===================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      //idas_small_nether.json
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "idas:animal_den/foxhound_den"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      //idas_nether.json
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "idas:ancient_portal/nether_ancient_portal"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "idas:animal_den/foxhound_den"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "idas:nether_pump_camp/nether_pump_camp"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "idas:necromancers_spire/necromancers_spire1"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "idas:ancient_portal/nether_ancient_portal1"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "idas:train_ruins/train_ruins"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "idas:fishermans_lodge/fishermans_lodge"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_terrain_adaptation"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "idas:sunken_ship/sunken_ship"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "idas:sunken_ship/sunken_ship_coral"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "idas:sunken_ship/sunken_ship_ruins"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ]
+  ],
+  //<===================================================Integrated Minecraft===================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_minecraft"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "integrated_minecraft:cyclops_lair"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ]
+  ],
+  //<===================================================Integrated Villages===================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_villages"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "integrated_villages:airship_village/intersection"
+      },
+      {
+        "op": "remove",
+        "path": "/terrain_adaptation"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "integrated_villages:marketstead_village/house/cathedral"
+      },
+      {
+        "op": "add",
+        "path": "/use_expansion_hack",
+        "value": true
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "integrated_villages:cabin_village/root"
+      },
+      {
+        "op": "add",
+        "path": "/use_expansion_hack",
+        "value": true
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "integrated_villages:clockwork_village/path/fountain"
+      },
+      {
+        "op": "add",
+        "path": "/use_expansion_hack",
+        "value": true
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "integrated_villages:kutcha_village/house/tavern"
+      },
+      {
+        "op": "add",
+        "path": "/use_expansion_hack",
+        "value": true
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "integrated_villages:mediterranean_village/house/cathedral"
+      },
+      {
+        "op": "add",
+        "path": "/use_expansion_hack",
+        "value": true
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "integrated_villages:mossy_mounds/party_tree/party_tree"
+      },
+      {
+        "op": "add",
+        "path": "/use_expansion_hack",
+        "value": true
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "integrated_villages:oasis_village/house/main"
+      },
+      {
+        "op": "add",
+        "path": "/use_expansion_hack",
+        "value": true
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "integrated_villages:pirate_village/docks/docks"
+      },
+      {
+        "op": "add",
+        "path": "/use_expansion_hack",
+        "value": true
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "integrated_villages:tavern_village/tavern"
+      },
+      {
+        "op": "add",
+        "path": "/use_expansion_hack",
+        "value": true
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "quark"
+      },
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "integrated_villages:minka_village/path/torii"
+      },
+      {
+        "op": "add",
+        "path": "/use_expansion_hack",
+        "value": true
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ]
+  ],
+  //<================================================Additional Structures================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "additionalstructures:boat_1"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "additionalstructures:boat_2"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "additionalstructures:flotsam_1"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "additionalstructures:flotsam_2"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "additionalstructures:flotsam_3"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "additionalstructures:flotsam_4"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "additionalstructures:flotsam_5"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "additionalstructures:ice_floes_1"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "additionalstructures:ice_floes_2"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "additionalstructures:ice_floes_3"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "additionalstructures:ice_floes_4"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ]
+  ],
+  //<==================================================Alexs Caves==================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "alexscaves"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "alexscaves:underground_cabin"
+      },
+      [
+        {
+          "op": "test",
+          "path": "/project_start_to_heightmap",
+          "inverse": true
+        },
+        {
+          "op": "add",
+          "path": "/project_start_to_heightmap",
+          "value": "OCEAN_FLOOR_WG"
+        }
+      ],
+      [
+        {
+          "op": "add",
+          "path": "/start_height/absolute",
+          "value": -20
+        }
+      ]
+    ]
+  ],
+  //<==================================================Aquamirae==================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "aquamirae"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "aquamirae:ice_maze/arch"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "aquamirae:ice_maze/common"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "aquamirae:ice_maze/spiral"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "aquamirae:outpost"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "aquamirae:shelter/tunnel_top"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "aquamirae:ship"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ]
+  ],
+  //<==================================================Ars Additions==================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ars_additions"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "ars_additions:arcane_library"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ]
+  ],
+  //<==================================================ATI Structures==================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "ati_structures:lighthouse"
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "path": "/allowed_terrain_height_range",
+        "value": 10
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "ati_structures:ice_tribe"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "ati_structures:sinking_temple"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "ati_structures:rotten_log"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ]
+  ],
+  //<==========================================Better Archaeology==========================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterarcheology"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "betterarcheology:temple_jungle"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "betterarcheology:stonehenge_grassy"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "betterarcheology:underwater_0"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "betterarcheology:underwater_1"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "betterarcheology:underwater_2"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "betterarcheology:underwater_3"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ]
+  ],
+  //<==============================================Biome Makeover==============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "biomemakeover"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "biomemakeover:mansion"
+      },
+      {
+        "op": "add",
+        "path": "/type",
+        "value": "integrated_api:generic_structure"
+      },
+      {
+        "op": "add",
+        "path": "/cannot_spawn_in_liquid",
+        "value": true
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ]
+  ],
+  //<===================================================Born In Chaos===================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "born_in_chaos_v1"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "born_in_chaos_v1:dark_tower_plain"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ]
+  ],
+  //<===================================================Bosses Rise===================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "block_factorys_bosses"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "block_factorys_bosses:underworld_arena"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "block_factorys_bosses:underworld_arena"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ]
+  ],
+  //<==============================================Cataclysm==============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "cataclysm"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "cataclysm:burning_arena"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "cataclysm:ruined_citadel"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "cataclysm:soul_black_smith"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "cataclysm:burning_arena"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "cataclysm:ruined_citadel"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "cataclysm:soul_black_smith/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "cataclysm:frosted_prison/start_pool"
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "path": "/allowed_terrain_height_range",
+        "value": 25
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "cataclysm:ancient_factory/start_pool"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "cataclysm:acropolis/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "cataclysm:cursed_pyramid"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/advanced_structure_type"
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "path": "/allowed_terrain_height_range",
+        "value": 25
+      }
+    ]
+  ],
+  //<===================================================Companions===================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "companions"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "companions:companions_tent"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "companions:companions_pools/companions_tent_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ]
+  ],
+  //<================================================Create Structures Arise================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "create_structures_arise"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "create_structures_arise:deadlordshouse"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "create_structures_arise:darkcastle"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "create_structures_arise:obsidiantemple"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "create_structures_arise:darkcastle"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "create_structures_arise:obsidiantemple"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "create_structures_arise:deadlordshouse"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "create_structures_arise:createlosttrainstation"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "create_structures_arise:pillager_boat"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ]
+  ],
+  //<==================================================Dungeons Arise==================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_arise:eerie/aviary/aviary_start"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ]
+  ],
+  //<=============================================Integrated Dungeons Arise=============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_dungeons_arise"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_main"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_main"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_start"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_arise:underworld/scorched_mines/scorched_mines_start"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_arise:greenwood_pub/greenwood_pub_main"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_arise:fortified/thornborn_towers/thornborn_towers_start"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_arise:desertic/desert_hall/desert_hall_start"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ]
+  ],
+  //<================================================Dungeons Revival================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_revival"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "dungeons_revival:hell_arena"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_revival:hell_arena"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ]
+  ],
+  //<==================================================Dungeons Plus===================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_plus"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "dungeons_plus:snowy_temple"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_plus:warped_garden/root"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      },
+      {
+        "op": "add",
+        "path": "/project_start_to_heightmap",
+        "value": "OCEAN_FLOOR_WG"
+      },
+      {
+        "op": "add",
+        "path": "/start_height/absolute",
+        "value": 0
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_plus:warped_garden/root"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ]
+  ],
+  //<================================================Eidolon================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "eidolon"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "eidolon:catacomb"
+      },
+      {
+        "op": "add",
+        "path": "/step",
+        "value": "surface_structures"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "eidolon:lab"
+      },
+      {
+        "op": "add",
+        "path": "/step",
+        "value": "surface_structures"
+      }
+    ]
+  ],
+  //<================================================Explorify================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "explorify"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "explorify:end_shipwreck"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "explorify:black_spiral"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "explorify:bastion_spiral/tower"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "explorify:end_shipwreck/base_plate"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "explorify:farmstead/main"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "explorify:tavern/main"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "explorify:campsite/main"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ]
+  ],
+  //<==========================================Feur Extension: Fossil==========================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_fossil"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_fossil:skull_camp"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_fossil:rex_camp"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_fossil:fossil_arc"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_fossil:fossil_dragon"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_fossil:fossil_chest"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_fossil:fossil_bone_fish"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_fossil:fossil_baby_fish"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_fossil:fossil_fish"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_fossil:fossil_guardian"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ]
+  ],
+  //<==========================================Feur Extension: Jungle==========================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_jungle"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_jungle:protector"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_jungle:pyramid"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_jungle:tree_ancestral"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_jungle:tree_ancestral_house"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_jungle:tree_double"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_jungle:tree_giant"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_jungle:tree_old"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_jungle:tree_spline"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "feur_extension_jungle:tree_stump"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ]
+  ],
+  //<=================================================Goety=================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "goety"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "goety:spider_den/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ]
+  ],
+  //<=================================================Hexerei=================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hexerei"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "hexerei:coven/dark_coven/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "hexerei:coven/nature_coven/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "hexerei:baba_yaga_hut"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/advanced_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "hexerei:witch_hut/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "hexerei:owl_post_office"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/advanced_structure_type"
+      }
+    ]
+  ],
+  //<=============================================Iron's Spellbooks=============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "irons_spellbooks"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "irons_spellbooks:impaled_icebreaker_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "irons_spellbooks:evoker_fort/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "irons_spellbooks:mangrove_hut_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ]
+  ],
+  //<=============================================Katters Structures=============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "kattersstructures"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kattersstructures:deep_blue_city/main_01"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kattersstructures:deep_blue/labs/start"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kattersstructures:deep_blue/lab_ruin/start"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kattersstructures:ocean_ships/villager/start"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kattersstructures:village_ocean/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kattersstructures:villager_ocean/villager_ocean"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kattersstructures:deep_blue/red_coral/red_coral"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ]
+  ],
+  //<=============================================Legendary Monsters=============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "legendary_monsters"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "legendary_monsters:ancient_tower_remains"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "legendary_monsters:lava_eater_spawn"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "legendary_monsters:shulker_tower"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "legendary_monsters:skeletosaurus_nest"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "legendary_monsters:soul_fortress_remains"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "legendary_monsters:warped_fungussus_nest"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "legendary_monsters:ancient_tower_remains"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "legendary_monsters:lava_eater_spawn"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "legendary_monsters:shulker_tower"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "legendary_monsters:skeletosaurus_nest"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "legendary_monsters:soul_fortress_remains"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "legendary_monsters:warped_fungussus_nest"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "legendary_monsters:abandoned_crypt/start_pool"
+      },
+      {
+        "op": "add",
+        "path": "/step",
+        "value": "surface_structures"
+      }
+    ]
+  ],
+  //<=========================================Lios Spiral Villages=========================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "spiral_tower_village"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "lios_outlandish_villages:spiral_tower_village/base/anchor"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ]
+  ],
+  //<=========================================Moog's Voyager Structures=========================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "mvs:nature/paths"
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "path": "/allowed_terrain_height_range",
+        "value": 6
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "mvs:houses/large_warped_tower/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "mvs:houses/flower_hole/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "mvs:nature/oak_tree"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "mvs:nature/big_oak_tree/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "mvs:nature/cherry_tree"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "mvs:nature/jungle_palm_tree"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "mvs:nature/jungle_tree"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "mvs:nature/dark_oak_tree"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "mvs:nature/spruce_tree"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "mvs:other/small_ship/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ]
+  ],
+  //<===================================================More Critters===================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hexerei"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "more_critters:collector_wagon_ocean"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ]
+  ],
+  //<=================================================Myths and Legends=================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mythsandlegends"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "mythsandlegends:ancient_vestiges"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "mythsandlegends:graveyard"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ]
+  ],
+  //<=================================================Nature's Spirit=================================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "natures_spirit"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_minecraft"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "natures_spirit:village/adobe/adobe_start"
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:no_biomes"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "natures_spirit:village/coconut/town_centers"
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:no_biomes"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "natures_spirit:village/cypress/town_centers"
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:no_biomes"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "natures_spirit:village/wisteria/town_centers"
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:no_biomes"
+      }
+    ]
+  ],
+  //<============================================Repurposed Structures============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:ancient_city_end"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:village_crimson"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:mineshaft_crimson"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:monument_nether"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:city_nether"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:ancient_city_nether"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:outpost_nether_brick"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:temple_nether_wasteland"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:stronghold_nether"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:shipwreck_nether_bricks"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:pyramid_nether"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:ruins_nether"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:stronghold_end"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:mineshaft_end"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:pyramid_end"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:outpost_end"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:ruined_portal_end"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "repurposed_structures:shipwreck_end"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:strongholds/end/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:ancient_cities/end/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:shipwrecks/warped"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:pyramids/end"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:shipwrecks/crimson"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:ruined_portals/end"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:mineshafts/end/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:outposts/end/base_plates"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:shipwrecks/end"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:temples/nether_wasteland"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:pyramids/nether"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:mineshafts/warped/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:cities/nether/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:temples/nether_warped"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:outposts/crimson/base_plates"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:outposts/warped/base_plates"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:villages/warped/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:villages/crimson/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:temples/nether_soul"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:temples/nether_basalt"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:ruins/nether/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/biomes",
+        "value": "#repurposed_structures:has_structure/monuments/nether"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:outposts/nether_brick/base_plates"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:shipwrecks/nether_bricks"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:mineshafts/nether/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:mineshafts/crimson/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:ancient_cities/nether/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:strongholds/nether/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:temples/nether_crimson"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:pyramids/ocean"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ]
+  ],
+  //<==============================================Sky Arena==============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "species"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "skyarena:ice_arena/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "skyarena:sky_arena/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ]
+  ],
+  //<==============================================Species==============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "species"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "species:wraptor_coop"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "species:wraptor_coop"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "species:paleontology_dig_site"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/terrain_beard_thin"
+      }
+    ]
+  ],
+  //<==============================================Structory==============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "structory:outcast_villager/boat/boats"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ]
+  ],
+  //<===============================================Terramity===============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "terramity"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "terramity:chthonian_breach"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "terramity:chthonic_dungeon"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "terramity:chthonic_cathedral"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "terramity:chthonic_dungeon/start_pool"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "terramity:chthonian_breach"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "terramity:chthonic_cathedral"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "terramity:court_of_gnomes"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "terramity:overgrown_facility"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "terramity:snow_fort"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "terramity:sword_shrine"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "terramity:trial_spire"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ]
+  ],
+  //<===============================================Towers of the Wild===============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "totw_modded"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "totw_modded:ocean_warm/bottom"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "totw_modded:ocean/bottom"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ]
+  ],
+  //<===============================================Towns and Towers===============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    //----------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:ships/village_ocean/base_plate"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:ships/pillager_outpost_ocean/base_plate"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:ships/wreckage_ocean/wreckage"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/exclusives/nilotic/base_plate"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/exclusives/classic/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/exclusives/mediterranean/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/exclusives/iberian/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/exclusives/rustic/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/exclusives/swedish/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/exclusives/tudor/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/badlands_pueblo/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/birch_forest_romanian/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/flower_forest_japanese/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/forest_ruins/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/exclusives/nilotic/base_plate"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/grove_villager_outpost/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/jungle_tribal/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/meadow_swiss/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/mushroom_fields_fantasy/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/old_growth_taiga_polish/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/savanna_plateau_ramshackled/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/snowy_slopes_inn/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/snowy_taiga_viking/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/sparse_jungle_polynesian/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/sunflower_plains_farm/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/swamp_boat/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "kaisyn:village/wooded_badlands_tipi/town_centers"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure_type"
+      }
+    ]
+  ],
+  //<===============================================Wabi Sabi Structures===============================================>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    //--------------------------->Ignore structures meant for the nether/end.
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "wabi_sabi_structures:chorus_orchard"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "wabi_sabi_structures:obsidian_egg"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "wabi_sabi_structures:strider_stable"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "wabi_sabi_structures:hellish_orphanage"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "wabi_sabi_structures:warped_ender_claw"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "wabi_sabi_structures:ender_claw"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "wabi_sabi_structures:basalt_factory_ruin"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/structures/0/structure",
+        "value": "wabi_sabi_structures:basalt_castle"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:chorus_orchard"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:obsidian_egg"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:strider_stable"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:hellish_orphanage"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:warped_ender_claw"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:ender_claw"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:basalt_factory_ruin"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:basalt_castle"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_structure"
+      }
+    ],
+    //-------------------------------------------->Overworld structure fixes.
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:zen_chair_museum"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_wide"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:abandoned_small_castle"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/flatness_check_narrow"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:sphinx_hidey_hole_sandy"
+      },
+      {
+        "op": "add",
+        "path": "/terrain_adaptation",
+        "value": "bury"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:sphinx_hidey_hole_sandy"
+      },
+      {
+        "op": "add",
+        "path": "/terrain_adaptation",
+        "value": "bury"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_flatness_check"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:monster_egg"
+      },
+      {
+        "op": "add",
+        "path": "/step",
+        "value": "underground_structures"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:monster_egg_banquet"
+      },
+      {
+        "op": "add",
+        "path": "/step",
+        "value": "underground_structures"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:river_boat"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:marine_observation_hub"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:sunken_steamboat"
+      },
+      {
+        "op": "include",
+        "path": "structures/fixes/ignore_water_restriction"
+      }
+    ]
+  ]
+]

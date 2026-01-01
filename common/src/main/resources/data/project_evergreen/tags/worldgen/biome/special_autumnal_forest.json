@@ -1,0 +1,35 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
+        {
+            "id": "regions_unexplored:autumnal_maple_forest",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:maple_woodlands",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:silver_birch_forest",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:aspen_forest",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:autumnal_wood",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:ruby_maple_forest",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:seasonal_grove",
+            "required": false
+        }
+    ]
+}

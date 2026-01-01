@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:frozen_peaks",
+      "dreamwoods:autumnal_hills",
+      "terralith:glacial_chasm",
+      "wythers:cold_stony_shore",
+      "wythers:cold_plains",
+      "wythers:cold_stony_shore",
+      "wythers:snowy_canyon"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

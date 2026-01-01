@@ -1,0 +1,93 @@
+[
+  //<--------------------------------------------Vanilla-------------------------------------------->
+  [
+    [
+      {
+        "op": "test",
+        "path": "/step",
+        "value": "underground_structures"
+      },
+      {
+        "op": "replace",
+        "path": "/start_height",
+        "value": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": -20
+          },
+          "min_inclusive": {
+            "absolute": -60
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/step",
+        "value": "underground_decoration"
+      },
+      {
+        "op": "replace",
+        "path": "/start_height",
+        "value": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": -10
+          },
+          "min_inclusive": {
+            "absolute": -50
+          }
+        }
+      }
+    ]
+  ],
+  //<--------------------------------------------Larion Worldgen-------------------------------------------->
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "larion"
+    },
+    [
+      {
+        "op": "test",
+        "path": "/step",
+        "value": "underground_structures"
+      },
+      {
+        "op": "replace",
+        "path": "/start_height",
+        "value": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": -30
+          },
+          "min_inclusive": {
+            "absolute": -120
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/step",
+        "value": "underground_decoration"
+      },
+      {
+        "op": "replace",
+        "path": "/start_height",
+        "value": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": -30
+          },
+          "min_inclusive": {
+            "absolute": -120
+          }
+        }
+      }
+    ]
+  ]
+]

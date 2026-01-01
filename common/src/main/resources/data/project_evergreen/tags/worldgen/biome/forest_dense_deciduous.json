@@ -1,0 +1,78 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:forest",
+        {
+            "id": "terralith:birch_taiga",
+            "required": false
+        },
+        {
+            "id": "terralith:lush_valley",
+            "required": false
+        },
+        {
+            "id": "terralith:blooming_valley",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:deciduous_forest",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:sugi_forest",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:willow_forest",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:redwoods",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:redwood_forest",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:maple_forest",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:silver_birch_forest",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:aspen_forest",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:redwood_forest",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:temperate_hemlock_rainforest",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:wet_larch_forest",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:golden_aspen_spinney",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:wooded_slopes",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:weeping_grove",
+            "required": false
+        },
+        {
+            "id": "windswept:chestnut_forest",
+            "required": false
+        }
+    ]
+}

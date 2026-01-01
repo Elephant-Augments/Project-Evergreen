@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "values": [
+        "#project_evergreen:forest_dense_coniferous_snow",
+        "#project_evergreen:forest_sparse_coniferous_snow"
+    ]
+}

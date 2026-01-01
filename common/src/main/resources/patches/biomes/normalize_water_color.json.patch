@@ -1,0 +1,11 @@
+[
+  {
+    "op": "test",
+    "path": "/effects/water_color"
+  },
+  {
+    "op": "replace",
+    "path": "/effects/water_color",
+    "value": "#3f76e4"
+  }
+]

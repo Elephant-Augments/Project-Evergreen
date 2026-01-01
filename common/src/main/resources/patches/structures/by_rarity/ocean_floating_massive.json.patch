@@ -1,0 +1,137 @@
+[
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "aquamirae:shelter"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "aquamirae:shelter",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "ati_structures:ice_tribe"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "ati_structures:ice_tribe",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "create_structures_arise:pillager_boat"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "create_structures_arise:pillager_boat",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "dungeons_arise_seven_seas:corsair_corvette"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "dungeons_arise_seven_seas:corsair_corvette",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "dungeons_arise_seven_seas:unicorn_galleon"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "dungeons_arise_seven_seas:unicorn_galleon",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "dungeons_arise_seven_seas:victory_frigate"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "dungeons_arise_seven_seas:victory_frigate",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "kattersstructures:village_ocean"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "kattersstructures:village_ocean",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "lios_outlandish_villages:spiral_tower_village_sea"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "lios_outlandish_villages:spiral_tower_village_sea",
+				"weight": 1
+			}
+		}
+	],
+	[
+		{
+			"op": "test",
+			"type": "project_evergreen:structure_registered",
+			"value": "towns_and_towers:village_ocean"
+		},
+		{
+			"op": "add",
+			"path": "/structures/-",
+			"value": {
+				"structure": "towns_and_towers:village_ocean",
+				"weight": 1
+			}
+		}
+	]
+]

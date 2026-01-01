@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "#project_evergreen:all_deciduous",
+        "#project_evergreen:all_coniferous",
+        "#project_evergreen:forest_dense_tropical",
+        "#project_evergreen:forest_sparse_tropical",
+        "#project_evergreen:special_autumnal_forest",
+        "#project_evergreen:special_flowery_forest"
+    ]
+}

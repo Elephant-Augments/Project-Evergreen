@@ -1,0 +1,306 @@
+[
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_small_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "idas:underground_camp/underground_camp",
+          "weight": 1
+        },
+        {
+          "structure": "idas:underground_camp/underground_camp_deep",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_small_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "ati_structures:silverfish_nest",
+          "weight": 1
+        },
+        {
+          "structure": "ati_structures:rotting_temple_underground",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Dust's Quest Giver (Dawncraft)---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_small_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "quest_giver"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "quest_giver:cave_dwelling",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_small_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "wabi_sabi_structures:monster_egg_banquet",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:monster_egg",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:bat_monolith",
+          "weight": 1
+        },
+        {
+          "structure": "wabi_sabi_structures:forgotten_remnants",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<-------------------------------------------------Katters Structures------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_small_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "kattersstructures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "kattersstructures:shroom_cave",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------------Goety------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_small_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "goety"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "goety:spider_den",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<-------------------------------------------------Underground Rooms------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_small_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "underground_rooms"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "underground_rooms:alchemy_room",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:blacksmith_room1",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:desert_crypt",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:dungeon",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:enchanting_room",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:hidden_temple",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:library1",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:mainroom1",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:mining_storage_room",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:throne_room",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:torture_chamber",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:treasure_room",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:undead_main_room",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:wine_cellar",
+          "weight": 1
+        },
+        {
+          "structure": "underground_rooms:end_room",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<------------------------------------------------Terramity------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_small_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "terramity"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "terramity:fairy_fountain",
+          "weight": 1
+        },
+        {
+          "structure": "terramity:subterranean_shrine",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "underground_small_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/entries",
+      "value": [
+        {
+          "structure": "additionalstructures:underground_base_1",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:underground_base_2",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:underground_nether_portal",
+          "weight": 1
+        },
+        {
+          "structure": "additionalstructures:underground_stollen_1",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+]

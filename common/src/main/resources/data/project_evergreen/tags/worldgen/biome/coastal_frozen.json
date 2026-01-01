@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:snowy_beach",
+        {
+            "id": "dreamwoods:frozen_shore",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:frozen_peaks",
+    {
+      "id": "dreamwoods:autumnal_hills",
+      "required": false
+    },
+    {
+      "id": "terralith:glacial_chasm",
+      "required": false
+    }
+  ]
+}

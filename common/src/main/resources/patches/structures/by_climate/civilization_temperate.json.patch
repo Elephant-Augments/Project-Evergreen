@@ -1,0 +1,469 @@
+[
+  //<----------------------------------------------Towns & Towers---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "t_and_t"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Integrated Villages---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_villages"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "integrated_villages:cabin_village",
+        "integrated_villages:mossy_mounds",
+        "integrated_villages:marketstead_village"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "idas:train_ruins",
+        "idas:castle",
+        "idas:washing_camp",
+        "idas:abandonedhouse",
+        "idas:tinkers_workshop",
+        "idas:enchantingtower",
+        "idas:redhorn_guild",
+        "idas:brickhouse",
+        "idas:cottage"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Minecraft Core---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_minecraft"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "integrated_minecraft:old_base"
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "ati_structures:old_home",
+        "ati_structures:villager_inn"
+      ]
+    }
+  ],
+  //<----------------------------------------------When Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_arise:merchant_campsite"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Dungeons Arise---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<------------------------------------------Better Archaeology------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterarcheology"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "betterarcheology:mott",
+        "betterarcheology:archeologist_camp_grassy"
+      ]
+    }
+  ],
+  //<------------------------------------------Feur Extension: Jungle------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "feur_extension_jungle"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Human Companions---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "humancompanions"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ],
+  //<----------------------------------------------Moog's Voyager Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mvs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "mvs:lantern/small_birch_lantern",
+        "mvs:lantern/small_oak_lantern",
+        "mvs:nature/paths",
+        "mvs:cathedral",
+        "mvs:other_decoration/lecturn_garden",
+        "mvs:well/small_well",
+        "mvs:well/wells/birch_well",
+        "mvs:well/wells/oak_well",
+        "mvs:well/small_tower_well",
+        "mvs:other_decoration/lamp_chest"
+      ]
+    }
+  ],
+  //<----------------------------------------------Towers of the Wild---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "totw_modded"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "totw_modded:regular"
+      ]
+    }
+  ],
+  //<-------------------------------------------Create: Structures Arise------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "create_structures_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "create_structures_arise:createcontainer",
+        "create_structures_arise:createcushercrane",
+        "create_structures_arise:createlosttrainstation",
+        "create_structures_arise:minetrain",
+        "create_structures_arise:windmill"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Explorify------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "explorify"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "explorify:watchtower/plains",
+        "explorify:campsite",
+        "explorify:tavern",
+        "explorify:farmstead"
+      ]
+    }
+  ],
+  //<------------------------------------------------More Critters------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "more_critters"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "more_critters:collector_wagon_plains"
+      ]
+    }
+  ],
+  //<------------------------------------------------------Verdant Vibes------------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "verdantvibes"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "verdantvibes:spruce_overgrown_hut",
+        "verdantvibes:oak_overgrown_hut"
+      ]
+    }
+  ],
+  //<----------------------------------------------Wabi Sabi Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_17"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "wabi_sabi_structures:water_tower_oak",
+        "wabi_sabi_structures:wandering_trader_cart_temperate",
+        "wabi_sabi_structures:totem_pole",
+        "wabi_sabi_structures:potato_patch",
+        "wabi_sabi_structures:hide_tannery_oak",
+        "wabi_sabi_structures:carrot_patch",
+        "wabi_sabi_structures:beetroot_patch",
+        "wabi_sabi_structures:old_stable"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Hopo's Mineshafts--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_18"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hopo"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "hopo:mineshaft/birch_mineshaft",
+        "hopo:mineshaft/oak_mineshaft"
+      ]
+    }
+  ],
+  //<-----------------------------------------------Yung's Better Mineshafts----------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_19"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "bettermineshafts"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "bettermineshafts:mineshaft_oak"
+      ]
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_20"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "repurposed_structures:city_overworld",
+        "repurposed_structures:village_birch",
+        "repurposed_structures:village_oak"
+      ]
+    }
+  ],
+  //<----------------------------------------------Additional Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "civilization_temperate_21"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "additionalstructures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": []
+    }
+  ]
+]

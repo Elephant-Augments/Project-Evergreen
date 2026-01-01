@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#project_evergreen:desert_dunes_alive",
+    "#project_evergreen:desert_dunes_barren",
+    "#project_evergreen:desert_red_alive",
+    "#project_evergreen:desert_red_barren"
+  ]
+}

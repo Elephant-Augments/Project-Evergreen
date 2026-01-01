@@ -1,0 +1,21 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:stony_shore",
+      "terralith:gravel_beach",
+      "dreamwoods:frozen_shore",
+      "regions_unexplored:gravel_beach",
+      "wythers:cold_stony_shore",
+      "wythers:gravelly_beach"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

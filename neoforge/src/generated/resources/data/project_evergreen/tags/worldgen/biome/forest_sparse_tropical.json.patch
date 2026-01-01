@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:sparse_jungle",
+      "terralith:rocky_jungle",
+      "regions_unexplored:sparse_rainforest",
+      "natures_spirit:sparse_tropical_woods",
+      "wythers:sparse_bamboo_jungle",
+      "wythers:sparse_eucalyptus_jungle",
+      "wythers:sparse_eucalyptus_woodland",
+      "wythers:subtropical_forest_edge",
+      "wythers:tropical_island"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

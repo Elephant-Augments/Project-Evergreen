@@ -1,0 +1,23 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "integrated_api"
+  },
+  [
+    [
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 2
+      }
+    ],
+    [
+      {
+        "op": "add",
+        "path": "/allowed_terrain_height_range",
+        "value": 28
+      }
+    ]
+  ]
+]

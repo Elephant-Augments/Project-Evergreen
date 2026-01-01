@@ -1,0 +1,477 @@
+[
+  //<----------------------------------------------Integrated Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_0"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "idas:bazaar",
+        "idas:tinkers_workshop",
+        "idas:castle",
+        "idas:iceandfire/dread_citadel",
+        "idas:tinkers_citadel",
+        "idas:collectors_museum",
+        "idas:tree_of_wisdom",
+        "idas:pillager_fortress",
+        "idas:ars_nouveau/archmages_tower"
+      ]
+    }
+  ],
+  //<----------------------------------------------Integrated Minecraft Core---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_1"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_minecraft"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "integrated_minecraft:ruined_fortress",
+        "integrated_minecraft:scarlet_citadel"
+      ]
+    }
+  ],
+  //<----------------------------------------------ATI Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_2"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ati_structuresv"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "ati_structures:old_fort",
+        "ati_structures:tavern",
+        "ati_structures:villager_inn",
+        "ati_structures:ancient_temple",
+        "ati_structures:desert_outpost",
+        "ati_structures:fortified_temple",
+        "ati_structures:granite_fort",
+        "ati_structures:herobrine_stronghold",
+        "ati_structures:jungle_settlement",
+        "ati_structures:manor",
+        "ati_structures:marble_chateau",
+        "ati_structures:sinking_temple",
+        "ati_structures:woodland_keep",
+        "ati_structures:ruined_castle",
+        "ati_structures:quarry"
+      ]
+    }
+  ],
+  //<---------------------------------------------------When Dungeons's Arise--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_3"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "dungeons_arise:merchant_campsite",
+        
+        "dungeons_arise:coliseum",
+        "dungeons_arise:thornborn_towers",
+        "dungeons_arise:monastery",
+        "dungeons_arise:bandit_towers",
+        "dungeons_arise:infested_temple",
+        "dungeons_arise:shiraz_palace",
+        "dungeons_arise:mushroom_mines",
+        "dungeons_arise:mushroom_village"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Dawncraft--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_4"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "custom"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "custom:obsidian_spikes",
+        "custom:summon_podium",
+        "custom:arena",
+        "custom:librarian_ruin",
+        "custom:father_church",
+        "custom:giant_altar",
+        "custom:sentinel_tree",
+        "custom:twin_arena",
+        "custom:church",
+        "custom:deity_corpse",
+        "custom:dojo"
+      ]
+    }
+  ],
+  //<----------------------------------------------Ars Additions---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_5"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ars_additions"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "ars_additions:arcane_library"
+      ]
+    }
+  ],
+  //<----------------------------------------------Cataclysm---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_6"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "cataclysm"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "cataclysm:cursed_pyramid",
+        "cataclysm:frosted_prison"
+      ]
+    }
+  ],
+  //<----------------------------------------------Mowzie's Mobs---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_7"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "mowziesmobs"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "mowziesmobs:monastery"
+      ]
+    }
+  ],
+  //<-------------------------------------------Legendary Monsters------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_8"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "legendary_monsters"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "legendary_monsters:ruined_pyramid",
+        "legendary_monsters:abandoned_crypt",
+        "legendary_monsters:ancient_stronghold",
+        "legendary_monsters:cloudy_temple",
+        "legendary_monsters:mossy_temple",
+        "legendary_monsters:frostbitten_temple"
+      ]
+    }
+  ],
+  //<--------------------------------------Bosses of Mass Destruction-------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_9"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "bosses_of_mass_destruction"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "bosses_of_mass_destruction:void_blossom",
+        "bosses_of_mass_destruction:gauntlet_arena",
+        "bosses_of_mass_destruction:lich_tower"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Yung's Jungle Temples--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_10"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterjungletemples"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "betterjungletemples:jungle_temple"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Yung's Desert Temples--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_11"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "betterdeserttemples"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "betterdeserttemples:desert_temple"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Biome Makeover--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_12"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "biomemakeover"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "biomemakeover:mansion"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Goblins & Dungeons--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_13"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "goblinsanddungeons"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "goblinsanddungeons:ruined_keep"
+      ]
+    }
+  ],
+  //<------------------------------------------------BrassAmber BattleTowers------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_14"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "ba_bt"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "ba_bt:land_battle_tower",
+        "ba_bt:overgrown_land_battle_tower",
+        "ba_bt:sandy_land_battle_tower"
+      ]
+    }
+  ],
+  //<----------------------------------------------------Tax's Giant Trees---------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_15"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "taxtg"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "taxtg:giant_birch_tree",
+        "taxtg:giant_cherryblossom_tree",
+        "taxtg:giant_jungle_tree",
+        "taxtg:giant_oak_tree",
+        "taxtg:giant_spruce_tree_001"
+      ]
+    }
+  ],
+  //<--------------------------------------------------------Terralith-------------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_16"
+    },
+    {
+      "op": "test",
+      "type": "patched:pack_enabled",
+      "value": ["file/Terralith", "file/Terralith.zip", "mod/Terralith"]
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "terralith:spire"
+      ]
+    }
+  ],
+  //<----------------------------------------------Structory---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_17"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "structory"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "structory:swamp_ruin",
+        "structory:ruin_grassy"
+      ]
+    }
+  ],
+  //<---------------------------------------------------Hexerei--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_18"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "hexerei"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "hexerei:nature_coven",
+        "hexerei:dark_coven"
+      ]
+    }
+  ],
+  //<----------------------------------------------Repurposed Structures---------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/__comment",
+      "value": "inland_massive_19"
+    },
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    {
+      "op": "add",
+      "path": "/structures",
+      "value": [
+        "repurposed_structures:pyramid_mushroom",
+        "repurposed_structures:monument_jungle",
+        "repurposed_structures:monument_icy",
+        "repurposed_structures:monument_desert",
+        "repurposed_structures:pyramid_snowy",
+        "repurposed_structures:pyramid_icy",
+        "repurposed_structures:pyramid_jungle",
+        "repurposed_structures:pyramid_giant_tree_taiga",
+        "repurposed_structures:pyramid_flower_forest",
+        "repurposed_structures:city_overworld",
+        "repurposed_structures:fortress_jungle",
+        "repurposed_structures:mansion_birch",
+        "repurposed_structures:mansion_oak",
+        "repurposed_structures:mansion_taiga",
+        "repurposed_structures:mansion_jungle",
+        "repurposed_structures:mansion_savanna",
+        "repurposed_structures:mansion_snowy",
+        "repurposed_structures:mansion_desert"
+      ]
+    }
+  ]
+]

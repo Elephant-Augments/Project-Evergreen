@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#project_evergreen:river_frozen",
+    "#project_evergreen:coastal_frozen"
+  ]
+}

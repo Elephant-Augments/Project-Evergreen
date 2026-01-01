@@ -1,0 +1,21 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:beach",
+      "dreamwoods:azure_cove",
+      "natures_spirit:tropical_shores",
+      "wythers:jungle_island",
+      "wythers:temperate_island",
+      "wythers:tropical_beach"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

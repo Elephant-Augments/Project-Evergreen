@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "values": [
+        "#project_evergreen:mountains_cold",
+        "#project_evergreen:mountains_hot",
+        "#project_evergreen:mountains_barren",
+        "#project_evergreen:mountains_alive"
+    ]
+}

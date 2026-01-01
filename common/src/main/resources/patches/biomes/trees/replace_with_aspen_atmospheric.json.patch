@@ -1,0 +1,53 @@
+[
+  {
+    "op": "test",
+    "type": "patched:mod_loaded",
+    "value": "atmospheric"
+  },
+  //<---------------------------------------------------Leaves--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/config/foliage_provider/state/Name"
+    },
+    {
+      "op": "replace",
+      "path": "/config/foliage_provider/state/Name",
+      "value": "atmospheric:aspen_leaves"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/config/foliage_provider/states/0/Name"
+    },
+    {
+      "op": "replace",
+      "path": "/config/foliage_provider/states/0/Name",
+      "value": "atmospheric:aspen_leaves"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/config/foliage_provider/states/1/Name"
+    },
+    {
+      "op": "replace",
+      "path": "/config/foliage_provider/states/1/Name",
+      "value": "atmospheric:aspen_leaves"
+    }
+  ],
+  //<---------------------------------------------------Trunk--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "path": "/config/trunk_provider/state/Name"
+    },
+    {
+      "op": "replace",
+      "path": "/config/trunk_provider/state/Name",
+      "value": "atmospheric:aspen_log"
+    }
+  ]
+]

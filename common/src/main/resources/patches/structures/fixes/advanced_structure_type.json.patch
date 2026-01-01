@@ -1,0 +1,15 @@
+[
+  //<---------------------------------------------------Integrated API Generic Structure--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "integrated_api"
+    },
+    {
+      "op": "add",
+      "path": "/type",
+      "value": "integrated_api:generic_structure"
+    }
+  ]
+]

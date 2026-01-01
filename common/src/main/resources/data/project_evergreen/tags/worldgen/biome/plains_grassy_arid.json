@@ -1,0 +1,38 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:savanna",
+        {
+            "id": "terralith:savanna_badlands",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:arid_savanna",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:arid_highlands",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:wooded_drylands",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:steppe",
+            "required": false
+        },
+        {
+            "id": "natures_spirit:xeric_plains",
+            "required": false
+        },
+        {
+            "id": "dreamwoods:arid_plains",
+            "required": false
+        },
+        {
+            "id": "windswept:flowering_savanna",
+            "required": false
+        }
+    ]
+}

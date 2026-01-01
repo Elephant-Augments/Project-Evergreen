@@ -1,0 +1,19 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "minecraft:warm_ocean",
+      "minecraft:lukewarm_ocean",
+      "regions_unexplored:rocky_reef",
+      "wythers:coastal_mangroves"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]

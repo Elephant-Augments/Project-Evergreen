@@ -1,0 +1,861 @@
+[
+  //<---------------------------------------------------Minecraft--------------------------------------------------->
+  [
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "minecraft:bastion/starts"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/biomes",
+        "value": "#minecraft:has_structure/end_city"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/biomes",
+        "value": "#minecraft:has_structure/ruined_portal_nether"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/biomes",
+        "value": "#minecraft:has_structure/stronghold"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/biomes",
+        "value": "#minecraft:has_structure/nether_fossil"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/biomes",
+        "value": "#minecraft:has_structure/nether_fortress"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ]
+  ],
+  //<---------------------------------------------------IDAS--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "idas"
+    },
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "idas:animal_den/foxhound_den"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "idas:nether_pump_camp/nether_pump_camp"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "idas:necromancers_spire/necromancers_spire1"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "idas:ancient_portal/nether_ancient_portal1"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ]
+  ],
+  //<---------------------------------------------------When Dungeons Arise--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_arise"
+    },
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_arise:eerie/aviary/aviary_start"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_arise:underworld/scorched_mines/scorched_mines_start"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_start"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_main"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_main"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ]
+  ],
+  //<---------------------------------------------------Bosses Rise--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "block_factorys_bosses"
+    },
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "block_factorys_bosses:underworld_arena"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ]
+  ],
+  //<---------------------------------------------------Companions--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "companions"
+    },
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "companions:companions_pools/companions_tent_pool"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ]
+  ],
+  //<------------------------------------------------Dungeons Revival------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "dungeons_revival"
+    },
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "dungeons_revival:hell_arena"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ]
+  ],
+  //<------------------------------------------------Species------------------------------------------------>
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "species"
+    },
+    [
+      {
+        "op": "test",
+        "path": "/type",
+        "value": "species:wraptor_coop"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ]
+  ],
+  //<--------------------------------------------------Terramity--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "explorify"
+    },
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "explorify:end_shipwreck/base_plate"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "explorify:bastion_spiral/tower"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ]
+  ],
+  //<---------------------------------------------------Terramity--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "terramity"
+    },
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "terramity:chthonic_dungeon/start_pool"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "terramity:chthonian_breach"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "terramity:chthonic_cathedral"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ]
+  ],
+  //<---------------------------------------------------Create Structures Arise--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "create_structures_arise"
+    },
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "create_structures_arise:darkcastle"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "create_structures_arise:obsidiantemple"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "create_structures_arise:deadlordshouse"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ]
+  ],
+  //<---------------------------------------------------Wabi Sabi Structures--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "wabi_sabi_structures"
+    },
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:chorus_orchard"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:obsidian_egg"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:strider_stable"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:hellish_orphanage"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:warped_ender_claw"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:ender_claw"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:basalt_factory_ruin"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "wabi_sabi_structures:basalt_castle"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ]
+  ],
+  //<---------------------------------------------------Repurposed Structures--------------------------------------------------->
+  [
+    {
+      "op": "test",
+      "type": "patched:mod_loaded",
+      "value": "repurposed_structures"
+    },
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:strongholds/end/start_pool"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:ancient_cities/end/start_pool"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:shipwrecks/warped"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:pyramids/end"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:shipwrecks/crimson"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:ruined_portals/end"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:mineshafts/end/start_pool"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:outposts/end/base_plates"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:shipwrecks/end"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:temples/nether_wasteland"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:pyramids/nether"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:mineshafts/warped/start_pool"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:cities/nether/start_pool"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:temples/nether_warped"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:outposts/crimson/base_plates"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:outposts/warped/base_plates"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:villages/warped/town_centers"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:villages/crimson/town_centers"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:temples/nether_soul"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:temples/nether_basalt"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:ruins/nether/start_pool"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/biomes",
+        "value": "#repurposed_structures:has_structure/monuments/nether"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:outposts/nether_brick/base_plates"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:shipwrecks/nether_bricks"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:mineshafts/nether/start_pool"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:mineshafts/crimson/start_pool"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:ancient_cities/nether/start_pool"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:strongholds/nether/start_pool"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/start_pool",
+        "value": "repurposed_structures:temples/nether_crimson"
+      },
+      {
+        "op": "add",
+        "path": "/__comment",
+        "value": "ignore"
+      }
+    ]
+  ]
+]

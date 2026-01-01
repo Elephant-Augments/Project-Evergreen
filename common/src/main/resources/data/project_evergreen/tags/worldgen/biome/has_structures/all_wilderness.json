@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#project_evergreen:has_structures/wilderness_snow",
+    "#project_evergreen:has_structures/wilderness_arid",
+    "#project_evergreen:has_structures/wilderness_desert",
+    "#project_evergreen:has_structures/wilderness_temperate",
+    "#project_evergreen:has_structures/wilderness_deciduous",
+    "#project_evergreen:has_structures/wilderness_coniferous",
+    "#project_evergreen:has_structures/wilderness_fields",
+    "#project_evergreen:has_structures/wilderness_tropical",
+    "#project_evergreen:has_structures/wilderness_special_autumnal",
+    "#project_evergreen:has_structures/wilderness_special_oriental",
+    "#project_evergreen:special_mediterranean_uninviting",
+    "#project_evergreen:all_special_craggy"
+  ]
+}

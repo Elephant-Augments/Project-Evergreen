@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/ignore_structure_type",
+    "value": true
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/terrain_adaptation",
+    "value": "beard_thin"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "jellyfishing:jellyfish_fields",
+      "required": false
+    }
+  ]
+}

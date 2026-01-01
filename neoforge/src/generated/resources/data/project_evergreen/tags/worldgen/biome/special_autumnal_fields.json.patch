@@ -1,0 +1,21 @@
+[
+  {
+    "op": "add",
+    "path": "/temp_tags",
+    "value": [
+      "regions_unexplored:barley_fields",
+      "regions_unexplored:pumpkin_fields",
+      "natures_spirit:golden_wilds",
+      "dreamwoods:fall_fruitfull_grove",
+      "wythers:autumnal_plains",
+      "wythers:autumnal_forest_edge"
+    ]
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/temp_tags",
+    "path": "/values",
+    "value": "biome_tag"
+  }
+]
