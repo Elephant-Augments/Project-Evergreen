@@ -3,6 +3,7 @@
     "op": "add",
     "path": "/temp_tags",
     "value": [
+      "minecraft:birch_forest",
       "terralith:temperate_highlands",
       "terralith:forested_highlands",
       "terralith:valley_clearing",

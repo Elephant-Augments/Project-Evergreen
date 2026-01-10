@@ -1,0 +1,223 @@
+[
+  {
+    "op": "add",
+    "path": "/structure_id",
+    "value": "repurposed_structures:village_giant_taiga"
+  },
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:structure_biome_redistribution",
+      "value": true
+    },
+    {
+      "op": "test",
+      "type": "project_evergreen:ignore_biome_redistribution",
+      "value": "repurposed_structures:village_giant_taiga",
+      "inverse": true
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:config_value",
+      "from": "/structure_id",
+      "path": "/biomes",
+      "value": "get_biome"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:advanced_structure_type",
+      "path": "/type",
+      "value": "repurposed_structures:village_giant_taiga"
+    },
+    [
+      {
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "repurposed_structures"
+      },
+      {
+        "op": "add",
+        "path": "/type",
+        "value": "repurposed_structures:generic_jigsaw_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "mvs"
+      },
+      {
+        "op": "add",
+        "path": "/type",
+        "value": "moogs_structures:moogs_structures_generic_jigsaw_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "integrated_api"
+      },
+      {
+        "op": "add",
+        "path": "/type",
+        "value": "integrated_api:generic_structure"
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:inland_structure",
+      "value": "repurposed_structures:village_giant_taiga"
+    },
+    {
+      "op": "add",
+      "path": "/cannot_spawn_in_liquid",
+      "value": true
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:enhanced_terrain_adaption",
+      "value": "repurposed_structures:village_giant_taiga"
+    },
+    {
+      "op": "add",
+      "path": "/terrain_adaptation",
+      "value": "beard_thin"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:water_structure",
+      "value": "repurposed_structures:village_giant_taiga"
+    },
+    {
+      "op": "test",
+      "type": "project_evergreen:massive_structure",
+      "value": "repurposed_structures:village_giant_taiga"
+    },
+    {
+      "op": "add",
+      "path": "/valid_biome_radius_check",
+      "value": 2
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:massive_structure",
+      "value": "repurposed_structures:village_giant_taiga"
+    },
+    {
+      "op": "test",
+      "type": "project_evergreen:ignore_biome_radius",
+      "value": "repurposed_structures:village_giant_taiga",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/valid_biome_radius_check",
+      "value": 1
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:structure_rarity_redistribution",
+      "value": true
+    },
+    {
+      "op": "test",
+      "type": "project_evergreen:population_bias_check",
+      "value": "repurposed_structures:village_giant_taiga"
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:config_value",
+      "path": "/valid_biome_radius_check",
+      "value": "population_bias"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:performance_mode",
+      "value": false
+    },
+    {
+      "op": "test",
+      "type": "project_evergreen:flat_check_narrow",
+      "value": "repurposed_structures:village_giant_taiga"
+    },
+    {
+      "op": "add",
+      "path": "/terrain_height_radius_check",
+      "value": 1
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:config_value",
+      "path": "/allowed_terrain_height_range",
+      "value": "narrow_flatness_allowed_elevation"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:performance_mode",
+      "value": false
+    },
+    {
+      "op": "test",
+      "type": "project_evergreen:flat_check_wide",
+      "value": "repurposed_structures:village_giant_taiga"
+    },
+    {
+      "op": "add",
+      "path": "/terrain_height_radius_check",
+      "value": 2
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:config_value",
+      "path": "/allowed_terrain_height_range",
+      "value": "wide_flatness_allowed_elevation"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:performance_mode",
+      "value": false
+    },
+    {
+      "op": "test",
+      "type": "project_evergreen:ignore_biome_radius",
+      "value": "repurposed_structures:village_giant_taiga",
+      "inverse": true
+    },
+    {
+      "op": "test",
+      "type": "project_evergreen:flatness_check_sprawling",
+      "value": "repurposed_structures:village_giant_taiga"
+    },
+    {
+      "op": "add",
+      "path": "/terrain_height_radius_check",
+      "value": 4
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:config_value",
+      "path": "/allowed_terrain_height_range",
+      "value": "sprawling_flatness_allowed_elevation"
+    }
+  ]
+]

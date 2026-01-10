@@ -47,6 +47,18 @@
       {
         "op": "test",
         "type": "patched:mod_loaded",
+        "value": "mvs"
+      },
+      {
+        "op": "add",
+        "path": "/type",
+        "value": "moogs_structures:moogs_structures_generic_jigsaw_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "type": "patched:mod_loaded",
         "value": "integrated_api"
       },
       {
@@ -100,7 +112,7 @@
   [
     {
       "op": "test",
-      "type": "project_evergreen:flatness_check_sprawling",
+      "type": "project_evergreen:massive_structure",
       "value": "imst:alpine_house"
     },
     {
@@ -205,7 +217,7 @@
       "op": "paste",
       "type": "project_evergreen:config_value",
       "path": "/allowed_terrain_height_range",
-      "value": "narrow_flatness_allowed_elevation"
+      "value": "sprawling_flatness_allowed_elevation"
     }
   ]
 ]

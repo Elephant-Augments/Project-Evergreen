@@ -3,6 +3,7 @@
     "op": "add",
     "path": "/temp_tags",
     "value": [
+      "minecraft:old_growth_birch_forest",
       "regions_unexplored:barley_fields",
       "regions_unexplored:pumpkin_fields",
       "natures_spirit:golden_wilds",

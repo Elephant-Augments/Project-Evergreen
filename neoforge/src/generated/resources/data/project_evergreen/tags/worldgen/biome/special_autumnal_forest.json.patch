@@ -3,8 +3,6 @@
     "op": "add",
     "path": "/temp_tags",
     "value": [
-      "minecraft:birch_forest",
-      "minecraft:old_growth_birch_forest",
       "regions_unexplored:autumnal_maple_forest",
       "natures_spirit:maple_woodlands",
       "regions_unexplored:silver_birch_forest",
