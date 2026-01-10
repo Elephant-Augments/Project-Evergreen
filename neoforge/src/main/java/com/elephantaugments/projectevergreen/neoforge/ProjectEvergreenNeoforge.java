@@ -1,11 +1,14 @@
-package com.elephantaugments.projectevergreen;
+package com.elephantaugments.projectevergreen.neoforge;
 
+import com.elephantaugments.projectevergreen.common.data.WorldgenDataProvider;
+import net.neoforged.fml.event.lifecycle.FMLConstructModEvent;
+import net.neoforged.neoforge.registries.RegisterEvent;
 import org.slf4j.Logger;
 
-import com.elephantaugments.projectevergreen.command.FormatStructureEntriesCommand;
-import com.elephantaugments.projectevergreen.config.ProjectEvergreenConfig;
-import com.elephantaugments.projectevergreen.datagen.DataSources;
-import com.elephantaugments.projectevergreen.datagen.TestConditions;
+import com.elephantaugments.projectevergreen.common.command.FormatStructureEntriesCommand;
+import com.elephantaugments.projectevergreen.neoforge.config.ProjectEvergreenConfig;
+import com.elephantaugments.projectevergreen.neoforge.datagen.DataSources;
+import com.elephantaugments.projectevergreen.neoforge.datagen.TestConditions;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.mojang.logging.LogUtils;
@@ -36,6 +39,7 @@ public class ProjectEvergreenNeoforge {
         NeoForge.EVENT_BUS.register(this);
         NeoForge.EVENT_BUS.addListener(this::registerCommands);
 
+
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, ProjectEvergreenConfig.COMMON_CONFIG, MODID + "_common.toml");
 
@@ -46,11 +50,12 @@ public class ProjectEvergreenNeoforge {
     private void commonSetup(FMLCommonSetupEvent event) {
         TestConditions.registerConditions();
         DataSources.registerDataSources();
+        //WorldgenDataProvider.loadWorldgenData();
     }
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-        
+
     }
 
     private void registerCommands(RegisterCommandsEvent event) {

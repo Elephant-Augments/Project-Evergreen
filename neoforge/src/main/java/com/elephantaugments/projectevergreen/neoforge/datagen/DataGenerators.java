@@ -1,6 +1,6 @@
-package com.elephantaugments.projectevergreen.datagen;
+package com.elephantaugments.projectevergreen.neoforge.datagen;
 
-import com.elephantaugments.projectevergreen.ProjectEvergreen;
+import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import net.enderturret.patchedmod.data.PatchProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;

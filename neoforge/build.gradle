@@ -53,7 +53,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'maven.modrinth:patched:7.4.1+1.21.1-neoforge'
+    implementation 'maven.modrinth:patched:7.3.3+1.21.1-neoforge'
 }
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
