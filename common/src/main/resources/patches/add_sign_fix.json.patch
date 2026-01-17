@@ -1,0 +1,141 @@
+{
+  "op": "add",
+  "path": "/processors/-",
+  "value": {
+    "processor_type": "minecraft:block_ignore",
+    "blocks": [
+      {
+        "Name": "minecraft:acacia_hanging_sign"
+      },
+      {
+        "Name": "minecraft:acacia_sign"
+      },
+      {
+        "Name": "minecraft:acacia_wall_hanging_sign"
+      },
+      {
+        "Name": "minecraft:acacia_wall_sign"
+      },
+      {
+        "Name": "minecraft:bamboo_hanging_sign"
+      },
+      {
+        "Name": "minecraft:bamboo_sign"
+      },
+      {
+        "Name": "minecraft:bamboo_wall_hanging_sign"
+      },
+      {
+        "Name": "minecraft:bamboo_wall_sign"
+      },
+      {
+        "Name": "minecraft:birch_hanging_sign"
+      },
+      {
+        "Name": "minecraft:birch_sign"
+      },
+      {
+        "Name": "minecraft:birch_wall_hanging_sign"
+      },
+      {
+        "Name": "minecraft:birch_wall_sign"
+      },
+      {
+        "Name": "minecraft:cherry_hanging_sign"
+      },
+      {
+        "Name": "minecraft:cherry_sign"
+      },
+      {
+        "Name": "minecraft:cherry_wall_hanging_sign"
+      },
+      {
+        "Name": "minecraft:cherry_wall_sign"
+      },
+      {
+        "Name": "minecraft:crimson_hanging_sign"
+      },
+      {
+        "Name": "minecraft:crimson_sign"
+      },
+      {
+        "Name": "minecraft:crimson_wall_hanging_sign"
+      },
+      {
+        "Name": "minecraft:crimson_wall_sign"
+      },
+      {
+        "Name": "minecraft:dark_oak_hanging_sign"
+      },
+      {
+        "Name": "minecraft:dark_oak_sign"
+      },
+      {
+        "Name": "minecraft:dark_oak_wall_hanging_sign"
+      },
+      {
+        "Name": "minecraft:dark_oak_wall_sign"
+      },
+      {
+        "Name": "minecraft:jungle_hanging_sign"
+      },
+      {
+        "Name": "minecraft:jungle_sign"
+      },
+      {
+        "Name": "minecraft:jungle_wall_hanging_sign"
+      },
+      {
+        "Name": "minecraft:jungle_wall_sign"
+      },
+      {
+        "Name": "minecraft:mangrove_hanging_sign"
+      },
+      {
+        "Name": "minecraft:mangrove_sign"
+      },
+      {
+        "Name": "minecraft:mangrove_wall_hanging_sign"
+      },
+      {
+        "Name": "minecraft:mangrove_wall_sign"
+      },
+      {
+        "Name": "minecraft:oak_hanging_sign"
+      },
+      {
+        "Name": "minecraft:oak_sign"
+      },
+      {
+        "Name": "minecraft:oak_wall_hanging_sign"
+      },
+      {
+        "Name": "minecraft:oak_wall_sign"
+      },
+      {
+        "Name": "minecraft:spruce_hanging_sign"
+      },
+      {
+        "Name": "minecraft:spruce_sign"
+      },
+      {
+        "Name": "minecraft:spruce_wall_hanging_sign"
+      },
+      {
+        "Name": "minecraft:spruce_wall_sign"
+      },
+      {
+        "Name": "minecraft:warped_hanging_sign"
+      },
+      {
+        "Name": "minecraft:warped_sign"
+      },
+      {
+        "Name": "minecraft:warped_wall_hanging_sign"
+      },
+      {
+        "Name": "minecraft:warped_wall_sign"
+      }
+    ]
+  }
+}
