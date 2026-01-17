@@ -1,4 +1,4 @@
-package com.example.examplemod.platform;
+package com.elephantaugments.projectevergreen.fabric.platform;
 
 import com.elephantaugments.projectevergreen.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;

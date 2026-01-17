@@ -1,8 +1,6 @@
 package com.elephantaugments.projectevergreen.neoforge;
 
-import com.elephantaugments.projectevergreen.common.data.WorldgenDataProvider;
-import net.neoforged.fml.event.lifecycle.FMLConstructModEvent;
-import net.neoforged.neoforge.registries.RegisterEvent;
+import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import org.slf4j.Logger;
 
 import com.elephantaugments.projectevergreen.common.command.FormatStructureEntriesCommand;
@@ -32,7 +30,8 @@ public class ProjectEvergreenNeoforge {
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public ProjectEvergreenNeoforge(IEventBus modEventBus, ModContainer modContainer) {
-        
+
+        ProjectEvergreen.init();
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ProjectEvergreen) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.

@@ -1,4 +1,4 @@
-package com.example.examplemod.mixin;
+package com.elephantaugments.projectevergreen.fabric.mixin;
 
 import com.example.examplemod.Constants;
 import net.minecraft.client.Minecraft;

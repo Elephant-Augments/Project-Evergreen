@@ -4,9 +4,7 @@
   "package": "com.elephantaugments.projectevergreen.common.mixin",
   "refmap": "${mod_id}.refmap.json",
   "compatibilityLevel": "JAVA_18",
-  "mixins": [
-    "ResourcePackManagerAccessor"
-  ],
+  "mixins": [],
   "client": [],
   "server": [],
   "injectors": {
