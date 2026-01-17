@@ -5,15 +5,7 @@
     "value": [
       "minecraft:badlands",
       "minecraft:eroded_badlands",
-      "terralith:desert_canyon",
-      "terralith:sandstone_valley",
-      "terralith:ancient_sands",
-      "natures_spirit:stratified_desert",
-      "wythers:ayers_rock",
-      "wythers:badlands_canyon",
-      "wythers:badlands_desert",
-      "wythers:red_desert",
-      "wythers:red_rock_canyon"
+      "natures_spirit:stratified_desert"
     ]
   },
   {
@@ -22,5 +14,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

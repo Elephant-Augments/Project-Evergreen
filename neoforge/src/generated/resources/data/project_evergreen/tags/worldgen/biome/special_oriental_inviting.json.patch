@@ -4,10 +4,7 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:cherry_grove",
-      "terralith:sakura_valley",
-      "terralith:sakura_grove",
-      "regions_unexplored:rocky_meadow",
-      "wythers:sakura_forest"
+      "regions_unexplored:rocky_meadow"
     ]
   },
   {
@@ -16,5 +13,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

@@ -4,11 +4,7 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:beach",
-      "dreamwoods:azure_cove",
-      "natures_spirit:tropical_shores",
-      "wythers:jungle_island",
-      "wythers:temperate_island",
-      "wythers:tropical_beach"
+      "natures_spirit:tropical_shores"
     ]
   },
   {
@@ -17,5 +13,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

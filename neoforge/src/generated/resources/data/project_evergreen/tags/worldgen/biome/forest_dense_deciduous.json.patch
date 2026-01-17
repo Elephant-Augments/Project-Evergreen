@@ -4,9 +4,6 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:forest",
-      "terralith:birch_taiga",
-      "terralith:lush_valley",
-      "terralith:blooming_valley",
       "regions_unexplored:deciduous_forest",
       "natures_spirit:sugi_forest",
       "regions_unexplored:willow_forest",
@@ -14,25 +11,7 @@
       "natures_spirit:redwood_forest",
       "regions_unexplored:maple_forest",
       "regions_unexplored:silver_birch_forest",
-      "natures_spirit:aspen_forest",
-      "dreamwoods:redwood_forest",
-      "dreamwoods:temperate_hemlock_rainforest",
-      "dreamwoods:wet_larch_forest",
-      "dreamwoods:golden_aspen_spinney",
-      "dreamwoods:wooded_slopes",
-      "dreamwoods:weeping_grove",
-      "windswept:chestnut_forest",
-      "wythers:ancient_copper_beech_forest",
-      "wythers:ancient_emerald_beech_forest",
-      "wythers:ancient_golden_beech_forest",
-      "wythers:ancient_moss_forest",
-      "wythers:forested_highlands",
-      "wythers:cool_forest",
-      "wythers:giant_sequoia_forest",
-      "wythers:maple_mountains",
-      "wythers:temperate_rainforest",
-      "wythers:temperate_rainforest_crags",
-      "wythers:warm_birch_forest"
+      "natures_spirit:aspen_forest"
     ]
   },
   {
@@ -41,5 +20,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

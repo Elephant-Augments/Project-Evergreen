@@ -5,19 +5,11 @@
     "value": [
       "minecraft:plains",
       "minecraft:sunflower_plains",
-      "terralith:highlands",
       "natures_spirit:prairie",
       "regions_unexplored:grassland",
       "regions_unexplored:clover_plains",
       "natures_spirit:heather_fields",
-      "natures_spirit:alpine_clearings",
-      "dreamwoods:lush_grassland",
-      "dreamwoods:lush_meadow",
-      "dreamwoods:poplar_fields",
-      "dreamwoods:prairie",
-      "wythers:cool_plains",
-      "wythers:harvest_fields",
-      "wythers:highland_plains"
+      "natures_spirit:alpine_clearings"
     ]
   },
   {
@@ -26,5 +18,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

@@ -8,21 +8,7 @@
       "regions_unexplored:fungal_fen",
       "regions_unexplored:fen",
       "regions_unexplored:marsh",
-      "natures_spirit:marsh",
-      "dreamwoods:weeping_grove",
-      "dreamwoods:old_growth_swampland",
-      "dreamwoods:morass",
-      "wythers:ancient_mossy_swamp",
-      "wythers:ancient_oak_swamp",
-      "wythers:autumnal_swamp",
-      "wythers:berry_bog",
-      "wythers:billabong",
-      "wythers:birch_swamp",
-      "wythers:fen",
-      "wythers:flooded_temperate_rainforest",
-      "wythers:marsh",
-      "wythers:waterlily_swamp",
-      "wythers:old_growth_taiga_swamp"
+      "natures_spirit:marsh"
     ]
   },
   {
@@ -31,5 +17,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

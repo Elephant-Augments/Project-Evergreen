@@ -4,14 +4,8 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:flower_forest",
-      "terralith:lavender_forest",
-      "terralith:lavender_valley",
-      "terralith:moonlight_valley",
       "natures_spirit:wisteria_forest",
-      "natures_spirit:floral_ridges",
-      "dreamwoods:blooming_grove",
-      "wythers:autumnal_flower_forest",
-      "wythers:spring_flower_forest"
+      "natures_spirit:floral_ridges"
     ]
   },
   {
@@ -20,5 +14,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

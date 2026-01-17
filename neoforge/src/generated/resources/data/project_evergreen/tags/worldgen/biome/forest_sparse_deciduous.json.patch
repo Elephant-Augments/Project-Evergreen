@@ -4,22 +4,13 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:birch_forest",
-      "terralith:temperate_highlands",
-      "terralith:forested_highlands",
-      "terralith:valley_clearing",
       "regions_unexplored:orchard",
       "regions_unexplored:temperate_grove",
       "regions_unexplored:sparse_redwoods",
       "regions_unexplored:prairie",
       "natures_spirit:cypress_fields",
       "natures_spirit:oak_savanna",
-      "natures_spirit:floral_ridges",
-      "dreamwoods:spinney",
-      "dreamwoods:poplar_grove",
-      "dreamwoods:poplar_slopes",
-      "windswept:lavender_hills",
-      "wythers:forest_edge",
-      "wythers:cool_forest_edge"
+      "natures_spirit:floral_ridges"
     ]
   },
   {
@@ -28,5 +19,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

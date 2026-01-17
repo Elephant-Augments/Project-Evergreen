@@ -5,30 +5,9 @@
     "value": [
       "minecraft:windswept_hills",
       "minecraft:windswept_forest",
-      "terralith:basalt_cliffs",
-      "terralith:granite_cliffs",
-      "terralith:white_cliffs",
-      "terralith:yosemite_cliffs",
       "natures_spirit:alpine_highlands",
       "natures_spirit:windswept_sugi_forest",
-      "natures_spirit:white_cliffs",
-      "dreamwoods:moor",
-      "dreamwoods:highlands",
-      "dreamwoods:wooded_slopes",
-      "dreamwoods:spruce_slopes",
-      "dreamwoods:calcite_plateau",
-      "dreamwoods:thermal_springs",
-      "dreamwoods:boskage",
-      "wythers:andesite_crags",
-      "wythers:aspen_crags",
-      "wythers:autumnal_crags",
-      "wythers:calcite_coast",
-      "wythers:granite_canyon",
-      "wythers:old_growth_taiga_crags",
-      "wythers:temperate_rainforest_crags",
-      "wythers:taiga_crags",
-      "wythers:stony_canyon",
-      "wythers:thermal_taiga_crags"
+      "natures_spirit:white_cliffs"
     ]
   },
   {
@@ -37,5 +16,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

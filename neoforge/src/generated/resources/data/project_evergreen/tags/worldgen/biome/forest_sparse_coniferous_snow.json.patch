@@ -4,14 +4,7 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:snowy_plains",
-      "terralith:highlands",
-      "terralith:shield",
-      "terralith:alpine_highlands",
-      "terralith:forested_highlands",
-      "terralith:temperate_highlands",
-      "regions_unexplored:icy_heights",
-      "dreamwoods:fall_snowy_grove",
-      "dreamwoods:snowy_forest"
+      "regions_unexplored:icy_heights"
     ]
   },
   {
@@ -20,5 +13,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

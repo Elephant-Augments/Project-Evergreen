@@ -4,11 +4,7 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:snowy_plains",
-      "terralith:mountain_steppe",
-      "natures_spirit:tundra",
-      "dreamwoods:fall_snowy_grove",
-      "wythers:cold_plains",
-      "wythers:tundra"
+      "natures_spirit:tundra"
     ]
   },
   {
@@ -17,5 +13,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

@@ -4,9 +4,7 @@
     "path": "/temp_tags",
     "value": [
       "natures_spirit:cypress_fields",
-      "natures_spirit:lavender_fields",
-      "windswept:flowering_savanna",
-      "wythers:mediterranean_island"
+      "natures_spirit:lavender_fields"
     ]
   },
   {
@@ -15,5 +13,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

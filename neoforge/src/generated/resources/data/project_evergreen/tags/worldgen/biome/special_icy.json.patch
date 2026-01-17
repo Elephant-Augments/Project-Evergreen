@@ -4,14 +4,7 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:ice_spikes",
-      "terralith:glacial_chasm",
-      "terralith:snowy_badlands",
-      "regions_unexplored:spires",
-      "dreamwoods:ice_abyss",
-      "dreamwoods:ice_grove",
-      "wythers:glacial_cliffs",
-      "wythers:icy_volcano",
-      "wythers:icy_crags"
+      "regions_unexplored:spires"
     ]
   },
   {
@@ -20,5 +13,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

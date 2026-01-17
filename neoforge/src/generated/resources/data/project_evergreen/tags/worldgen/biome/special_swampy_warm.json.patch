@@ -4,20 +4,9 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:mangrove_swamp",
-      "wildbackport:mangrove_swamp",
       "regions_unexplored:bayou",
       "regions_unexplored:old_growth_bayou",
-      "natures_spirit:tropical_basin",
-      "dreamwoods:flooded_rainforest",
-      "dreamwoods:bayou",
-      "wythers:bayou",
-      "wythers:bamboo_jungle_swamp",
-      "wythers:bamboo_swamp",
-      "wythers:coastal_mangroves",
-      "wythers:dripleaf_swamp",
-      "wythers:flooded_jungle",
-      "wythers:flooded_rainforest",
-      "wythers:pantanal"
+      "natures_spirit:tropical_basin"
     ]
   },
   {
@@ -26,5 +15,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

@@ -5,10 +5,7 @@
     "value": [
       "minecraft:river",
       "regions_unexplored:cold_river",
-      "regions_unexplored:muddy_river",
-      "wythers:gravelly_river",
-      "wythers:lantern_river",
-      "wythers:savanna_river"
+      "regions_unexplored:muddy_river"
     ]
   },
   {
@@ -17,5 +14,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

@@ -6,16 +6,7 @@
       "regions_unexplored:autumnal_maple_forest",
       "natures_spirit:maple_woodlands",
       "regions_unexplored:silver_birch_forest",
-      "natures_spirit:aspen_forest",
-      "dreamwoods:autumnal_wood",
-      "dreamwoods:ruby_maple_forest",
-      "dreamwoods:seasonal_grove",
-      "wythers:ancient_copper_beech_forest",
-      "wythers:ancient_emerald_beech_forest",
-      "wythers:ancient_golden_beech_forest",
-      "wythers:autumnal_birch_forest",
-      "wythers:autumnal_flower_forest",
-      "wythers:autumnal_forest"
+      "natures_spirit:aspen_forest"
     ]
   },
   {
@@ -24,5 +15,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

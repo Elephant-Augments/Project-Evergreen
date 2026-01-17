@@ -5,8 +5,7 @@
     "value": [
       "natures_spirit:shrubby_highlands",
       "natures_spirit:woody_highlands",
-      "natures_spirit:xeric_plains",
-      "wythers:mediterranean_island_thermal_springs"
+      "natures_spirit:xeric_plains"
     ]
   },
   {
@@ -15,5 +14,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

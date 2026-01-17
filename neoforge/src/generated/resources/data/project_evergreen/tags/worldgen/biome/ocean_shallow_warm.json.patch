@@ -5,8 +5,7 @@
     "value": [
       "minecraft:warm_ocean",
       "minecraft:lukewarm_ocean",
-      "regions_unexplored:rocky_reef",
-      "wythers:coastal_mangroves"
+      "regions_unexplored:rocky_reef"
     ]
   },
   {
@@ -15,5 +14,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

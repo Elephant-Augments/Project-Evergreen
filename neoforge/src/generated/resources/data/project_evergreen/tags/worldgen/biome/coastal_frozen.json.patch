@@ -3,12 +3,7 @@
     "op": "add",
     "path": "/temp_tags",
     "value": [
-      "minecraft:snowy_beach",
-      "dreamwoods:frozen_shore",
-      "wythers:cold_stony_shore",
-      "wythers:frigid_island",
-      "wythers:frozen_island",
-      "wythers:icy_shore"
+      "minecraft:snowy_beach"
     ]
   },
   {
@@ -17,5 +12,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

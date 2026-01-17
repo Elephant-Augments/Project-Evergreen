@@ -3,8 +3,7 @@
     "op": "add",
     "path": "/temp_tags",
     "value": [
-      "minecraft:frozen_river",
-      "wythers:icy_river"
+      "minecraft:frozen_river"
     ]
   },
   {
@@ -13,5 +12,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

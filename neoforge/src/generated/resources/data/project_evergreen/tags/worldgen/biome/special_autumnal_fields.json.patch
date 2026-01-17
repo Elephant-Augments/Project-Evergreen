@@ -7,9 +7,7 @@
       "regions_unexplored:barley_fields",
       "regions_unexplored:pumpkin_fields",
       "natures_spirit:golden_wilds",
-      "dreamwoods:fall_fruitfull_grove",
-      "wythers:autumnal_plains",
-      "wythers:autumnal_forest_edge"
+      "natures_spirit:marigold_meadows"
     ]
   },
   {
@@ -18,5 +16,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

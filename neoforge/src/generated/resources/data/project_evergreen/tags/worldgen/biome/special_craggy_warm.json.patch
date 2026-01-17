@@ -4,14 +4,7 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:windswept_savanna",
-      "minecraft:savanna_plateau",
-      "terralith:fractured_savanna",
-      "terralith:amethyst_canyon",
-      "wythers:jungle_canyon",
-      "wythers:tropical_forest_canyon",
-      "wythers:warm_stony_shore",
-      "wythers:windswept_jungle",
-      "wythers:tsingy_forest"
+      "minecraft:savanna_plateau"
     ]
   },
   {
@@ -20,5 +13,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

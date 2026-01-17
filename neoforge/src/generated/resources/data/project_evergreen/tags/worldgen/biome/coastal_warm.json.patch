@@ -3,13 +3,7 @@
     "op": "add",
     "path": "/temp_tags",
     "value": [
-      "dreamwoods:azure_cove",
-      "natures_spirit:tropical_shores",
-      "wythers:black_beach",
-      "wythers:deepslate_shore",
-      "wythers:desert_beach",
-      "wythers:jungle_island",
-      "wythers:tropical_beach"
+      "natures_spirit:tropical_shores"
     ]
   },
   {
@@ -18,5 +12,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

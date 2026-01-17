@@ -5,13 +5,7 @@
     "value": [
       "minecraft:beach",
       "minecraft:stony_shore",
-      "terralith:gravel_beach",
-      "regions_unexplored:gravel_beach",
-      "dreamwoods:gravel_beach",
-      "dreamwoods:white_shore",
-      "wythers:calcite_coast",
-      "wythers:gravelly_beach",
-      "wythers:temperate_island"
+      "regions_unexplored:gravel_beach"
     ]
   },
   {
@@ -20,5 +14,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

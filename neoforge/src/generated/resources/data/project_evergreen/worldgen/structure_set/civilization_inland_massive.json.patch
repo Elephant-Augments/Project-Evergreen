@@ -35,12 +35,12 @@
     {
       "op": "add",
       "path": "/placement/spacing",
-      "value": 35
+      "value": 50
     },
     {
       "op": "add",
       "path": "/placement/separation",
-      "value": 30
+      "value": 45
     }
   ],
   [
@@ -86,12 +86,12 @@
     {
       "op": "add",
       "path": "/placement/spacing",
-      "value": 40
+      "value": 45
     },
     {
       "op": "add",
       "path": "/placement/separation",
-      "value": 35
+      "value": 40
     }
   ],
   [
@@ -115,7 +115,7 @@
     {
       "op": "test",
       "path": "/structure_id",
-      "value": "project_evergreen:underground_massive"
+      "value": "project_evergreen:underground_sprawling"
     },
     {
       "op": "add",
@@ -171,12 +171,12 @@
     {
       "op": "add",
       "path": "/placement/spacing",
-      "value": 40
+      "value": 50
     },
     {
       "op": "add",
       "path": "/placement/separation",
-      "value": 35
+      "value": 45
     }
   ],
   [
@@ -362,7 +362,7 @@
     {
       "op": "test",
       "path": "/structure_id",
-      "value": "project_evergreen:underground_massive"
+      "value": "project_evergreen:underground_sprawling"
     },
     {
       "op": "paste",

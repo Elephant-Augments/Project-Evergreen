@@ -4,17 +4,8 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:meadow",
-      "terralith:yosemite_lowlands",
-      "terralith:shield_clearing",
-      "terralith:alpine_highlands",
-      "terralith:forested_highlands",
-      "terralith:temperate_highlands",
       "regions_unexplored:towering_cliffs",
-      "natures_spirit:coniferous_covert",
-      "dreamwoods:taiga_shield",
-      "dreamwoods:alpine_fields",
-      "dreamwoods:spruce_lowlands",
-      "wythers:birch_taiga"
+      "natures_spirit:coniferous_covert"
     ]
   },
   {
@@ -23,5 +14,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

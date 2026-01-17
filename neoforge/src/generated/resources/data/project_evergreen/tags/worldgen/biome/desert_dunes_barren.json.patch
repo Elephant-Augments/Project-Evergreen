@@ -4,13 +4,8 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:desert",
-      "terralith:desert_spires",
-      "terralith:white_mesa",
       "natures_spirit:scorched_dunes",
-      "natures_spirit:drylands",
-      "wythers:deep_desert",
-      "wythers:desert_pinnacles",
-      "wythers:sand_dunes"
+      "natures_spirit:drylands"
     ]
   },
   {
@@ -19,5 +14,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

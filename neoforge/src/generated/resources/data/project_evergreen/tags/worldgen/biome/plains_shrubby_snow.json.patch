@@ -4,14 +4,7 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:grove",
-      "terralith:cold_shrubland",
-      "terralith:alpine_grove",
-      "regions_unexplored:frozen_tundra",
-      "windswept:snowy_chestnut_forest",
-      "dreamwoods:tundra",
-      "windswept:tundra",
-      "wythers:crimson_tundra",
-      "wythers:snowy_tundra"
+      "regions_unexplored:frozen_tundra"
     ]
   },
   {
@@ -20,5 +13,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

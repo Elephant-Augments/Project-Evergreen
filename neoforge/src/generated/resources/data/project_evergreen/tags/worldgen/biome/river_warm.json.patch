@@ -3,15 +3,7 @@
     "op": "add",
     "path": "/temp_tags",
     "value": [
-      "terralith:warm_river",
-      "regions_unexplored:tropical_river",
-      "dreamwoods:tropical_river",
-      "wythers:badlands_river",
-      "wythers:black_river",
-      "wythers:deep_desert_river",
-      "wythers:desert_river",
-      "wythers:jungle_river",
-      "wythers:tropical_forest_river"
+      "regions_unexplored:tropical_river"
     ]
   },
   {
@@ -20,5 +12,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

@@ -5,14 +5,8 @@
     "value": [
       "minecraft:wooded_badlands",
       "natures_spirit:woody_highlands",
-      "terralith:red_oasis",
-      "terralith:arid_highlands",
-      "terralith:savanna_badlands",
-      "terralith:ashen_savanna",
-      "terralith:bryce_canyon",
       "natures_spirit:blooming_dunes",
-      "natures_spirit:lively_dunes",
-      "dreamwoods:grassy_badlands"
+      "natures_spirit:lively_dunes"
     ]
   },
   {
@@ -21,5 +15,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

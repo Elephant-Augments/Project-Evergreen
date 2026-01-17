@@ -5,7 +5,6 @@
     "value": [
       "minecraft:meadow",
       "minecraft:sunflower_plains",
-      "terralith:blooming_plateau",
       "regions_unexplored:flower_fields",
       "regions_unexplored:rocky_meadow",
       "natures_spirit:carnation_fields",
@@ -13,14 +12,7 @@
       "regions_unexplored:poppy_fields",
       "natures_spirit:blooming_highlands",
       "natures_spirit:flowering_shrubland",
-      "natures_spirit:marigold_meadows",
-      "dreamwoods:alpine_fields",
-      "dreamwoods:lush_grassland",
-      "dreamwoods:lush_meadow",
-      "windswept:lavender_fields",
-      "windswept:lavender_hills",
-      "wythers:lapacho_plains",
-      "wythers:spring_flower_fields"
+      "natures_spirit:marigold_meadows"
     ]
   },
   {
@@ -29,5 +21,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

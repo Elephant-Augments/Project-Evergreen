@@ -4,19 +4,8 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:stony_peaks",
-      "terralith:painted_mountains",
-      "terralith:volcanic_peaks",
-      "terralith:volcanic_crater",
-      "terralith:caldera",
-      "terralith:savanna_slopes",
-      "terralith:jungle_mountains",
       "regions_unexplored:arid_mountains",
-      "natures_spirit:dusty_slopes",
-      "dreamwoods:volcano_fields",
-      "dreamwoods:volcano_slopes",
-      "wythers:icy_volcano",
-      "wythers:volcano",
-      "wythers:tropical_volcano"
+      "natures_spirit:dusty_slopes"
     ]
   },
   {
@@ -25,5 +14,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

@@ -4,16 +4,8 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:desert",
-      "terralith:desert_oasis",
       "regions_unexplored:joshua_desert",
-      "regions_unexplored:saguaro_desert",
-      "dreamwoods:arid_plains",
-      "wythers:cactus_desert",
-      "wythers:danakil_desert",
-      "wythers:desert_lakes",
-      "wythers:guelta",
-      "wythers:outback_desert",
-      "wythers:wooded_desert"
+      "regions_unexplored:saguaro_desert"
     ]
   },
   {
@@ -22,5 +14,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

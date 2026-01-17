@@ -4,21 +4,11 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:dark_forest",
-      "ars_nouveau:archwood_forest",
-      "terralith:cloud_forest",
-      "terralith:haze_mountain",
-      "terralith:moonlight_valley",
-      "terralith:moonlight_grove",
-      "terralith:mirage_isles",
       "regions_unexplored:blackwood_taiga",
       "regions_unexplored:fungal_fen",
       "regions_unexplored:flower_fields",
       "regions_unexplored:mauve_hills",
-      "natures_spirit:wisteria_forest",
-      "dreamwoods:elder_woods",
-      "dreamwoods:sacred_giants_wood",
-      "dreamwoods:thaumic_grove",
-      "dreamwoods:twilight_wetlands"
+      "natures_spirit:wisteria_forest"
     ]
   },
   {
@@ -27,5 +17,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

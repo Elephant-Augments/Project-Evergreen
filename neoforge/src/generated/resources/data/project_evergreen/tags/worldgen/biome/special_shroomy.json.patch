@@ -4,13 +4,8 @@
     "path": "/temp_tags",
     "value": [
       "minecraft:mushroom_fields",
-      "terralith:warped_mesa",
-      "terralith:orchid_swamp",
       "regions_unexplored:fungal_fen",
-      "regions_unexplored:blackwood_taiga",
-      "dreamwoods:thaumic_grove",
-      "dreamwoods:twilight_wetlands",
-      "wythers:mushroom_island"
+      "regions_unexplored:blackwood_taiga"
     ]
   },
   {
@@ -19,5 +14,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]

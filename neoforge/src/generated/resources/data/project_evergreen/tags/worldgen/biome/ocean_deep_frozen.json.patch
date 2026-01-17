@@ -3,8 +3,7 @@
     "op": "add",
     "path": "/temp_tags",
     "value": [
-      "minecraft:deep_frozen_ocean",
-      "wythers:deep_icy_ocean"
+      "minecraft:deep_frozen_ocean"
     ]
   },
   {
@@ -13,5 +12,9 @@
     "from": "/temp_tags",
     "path": "/values",
     "value": "biome_tag"
+  },
+  {
+    "op": "remove",
+    "path": "/temp_tags"
   }
 ]
