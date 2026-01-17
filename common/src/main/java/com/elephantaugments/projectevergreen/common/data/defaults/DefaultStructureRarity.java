@@ -1,0 +1,924 @@
+package com.elephantaugments.projectevergreen.common.data.defaults;
+
+import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
+import com.elephantaugments.projectevergreen.common.data.PEStructure;
+import com.elephantaugments.projectevergreen.common.data.PEStructureSet;
+import com.elephantaugments.projectevergreen.common.data.patchable.PatchableStructures;
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.ImmutableList;
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.*;
+
+public class DefaultStructureRarity {
+
+	public enum Size {
+		DECO, MEDIUM, MASSIVE, SPRAWLING;
+	}
+	public static Map<String, Size> sizeMap = Map.of(
+		"deco", Size.DECO,
+		"medium", Size.MEDIUM,
+		"massive", Size.MASSIVE,
+		"sprawling", Size.SPRAWLING
+	);
+
+	public static final String CIVILIZATION_SPRAWLING = "project_evergreen:civilization_inland_sprawling";
+	public static final String CIVILIZATION_MASSIVE = "project_evergreen:civilization_inland_massive";
+    public static final String CIVILIZATION_MEDIUM = "project_evergreen:civilization_inland_medium";
+    public static final String CIVILIZATION_DECO = "project_evergreen:civilization_inland_deco";
+    public static final String WILDERNESS_SPRAWLING = "project_evergreen:wilderness_inland_sprawling";
+    public static final String WILDERNESS_MASSIVE = "project_evergreen:wilderness_inland_massive";
+    public static final String WILDERNESS_MEDIUM = "project_evergreen:wilderness_inland_medium";
+    public static final String WILDERNESS_DECO = "project_evergreen:wilderness_inland_deco";
+    public static final String OCEAN_FLOATING_MASSIVE = "project_evergreen:ocean_floating_massive";
+    public static final String OCEAN_UNDERWATER_MASSIVE = "project_evergreen:ocean_underwater_massive";
+    public static final String OCEAN_ALL_MEDIUM = "project_evergreen:ocean_all_medium";
+    public static final String UNDERGROUND_SPRAWLING = "project_evergreen:underground_sprawling";
+    public static final String SKY_MASSIVE = "project_evergreen:sky_massive";
+
+	/**
+	 * Instantiates all Structure Set objects and maps them into an easily accessible Multimap.
+	 * @return A Multimap of Structure Set objects mapped to their id.
+	 */
+	public static LinkedHashMap<String, PEStructureSet> mapStructureSetByID() {
+		LinkedHashMap<String, PEStructureSet> structureSetsByID = new LinkedHashMap<>();
+		addSetToMap(structureSetsByID, new PEStructureSet(
+				DefaultStructureRarity.CIVILIZATION_MASSIVE,
+				65,
+				55
+		));
+		structureSetsByID.get(DefaultStructureRarity.CIVILIZATION_MASSIVE)
+				.appendStructures(DefaultStructureRarity.CIVILIZATION_SPRAWLING);
+		addSetToMap(structureSetsByID, new PEStructureSet(
+				DefaultStructureRarity.CIVILIZATION_MASSIVE,
+				65,
+				55
+		));
+
+		ProjectEvergreen.LOGGER.info("Successfully mapped " + structureSetsByID.size() + " structure sets.");
+		return structureSetsByID;
+	}
+
+	public static void addSetToMap(LinkedHashMap<String, PEStructureSet> map, PEStructureSet structureSet) {
+		map.put(structureSet.id, structureSet);
+		structureSet.updateData();
+	}
+
+    public static ArrayListMultimap<String, PEStructure> mapStructuresByRarity(PatchableStructures structureData) {
+
+		ArrayListMultimap<String, PEStructure> structuresByRarity = ArrayListMultimap.create();
+        civilizationSprawling.forEach(s -> structuresByRarity.put(CIVILIZATION_SPRAWLING, structureData.Data.get(s)));
+        civilizationMassive.forEach(s -> structuresByRarity.put(CIVILIZATION_MASSIVE, structureData.Data.get(s)));
+        civilizationMedium.forEach(s -> structuresByRarity.put(CIVILIZATION_MEDIUM, structureData.Data.get(s)));
+        civilizationDeco.forEach(s -> structuresByRarity.put(CIVILIZATION_DECO, structureData.Data.get(s)));
+        wildernessSprawling.forEach(s -> structuresByRarity.put(WILDERNESS_SPRAWLING, structureData.Data.get(s)));
+        wildernessMassive.forEach(s -> structuresByRarity.put(WILDERNESS_MASSIVE, structureData.Data.get(s)));
+        wildernessMedium.forEach(s -> structuresByRarity.put(WILDERNESS_MEDIUM, structureData.Data.get(s)));
+        wildernessDeco.forEach(s -> structuresByRarity.put(WILDERNESS_DECO, structureData.Data.get(s)));
+        oceanFloatingMassive.forEach(s -> structuresByRarity.put(OCEAN_FLOATING_MASSIVE, structureData.Data.get(s)));
+        oceanUnderwaterMassive.forEach(s -> structuresByRarity.put(OCEAN_UNDERWATER_MASSIVE, structureData.Data.get(s)));
+        oceanAllMedium.forEach(s -> structuresByRarity.put(OCEAN_ALL_MEDIUM, structureData.Data.get(s)));
+        undergroundSprawling.forEach(s -> structuresByRarity.put(UNDERGROUND_SPRAWLING, structureData.Data.get(s)));
+        skyMassive.forEach(s -> structuresByRarity.put(SKY_MASSIVE, structureData.Data.get(s)));
+
+		structuresByRarity.values().removeIf(Objects::isNull);
+		return structuresByRarity;
+    }
+
+    public static ArrayListMultimap<Size, PEStructure> mapStructuresBySize(PatchableStructures structureData) {
+		ArrayListMultimap<Size, PEStructure> structuresBySize = ArrayListMultimap.create();
+		ArrayListMultimap<String, PEStructure> structuresByRarity = mapStructuresByRarity(structureData);
+
+		structureData.Data.forEach((id, s) -> {
+			PEStructure sWithSize = getStructureWithSize(structuresByRarity, s);
+			structuresBySize.put(sWithSize.getSize(), sWithSize);
+		});
+
+		structuresBySize.values().removeIf(Objects::isNull);
+		return structuresBySize;
+    }
+
+	private	static PEStructure getStructureWithSize(ArrayListMultimap<String, PEStructure> structuresByRarity, PEStructure structure) {
+		Optional<String> rarity = structuresByRarity.entries().stream()
+				.filter(e -> structure.id.equals(e.getValue().id))
+				.map(Map.Entry::getKey)
+				.findFirst();
+		if (rarity.isEmpty()) {
+			structure.setSize(Size.MEDIUM);
+		} else {
+			String suffix = StringUtils.substringAfterLast(rarity.get(), "_");
+			structure.setSize(sizeMap.get(suffix));
+		}
+		return structure;
+	}
+
+	/*private	static PEStructure getStructureWithRarity(ArrayListMultimap<String, PEStructure> structuresByRarity, PEStructure structure) {
+		Optional<String> rarity = structuresByRarity.entries().stream()
+				.filter(e -> structure.id.equals(e.getValue().id))
+				.map(Map.Entry::getKey)
+				.findFirst();
+		if (rarity.isEmpty()) {
+			structure.rarity = Rarity.COMMON;
+		} else {
+			String suffix = StringUtils.substringAfterLast(rarity.get(), "_");
+			structure.rarity = rarityMap.get(suffix);
+			structure.setStructureSet(WorldgenDataManager.getStructureSetData().Data.get(rarity.get()));
+		}
+		return structure;
+	}*/
+
+    //CIVILIZATION_SPRAWLING
+    public static final List<String> civilizationSprawling = ImmutableList.of(
+		"minecraft:village_desert",
+		"minecraft:village_plains",
+		"minecraft:village_savanna",
+		"minecraft:village_snowy",
+		"minecraft:village_taiga",
+		"create_ltab:plains_big",
+		"dungeons_arise:merchant_campsite",
+		"integrated_villages:tavern_village",
+		"integrated_villages:pirate_village",
+		"integrated_villages:mediterranean_village",
+		"integrated_villages:kutcha_village",
+		"integrated_villages:oasis_village",
+		"integrated_villages:mossy_mounds",
+		"integrated_villages:cabin_village",
+		"integrated_villages:quark/minka_village",
+		"integrated_villages:marketstead_village",
+		"integrated_villages:clockwork_village",
+		"idas:collectors_museum",
+		"idas:bazaar",
+		"kattersstructures:village_jungle",
+		"kattersstructures:village_mesa",
+		"kattersstructures:village_birch",
+		"repurposed_structures:city_overworld",
+		"repurposed_structures:village_bamboo",
+		"repurposed_structures:village_cherry",
+		"repurposed_structures:village_badlands",
+		"repurposed_structures:village_birch",
+		"repurposed_structures:village_dark_forest",
+		"repurposed_structures:village_giant_taiga",
+		"repurposed_structures:village_jungle",
+		"repurposed_structures:village_mountains",
+		"repurposed_structures:village_oak",
+		"nova_structures:village_jungle",
+		"terralith:fortified_village",
+		"terralith:fortified_desert_village",
+		"towns_and_towers:village_badlands",
+		"towns_and_towers:village_birch_forest",
+		"towns_and_towers:village_flower_forest",
+		"towns_and_towers:village_forest",
+		"towns_and_towers:village_snowy_slopes",
+		"towns_and_towers:village_jungle",
+		"towns_and_towers:village_meadow",
+		"towns_and_towers:village_mushroom_fields",
+		"towns_and_towers:village_old_growth_taiga",
+		"towns_and_towers:village_grove",
+		"towns_and_towers:village_savanna_plateau",
+		"towns_and_towers:village_sunflower_plains",
+		"towns_and_towers:village_snowy_taiga",
+		"towns_and_towers:village_sparse_jungle",
+		"towns_and_towers:village_wooded_badlands",
+		"towns_and_towers:exclusives/village_mediterranean",
+		"towns_and_towers:exclusives/village_swedish",
+		"towns_and_towers:exclusives/village_tudor",
+		"towns_and_towers:exclusives/village_classic",
+		"towns_and_towers:exclusives/village_rustic",
+		"towns_and_towers:exclusives/village_iberian",
+		"towns_and_towers:exclusives/village_nilotic",
+		"trek:overworld/rare/villager_fortress",
+		"trek:village/desert",
+		"trek:village/mushroom",
+		"trek:village/plains",
+		"trek:village/savanna",
+		"trek:village/snowy",
+		"trek:village/swamp",
+		"trek:village/taiga",
+		"wythers:village_badlands",
+		"wythers:village_badlands_desert",
+		"wythers:village_wooded_badlands"
+	);
+
+    //CIVILIZATION_MASSIVE
+    public static final List<String> civilizationMassive = ImmutableList.of(
+        "ati_structures:villager_inn",
+        "idas:tinkers_workshop",
+        "medieval_buildings:fort",
+        "taxtg:giant_birch_tree",
+		"taxtg:giant_birch_tree_1",
+		"taxtg:giant_cherryblossom_tree",
+		"taxtg:giant_cherryblossom_tree_1",
+		"taxtg:giant_jungle_tree",
+		"taxtg:giant_jungle_tree_1",
+		"taxtg:giant_oak_tree",
+		"taxtg:giant_oak_tree_1",
+		"taxtg:giant_palm_tree",
+		"taxtg:giant_palm_tree_1",
+		"taxtg:giant_pine_tree",
+		"taxtg:giant_pine_tree_1",
+		"taxtg:giant_snowy_tree",
+		"taxtg:giant_snowy_tree_1",
+		"taxtg:giant_spruce_tree",
+		"taxtg:giant_spruce_tree_1",
+        "trek:overworld/rare/villager_castle",
+		"trek:overworld/rare/castle"
+    );
+
+    //CIVILIZATION_MEDIUM
+    public static final List<String> civilizationMedium = ImmutableList.of(
+		"ati_structures:old_home",
+		"create_rustic_structures:rustic_well",
+		"create_rustic_structures:rustic_windmill",
+		"dungeons_enhanced:ruined_building",
+		"formationsoverworld:fountain",
+		"formationsoverworld:well",
+		"formationsoverworld:small_house",
+		"formationsoverworld:tiny_house",
+		"formationsoverworld:small_statue",
+		"formationsoverworld:hobbit_hole",
+		"formationsoverworld:desert_houses",
+		"formationsoverworld:copper_spire",
+		"formationsoverworld:small_temple",
+		"formationsoverworld:igloo",
+		"formationsoverworld:bamboo_hut",
+		"formationsoverworld:wagon",
+		"trek:overworld/medium/beehive_house",
+		"trek:overworld/medium/birch_fort",
+		"trek:overworld/medium/birch_trade",
+		"trek:overworld/medium/church",
+		"trek:overworld/medium/desert_outpost",
+		"trek:overworld/medium/desert_ranch",
+		"trek:overworld/medium/destroyed_house",
+		"trek:overworld/medium/dirt_hut",
+		"trek:overworld/medium/enchanter",
+		"trek:overworld/medium/farm",
+		"trek:overworld/medium/fort",
+		"trek:overworld/medium/hobbit_hole",
+		"trek:overworld/medium/igloo_village",
+		"trek:overworld/medium/jungle_outpost",
+		"trek:overworld/medium/jungle_treehouse",
+		"trek:overworld/medium/maison",
+		"trek:overworld/medium/oasis",
+		"trek:overworld/medium/plains_cottage",
+		"trek:overworld/medium/snow_cottage",
+		"trek:overworld/medium/snowman",
+		"trek:overworld/medium/street_vendor_stall",
+		"trek:overworld/medium/spruce_cottage",
+		"trek:overworld/medium/wandering_trader_dark_oak",
+		"trek:overworld/medium/wandering_trader_oak",
+		"trek:overworld/medium/wandering_trader_spruce"
+    );
+
+    //CIVILIZATION_DECO
+    public static final List<String> civilizationDeco = ImmutableList.of(
+		"formationsoverworld:farmland_field",
+		"mvs:log_pile/acacia_log_pile",
+        "mvs:log_pile/birch_log_pile",
+        "mvs:log_pile/jungle_log_pile",
+        "mvs:log_pile/oak_log_pile",
+        "mvs:log_pile/spruce_log_pile",
+        "mvs:lantern/small_acacia_lantern",
+        "mvs:lantern/small_bamboo_lantern",
+        "mvs:lantern/small_birch_lantern",
+        "mvs:lantern/small_campfire_lantern",
+        "mvs:lantern/small_jungle_lantern",
+        "mvs:lantern/medium_oak_lantern",
+        "mvs:lantern/small_spruce_lantern",
+        "mvs:lantern/small_cherry_lantern",
+        "mvs:nature/cherry_tree",
+        "mvs:other_decoration/pile",
+        "mvs:other_decoration/haystack",
+        "wabi_sabi_structures:beetroot_patch",
+		"wabi_sabi_structures:carrot_patch",
+		"wabi_sabi_structures:potato_patch",
+		"wabi_sabi_structures:pumpkin_patch",
+		"wabi_sabi_structures:wheat_patch",
+        "wabi_sabi_structures:pumpkin_field",
+        "wabi_sabi_structures:melon_patch",
+        "mvs:other_decoration/bench",
+        "mvs:other_decoration/fire_camp",
+        "mvs:other_decoration/lamp_chest",
+        "mvs:nature/paths",
+        "mvs:acacia_log_pile",
+		"mvs:bench",
+		"mvs:birch_log_pile",
+		"mvs:boulder",
+		"mvs:dark_oak_log_pile",
+		"mvs:haystack",
+		"mvs:jungle_log_pile",
+		"mvs:jungle_palm_tree",
+        "mvs:fire_camp",
+		"mvs:lamp_chest",
+		"mvs:medium_bamboo_cart",
+		"mvs:medium_oak_lantern",
+		"mvs:oak_log_pile",
+		"mvs:paths",
+		"mvs:pile",
+		"mvs:small_acacia_lantern",
+		"mvs:small_bamboo_lantern",
+		"mvs:small_birch_lantern",
+		"mvs:small_campfire_lantern",
+		"mvs:small_cherry_lantern",
+		"mvs:small_jungle_lantern",
+		"mvs:small_oak_lantern",
+		"mvs:small_spruce_lantern",
+		"mvs:spruce_log_pile",
+		"mvs:stone_rock",
+        "feur_extension_desert:redrock",
+		"feur_extension_desert:rock",
+        "feur_extension_desert:cactus_1",
+		"feur_extension_desert:cactus_2",
+		"feur_extension_desert:cactus_3",
+		"feur_extension_desert:cactus_4",
+		"feur_extension_desert:cactus_5",
+		"feur_extension_desert:cactus_6",
+		"feur_extension_desert:cactus_7",
+		"feur_extension_desert:cactus_arc_1",
+		"feur_extension_desert:cactus_arc_2",
+		"feur_extension_desert:cactus_big",
+        "additionalstructures:cactus_1",
+		"additionalstructures:cactus_2",
+        "additionalstructures:bush_1",
+        "additionalstructures:bush_2",
+        "additionalstructures:bush_3",
+        "additionalstructures:bush_4",
+        "additionalstructures:palm_1",
+		"additionalstructures:palm_2",
+		"additionalstructures:palm_3",
+		"additionalstructures:palm_4",
+        "additionalstructures:spruce_log_1",
+        "additionalstructures:spruce_log_2",
+        "additionalstructures:oak_log_1",
+        "additionalstructures:oak_log_2",
+        "additionalstructures:jungle_log",
+        "additionalstructures:birch_log",
+        "additionalstructures:acacia_log",
+        "additionalstructures:desert_pillars_1",
+        "additionalstructures:desert_pillars_2",
+        "additionalstructures:snowman_1",
+        "additionalstructures:snowman_2",
+        "additionalstructures:stone_rock_1",
+        "additionalstructures:stone_rock_2",
+        "additionalstructures:stone_rock_3",
+        "additionalstructures:stone_rock_4",
+        "additionalstructures:sandstone_rock_1",
+        "additionalstructures:sandstone_rock_2",
+        "additionalstructures:sandstone_rock_3",
+        "additionalstructures:cobblestone_rock_1",
+		"additionalstructures:cobblestone_rock_2",
+		"additionalstructures:cobblestone_rock_3",
+        "additionalstructures:snow_pile_1",
+        "additionalstructures:snow_pile_2",
+        "additionalstructures:snow_pile_3",
+        "trek:overworld/very_common/plains"
+    );
+
+    //WILDERNESS_SPRAWLING + SPECIAL
+    public static final List<String> wildernessSprawling = ImmutableList.of(
+		"idas:iceandfire/dread_citadel",
+		"idas:tinkers_citadel",
+		"integrated_minecraft:ruined_fortress",
+		"integrated_minecraft:scarlet_citadel",
+		"integrated_villages:sunken_village",
+		"bosses_of_mass_destruction:void_blossom",
+		"bosses_of_mass_destruction:gauntlet_arena",
+		"bosses_of_mass_destruction:lich_tower",
+		"block_factorys_bosses:dragon_tower",
+		"block_factorys_bosses:sandworm_nest",
+		"create_pillagers_arise:createpillagervillage",
+		"combat_structures_update:pillager_village",
+		"dungeons_arise:shiraz_palace",
+		"dungeons_arise:desert_hall",
+		"dungeons_arise:thornborn_towers",
+		"dungeons_arise:illager_campsite",
+		"dungeons_arise:monastery",
+		"dungeons_arise:bandit_towers",
+		"dungeons_arise:bandit_village",
+		"dungeons_arise:kisegi_sanctuary",
+		"dungeons_arise:infested_temple",
+		"dungeons_arise:mushroom_mines",
+		"epic:witch_hut",
+		"feur_extension_jungle:village",
+		"kattersstructures:village_cherry",
+		"kattersstructures:village_swamp",
+		"kattersstructures:ruined_village",
+		"nova_structures:village_swamp",
+		"nova_structures:illager_manor",
+		"repurposed_structures:village_swamp",
+		"repurposed_structures:village_mushroom",
+		"ribbits:ribbit_village",
+		"structory:swamp_ruin",
+		"takesapillage:bastille",
+		"trek:overworld/rare/sunken_city",
+		"towns_and_towers:village_swamp",
+		"windswept:village_frozen"
+	);
+
+    //WILDERNESS_MASSIVE + SPECIAL
+    public static final List<String> wildernessMassive = ImmutableList.of(
+        "minecraft:airshipwreck",
+        "minecraft:volcano_fortress",
+        "minecraft:archbishop_stronghold",
+        "minecraft:castle",
+        "minecraft:witch_hut",
+        "minecraft:living_tree",
+        "idas:ars_nouveau/archmages_tower",
+        "idas:haunted_manor",
+        "idas:dark_tower",
+        "idas:desert_pyramid",
+        "idas:tree_of_wisdom",
+        "idas:pillager_fortress",
+        "idas:labyrinth",
+        "idas:ancient_mines",
+        "idas:ruins_of_the_deep",
+        "idas:windswept_shrine",
+        "ae2:meteorite",
+        "ati_structures:tavern",
+        "ati_structures:ancient_temple",
+        "ati_structures:desert_outpost",
+        "ati_structures:fortified_temple",
+        "ati_structures:granite_fort",
+        "ati_structures:herobrine_stronghold",
+        "ati_structures:jungle_settlement",
+        "ati_structures:manor",
+        "ati_structures:old_fort",
+        "ati_structures:ati_stoneworks",
+        "ati_structures:arachnid_dwelling",
+        "ati_structures:catalonian_castle",
+        "ati_structures:steam_house",
+        "ati_structures:old_residence",
+        "ati_structures:jungle_grotto",
+        "ati_structures:marble_chateau",
+        "ati_structures:sinking_temple",
+        "ati_structures:woodland_keep",
+        "ati_structures:ruined_castle",
+        "ati_structures:quarry",
+        "ars_additions:arcane_library",
+        //"ba_bt:land_tower",
+        "betterjungletemples:jungle_temple",
+        "betterdeserttemples:desert_temple",
+        "biomemakeover:mansion",
+        "cataclysm:cursed_pyramid",
+        "cataclysm:frosted_prison",
+        "combat_structures_update:mansion",
+        "custom:fire_dragon_spawn",
+        "custom:ice_dragon_spawn",
+        "custom:lightning_dragon_spawn",
+        "custom:obsidian_spikes",
+        "custom:summon_podium",
+        "custom:arena",
+        "custom:librarian_ruin",
+        "custom:father_church",
+        "custom:giant_altar",
+        "custom:sentinel_tree",
+        "custom:twin_arena",
+        "custom:church",
+        "create_ltab:ruins",
+        "create_ltab:thecastle",
+        "custom:deity_corpse",
+        "custom:dojo",
+        "dungeons_arise:aviary",
+        "dungeons_arise:coliseum",
+        "dungeons_arise:ceryneian_hind",
+        "dungeons_arise:greenwood_pub",
+        "dungeons_arise:illager_fort",
+        "dungeons_arise:illager_windmill",
+        "dungeons_arise:mushroom_house",
+        "dungeons_arise:mushroom_village",
+        "dungeons_arise:keep_kayra",
+		"explorify:dark_forest_settlement",
+        "explorify:ruins",
+        "feur_extension_jungle:pyramid",
+        "feur_extension_fossil:fossil_hand",
+		"formationsoverworld:large_temple",
+        "goety:sorcerous_keep",
+        "goblinsanddungeons:ruined_keep",
+        "hexerei:dark_coven",
+        "hexerei:nature_coven",
+        "legendary_monsters:ancient_stronghold",
+        "legendary_monsters:ruined_pyramid",
+        "legendary_monsters:abandoned_crypt",
+        "legendary_monsters:cloudy_temple",
+        "legendary_monsters:mossy_temple",
+        "legendary_monsters:frostbitten_temple",
+		"mostructures:pillager_mines",
+        "mowziesmobs:monastery",
+        "mowziesmobs:frostmaw_spawn",
+        "mowziesmobs:umvuthana_grove",
+		"mtr:desert_temple",
+		"mtr:jungle_temple",
+        "mythsandlegends:ancient_vestiges",
+		"nova_structures:lone_citadel",
+		"nova_structures:stray_fort",
+		"nova_structures:ruin_town",
+        "repurposed_structures:pyramid_mushroom",
+        "repurposed_structures:fortress_jungle",
+        "repurposed_structures:mansion_birch",
+        "repurposed_structures:mansion_oak",
+        "repurposed_structures:mansion_taiga",
+        "repurposed_structures:mansion_jungle",
+        "repurposed_structures:mansion_savanna",
+        "repurposed_structures:mansion_snowy",
+        "repurposed_structures:mansion_desert",
+        "repurposed_structures:monument_jungle",
+        "repurposed_structures:monument_icy",
+        "repurposed_structures:monument_desert",
+        "repurposed_structures:pyramid_snowy",
+        "repurposed_structures:pyramid_icy",
+        "repurposed_structures:pyramid_jungle",
+        "repurposed_structures:pyramid_giant_tree_taiga",
+        "repurposed_structures:pyramid_flower_forest",
+        "takesapillage:pillager_camp",
+        "taxtg:giant_swamp_tree",
+		"taxtg:giant_swamp_tree_1",
+        "terralith:spire",
+        "terramity:court_of_gnomes",
+        "threateningly_mobs:worm_nest",
+		"trek:overworld/rare/portal_sword",
+		"trek:overworld/rare/abandoned_castle_pillager",
+		"trek:overworld/rare/pyramide_of_anubis",
+		"trek:overworld/rare/pillager_mansion",
+		"trek:overworld/rare/wooden_manor",
+		"trek:overworld/rare/maya"
+    );
+
+    //WILDERNESS_MEDIUM
+    public static final List<String> wildernessMedium = ImmutableList.of(
+        "minecraft:pillager_outpost",
+		"minecraft:pillager_outpost_dark_forest",
+		"minecraft:pillager_outpost_forest",
+		"minecraft:pillager_outpost_mangrove",
+		"minecraft:pillager_outpost_swamp",
+		"minecraft:ruined_portal",
+		"minecraft:ruined_portal_desert",
+		"minecraft:ruined_portal_jungle",
+		"minecraft:ruined_portal_mountain",
+		"minecraft:ruined_portal_nether",
+		"minecraft:ruined_portal_swamp",
+		"ati_structures:deepslate_keep",
+		"ati_structures:haunted_ruin",
+		"ati_structures:ice_tribe",
+		"ati_structures:nomadic_camp",
+		"ati_structures:rotten_log",
+		"ati_structures:stray_ruins",
+		"ati_structures:rotting_temple",
+		"ati_structures:illager_homestead",
+		"ati_structures:mud_tower",
+		"ati_structures:storage_house",
+		"ati_structures:storage_shack",
+        "ati_structures:castillo",
+        "dungeons_plus:tower",
+		"formationsoverworld:cobble_hole",
+		"formationsoverworld:stone_ore_spikes",
+		"formationsoverworld:stone_tower",
+		"formationsoverworld:witch_tower",
+		"formationsoverworld:mushroom_hut",
+		"formationsoverworld:graveyard",
+		"formationsoverworld:log_shelter",
+		"formationsoverworld:log_spikes",
+		"formationsoverworld:campsite",
+		"formationsoverworld:offering",
+		"formationsoverworld:tower_remnant",
+		"formationsoverworld:mesoamerican_temple",
+        "mvs:small_pillager_tower",
+        "nova_structures:firewatch_tower_birch",
+		"nova_structures:firewatch_tower_cherry",
+		"nova_structures:firewatch_tower_dark_oak",
+		"nova_structures:firewatch_tower_forest",
+		"nova_structures:firewatch_tower_jungle",
+		"nova_structures:firewatch_tower_mangrove",
+		"nova_structures:firewatch_tower_savanna",
+		"nova_structures:firewatch_tower_swamp",
+		"nova_structures:firewatch_tower_taiga",
+        "repurposed_structures:outpost_badlands",
+		"repurposed_structures:outpost_birch",
+		"repurposed_structures:outpost_desert",
+		"repurposed_structures:outpost_giant_tree_taiga",
+		"repurposed_structures:outpost_icy",
+		"repurposed_structures:outpost_jungle",
+		"repurposed_structures:outpost_mangrove",
+		"repurposed_structures:outpost_oak",
+		"repurposed_structures:outpost_snowy",
+		"repurposed_structures:outpost_taiga",
+        "structory:firetower",
+		"structory_towers:pillager_lookout",
+        "terramity:fire_lookout_tower",
+        "terramity:mausoleum",
+        "threateningly_mobs:zombiewarrior_outpost",
+        "towns_and_towers:exclusives/pillager_outpost_classic",
+		"towns_and_towers:exclusives/pillager_outpost_iberian",
+		"towns_and_towers:exclusives/pillager_outpost_mediterranean",
+		"towns_and_towers:exclusives/pillager_outpost_oriental",
+		"towns_and_towers:exclusives/pillager_outpost_rustic",
+		"towns_and_towers:exclusives/pillager_outpost_swedish",
+		"towns_and_towers:exclusives/pillager_outpost_tudor",
+        "towns_and_towers:pillager_outpost_badlands",
+		"towns_and_towers:pillager_outpost_beach",
+		"towns_and_towers:pillager_outpost_birch_forest",
+		"towns_and_towers:pillager_outpost_desert",
+		"towns_and_towers:pillager_outpost_flower_forest",
+		"towns_and_towers:pillager_outpost_forest",
+		"towns_and_towers:pillager_outpost_grove",
+		"towns_and_towers:pillager_outpost_jungle",
+		"towns_and_towers:pillager_outpost_meadow",
+		"towns_and_towers:pillager_outpost_mushroom_fields",
+		"towns_and_towers:pillager_outpost_old_growth_taiga",
+		"towns_and_towers:pillager_outpost_savanna",
+		"towns_and_towers:pillager_outpost_savanna_plateau",
+		"towns_and_towers:pillager_outpost_snowy_beach",
+		"towns_and_towers:pillager_outpost_snowy_plains",
+		"towns_and_towers:pillager_outpost_snowy_slopes",
+		"towns_and_towers:pillager_outpost_snowy_taiga",
+		"towns_and_towers:pillager_outpost_sparse_jungle",
+		"towns_and_towers:pillager_outpost_sunflower_plains",
+		"towns_and_towers:pillager_outpost_swamp",
+		"towns_and_towers:pillager_outpost_taiga",
+		"towns_and_towers:pillager_outpost_wooded_badlands",
+		"trek:overworld/rare/elven_tree",
+		"trek:overworld/medium/small_pyramide",
+		"trek:overworld/medium/all_abandoned",
+		"trek:overworld/medium/base_1",
+		"trek:overworld/medium/base_2",
+		"trek:overworld/medium/base_pillager",
+		"trek:overworld/medium/bone_dragon",
+		"trek:overworld/medium/buried_village",
+		"trek:overworld/medium/camp_1",
+		"trek:overworld/medium/camp_2",
+		"trek:overworld/medium/camp_3",
+		"trek:overworld/medium/camp_4",
+		"trek:overworld/medium/claw_pillager",
+		"trek:overworld/medium/claw_spike",
+		"trek:overworld/medium/cold_hideout",
+		"trek:overworld/medium/farm_pillager",
+		"trek:overworld/medium/explorer_cabin",
+		"trek:overworld/medium/frozen_tree",
+		"trek:overworld/medium/graveyard",
+		"trek:overworld/medium/haunted_house",
+		"trek:overworld/medium/ice_fort",
+		"trek:overworld/medium/lush_ice",
+		"trek:overworld/medium/mangrove_watchtower",
+		"trek:overworld/medium/orbital",
+		"trek:overworld/medium/pillager_old_camp",
+		"trek:overworld/medium/pillager_weapons",
+		"trek:overworld/medium/railroad",
+		"trek:overworld/medium/ritual",
+		"trek:overworld/medium/ruine_bateaux",
+		"trek:overworld/medium/ruine_cabane",
+		"trek:overworld/medium/ruine_tour",
+		"trek:overworld/medium/sorcerers_house",
+		"trek:overworld/medium/spruce_camp",
+		"trek:overworld/medium/square_tower",
+		"trek:overworld/medium/star_spike",
+		"trek:overworld/medium/stelzen",
+		"trek:overworld/medium/stonehedge",
+		"trek:overworld/medium/strange_house",
+		"trek:overworld/medium/street_vendor_pillager",
+		"trek:overworld/medium/three_finger_ice",
+		"trek:overworld/medium/tour",
+		"trek:overworld/medium/tour_desert",
+		"trek:overworld/medium/tower",
+		"trek:overworld/medium/tower_of_ice",
+		"trek:overworld/medium/water_reservoir_pillager",
+		"trek:overworld/medium/well_pillager_medium",
+		"trek:overworld/medium/wild_stone",
+		"trek:overworld/medium/witch_tower",
+        "wabi_sabi_structures:firewatch_tower"
+    );
+
+    //WILDERNESS_DECO
+    public static final List<String> wildernessDeco = ImmutableList.of(
+		"formationsoverworld:meteor",
+		"joshie:sunken_spires/conduit_ruins",
+        "joshie:sunken_spires/small_fossil",
+		"joshie:sunken_spires/spires",
+		"joshie:sunken_spires/floating_spikes",
+        "mvs:boulder",
+        "mvs:acacia_tree",
+        "mvs:birch_tree",
+        "mvs:jungle_palm_tree",
+        "mvs:jungle_tree",
+        "mvs:oak_tree",
+        "mvs:spruce_tree",
+        "mvs:stone_rock",
+        "mvs:acacia",
+        "mvs:birch",
+        "mvs:jungle",
+        "mvs:oak",
+        "mvs:spruce",
+        "mvs:mangrove",
+        "mvs:cherry",
+        "mvs:nature/boulder",
+        "mvs:nature/acacia_tree",
+        "mvs:nature/birch_tree",
+        "mvs:nature/jungle_palm_tree",
+        "mvs:nature/jungle_tree",
+        "mvs:nature/oak_tree",
+        "mvs:nature/spruce_tree",
+        "mvs:nature/stone_rock",
+        "mvs:dead_tree/acacia",
+        "mvs:dead_tree/birch",
+        "mvs:dead_tree/jungle",
+        "mvs:dead_tree/oak",
+        "mvs:dead_tree/spruce",
+        "mvs:dead_tree/mangrove",
+        "mvs:dead_tree/cherry",
+        "mvs:mushroom_pond",
+        "mvs:nature/mushroom_pond",
+        "mvs:small_dark_oak_lantern",
+		"mvs:small_jungle_lantern",
+		"mvs:small_mangrove_lantern",
+        "mvs:lantern/small_dark_oak_lantern",
+        "mvs:lantern/small_mangrove_lantern",
+        "philipsruins:field_stone_ruins_rocks",
+        "philipsruins:field_stone_ruins",
+        "additionalstructures:bush_1",
+        "additionalstructures:bush_2",
+        "additionalstructures:bush_3",
+        "additionalstructures:bush_4",
+        "additionalstructures:standing_spruce_log",
+        "additionalstructures:standing_oak_log",
+        "additionalstructures:standing_jungle_log",
+        "additionalstructures:standing_acacia_log",
+        "additionalstructures:spruce_log_1",
+        "additionalstructures:spruce_log_2",
+        "additionalstructures:oak_log_1",
+        "additionalstructures:oak_log_2",
+        "additionalstructures:jungle_tree_hole",
+        "additionalstructures:jungle_log",
+        "additionalstructures:fallen_spruce_tree_1",
+        "additionalstructures:fallen_spruce_tree_2",
+        "additionalstructures:fallen_palm_tree_1",
+        "additionalstructures:fallen_palm_tree_2",
+        "additionalstructures:fallen_oak_tree_1",
+        "additionalstructures:fallen_oak_tree_2",
+        "additionalstructures:fallen_jungle_tree_1",
+        "additionalstructures:fallen_dead_tree_1",
+        "additionalstructures:fallen_dead_tree_2",
+        "additionalstructures:fallen_dead_tree_3",
+        "additionalstructures:standing_spruce_log",
+        "additionalstructures:standing_oak_log",
+        "additionalstructures:standing_dark_oak_log",
+        "additionalstructures:standing_jungle_log",
+        "additionalstructures:standing_acacia_log",
+        "additionalstructures:birch_log",
+        "additionalstructures:big_jungle_log",
+        "additionalstructures:acacia_log",
+        "additionalstructures:stone_rock_1",
+        "additionalstructures:stone_rock_2",
+        "additionalstructures:stone_rock_3",
+        "additionalstructures:stone_rock_4",
+        "additionalstructures:sandstone_rock_1",
+        "additionalstructures:sandstone_rock_2",
+        "additionalstructures:sandstone_rock_3",
+        "additionalstructures:snow_pile_1",
+        "additionalstructures:snow_pile_2",
+        "additionalstructures:snow_pile_3",
+        "additionalstructures:scarecrow",
+        "additionalstructures:wall_ruin_1",
+        "additionalstructures:wall_ruin_2",
+        "additionalstructures:damaged_mushroom_1",
+        "additionalstructures:damaged_mushroom_2",
+        "additionalstructures:bone_1",
+        "additionalstructures:bone_2",
+        "additionalstructures:skeleton_skull",
+        "trek:overworld/very_common/rocks",
+        "wabi_sabi_structures:moss_blob"
+    );
+
+    //OCEAN_FLOATING_MASSIVE
+    public static final List<String> oceanFloatingMassive = ImmutableList.of(
+        "minecraft:pirate_fleet", 
+        "aquamirae:shelter",
+        "aquamirae:outpost",
+		"aquamirae:ship",
+        "towns_and_towers:village_ocean",
+        "ati_structures:ice_tribe",
+        "ati_structures:ancient_vessel",
+        "kattersstructures:village_ocean",
+        "combat_structures_update:jungle_illager_ship",
+        "combat_structures_update:dark_oak_illager_ship",
+        "combat_structures_update:sprucevillagership",
+        "combat_structures_update:oak_villager_ship",
+        "create_structures_arise:pillager_boat",
+        "lios_outlandish_villages:spiral_tower_village_sea",
+        "dungeons_arise_seven_seas:unicorn_galleon",
+        "dungeons_arise_seven_seas:victory_frigate",
+        "dungeons_arise_seven_seas:corsair_corvette",
+        "dungeons_arise:undead_pirate_ship",
+        "dungeons_arise:illager_corsair",
+        "joshie:village_ocean",
+		"mostructures:pirate_ship",
+		"nordic_structures:vikinglongboatboss",
+        "repurposed_structures:village_ocean",
+		"supplementaries:galleon",
+		"trek:overworld/rare/island_village_1",
+		"trek:overworld/rare/sleepy_island",
+		"trek:overworld/rare/tower_island",
+		"trek:overworld/rare/villager_island",
+		"trek:overworld/very_rare/coves",
+		"trek:overworld/rare/mushroom_island",
+		"trek:overworld/very_rare/floating_farm_large"
+    );
+
+    //OCEAN_UNDERWATER_MASSIVE
+    public static final List<String> oceanUnderwaterMassive = ImmutableList.of(
+        "minecraft:monument",
+        "ba_bt:ocean_tower",
+        "betteroceanmonuments:ocean_monument",
+        "combat_structures_update:watercastle",
+        "cataclysm:acropolis",
+        "cataclysm:sunken_city",
+        "dungeons_arise:typhon",
+        "dungeons_plus:warped_garden",
+        "hopo:underwater/underwater_city",
+        "kattersstructures:deep_blue_city",
+		"mtr:ocean_temple",
+        "philipsruins:ocean_fortress",
+        "repurposed_structures:pyramid_ocean",
+        "terramity:trial_spire",
+        "underwater_village:dungeon",
+        "underwater_village:ruins",
+        "underwater_village:library"
+    );
+
+    //OCEAN_ALL_MEDIUM
+    public static final List<String> oceanAllMedium = ImmutableList.of(
+        "minecraft:brig",
+		"minecraft:ruined_portal_ocean",
+		"combat_structures_update:flyingboat",
+		"dungeons_arise:illager_galley",
+		"dungeons_arise_seven_seas:small_yacht",
+        "idas:sunken_ship/sunken_ship_ruins",
+		"nordic_structures:specialvikinglongboat_1",
+		"nordic_structures:specialvikinglongboat_2",
+        "towns_and_towers:pillager_outpost_ocean",
+		"trek:overworld/medium/underwater_sword",
+		"trek:overworld/medium/cold_red_trade",
+		"trek:overworld/medium/dark_oak_trade",
+		"trek:overworld/medium/jungle_trade",
+		"trek:overworld/medium/offshore_platform_pillager",
+		"trek:overworld/medium/ship_pillager",
+		"trek:overworld/medium/small_red_trade"
+    );
+
+    //SKY_MASSIVE
+    public static final List<String> skyMassive = ImmutableList.of(
+        "minecraft:airship",
+        "integrated_villages:airship_village",
+        "dungeons_arise:heavenly_rider",
+        "dungeons_arise:heavenly_conqueror",
+        "dungeons_arise:heavenly_challenger",
+        "dungeons_arise:mechanical_nest",
+        "custom:floating_island",
+        "custom:rootless",
+        "custom:skull_island",
+		"mostructures:the_castle_in_the_sky",
+        "skyarena:ice_arena",
+        "skyarena:sky_arena",
+        "skyvillages:skyvillage",
+        "sky_whale_ship:frozen_whale",
+        "sky_whale_ship:whale",
+        "sky_whale_ship:whalearena",
+        "sky_whale_ship:whalelight",
+        "sky_whale_ship:whaleship",
+        "kattersstructures:sky_dungeon",
+        "kattersstructures:skyrtle",
+        "kattersstructures:village_sky",
+        "mss:volcano",
+        "mss:jungle",
+		"trek:overworld/very_rare/farm_island"
+    );
+
+    //UNDERGROUND_MASSIVE
+    public static final List<String> undergroundSprawling = ImmutableList.of(
+        "minecraft:ancient_city",
+        "minecraft:stronghold",
+        "idas:nexus",
+        "idas:ancient_portal/ancient_portal",
+        "integrated_stronghold:stronghold",
+        "dungeons_arise:foundry",
+        "dungeons_arise:mining_system",
+        "dungeons_arise:plague_asylum",
+        "dungeons_arise:scorched_mines",
+        "dungeons_plus:reanimated_ruins_mossy",
+        "dungeons_plus:reanimated_ruins_mesa",
+        "dungeons_plus:reanimated_ruins_frozen",
+        "irons_spellbooks:catacombs",
+        "dungeons_revival:redstone_mines",
+        "cataclysm:ancient_factory",
+        "hopo:mineshaft/acacia_mineshaft",
+        "hopo:mineshaft/bamboo_mineshaft",
+        "hopo:mineshaft/birch_mineshaft",
+        "hopo:mineshaft/cherry_mineshaft",
+        "hopo:mineshaft/dark_oak_mineshaft",
+        "hopo:mineshaft/jungle_mineshaft",
+        "hopo:mineshaft/oak_mineshaft",
+        "hopo:mineshaft/spruce_mineshaft",
+        "hopo:mineshaft/mangrove_mineshaft",
+        "hopo:mineshaft/mud_mineshaft",
+        "hopo:mineshaft/stone_mineshaft",
+        "hopo:mineshaft/deepslate_mineshaft",
+		"mtr:stronghold",
+        "repurposed_structures:bastion_underground"
+    );
+}
