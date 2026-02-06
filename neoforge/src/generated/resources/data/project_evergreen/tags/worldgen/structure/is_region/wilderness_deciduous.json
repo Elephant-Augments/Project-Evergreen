@@ -1,0 +1,176 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:standing_oak_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:oak_log_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:oak_log_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_oak_tree_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_oak_tree_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:birch_log",
+      "required": false
+    },
+    {
+      "id": "ati_structures:woodland_keep",
+      "required": false
+    },
+    {
+      "id": "ati_structures:old_residence",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:fossil_chicken_birch",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:thornborn_towers",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:webbed_dungeon",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:log_shelter",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:log_spikes",
+      "required": false
+    },
+    {
+      "id": "hexerei:nature_coven",
+      "required": false
+    },
+    {
+      "id": "idas:animal_den/forest_den",
+      "required": false
+    },
+    {
+      "id": "idas:tree_of_wisdom",
+      "required": false
+    },
+    {
+      "id": "idas:the_log",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/birch_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/birch",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/oak",
+      "required": false
+    },
+    {
+      "id": "mvs:ruins/log_ruin",
+      "required": false
+    },
+    {
+      "id": "mvs:birch_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:birch",
+      "required": false
+    },
+    {
+      "id": "mvs:oak",
+      "required": false
+    },
+    {
+      "id": "mvs:log_ruin",
+      "required": false
+    },
+    {
+      "id": "nova_structures:bunker",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_woodland_hud",
+      "required": false
+    },
+    {
+      "id": "queen_bee:beehive",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_birch",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_oak",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_birch",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_oak",
+      "required": false
+    },
+    {
+      "id": "species:spectralibur_chamber",
+      "required": false
+    },
+    {
+      "id": "structory:firetower",
+      "required": false
+    },
+    {
+      "id": "threateningly_mobs:forestdrake_nest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_birch_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_swedish",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/camp_2",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/common/two_woods",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:birch_mushroom_cave",
+      "required": false
+    }
+  ]
+}

@@ -1,94 +1,98 @@
 package com.elephantaugments.projectevergreen.common.data.defaults;
 
-import com.elephantaugments.projectevergreen.common.data.PEStructure;
-import com.elephantaugments.projectevergreen.common.data.patchable.PatchableStructures;
-import com.google.common.collect.ArrayListMultimap;
+import com.elephantaugments.projectevergreen.common.api.PERegion;
 import com.google.common.collect.ImmutableList;
 
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class DefaultStructureRegions {
 
-    public static ArrayListMultimap<String, PEStructure> mapStructuresToRegion(PatchableStructures structureData) {
-
-        ArrayListMultimap<String, PEStructure> structuresByRegion = ArrayListMultimap.create();
-
-        allUndergroundLand.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_UNDERGROUND_LAND, structureData.Data.get(s)));
-        allCivilization.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_CIVILIZATION, structureData.Data.get(s)));
-        allWilderness.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_WILDERNESS, structureData.Data.get(s)));
-        allOcean.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_OCEAN, structureData.Data.get(s)));
-        allRivers.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_RIVERS, structureData.Data.get(s)));
-        civilizationConiferous.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_CONIFEROUS, structureData.Data.get(s)));
-        civilizationDeciduous.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_DECIDUOUS, structureData.Data.get(s)));
-        civilizationArid.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_ARID, structureData.Data.get(s)));
-        civilizationDesert.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_DESERT, structureData.Data.get(s)));
-        civilizationDesertRed.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_DESERT_RED, structureData.Data.get(s)));
-        civilizationTropical.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_TROPICAL, structureData.Data.get(s)));
-        civilizationSnow.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SNOW, structureData.Data.get(s)));
-        civilizationFields.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_FIELDS, structureData.Data.get(s)));
-        civilizationTemperate.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_TEMPERATE, structureData.Data.get(s)));
-        civilizationSpecialAutumnal.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SPECIAL_AUTUMNAL, structureData.Data.get(s)));
-        civilizationSpecialCoastal.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SPECIAL_COASTAL, structureData.Data.get(s)));
-        civilizationSpecialOriental.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SPECIAL_ORIENTAL, structureData.Data.get(s)));
-        wildernessConiferous.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_CONIFEROUS, structureData.Data.get(s)));
-        wildernessDeciduous.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_DECIDUOUS, structureData.Data.get(s)));
-        wildernessArid.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_ARID, structureData.Data.get(s)));
-        wildernessDesert.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_DESERT, structureData.Data.get(s)));
-        wildernessDesertRed.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_DESERT_RED, structureData.Data.get(s)));
-        wildernessTropical.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_TROPICAL, structureData.Data.get(s)));
-        wildernessSnow.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_SNOW, structureData.Data.get(s)));
-        wildernessFields.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_FIELDS, structureData.Data.get(s)));
-        wildernessTemperate.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_TEMPERATE, structureData.Data.get(s)));
-        wildernessSpecialAutumnal.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_SPECIAL_AUTUMNAL, structureData.Data.get(s)));
-        wildernessSpecialCoastal.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_SPECIAL_COASTAL, structureData.Data.get(s)));
-        wildernessSpecialOriental.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_SPECIAL_ORIENTAL, structureData.Data.get(s)));
-        specialBarren.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_BARREN, structureData.Data.get(s)));
-        specialCraggy.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_CRAGGY, structureData.Data.get(s)));
-        civilizationSpecialFlowery.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SPECIAL_FLOWERY, structureData.Data.get(s)));
-        specialIcy.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_ICY, structureData.Data.get(s)));
-        specialMagical.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_MAGICAL, structureData.Data.get(s)));
-        specialMediterranean.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_MEDITERRANEAN, structureData.Data.get(s)));
-        specialMountainousCold.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_MOUNTAINOUS_COLD, structureData.Data.get(s)));
-        specialMountainousHot.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_MOUNTAINOUS_HOT, structureData.Data.get(s)));
-        specialRuined.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_RUINED, structureData.Data.get(s)));
-        specialShroomy.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_SHROOMY, structureData.Data.get(s)));
-        specialSpooky.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_SPOOKY, structureData.Data.get(s)));
-        specialSwampy.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_SWAMPY, structureData.Data.get(s)));
-        specialSwampyWarm.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_SWAMPY_WARM, structureData.Data.get(s)));
-        oceanRareDeep.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_RARE_DEEP, structureData.Data.get(s)));
-        oceanRareShallow.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_RARE_SHALLOW, structureData.Data.get(s)));
-        oceanWarm.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_WARM, structureData.Data.get(s)));
-        oceanWarmDeep.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_DEEP_WARM, structureData.Data.get(s)));
-        oceanDeep.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_DEEP, structureData.Data.get(s)));
-        oceanShallow.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_SHALLOW, structureData.Data.get(s)));
-        oceanFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_FROZEN, structureData.Data.get(s)));
-        oceanDeepFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_DEEP_FROZEN, structureData.Data.get(s)));
-        oceanNotFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_NOT_FROZEN, structureData.Data.get(s)));
-        riverOrCoastNotFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_OR_COAST_NOT_FROZEN, structureData.Data.get(s)));
-        riverOrCoastFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_OR_COAST_FROZEN, structureData.Data.get(s)));
-        riverFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_FROZEN, structureData.Data.get(s)));
-        riverNotFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_NOT_FROZEN, structureData.Data.get(s)));
-        riverTemperate.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_TEMPERATE, structureData.Data.get(s)));
-        riverWarm.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_WARM, structureData.Data.get(s)));
-
-        //TODO: Add PERegion support to other dimensions
-        /*ArrayListMultimap<DefaultStructureDimensions.Dimension, String> structuresByOtherDimension = DefaultStructureDimensions.mapStructuresToOtherDimensions();
-        structuresByOtherDimension.get(DefaultStructureDimensions.Dimension.NETHER).forEach((s) ->
-            structuresByRegion.put(DefaultRegions.NETHER_BIOMES, structureData.Data.get(s))
-        );
-        structuresByOtherDimension.get(DefaultStructureDimensions.Dimension.END).forEach((s) ->
-            structuresByRegion.put(DefaultRegions.END_BIOMES, structureData.Data.get(s))
-        );
-        structuresByOtherDimension.get(DefaultStructureDimensions.Dimension.AETHER).forEach((s) ->
-            structuresByRegion.put(DefaultRegions.AETHER_BIOMES, structureData.Data.get(s))
-        );
-        structuresByOtherDimension.get(DefaultStructureDimensions.Dimension.AFTERDARK).forEach((s) ->
-            structuresByRegion.put(DefaultRegions.AFTERDARK_BIOMES, structureData.Data.get(s))
-        );*/
-        structuresByRegion.values().removeIf(Objects::isNull);
-        return structuresByRegion;
-    }
+//    public static HashSet<String> allOverworldStructures() {
+//
+//        HashSet<String> overworldStructures = Arrays.stream(PERegion.values())
+//                .map(PERegion::defaultStructures)
+//                .toList().stream()
+//                .map(String::valueOf)
+//                .collect(Collectors.toCollection(HashSet::new));
+//
+//        Arrays.stream(PERegion.values()).map(PERegion::defaultStructures).collect(Collectors.toCollection());
+//
+//        allUndergroundLand.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_UNDERGROUND_LAND, structureData.Data.get(s)));
+//        allCivilization.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_CIVILIZATION, structureData.Data.get(s)));
+//        allWilderness.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_WILDERNESS, structureData.Data.get(s)));
+//        allOcean.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_OCEAN, structureData.Data.get(s)));
+//        allRivers.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_RIVERS, structureData.Data.get(s)));
+//        civilizationConiferous.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_CONIFEROUS, structureData.Data.get(s)));
+//        civilizationDeciduous.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_DECIDUOUS, structureData.Data.get(s)));
+//        civilizationArid.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_ARID, structureData.Data.get(s)));
+//        civilizationDesert.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_DESERT, structureData.Data.get(s)));
+//        civilizationDesertRed.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_DESERT_RED, structureData.Data.get(s)));
+//        civilizationTropical.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_TROPICAL, structureData.Data.get(s)));
+//        civilizationSnow.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SNOW, structureData.Data.get(s)));
+//        civilizationFields.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_FIELDS, structureData.Data.get(s)));
+//        civilizationTemperate.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_TEMPERATE, structureData.Data.get(s)));
+//        civilizationSpecialAutumnal.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SPECIAL_AUTUMNAL, structureData.Data.get(s)));
+//        civilizationSpecialCoastal.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SPECIAL_COASTAL, structureData.Data.get(s)));
+//        civilizationSpecialOriental.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SPECIAL_ORIENTAL, structureData.Data.get(s)));
+//        wildernessConiferous.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_CONIFEROUS, structureData.Data.get(s)));
+//        wildernessDeciduous.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_DECIDUOUS, structureData.Data.get(s)));
+//        wildernessArid.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_ARID, structureData.Data.get(s)));
+//        wildernessDesert.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_DESERT, structureData.Data.get(s)));
+//        wildernessDesertRed.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_DESERT_RED, structureData.Data.get(s)));
+//        wildernessTropical.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_TROPICAL, structureData.Data.get(s)));
+//        wildernessSnow.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_SNOW, structureData.Data.get(s)));
+//        wildernessFields.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_FIELDS, structureData.Data.get(s)));
+//        wildernessTemperate.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_TEMPERATE, structureData.Data.get(s)));
+//        wildernessSpecialAutumnal.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_SPECIAL_AUTUMNAL, structureData.Data.get(s)));
+//        wildernessSpecialCoastal.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_SPECIAL_COASTAL, structureData.Data.get(s)));
+//        wildernessSpecialOriental.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_SPECIAL_ORIENTAL, structureData.Data.get(s)));
+//        specialRocky.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_BARREN, structureData.Data.get(s)));
+//        specialCraggy.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_CRAGGY, structureData.Data.get(s)));
+//        civilizationSpecialFlowery.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SPECIAL_FLOWERY, structureData.Data.get(s)));
+//        specialIcy.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_ICY, structureData.Data.get(s)));
+//        specialMagical.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_MAGICAL, structureData.Data.get(s)));
+//        specialMediterranean.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_MEDITERRANEAN, structureData.Data.get(s)));
+//        specialMountainousCold.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_MOUNTAINOUS_COLD, structureData.Data.get(s)));
+//        specialMountainousHot.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_MOUNTAINOUS_HOT, structureData.Data.get(s)));
+//        specialRuined.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_RUINED, structureData.Data.get(s)));
+//        specialShroomy.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_SHROOMY, structureData.Data.get(s)));
+//        specialSpooky.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_SPOOKY, structureData.Data.get(s)));
+//        specialSwampy.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_SWAMPY, structureData.Data.get(s)));
+//        specialSwampyWarm.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_SWAMPY_WARM, structureData.Data.get(s)));
+//        oceanRareDeep.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_RARE_DEEP, structureData.Data.get(s)));
+//        oceanRareShallow.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_RARE_SHALLOW, structureData.Data.get(s)));
+//        oceanWarm.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_WARM, structureData.Data.get(s)));
+//        oceanWarmDeep.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_DEEP_WARM, structureData.Data.get(s)));
+//        oceanDeep.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_DEEP, structureData.Data.get(s)));
+//        oceanShallow.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_SHALLOW, structureData.Data.get(s)));
+//        oceanFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_FROZEN, structureData.Data.get(s)));
+//        oceanDeepFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_DEEP_FROZEN, structureData.Data.get(s)));
+//        oceanNotFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_NOT_FROZEN, structureData.Data.get(s)));
+//        riverOrCoastNotFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_OR_COAST_NOT_FROZEN, structureData.Data.get(s)));
+//        riverOrCoastFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_OR_COAST_FROZEN, structureData.Data.get(s)));
+//        riverFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_FROZEN, structureData.Data.get(s)));
+//        riverNotFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_NOT_FROZEN, structureData.Data.get(s)));
+//        riverTemperate.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_TEMPERATE, structureData.Data.get(s)));
+//        riverWarm.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_WARM, structureData.Data.get(s)));
+//
+//        //TODO: Add PERegion support to other dimensions
+//        /*ArrayListMultimap<DefaultStructureDimensions.Dimension, String> structuresByOtherDimension = DefaultStructureDimensions.mapStructuresToOtherDimensions();
+//        structuresByOtherDimension.get(DefaultStructureDimensions.Dimension.NETHER).forEach((s) ->
+//            structuresByRegion.put(DefaultRegions.NETHER_BIOMES, structureData.Data.get(s))
+//        );
+//        structuresByOtherDimension.get(DefaultStructureDimensions.Dimension.END).forEach((s) ->
+//            structuresByRegion.put(DefaultRegions.END_BIOMES, structureData.Data.get(s))
+//        );
+//        structuresByOtherDimension.get(DefaultStructureDimensions.Dimension.AETHER).forEach((s) ->
+//            structuresByRegion.put(DefaultRegions.AETHER_BIOMES, structureData.Data.get(s))
+//        );
+//        structuresByOtherDimension.get(DefaultStructureDimensions.Dimension.AFTERDARK).forEach((s) ->
+//            structuresByRegion.put(DefaultRegions.AFTERDARK_BIOMES, structureData.Data.get(s))
+//        );*/
+//        structuresByRegion.values().removeIf(Objects::isNull);
+//        return structuresByRegion;
+//    }
     
     //CIVILIZATION_TEMPERATE
     public static final List<String> civilizationTemperate = ImmutableList.of(
@@ -112,6 +116,9 @@ public class DefaultStructureRegions {
         "additionalstructures:villager_house_2",
         "additionalstructures:villager_house_3",
         "additionalstructures:villager_house_4",
+        "ancientstructures:lone_german_house",
+        "ancientstructures:lone_priest",
+        "ancientstructures:german_town",
         "ati_structures:storage_shack",
         "ati_structures:old_home",
         "ati_structures:villager_inn",
@@ -229,6 +236,9 @@ public class DefaultStructureRegions {
         "towns_and_towers:village_birch_forest",
         "idas:farmhouse",
         "idas:abandoned_vineyard",
+        "ancientstructures:german_farm",
+        "ancientstructures:windmill",
+        "ancientstructures:lone_german_farmer",
         "bakery:bakery",
         "bakery:oat_field",
         "idas:ancient_statue/ancient_statue_plains",
@@ -437,7 +447,6 @@ public class DefaultStructureRegions {
         "nova_structures:tavern_acacia",
         "trek:village/savanna",
         "trek:overworld/rare/elven_tree",
-        "trek:overworld/medium/ruine_bateaux",
         "wabi_sabi_structures:water_tower_savanna",
         "wabi_sabi_structures:llama_sanctuary_plateau",
         "wabi_sabi_structures:wandering_trader_cart_temperate",
@@ -494,7 +503,6 @@ public class DefaultStructureRegions {
         "repurposed_structures:ruins_land_hot",
         "structory_towers:mirage_outpost",
         "terralith:fortified_desert_village",
-        "trek:overworld/common/well",
         "trek:overworld/medium/buried_village",
         "trek:overworld/medium/desert_ranch",
         "trek:overworld/medium/oasis",
@@ -550,6 +558,7 @@ public class DefaultStructureRegions {
         "idas:treetop_tavern",
         "idas:ancient_statue/ancient_statue_jungle",
         "idas:lumber_camp/lumber_camp_jungle",
+        "ancientstructures:mayan_village",
         "ati_structures:deepslate_keep",
         "bettermineshafts:mineshaft_lush",
         "create_ltab:jungle_well",
@@ -585,6 +594,7 @@ public class DefaultStructureRegions {
         "taxtg:giant_jungle_tree",
         "taxtg:giant_jungle_tree_1",
         "totw_modded:jungle",
+        "trek:overworld/common/well",
         "trek:overworld/medium/jungle_outpost",
 		"trek:overworld/medium/jungle_trade",
 		"trek:overworld/medium/jungle_treehouse",
@@ -696,6 +706,7 @@ public class DefaultStructureRegions {
         "taxtg:giant_palm_tree_1",
         "towns_and_towers:village_beach",
         "traveloptics:aqua_mage_tower",
+        "trek:overworld/medium/ruine_bateaux",
         "u_sea:lighthouse",
         "verdantvibes:palm_campfire",
         "wabi_sabi_structures:lighthouse",
@@ -721,6 +732,16 @@ public class DefaultStructureRegions {
         "taxtg:giant_birch_tree_1",
         "trek:overworld/medium/beehive_house"
 	);
+
+    //CIVILIZATION_SPECIAL_MEDITERRANEAN
+    public static final List<String> civilizationSpecialMediterranean = ImmutableList.of(
+        "ancientstructures:roman_bath",
+        "ancientstructures:roman_house",
+        "ancientstructures:roman_temple",
+        "ancientstructures:roman_tombstone",
+        "towns_and_towers:exclusives/village_mediterranean",
+        "towns_and_towers:exclusives/pillager_outpost_mediterranean"
+    );
     
     //CIVILIZATION_SPECIAL_ORIENTAL
     public static final List<String> civilizationSpecialOriental = ImmutableList.of(
@@ -728,6 +749,10 @@ public class DefaultStructureRegions {
         "integrated_villages:quark/minka_village",
         "idas:snifferhenge",
         "integrated_minecraft:torii_gate",
+        "ancientstructures:japanese_forge",
+        "ancientstructures:japanese_pagoda",
+        "ancientstructures:japanese_temple",
+        "ancientstructures:rengoku_house",
         "born_in_chaos_v1:grave_fubuki_banzai",
         "born_in_chaos_v1:grave_d_4rk_devil_x",
         "create_ltab:cherry_house",
@@ -916,6 +941,7 @@ public class DefaultStructureRegions {
     public static final List<String> wildernessFields = ImmutableList.of(
         "towns_and_towers:pillager_outpost_meadow",
         "towns_and_towers:pillager_outpost_sunflower_plains",
+        "ancientstructures:ruined_german_village",
         "custom:ogre_dwelling",
         "custom:gryphon_nest",
         "betterarcheology:catacombs",
@@ -1045,6 +1071,7 @@ public class DefaultStructureRegions {
     public static final List<String> wildernessArid = ImmutableList.of(
         "additionalstructures:standing_acacia_log",
         "additionalstructures:acacia_log",
+        "ancientstructures:roman_ruined_temple",
         "ati_structures:granite_fort",
         "bettermineshafts:mineshaft_acacia",
         "combat_structures_update:acaciatreehouse",
@@ -1215,7 +1242,7 @@ public class DefaultStructureRegions {
         "combat_structures_update:badlandslostwell",
         "dungeons_arise:ceryneian_hind",
         "dungeons_arise:bandit_towers",
-        "dungeons_arise:scorched_mines",
+        "dungeons_arise:mining_complex",
         "dungeons_plus:reanimated_ruins_mesa",
         "dungeons_plus:scorched_tomb",
         "explorify:badlands_pyramid",
@@ -1231,6 +1258,9 @@ public class DefaultStructureRegions {
         "nova_structures:badlands_miner_outpost",
         "philipsruins:badlands_start_dungeon",
         "philipsruins:badlands_structures",
+        "piglet_structures:badlands_giant_tree",
+        "piglet_structures:badlands_pillager_barrel_outpost",
+        "piglet_structures:badlands_ruins",
         "repurposed_structures:pyramid_badlands",
         "repurposed_structures:outpost_badlands",
         "species:paleontology_dig_site",
@@ -1265,6 +1295,10 @@ public class DefaultStructureRegions {
         "towns_and_towers:pillager_outpost_jungle",
         "towns_and_towers:pillager_outpost_sparse_jungle",
         "idas:witches_treestump",
+        "ancientstructures:mayan_ruins",
+        "ancientstructures:mayan_temple",
+        "ancientstructures:mayan_temple2",
+        "ancientstructures:mayan_temple3",
 		"archaeology_ruins:ruinedjungletemple",
         "ati_structures:ancient_temple",
         "ati_structures:jungle_settlement",
@@ -1357,7 +1391,6 @@ public class DefaultStructureRegions {
         "ati_structures:old_fort",
         "ati_structures:stray_ruins",
         "ars_nouveau:guardian_wilden_den",
-        "block_factorys_bosses:yeti_hideout",
         "born_in_chaos_v1:grave_rotborne",
         "born_in_chaos_v1:grave_petasi",
         "custom:ice_dragon_spawn",
@@ -1419,8 +1452,15 @@ public class DefaultStructureRegions {
         "mostructures:moai"
 	);
     
+    //WILDERNESS_SPECIAL_MEDITERRANEAN
+    public static final List<String> wildernessSpecialMediterranean = ImmutableList.of(
+        "iceandfire:gorgon_temple",
+        "integrated_minecraft:cyclops_lair"
+	);
+
     //WILDERNESS_SPECIAL_ORIENTAL
     public static final List<String> wildernessSpecialOriental = ImmutableList.of(
+        "ancientstructures:ruined_japanese_village",
         "ati_structures:dojo",
         "ati_structures:monastery_tower",
         "dungeons_arise:kisegi_sanctuary",
@@ -1437,6 +1477,21 @@ public class DefaultStructureRegions {
         "repurposed_structures:pyramid_flower_forest"
 	);
     
+    //COASTAL_FROZEN
+    public static final List<String> coastalFrozen = ImmutableList.of(
+
+	);
+
+    //COASTAL_TEMPERATE
+    public static final List<String> coastalTemperate = ImmutableList.of(
+
+	);
+
+    //COASTAL_WARM
+    public static final List<String> coastalWarm = ImmutableList.of(
+
+	);
+
     //OCEAN_NOT_FROZEN
     public static final List<String> oceanNotFrozen = ImmutableList.of(
         "minecraft:brig",
@@ -1473,59 +1528,6 @@ public class DefaultStructureRegions {
         //"wabi_sabi_structures:sunken_steamboat"
 	);
 
-    //OCEAN_DEEP
-    public static final List<String> oceanDeep = ImmutableList.of(
-        "minecraft:monument",
-        "towns_and_towers:village_ocean",
-        "idas:sunken_ship/sunken_ship",
-        "idas:sunken_ship/sunken_ship_coral",
-        "ba_bt:ocean_battle_tower",
-        "betteroceanmonuments:ocean_monument",
-        "cataclysm:sunken_city",
-        "create_structures_arise:pillager_boat",
-        "combat_structures_update:ocean_glass_dome",
-        "combat_structures_update:illagerwarship",
-        "combat_structures_update:watercastle",
-        "create_ltab:water_pre",
-        "dungeons_arise:typhon",
-        "dungeons_arise:mechanical_nest",
-        "dungeons_arise_seven_seas:unicorn_galleon",
-        "dungeons_arise_seven_seas:victory_frigate",
-        "dungeons_arise_seven_seas:corsair_corvette",
-        "dungeons_arise_seven_seas:pirate_junk",
-        "dungeons_plus:warped_garden",
-        "feur_extension_fossil:fossil_bone_fish",
-        "feur_extension_fossil:fossil_guardian",
-        "feur_extension_fossil:fossil_fish",
-        "formationsoverworld:raft",
-        "hopo:underwater_fossils",
-        "hopo:underwater/underwater_fossils",
-        "hopo:underwater_small_ruins",
-        "hopo:underwater/underwater_small_ruins",
-        "hopo:underwater/underwater_city",
-        "hopo:underwater_city",
-        "mtr:ocean_temple",
-        "nova_structures:trident_trial_monument",
-        "philipsruins:ocean_fortress",
-        "philipsruins:ocean_ruins",
-        "repurposed_structures:pyramid_ocean",
-        "repurposed_structures:ancient_city_ocean",
-        "totw_modded:ocean",
-        "threateningly_mobs:underwater_altar",
-        "trek:overworld/very_rare/coves",
-        "trek:overworld/rare/mushroom_island",
-        "underwater_village:tower",
-        "underwater_village:dungeon",
-        "underwater_village:ruins"
-	);
-    
-    //OCEAN_SHALLOW
-    public static final List<String> oceanShallow = ImmutableList.of(
-		"minecraft:shipwreck",
-        //"ati_structures:lighthouse",
-        "u_sea:raft/temperate/grid"
-	);
-
     //OCEAN_FROZEN
     public static final List<String> oceanFrozen = ImmutableList.of(
         "irons_spellbooks:impaled_icebreaker",
@@ -1547,6 +1549,78 @@ public class DefaultStructureRegions {
         "u_sea:raft/cold/wide_tide_breaker"
 	);
 
+    //OCEAN_TEMPERATE
+    public static final List<String> oceanTemperate = ImmutableList.of(
+
+    );
+
+    //OCEAN_WARM
+    public static final List<String> oceanWarm = ImmutableList.of(
+            "lios_outlandish_villages:spiral_tower_village_sea",
+            "minecraft:ocean_ruin_warm",
+            "archaeology_ruins:small_ocean_ruin",
+            "betterarcheology:underwater_0",
+            "betterarcheology:underwater_1",
+            "betterarcheology:underwater_2",
+            "betterarcheology:underwater_3",
+            "combat_structures_update:jungle_illager_ship",
+            "idas:sunken_ship/sunken_ship_ruins",
+            "medieval_buildings:ship",
+            "structory_towers:ocean_pillar",
+            "u_sea:island/warm/hill",
+            "u_sea:island/warm/tower",
+            "u_sea:raft/warm/skipper",
+            "u_sea:raft/warm/cone_skipper",
+            "threateningly_mobs:sea_cucumber_nest",
+            "repurposed_structures:village_ocean"
+    );
+
+    //OCEAN_DEEP
+    public static final List<String> oceanDeep = ImmutableList.of(
+            "minecraft:monument",
+            "towns_and_towers:village_ocean",
+            "idas:sunken_ship/sunken_ship",
+            "idas:sunken_ship/sunken_ship_coral",
+            "ba_bt:ocean_battle_tower",
+            "betteroceanmonuments:ocean_monument",
+            "cataclysm:sunken_city",
+            "create_structures_arise:pillager_boat",
+            "combat_structures_update:ocean_glass_dome",
+            "combat_structures_update:illagerwarship",
+            "combat_structures_update:watercastle",
+            "create_ltab:water_pre",
+            "dungeons_arise:typhon",
+            "dungeons_arise:mechanical_nest",
+            "dungeons_arise_seven_seas:unicorn_galleon",
+            "dungeons_arise_seven_seas:victory_frigate",
+            "dungeons_arise_seven_seas:corsair_corvette",
+            "dungeons_arise_seven_seas:pirate_junk",
+            "dungeons_plus:warped_garden",
+            "feur_extension_fossil:fossil_bone_fish",
+            "feur_extension_fossil:fossil_guardian",
+            "feur_extension_fossil:fossil_fish",
+            "formationsoverworld:raft",
+            "hopo:underwater_fossils",
+            "hopo:underwater/underwater_fossils",
+            "hopo:underwater_small_ruins",
+            "hopo:underwater/underwater_small_ruins",
+            "hopo:underwater/underwater_city",
+            "hopo:underwater_city",
+            "mtr:ocean_temple",
+            "nova_structures:trident_trial_monument",
+            "philipsruins:ocean_fortress",
+            "philipsruins:ocean_ruins",
+            "repurposed_structures:pyramid_ocean",
+            "repurposed_structures:ancient_city_ocean",
+            "totw_modded:ocean",
+            "threateningly_mobs:underwater_altar",
+            "trek:overworld/very_rare/coves",
+            "trek:overworld/rare/mushroom_island",
+            "underwater_village:tower",
+            "underwater_village:dungeon",
+            "underwater_village:ruins"
+    );
+
     //OCEAN_DEEP_FROZEN
     public static final List<String> oceanDeepFrozen = ImmutableList.of(
 		"aquamirae:shelter",
@@ -1563,29 +1637,13 @@ public class DefaultStructureRegions {
         "underwater_village:cold_gate"
 	);
 
-    //OCEAN_WARM
-    public static final List<String> oceanWarm = ImmutableList.of(
-        "lios_outlandish_villages:spiral_tower_village_sea",
-        "minecraft:ocean_ruin_warm",
-        "archaeology_ruins:small_ocean_ruin",
-        "betterarcheology:underwater_0",
-        "betterarcheology:underwater_1",
-        "betterarcheology:underwater_2",
-        "betterarcheology:underwater_3",
-        "combat_structures_update:jungle_illager_ship",
-        "idas:sunken_ship/sunken_ship_ruins",
-        "medieval_buildings:ship",
-        "structory_towers:ocean_pillar",
-        "u_sea:island/warm/hill",
-        "u_sea:island/warm/tower",
-        "u_sea:raft/warm/skipper",
-        "u_sea:raft/warm/cone_skipper",
-        "threateningly_mobs:sea_cucumber_nest",
-        "repurposed_structures:village_ocean"
-	);
+    //OCEAN_DEEP_TEMPERATE
+    public static final List<String> oceanDeepTemperate = ImmutableList.of(
 
-    //OCEAN_WARM_DEEP
-    public static final List<String> oceanWarmDeep = ImmutableList.of(
+    );
+
+    //OCEAN_DEEP_WARM
+    public static final List<String> oceanDeepWarm = ImmutableList.of(
         "minecraft:pirate_fleet",
 		"archaeology_ruins:warm_ocean_ruin",
         "cataclysm:acropolis",
@@ -1600,7 +1658,32 @@ public class DefaultStructureRegions {
         "underwater_village:warm_gate",
         "underwater_village:small_gate"
 	);
+
+    //OCEAN_SHALLOW
+    public static final List<String> oceanShallow = ImmutableList.of(
+            "minecraft:shipwreck",
+            //"ati_structures:lighthouse",
+            "u_sea:raft/temperate/grid"
+    );
     
+    //OCEAN_SHALLOW_FROZEN
+    public static final List<String> oceanShallowFrozen = ImmutableList.of(
+        "idas:iceandfire/sirens_cove",
+        "jellyfishing:buried_treasure"
+	);
+
+    //OCEAN_SHALLOW_TEMPERATE
+    public static final List<String> oceanShallowTemperate = ImmutableList.of(
+        "idas:iceandfire/sirens_cove",
+        "jellyfishing:buried_treasure"
+	);
+
+    //OCEAN_SHALLOW_WARM
+    public static final List<String> oceanShallowWarm = ImmutableList.of(
+        "idas:iceandfire/sirens_cove",
+        "jellyfishing:buried_treasure"
+	);
+
     //OCEAN_RARE_SHALLOW
     public static final List<String> oceanRareShallow = ImmutableList.of(
         "idas:iceandfire/sirens_cove",
@@ -1673,7 +1756,7 @@ public class DefaultStructureRegions {
 	);
     
     //SPECIAL_BARREN
-    public static final List<String> specialBarren = ImmutableList.of(
+    public static final List<String> specialRocky = ImmutableList.of(
         "minecraft:archbishop_stronghold",
         "additionalstructures:cobblestone_rock_1",
 		"additionalstructures:cobblestone_rock_2",
@@ -1847,18 +1930,11 @@ public class DefaultStructureRegions {
         "verdantvibes:fairy_circle",
         "wabi_sabi_structures:dark_witch_keep"
 	);
-
-    //SPECIAL_MEDITERRANEAN
-    public static final List<String> specialMediterranean = ImmutableList.of(
-        "towns_and_towers:exclusives/village_mediterranean",  
-        "towns_and_towers:exclusives/pillager_outpost_mediterranean",
-        "iceandfire:gorgon_temple",
-        "integrated_minecraft:cyclops_lair"
-	);
     
     //SPECIAL_MOUNTAINOUS_COLD
     public static final List<String> specialMountainousCold = ImmutableList.of(
         "minecraft:ruined_portal_mountain",
+        "block_factorys_bosses:yeti_hideout",
         "born_in_chaos_v1:observation_tower_forest",
         "born_in_chaos_v1:grave_memesus",
         "combat_structures_update:bunker",
@@ -1884,6 +1960,7 @@ public class DefaultStructureRegions {
 		"combat_structures_update:overworldobsidianspike_3",
         "custom:fire_dragon_spawn",
         "custom:lightning_dragon_spawn",
+        "dungeons_arise:scorched_mines",
         "dungeons_plus:infested_dungeon",
         "formationsoverworld:meteor",
         "skyarena:sky_arena",
@@ -1987,6 +2064,7 @@ public class DefaultStructureRegions {
         "philipsruins:lost_soul_dungeon",
         "philipsruins:lost_soul_city",
         "philipsruins:pumpkin_ruins",
+        "piglet_structures:mega_taiga_ruins",
         "structory:old_manor",
         "structory:abandoned_chapel",
         "structory:graveyard",
@@ -2303,6 +2381,11 @@ public class DefaultStructureRegions {
         "additionalstructures:flotsam_3",
         "additionalstructures:flotsam_4",
         "additionalstructures:flotsam_5"
+	);
+
+    //ALL_COASTAL
+    public static final List<String> allCoastal = ImmutableList.of(
+
 	);
 
     //ALL_RIVERS

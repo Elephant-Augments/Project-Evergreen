@@ -1,0 +1,128 @@
+{
+  "values": [
+    {
+      "id": "ati_structures:aboveground_large",
+      "required": false
+    },
+    {
+      "id": "ati_structures:aboveground_small",
+      "required": false
+    },
+    {
+      "id": "betterdeserttemples:desert_temples",
+      "required": false
+    },
+    {
+      "id": "betterjungletemples:jungle_temples",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:major_structures",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:uncommon",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:rare",
+      "required": false
+    },
+    {
+      "id": "idas:idas_rare",
+      "required": false
+    },
+    {
+      "id": "idas:idas_underground_rare",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:air_villages",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:regular_villages",
+      "required": false
+    },
+    {
+      "id": "lios_outlandish_villages:spiral_tower_village",
+      "required": false
+    },
+    {
+      "id": "lios_outlandish_villages:spiral_tower_village_sea",
+      "required": false
+    },
+    {
+      "id": "minecraft:villages",
+      "required": false
+    },
+    {
+      "id": "minecraft:ocean_monuments",
+      "required": false
+    },
+    {
+      "id": "minecraft:pillager_outposts",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portals",
+      "required": false
+    },
+    {
+      "id": "minecraft:woodland_mansions",
+      "required": false
+    },
+    {
+      "id": "nova_structures:firewatch_towers",
+      "required": false
+    },
+    {
+      "id": "philipsruins:ocean_fortress_main",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outposts_overworld",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:monuments_overworld",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:villages_overworld",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:cities_overworld",
+      "required": false
+    },
+    {
+      "id": "structory:ruin_quiet",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:towers",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:towns",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_common",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_rare",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:spawn_altar_7",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_dead_tree_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_dead_tree_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_dead_tree_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:skeleton_skull",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:ruin_1",
+      "required": false
+    },
+    {
+      "id": "ati_structures:haunted_ruin",
+      "required": false
+    },
+    {
+      "id": "ati_structures:wither_keep",
+      "required": false
+    },
+    {
+      "id": "ati_structures:herobrine_stronghold",
+      "required": false
+    },
+    {
+      "id": "ati_structures:arachnid_dwelling",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_2003wise",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_darktitan",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_euthymia",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_feral",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_mike_and_rory",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_nino_4416",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_orion",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_plug",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_somfunambulist",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_tem_187",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:gravecarrionexe",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:clown_caravan_taiga",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_tower_taiga",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:stables",
+      "required": false
+    },
+    {
+      "id": "goety:crypt",
+      "required": false
+    },
+    {
+      "id": "goety:graveyard",
+      "required": false
+    },
+    {
+      "id": "goety:black_assembly",
+      "required": false
+    },
+    {
+      "id": "goety:spider_den",
+      "required": false
+    },
+    {
+      "id": "iceandfire:graveyard",
+      "required": false
+    },
+    {
+      "id": "iceandfire:mausoleum",
+      "required": false
+    },
+    {
+      "id": "idas:haunted_manor",
+      "required": false
+    },
+    {
+      "id": "idas:dark_tower",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:graveyard",
+      "required": false
+    },
+    {
+      "id": "mvs:gallows",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_pillars",
+      "required": false
+    },
+    {
+      "id": "mvs:ruins/stone_pillars",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:graveyard",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_graveyard",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_ominous_shop",
+      "required": false
+    },
+    {
+      "id": "occult:shaded_hut",
+      "required": false
+    },
+    {
+      "id": "occult:shaded_ruins",
+      "required": false
+    },
+    {
+      "id": "occult:shaded_tower",
+      "required": false
+    },
+    {
+      "id": "philipsruins:antiquus_crypta",
+      "required": false
+    },
+    {
+      "id": "philipsruins:level_two_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:level_two_ruins_pool",
+      "required": false
+    },
+    {
+      "id": "philipsruins:lost_soul_dungeon",
+      "required": false
+    },
+    {
+      "id": "philipsruins:lost_soul_city",
+      "required": false
+    },
+    {
+      "id": "philipsruins:pumpkin_ruins",
+      "required": false
+    },
+    {
+      "id": "piglet_structures:mega_taiga_ruins",
+      "required": false
+    },
+    {
+      "id": "structory:old_manor",
+      "required": false
+    },
+    {
+      "id": "structory:abandoned_chapel",
+      "required": false
+    },
+    {
+      "id": "structory:graveyard",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/haunted_house",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/graveyard",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:gallows",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:effigy_patch_forest",
+      "required": false
+    }
+  ]
+}

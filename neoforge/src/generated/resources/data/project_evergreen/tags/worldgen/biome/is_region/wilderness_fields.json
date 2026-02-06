@@ -1,0 +1,104 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:pillar_ruin_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:pillar_ruin_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:pillar_ruin_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_circle_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_circle_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_circle_3",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_german_village",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:catacombs",
+      "required": false
+    },
+    {
+      "id": "custom:ogre_dwelling",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:illager_windmill",
+      "required": false
+    },
+    {
+      "id": "idas:collectors_museum",
+      "required": false
+    },
+    {
+      "id": "idas:ancient_mines",
+      "required": false
+    },
+    {
+      "id": "idas:hermits_hollow",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:evoker_fort",
+      "required": false
+    },
+    {
+      "id": "nova_structures:ruin_town",
+      "required": false
+    },
+    {
+      "id": "philipsruins:field_stone_ruins",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_grassy",
+      "required": false
+    },
+    {
+      "id": "structory:outcast_villager_grassy",
+      "required": false
+    },
+    {
+      "id": "structory:ruin_grassy",
+      "required": false
+    },
+    {
+      "id": "threateningly_mobs:titan_summon_altar",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_meadow",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_sunflower_plains",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/farm_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/stonehedge",
+      "required": false
+    }
+  ]
+}

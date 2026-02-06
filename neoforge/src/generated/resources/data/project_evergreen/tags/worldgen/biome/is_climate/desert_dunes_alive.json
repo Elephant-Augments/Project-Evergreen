@@ -1,0 +1,48 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:arid_plains",
+      "required": false
+    },
+    {
+      "id": "minecraft:desert",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_desert",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:saguaro_desert",
+      "required": false
+    },
+    {
+      "id": "terralith:desert_oasis",
+      "required": false
+    },
+    {
+      "id": "wythers:cactus_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:danakil_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:desert_lakes",
+      "required": false
+    },
+    {
+      "id": "wythers:guelta",
+      "required": false
+    },
+    {
+      "id": "wythers:outback_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:wooded_desert",
+      "required": false
+    }
+  ]
+}

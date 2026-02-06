@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/structure_id",
+    "value": "u_desert:desert/archeology/remnants"
+  },
+  {
+    "op": "test",
+    "type": "project_evergreen:structure_rarity_redistribution",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/structures",
+    "value": []
+  }
+]

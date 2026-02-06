@@ -1,0 +1,132 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:flotsam_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:flotsam_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:flotsam_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:flotsam_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:flotsam_5",
+      "required": false
+    },
+    {
+      "id": "archaeology_ruins:ocean_ruin",
+      "required": false
+    },
+    {
+      "id": "archaeology_ruins:warm_ocean_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:flyingboat",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:typhon",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_bone_fish",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_guardian",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_fish",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_baby_fish",
+      "required": false
+    },
+    {
+      "id": "idas:sunken_ship/sunken_ship",
+      "required": false
+    },
+    {
+      "id": "idas:sunken_ship/sunken_ship_ruins",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:red_coral",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:deep_blue_labs",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:deep_blue_lab_ruin",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:deep_blue_city",
+      "required": false
+    },
+    {
+      "id": "minecraft:shipwreck",
+      "required": false
+    },
+    {
+      "id": "minecraft:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "minecraft:monument",
+      "required": false
+    },
+    {
+      "id": "minecraft:ocean_ruin_cold",
+      "required": false
+    },
+    {
+      "id": "minecraft:ocean_ruin_warm",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_ocean",
+      "required": false
+    },
+    {
+      "id": "mvs:ocean_tower",
+      "required": false
+    },
+    {
+      "id": "nova_structures:conduit_ruin",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_ocean",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_ocean",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:wreckage_ocean",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/underwater_sword",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:marine_observation_hub",
+      "required": false
+    }
+  ]
+}

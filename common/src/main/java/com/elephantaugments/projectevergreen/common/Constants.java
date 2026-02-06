@@ -1,22 +1,44 @@
 package com.elephantaugments.projectevergreen.common;
 
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultBlacklist;
-import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureFixes;
-import com.google.common.collect.TreeMultimap;
+import com.elephantaugments.projectevergreen.common.data.defaults.DefaultFlags;
 
 import java.util.*;
 
 public class Constants {
 
-	public static SortedSet<String> loadedBiomes = new TreeSet<>();
-	public static SortedSet<String> loadedBiomeModifiers = new TreeSet<>();
-	public static SortedSet<String> loadedProcessorLists= new TreeSet<>();
-	public static SortedSet<String> loadedLootTables = new TreeSet<>();
-	public static SortedSet<String> loadedTemplatePools = new TreeSet<>();
-	public static SortedSet<String> loadedStructureSets = new TreeSet<>();
-    public static SortedSet<String> loadedStructures = new TreeSet<>();
-    public static SortedSet<String> undergroundStructures = new TreeSet<>();
-    public static SortedSet<String> flatStructures = new TreeSet<>();
+	public static final List<String> EMPTY_LIST = new ArrayList<>();
+
+	public static final int OVERWORLD_DIFFICULTY = 3;
+	public static final int OTHERWORLD_DIFFICULTY = 4;
+
+	public static final int NETHER_DIFFICULTY_OFFSET = 1;
+	public static final int AETHER_DIFFICULTY_OFFSET = 1;
+	public static final int END_DIFFICULTY_OFFSET = 3;
+	public static final int AFTERDARK_DIFFICULTY_OFFSET = 2;
+	public static final int LOSTCITIES_DIFFICULTY_OFFSET = 4;
+
+	public static final int SAFE_DIFFICULTY_OFFSET = -2;
+	public static final int NEUTRAL_DIFFICULTY_OFFSET = 0;
+	public static final int DANGEROUS_DIFFICULTY_OFFSET = 2;
+
+	public static final int DEFAULT_DECO_SPACING = 12;
+	public static final int DEFAULT_DECO_SEPARATION = 6;
+	public static final int DEFAULT_MEDIUM_SPACING = 24;
+	public static final int DEFAULT_MEDIUM_SEPARATION = 16;
+	public static final int DEFAULT_MASSIVE_SPACING = 42;
+	public static final int DEFAULT_MASSIVE_SEPARATION = 34;
+	public static final int DEFAULT_SPRAWLING_SPACING = 64;
+	public static final int DEFAULT_SPRAWLING_SEPARATION = 58;
+	public static final Double CIVILIZATION_SPREAD_OFFSET = 0.85;
+	public static final Double WILDERNESS_SPREAD_OFFSET = 1.25;
+	public static final Double SPECIAL_SPREAD_OFFSET = 1.35;
+	public static final Double FLATNESS_SPREAD_OFFSET = 0.65;
+
+	public static final String BIOME_TAG_PATH = "tags/worldgen/biome/";
+	public static final String STRUCTURE_TAG_PATH = "tags/worldgen/structure/";
+	public static final String STRUCTURE_SET_TAG_PATH = "tags/worldgen/structure_set/";
+	public static final String ENTITY_TAG_PATH = "tags/entity_type/";
 
 	public static final String ID_TAG = "structure_id";
 	public static final String BIOME_TAG = "biome_tag";
@@ -46,7 +68,7 @@ public class Constants {
 	public static final String ALLOWED_TERRAIN_HEIGHT_WIDE = "wide_flatness_allowed_elevation";
 	public static final String FLAT_WIDE_TEST = ProjectEvergreen.MODID + ":flat_check_wide";
 	public static final String ALLOWED_TERRAIN_HEIGHT_SPRAWLING = "sprawling_flatness_allowed_elevation";
-	public static final String FLAT_SPRAWLING_TEST = ProjectEvergreen.MODID + ":" + DefaultStructureFixes.FLATNESS_CHECK_SPRAWLING;
+	public static final String FLAT_SPRAWLING_TEST = ProjectEvergreen.MODID + ":" + DefaultFlags.FLATNESS_CHECK_SPRAWLING;
 	public static final String IGNORE_FLATNESS_CHECK_TEST = ProjectEvergreen.MODID + ":flatness_check_ignored";
 
 	public static final String POPULATION_BIAS = "population_bias";
@@ -61,7 +83,6 @@ public class Constants {
 	public static final String OCEAN_MASSIVE_RARITY = "ocean_massive_rarity";
 	public static final String OCEAN_MEDIUM_RARITY = "ocean_medium_rarity";
 	public static final String SKY_MASSIVE_RARITY = "sky_massive_rarity";
-	public static final Double FLATNESS_SPREAD_OFFSET = 0.65;
 
 	public static final String CIVILIZATION_MASSIVE = "civilization_inland_massive";
 	public static final String CIVILIZATION_MEDIUM = "civilization_inland_medium";

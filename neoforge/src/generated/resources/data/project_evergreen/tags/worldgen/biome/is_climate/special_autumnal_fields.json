@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:fall_fruitfull_grove",
+      "required": false
+    },
+    {
+      "id": "minecraft:old_growth_birch_forest",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:golden_wilds",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:marigold_meadows",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:barley_fields",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pumpkin_fields",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_plains",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_forest_edge",
+      "required": false
+    }
+  ]
+}

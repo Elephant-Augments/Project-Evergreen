@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "minecraft:frozen_river",
+      "required": false
+    },
+    {
+      "id": "wythers:icy_river",
+      "required": false
+    }
+  ]
+}

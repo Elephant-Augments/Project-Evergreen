@@ -1,43 +1,263 @@
 package com.elephantaugments.projectevergreen.common.util;
 
-import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
-import com.elephantaugments.projectevergreen.common.data.defaults.DefaultRegions;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.BiomeTags;
+import com.elephantaugments.projectevergreen.common.api.*;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.levelgen.structure.Structure;
+import net.minecraft.world.level.levelgen.structure.StructureSet;
 
-public final class PETags {
-    private static final String PREFIX = "#" + ProjectEvergreen.MODID + ":";
+public class PETags {
 
-    public static void initTags() {}
+    /*public static void initTags() {}
 
     public static class Biomes {
-        public static final TagKey<Biome> CIVILIZATION_TEMPERATE = createTag(DefaultRegions.CIVILIZATION_TEMPERATE.replace(PREFIX, ""));
+        public static final TagKey<Biome> PATCHABLE = PEBiome.Flag.PATCHABLE.createTag();
+        public static final TagKey<Biome> DESERT_DUNES_ALIVE = PEBiome.DESERT_DUNES_ALIVE.createTag();
+        public static final TagKey<Biome> DESERT_DUNES_BARREN = PEBiome.DESERT_DUNES_BARREN.createTag();
+        public static final TagKey<Biome> DESERT_RED_ALIVE = PEBiome.DESERT_RED_ALIVE.createTag();
+        public static final TagKey<Biome> DESERT_RED_BARREN = PEBiome.DESERT_RED_BARREN.createTag();
+        public static final TagKey<Biome> FOREST_DENSE_CONIFEROUS_SNOW = PEBiome.FOREST_DENSE_CONIFEROUS_SNOW.createTag();
+        public static final TagKey<Biome> FOREST_DENSE_CONIFEROUS = PEBiome.FOREST_DENSE_CONIFEROUS.createTag();
+        public static final TagKey<Biome> FOREST_DENSE_DECIDUOUS = PEBiome.FOREST_DENSE_DECIDUOUS.createTag();
+        public static final TagKey<Biome> FOREST_DENSE_TROPICAL = PEBiome.FOREST_DENSE_TROPICAL.createTag();
+        public static final TagKey<Biome> FOREST_SPARSE_CONIFEROUS_SNOW = PEBiome.FOREST_SPARSE_CONIFEROUS_SNOW.createTag();
+        public static final TagKey<Biome> FOREST_SPARSE_CONIFEROUS = PEBiome.FOREST_SPARSE_CONIFEROUS.createTag();
+        public static final TagKey<Biome> FOREST_SPARSE_DECIDUOUS = PEBiome.FOREST_SPARSE_DECIDUOUS.createTag();
+        public static final TagKey<Biome> FOREST_SPARSE_TROPICAL = PEBiome.FOREST_SPARSE_TROPICAL.createTag();
+        public static final TagKey<Biome> MOUNTAINS_ALIVE = PEBiome.MOUNTAINS_ALIVE.createTag();
+        public static final TagKey<Biome> MOUNTAINS_BARREN = PEBiome.MOUNTAINS_BARREN.createTag();
+        public static final TagKey<Biome> MOUNTAINS_COLD = PEBiome.MOUNTAINS_COLD.createTag();
+        public static final TagKey<Biome> MOUNTAINS_HOT = PEBiome.MOUNTAINS_HOT.createTag();
+        public static final TagKey<Biome> OCEAN_DEEP_FROZEN = PEBiome.OCEAN_DEEP_FROZEN.createTag();
+        public static final TagKey<Biome> OCEAN_DEEP_TEMPERATE = PEBiome.OCEAN_DEEP_TEMPERATE.createTag();
+        public static final TagKey<Biome> OCEAN_DEEP_WARM = PEBiome.OCEAN_DEEP_WARM.createTag();
+        public static final TagKey<Biome> OCEAN_DEEP_RARE = PEBiome.OCEAN_DEEP_RARE.createTag();
+        public static final TagKey<Biome> OCEAN_SHALLOW_FROZEN = PEBiome.OCEAN_SHALLOW_FROZEN.createTag();
+        public static final TagKey<Biome> OCEAN_SHALLOW_TEMPERATE = PEBiome.OCEAN_SHALLOW_TEMPERATE.createTag();
+        public static final TagKey<Biome> OCEAN_SHALLOW_WARM = PEBiome.OCEAN_SHALLOW_WARM.createTag();
+        public static final TagKey<Biome> OCEAN_SHALLOW_RARE = PEBiome.OCEAN_SHALLOW_RARE.createTag();
+        public static final TagKey<Biome> COASTAL_FROZEN = PEBiome.COASTAL_FROZEN.createTag();
+        public static final TagKey<Biome> COASTAL_TEMPERATE = PEBiome.COASTAL_TEMPERATE.createTag();
+        public static final TagKey<Biome> COASTAL_WARM = PEBiome.COASTAL_WARM.createTag();
+        public static final TagKey<Biome> COASTAL_ALIVE = PEBiome.COASTAL_ALIVE.createTag();
+        public static final TagKey<Biome> COASTAL_BARREN = PEBiome.COASTAL_BARREN.createTag();
+        public static final TagKey<Biome> RIVER_FROZEN = PEBiome.RIVER_FROZEN.createTag();
+        public static final TagKey<Biome> RIVER_TEMPERATE = PEBiome.RIVER_TEMPERATE.createTag();
+        public static final TagKey<Biome> RIVER_WARM = PEBiome.RIVER_WARM.createTag();
+        public static final TagKey<Biome> PLAINS_GRASSY_ARID = PEBiome.PLAINS_GRASSY_ARID.createTag();
+        public static final TagKey<Biome> PLAINS_GRASSY_SNOW = PEBiome.PLAINS_GRASSY_SNOW.createTag();
+        public static final TagKey<Biome> PLAINS_GRASSY_TEMPERATE = PEBiome.PLAINS_GRASSY_TEMPERATE.createTag();
+        public static final TagKey<Biome> PLAINS_GRASSY_TROPICAL = PEBiome.PLAINS_GRASSY_TROPICAL.createTag();
+        public static final TagKey<Biome> PLAINS_SHRUBBY_ARID = PEBiome.PLAINS_SHRUBBY_ARID.createTag();
+        public static final TagKey<Biome> PLAINS_SHRUBBY_SNOW = PEBiome.PLAINS_SHRUBBY_SNOW.createTag();
+        public static final TagKey<Biome> PLAINS_SHRUBBY_TEMPERATE = PEBiome.PLAINS_SHRUBBY_TEMPERATE.createTag();
+        public static final TagKey<Biome> PLAINS_SHRUBBY_TROPICAL = PEBiome.PLAINS_SHRUBBY_TROPICAL.createTag();
+        public static final TagKey<Biome> SPECIAL_AUTUMNAL_FIELDS = PEBiome.SPECIAL_AUTUMNAL_FIELDS.createTag();
+        public static final TagKey<Biome> SPECIAL_AUTUMNAL_FOREST = PEBiome.SPECIAL_AUTUMNAL_FOREST.createTag();
+        public static final TagKey<Biome> SPECIAL_CRAGGY_SNOW = PEBiome.SPECIAL_CRAGGY_SNOW.createTag();
+        public static final TagKey<Biome> SPECIAL_CRAGGY_TEMPERATE = PEBiome.SPECIAL_CRAGGY_TEMPERATE.createTag();
+        public static final TagKey<Biome> SPECIAL_CRAGGY_WARM = PEBiome.SPECIAL_CRAGGY_WARM.createTag();
+        public static final TagKey<Biome> SPECIAL_FLOWERY_FIELDS = PEBiome.SPECIAL_FLOWERY_FIELDS.createTag();
+        public static final TagKey<Biome> SPECIAL_FLOWERY_FOREST = PEBiome.SPECIAL_FLOWERY_FOREST.createTag();
+        public static final TagKey<Biome> SPECIAL_MEDITERRANEAN_INVITING = PEBiome.SPECIAL_MEDITERRANEAN_INVITING.createTag();
+        public static final TagKey<Biome> SPECIAL_MEDITERRANEAN_UNINVITING = PEBiome.SPECIAL_MEDITERRANEAN_UNINVITING.createTag();
+        public static final TagKey<Biome> SPECIAL_ORIENTAL_INVITING = PEBiome.SPECIAL_ORIENTAL_INVITING.createTag();
+        public static final TagKey<Biome> SPECIAL_ORIENTAL_UNINVITING = PEBiome.SPECIAL_ORIENTAL_UNINVITING.createTag();
+        public static final TagKey<Biome> SPECIAL_ICY = PEBiome.SPECIAL_ICY.createTag();
+        public static final TagKey<Biome> SPECIAL_MAGICAL = PEBiome.SPECIAL_MAGICAL.createTag();
+        public static final TagKey<Biome> SPECIAL_ROCKY = PEBiome.SPECIAL_ROCKY.createTag();
+        public static final TagKey<Biome> SPECIAL_RUINED = PEBiome.SPECIAL_RUINED.createTag();
+        public static final TagKey<Biome> SPECIAL_SHROOMY = PEBiome.SPECIAL_SHROOMY.createTag();
+        public static final TagKey<Biome> SPECIAL_SPOOKY = PEBiome.SPECIAL_SPOOKY.createTag();
+        public static final TagKey<Biome> SPECIAL_SWAMPY_SNOW = PEBiome.SPECIAL_SWAMPY_SNOW.createTag();
+        public static final TagKey<Biome> SPECIAL_SWAMPY_TEMPERATE = PEBiome.SPECIAL_SWAMPY_TEMPERATE.createTag();
+        public static final TagKey<Biome> SPECIAL_SWAMPY_WARM = PEBiome.SPECIAL_SWAMPY_WARM.createTag();
+    }
 
-        private static TagKey<Biome> createTag(String name) {
-            return TagKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, name));
-        }
+    public static class Regions {
+        //public static final TagKey<Biome> NO_BIOMES = getRegionTag(PERegion.NO_BIOMES);
+        public static final TagKey<Biome> CIVILIZATION_FIELDS = PERegion.CIVILIZATION_FIELDS.createBiomeTag();
+        public static final TagKey<Biome> CIVILIZATION_CONIFEROUS = PERegion.CIVILIZATION_CONIFEROUS.createBiomeTag();
+        public static final TagKey<Biome> CIVILIZATION_DECIDUOUS = PERegion.CIVILIZATION_DECIDUOUS.createBiomeTag();
+        public static final TagKey<Biome> CIVILIZATION_ARID = PERegion.CIVILIZATION_ARID.createBiomeTag();
+        public static final TagKey<Biome> CIVILIZATION_DESERT = PERegion.CIVILIZATION_DESERT.createBiomeTag();
+        public static final TagKey<Biome> CIVILIZATION_DESERT_RED = PERegion.CIVILIZATION_DESERT_RED.createBiomeTag();
+        public static final TagKey<Biome> CIVILIZATION_TROPICAL = PERegion.CIVILIZATION_TROPICAL.createBiomeTag();
+        public static final TagKey<Biome> CIVILIZATION_SNOW = PERegion.CIVILIZATION_SNOW.createBiomeTag();
+        public static final TagKey<Biome> CIVILIZATION_SPECIAL_AUTUMNAL = PERegion.CIVILIZATION_SPECIAL_AUTUMNAL.createBiomeTag();
+        public static final TagKey<Biome> CIVILIZATION_SPECIAL_FLOWERY = PERegion.CIVILIZATION_SPECIAL_FLOWERY.createBiomeTag();
+        public static final TagKey<Biome> CIVILIZATION_SPECIAL_MEDITERRANEAN = PERegion.CIVILIZATION_SPECIAL_MEDITERRANEAN.createBiomeTag();
+        public static final TagKey<Biome> CIVILIZATION_SPECIAL_ORIENTAL = PERegion.CIVILIZATION_SPECIAL_ORIENTAL.createBiomeTag();
+        public static final TagKey<Biome> CIVILIZATION_TEMPERATE = PERegion.CIVILIZATION_TEMPERATE.createBiomeTag();
+        public static final TagKey<Biome> WILDERNESS_FIELDS = PERegion.WILDERNESS_FIELDS.createBiomeTag();
+        public static final TagKey<Biome> WILDERNESS_CONIFEROUS = PERegion.WILDERNESS_CONIFEROUS.createBiomeTag();
+        public static final TagKey<Biome> WILDERNESS_DECIDUOUS = PERegion.WILDERNESS_DECIDUOUS.createBiomeTag();
+        public static final TagKey<Biome> WILDERNESS_ARID = PERegion.WILDERNESS_ARID.createBiomeTag();
+        public static final TagKey<Biome> WILDERNESS_DESERT = PERegion.WILDERNESS_DESERT.createBiomeTag();
+        public static final TagKey<Biome> WILDERNESS_DESERT_RED = PERegion.WILDERNESS_DESERT_RED.createBiomeTag();
+        public static final TagKey<Biome> WILDERNESS_TROPICAL = PERegion.WILDERNESS_TROPICAL.createBiomeTag();
+        public static final TagKey<Biome> WILDERNESS_SNOW = PERegion.WILDERNESS_SNOW.createBiomeTag();
+        public static final TagKey<Biome> WILDERNESS_SPECIAL_AUTUMNAL = PERegion.WILDERNESS_SPECIAL_AUTUMNAL.createBiomeTag();
+        public static final TagKey<Biome> WILDERNESS_SPECIAL_MEDITERRANEAN = PERegion.WILDERNESS_SPECIAL_MEDITERRANEAN.createBiomeTag();
+        public static final TagKey<Biome> WILDERNESS_SPECIAL_ORIENTAL = PERegion.WILDERNESS_SPECIAL_ORIENTAL.createBiomeTag();
+        public static final TagKey<Biome> WILDERNESS_TEMPERATE = PERegion.WILDERNESS_TEMPERATE.createBiomeTag();
+        public static final TagKey<Biome> COASTAL_FROZEN = PERegion.COASTAL_FROZEN.createBiomeTag();
+        public static final TagKey<Biome> COASTAL_TEMPERATE = PERegion.COASTAL_TEMPERATE.createBiomeTag();
+        public static final TagKey<Biome> COASTAL_WARM = PERegion.COASTAL_WARM.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_DEEP = PERegion.OCEAN_DEEP.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_SHALLOW = PERegion.OCEAN_SHALLOW.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_NOT_FROZEN = PERegion.OCEAN_NOT_FROZEN.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_FROZEN = PERegion.OCEAN_FROZEN.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_TEMPERATE = PERegion.OCEAN_TEMPERATE.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_WARM = PERegion.OCEAN_WARM.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_DEEP_FROZEN = PERegion.OCEAN_DEEP_FROZEN.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_DEEP_TEMPERATE = PERegion.OCEAN_DEEP_TEMPERATE.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_DEEP_WARM = PERegion.OCEAN_DEEP_WARM.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_SHALLOW_FROZEN = PERegion.OCEAN_SHALLOW_FROZEN.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_SHALLOW_TEMPERATE = PERegion.OCEAN_SHALLOW_TEMPERATE.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_SHALLOW_WARM = PERegion.OCEAN_SHALLOW_WARM.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_RARE_SHALLOW = PERegion.OCEAN_RARE_SHALLOW.createBiomeTag();
+        public static final TagKey<Biome> OCEAN_RARE_DEEP = PERegion.OCEAN_RARE_DEEP.createBiomeTag();
+        public static final TagKey<Biome> RIVER_OR_COAST_NOT_FROZEN = PERegion.RIVER_OR_COAST_NOT_FROZEN.createBiomeTag();
+        public static final TagKey<Biome> RIVER_OR_COAST_FROZEN = PERegion.RIVER_OR_COAST_FROZEN.createBiomeTag();
+        public static final TagKey<Biome> RIVER_NOT_FROZEN = PERegion.RIVER_NOT_FROZEN.createBiomeTag();
+        public static final TagKey<Biome> RIVER_FROZEN = PERegion.RIVER_FROZEN.createBiomeTag();
+        public static final TagKey<Biome> RIVER_TEMPERATE = PERegion.RIVER_TEMPERATE.createBiomeTag();
+        public static final TagKey<Biome> RIVER_WARM = PERegion.RIVER_WARM.createBiomeTag();
+        public static final TagKey<Biome> SPECIAL_CRAGGY = PERegion.SPECIAL_CRAGGY.createBiomeTag();
+        public static final TagKey<Biome> SPECIAL_ICY = PERegion.SPECIAL_ICY.createBiomeTag();
+        public static final TagKey<Biome> SPECIAL_MAGICAL = PERegion.SPECIAL_MAGICAL.createBiomeTag();
+        public static final TagKey<Biome> SPECIAL_MOUNTAINOUS_COLD = PERegion.SPECIAL_MOUNTAINOUS_COLD.createBiomeTag();
+        public static final TagKey<Biome> SPECIAL_MOUNTAINOUS_HOT = PERegion.SPECIAL_MOUNTAINOUS_HOT.createBiomeTag();
+        public static final TagKey<Biome> SPECIAL_ROCKY = PERegion.SPECIAL_ROCKY.createBiomeTag();
+        public static final TagKey<Biome> SPECIAL_RUINED = PERegion.SPECIAL_RUINED.createBiomeTag();
+        public static final TagKey<Biome> SPECIAL_SHROOMY = PERegion.SPECIAL_SHROOMY.createBiomeTag();
+        public static final TagKey<Biome> SPECIAL_SPOOKY = PERegion.SPECIAL_SPOOKY.createBiomeTag();
+        public static final TagKey<Biome> SPECIAL_SWAMPY = PERegion.SPECIAL_SWAMPY.createBiomeTag();
+        public static final TagKey<Biome> SPECIAL_SWAMPY_WARM = PERegion.SPECIAL_SWAMPY_WARM.createBiomeTag();
+        public static final TagKey<Biome> ALL_OCEAN = PERegion.ALL_OCEAN.createBiomeTag();
+        public static final TagKey<Biome> ALL_COASTAL = PERegion.ALL_COASTAL.createBiomeTag();
+        public static final TagKey<Biome> ALL_RIVERS = PERegion.ALL_RIVERS.createBiomeTag();
+        public static final TagKey<Biome> ALL_CIVILIZATION = PERegion.ALL_CIVILIZATION.createBiomeTag();
+        public static final TagKey<Biome> ALL_WILDERNESS = PERegion.ALL_WILDERNESS.createBiomeTag();
+        public static final TagKey<Biome> ALL_SPECIAL = PERegion.ALL_SPECIAL.createBiomeTag();
+        public static final TagKey<Biome> ALL_UNDERGROUND_LAND = PERegion.ALL_UNDERGROUND_LAND.createBiomeTag();
+    }
+
+    public static class StructureSets {
+        public static final TagKey<StructureSet> PATCHABLE = PEStructureSet.Flag.PATCHABLE.createTag();
+        public static final TagKey<StructureSet> DISABLED = PEStructureSet.Flag.DISABLED.createTag();
     }
 
     public static class Structures {
-        public static final TagKey<Structure> DIFFICULTY_LEVEL_0 = createTag("difficulty_level_0");
-        public static final TagKey<Structure> DIFFICULTY_LEVEL_1 = createTag("difficulty_level_1");
-        public static final TagKey<Structure> DIFFICULTY_LEVEL_2 = createTag("difficulty_level_2");
-        public static final TagKey<Structure> DIFFICULTY_LEVEL_3 = createTag("difficulty_level_3");
-        public static final TagKey<Structure> DIFFICULTY_LEVEL_4 = createTag("difficulty_level_4");
-        public static final TagKey<Structure> DIFFICULTY_LEVEL_5 = createTag("difficulty_level_5");
-        public static final TagKey<Structure> DIFFICULTY_LEVEL_6 = createTag("difficulty_level_6");
-        public static final TagKey<Structure> DIFFICULTY_LEVEL_7 = createTag("difficulty_level_7");
-        public static final TagKey<Structure> DIFFICULTY_LEVEL_8 = createTag("difficulty_level_8");
-        public static final TagKey<Structure> DIFFICULTY_LEVEL_9 = createTag("difficulty_level_9");
-        public static final TagKey<Structure> DIFFICULTY_LEVEL_10 = createTag("difficulty_level_10");
+        public static final TagKey<Structure> IS_OVERWORLD = PEDimension.IS_OVERWORLD.createStructureTag();
+        public static final TagKey<Structure> IS_NETHER = PEDimension.IS_NETHER.createStructureTag();
+        public static final TagKey<Structure> IS_END = PEDimension.IS_END.createStructureTag();
+        public static final TagKey<Structure> IS_AETHER = PEDimension.IS_AETHER.createStructureTag();
 
-        private static TagKey<Structure> createTag(String name) {
-            return TagKey.create(Registries.STRUCTURE, ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, name));
-        }
-    }
+        public static final TagKey<Structure> ALL_UNDERGROUND_LAND= PERegion.ALL_UNDERGROUND_LAND.createStructureTag();
+        public static final TagKey<Structure> ALL_OCEAN = PERegion.ALL_OCEAN.createStructureTag();
+        public static final TagKey<Structure> ALL_RIVERS = PERegion.ALL_RIVERS.createStructureTag();
+        public static final TagKey<Structure> ALL_CIVILIZATION = PERegion.ALL_CIVILIZATION.createStructureTag();
+        public static final TagKey<Structure> ALL_WILDERNESS = PERegion.ALL_WILDERNESS.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_TEMPERATE = PERegion.CIVILIZATION_TEMPERATE.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_FIELDS = PERegion.CIVILIZATION_FIELDS.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_CONIFEROUS = PERegion.CIVILIZATION_CONIFEROUS.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_DECIDUOUS = PERegion.CIVILIZATION_DECIDUOUS.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_ARID = PERegion.CIVILIZATION_ARID.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_DESERT = PERegion.CIVILIZATION_DESERT.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_DESERT_RED = PERegion.CIVILIZATION_DESERT_RED.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_TROPICAL = PERegion.CIVILIZATION_TROPICAL.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_SNOW = PERegion.CIVILIZATION_SNOW.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_SPECIAL_AUTUMNAL = PERegion.CIVILIZATION_SPECIAL_AUTUMNAL.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_SPECIAL_FLOWERY = PERegion.CIVILIZATION_SPECIAL_FLOWERY.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_SPECIAL_MEDITERRANEAN = PERegion.CIVILIZATION_SPECIAL_MEDITERRANEAN.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_SPECIAL_ORIENTAL = PERegion.CIVILIZATION_SPECIAL_ORIENTAL.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_TEMPERATE = PERegion.WILDERNESS_TEMPERATE.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_FIELDS = PERegion.WILDERNESS_FIELDS.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_CONIFEROUS = PERegion.WILDERNESS_CONIFEROUS.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_DECIDUOUS = PERegion.WILDERNESS_DECIDUOUS.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_ARID = PERegion.WILDERNESS_ARID.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_DESERT = PERegion.WILDERNESS_DESERT.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_DESERT_RED = PERegion.WILDERNESS_DESERT_RED.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_TROPICAL = PERegion.WILDERNESS_TROPICAL.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_SNOW = PERegion.WILDERNESS_SNOW.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_SPECIAL_AUTUMNAL = PERegion.WILDERNESS_SPECIAL_AUTUMNAL.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_SPECIAL_MEDITERRANEAN = PERegion.WILDERNESS_SPECIAL_MEDITERRANEAN.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_SPECIAL_ORIENTAL = PERegion.WILDERNESS_SPECIAL_ORIENTAL.createStructureTag();
+        public static final TagKey<Structure> OCEAN_DEEP = PERegion.OCEAN_DEEP.createStructureTag();
+        public static final TagKey<Structure> ALL_COASTAL = PERegion.ALL_COASTAL.createStructureTag();
+        public static final TagKey<Structure> COASTAL_FROZEN = PERegion.COASTAL_FROZEN.createStructureTag();
+        public static final TagKey<Structure> COASTAL_TEMPERATE = PERegion.COASTAL_TEMPERATE.createStructureTag();
+        public static final TagKey<Structure> COASTAL_WARM = PERegion.COASTAL_WARM.createStructureTag();
+        public static final TagKey<Structure> OCEAN_SHALLOW = PERegion.OCEAN_SHALLOW.createStructureTag();
+        public static final TagKey<Structure> OCEAN_NOT_FROZEN = PERegion.OCEAN_NOT_FROZEN.createStructureTag();
+        public static final TagKey<Structure> OCEAN_FROZEN = PERegion.OCEAN_FROZEN.createStructureTag();
+        public static final TagKey<Structure> OCEAN_TEMPERATE = PERegion.OCEAN_TEMPERATE.createStructureTag();
+        public static final TagKey<Structure> OCEAN_WARM = PERegion.OCEAN_WARM.createStructureTag();
+        public static final TagKey<Structure> OCEAN_DEEP_FROZEN = PERegion.OCEAN_DEEP_FROZEN.createStructureTag();
+        public static final TagKey<Structure> OCEAN_DEEP_TEMPERATE = PERegion.OCEAN_DEEP_TEMPERATE.createStructureTag();
+        public static final TagKey<Structure> OCEAN_DEEP_WARM = PERegion.OCEAN_DEEP_WARM.createStructureTag();
+        public static final TagKey<Structure> OCEAN_SHALLOW_FROZEN = PERegion.OCEAN_SHALLOW_FROZEN.createStructureTag();
+        public static final TagKey<Structure> OCEAN_SHALLOW_TEMPERATE = PERegion.OCEAN_SHALLOW_TEMPERATE.createStructureTag();
+        public static final TagKey<Structure> OCEAN_SHALLOW_WARM = PERegion.OCEAN_SHALLOW_WARM.createStructureTag();
+        public static final TagKey<Structure> OCEAN_RARE_SHALLOW = PERegion.OCEAN_RARE_SHALLOW.createStructureTag();
+        public static final TagKey<Structure> OCEAN_RARE_DEEP = PERegion.OCEAN_RARE_DEEP.createStructureTag();
+        public static final TagKey<Structure> RIVER_OR_COAST_NOT_FROZEN = PERegion.RIVER_OR_COAST_NOT_FROZEN.createStructureTag();
+        public static final TagKey<Structure> RIVER_OR_COAST_FROZEN = PERegion.RIVER_OR_COAST_FROZEN.createStructureTag();
+        public static final TagKey<Structure> RIVER_NOT_FROZEN = PERegion.RIVER_NOT_FROZEN.createStructureTag();
+        public static final TagKey<Structure> RIVER_FROZEN = PERegion.RIVER_FROZEN.createStructureTag();
+        public static final TagKey<Structure> RIVER_TEMPERATE = PERegion.RIVER_TEMPERATE.createStructureTag();
+        public static final TagKey<Structure> RIVER_WARM = PERegion.RIVER_WARM.createStructureTag();
+        public static final TagKey<Structure> SPECIAL_ROCKY = PERegion.SPECIAL_ROCKY.createStructureTag();
+        public static final TagKey<Structure> SPECIAL_CRAGGY = PERegion.SPECIAL_CRAGGY.createStructureTag();
+        public static final TagKey<Structure> SPECIAL_ICY = PERegion.SPECIAL_ICY.createStructureTag();
+        public static final TagKey<Structure> SPECIAL_MAGICAL = PERegion.SPECIAL_MAGICAL.createStructureTag();
+        public static final TagKey<Structure> SPECIAL_MOUNTAINOUS_COLD = PERegion.SPECIAL_MOUNTAINOUS_COLD.createStructureTag();
+        public static final TagKey<Structure> SPECIAL_MOUNTAINOUS_HOT = PERegion.SPECIAL_MOUNTAINOUS_HOT.createStructureTag();
+        public static final TagKey<Structure> SPECIAL_RUINED = PERegion.SPECIAL_RUINED.createStructureTag();
+        public static final TagKey<Structure> SPECIAL_SHROOMY = PERegion.SPECIAL_SHROOMY.createStructureTag();
+        public static final TagKey<Structure> SPECIAL_SPOOKY = PERegion.SPECIAL_SPOOKY.createStructureTag();
+        public static final TagKey<Structure> SPECIAL_SWAMPY = PERegion.SPECIAL_SWAMPY.createStructureTag();
+        public static final TagKey<Structure> SPECIAL_SWAMPY_WARM = PERegion.SPECIAL_SWAMPY_WARM.createStructureTag();
 
+        public static final TagKey<Structure> CIVILIZATION_SPRAWLING = PEStructureSet.CIVILIZATION_SPRAWLING.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_MASSIVE = PEStructureSet.CIVILIZATION_MASSIVE.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_MEDIUM = PEStructureSet.CIVILIZATION_MEDIUM.createStructureTag();
+        public static final TagKey<Structure> CIVILIZATION_DECO = PEStructureSet.CIVILIZATION_DECO.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_SPRAWLING = PEStructureSet.WILDERNESS_SPRAWLING.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_MASSIVE = PEStructureSet.WILDERNESS_MASSIVE.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_MEDIUM = PEStructureSet.WILDERNESS_MEDIUM.createStructureTag();
+        public static final TagKey<Structure> WILDERNESS_DECO = PEStructureSet.WILDERNESS_DECO.createStructureTag();
+        public static final TagKey<Structure> OCEAN_FLOATING_MASSIVE = PEStructureSet.OCEAN_FLOATING_MASSIVE.createStructureTag();
+        public static final TagKey<Structure> OCEAN_UNDERWATER_MASSIVE = PEStructureSet.OCEAN_UNDERWATER_MASSIVE.createStructureTag();
+        public static final TagKey<Structure> OCEAN_ALL_MEDIUM = PEStructureSet.OCEAN_ALL_MEDIUM.createStructureTag();
+        public static final TagKey<Structure> UNDERGROUND_SPRAWLING = PEStructureSet.UNDERGROUND_SPRAWLING.createStructureTag();
+        public static final TagKey<Structure> SKY_MASSIVE = PEStructureSet.SKY_MASSIVE.createStructureTag();
+
+        public static final TagKey<Structure> DIFFICULTY_LEVEL_0 = PEStructure.Difficulty.DIFFICULTY_LEVEL_0.createTag();
+        public static final TagKey<Structure> DIFFICULTY_LEVEL_1 = PEStructure.Difficulty.DIFFICULTY_LEVEL_1.createTag();
+        public static final TagKey<Structure> DIFFICULTY_LEVEL_2 = PEStructure.Difficulty.DIFFICULTY_LEVEL_2.createTag();
+        public static final TagKey<Structure> DIFFICULTY_LEVEL_3 = PEStructure.Difficulty.DIFFICULTY_LEVEL_3.createTag();
+        public static final TagKey<Structure> DIFFICULTY_LEVEL_4 = PEStructure.Difficulty.DIFFICULTY_LEVEL_4.createTag();
+        public static final TagKey<Structure> DIFFICULTY_LEVEL_5 = PEStructure.Difficulty.DIFFICULTY_LEVEL_5.createTag();
+        public static final TagKey<Structure> DIFFICULTY_LEVEL_6 = PEStructure.Difficulty.DIFFICULTY_LEVEL_6.createTag();
+        public static final TagKey<Structure> DIFFICULTY_LEVEL_7 = PEStructure.Difficulty.DIFFICULTY_LEVEL_7.createTag();
+        public static final TagKey<Structure> DIFFICULTY_LEVEL_8 = PEStructure.Difficulty.DIFFICULTY_LEVEL_8.createTag();
+        public static final TagKey<Structure> DIFFICULTY_LEVEL_9 = PEStructure.Difficulty.DIFFICULTY_LEVEL_9.createTag();
+        public static final TagKey<Structure> DIFFICULTY_LEVEL_10 = PEStructure.Difficulty.DIFFICULTY_LEVEL_10.createTag();
+
+        public static final TagKey<Structure> PATCHABLE = PEStructure.Flag.PATCHABLE.createTag();
+        public static final TagKey<Structure> DISABLED = PEStructure.Flag.DISABLED.createTag();
+        public static final TagKey<Structure> IGNORED = PEStructure.Flag.IGNORED.createTag();
+        public static final TagKey<Structure> IGNORED_BIOME_REDISTRIBUTION = PEStructure.Flag.IGNORED_BIOME_REDISTRIBUTION.createTag();
+        public static final TagKey<Structure> IGNORED_PLACEMENT_TWEAKS = PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.createTag();
+        public static final TagKey<Structure> ADJUSTED_TERRAIN_ADAPTATION = PEStructure.Flag.ADJUSTED_TERRAIN_ADAPTATION.createTag();
+        public static final TagKey<Structure> ADJUSTED_OCEAN_HEIGHTMAP = PEStructure.Flag.ADJUSTED_OCEAN_HEIGHTMAP.createTag();
+        public static final TagKey<Structure> ADJUSTED_UNDERGROUND_Y_LEVEL = PEStructure.Flag.ADJUSTED_UNDERGROUND_Y_LEVEL.createTag();
+        public static final TagKey<Structure> FLATNESS_CHECK_SMALL = PEStructure.Flag.FLATNESS_CHECK_SMALL.createTag();
+        public static final TagKey<Structure> FLATNESS_CHECK_MEDIUM = PEStructure.Flag.FLATNESS_CHECK_MEDIUM.createTag();
+        public static final TagKey<Structure> FLATNESS_CHECK_LARGE = PEStructure.Flag.FLATNESS_CHECK_LARGE.createTag();
+        public static final TagKey<Structure> FLATNESS_CHECK_SPRAWLING = PEStructure.Flag.FLATNESS_CHECK_SPRAWLING.createTag();
+    }*/
 }

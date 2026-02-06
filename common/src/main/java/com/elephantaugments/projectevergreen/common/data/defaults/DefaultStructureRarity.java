@@ -1,26 +1,16 @@
 package com.elephantaugments.projectevergreen.common.data.defaults;
 
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
-import com.elephantaugments.projectevergreen.common.data.PEStructure;
-import com.elephantaugments.projectevergreen.common.data.PEStructureSet;
+import com.elephantaugments.projectevergreen.common.api.PatchableStructure;
+import com.elephantaugments.projectevergreen.common.api.PatchableStructureSet;
+import com.elephantaugments.projectevergreen.common.api.WorldgenDataManager;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableStructures;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ImmutableList;
-import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;
 
 public class DefaultStructureRarity {
-
-	public enum Size {
-		DECO, MEDIUM, MASSIVE, SPRAWLING;
-	}
-	public static Map<String, Size> sizeMap = Map.of(
-		"deco", Size.DECO,
-		"medium", Size.MEDIUM,
-		"massive", Size.MASSIVE,
-		"sprawling", Size.SPRAWLING
-	);
 
 	public static final String CIVILIZATION_SPRAWLING = "project_evergreen:civilization_inland_sprawling";
 	public static final String CIVILIZATION_MASSIVE = "project_evergreen:civilization_inland_massive";
@@ -36,20 +26,16 @@ public class DefaultStructureRarity {
     public static final String UNDERGROUND_SPRAWLING = "project_evergreen:underground_sprawling";
     public static final String SKY_MASSIVE = "project_evergreen:sky_massive";
 
-	/**
-	 * Instantiates all Structure Set objects and maps them into an easily accessible Multimap.
-	 * @return A Multimap of Structure Set objects mapped to their id.
-	 */
-	public static LinkedHashMap<String, PEStructureSet> mapStructureSetByID() {
-		LinkedHashMap<String, PEStructureSet> structureSetsByID = new LinkedHashMap<>();
-		addSetToMap(structureSetsByID, new PEStructureSet(
+	/*public static LinkedHashMap<String, PatchableStructureSet> mapStructureSetByID() {
+		LinkedHashMap<String, PatchableStructureSet> structureSetsByID = new LinkedHashMap<>();
+		addSetToMap(structureSetsByID, new PatchableStructureSet(
 				DefaultStructureRarity.CIVILIZATION_MASSIVE,
 				65,
 				55
 		));
 		structureSetsByID.get(DefaultStructureRarity.CIVILIZATION_MASSIVE)
 				.appendStructures(DefaultStructureRarity.CIVILIZATION_SPRAWLING);
-		addSetToMap(structureSetsByID, new PEStructureSet(
+		addSetToMap(structureSetsByID, new PatchableStructureSet(
 				DefaultStructureRarity.CIVILIZATION_MASSIVE,
 				65,
 				55
@@ -59,14 +45,14 @@ public class DefaultStructureRarity {
 		return structureSetsByID;
 	}
 
-	public static void addSetToMap(LinkedHashMap<String, PEStructureSet> map, PEStructureSet structureSet) {
+	public static void addSetToMap(LinkedHashMap<String, PatchableStructureSet> map, PatchableStructureSet structureSet) {
 		map.put(structureSet.id, structureSet);
 		structureSet.updateData();
 	}
 
-    public static ArrayListMultimap<String, PEStructure> mapStructuresByRarity(PatchableStructures structureData) {
+    public static ArrayListMultimap<String, PatchableStructure> mapStructuresByRarity(PatchableStructures structureData) {
 
-		ArrayListMultimap<String, PEStructure> structuresByRarity = ArrayListMultimap.create();
+		ArrayListMultimap<String, PatchableStructure> structuresByRarity = ArrayListMultimap.create();
         civilizationSprawling.forEach(s -> structuresByRarity.put(CIVILIZATION_SPRAWLING, structureData.Data.get(s)));
         civilizationMassive.forEach(s -> structuresByRarity.put(CIVILIZATION_MASSIVE, structureData.Data.get(s)));
         civilizationMedium.forEach(s -> structuresByRarity.put(CIVILIZATION_MEDIUM, structureData.Data.get(s)));
@@ -85,47 +71,18 @@ public class DefaultStructureRarity {
 		return structuresByRarity;
     }
 
-    public static ArrayListMultimap<Size, PEStructure> mapStructuresBySize(PatchableStructures structureData) {
-		ArrayListMultimap<Size, PEStructure> structuresBySize = ArrayListMultimap.create();
-		ArrayListMultimap<String, PEStructure> structuresByRarity = mapStructuresByRarity(structureData);
+    public static ArrayListMultimap<Size, PatchableStructure> mapStructuresBySize(PatchableStructures structureData) {
+		ArrayListMultimap<Size, PatchableStructure> structuresBySize = ArrayListMultimap.create();
+		ArrayListMultimap<String, PatchableStructure> structuresByRarity = mapStructuresByRarity(structureData);
 
 		structureData.Data.forEach((id, s) -> {
-			PEStructure sWithSize = getStructureWithSize(structuresByRarity, s);
+			PatchableStructure sWithSize = WorldgenDataManager.getStructureWithSize(structuresByRarity, s);
 			structuresBySize.put(sWithSize.getSize(), sWithSize);
 		});
 
 		structuresBySize.values().removeIf(Objects::isNull);
 		return structuresBySize;
-    }
-
-	private	static PEStructure getStructureWithSize(ArrayListMultimap<String, PEStructure> structuresByRarity, PEStructure structure) {
-		Optional<String> rarity = structuresByRarity.entries().stream()
-				.filter(e -> structure.id.equals(e.getValue().id))
-				.map(Map.Entry::getKey)
-				.findFirst();
-		if (rarity.isEmpty()) {
-			structure.setSize(Size.MEDIUM);
-		} else {
-			String suffix = StringUtils.substringAfterLast(rarity.get(), "_");
-			structure.setSize(sizeMap.get(suffix));
-		}
-		return structure;
-	}
-
-	/*private	static PEStructure getStructureWithRarity(ArrayListMultimap<String, PEStructure> structuresByRarity, PEStructure structure) {
-		Optional<String> rarity = structuresByRarity.entries().stream()
-				.filter(e -> structure.id.equals(e.getValue().id))
-				.map(Map.Entry::getKey)
-				.findFirst();
-		if (rarity.isEmpty()) {
-			structure.rarity = Rarity.COMMON;
-		} else {
-			String suffix = StringUtils.substringAfterLast(rarity.get(), "_");
-			structure.rarity = rarityMap.get(suffix);
-			structure.setStructureSet(WorldgenDataManager.getStructureSetData().Data.get(rarity.get()));
-		}
-		return structure;
-	}*/
+    }*/
 
     //CIVILIZATION_SPRAWLING
     public static final List<String> civilizationSprawling = ImmutableList.of(
@@ -404,6 +361,8 @@ public class DefaultStructureRarity {
 		"kattersstructures:ruined_village",
 		"nova_structures:village_swamp",
 		"nova_structures:illager_manor",
+		"qrafty:transilvania",
+		"qrafty:jungle_treevillage",
 		"repurposed_structures:village_swamp",
 		"repurposed_structures:village_mushroom",
 		"ribbits:ribbit_village",
@@ -511,6 +470,7 @@ public class DefaultStructureRarity {
 		"nova_structures:lone_citadel",
 		"nova_structures:stray_fort",
 		"nova_structures:ruin_town",
+		"nova_structures:badlands_miner_outpost",
         "repurposed_structures:pyramid_mushroom",
         "repurposed_structures:fortress_jungle",
         "repurposed_structures:mansion_birch",

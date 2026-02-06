@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "id": "ancientstructures:roman_bath",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:roman_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:roman_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:roman_tombstone",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_mediterranean",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_mediterranean",
+      "required": false
+    }
+  ]
+}

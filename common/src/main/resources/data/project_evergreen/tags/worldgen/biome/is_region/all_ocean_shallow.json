@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#project_evergreen:ocean_shallow_frozen",
-    "#project_evergreen:ocean_shallow_temperate",
-    "#project_evergreen:ocean_shallow_warm"
-  ]
-}

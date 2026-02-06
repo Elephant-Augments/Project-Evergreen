@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/structure_id",
+    "value": "companions:companions_monkey_temple"
+  },
+  {
+    "op": "test",
+    "type": "project_evergreen:structure_rarity_redistribution",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/structures",
+    "value": []
+  }
+]

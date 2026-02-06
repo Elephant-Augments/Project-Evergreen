@@ -1,0 +1,100 @@
+{
+  "values": [
+    {
+      "id": "betterarcheology:archeologist_camp_redsand",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_red_desert",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:createlittleman",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:createpickaxestatue",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:create_copper_statue",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:miners_house",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:copper_spire",
+      "required": false
+    },
+    {
+      "id": "humancompanions:terracotta_house",
+      "required": false
+    },
+    {
+      "id": "idas:desert_camp/desert_camp_red",
+      "required": false
+    },
+    {
+      "id": "idas:desert_camp/desert_camp_orange",
+      "required": false
+    },
+    {
+      "id": "idas:desert_market/desert_market_red",
+      "required": false
+    },
+    {
+      "id": "idas:desert_market/desert_market_orange",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:clockwork_village",
+      "required": false
+    },
+    {
+      "id": "more_critters:collector_wagon_badlands",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/acacia_well",
+      "required": false
+    },
+    {
+      "id": "mvs:acacia_well",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_badlands",
+      "required": false
+    },
+    {
+      "id": "structory_towers:nomad_outpost",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_badlands",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_wooded_badlands",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:badlands_dwelling",
+      "required": false
+    },
+    {
+      "id": "wythers:village_badlands",
+      "required": false
+    },
+    {
+      "id": "wythers:village_badlands_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:village_wooded_badlands",
+      "required": false
+    }
+  ]
+}

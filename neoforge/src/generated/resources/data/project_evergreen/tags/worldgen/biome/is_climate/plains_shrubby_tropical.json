@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:jungle_bushland",
+      "required": false
+    },
+    {
+      "id": "terralith:brushland",
+      "required": false
+    },
+    {
+      "id": "wythers:humid_tropical_grassland",
+      "required": false
+    },
+    {
+      "id": "wythers:sandy_jungle",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "values": [
+    {
+      "id": "betterarcheology:light_temple",
+      "required": false
+    },
+    {
+      "id": "cataclysm:acropolis",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:small_blimp",
+      "required": false
+    },
+    {
+      "id": "minecraft:village_desert",
+      "required": false
+    },
+    {
+      "id": "minecraft:village_plains",
+      "required": false
+    },
+    {
+      "id": "minecraft:village_savanna",
+      "required": false
+    },
+    {
+      "id": "minecraft:village_snowy",
+      "required": false
+    },
+    {
+      "id": "minecraft:village_taiga",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_ocean",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_classic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_iberian",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_mediterranean",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_oriental",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_rustic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_swedish",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_tudor",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_classic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_iberian",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_mediterranean",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_nilotic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_piglin",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_rustic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_swedish",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_tudor",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_wandering_trader_camp",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_badlands",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_birch_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_desert",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_grove",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_jungle",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_meadow",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_mushroom_fields",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_ocean",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_old_growth_taiga",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_savanna",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_savanna_plateau",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_plains",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_slopes",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_taiga",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_sparse_jungle",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_sunflower_plains",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_swamp",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_taiga",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_wooded_badlands",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_badlands",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_birch_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_grove",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_jungle",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_meadow",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_mushroom_fields",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_ocean",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_old_growth_taiga",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_savanna_plateau",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_snowy_slopes",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_snowy_taiga",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_sparse_jungle",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_sunflower_plains",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_swamp",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_wooded_badlands",
+      "required": false
+    },
+    {
+      "id": "trek:village/desert",
+      "required": false
+    },
+    {
+      "id": "trek:village/mushroom",
+      "required": false
+    },
+    {
+      "id": "trek:village/plains",
+      "required": false
+    },
+    {
+      "id": "trek:village/savanna",
+      "required": false
+    },
+    {
+      "id": "trek:village/snowy",
+      "required": false
+    },
+    {
+      "id": "trek:village/swamp",
+      "required": false
+    },
+    {
+      "id": "trek:village/taiga",
+      "required": false
+    },
+    {
+      "id": "unusual_prehistory:mesozoic_fossil",
+      "required": false
+    },
+    {
+      "id": "unusual_prehistory:paleozoic_fossil",
+      "required": false
+    },
+    {
+      "id": "unusual_prehistory:petrified_tree",
+      "required": false
+    },
+    {
+      "id": "windswept:village_frozen",
+      "required": false
+    }
+  ]
+}

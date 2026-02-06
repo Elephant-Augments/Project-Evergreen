@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "ati_structures:villager_inn",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:stonehenge_grassy",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:dark_oak_illager_ship",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:jungle_illager_ship",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_ship",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:sprucevillagership",
+      "required": false
+    },
+    {
+      "id": "create_ltab:birch_structures",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:greenwood_pub",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:illager_corsair",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:undead_pirate_ship",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_ancestral",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_ancestral_house",
+      "required": false
+    },
+    {
+      "id": "imst:caravan",
+      "required": false
+    },
+    {
+      "id": "medieval_buildings:fort",
+      "required": false
+    },
+    {
+      "id": "minecraft:monument",
+      "required": false
+    },
+    {
+      "id": "mostructures:pirate_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:acacia_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:birch_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:boulder",
+      "required": false
+    },
+    {
+      "id": "mvs:mushroom_pond",
+      "required": false
+    },
+    {
+      "id": "mvs:oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:spruce_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_ocean",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:whalearena",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:whalelight",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:whaleship",
+      "required": false
+    },
+    {
+      "id": "skyvillages:skyvillage",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_ocean",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/castle",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/villager_castle",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/wooden_manor",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_common/rocks",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_rare/farm_island",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    }
+  ]
+}

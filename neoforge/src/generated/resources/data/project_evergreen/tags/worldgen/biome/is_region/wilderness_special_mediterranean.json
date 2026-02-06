@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "iceandfire:gorgon_temple",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:cyclops_lair",
+      "required": false
+    }
+  ]
+}

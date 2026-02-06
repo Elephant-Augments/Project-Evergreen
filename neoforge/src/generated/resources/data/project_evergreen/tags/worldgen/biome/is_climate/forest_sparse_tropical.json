@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "minecraft:sparse_jungle",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:sparse_tropical_woods",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:sparse_rainforest",
+      "required": false
+    },
+    {
+      "id": "terralith:rocky_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:sparse_bamboo_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:sparse_eucalyptus_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:sparse_eucalyptus_woodland",
+      "required": false
+    },
+    {
+      "id": "wythers:subtropical_forest_edge",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_island",
+      "required": false
+    }
+  ]
+}

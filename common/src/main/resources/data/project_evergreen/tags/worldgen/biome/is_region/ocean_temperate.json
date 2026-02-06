@@ -1,7 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "#project_evergreen:ocean_shallow_temperate",
-        "#project_evergreen:ocean_deep_temperate"
-    ]
-}

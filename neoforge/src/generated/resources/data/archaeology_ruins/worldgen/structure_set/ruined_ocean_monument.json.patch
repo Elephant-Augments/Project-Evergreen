@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/structure_id",
+    "value": "archaeology_ruins:ruined_ocean_monument"
+  },
+  {
+    "op": "test",
+    "type": "project_evergreen:structure_rarity_redistribution",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/structures",
+    "value": []
+  }
+]

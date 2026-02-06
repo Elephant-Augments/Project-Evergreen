@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/structure_id",
+    "value": "betterarcheology:underwater_ruins"
+  },
+  {
+    "op": "test",
+    "type": "project_evergreen:structure_rarity_redistribution",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/structures",
+    "value": []
+  }
+]

@@ -1,0 +1,496 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:cactus_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:cactus_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:pyramid_dungeon",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_totem_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_totem_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_totem_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:red_sandstone_totem_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:red_sandstone_totem_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:pyramid_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:pyramid_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:temple_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sphinx",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:desert_tomb_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:desert_tomb_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:desert_pillars_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:desert_pillars_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fossil_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fossil_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:dragon_fossil_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:dragon_fossil_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:suspicious_sand_patch_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:suspicious_sand_patch_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:suspicious_sand_patch_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:suspicious_sand_patch_4",
+      "required": false
+    },
+    {
+      "id": "archaeology_ruins:ruined_desert_pyramid",
+      "required": false
+    },
+    {
+      "id": "ati_structures:desert_outpost",
+      "required": false
+    },
+    {
+      "id": "ati_structures:fortified_temple",
+      "required": false
+    },
+    {
+      "id": "ba_bt:sandy_land_battle_tower",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:buried_ruins_sand",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:ruins_sand",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:desert_obelisk",
+      "required": false
+    },
+    {
+      "id": "betterdeserttemples:desert_temple",
+      "required": false
+    },
+    {
+      "id": "biomemakeover:ghost_town",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:sandworm_nest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:mound_of_hounds",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursed_pyramid",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:towerruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:runieddesertportal",
+      "required": false
+    },
+    {
+      "id": "custom:deity_corpse",
+      "required": false
+    },
+    {
+      "id": "custom:npc_spawn_desert",
+      "required": false
+    },
+    {
+      "id": "darkerdepths:rope_mine_desert",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bandit_village",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:shiraz_palace",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:coliseum",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:desert_hall",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:desert_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:desert_tomb",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:dusty_tomb",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:leviathan",
+      "required": false
+    },
+    {
+      "id": "explorify:supply_cache/desert",
+      "required": false
+    },
+    {
+      "id": "explorify:desert_shrine",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:pyramid",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_1",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_2",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_3",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_4",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_5",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_6",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_7",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_arc_1",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_arc_2",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_big",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:rock",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:anubis_arena",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:anubis_road",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:anubis_statue",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:arena_oasis",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_chest",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_arc",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_snake",
+      "required": false
+    },
+    {
+      "id": "goety:buried_ritual",
+      "required": false
+    },
+    {
+      "id": "idas:desert_pyramid",
+      "required": false
+    },
+    {
+      "id": "idas:labyrinth",
+      "required": false
+    },
+    {
+      "id": "idas:desert_ruins",
+      "required": false
+    },
+    {
+      "id": "idas:ancient_statue/ancient_statue_desert",
+      "required": false
+    },
+    {
+      "id": "imst:pyramid",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:deathworm_pit",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:ruined_pyramid",
+      "required": false
+    },
+    {
+      "id": "minecraft:desert_pyramid",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_desert",
+      "required": false
+    },
+    {
+      "id": "moresnifferflowers:dessert_sniffer_temple",
+      "required": false
+    },
+    {
+      "id": "mostructures:big_pyramid",
+      "required": false
+    },
+    {
+      "id": "mtr:desert_temple",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_desert_remnant",
+      "required": false
+    },
+    {
+      "id": "nova_structures:desert_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:desert_structures",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:ruins_land_hot",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_desert",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:monument_desert",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_desert",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_badlands",
+      "required": false
+    },
+    {
+      "id": "structory:outcast_villager_desert",
+      "required": false
+    },
+    {
+      "id": "sweety_archaeology:desert_outpost",
+      "required": false
+    },
+    {
+      "id": "terramity:ancient_outcrop",
+      "required": false
+    },
+    {
+      "id": "threateningly_mobs:worm_nest",
+      "required": false
+    },
+    {
+      "id": "threateningly_mobs:firelizard_nest",
+      "required": false
+    },
+    {
+      "id": "totw_modded:desert",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_wooded_badlands",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_oriental",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_mediterranean",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_badlands",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_desert",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:mimic_desert",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/common/small_desert_ruins",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/desert_outpost",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/small_pyramide",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/pyramide_of_anubis",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/tour_desert",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert_ruin/house",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert_ruin/pillar",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert_ruin/ring",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/archeology/ruin/house",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/adventure/pillager_outpost/abandoned",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/adventure/pillager_outpost/standard",
+      "required": false
+    },
+    {
+      "id": "u_desert:pillager_outpost/abandoned",
+      "required": false
+    },
+    {
+      "id": "u_desert:pillager_outpost/standard",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:desert_crypt",
+      "required": false
+    },
+    {
+      "id": "vintagevibes:desert_ruins",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sand_ship",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_sandy",
+      "required": false
+    }
+  ]
+}

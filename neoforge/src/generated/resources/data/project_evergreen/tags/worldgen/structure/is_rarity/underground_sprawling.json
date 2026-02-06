@@ -1,0 +1,120 @@
+{
+  "values": [
+    {
+      "id": "cataclysm:ancient_factory",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:foundry",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:mining_system",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:plague_asylum",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:reanimated_ruins_mossy",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:reanimated_ruins_mesa",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:reanimated_ruins_frozen",
+      "required": false
+    },
+    {
+      "id": "dungeons_revival:redstone_mines",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/acacia_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/bamboo_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/birch_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/dark_oak_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/jungle_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/oak_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/spruce_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/mangrove_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/mud_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/stone_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/deepslate_mineshaft",
+      "required": false
+    },
+    {
+      "id": "idas:nexus",
+      "required": false
+    },
+    {
+      "id": "idas:ancient_portal/ancient_portal",
+      "required": false
+    },
+    {
+      "id": "integrated_stronghold:stronghold",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:catacombs",
+      "required": false
+    },
+    {
+      "id": "minecraft:ancient_city",
+      "required": false
+    },
+    {
+      "id": "minecraft:stronghold",
+      "required": false
+    },
+    {
+      "id": "mtr:stronghold",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:bastion_underground",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "values": [
+    {
+      "id": "idas:beekeepers_house",
+      "required": false
+    },
+    {
+      "id": "imst:beehouse",
+      "required": false
+    },
+    {
+      "id": "imst:flowerdome",
+      "required": false
+    },
+    {
+      "id": "imst:sunflower_farm",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:mossy_mounds",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/azelea_house",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/bee_dome",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/flower_hole",
+      "required": false
+    },
+    {
+      "id": "mvs:azelea_house",
+      "required": false
+    },
+    {
+      "id": "mvs:bee_dome",
+      "required": false
+    },
+    {
+      "id": "mvs:flower_hole",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_bee_keeper",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_birch_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_birch_tree_1",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/beehive_house",
+      "required": false
+    },
+    {
+      "id": "verdantvibes:fairy_circle",
+      "required": false
+    }
+  ]
+}

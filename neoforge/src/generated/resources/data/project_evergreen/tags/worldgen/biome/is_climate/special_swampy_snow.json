@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:northern_swamp",
+      "required": false
+    },
+    {
+      "id": "terralith:ice_marsh",
+      "required": false
+    },
+    {
+      "id": "terralith:orchid_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:snowy_bog",
+      "required": false
+    },
+    {
+      "id": "wythers:snowy_fen",
+      "required": false
+    }
+  ]
+}

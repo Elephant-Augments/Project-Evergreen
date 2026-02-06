@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "ati_structures:lighthouse",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/tower_island",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sunken_steamboat",
+      "required": false
+    }
+  ]
+}

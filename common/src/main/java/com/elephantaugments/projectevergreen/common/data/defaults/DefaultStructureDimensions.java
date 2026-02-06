@@ -1,13 +1,10 @@
 package com.elephantaugments.projectevergreen.common.data.defaults;
 
-import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
-import com.elephantaugments.projectevergreen.common.data.PEStructure;
-import com.elephantaugments.projectevergreen.common.data.WorldgenDataManager;
+import com.elephantaugments.projectevergreen.common.api.PatchableStructure;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableStructures;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ImmutableList;
 
-import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -15,7 +12,7 @@ import java.util.Objects;
 
 public class DefaultStructureDimensions {
 
-	public enum Dimension {
+	/*public enum Dimension {
 		OVERWORLD, AETHER, NETHER, AFTERDARK, END, LOSTCITIES;
 	}
 
@@ -26,13 +23,13 @@ public class DefaultStructureDimensions {
         DefaultRegions.AFTERDARK_BIOMES
     );
 
-    public static ArrayListMultimap<Dimension, PEStructure> mapStructuresToDimensions(PatchableStructures structureData) {
-        ArrayListMultimap<Dimension, PEStructure> structuresByDimension = ArrayListMultimap.create();
+    public static ArrayListMultimap<Dimension, PatchableStructure> mapStructuresToDimensions(PatchableStructures structureData) {
+        ArrayListMultimap<Dimension, PatchableStructure> structuresByDimension = ArrayListMultimap.create();
 
         List<String> overworldStructures = new ArrayList<>();
-        for (Map.Entry<String, PEStructure> e : DefaultStructureRegions.mapStructuresToRegion(structureData).entries()) {
+        for (Map.Entry<String, PatchableStructure> e : DefaultStructureRegions.mapStructuresToRegion(structureData).entries()) {
             if (e.getValue() != null && !OUTER_DIMENSION_TAGS.contains(e.getKey())) {
-                PEStructure value = e.getValue();
+                PatchableStructure value = e.getValue();
                 String id = value.getId();
                 overworldStructures.add(id);
             }
@@ -49,7 +46,7 @@ public class DefaultStructureDimensions {
         return structuresByDimension;
     }
 
-    /*public static ArrayListMultimap<Dimension, PEStructure> mapStructuresToOuterDimensions(PatchableStructures structureData) {
+    public static ArrayListMultimap<Dimension, PEStructure> mapStructuresToOuterDimensions(PatchableStructures structureData) {
 		ArrayListMultimap<Dimension, PEStructure> structuresByDimension = ArrayListMultimap.create();
 
         aetherStructures.forEach(s -> addStructToMap(structuresByDimension, Dimension.AETHER, structureData.Data.get(s)));
@@ -58,13 +55,13 @@ public class DefaultStructureDimensions {
         endStructures.forEach(s -> addStructToMap(structuresByDimension, Dimension.END, structureData.Data.get(s)));
         lostCitiesStructures.forEach(s -> addStructToMap(structuresByDimension, Dimension.LOSTCITIES, structureData.Data.get(s)));
         return structuresByDimension;
-    }*/
+    }
 
-    private static void addStructToMap(ArrayListMultimap<Dimension, PEStructure> structuresByDimension, Dimension dim, PEStructure struct) {
+    private static void addStructToMap(ArrayListMultimap<Dimension, PatchableStructure> structuresByDimension, Dimension dim, PatchableStructure struct) {
         struct.setDimension(dim);
         structuresByDimension.put(dim, struct);
         struct.updateData();
-    }
+    }*/
 
     //AETHER
     public static final List<String> aetherStructures = ImmutableList.of(

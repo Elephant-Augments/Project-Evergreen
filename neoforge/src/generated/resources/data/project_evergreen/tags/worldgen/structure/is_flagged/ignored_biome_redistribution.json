@@ -1,0 +1,168 @@
+{
+  "values": [
+    {
+      "id": "farmers_structures:quark_glimer",
+      "required": false
+    },
+    {
+      "id": "hopo:portal/overworld/portal_deepslate",
+      "required": false
+    },
+    {
+      "id": "hopo:portal/overworld/portal_dripstone",
+      "required": false
+    },
+    {
+      "id": "hopo:portal/overworld/portal_lush",
+      "required": false
+    },
+    {
+      "id": "idas:desert_camp/desert_camp_bygwindswept",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_bopmahogany",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_bopredwood",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_bygmahogany",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_bygredwood",
+      "required": false
+    },
+    {
+      "id": "mvs:log_pile/dark_oak_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:dark_oak_log_pile",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:village_adobe",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:village_coconut",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:village_cypress",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:village_wisteria",
+      "required": false
+    },
+    {
+      "id": "nova_structures:firewatch_tower_birch",
+      "required": false
+    },
+    {
+      "id": "nova_structures:firewatch_tower_cherry",
+      "required": false
+    },
+    {
+      "id": "nova_structures:tavern_cherry",
+      "required": false
+    },
+    {
+      "id": "nova_structures:firewatch_tower_dark_oak",
+      "required": false
+    },
+    {
+      "id": "nova_structures:firewatch_tower_forest",
+      "required": false
+    },
+    {
+      "id": "nova_structures:firewatch_tower_jungle",
+      "required": false
+    },
+    {
+      "id": "nova_structures:firewatch_tower_mangrove",
+      "required": false
+    },
+    {
+      "id": "nova_structures:firewatch_tower_savanna",
+      "required": false
+    },
+    {
+      "id": "nova_structures:firewatch_tower_swamp",
+      "required": false
+    },
+    {
+      "id": "philipsruins:sculk_dungeon",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_dark_forest",
+      "required": false
+    },
+    {
+      "id": "structory_towers:small_firetower",
+      "required": false
+    },
+    {
+      "id": "threateningly_mobs:distortion_village",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/cold_red_trade",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/dark_oak_trade",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/small_red_trade",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/island_village_1",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/sleepy_island",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/tower_island",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/villager_island",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_rare/floating_farm_large",
+      "required": false
+    },
+    {
+      "id": "unearthed_journey:temple_to_methuselah",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "windswept:chestnut_weathered_house",
+      "required": false
+    },
+    {
+      "id": "windswept:grove_weathered_house",
+      "required": false
+    }
+  ]
+}

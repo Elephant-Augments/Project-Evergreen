@@ -1,0 +1,12 @@
+[
+    {
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "continents"
+    },
+    {
+        "op": "replace",
+        "path": "/argument1/argument/xz_scale",
+        "value": 0.4
+    }
+]

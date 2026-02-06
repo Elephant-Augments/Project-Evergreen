@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "minecraft:desert",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:scorched_dunes",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:drylands",
+      "required": false
+    },
+    {
+      "id": "terralith:desert_spires",
+      "required": false
+    },
+    {
+      "id": "terralith:white_mesa",
+      "required": false
+    },
+    {
+      "id": "wythers:deep_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:desert_pinnacles",
+      "required": false
+    }
+  ]
+}

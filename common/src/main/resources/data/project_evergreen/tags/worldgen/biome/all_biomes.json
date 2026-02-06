@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#project_evergreen:all_land",
-    "#project_evergreen:all_water",
-    "#project_evergreen:underground"
-  ]
-}

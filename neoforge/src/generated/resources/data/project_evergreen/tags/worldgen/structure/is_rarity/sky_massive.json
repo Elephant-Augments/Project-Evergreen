@@ -1,0 +1,100 @@
+{
+  "values": [
+    {
+      "id": "custom:floating_island",
+      "required": false
+    },
+    {
+      "id": "custom:rootless",
+      "required": false
+    },
+    {
+      "id": "custom:skull_island",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:mechanical_nest",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:airship_village",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:sky_dungeon",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:skyrtle",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_sky",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "mostructures:the_castle_in_the_sky",
+      "required": false
+    },
+    {
+      "id": "mss:volcano",
+      "required": false
+    },
+    {
+      "id": "mss:jungle",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:whalearena",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:whalelight",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:whaleship",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "skyvillages:skyvillage",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_rare/farm_island",
+      "required": false
+    }
+  ]
+}

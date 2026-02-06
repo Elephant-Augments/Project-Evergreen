@@ -1,8 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "#project_evergreen:special_swampy_cold",
-        "#project_evergreen:special_swampy_temperate",
-        "#project_evergreen:special_swampy_warm"
-    ]
-}

@@ -1,0 +1,10 @@
+{
+  "__comment": "wilderness_inland_sprawling",
+  "placement": {
+    "salt": 0,
+    "spacing": 64,
+    "separation": 58,
+    "type": "minecraft:random_spread"
+  },
+  "structures": []
+}

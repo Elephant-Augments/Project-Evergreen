@@ -1,0 +1,56 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:arid_plains",
+      "required": false
+    },
+    {
+      "id": "minecraft:savanna",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:arid_savanna",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:arid_highlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:wooded_drylands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:xeric_plains",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:steppe",
+      "required": false
+    },
+    {
+      "id": "terralith:savanna_badlands",
+      "required": false
+    },
+    {
+      "id": "windswept:flowering_savanna",
+      "required": false
+    },
+    {
+      "id": "wythers:dry_tropical_grassland",
+      "required": false
+    },
+    {
+      "id": "wythers:flooded_savanna",
+      "required": false
+    },
+    {
+      "id": "wythers:flowering_pantanal",
+      "required": false
+    },
+    {
+      "id": "wythers:jacaranda_savanna",
+      "required": false
+    }
+  ]
+}

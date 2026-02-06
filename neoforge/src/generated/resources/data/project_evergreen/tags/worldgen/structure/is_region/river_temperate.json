@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    }
+  ]
+}

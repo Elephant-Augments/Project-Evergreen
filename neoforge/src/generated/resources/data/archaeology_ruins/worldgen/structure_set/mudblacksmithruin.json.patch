@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/structure_id",
+    "value": "archaeology_ruins:mudblacksmithruin"
+  },
+  {
+    "op": "test",
+    "type": "project_evergreen:structure_rarity_redistribution",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/structures",
+    "value": []
+  }
+]

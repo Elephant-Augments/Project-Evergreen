@@ -1,0 +1,96 @@
+{
+  "values": [
+    {
+      "id": "atmospheric:kousa_jungle",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:autumnal_hills",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:snowy_pinelands",
+      "required": false
+    },
+    {
+      "id": "environmental:snowy_old_growth_pine_barrens",
+      "required": false
+    },
+    {
+      "id": "environmental:snowy_pine_barrens",
+      "required": false
+    },
+    {
+      "id": "environmental:old_growth_pine_barrens",
+      "required": false
+    },
+    {
+      "id": "environmental:pine_barrens",
+      "required": false
+    },
+    {
+      "id": "environmental:pine_slopes",
+      "required": false
+    },
+    {
+      "id": "minecraft:snowy_taiga",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:snowy_fir_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cold_boreal_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cold_deciduous_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:spires",
+      "required": false
+    },
+    {
+      "id": "terralith:siberian_grove",
+      "required": false
+    },
+    {
+      "id": "terralith:snowy_shield",
+      "required": false
+    },
+    {
+      "id": "terralith:siberian_taiga",
+      "required": false
+    },
+    {
+      "id": "terralith:snowy_maple_forest",
+      "required": false
+    },
+    {
+      "id": "terralith:wintry_forest",
+      "required": false
+    },
+    {
+      "id": "terralith:wintry_lowlands",
+      "required": false
+    },
+    {
+      "id": "windswept:snowy_chestnut_forest",
+      "required": false
+    },
+    {
+      "id": "windswept:snowy_pine_barrens",
+      "required": false
+    },
+    {
+      "id": "wythers:deep_snowy_taiga",
+      "required": false
+    },
+    {
+      "id": "wythers:snowy_thermal_taiga",
+      "required": false
+    }
+  ]
+}

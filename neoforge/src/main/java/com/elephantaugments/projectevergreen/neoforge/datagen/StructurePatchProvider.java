@@ -2,8 +2,8 @@ package com.elephantaugments.projectevergreen.neoforge.datagen;
 
 import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
-import com.elephantaugments.projectevergreen.common.data.PEBiome;
-import com.elephantaugments.projectevergreen.common.data.WorldgenDataManager;
+import com.elephantaugments.projectevergreen.common.api.PatchableBiome;
+import com.elephantaugments.projectevergreen.common.api.WorldgenDataManager;
 import com.elephantaugments.projectevergreen.common.data.defaults.*;
 import com.elephantaugments.projectevergreen.common.data.patchable.*;
 import com.google.gson.JsonElement;
@@ -17,18 +17,6 @@ import java.util.stream.Collectors;
 
 public class StructurePatchProvider extends PatchProvider {
 
-    //private static final PatchableBiomes BIOMES = new PatchableBiomes();
-    //private static final PatchableStructures STRUCTURES = new PatchableStructures();
-    //private static final PatchableStructureSets STRUCTURE_SETS = new PatchableStructureSets();
-    //private static final PatchableProcessorLists PROCESSOR_LISTS = new PatchableProcessorLists();
-    //private static final PatchableTemplatePools TEMPLATE_POOLS = new PatchableTemplatePools();
-
-    //private static final ArrayListMultimap<String, String> BIOMES_BY_TAG = DefaultBiomeTags.parseDefaultBiomeTags();
-    //private static final ArrayListMultimap<String, String> STRUCTURES_BY_BIOME = DefaultStructureRegions.parseDefaultStructureBiomes();
-    //private static final ArrayListMultimap<String, String> STRUCTURES_BY_RARITY = DefaultStructureRarity.parseDefaultStructureRarities();
-    //private static final ArrayListMultimap<String, String> BLACKLIST = Blacklist.parseStructures();
-    //private static final ArrayListMultimap<String, String> FIXES = DefaultStructureFixes.parseStructures();
-
     protected StructurePatchProvider(DataGenerator generator, Target target) {
         super(generator, target, ProjectEvergreen.MODID);
     }
@@ -36,13 +24,11 @@ public class StructurePatchProvider extends PatchProvider {
     @Override
     public void registerPatches() {
 
-        WorldgenDataManager.loadDefaultWorldgenData();
-
-        ProjectEvergreen.LOGGER.info("Patching all Biomes into their tags...");
+        /*ProjectEvergreen.LOGGER.info("Patching all Biomes into their tags...");
         WorldgenDataManager.BIOMES_BY_TAG.keySet().forEach((tag) -> {
             String fromMod = ProjectEvergreen.MODID;
             String atPath = "tags/worldgen/biome/" + Constants.getPath(tag);
-            List<? extends String> tagSet = WorldgenDataManager.BIOMES_BY_TAG.get(tag).stream().map(PEBiome::getId).collect(Collectors.toList());
+            List<? extends String> tagSet = WorldgenDataManager.BIOMES_BY_TAG.get(tag).stream().map(PatchableBiome::getId).collect(Collectors.toList());
 
             patch(id(fromMod, atPath))
                 .compound()
@@ -51,11 +37,11 @@ public class StructurePatchProvider extends PatchProvider {
                 .remove("/temp_tags")
                 .end();
         });
-        ProjectEvergreen.LOGGER.info("Patched " + WorldgenDataManager.BIOMES_BY_TAG.size() + " Biome Tags");
+        ProjectEvergreen.LOGGER.info("Patched " + WorldgenDataManager.BIOMES_BY_TAG.size() + " Biome Tags");*/
 
 
         ProjectEvergreen.LOGGER.info("Patching all Processor Lists with fixes...");
-        PatchableProcessorLists PROCESSOR_LISTS = WorldgenDataManager.getProcessorData();
+        PatchableProcessorLists PROCESSOR_LISTS = WorldgenDataManager.PATCHABLE_PROCESSOR_LISTS;
         PROCESSOR_LISTS.getPaths().forEach((path) -> {
             String fromMod = Constants.getNamespace(path);
             String atPath = Constants.getPath(path);
@@ -69,7 +55,7 @@ public class StructurePatchProvider extends PatchProvider {
 
 
         ProjectEvergreen.LOGGER.info("Patching all Structure Sets with new structures...");
-        WorldgenDataManager.STRUCTURE_SETS_BY_ID.forEach((id, structureSet) -> {
+        WorldgenDataManager.PATCHABLE_STRUCTURE_SETS.forEach((id, structureSet) -> {
             String fromMod = Constants.getNamespace(id);
             String atPath = Constants.getPath(structureSet.full_path);
 
@@ -201,21 +187,22 @@ public class StructurePatchProvider extends PatchProvider {
                     .end()
                     .end();
             }
+
             //This is to account for both individual + grouped structure sets
-            /*if (STRUCTURES_BY_RARITY.values().contains(id) || DefaultStructureFixes.conditionalDisable.contains(id)) {
-                patch(id(fromMod, atPath))
+            //if (STRUCTURES_BY_RARITY.values().contains(id) || DefaultStructureFixes.conditionalDisable.contains(id)) {
+            patch(id(fromMod, atPath))
                     .compound()
                     .add("/" + Constants.ID_TAG, id)
                     .test(Constants.STRUCTURE_RARITY_REDISTRIBUTION, true)
                     .replace("/structures", ProjectEvergreen.GSON.toJsonTree(new ArrayList()))
                     .end();
-            }*/
+            //}
         });
-        ProjectEvergreen.LOGGER.info("Patched " + WorldgenDataManager.STRUCTURE_SETS_BY_ID.size() + " Structure Sets");
+        ProjectEvergreen.LOGGER.info("Patched " + WorldgenDataManager.PATCHABLE_STRUCTURE_SETS.size() + " Structure Sets");
 
 
         ProjectEvergreen.LOGGER.info("Patching all Structures into new biomes...");
-        WorldgenDataManager.STRUCTURES_BY_ID.forEach((id, structure) -> {
+        WorldgenDataManager.PATCHABLE_STRUCTURES.forEach((id, structure) -> {
             String fromMod = Constants.getNamespace(id);
             String atPath = Constants.getPath(structure.full_path);
 
@@ -300,7 +287,7 @@ public class StructurePatchProvider extends PatchProvider {
                 .end();
             }*/
         });
-        ProjectEvergreen.LOGGER.info("Patched " + WorldgenDataManager.STRUCTURES_BY_ID.size() + " Structures");
+        ProjectEvergreen.LOGGER.info("Patched " + WorldgenDataManager.PATCHABLE_STRUCTURES.size() + " Structures");
 
 
         /*ProjectEvergreen.LOGGER.info("Patching all Biomes with new features...");
@@ -317,8 +304,8 @@ public class StructurePatchProvider extends PatchProvider {
         ProjectEvergreen.LOGGER.info("Patched " + STRUCTURES.size() + " Structures");*/
     }
 
-    public static JsonElement getBiomeTag(String structureID) {
-        Optional<String> biomeTag = WorldgenDataManager.STRUCTURES_BY_TAG.entries().stream()
+    /*public static JsonElement getBiomeTag(String structureID) {
+        Optional<String> biomeTag = WorldgenDataManager.PATCHABLE_STRUCTURES.entries().stream()
                         .filter(e -> structureID.equals(e.getValue().id))
                         .map(Map.Entry::getKey)
                         .sorted(Comparator.reverseOrder())
@@ -326,5 +313,5 @@ public class StructurePatchProvider extends PatchProvider {
         return biomeTag.isEmpty() ? 
             ProjectEvergreen.GSON.toJsonTree(DefaultRegions.NO_BIOMES) :
             ProjectEvergreen.GSON.toJsonTree(biomeTag.get());
-    }
+    }*/
 }

@@ -1,0 +1,172 @@
+{
+  "values": [
+    {
+      "id": "archaeology_ruins:mudblacksmithruin",
+      "required": false
+    },
+    {
+      "id": "archaeology_ruins:mudpotterruin",
+      "required": false
+    },
+    {
+      "id": "archaeology_ruins:mudschoolruin",
+      "required": false
+    },
+    {
+      "id": "archaeology_ruins:smallmudruin",
+      "required": false
+    },
+    {
+      "id": "ati_structures:sinking_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotten_log",
+      "required": false
+    },
+    {
+      "id": "ati_structures:mud_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:storage_house",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_overgrown",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_the_gentleman_frog",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:hugemangrovetreehut",
+      "required": false
+    },
+    {
+      "id": "create_ltab:mangrove_structures",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:reanimated_ruins_mossy",
+      "required": false
+    },
+    {
+      "id": "explorify:mangrove_hut",
+      "required": false
+    },
+    {
+      "id": "explorify:supply_cache/mangrove",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:quark_moss",
+      "required": false
+    },
+    {
+      "id": "goety:mangrove_tower",
+      "required": false
+    },
+    {
+      "id": "hexalia:herbalist_hut",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/mangrove_mineshaft",
+      "required": false
+    },
+    {
+      "id": "imst:mangrove_hut",
+      "required": false
+    },
+    {
+      "id": "imst:lumberjack/mangrove_hut",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mangrove_hut",
+      "required": false
+    },
+    {
+      "id": "letsdoaddon-structures:mangrove_outpost",
+      "required": false
+    },
+    {
+      "id": "letsdoaddon-structures:mangrove_pond",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/mangrove",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_mangrove_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:mangrove",
+      "required": false
+    },
+    {
+      "id": "mvs:small_mangrove_lantern",
+      "required": false
+    },
+    {
+      "id": "nova_structures:tavern_mangrove",
+      "required": false
+    },
+    {
+      "id": "nova_structures:mangrove_witch_hut",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_frog_ranch",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_mud_brick_constructor",
+      "required": false
+    },
+    {
+      "id": "philipsruins:rare_ruin",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_mangrove",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:witch_hut_mangrove",
+      "required": false
+    },
+    {
+      "id": "structory_towers:overgrown_mangrove",
+      "required": false
+    },
+    {
+      "id": "structory_towers:engineer_tower",
+      "required": false
+    },
+    {
+      "id": "terramity:mudhut",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/mangrove_watchtower",
+      "required": false
+    },
+    {
+      "id": "villagesandpillages:village_witch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:tree_cage",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:moss_blob",
+      "required": false
+    }
+  ]
+}

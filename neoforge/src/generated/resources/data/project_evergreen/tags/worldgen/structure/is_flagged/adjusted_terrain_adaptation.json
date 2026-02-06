@@ -1,0 +1,212 @@
+{
+  "values": [
+    {
+      "id": "ati_structures:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:arachnid_dwelling",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:castillo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:catalonian_castle",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dark_keep",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dark_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:deepslate_keep",
+      "required": false
+    },
+    {
+      "id": "ati_structures:desert_outpost",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:fortified_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:gnome_hut",
+      "required": false
+    },
+    {
+      "id": "ati_structures:granite_fort",
+      "required": false
+    },
+    {
+      "id": "ati_structures:haunted_ruin",
+      "required": false
+    },
+    {
+      "id": "ati_structures:herobrine_stronghold",
+      "required": false
+    },
+    {
+      "id": "ati_structures:illager_homestead",
+      "required": false
+    },
+    {
+      "id": "ati_structures:illager_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:jungle_grotto",
+      "required": false
+    },
+    {
+      "id": "ati_structures:jungle_settlement",
+      "required": false
+    },
+    {
+      "id": "ati_structures:manor",
+      "required": false
+    },
+    {
+      "id": "ati_structures:marble_chateau",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:mosque",
+      "required": false
+    },
+    {
+      "id": "ati_structures:mud_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:nomadic_camp",
+      "required": false
+    },
+    {
+      "id": "ati_structures:old_fort",
+      "required": false
+    },
+    {
+      "id": "ati_structures:old_home",
+      "required": false
+    },
+    {
+      "id": "ati_structures:old_residence",
+      "required": false
+    },
+    {
+      "id": "ati_structures:overgrown_outpost",
+      "required": false
+    },
+    {
+      "id": "ati_structures:quarry",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotten_log",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ruined_castle",
+      "required": false
+    },
+    {
+      "id": "ati_structures:small_keep",
+      "required": false
+    },
+    {
+      "id": "ati_structures:spider_nest",
+      "required": false
+    },
+    {
+      "id": "ati_structures:steam_house",
+      "required": false
+    },
+    {
+      "id": "ati_structures:storage_house",
+      "required": false
+    },
+    {
+      "id": "ati_structures:storage_shack",
+      "required": false
+    },
+    {
+      "id": "ati_structures:stray_ruins",
+      "required": false
+    },
+    {
+      "id": "ati_structures:tavern",
+      "required": false
+    },
+    {
+      "id": "ati_structures:villager_inn",
+      "required": false
+    },
+    {
+      "id": "ati_structures:wither_keep",
+      "required": false
+    },
+    {
+      "id": "ati_structures:woodland_keep",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:create_ruined_castle",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:witch_cottage_redone",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:ancient_vestiges",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:graveyard",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:old_camp",
+      "required": false
+    },
+    {
+      "id": "species:libra",
+      "required": false
+    },
+    {
+      "id": "species:paleontology_dig_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:frost_reactor_plant",
+      "required": false
+    }
+  ]
+}

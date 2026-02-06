@@ -1,27 +1,27 @@
 package com.elephantaugments.projectevergreen.common.data.patchable;
 
-import com.elephantaugments.projectevergreen.common.data.PEStructure;
-import com.google.common.collect.ArrayListMultimap;
-
 import java.util.Arrays;
-import java.util.Map;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class PatchableProcessorLists extends IPatchableData {
+public class PatchableProcessorLists extends IPatchableList {
 
-    public ArrayListMultimap<String, PEStructure> Data;
+    //public LinkedHashMap<String, ?> Data = new LinkedHashMap<>();
 
     public static final String REGISTRY_PATH = "worldgen/processor_list/";
 
     public PatchableProcessorLists() {
         super(defaultSupported, REGISTRY_PATH);
-        //Data = this.mapPatchableData();
     }
 
     @Override
-    protected Map<String, ?> mapPatchableData() {
-        return Map.of();
+    protected void mapPatchableData(SortedSet<String> ids) {
+
+    }
+
+    @Override
+    public void addPatchableData(String id) {
+
     }
 
     public static final SortedSet<String> defaultSupported = new TreeSet<>(Arrays.asList(
@@ -425,6 +425,106 @@ public class PatchableProcessorLists extends IPatchableData {
         "nova_structures:undead_crypt_degradation",
         "nova_structures:witch_villa_generic_degradation",
         "nova_structures:witch_villa_room_degradation",
+        "piglet_structures:badlands_giant_tree",
+        "piglet_structures:badlands_pillager_barrel_outpost",
+        "piglet_structures:badlands_ruins",
+        "piglet_structures:birch_ancient_house",
+        "piglet_structures:birch_fairy_isle",
+        "piglet_structures:birch_fountain",
+        "piglet_structures:birch_house",
+        "piglet_structures:birch_ruins",
+        "piglet_structures:birch_single_chest",
+        "piglet_structures:dark_oak_ruins",
+        "piglet_structures:dark_oak_stone_circle",
+        "piglet_structures:desert_pyramid",
+        "piglet_structures:desert_pyramid_base",
+        "piglet_structures:desert_ruins",
+        "piglet_structures:ice_ocean_water_ruins",
+        "piglet_structures:jungle_ruins",
+        "piglet_structures:mega_taiga_ancient_village",
+        "piglet_structures:mega_taiga_ruins",
+        "piglet_structures:mountains_house",
+        "piglet_structures:mountains_observation_tower",
+        "piglet_structures:mountains_ruins",
+        "piglet_structures:neutral_overworld_ancient_skeleton_fortress_walls",
+        "piglet_structures:neutral_overworld_mossy_skeleton",
+        "piglet_structures:oak_mossy_stone",
+        "piglet_structures:oak_pillager_fort_bottom",
+        "piglet_structures:oak_pillager_fort_top",
+        "piglet_structures:oak_ruins",
+        "piglet_structures:oak_stone_circle",
+        "piglet_structures:plains_ruins",
+        "piglet_structures:savanna_big_tree",
+        "piglet_structures:savanna_pond",
+        "piglet_structures:savanna_ruins",
+        "piglet_structures:snow_ancient_circle",
+        "piglet_structures:snow_forge_stand",
+        "piglet_structures:snow_hidden_hideout",
+        "piglet_structures:snow_little_hut",
+        "piglet_structures:snow_ruins",
+        "piglet_structures:snow_stray_tower",
+        "piglet_structures:snow_winter_mansion",
+        "piglet_structures:swamp_compost_fairies_dwelling",
+        "piglet_structures:swamp_zombie_isle",
+        "piglet_structures:taiga_brickery_house",
+        "piglet_structures:taiga_house_1",
+        "piglet_structures:taiga_metal_foundry",
+        "piglet_structures:taiga_ruins",
+        "qrafty:akropolis",
+        "qrafty:archeology",
+        "qrafty:archeology_desert",
+        "qrafty:archeology_taiga",
+        "qrafty:azalea_ruins",
+        "qrafty:birk_fort",
+        "qrafty:blacksmith",
+        "qrafty:buried_villager",
+        "qrafty:camel_house",
+        "qrafty:camp",
+        "qrafty:castle_tower",
+        "qrafty:crane",
+        "qrafty:dirt_hut",
+        "qrafty:enchanter",
+        "qrafty:farm",
+        "qrafty:farmer_fort",
+        "qrafty:forgotten_mine",
+        "qrafty:fort",
+        "qrafty:graveyard",
+        "qrafty:hobbit_hole",
+        "qrafty:ice_fort",
+        "qrafty:igloo_village",
+        "qrafty:industrial_cabin",
+        "qrafty:industrial_construction",
+        "qrafty:industrial_digger",
+        "qrafty:industrial_elevator",
+        "qrafty:industrial_grabber",
+        "qrafty:industrial_redstone_crack",
+        "qrafty:jungle_treehouse",
+        "qrafty:lotussea",
+        "qrafty:lush_ice",
+        "qrafty:lush_waterfall",
+        "qrafty:magenta_shroom_clearing",
+        "qrafty:mangrove_watchtower",
+        "qrafty:maya",
+        "qrafty:mesa_settlement",
+        "qrafty:oasis",
+        "qrafty:orbital",
+        "qrafty:overworld_leak",
+        "qrafty:plains",
+        "qrafty:railroad",
+        "qrafty:relict",
+        "qrafty:roman_ruins_1",
+        "qrafty:savanna_watchtower",
+        "qrafty:sphinx",
+        "qrafty:spruce_cabin",
+        "qrafty:stelzen",
+        "qrafty:stonehedge",
+        "qrafty:sunken_city",
+        "qrafty:table_mountain",
+        "qrafty:taiga",
+        "qrafty:termite_hill",
+        "qrafty:tower",
+        "qrafty:well",
+        "qrafty:windmill",
         "repurposed_structures:ancient_cities/end/generic_degradation",
         "repurposed_structures:ancient_cities/end/randomizer",
         "repurposed_structures:ancient_cities/end/start_degradation",

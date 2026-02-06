@@ -1,0 +1,216 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:snow_pile_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:snow_pile_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:snow_pile_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:spawn_altar_5",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:spawn_altar_6",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:guardian_wilden_den",
+      "required": false
+    },
+    {
+      "id": "ati_structures:old_fort",
+      "required": false
+    },
+    {
+      "id": "ati_structures:stray_ruins",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_rotborne",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_petasi",
+      "required": false
+    },
+    {
+      "id": "cataclysm:frosted_prison",
+      "required": false
+    },
+    {
+      "id": "create_ltab:snow_fort",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createpillagercamp",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createpillagerfortgate",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:monastery",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:castle",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:snowy_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:cold_dungeon",
+      "required": false
+    },
+    {
+      "id": "eidolon:stray_tower",
+      "required": false
+    },
+    {
+      "id": "explorify:supply_cache/taiga",
+      "required": false
+    },
+    {
+      "id": "goety:ominous_blacksmith",
+      "required": false
+    },
+    {
+      "id": "goety:secluded_igloo",
+      "required": false
+    },
+    {
+      "id": "goety:sorcerous_keep",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/dread_citadel",
+      "required": false
+    },
+    {
+      "id": "idas:frozen_crypt",
+      "required": false
+    },
+    {
+      "id": "idas:animal_den/polar_bear_den",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:cloudy_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:frostbitten_temple",
+      "required": false
+    },
+    {
+      "id": "minecraft:igloo",
+      "required": false
+    },
+    {
+      "id": "moresnifferflowers:snow_sniffer_temple",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:frostmaw_spawn",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/snowy_fossil",
+      "required": false
+    },
+    {
+      "id": "mvs:snowy_fossil",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:abandonednordicmine_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:dwarfcavern_1",
+      "required": false
+    },
+    {
+      "id": "nova_structures:stray_fort",
+      "required": false
+    },
+    {
+      "id": "nova_structures:lone_citadel",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_snowy",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_snowy",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_snowy",
+      "required": false
+    },
+    {
+      "id": "structory:northern_ruin",
+      "required": false
+    },
+    {
+      "id": "terralith:spire",
+      "required": false
+    },
+    {
+      "id": "terramity:snow_fort",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_grove",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_plains",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_slopes",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_taiga",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_classic",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/lush_ice",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/cold_hideout",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/water_reservoir_pillager",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:frost_reactor_plant",
+      "required": false
+    }
+  ]
+}

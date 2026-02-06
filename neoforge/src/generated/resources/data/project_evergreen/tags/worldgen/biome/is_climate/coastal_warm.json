@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:azure_cove",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:tropical_shores",
+      "required": false
+    },
+    {
+      "id": "wythers:black_beach",
+      "required": false
+    },
+    {
+      "id": "wythers:deepslate_shore",
+      "required": false
+    },
+    {
+      "id": "wythers:desert_beach",
+      "required": false
+    },
+    {
+      "id": "wythers:jungle_island",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_beach",
+      "required": false
+    }
+  ]
+}

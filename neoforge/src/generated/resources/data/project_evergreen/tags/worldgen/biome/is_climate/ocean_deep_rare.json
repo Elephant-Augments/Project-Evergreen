@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "jellyfishing:rock_bottom",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:hyacinth_deeps",
+      "required": false
+    }
+  ]
+}

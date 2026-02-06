@@ -2,6 +2,7 @@ package com.elephantaugments.projectevergreen.common.command;
 
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.Constants;
+import com.elephantaugments.projectevergreen.common.api.WorldgenDataManager;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableStructureSets;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableStructures;
 import com.mojang.brigadier.CommandDispatcher;
@@ -36,14 +37,14 @@ public class FormatStructureEntriesCommand {
                     String undergroundStructuresFile = new SimpleDateFormat("'underground_structure_dump_'yy_MM_dd_HH_mm'.txt'").format(new Date());
                     String flatStructuresFile = new SimpleDateFormat("'flat_structure_dump'yy_MM_dd_HH_mm'.txt'").format(new Date());
                     try {
-                        dumpIDs(structuresFile, Constants.loadedStructures);
-                        dumpIDs(structureSetsFile, Constants.loadedStructureSets);
-                        dumpIDs(processorListsFile, Constants.loadedProcessorLists);
-                        dumpIDs(lootPoolsFile, Constants.loadedLootTables);
-                        dumpIDs(biomeModifiersFile, Constants.loadedBiomeModifiers);
-                        dumpIDs(biomesFile, Constants.loadedBiomes);
-                        dumpIDs(undergroundStructuresFile, Constants.undergroundStructures);
-                        dumpIDs(flatStructuresFile, Constants.flatStructures);
+                        dumpIDs(structuresFile, WorldgenDataManager.loadedStructures);
+                        dumpIDs(structureSetsFile, WorldgenDataManager.loadedStructureSets);
+                        dumpIDs(processorListsFile, WorldgenDataManager.loadedProcessorLists);
+                        dumpIDs(lootPoolsFile, WorldgenDataManager.loadedLootTables);
+                        dumpIDs(biomeModifiersFile, WorldgenDataManager.loadedBiomeModifiers);
+                        dumpIDs(biomesFile, WorldgenDataManager.loadedBiomes);
+                        dumpIDs(undergroundStructuresFile, WorldgenDataManager.undergroundStructures);
+                        dumpIDs(flatStructuresFile, WorldgenDataManager.flatStructures);
                         context.getSource().sendSuccess(() -> {
                             boolean isDedicatedServer = context.getSource().getServer().isDedicatedServer();
                             String firstFile = Paths.get(ProjectEvergreen.MODID, structuresFile).toString();

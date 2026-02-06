@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:autumnal_hills",
+      "required": false
+    },
+    {
+      "id": "minecraft:frozen_peaks",
+      "required": false
+    },
+    {
+      "id": "terralith:glacial_chasm",
+      "required": false
+    },
+    {
+      "id": "wythers:cold_stony_shore",
+      "required": false
+    },
+    {
+      "id": "wythers:cold_plains",
+      "required": false
+    },
+    {
+      "id": "wythers:cold_stony_shore",
+      "required": false
+    },
+    {
+      "id": "wythers:snowy_canyon",
+      "required": false
+    }
+  ]
+}

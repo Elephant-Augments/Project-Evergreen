@@ -1,0 +1,204 @@
+{
+  "values": [
+    {
+      "id": "archaeology_ruins:ruined_desert_pyramid",
+      "required": false
+    },
+    {
+      "id": "archaeology_ruins:ruinedjungletemple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:arachnid_dwelling",
+      "required": false
+    },
+    {
+      "id": "ati_structures:desert_outpost",
+      "required": false
+    },
+    {
+      "id": "ati_structures:fortified_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:herobrine_stronghold",
+      "required": false
+    },
+    {
+      "id": "ati_structures:jungle_grotto",
+      "required": false
+    },
+    {
+      "id": "ati_structures:jungle_settlement",
+      "required": false
+    },
+    {
+      "id": "ati_structures:old_fort",
+      "required": false
+    },
+    {
+      "id": "ati_structures:sinking_temple",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:temple_jungle",
+      "required": false
+    },
+    {
+      "id": "betterdeserttemples:desert_temple",
+      "required": false
+    },
+    {
+      "id": "betterjungletemples:jungle_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:ceryneian_hind",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:coliseum",
+      "required": false
+    },
+    {
+      "id": "explorify:dark_forest_settlement",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_arc",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_chest",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_dragon",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_hand",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:rex_camp",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:protector",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:pyramid",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_stump",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:large_temple",
+      "required": false
+    },
+    {
+      "id": "hexerei:dark_coven",
+      "required": false
+    },
+    {
+      "id": "mostructures:the_castle_in_the_sky",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:frostmaw_spawn",
+      "required": false
+    },
+    {
+      "id": "mss:jungle",
+      "required": false
+    },
+    {
+      "id": "mtr:desert_temple",
+      "required": false
+    },
+    {
+      "id": "mtr:jungle_temple",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:graveyard",
+      "required": false
+    },
+    {
+      "id": "nova_structures:badlands_miner_outpost",
+      "required": false
+    },
+    {
+      "id": "nova_structures:lone_citadel",
+      "required": false
+    },
+    {
+      "id": "nova_structures:stray_fort",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:fortress_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:monument_desert",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:monument_icy",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:monument_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_icy",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_snowy",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "structory:old_manor",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/maya",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/portal_sword",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/pyramide_of_anubis",
+      "required": false
+    },
+    {
+      "id": "underwater_village:library",
+      "required": false
+    }
+  ]
+}

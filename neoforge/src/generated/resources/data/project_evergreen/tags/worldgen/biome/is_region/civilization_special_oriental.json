@@ -1,0 +1,136 @@
+{
+  "values": [
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    }
+  ]
+}

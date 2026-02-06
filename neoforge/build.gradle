@@ -43,17 +43,19 @@ neoForge {
 
 repositories {
     // Add here additional repositories if required by some of the dependencies below.
-    maven {
-        name = 'Modrinth'
-        url = 'https://api.modrinth.com/maven'
-        content {
-            includeGroup 'maven.modrinth'
-        }
-    }
+    maven { url 'https://maven.terraformersmc.com/' }
 }
 
 dependencies {
     implementation 'maven.modrinth:patched:7.3.3+1.21.1-neoforge'
+    compileOnly "com.terraformersmc:biolith-neoforge:$biolith_version"
+
+    //Optional Dependencies
+    runtimeOnly "curse.maven:regions-unexplored-659110:7492526"
+    runtimeOnly "curse.maven:natures-spirit-1044992:6962784"
+    runtimeOnly "curse.maven:terrablender-neoforge-940057:6054947"
+    runtimeOnly "curse.maven:expanded-ecosphere-490686:7294363"
+    runtimeOnly "curse.maven:cristel-lib-856996:7233453"
 }
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }

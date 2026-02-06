@@ -1,0 +1,68 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:lush_grassland",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:lush_meadow",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:poplar_fields",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:prairie",
+      "required": false
+    },
+    {
+      "id": "minecraft:plains",
+      "required": false
+    },
+    {
+      "id": "minecraft:sunflower_plains",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:prairie",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:heather_fields",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:alpine_clearings",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:grassland",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:clover_plains",
+      "required": false
+    },
+    {
+      "id": "terralith:highlands",
+      "required": false
+    },
+    {
+      "id": "wythers:cool_plains",
+      "required": false
+    },
+    {
+      "id": "wythers:cold_plains",
+      "required": false
+    },
+    {
+      "id": "wythers:harvest_fields",
+      "required": false
+    },
+    {
+      "id": "wythers:highland_plains",
+      "required": false
+    }
+  ]
+}

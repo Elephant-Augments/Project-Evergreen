@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:tundra",
+      "required": false
+    },
+    {
+      "id": "minecraft:grove",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:frozen_tundra",
+      "required": false
+    },
+    {
+      "id": "terralith:cold_shrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:alpine_grove",
+      "required": false
+    },
+    {
+      "id": "windswept:snowy_chestnut_forest",
+      "required": false
+    },
+    {
+      "id": "windswept:tundra",
+      "required": false
+    },
+    {
+      "id": "wythers:crimson_tundra",
+      "required": false
+    },
+    {
+      "id": "wythers:snowy_tundra",
+      "required": false
+    }
+  ]
+}

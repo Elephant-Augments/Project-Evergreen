@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:azure_cove",
+      "required": false
+    },
+    {
+      "id": "minecraft:beach",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:tropical_shores",
+      "required": false
+    },
+    {
+      "id": "wythers:jungle_island",
+      "required": false
+    },
+    {
+      "id": "wythers:temperate_island",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_beach",
+      "required": false
+    }
+  ]
+}

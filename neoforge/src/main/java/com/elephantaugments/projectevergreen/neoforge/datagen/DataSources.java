@@ -3,6 +3,7 @@ package com.elephantaugments.projectevergreen.neoforge.datagen;
 import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.data.defaults.*;
+import com.elephantaugments.projectevergreen.neoforge.ProjectEvergreenNeoforge;
 import com.elephantaugments.projectevergreen.neoforge.config.ProjectEvergreenConfig;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -24,8 +25,8 @@ public class DataSources {
             return switch (value.getAsString()) {
                 case "get_biome" -> DataSources.getBiomeTag(from.getAsString());
                 case Constants.IGNORE_STRUCTURE_TYPE -> DataSources.getIgnoreStructureType(from.getAsString());
-                case DefaultStructureFixes.FLATNESS_CHECK_NARROW -> DataSources.getFlatnessCheckNarrow(from.getAsString());
-                case DefaultStructureFixes.FLATNESS_CHECK_WIDE -> DataSources.getFlatnessCheckWide(from.getAsString());
+                case DefaultFlags.FLATNESS_CHECK_NARROW -> DataSources.getFlatnessCheckNarrow(from.getAsString());
+                case DefaultFlags.FLATNESS_CHECK_WIDE -> DataSources.getFlatnessCheckWide(from.getAsString());
                 case Constants.ALLOWED_TERRAIN_HEIGHT_NARROW -> DataSources.getAllowedTerrainHeightNarrow();
                 case Constants.ALLOWED_TERRAIN_HEIGHT_WIDE -> DataSources.getAllowedTerrainHeightWide();
                 case Constants.ALLOWED_TERRAIN_HEIGHT_SPRAWLING -> DataSources.getAllowedTerrainHeightSprawling();
@@ -67,7 +68,7 @@ public class DataSources {
     }
 
     private static JsonElement getSpreadWithOffset(Integer spread, Double rarity, String id) {
-        return  ((Patched.platform().isModLoaded("integrated_api") || Patched.platform().isModLoaded("repurposed_structures")) &&
+        return  ((ProjectEvergreenNeoforge.PLATFORM.isModLoaded("integrated_api") || ProjectEvergreenNeoforge.PLATFORM.isModLoaded("repurposed_structures")) &&
                 (!ProjectEvergreenConfig.performanceFriendlyMode || TestConditions.hasPopulationBias_StructureSet(id))) ? 
             ProjectEvergreen.GSON.toJsonTree(Math.ceil(spread * Constants.FLATNESS_SPREAD_OFFSET * rarity)) :
             ProjectEvergreen.GSON.toJsonTree(Math.ceil(spread * rarity));
@@ -101,13 +102,13 @@ public class DataSources {
     private static JsonElement getFlatnessCheckNarrow(String structureID) {
         //ProjectEvergreen.LOGGER.info("Checking all flat structures... " + TestConditions.filterFlatStructures().size());
         boolean isFlatNarrow = (TestConditions.isFlatStructure(structureID) && !(TestConditions.isMassiveStructure(structureID))) ||
-            DefaultStructureFixes.flatnessCheckNarrow.contains(structureID);
+            DefaultFlags.flatnessCheckMedium.contains(structureID);
         return ProjectEvergreen.GSON.toJsonTree(isFlatNarrow);
     }
 
     private static JsonElement getFlatnessCheckWide(String structureID) {
         boolean isFlatWide = (TestConditions.isFlatStructure(structureID) && TestConditions.isMassiveStructure(structureID)) ||
-            DefaultStructureFixes.flatnessCheckWide.contains(structureID);
+            DefaultFlags.flatnessCheckLarge.contains(structureID);
         return ProjectEvergreen.GSON.toJsonTree(isFlatWide);
     }
 

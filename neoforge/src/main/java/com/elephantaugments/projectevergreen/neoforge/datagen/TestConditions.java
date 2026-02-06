@@ -1,10 +1,11 @@
 package com.elephantaugments.projectevergreen.neoforge.datagen;
 
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
+import com.elephantaugments.projectevergreen.common.api.WorldgenDataManager;
 import com.elephantaugments.projectevergreen.neoforge.config.ProjectEvergreenConfig;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultBlacklist;
 import com.elephantaugments.projectevergreen.common.Constants;
-import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureFixes;
+import com.elephantaugments.projectevergreen.common.data.defaults.DefaultFlags;
 import com.google.common.collect.ImmutableList;
 import com.google.gson.JsonElement;
 import net.enderturret.patched.patch.PatchContext;
@@ -49,7 +50,7 @@ public class TestConditions {
 		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "flatness_check_ignored"), TestConditions::flatnessCheckIgnored);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "flat_check_narrow"), TestConditions::flatCheckNarrow);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "flat_check_wide"), TestConditions::flatCheckWide);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, DefaultStructureFixes.FLATNESS_CHECK_SPRAWLING), TestConditions::flatCheckSprawling);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, DefaultFlags.FLATNESS_CHECK_SPRAWLING), TestConditions::flatCheckSprawling);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.ENHANCED_TERRAIN_ADAPTATION), TestConditions::enhancedTerrainAdaptation);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, DefaultBlacklist.IGNORE_BIOME_RADIUS), TestConditions::biomeRadiusIgnored);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, DefaultBlacklist.IGNORE_BIOME_REDISTRIBUTION), TestConditions::biomeRedistributionIgnored);
@@ -122,13 +123,13 @@ public class TestConditions {
     private static boolean flatCheckNarrow(JsonElement value) {
         final ResourceLocation id = PatchUtil.assertIsResourceLocation(Constants.FLAT_NARROW_TEST, "value", value);
         return ((isFlatStructure(id.toString()) && !isMassiveStructure(id.toString())) ||
-                DefaultStructureFixes.flatnessCheckNarrow.contains(id.toString()));
+                DefaultFlags.flatnessCheckMedium.contains(id.toString()));
 	}
 
     private static boolean flatCheckWide(JsonElement value) {
 		final ResourceLocation id = PatchUtil.assertIsResourceLocation(Constants.FLAT_WIDE_TEST, "value", value);
         return ((isFlatStructure(id.toString()) && isMassiveStructure(id.toString())) ||
-                DefaultStructureFixes.flatnessCheckWide.contains(id.toString()));
+                DefaultFlags.flatnessCheckLarge.contains(id.toString()));
 	}
 
     private static boolean flatCheckSprawling(JsonElement value) {
@@ -188,7 +189,7 @@ public class TestConditions {
     }
 
     public static boolean isSprawlingStructure(String id) {
-        return DefaultStructureFixes.flatnessCheckSprawling.contains(id);
+        return DefaultFlags.flatnessCheckSprawling.contains(id);
     }
 
     public static boolean isFlatStructure(String id) {
@@ -196,7 +197,7 @@ public class TestConditions {
     }
 
     public static boolean isSafeStructureType(String id) {
-        return DefaultStructureFixes.safeStructureType.indexOf(id) > 0;
+        return DefaultFlags.safeStructureType.indexOf(id) > 0;
     }
 
     public static boolean isUndergroundStructure(String id) {
@@ -222,13 +223,13 @@ public class TestConditions {
     public static boolean isBiomeLoaded(String id) {
         //ProjectEvergreen.LOGGER.info("Checking loaded biomes... " + Constants.loadedBiomes.values().size());
 
-        return Constants.loadedBiomes.stream().anyMatch(id::equals);
+        return WorldgenDataManager.loadedBiomes.stream().anyMatch(id::equals);
     }
 
     public static boolean isStructureLoaded(String id) {
         //ProjectEvergreen.LOGGER.info("Checking loaded structures... " + Constants.loadedStructures.values().size());
 
-        return Constants.loadedStructures.stream().anyMatch(id::equals);
+        return WorldgenDataManager.loadedStructures.stream().anyMatch(id::equals);
     }
 
     public static boolean isIgnored(String id) {

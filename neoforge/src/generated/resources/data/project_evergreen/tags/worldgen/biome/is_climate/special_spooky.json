@@ -1,0 +1,60 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:grim_woods",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:twilight_wetlands",
+      "required": false
+    },
+    {
+      "id": "minecraft:pale_garden",
+      "required": false
+    },
+    {
+      "id": "nyctophobia:ancient_dead_coral_reef",
+      "required": false
+    },
+    {
+      "id": "nyctophobia:deep_dark_forest",
+      "required": false
+    },
+    {
+      "id": "nyctophobia:eroded_haunted_forest",
+      "required": false
+    },
+    {
+      "id": "nyctophobia:haunted_forest",
+      "required": false
+    },
+    {
+      "id": "nyctophobia:haunted_lakes",
+      "required": false
+    },
+    {
+      "id": "sleepy_hollows:sleepy_hollows",
+      "required": false
+    },
+    {
+      "id": "wythers:tangled_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:forbidden_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:phantasmal_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:phantasmal_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:wistman_woods",
+      "required": false
+    }
+  ]
+}

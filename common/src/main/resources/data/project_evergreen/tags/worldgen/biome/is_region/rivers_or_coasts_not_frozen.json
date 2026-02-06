@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#project_evergreen:river_temperate",
-    "#project_evergreen:river_warm",
-    "#project_evergreen:coastal_temperate",
-    "#project_evergreen:coastal_warm"
-  ]
-}

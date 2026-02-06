@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "born_in_chaos_v1:clown_caravan_plains",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:clown_caravan_savanna",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:infernal_pumpkin",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_birch_graveyard",
+      "required": false
+    },
+    {
+      "id": "structory:dense_forest_ruin",
+      "required": false
+    }
+  ]
+}

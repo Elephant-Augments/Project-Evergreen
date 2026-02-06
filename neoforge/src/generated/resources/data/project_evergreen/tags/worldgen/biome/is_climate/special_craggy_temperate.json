@@ -1,0 +1,108 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:moor",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:highlands",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:wooded_slopes",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:spruce_slopes",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:calcite_plateau",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:thermal_springs",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:boskage",
+      "required": false
+    },
+    {
+      "id": "minecraft:windswept_hills",
+      "required": false
+    },
+    {
+      "id": "minecraft:windswept_forest",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:alpine_highlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:windswept_sugi_forest",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:white_cliffs",
+      "required": false
+    },
+    {
+      "id": "terralith:basalt_cliffs",
+      "required": false
+    },
+    {
+      "id": "terralith:granite_cliffs",
+      "required": false
+    },
+    {
+      "id": "terralith:white_cliffs",
+      "required": false
+    },
+    {
+      "id": "terralith:yosemite_cliffs",
+      "required": false
+    },
+    {
+      "id": "wythers:andesite_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:aspen_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:calcite_coast",
+      "required": false
+    },
+    {
+      "id": "wythers:granite_canyon",
+      "required": false
+    },
+    {
+      "id": "wythers:old_growth_taiga_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:temperate_rainforest_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:taiga_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:stony_canyon",
+      "required": false
+    },
+    {
+      "id": "wythers:thermal_taiga_crags",
+      "required": false
+    }
+  ]
+}

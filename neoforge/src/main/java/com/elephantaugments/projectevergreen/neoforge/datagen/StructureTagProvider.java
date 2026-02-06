@@ -1,9 +1,8 @@
 package com.elephantaugments.projectevergreen.neoforge.datagen;
 
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
-import com.elephantaugments.projectevergreen.common.data.WorldgenDataManager;
-import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureRarity;
-import com.elephantaugments.projectevergreen.common.util.PETags;
+import com.elephantaugments.projectevergreen.common.api.*;
+import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.StructureTagsProvider;
@@ -16,22 +15,23 @@ import org.jetbrains.annotations.Nullable;
 import java.text.Collator;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 
 public class StructureTagProvider extends StructureTagsProvider {
 
     Collator collator = Collator.getInstance();
     public static Map<Integer, TagKey<Structure>> diffMap = Map.of(
-        1, PETags.Structures.DIFFICULTY_LEVEL_1,
-        2, PETags.Structures.DIFFICULTY_LEVEL_2,
-        3, PETags.Structures.DIFFICULTY_LEVEL_3,
-        4, PETags.Structures.DIFFICULTY_LEVEL_4,
-        5, PETags.Structures.DIFFICULTY_LEVEL_5,
-        6, PETags.Structures.DIFFICULTY_LEVEL_6,
-        7, PETags.Structures.DIFFICULTY_LEVEL_7,
-        8, PETags.Structures.DIFFICULTY_LEVEL_8,
-        9, PETags.Structures.DIFFICULTY_LEVEL_9,
-        10, PETags.Structures.DIFFICULTY_LEVEL_10
+        1, PEStructure.Difficulty.DIFFICULTY_LEVEL_1.tag(),
+        2, PEStructure.Difficulty.DIFFICULTY_LEVEL_2.tag(),
+        3, PEStructure.Difficulty.DIFFICULTY_LEVEL_3.tag(),
+        4, PEStructure.Difficulty.DIFFICULTY_LEVEL_4.tag(),
+        5, PEStructure.Difficulty.DIFFICULTY_LEVEL_5.tag(),
+        6, PEStructure.Difficulty.DIFFICULTY_LEVEL_6.tag(),
+        7, PEStructure.Difficulty.DIFFICULTY_LEVEL_7.tag(),
+        8, PEStructure.Difficulty.DIFFICULTY_LEVEL_8.tag(),
+        9, PEStructure.Difficulty.DIFFICULTY_LEVEL_9.tag(),
+        10, PEStructure.Difficulty.DIFFICULTY_LEVEL_10.tag()
     );
 
     public StructureTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> provider, @Nullable ExistingFileHelper existingFileHelper) {
@@ -40,27 +40,104 @@ public class StructureTagProvider extends StructureTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        setDifficultyTag(0);
-        setDifficultyTag(1);
-        setDifficultyTag(2);
-        setDifficultyTag(3);
-        setDifficultyTag(4);
-        setDifficultyTag(5);
-        setDifficultyTag(6);
-        setDifficultyTag(7);
-        setDifficultyTag(8);
-        setDifficultyTag(9);
-        setDifficultyTag(10);
+        //IS_DIMENSION
+        for (PEDimension dim : PEDimension.values()) {
+            setDimensionTag(dim);
+        }
+        //IS_REGION
+        for (PERegion region : PERegion.values()) {
+            setRegionTag(region);
+        }
+        //IS_RARITY
+        for (PEStructureSet sset : PEStructureSet.values()) {
+            setRarityTag(sset);
+        }
+        //IS_FLAGGED
+        for (PEStructure.Flag flag : PEStructure.Flag.values()) {
+            setFlagTag(flag);
+        }
+        //IS_DIFFICULTY
+        for (int i = 0; i <= 10; i++) {
+            setDifficultyTag(i);
+        }
+    }
+
+    private void setDimensionTag(PEDimension dimension) {
+        Optional.ofNullable(dimension.structureTag()).ifPresent(
+            (tag) -> {
+                if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
+                    ProjectEvergreen.LOGGER.info("Populating structure dimension tag... " + tag.location());
+                }
+                List<ResourceLocation> regional_structures = dimension.defaultStructures().stream()
+                        .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
+                        .map(ResourceLocation::parse)
+                        .toList();
+                regional_structures.forEach(s -> {
+                    tag(tag).addOptional(s);
+                });
+            }
+        );
+    }
+
+    private void setRegionTag(PERegion region) {
+        Optional.ofNullable(region.structureTag()).ifPresent(
+            (tag) -> {
+                if (PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
+                    ProjectEvergreen.LOGGER.info("Populating structure region tag... " + tag.location());
+                }
+                List<ResourceLocation> structures = region.defaultStructures().stream()
+                        .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
+                        .map(ResourceLocation::parse)
+                        .toList();
+                structures.forEach(s -> {
+                    tag(tag).addOptional(s);
+                });
+            }
+        );
+    }
+
+    private void setRarityTag(PEStructureSet sset) {
+        Optional.ofNullable(sset.structureTag()).ifPresent(
+            (tag) -> {
+                if (PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
+                    ProjectEvergreen.LOGGER.info("Populating structure rarity tag... " + tag.location());
+                }
+                List<ResourceLocation> structures = sset.defaultStructures().stream()
+                        .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
+                        .map(ResourceLocation::parse)
+                        .toList();
+                structures.forEach(s -> {
+                    tag(tag).addOptional(s);
+                });
+            }
+        );
+    }
+
+    private void setFlagTag(PEStructure.Flag flag) {
+        Optional.ofNullable(flag.tag()).ifPresent(
+            (tag) -> {
+                if (PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
+                    ProjectEvergreen.LOGGER.info("Populating structure flag tag... " + tag.location());
+                }
+                List<ResourceLocation> structures = flag.defaultIDs().stream()
+                        .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
+                        .map(ResourceLocation::parse)
+                        .toList();
+                structures.forEach(s -> {
+                    tag(tag).addOptional(s);
+                });
+            }
+        );
     }
 
     private void setDifficultyTag(int diffLevel) {
-        List<ResourceLocation> diffStructures = WorldgenDataManager.STRUCTURES_BY_ID.values().stream()
+        List<ResourceLocation> structures = WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
                 .filter(s -> s.difficulty == diffLevel)
                 .sorted((a, b) -> collator.compare(a.id.split(":")[0], b.id.split(":")[0]))
                 .map(s -> ResourceLocation.parse(s.id))
                 .toList();
-        TagKey<Structure> tag = diffMap.get(diffLevel) != null ? diffMap.get(diffLevel) : PETags.Structures.DIFFICULTY_LEVEL_0;
-        diffStructures.forEach(s -> {
+        TagKey<Structure> tag = diffMap.get(diffLevel) != null ? diffMap.get(diffLevel) : PEStructure.Difficulty.DIFFICULTY_LEVEL_0.tag();
+        structures.forEach(s -> {
             tag(tag).addOptional(s);
         });
     }

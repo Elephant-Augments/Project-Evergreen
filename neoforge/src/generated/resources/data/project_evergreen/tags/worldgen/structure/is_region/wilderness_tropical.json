@@ -1,0 +1,336 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:temple_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:maya_temple",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_jungle_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:jungle_tree_hole",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:jungle_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_palm_tree_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_palm_tree_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_jungle_tree_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:big_jungle_log",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:mayan_ruins",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:mayan_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:mayan_temple2",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:mayan_temple3",
+      "required": false
+    },
+    {
+      "id": "archaeology_ruins:ruinedjungletemple",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:stalker_wilden_den",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:jungle_settlement",
+      "required": false
+    },
+    {
+      "id": "ati_structures:jungle_grotto",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:temple_jungle",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:fossil_jungle_0",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:fossil_jungle_1",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:light_temple",
+      "required": false
+    },
+    {
+      "id": "betterjungletemples:jungle_temple",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_jungle",
+      "required": false
+    },
+    {
+      "id": "companions:companions_monkey_temple",
+      "required": false
+    },
+    {
+      "id": "dungeonnowloading:temple_of_duality",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:jungle_tree_house",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:abandoned_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:jungle_monument",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:lush_dungeon",
+      "required": false
+    },
+    {
+      "id": "explorify:supply_cache/jungle",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:village",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:protector",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:pyramid",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:ancient_statue",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:big_melon",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:lost_explorer",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_double",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_giant",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_old",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_spline",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_stump",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:small_temple",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:large_temple",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:mesoamerican_temple",
+      "required": false
+    },
+    {
+      "id": "iceandfire:gorgon_temple",
+      "required": false
+    },
+    {
+      "id": "idas:witches_treestump",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:labyrinth",
+      "required": false
+    },
+    {
+      "id": "imst:el_dorado",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:mossy_temple",
+      "required": false
+    },
+    {
+      "id": "minecraft:jungle_pyramid",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_jungle",
+      "required": false
+    },
+    {
+      "id": "mostructures:jungle_pyramid",
+      "required": false
+    },
+    {
+      "id": "mtr:jungle_temple",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/jungle_palm_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/jungle_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/jungle",
+      "required": false
+    },
+    {
+      "id": "mvs:well/rare_well",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_palm_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_tower",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_bee",
+      "required": false
+    },
+    {
+      "id": "mvs:rare_well",
+      "required": false
+    },
+    {
+      "id": "nova_structures:jungle_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:ancient_crypt",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:ruins_land_warm",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:fortress_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:monument_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_jungle",
+      "required": false
+    },
+    {
+      "id": "structory:jungle_ruin",
+      "required": false
+    },
+    {
+      "id": "structory_towers:quarter_outpost",
+      "required": false
+    },
+    {
+      "id": "structory_towers:sacred_relic_temple",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_jungle",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_sparse_jungle",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/orbital",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/tower",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/maya",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lost_foot",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:effigy_patch_jungle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:memorial_of_tonkis",
+      "required": false
+    }
+  ]
+}

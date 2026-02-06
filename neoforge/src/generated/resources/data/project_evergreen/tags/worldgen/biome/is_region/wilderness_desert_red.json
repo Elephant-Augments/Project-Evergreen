@@ -1,0 +1,244 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:bone_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bone_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:red_sandstone_totem_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:red_sandstone_totem_2",
+      "required": false
+    },
+    {
+      "id": "archaeology_ruins:adoberuins",
+      "required": false
+    },
+    {
+      "id": "ba_bt:sandy_land_battle_tower",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:mesa_ruins",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_mesa",
+      "required": false
+    },
+    {
+      "id": "biomemakeover:ghost_town",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_2_dling",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:badlandslostwell",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:ceryneian_hind",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bandit_towers",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:mining_complex",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:reanimated_ruins_mesa",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:scorched_tomb",
+      "required": false
+    },
+    {
+      "id": "explorify:badlands_pyramid",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:redrock",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:rex_camp",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:bones_tree",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_hand",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_dragon",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_fang",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:small_rex_camp",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:small_coal_rex_camp",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:firecaller_hut",
+      "required": false
+    },
+    {
+      "id": "minecraft:mineshaft_mesa",
+      "required": false
+    },
+    {
+      "id": "nova_structures:badlands_miner_outpost",
+      "required": false
+    },
+    {
+      "id": "philipsruins:badlands_start_dungeon",
+      "required": false
+    },
+    {
+      "id": "philipsruins:badlands_structures",
+      "required": false
+    },
+    {
+      "id": "piglet_structures:badlands_giant_tree",
+      "required": false
+    },
+    {
+      "id": "piglet_structures:badlands_pillager_barrel_outpost",
+      "required": false
+    },
+    {
+      "id": "piglet_structures:badlands_ruins",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_badlands",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_badlands",
+      "required": false
+    },
+    {
+      "id": "species:paleontology_dig_site",
+      "required": false
+    },
+    {
+      "id": "sweety_archaeology:prehistoric_remains_site",
+      "required": false
+    },
+    {
+      "id": "threateningly_mobs:dracoscorpius_nest",
+      "required": false
+    },
+    {
+      "id": "totw_modded:badlands",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_wooded_badlands",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_badlands",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/railroad",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/bone_dragon",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/archeology/fossil/croc",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/archeology/fossil/head",
+      "required": false
+    },
+    {
+      "id": "u_desert:badlands/ambient/termite_mound",
+      "required": false
+    },
+    {
+      "id": "u_desert:badlands/ambient/skeleton/rib",
+      "required": false
+    },
+    {
+      "id": "u_desert:badlands/ambient/skeleton/spine",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/archeology/fossil/skull/triceratops",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/archeology/fossil/skull/tyrannosaurus",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/archeology/ruin/pit",
+      "required": false
+    },
+    {
+      "id": "u_desert:badlands/ambient/geyser",
+      "required": false
+    },
+    {
+      "id": "u_desert:geyser",
+      "required": false
+    },
+    {
+      "id": "u_desert:skeleton/croc",
+      "required": false
+    },
+    {
+      "id": "u_desert:skeleton/head",
+      "required": false
+    },
+    {
+      "id": "u_desert:skeleton/rib",
+      "required": false
+    },
+    {
+      "id": "unusual_prehistory:tar_pit",
+      "required": false
+    },
+    {
+      "id": "vintagevibes:badlands_ruins",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:howlers_garrison",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:muddy_badlands_well",
+      "required": false
+    }
+  ]
+}

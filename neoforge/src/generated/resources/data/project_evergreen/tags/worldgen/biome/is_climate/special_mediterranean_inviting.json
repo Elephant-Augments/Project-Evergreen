@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "natures_spirit:cypress_fields",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:lavender_fields",
+      "required": false
+    },
+    {
+      "id": "windswept:flowering_savanna",
+      "required": false
+    },
+    {
+      "id": "wythers:mediterranean_island",
+      "required": false
+    }
+  ]
+}

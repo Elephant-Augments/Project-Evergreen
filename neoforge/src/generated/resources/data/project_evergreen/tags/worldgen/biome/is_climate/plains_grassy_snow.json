@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:fall_snowy_grove",
+      "required": false
+    },
+    {
+      "id": "minecraft:snowy_plains",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:tundra",
+      "required": false
+    },
+    {
+      "id": "terralith:mountain_steppe",
+      "required": false
+    },
+    {
+      "id": "wythers:tundra",
+      "required": false
+    }
+  ]
+}

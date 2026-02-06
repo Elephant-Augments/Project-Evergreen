@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:ice_abyss",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:ice_grove",
+      "required": false
+    },
+    {
+      "id": "minecraft:ice_spikes",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:spires",
+      "required": false
+    },
+    {
+      "id": "terralith:glacial_chasm",
+      "required": false
+    },
+    {
+      "id": "terralith:snowy_badlands",
+      "required": false
+    },
+    {
+      "id": "wythers:glacial_cliffs",
+      "required": false
+    },
+    {
+      "id": "wythers:icy_volcano",
+      "required": false
+    },
+    {
+      "id": "wythers:icy_crags",
+      "required": false
+    }
+  ]
+}

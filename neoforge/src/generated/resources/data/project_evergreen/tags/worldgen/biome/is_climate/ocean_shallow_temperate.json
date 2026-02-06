@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "minecraft:ocean",
+      "required": false
+    },
+    {
+      "id": "minecraft:cold_ocean",
+      "required": false
+    }
+  ]
+}

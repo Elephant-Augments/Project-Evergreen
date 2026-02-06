@@ -1,0 +1,268 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:oasis_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:oasis_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:desert_pillars_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:desert_pillars_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_rock_3",
+      "required": false
+    },
+    {
+      "id": "ati_structures:mosque",
+      "required": false
+    },
+    {
+      "id": "beautify:botanist_house_desert",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:archeologist_camp_redsand",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:archeologist_camp_sand",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_desert",
+      "required": false
+    },
+    {
+      "id": "create_ltab:sand_house",
+      "required": false
+    },
+    {
+      "id": "custom:npc_spawn_desert",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:sphynx",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:oasis_big",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:oasis_small",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:old_house",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:old_tower",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:old_village",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:desert_houses",
+      "required": false
+    },
+    {
+      "id": "humancompanions:terracotta_house",
+      "required": false
+    },
+    {
+      "id": "humancompanions:sandstone_house",
+      "required": false
+    },
+    {
+      "id": "idas:bazaar",
+      "required": false
+    },
+    {
+      "id": "idas:desert_camp/desert_camp",
+      "required": false
+    },
+    {
+      "id": "idas:desert_camp/desert_camp_red",
+      "required": false
+    },
+    {
+      "id": "idas:desert_camp/desert_camp_orange",
+      "required": false
+    },
+    {
+      "id": "idas:desert_market/desert_market",
+      "required": false
+    },
+    {
+      "id": "idas:desert_market/desert_market_red",
+      "required": false
+    },
+    {
+      "id": "idas:desert_market/desert_market_orange",
+      "required": false
+    },
+    {
+      "id": "idas:dig_site/dig_site_desert",
+      "required": false
+    },
+    {
+      "id": "imst:cactus_farm",
+      "required": false
+    },
+    {
+      "id": "imst:desert_well",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:oasis_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:kutcha_village",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:desert_dungeon",
+      "required": false
+    },
+    {
+      "id": "minecraft:village_desert",
+      "required": false
+    },
+    {
+      "id": "more_critters:collector_wagon_desert",
+      "required": false
+    },
+    {
+      "id": "more_critters:abandoned_bunbug_farm",
+      "required": false
+    },
+    {
+      "id": "mostructures:sphinx",
+      "required": false
+    },
+    {
+      "id": "mostructures:desert_abandoned_church",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/desert_house",
+      "required": false
+    },
+    {
+      "id": "mvs:well/small_copper_well",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/desert_pump",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/desert_well",
+      "required": false
+    },
+    {
+      "id": "mvs:desert_house",
+      "required": false
+    },
+    {
+      "id": "mvs:small_copper_well",
+      "required": false
+    },
+    {
+      "id": "mvs:desert_pump",
+      "required": false
+    },
+    {
+      "id": "mvs:desert_well",
+      "required": false
+    },
+    {
+      "id": "nova_structures:tavern_desert",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_badlands",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:ruins_land_hot",
+      "required": false
+    },
+    {
+      "id": "structory_towers:mirage_outpost",
+      "required": false
+    },
+    {
+      "id": "terralith:fortified_desert_village",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_wandering_trader_camp",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/buried_village",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/desert_ranch",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/oasis",
+      "required": false
+    },
+    {
+      "id": "trek:village/desert",
+      "required": false
+    },
+    {
+      "id": "u_desert:oasis",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/archeology/ruin/well",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/ambient/cactus/fork",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/ambient/cactus/patch",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/ambient/oasis/dried_up",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/ambient/oasis/lively",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:concrete_mill_ruins_desert",
+      "required": false
+    }
+  ]
+}

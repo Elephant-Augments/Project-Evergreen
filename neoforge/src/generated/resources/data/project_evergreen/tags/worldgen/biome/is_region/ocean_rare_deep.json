@@ -1,0 +1,64 @@
+{
+  "values": [
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    }
+  ]
+}

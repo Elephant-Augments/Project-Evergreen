@@ -1,0 +1,388 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:bush_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bush_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bush_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bush_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_spruce_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_oak_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_jungle_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_acacia_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:spruce_log_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:spruce_log_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:oak_log_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:oak_log_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:jungle_tree_hole",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:jungle_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_spruce_tree_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_spruce_tree_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_palm_tree_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_palm_tree_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_oak_tree_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_oak_tree_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_jungle_tree_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_dead_tree_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_dead_tree_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_dead_tree_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_spruce_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_oak_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_dark_oak_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_jungle_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_acacia_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:birch_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:big_jungle_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:acacia_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:snow_pile_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:snow_pile_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:snow_pile_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:scarecrow",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:wall_ruin_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:wall_ruin_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:damaged_mushroom_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:damaged_mushroom_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bone_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bone_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:skeleton_skull",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "mvs:boulder",
+      "required": false
+    },
+    {
+      "id": "mvs:acacia_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:birch_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_palm_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:spruce_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:acacia",
+      "required": false
+    },
+    {
+      "id": "mvs:birch",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle",
+      "required": false
+    },
+    {
+      "id": "mvs:oak",
+      "required": false
+    },
+    {
+      "id": "mvs:spruce",
+      "required": false
+    },
+    {
+      "id": "mvs:mangrove",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/boulder",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/acacia_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/birch_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/jungle_palm_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/jungle_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/spruce_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/acacia",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/birch",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/jungle",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/oak",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/spruce",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/mangrove",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:mushroom_pond",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/mushroom_pond",
+      "required": false
+    },
+    {
+      "id": "mvs:small_dark_oak_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_jungle_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_mangrove_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_dark_oak_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_mangrove_lantern",
+      "required": false
+    },
+    {
+      "id": "philipsruins:field_stone_ruins_rocks",
+      "required": false
+    },
+    {
+      "id": "philipsruins:field_stone_ruins",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_common/rocks",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:moss_blob",
+      "required": false
+    }
+  ]
+}

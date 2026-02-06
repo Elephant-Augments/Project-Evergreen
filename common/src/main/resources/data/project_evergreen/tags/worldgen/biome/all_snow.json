@@ -1,9 +1,0 @@
-{
-    "replace": true,
-    "values": [
-        "#project_evergreen:coastal_frozen",
-        "#project_evergreen:all_plains_snow",
-        "#project_evergreen:all_forest_snow",
-        "#project_evergreen:mountains_cold"
-    ]
-}

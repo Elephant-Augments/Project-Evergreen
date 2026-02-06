@@ -1,0 +1,48 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:scarecrow",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:farm",
+      "required": false
+    },
+    {
+      "id": "explorify:mausoleum",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:graveyard",
+      "required": false
+    },
+    {
+      "id": "idas:abandonedhouse",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:farm",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/pile",
+      "required": false
+    },
+    {
+      "id": "mvs:pile",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:wheat_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:pumpkin_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:pumpkin_field",
+      "required": false
+    }
+  ]
+}

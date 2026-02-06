@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:poplar_slopes",
+      "required": false
+    },
+    {
+      "id": "minecraft:grove",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:arid_mountains",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_slopes",
+      "required": false
+    },
+    {
+      "id": "terralith:jungle_mountains",
+      "required": false
+    },
+    {
+      "id": "terralith:mountain_steppe",
+      "required": false
+    },
+    {
+      "id": "terralith:savanna_slopes",
+      "required": false
+    },
+    {
+      "id": "terralith:alpine_grove",
+      "required": false
+    },
+    {
+      "id": "wythers:maple_mountains",
+      "required": false
+    }
+  ]
+}

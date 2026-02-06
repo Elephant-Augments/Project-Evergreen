@@ -1,0 +1,376 @@
+{
+  "values": [
+    {
+      "id": "ars_additions:nexus_tower",
+      "required": false
+    },
+    {
+      "id": "ars_additions:arcane_library",
+      "required": false
+    },
+    {
+      "id": "ars_additions:ruined_portal",
+      "required": false
+    },
+    {
+      "id": "ars_additions:ruined_portal_large",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:starbuncle_shrine",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dark_keep",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dark_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:gnome_hut",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_tower_plain",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:tainted_crossroads",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:taintedobsidianhouse",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:taintedobsidianonland",
+      "required": false
+    },
+    {
+      "id": "companions:companions_teddytower",
+      "required": false
+    },
+    {
+      "id": "create_ltab:dark_forest_house",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:monster_maze",
+      "required": false
+    },
+    {
+      "id": "eugene:witch_wagon",
+      "required": false
+    },
+    {
+      "id": "explorify:supply_cache/dark",
+      "required": false
+    },
+    {
+      "id": "explorify:dark_forest_settlement",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:witch_tower",
+      "required": false
+    },
+    {
+      "id": "goety:black_assembly",
+      "required": false
+    },
+    {
+      "id": "hexerei:owl_post_office",
+      "required": false
+    },
+    {
+      "id": "idas:ars_nouveau/archmages_tower",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:sorcerer_hut",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:arcane_abode",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:ancient_archwood_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:dark_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:witch_circle",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:magic_tower",
+      "required": false
+    },
+    {
+      "id": "mostructures:killer_bunny_castle",
+      "required": false
+    },
+    {
+      "id": "mostructures:the_castle_in_the_sky",
+      "required": false
+    },
+    {
+      "id": "mss:birch_river",
+      "required": false
+    },
+    {
+      "id": "mss:calcite_house",
+      "required": false
+    },
+    {
+      "id": "mss:castle_ruin",
+      "required": false
+    },
+    {
+      "id": "mss:castle_tower",
+      "required": false
+    },
+    {
+      "id": "mss:cherry_river",
+      "required": false
+    },
+    {
+      "id": "mss:diorite_house",
+      "required": false
+    },
+    {
+      "id": "mss:frozen_pond",
+      "required": false
+    },
+    {
+      "id": "mss:jungle",
+      "required": false
+    },
+    {
+      "id": "mss:large_tower",
+      "required": false
+    },
+    {
+      "id": "mss:leaf_hollow",
+      "required": false
+    },
+    {
+      "id": "mss:mangrove",
+      "required": false
+    },
+    {
+      "id": "mss:mushroom",
+      "required": false
+    },
+    {
+      "id": "mss:nether_portal",
+      "required": false
+    },
+    {
+      "id": "mss:palm_island",
+      "required": false
+    },
+    {
+      "id": "mss:muddy_water_hole",
+      "required": false
+    },
+    {
+      "id": "mss:small_deepslate_house",
+      "required": false
+    },
+    {
+      "id": "mss:small_oak_house",
+      "required": false
+    },
+    {
+      "id": "mss:small_pond",
+      "required": false
+    },
+    {
+      "id": "mss:small_tower",
+      "required": false
+    },
+    {
+      "id": "mss:spruce_huts",
+      "required": false
+    },
+    {
+      "id": "mss:taiga",
+      "required": false
+    },
+    {
+      "id": "mss:tree_1",
+      "required": false
+    },
+    {
+      "id": "mss:tree_2",
+      "required": false
+    },
+    {
+      "id": "mss:tree_3",
+      "required": false
+    },
+    {
+      "id": "mss:tree_4",
+      "required": false
+    },
+    {
+      "id": "mss:tree_5",
+      "required": false
+    },
+    {
+      "id": "mss:tree_6",
+      "required": false
+    },
+    {
+      "id": "mss:tree_7",
+      "required": false
+    },
+    {
+      "id": "mss:tree_8",
+      "required": false
+    },
+    {
+      "id": "mss:white_house",
+      "required": false
+    },
+    {
+      "id": "mss:arena",
+      "required": false
+    },
+    {
+      "id": "mvs:warped_house",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/floating_islands",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/dark_oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/large_warped_tower",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/warped_house",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/lecturn_garden",
+      "required": false
+    },
+    {
+      "id": "mvs:lecturn_garden",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/crimson_enchanting_table",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/duck",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/large_floating_island",
+      "required": false
+    },
+    {
+      "id": "mvs:large_floating_island",
+      "required": false
+    },
+    {
+      "id": "mvs:floating_islands",
+      "required": false
+    },
+    {
+      "id": "mvs:dark_oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:large_warped_tower",
+      "required": false
+    },
+    {
+      "id": "mvs:crimson_enchanting_table",
+      "required": false
+    },
+    {
+      "id": "mvs:crystal",
+      "required": false
+    },
+    {
+      "id": "mvs:duck",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_dark_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:witch_hut_dark_forest",
+      "required": false
+    },
+    {
+      "id": "structory_towers:wizard_tower",
+      "required": false
+    },
+    {
+      "id": "terramity:court_of_gnomes",
+      "required": false
+    },
+    {
+      "id": "terramity:fairy_fountain",
+      "required": false
+    },
+    {
+      "id": "terramity:prismatic_pond",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/ritual",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/common/strange_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/sorcerers_house",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/explorer_cabin",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/witch_tower",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/common/elven_pillars",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/portal_sword",
+      "required": false
+    },
+    {
+      "id": "verdantvibes:fairy_circle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:dark_witch_keep",
+      "required": false
+    }
+  ]
+}

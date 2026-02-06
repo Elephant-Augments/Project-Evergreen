@@ -1,0 +1,56 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:autumnal_wood",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:ruby_maple_forest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:seasonal_grove",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:maple_woodlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:aspen_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:autumnal_maple_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:silver_birch_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_copper_beech_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_emerald_beech_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_golden_beech_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_birch_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_flower_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_forest",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    }
+  ]
+}

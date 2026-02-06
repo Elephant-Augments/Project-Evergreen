@@ -1,0 +1,84 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:weeping_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:old_growth_swampland",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:morass",
+      "required": false
+    },
+    {
+      "id": "hexerei:willow_swamp",
+      "required": false
+    },
+    {
+      "id": "minecraft:swamp",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:marsh",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:fungal_fen",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:fen",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:marsh",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_mossy_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_oak_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:berry_bog",
+      "required": false
+    },
+    {
+      "id": "wythers:billabong",
+      "required": false
+    },
+    {
+      "id": "wythers:birch_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:fen",
+      "required": false
+    },
+    {
+      "id": "wythers:flooded_temperate_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:marsh",
+      "required": false
+    },
+    {
+      "id": "wythers:waterlily_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:old_growth_taiga_swamp",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "values": [
+    {
+      "id": "betterarcheology:catacombs",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:lich_tower",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:gauntlet_arena",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursed_pyramid",
+      "required": false
+    },
+    {
+      "id": "cataclysm:frosted_prison",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:thornborn_towers",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:desert_hall",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:shiraz_palace",
+      "required": false
+    },
+    {
+      "id": "idas:collectors_museum",
+      "required": false
+    },
+    {
+      "id": "idas:tinkers_citadel",
+      "required": false
+    },
+    {
+      "id": "idas:bazaar",
+      "required": false
+    },
+    {
+      "id": "letsdoaddon-structures:illager_mine",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_birch",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_desert",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_mangrove",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_oak",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_savanna",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_snowy",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_taiga",
+      "required": false
+    },
+    {
+      "id": "takesapillage:bastille",
+      "required": false
+    }
+  ]
+}

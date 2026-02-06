@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "id": "minecraft:stony_shore",
+      "required": false
+    },
+    {
+      "id": "minecraft:windswept_gravelly_hills",
+      "required": false
+    },
+    {
+      "id": "terralith:windswept_spires",
+      "required": false
+    },
+    {
+      "id": "terralith:stony_spires",
+      "required": false
+    },
+    {
+      "id": "terralith:gravel_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:stony_canyon",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "replace",
+      "path": "/argument/argument1/xz_scale",
+      "value": 2.0
+    },
+    {
+      "op": "replace",
+      "path": "/argument/argument2/argument1/xz_scale",
+      "value": 1.75
+    }
+  ]
+]

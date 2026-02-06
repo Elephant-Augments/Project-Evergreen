@@ -12,7 +12,7 @@ import net.neoforged.neoforge.common.ModConfigSpec;
 import java.util.ArrayList;
 import java.util.List;
 
-@EventBusSubscriber(modid = ProjectEvergreen.MODID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = ProjectEvergreen.MODID)
 public class ProjectEvergreenConfig {
 
     public static ModConfigSpec COMMON_CONFIG;
@@ -238,13 +238,13 @@ public class ProjectEvergreenConfig {
             ignoreStructureType = getConfigList(DefaultBlacklist.ignoreStructureType, IGNORE_STRUCTURE_TYPE.get());
             ignoreBiomeRedistribution = getConfigList(DefaultBlacklist.ignoreBiomeRedistribution, IGNORE_BIOME_REDISTRIBUTION.get());
             ignoreFlatnessCheck = getConfigList(DefaultBlacklist.ignoreFlatnessCheck, IGNORE_FLATNESS_CHECK.get());
-            flatnessCheckSprawling = getConfigList(DefaultStructureFixes.flatnessCheckSprawling, FLATNESS_CHECK_SPRAWLING.get());
+            flatnessCheckSprawling = getConfigList(DefaultFlags.flatnessCheckSprawling, FLATNESS_CHECK_SPRAWLING.get());
             allowedTerrainHeightSprawling = ALLOWED_TERRAIN_HEIGHT_SPRAWLING.get();
-            flatnessCheckWide = getConfigList(DefaultStructureFixes.flatnessCheckWide, FLATNESS_CHECK_WIDE.get());
+            flatnessCheckWide = getConfigList(DefaultFlags.flatnessCheckLarge, FLATNESS_CHECK_WIDE.get());
             allowedTerrainHeightWide = ALLOWED_TERRAIN_HEIGHT_WIDE.get();
-            flatnessCheckNarrow = getConfigList(DefaultStructureFixes.flatnessCheckNarrow, FLATNESS_CHECK_NARROW.get());
+            flatnessCheckNarrow = getConfigList(DefaultFlags.flatnessCheckMedium, FLATNESS_CHECK_NARROW.get());
             allowedTerrainHeightNarrow = ALLOWED_TERRAIN_HEIGHT_NARROW.get();
-            addTerrainAdaptation = getConfigList(DefaultStructureFixes.addTerrainAdaptation, ADD_TERRAIN_ADAPTATION.get());
+            addTerrainAdaptation = getConfigList(DefaultFlags.adjustedTerrainAdaptation, ADD_TERRAIN_ADAPTATION.get());
             structuresByFix = parseStructureFixes();
 
             structureRarityRedistribution = STRUCTURE_RARITY_REDISTRIBUTION.get();
@@ -303,11 +303,11 @@ public class ProjectEvergreenConfig {
             wildernessSpecialAutumnal = getConfigList(DefaultStructureRegions.wildernessSpecialAutumnal, WILDERNESS_SPECIAL_AUTUMNAL.get());
             wildernessSpecialCoastal = getConfigList(DefaultStructureRegions.wildernessSpecialCoastal, WILDERNESS_SPECIAL_COASTAL.get());
             wildernessSpecialOriental = getConfigList(DefaultStructureRegions.wildernessSpecialOriental, WILDERNESS_SPECIAL_ORIENTAL.get());
-            specialBarren = getConfigList(DefaultStructureRegions.specialBarren, SPECIAL_BARREN.get());
+            specialBarren = getConfigList(DefaultStructureRegions.specialRocky, SPECIAL_BARREN.get());
             specialCraggy = getConfigList(DefaultStructureRegions.specialCraggy, SPECIAL_CRAGGY.get());
             specialIcy = getConfigList(DefaultStructureRegions.specialIcy, SPECIAL_ICY.get());
             specialMagical = getConfigList(DefaultStructureRegions.specialMagical, SPECIAL_MAGICAL.get());
-            specialMediterranean = getConfigList(DefaultStructureRegions.specialMediterranean, SPECIAL_MEDITERRANEAN.get());
+            specialMediterranean = getConfigList(DefaultStructureRegions.wildernessSpecialMediterranean, SPECIAL_MEDITERRANEAN.get());
             specialMountainousCold = getConfigList(DefaultStructureRegions.specialMountainousCold, SPECIAL_MOUNTAINOUS_COLD.get());
             specialMountainousHot = getConfigList(DefaultStructureRegions.specialMountainousHot, SPECIAL_MOUNTAINOUS_HOT.get());
             specialRuined = getConfigList(DefaultStructureRegions.specialRuined, SPECIAL_RUINED.get());
@@ -318,7 +318,7 @@ public class ProjectEvergreenConfig {
             oceanRareDeep = getConfigList(DefaultStructureRegions.oceanRareDeep, OCEAN_RARE_DEEP.get());
             oceanRareShallow = getConfigList(DefaultStructureRegions.oceanRareShallow, OCEAN_RARE_SHALLOW.get());
             oceanWarm = getConfigList(DefaultStructureRegions.oceanWarm, OCEAN_WARM.get());
-            oceanWarmDeep = getConfigList(DefaultStructureRegions.oceanWarmDeep, OCEAN_WARM_DEEP.get());
+            oceanWarmDeep = getConfigList(DefaultStructureRegions.oceanDeepWarm, OCEAN_WARM_DEEP.get());
             oceanDeep = getConfigList(DefaultStructureRegions.oceanDeep, OCEAN_DEEP.get());
             oceanShallow = getConfigList(DefaultStructureRegions.oceanShallow, OCEAN_SHALLOW.get());
             oceanFrozen = getConfigList(DefaultStructureRegions.oceanFrozen, OCEAN_FROZEN.get());
@@ -387,27 +387,27 @@ public class ProjectEvergreenConfig {
         FLATNESS_CHECK_NARROW = COMMON_BUILDER
             .comment("# A list of small-medium structures to force-spawn on flat terrain. Use a comma-separated list, newlines accepted.",
              "Only applied if Performance Mode is disabled.")
-            .defineListAllowEmpty(DefaultStructureFixes.FLATNESS_CHECK_NARROW, EMPTY_LIST, () -> "", ProjectEvergreenConfig::validateListItem);
+            .defineListAllowEmpty(DefaultFlags.FLATNESS_CHECK_NARROW, EMPTY_LIST, () -> "", ProjectEvergreenConfig::validateListItem);
         ALLOWED_TERRAIN_HEIGHT_NARROW = COMMON_BUILDER
             .comment("# The average elevation (in blocks) at which flat_narrow structures can be allowed to spawn.\n# (6 = extremely flat, 30 = vanilla parity)")
             .defineInRange(Constants.ALLOWED_TERRAIN_HEIGHT_NARROW, 8, 6, 30);
         FLATNESS_CHECK_WIDE = COMMON_BUILDER
             .comment("# A list of large-massive structures to force-spawn on flat terrain. Use a comma-separated list, newlines accepted.",
              "Only applied if Performance Mode is disabled.")
-            .defineListAllowEmpty(DefaultStructureFixes.FLATNESS_CHECK_WIDE, EMPTY_LIST, () -> "", ProjectEvergreenConfig::validateListItem);
+            .defineListAllowEmpty(DefaultFlags.FLATNESS_CHECK_WIDE, EMPTY_LIST, () -> "", ProjectEvergreenConfig::validateListItem);
         ALLOWED_TERRAIN_HEIGHT_WIDE = COMMON_BUILDER
             .comment("# The average elevation (in blocks) at which flat_wide structures can be allowed to spawn.\n# (8 = extremely flat, 40 = vanilla parity)")
             .defineInRange(Constants.ALLOWED_TERRAIN_HEIGHT_WIDE, 12, 8, 40);
         FLATNESS_CHECK_SPRAWLING = COMMON_BUILDER
             .comment("# A list of sprawling structures (village-sized) to force-spawn on flat terrain. Use a comma-separated list, newlines accepted.",
              "Only applied if Performance Mode is disabled.")
-            .defineListAllowEmpty(DefaultStructureFixes.FLATNESS_CHECK_SPRAWLING, EMPTY_LIST, () -> "", ProjectEvergreenConfig::validateListItem);
+            .defineListAllowEmpty(DefaultFlags.FLATNESS_CHECK_SPRAWLING, EMPTY_LIST, () -> "", ProjectEvergreenConfig::validateListItem);
         ALLOWED_TERRAIN_HEIGHT_SPRAWLING = COMMON_BUILDER
             .comment("# The average elevation (in blocks) at which flat_sprawling structures can be allowed to spawn.\n# (12 = extremely flat, 50 = vanilla parity)")
             .defineInRange(Constants.ALLOWED_TERRAIN_HEIGHT_SPRAWLING, 18, 12, 50);
         ADD_TERRAIN_ADAPTATION = COMMON_BUILDER
             .comment("# Adds terrain padding beneath structure spawns.")
-            .defineListAllowEmpty(DefaultStructureFixes.ADD_TERRAIN_ADAPTATION, EMPTY_LIST, () -> "", ProjectEvergreenConfig::validateListItem);
+            .defineListAllowEmpty(DefaultFlags.ADD_TERRAIN_ADAPTATION, EMPTY_LIST, () -> "", ProjectEvergreenConfig::validateListItem);
         COMMON_BUILDER.pop();
 
 
@@ -750,10 +750,10 @@ public class ProjectEvergreenConfig {
         ignoreStructureType.forEach(s -> structuresByFix.put(DefaultBlacklist.IGNORE_STRUCTURE_TYPE, s));
         ignoreBiomeRedistribution.forEach(s -> structuresByFix.put(DefaultBlacklist.IGNORE_BIOME_REDISTRIBUTION, s));
         ignoreFlatnessCheck.forEach(s -> structuresByFix.put(DefaultBlacklist.IGNORE_FLATNESS_CHECK, s));
-        flatnessCheckNarrow.forEach(s -> structuresByFix.put(DefaultStructureFixes.FLATNESS_CHECK_NARROW, s));
-        flatnessCheckWide.forEach(s -> structuresByFix.put(DefaultStructureFixes.FLATNESS_CHECK_WIDE, s));
-        addTerrainAdaptation.forEach(s -> structuresByFix.put(DefaultStructureFixes.ADD_TERRAIN_ADAPTATION, s));
-        DefaultStructureFixes.safeStructureType.forEach(s -> structuresByFix.put(DefaultStructureFixes.SAFE_STRUCTURE_TYPE, s));
+        flatnessCheckNarrow.forEach(s -> structuresByFix.put(DefaultFlags.FLATNESS_CHECK_NARROW, s));
+        flatnessCheckWide.forEach(s -> structuresByFix.put(DefaultFlags.FLATNESS_CHECK_WIDE, s));
+        addTerrainAdaptation.forEach(s -> structuresByFix.put(DefaultFlags.ADD_TERRAIN_ADAPTATION, s));
+        DefaultFlags.safeStructureType.forEach(s -> structuresByFix.put(DefaultFlags.SAFE_STRUCTURE_TYPE, s));
         return structuresByFix;
     }
 }

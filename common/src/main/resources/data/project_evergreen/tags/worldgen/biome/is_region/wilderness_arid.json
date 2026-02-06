@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#project_evergreen:plains_shrubby_arid",
-    "#project_evergreen:special_craggy_warm",
-    "#project_evergreen:special_mediterranean_uninviting"
-  ]
-}

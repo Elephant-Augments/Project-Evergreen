@@ -1,0 +1,124 @@
+{
+  "values": [
+    {
+      "id": "formationsoverworld:farmland_field",
+      "required": false
+    },
+    {
+      "id": "mvs:acacia_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:bench",
+      "required": false
+    },
+    {
+      "id": "mvs:birch_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:fire_camp",
+      "required": false
+    },
+    {
+      "id": "mvs:haystack",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:lamp_chest",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_oak_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:oak_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:paths",
+      "required": false
+    },
+    {
+      "id": "mvs:pile",
+      "required": false
+    },
+    {
+      "id": "mvs:small_acacia_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_birch_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_campfire_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_jungle_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_oak_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_spruce_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:spruce_log_pile",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_common/plains",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:beetroot_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:carrot_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:melon_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:potato_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:pumpkin_field",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:pumpkin_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:wheat_patch",
+      "required": false
+    }
+  ]
+}

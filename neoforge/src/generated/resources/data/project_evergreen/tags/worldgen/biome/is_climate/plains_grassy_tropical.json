@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "minecraft:sparse_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:subtropical_grassland",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_grassland",
+      "required": false
+    }
+  ]
+}

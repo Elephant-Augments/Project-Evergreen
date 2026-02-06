@@ -1,0 +1,80 @@
+{
+  "values": [
+    {
+      "id": "minecraft:snowy_slopes",
+      "required": false
+    },
+    {
+      "id": "minecraft:frozen_peaks",
+      "required": false
+    },
+    {
+      "id": "minecraft:jagged_peaks",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:red_peaks",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:snowcapped_red_peaks",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:sleeted_slopes",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mountains",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_slopes",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:icy_heights",
+      "required": false
+    },
+    {
+      "id": "terralith:scarlet_mountains",
+      "required": false
+    },
+    {
+      "id": "terralith:alpine_grove",
+      "required": false
+    },
+    {
+      "id": "terralith:emerald_peaks",
+      "required": false
+    },
+    {
+      "id": "terralith:rocky_mountains",
+      "required": false
+    },
+    {
+      "id": "terralith:mountain_steppe",
+      "required": false
+    },
+    {
+      "id": "terralith:glacial_chasm",
+      "required": false
+    },
+    {
+      "id": "terralith:frozen_cliffs",
+      "required": false
+    },
+    {
+      "id": "wythers:maple_mountains",
+      "required": false
+    },
+    {
+      "id": "wythers:snowy_peaks",
+      "required": false
+    },
+    {
+      "id": "wythers:tibesti_mountains",
+      "required": false
+    }
+  ]
+}

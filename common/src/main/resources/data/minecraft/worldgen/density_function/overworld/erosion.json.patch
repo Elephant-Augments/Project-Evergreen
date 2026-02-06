@@ -1,0 +1,15 @@
+[
+    {
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "larion"
+    },
+    {
+        "op": "replace",
+        "path": "/argument",
+        "value": {
+             "type": "minecraft:cache_2d",
+             "argument": "larion:overworld/erosion"
+        }
+    }
+]

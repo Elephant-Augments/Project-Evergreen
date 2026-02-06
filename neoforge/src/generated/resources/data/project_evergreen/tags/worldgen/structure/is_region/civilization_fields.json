@@ -1,0 +1,256 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:farm_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:farm_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:scarecrow",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:german_farm",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:windmill",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:lone_german_farmer",
+      "required": false
+    },
+    {
+      "id": "bakery:bakery",
+      "required": false
+    },
+    {
+      "id": "bakery:oat_field",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:stonehenge_grassy",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:tumulus_grassy",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:birch_cottage",
+      "required": false
+    },
+    {
+      "id": "create_ltab:birch_structures",
+      "required": false
+    },
+    {
+      "id": "create_rustic_structures:rustic_windmill",
+      "required": false
+    },
+    {
+      "id": "explorify:supply_cache/birch",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:farmland_field",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:small_statue",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:hobbit_hole",
+      "required": false
+    },
+    {
+      "id": "humancompanions:oak_house",
+      "required": false
+    },
+    {
+      "id": "idas:farmhouse",
+      "required": false
+    },
+    {
+      "id": "idas:abandoned_vineyard",
+      "required": false
+    },
+    {
+      "id": "idas:ancient_statue/ancient_statue_plains",
+      "required": false
+    },
+    {
+      "id": "imst:lumberjack/birch_hut",
+      "required": false
+    },
+    {
+      "id": "imst:birch_hut",
+      "required": false
+    },
+    {
+      "id": "imst:yurt",
+      "required": false
+    },
+    {
+      "id": "letsdoaddon-structures:vinery",
+      "required": false
+    },
+    {
+      "id": "meadow:bench",
+      "required": false
+    },
+    {
+      "id": "meadow:chapel",
+      "required": false
+    },
+    {
+      "id": "minecraft:village_plains",
+      "required": false
+    },
+    {
+      "id": "mostructures:barn_house",
+      "required": false
+    },
+    {
+      "id": "mostructures:villager_market",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/medium_oak_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/haystack",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/wheat_grain_bin",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/windmill",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/wooden_wheat_farm",
+      "required": false
+    },
+    {
+      "id": "mvs:cartographer_tower",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/big_oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:big_oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/barn",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_oak_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:haystack",
+      "required": false
+    },
+    {
+      "id": "mvs:wheat_grain_bin",
+      "required": false
+    },
+    {
+      "id": "mvs:windmill",
+      "required": false
+    },
+    {
+      "id": "mvs:wooden_wheat_farm",
+      "required": false
+    },
+    {
+      "id": "mvs:barn",
+      "required": false
+    },
+    {
+      "id": "nova_structures:village_birch",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_ruin_farmer",
+      "required": false
+    },
+    {
+      "id": "nova_structures:well_birch",
+      "required": false
+    },
+    {
+      "id": "nova_structures:tavern_birch",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_birch",
+      "required": false
+    },
+    {
+      "id": "structory_towers:farmer_outpost",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_meadow",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_sunflower_plains",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_classic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_birch_forest",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_rare/farm_island",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/farm",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/birch_fort",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/birch_trade",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/hobbit_hole",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/maison",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_common/plains",
+      "required": false
+    },
+    {
+      "id": "trek:village/plains",
+      "required": false
+    }
+  ]
+}

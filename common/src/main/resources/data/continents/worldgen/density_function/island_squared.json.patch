@@ -1,0 +1,9 @@
+[
+  [
+    {
+      "op": "replace",
+      "path": "/argument2/argument2/argument/argument2/input/argument1/argument/xz_scale",
+      "value": 0.5
+    }
+  ]
+]

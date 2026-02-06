@@ -1,7 +1,7 @@
 package com.elephantaugments.projectevergreen.common.data.defaults;
 
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
-import com.elephantaugments.projectevergreen.common.data.PERegion;
+import com.elephantaugments.projectevergreen.common.api.PERegion_OLD;
 import com.google.common.collect.ImmutableList;
 
 import java.util.LinkedHashMap;
@@ -83,626 +83,420 @@ public class DefaultRegions {
 	public static final String SPECIAL_SWAMPY = "#project_evergreen:is_region/special_swampy";
 	public static final String SPECIAL_SWAMPY_WARM = "#project_evergreen:special_swampy_warm";
 
-	/**
-	 * Instantiates all of PE's custom Region objects and maps them to an easily accessible Multimap.
-	 * @return A Multimap of Region objects mapped by their biome tag set.
-	 */
-	public static LinkedHashMap<String, PERegion> mapRegionsToTags() {
-		LinkedHashMap<String, PERegion> regionsByTag = new LinkedHashMap<>();
-
-		//ALL_UNDERGROUND
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.ALL_UNDERGROUND_LAND,
-			new String[] {
-				"#project_evergreen:has_structures/all_civilization",
-				"#project_evergreen:has_structures/all_wilderness",
-				"#project_evergreen:all_special",
-				"#project_evergreen:all_underground"
-			}
-		));
-
-		//ALL_CIVILIZATION
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.ALL_CIVILIZATION,
-			new String[] {
-				"#project_evergreen:has_structures/civilization_snow",
-				"#project_evergreen:has_structures/civilization_arid",
-				"#project_evergreen:has_structures/civilization_desert",
-				"#project_evergreen:has_structures/civilization_temperate",
-				"#project_evergreen:has_structures/civilization_coniferous",
-				"#project_evergreen:has_structures/civilization_deciduous",
-				"#project_evergreen:has_structures/civilization_fields",
-				"#project_evergreen:has_structures/civilization_tropical",
-				"#project_evergreen:has_structures/civilization_special_autumnal",
-				"#project_evergreen:has_structures/civilization_special_oriental",
-				"#project_evergreen:special_mediterranean_inviting",
-				"#project_evergreen:all_special_flowery"
-			}
-		));
-
-		//CIVILIZATION_TEMPERATE
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.CIVILIZATION_TEMPERATE,
-			new String[] {
-				"#project_evergreen:plains_grassy_temperate",
-				"#project_evergreen:forest_sparse_coniferous",
-				"#project_evergreen:forest_sparse_deciduous",
-				"#project_evergreen:all_special_flowery",
-				"#project_evergreen:special_autumnal_fields",
-				"#project_evergreen:special_mediterranean_inviting"
-			}
-		));
-
-		//CIVILIZATION_ARID
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.CIVILIZATION_ARID,
-			new String[] {
-				"#project_evergreen:plains_grassy_arid",
-				"#project_evergreen:special_mediterranean_inviting"
-			}
-		));
-
-		//CIVILIZATION_DESERT
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.CIVILIZATION_DESERT,
-			new String[] {
-				"#project_evergreen:desert_dunes_alive"
-			}
-		));
-
-		//CIVILIZATION_DESERT_RED
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.CIVILIZATION_DESERT_RED,
-			new String[] {
-				"#project_evergreen:desert_red_alive"
-			}
-		));
-
-		//CIVILIZATION_TROPICAL
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.CIVILIZATION_TROPICAL,
-			new String[] {
-				"#project_evergreen:plains_grassy_tropical",
-				"#project_evergreen:forest_sparse_tropical"
-			}
-		));
-
-		//CIVILIZATION_SNOW
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.CIVILIZATION_SNOW,
-			new String[] {
-				"#project_evergreen:plains_grassy_snow",
-				"#project_evergreen:forest_sparse_coniferous_snow"
-			}
-		));
-
-		//CIVILIZATION_CONIFEROUS
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.CIVILIZATION_CONIFEROUS,
-			new String[] {
-				"#project_evergreen:forest_sparse_coniferous_snow",
-				"#project_evergreen:forest_sparse_coniferous"
-			}
-		));
-
-		//CIVILIZATION_DECIDUOUS
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.CIVILIZATION_DECIDUOUS,
-			new String[] {
-				"#project_evergreen:forest_sparse_deciduous",
-				"#project_evergreen:special_flowery_forest"
-			}
-		));
-
-		//CIVILIZATION_FIELDS
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.CIVILIZATION_FIELDS,
-			new String[] {
-				"#project_evergreen:plains_grassy_temperate",
-				"#project_evergreen:special_flowery_fields",
-				"#project_evergreen:special_autumnal_fields"
-			}
-		));
-
-		//CIVILIZATION_SPECIAL_AUTUMNAL
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.CIVILIZATION_SPECIAL_AUTUMNAL,
-			new String[] {
-				"#project_evergreen:special_autumnal_fields"
-			}
-		));
-
-		//CIVILIZATION_SPECIAL_COASTAL
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.CIVILIZATION_SPECIAL_COASTAL,
-			new String[] {
-				"#project_evergreen:coastal_alive"
-			}
-		));
-
-		//CIVILIZATION_SPECIAL_FLOWERY
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.CIVILIZATION_SPECIAL_FLOWERY,
-			new String[] {
-				"#project_evergreen:special_flowery_fields",
-				"#project_evergreen:special_flowery_forest"
-			}
-		));
-
-		//CIVILIZATION_SPECIAL_ORIENTAL
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.CIVILIZATION_SPECIAL_ORIENTAL,
-			new String[] {
-				"#project_evergreen:special_oriental_inviting"
-			}
-		));
-
-		//ALL_WILDERNESS
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.ALL_WILDERNESS,
-			new String[] {
-				"#project_evergreen:has_structures/wilderness_snow",
-				"#project_evergreen:has_structures/wilderness_arid",
-				"#project_evergreen:has_structures/wilderness_desert",
-				"#project_evergreen:has_structures/wilderness_temperate",
-				"#project_evergreen:has_structures/wilderness_deciduous",
-				"#project_evergreen:has_structures/wilderness_coniferous",
-				"#project_evergreen:has_structures/wilderness_fields",
-				"#project_evergreen:has_structures/wilderness_tropical",
-				"#project_evergreen:has_structures/wilderness_special_autumnal",
-				"#project_evergreen:has_structures/wilderness_special_oriental",
-				"#project_evergreen:special_mediterranean_uninviting",
-				"#project_evergreen:all_special_craggy"
-			}
-		));
-
-		//WILDERNESS_TEMPERATE
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.WILDERNESS_TEMPERATE,
-			new String[] {
-				"#project_evergreen:plains_shrubby_temperate",
-				"#project_evergreen:forest_dense_coniferous",
-				"#project_evergreen:forest_dense_deciduous",
-				"#project_evergreen:special_craggy_temperate",
-				"#project_evergreen:plains_shrubby_arid",
-				"#project_evergreen:special_craggy_warm",
-				"#project_evergreen:special_mediterranean_uninviting"
-			}
-		));
-
-		//WILDERNESS_ARID
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.WILDERNESS_ARID,
-			new String[] {
-				"#project_evergreen:plains_shrubby_arid",
-				"#project_evergreen:special_craggy_warm",
-				"#project_evergreen:special_mediterranean_uninviting"
-			}
-		));
-
-		//WILDERNESS_DESERT
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.WILDERNESS_DESERT,
-			new String[] {
-				"#project_evergreen:desert_dunes_barren"
-			}
-		));
-
-		//WILDERNESS_DESERT_RED
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.WILDERNESS_DESERT_RED,
-			new String[] {
-				"#project_evergreen:desert_red_barren"
-			}
-		));
-
-		//WILDERNESS_TROPICAL
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.WILDERNESS_TROPICAL,
-			new String[] {
-				"#project_evergreen:forest_dense_tropical"
-			}
-		));
-
-		//WILDERNESS_SNOW
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.WILDERNESS_SNOW,
-			new String[] {
-				"#project_evergreen:plains_shrubby_snow",
-				"#project_evergreen:forest_dense_coniferous_snow",
-				"#project_evergreen:special_craggy_cold"
-			}
-		));
-
-		//WILDERNESS_CONIFEROUS
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.WILDERNESS_CONIFEROUS,
-			new String[] {
-				"#project_evergreen:forest_dense_coniferous"
-			}
-		));
-
-		//WILDERNESS_DECIDUOUS
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.WILDERNESS_DECIDUOUS,
-			new String[] {
-				"#project_evergreen:forest_dense_deciduous"
-			}
-		));
-
-		//WILDERNESS_FIELDS
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.WILDERNESS_FIELDS,
-			new String[] {
-				"#project_evergreen:plains_shrubby_snow",
-				"#project_evergreen:plains_shrubby_temperate",
-				"#project_evergreen:plains_shrubby_arid"
-			}
-		));
-
-		//WILDERNESS_SPECIAL_AUTUMNAL
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.WILDERNESS_SPECIAL_AUTUMNAL,
-			new String[] {
-				"#project_evergreen:special_autumnal_forest"
-			}
-		));
-
-		//WILDERNESS_SPECIAL_COASTAL
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.WILDERNESS_SPECIAL_COASTAL,
-			new String[] {
-				"#project_evergreen:coastal_barren"
-			}
-		));
-
-		//WILDERNESS_SPECIAL_ORIENTAL
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.WILDERNESS_SPECIAL_ORIENTAL,
-			new String[] {
-				"#project_evergreen:special_oriental_uninviting"
-			}
-		));
-
-		//SPECIAL_BARREN
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.SPECIAL_BARREN,
-			new String[] {
-				"#project_evergreen:special_ruined",
-				"#project_evergreen:special_rocky"
-			}
-		));
-
-		//SPECIAL_CRAGGY
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.SPECIAL_CRAGGY,
-			new String[] {
-				"#project_evergreen:special_craggy_temperate",
-				"#project_evergreen:special_craggy_warm",
-				"#project_evergreen:special_rocky",
-				"#project_evergreen:mountains_barren"
-			}
-		));
-
-		//SPECIAL_ICY
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.SPECIAL_ICY,
-			new String[] {
-				"#project_evergreen:special_icy"
-			}
-		));
-
-		//SPECIAL_MAGICAL
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.SPECIAL_MAGICAL,
-			new String[] {
-				"#project_evergreen:special_magical"
-			}
-		));
-
-		//SPECIAL_MEDITERRANEAN
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.SPECIAL_MEDITERRANEAN,
-			new String[] {
-				"#project_evergreen:special_mediterranean_uninviting",
-				"#project_evergreen:special_mediterranean_inviting"
-			}
-		));
-
-		//SPECIAL_MOUNTAINOUS_COLD
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.SPECIAL_MOUNTAINOUS_COLD,
-			new String[] {
-				"#project_evergreen:mountains_cold",
-				"#project_evergreen:special_craggy_cold"
-			}
-		));
-
-		//SPECIAL_MOUNTAINOUS_HOT
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.SPECIAL_MOUNTAINOUS_HOT,
-			new String[] {
-				"#project_evergreen:mountains_hot"
-			}
-		));
-
-		//SPECIAL_RUINED
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.SPECIAL_RUINED,
-			new String[] {
-				"#project_evergreen:special_ruined"
-			}
-		));
-
-		//SPECIAL_SHROOMY
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.SPECIAL_SHROOMY,
-			new String[] {
-				"#project_evergreen:special_shroomy"
-			}
-		));
-
-		//SPECIAL_SPOOKY
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.SPECIAL_SPOOKY,
-			new String[] {
-				"#project_evergreen:special_spooky",
-				"#project_evergreen:special_autumnal_forest"
-			}
-		));
-
-		//SPECIAL_SWAMPY
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.SPECIAL_SWAMPY,
-			new String[] {
-				"#project_evergreen:special_swampy_cold",
-				"#project_evergreen:special_swampy_temperate",
-				"#project_evergreen:special_swampy_warm"
-			}
-		));
-
-		//SPECIAL_SWAMPY_WARM
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.SPECIAL_SWAMPY_WARM,
-			new String[] {
-				"#project_evergreen:special_swampy_warm"
-			}
-		));
-
-		//ALL_COASTAL
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.ALL_COASTAL,
-			new String[] {
-				"#project_evergreen:coastal_alive",
-				"#project_evergreen:coastal_barren",
-				"#project_evergreen:coastal_frozen",
-				"#project_evergreen:coastal_temperate",
-				"#project_evergreen:coastal_warm"
-			}
-		));
-
-		//COASTAL_FROZEN
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.COASTAL_FROZEN,
-			new String[] {
+	/*public static final PERegion_OLD noBiomes = ProjectEvergreen.PERegion.NO_BIOMES.initDefault(new String[]{});
+	public static final PERegion_OLD allUndergroundLand = ProjectEvergreen.PERegion.ALL_UNDERGROUND_LAND.initDefault(
+		new String[] {
+			"#project_evergreen:is_region/all_civilization",
+			"#project_evergreen:is_region/all_wilderness",
+			"#project_evergreen:all_special",
+			"#project_evergreen:all_underground"
+		}
+	);
+	public static final PERegion_OLD allOcean = ProjectEvergreen.PERegion.ALL_OCEAN.initDefault(
+		new String[] {
+			"#project_evergreen:is_region/all_ocean_deep",
+			"#project_evergreen:is_region/all_ocean_shallow"
+		}
+	);
+	public static final PERegion_OLD allCoastal = ProjectEvergreen.PERegion.ALL_COASTAL.initDefault(
+		new String[] {
+			"#project_evergreen:coastal_alive",
+			"#project_evergreen:coastal_barren",
+			"#project_evergreen:coastal_frozen",
+			"#project_evergreen:coastal_temperate",
+			"#project_evergreen:coastal_warm"
+		}
+	);
+	public static final PERegion_OLD allRivers = ProjectEvergreen.PERegion.ALL_RIVERS.initDefault(
+		new String[] {
+			"#project_evergreen:river_frozen",
+			"#project_evergreen:river_not_frozen"
+		}
+	);
+	public static final PERegion_OLD allCivilization = ProjectEvergreen.PERegion.ALL_CIVILIZATION.initDefault(
+		new String[] {
+			"#project_evergreen:is_region/civilization_snow",
+			"#project_evergreen:is_region/civilization_arid",
+			"#project_evergreen:is_region/civilization_desert",
+			"#project_evergreen:is_region/civilization_temperate",
+			"#project_evergreen:is_region/civilization_coniferous",
+			"#project_evergreen:is_region/civilization_deciduous",
+			"#project_evergreen:is_region/civilization_fields",
+			"#project_evergreen:is_region/civilization_tropical",
+			"#project_evergreen:is_region/civilization_special_autumnal",
+			"#project_evergreen:is_region/civilization_special_oriental",
+			"#project_evergreen:special_mediterranean_inviting",
+			"#project_evergreen:all_special_flowery"
+		}
+	);
+	public static final PERegion_OLD allWilderness = ProjectEvergreen.PERegion.ALL_WILDERNESS.initDefault(
+		new String[] {
+			"#project_evergreen:is_region/wilderness_snow",
+			"#project_evergreen:is_region/wilderness_arid",
+			"#project_evergreen:is_region/wilderness_desert",
+			"#project_evergreen:is_region/wilderness_temperate",
+			"#project_evergreen:is_region/wilderness_deciduous",
+			"#project_evergreen:is_region/wilderness_coniferous",
+			"#project_evergreen:is_region/wilderness_fields",
+			"#project_evergreen:is_region/wilderness_tropical",
+			"#project_evergreen:is_region/wilderness_special_autumnal",
+			"#project_evergreen:is_region/wilderness_special_oriental",
+			"#project_evergreen:special_mediterranean_uninviting",
+			"#project_evergreen:all_special_craggy"
+		}
+	);
+	public static final PERegion_OLD civilizationTemperate = ProjectEvergreen.PERegion.CIVILIZATION_TEMPERATE.initDefault(
+		new String[] {
+			"#project_evergreen:plains_grassy_temperate",
+			"#project_evergreen:forest_sparse_coniferous",
+			"#project_evergreen:forest_sparse_deciduous",
+			"#project_evergreen:all_special_flowery",
+			"#project_evergreen:special_autumnal_fields",
+			"#project_evergreen:special_mediterranean_inviting"
+		}
+	);
+	public static final PERegion_OLD civilizationFields = ProjectEvergreen.PERegion.CIVILIZATION_FIELDS.initDefault(
+		new String[] {
+			"#project_evergreen:plains_grassy_temperate",
+			"#project_evergreen:special_flowery_fields",
+			"#project_evergreen:special_autumnal_fields"
+		}
+	);
+	public static final PERegion_OLD civilizationConiferous = ProjectEvergreen.PERegion.CIVILIZATION_CONIFEROUS.initDefault(
+		new String[] {
+			"#project_evergreen:forest_sparse_coniferous_snow",
+			"#project_evergreen:forest_sparse_coniferous"
+		}
+	);
+	public static final PERegion_OLD civilizationDeciduous = ProjectEvergreen.PERegion.CIVILIZATION_DECIDUOUS.initDefault(
+		new String[] {
+			"#project_evergreen:forest_sparse_deciduous",
+			"#project_evergreen:special_flowery_forest"
+		}
+	);
+	public static final PERegion_OLD civilizationArid = ProjectEvergreen.PERegion.CIVILIZATION_ARID.initDefault(
+		new String[] {
+			"#project_evergreen:plains_grassy_arid",
+			"#project_evergreen:special_mediterranean_inviting"
+		}
+	);
+	public static final PERegion_OLD civilizationDesert = ProjectEvergreen.PERegion.CIVILIZATION_DESERT.initDefault(
+		new String[] {
+			"#project_evergreen:desert_dunes_alive"
+		}
+	);
+	public static final PERegion_OLD civilizationDesertRed = ProjectEvergreen.PERegion.CIVILIZATION_DESERT_RED.initDefault(
+		new String[] {
+			"#project_evergreen:desert_red_alive"
+		}
+	);
+	public static final PERegion_OLD civilizationTropical = ProjectEvergreen.PERegion.CIVILIZATION_TROPICAL.initDefault(
+		new String[] {
+			"#project_evergreen:plains_grassy_tropical",
+			"#project_evergreen:forest_sparse_tropical"
+		}
+	);
+	public static final PERegion_OLD civilizationSnow = ProjectEvergreen.PERegion.CIVILIZATION_SNOW.initDefault(
+		new String[] {
+			"#project_evergreen:plains_grassy_snow",
+			"#project_evergreen:forest_sparse_coniferous_snow"
+		}
+	);
+	public static final PERegion_OLD civilizationSpecialAutumnal = ProjectEvergreen.PERegion.CIVILIZATION_SPECIAL_AUTUMNAL.initDefault(
+		new String[] {
+			"#project_evergreen:special_autumnal_fields"
+		}
+	);
+	public static final PERegion_OLD civilizationSpecialCoastal = ProjectEvergreen.PERegion.CIVILIZATION_SPECIAL_COASTAL.initDefault(
+		new String[] {
+			"#project_evergreen:coastal_alive"
+		}
+	);
+	public static final PERegion_OLD civilizationSpecialFlowery = ProjectEvergreen.PERegion.CIVILIZATION_SPECIAL_FLOWERY.initDefault(
+		new String[] {
+			"#project_evergreen:special_flowery_fields",
+			"#project_evergreen:special_flowery_forest"
+		}
+	);
+	public static final PERegion_OLD civilizationSpecialOriental = ProjectEvergreen.PERegion.CIVILIZATION_SPECIAL_ORIENTAL.initDefault(
+		new String[] {
+			"#project_evergreen:special_oriental_inviting"
+		}
+	);
+	public static final PERegion_OLD wildernessTemperate = ProjectEvergreen.PERegion.WILDERNESS_TEMPERATE.initDefault(
+		new String[] {
+			"#project_evergreen:plains_shrubby_temperate",
+			"#project_evergreen:forest_dense_coniferous",
+			"#project_evergreen:forest_dense_deciduous",
+			"#project_evergreen:special_craggy_temperate",
+			"#project_evergreen:plains_shrubby_arid",
+			"#project_evergreen:special_craggy_warm",
+			"#project_evergreen:special_mediterranean_uninviting"
+		}
+	);
+	public static final PERegion_OLD wildernessFields = ProjectEvergreen.PERegion.WILDERNESS_FIELDS.initDefault(
+		new String[] {
+			"#project_evergreen:plains_shrubby_snow",
+			"#project_evergreen:plains_shrubby_temperate",
+			"#project_evergreen:plains_shrubby_arid"
+		}
+	);
+	public static final PERegion_OLD wildernessConiferous = ProjectEvergreen.PERegion.WILDERNESS_CONIFEROUS.initDefault(
+		new String[] {
+			"#project_evergreen:forest_dense_coniferous"
+		}
+	);
+	public static final PERegion_OLD wildernessDeciduous = ProjectEvergreen.PERegion.WILDERNESS_DECIDUOUS.initDefault(
+		new String[] {
+			"#project_evergreen:forest_dense_deciduous"
+		}
+	);
+	public static final PERegion_OLD wildernessArid = ProjectEvergreen.PERegion.WILDERNESS_ARID.initDefault(
+		new String[] {
+			"#project_evergreen:plains_shrubby_arid",
+			"#project_evergreen:special_craggy_warm",
+			"#project_evergreen:special_mediterranean_uninviting"
+		}
+	);
+	public static final PERegion_OLD wildernessDesert = ProjectEvergreen.PERegion.WILDERNESS_DESERT.initDefault(
+		new String[] {
+			"#project_evergreen:desert_dunes_barren"
+		}
+	);
+	public static final PERegion_OLD wildernessDesertRed = ProjectEvergreen.PERegion.WILDERNESS_DESERT_RED.initDefault(
+		new String[] {
+			"#project_evergreen:desert_red_barren"
+		}
+	);
+	public static final PERegion_OLD wildernessTropical = ProjectEvergreen.PERegion.WILDERNESS_TROPICAL.initDefault(
+		new String[] {
+			"#project_evergreen:forest_dense_tropical"
+		}
+	);
+	public static final PERegion_OLD wildernessSnow = ProjectEvergreen.PERegion.WILDERNESS_SNOW.initDefault(
+		new String[] {
+			"#project_evergreen:plains_shrubby_snow",
+			"#project_evergreen:forest_dense_coniferous_snow",
+			"#project_evergreen:special_craggy_cold"
+		}
+	);
+	public static final PERegion_OLD wildernessSpecialAutumnal = ProjectEvergreen.PERegion.WILDERNESS_SPECIAL_AUTUMNAL.initDefault(
+		new String[] {
+			"#project_evergreen:special_autumnal_forest"
+		}
+	);
+	public static final PERegion_OLD wildernessSpecialCoastal = ProjectEvergreen.PERegion.WILDERNESS_SPECIAL_COASTAL.initDefault(
+		new String[] {
+			"#project_evergreen:coastal_barren"
+		}
+	);
+	public static final PERegion_OLD wildernessSpecialOriental = ProjectEvergreen.PERegion.WILDERNESS_SPECIAL_ORIENTAL.initDefault(
+		new String[] {
+			"#project_evergreen:special_oriental_uninviting"
+		}
+	);
+	public static final PERegion_OLD coastalFrozen = ProjectEvergreen.PERegion.COASTAL_FROZEN.initDefault(
+		new String[] {
 				"#project_evergreen:coastal_frozen"
-			}
-		));
-
-		//COASTAL_TEMPERATE
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.COASTAL_TEMPERATE,
-			new String[] {
+		}
+	);
+	public static final PERegion_OLD coastalTemperate = ProjectEvergreen.PERegion.COASTAL_TEMPERATE.initDefault(
+		new String[] {
 				"#project_evergreen:coastal_temperate"
-			}
-		));
+		}
+	);
+	public static final PERegion_OLD coastalWarm = ProjectEvergreen.PERegion.COASTAL_WARM.initDefault(
+		new String[] {
+			"#project_evergreen:coastal_warm"
+		}
+	);
+	public static final PERegion_OLD oceanDeep = ProjectEvergreen.PERegion.OCEAN_DEEP.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_deep_frozen",
+			"#project_evergreen:ocean_deep_temperate",
+			"#project_evergreen:ocean_deep_warm"
+		}
+	);
+	public static final PERegion_OLD oceanShallow = ProjectEvergreen.PERegion.OCEAN_SHALLOW.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_shallow_frozen",
+			"#project_evergreen:ocean_shallow_temperate",
+			"#project_evergreen:ocean_shallow_warm"
+		}
+	);
+	public static final PERegion_OLD oceanNotFrozen = ProjectEvergreen.PERegion.OCEAN_NOT_FROZEN.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_deep_warm",
+			"#project_evergreen:ocean_deep_temperate",
+			"#project_evergreen:ocean_shallow_temperate",
+			"#project_evergreen:ocean_shallow_warm"
+		}
+	);
+	public static final PERegion_OLD oceanFrozen = ProjectEvergreen.PERegion.OCEAN_FROZEN.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_shallow_frozen",
+			"#project_evergreen:ocean_deep_frozen"
+		}
+	);
+	public static final PERegion_OLD oceanTemperate = ProjectEvergreen.PERegion.OCEAN_TEMPERATE.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_shallow_temperate",
+			"#project_evergreen:ocean_deep_temperate"
+		}
+	);
+	public static final PERegion_OLD oceanWarm = ProjectEvergreen.PERegion.OCEAN_WARM.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_shallow_warm",
+			"#project_evergreen:ocean_deep_warm"
+		}
+	);
+	public static final PERegion_OLD oceanDeepFrozen = ProjectEvergreen.PERegion.OCEAN_DEEP_FROZEN.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_deep_frozen"
+		}
+	);
+	public static final PERegion_OLD oceanDeepTemperate = ProjectEvergreen.PERegion.OCEAN_DEEP_TEMPERATE.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_deep_temperate"
+		}
+	);
+	public static final PERegion_OLD oceanDeepWarm = ProjectEvergreen.PERegion.OCEAN_DEEP_WARM.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_deep_warm"
+		}
+	);
+	public static final PERegion_OLD oceanShallowFrozen = ProjectEvergreen.PERegion.OCEAN_SHALLOW_FROZEN.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_shallow_frozen"
+		}
+	);
+	public static final PERegion_OLD oceanShallowTemperate = ProjectEvergreen.PERegion.OCEAN_SHALLOW_TEMPERATE.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_shallow_temperate"
+		}
+	);
+	public static final PERegion_OLD oceanShallowWarm = ProjectEvergreen.PERegion.OCEAN_SHALLOW_WARM.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_shallow_warm"
+		}
+	);
+	public static final PERegion_OLD oceanRareShallow = ProjectEvergreen.PERegion.OCEAN_RARE_SHALLOW.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_rare_shallow"
+		}
+	);
+	public static final PERegion_OLD oceanRareDeep = ProjectEvergreen.PERegion.OCEAN_RARE_DEEP.initDefault(
+		new String[] {
+			"#project_evergreen:ocean_rare_deep"
+		}
+	);
+	public static final PERegion_OLD riverOrCoastNotFrozen = ProjectEvergreen.PERegion.RIVER_OR_COAST_NOT_FROZEN.initDefault(
+		new String[] {
+			"#project_evergreen:river_temperate",
+			"#project_evergreen:river_warm",
+			"#project_evergreen:coastal_temperate",
+			"#project_evergreen:coastal_warm"
+		}
+	);
+	public static final PERegion_OLD riverOrCoastFrozen = ProjectEvergreen.PERegion.RIVER_OR_COAST_FROZEN.initDefault(
+		new String[] {
+			"#project_evergreen:river_frozen",
+			"#project_evergreen:coastal_frozen"
+		}
+	);
+	public static final PERegion_OLD riverNotFrozen = ProjectEvergreen.PERegion.RIVER_NOT_FROZEN.initDefault(
+		new String[] {
+			"#project_evergreen:river_frozen",
+			"#project_evergreen:river_not_frozen"
+		}
+	);
+	public static final PERegion_OLD riverFrozen = ProjectEvergreen.PERegion.RIVER_FROZEN.initDefault(
+		new String[] {
+			"#project_evergreen:river_frozen"
+		}
+	);
+	public static final PERegion_OLD riverTemperate = ProjectEvergreen.PERegion.RIVER_TEMPERATE.initDefault(
+		new String[] {
+			"#project_evergreen:river_temperate"
+		}
+	);
+	public static final PERegion_OLD riverWarm = ProjectEvergreen.PERegion.RIVER_WARM.initDefault(
+		new String[] {
+			"#project_evergreen:river_warm"
+		}
+	);
+	public static final PERegion_OLD specialBarren = ProjectEvergreen.PERegion.SPECIAL_BARREN.initDefault(
+		new String[] {
+			"#project_evergreen:special_ruined",
+			"#project_evergreen:special_rocky"
+		}
+	);
+	public static final PERegion_OLD specialCraggy = ProjectEvergreen.PERegion.SPECIAL_CRAGGY.initDefault(
+		new String[] {
+			"#project_evergreen:special_craggy_temperate",
+			"#project_evergreen:special_craggy_warm",
+			"#project_evergreen:special_rocky",
+			"#project_evergreen:mountains_barren"
+		}
+	);
+	public static final PERegion_OLD specialIcy = ProjectEvergreen.PERegion.SPECIAL_ICY.initDefault(
+		new String[] {
+			"#project_evergreen:special_icy"
+		}
+	);
+	public static final PERegion_OLD specialMagical = ProjectEvergreen.PERegion.SPECIAL_MAGICAL.initDefault(
+		new String[] {
+			"#project_evergreen:special_magical"
+		}
+	);
+	public static final PERegion_OLD specialMediterranean = ProjectEvergreen.PERegion.SPECIAL_MEDITERRANEAN.initDefault(
+		new String[] {
+			"#project_evergreen:special_mediterranean_uninviting",
+			"#project_evergreen:special_mediterranean_inviting"
+		}
+	);
+	public static final PERegion_OLD specialMountainousCold = ProjectEvergreen.PERegion.SPECIAL_MOUNTAINOUS_COLD.initDefault(
+		new String[] {
+			"#project_evergreen:mountains_cold",
+			"#project_evergreen:special_craggy_cold"
+		}
+	);
+	public static final PERegion_OLD specialMountainousHot = ProjectEvergreen.PERegion.SPECIAL_MOUNTAINOUS_HOT.initDefault(
+		new String[] {
+			"#project_evergreen:mountains_hot"
+		}
+	);
+	public static final PERegion_OLD specialRuined = ProjectEvergreen.PERegion.SPECIAL_RUINED.initDefault(
+		new String[] {
+			"#project_evergreen:special_ruined"
+		}
+	);
+	public static final PERegion_OLD specialShroomy = ProjectEvergreen.PERegion.SPECIAL_SHROOMY.initDefault(
+		new String[] {
+			"#project_evergreen:special_shroomy"
+		}
+	);
+	public static final PERegion_OLD specialSpooky = ProjectEvergreen.PERegion.SPECIAL_SPOOKY.initDefault(
+		new String[] {
+			"#project_evergreen:special_spooky",
+			"#project_evergreen:special_autumnal_forest"
+		}
+	);
+	public static final PERegion_OLD specialSwampy = ProjectEvergreen.PERegion.SPECIAL_SWAMPY.initDefault(
+		new String[] {
+			"#project_evergreen:special_swampy_cold",
+			"#project_evergreen:special_swampy_temperate",
+			"#project_evergreen:special_swampy_warm"
+		}
+	);
+	public static final PERegion_OLD specialSwampyWarm = ProjectEvergreen.PERegion.SPECIAL_SWAMPY_WARM.initDefault(
+		new String[] {
+			"#project_evergreen:special_swampy_warm"
+		}
+	);
 
-		//COASTAL_WARM
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.COASTAL_WARM,
-			new String[] {
-				"#project_evergreen:coastal_warm"
-			}
-		));
 
-		//RIVER_OR_COAST_NOT_FROZEN
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.RIVER_OR_COAST_NOT_FROZEN,
-			new String[] {
-				"#project_evergreen:river_temperate",
-				"#project_evergreen:river_warm",
-				"#project_evergreen:coastal_temperate",
-				"#project_evergreen:coastal_warm"
-			}
-		));
-
-		//RIVER_OR_COAST_FROZEN
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.RIVER_OR_COAST_FROZEN,
-			new String[] {
-				"#project_evergreen:river_frozen",
-				"#project_evergreen:coastal_frozen"
-			}
-		));
-
-		//ALL_RIVERS
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.ALL_RIVERS,
-			new String[] {
-				"#project_evergreen:river_frozen",
-				"#project_evergreen:river_not_frozen"
-			}
-		));
-
-		//RIVER_NOT_FROZEN
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.ALL_RIVERS,
-			new String[] {
-				"#project_evergreen:river_frozen",
-				"#project_evergreen:river_not_frozen"
-			}
-		));
-
-		//RIVER_FROZEN
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.RIVER_FROZEN,
-			new String[] {
-				"#project_evergreen:river_frozen"
-			}
-		));
-
-		//RIVER_TEMPERATE
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.RIVER_TEMPERATE,
-			new String[] {
-				"#project_evergreen:river_temperate"
-			}
-		));
-
-		//RIVER_WARM
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.RIVER_WARM,
-			new String[] {
-				"#project_evergreen:river_warm"
-			}
-		));
-
-		//ALL_OCEAN
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.ALL_OCEAN,
-			new String[] {
-				"#project_evergreen:has_structures/all_ocean_deep",
-				"#project_evergreen:has_structures/all_ocean_shallow"
-			}
-		));
-
-		//OCEAN_DEEP
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_DEEP,
-			new String[] {
-				"#project_evergreen:ocean_deep_frozen",
-				"#project_evergreen:ocean_deep_temperate",
-				"#project_evergreen:ocean_deep_warm"
-			}
-		));
-
-		//OCEAN_SHALLOW
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_SHALLOW,
-			new String[] {
-				"#project_evergreen:ocean_shallow_frozen",
-				"#project_evergreen:ocean_shallow_temperate",
-				"#project_evergreen:ocean_shallow_warm"
-			}
-		));
-
-		//OCEAN_NOT_FROZEN
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_NOT_FROZEN,
-			new String[] {
-				"#project_evergreen:ocean_deep_warm",
-				"#project_evergreen:ocean_deep_temperate",
-				"#project_evergreen:ocean_shallow_temperate",
-				"#project_evergreen:ocean_shallow_warm"
-			}
-		));
-
-		//OCEAN_FROZEN
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_FROZEN,
-			new String[] {
-				"#project_evergreen:ocean_shallow_frozen",
-				"#project_evergreen:ocean_deep_frozen"
-			}
-		));
-
-		//OCEAN_TEMPERATE
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_TEMPERATE,
-			new String[] {
-				"#project_evergreen:ocean_shallow_temperate",
-				"#project_evergreen:ocean_deep_temperate"
-			}
-		));
-
-		//OCEAN_WARM
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_WARM,
-			new String[] {
-				"#project_evergreen:ocean_shallow_warm",
-				"#project_evergreen:ocean_deep_warm"
-			}
-		));
-
-		//OCEAN_DEEP_FROZEN
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_DEEP_FROZEN,
-			new String[] {
-				"#project_evergreen:ocean_deep_frozen"
-			}
-		));
-
-		//OCEAN_DEEP_TEMPERATE
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_DEEP_TEMPERATE,
-			new String[] {
-				"#project_evergreen:ocean_deep_temperate"
-			}
-		));
-
-		//OCEAN_DEEP_WARM
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_DEEP_WARM,
-			new String[] {
-				"#project_evergreen:ocean_deep_warm"
-			}
-		));
-
-		//OCEAN_SHALLOW_FROZEN
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_SHALLOW_FROZEN,
-			new String[] {
-				"#project_evergreen:ocean_shallow_frozen"
-			}
-		));
-
-		//OCEAN_SHALLOW_TEMPERATE
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_SHALLOW_TEMPERATE,
-			new String[] {
-				"#project_evergreen:ocean_shallow_temperate"
-			}
-		));
-
-		//OCEAN_SHALLOW_WARM
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_SHALLOW_WARM,
-			new String[] {
-				"#project_evergreen:ocean_shallow_warm"
-			}
-		));
-
-		//OCEAN_RARE_DEEP
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_RARE_DEEP,
-			new String[] {
-				"#project_evergreen:ocean_rare_deep"
-			}
-		));
-
-		//OCEAN_RARE_SHALLOW
-		addRegionToMap(regionsByTag, new PERegion(
-			DefaultRegions.OCEAN_RARE_SHALLOW,
-			new String[] {
-				"#project_evergreen:ocean_rare_shallow"
-			}
-		));
-
-		ProjectEvergreen.LOGGER.info("Successfully mapped " + regionsByTag.size() + " regions.");
-		return regionsByTag;
-	}
-
-	private static void addRegionToMap(LinkedHashMap<String, PERegion> map, PERegion region) {
+	private static void addRegionToMap(LinkedHashMap<String, PERegion_OLD> map, PERegion_OLD region) {
 		region.updateData();
 		map.put(region.id, region);
 	}
@@ -779,5 +573,5 @@ public class DefaultRegions {
 		SPECIAL_SWAMPY_WARM,
 		OCEAN_DEEP_FROZEN,
 		OCEAN_RARE_DEEP
-	);
+	);*/
 }

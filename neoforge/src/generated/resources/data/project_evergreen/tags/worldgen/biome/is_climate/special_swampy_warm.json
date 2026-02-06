@@ -1,0 +1,64 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:flooded_rainforest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:bayou",
+      "required": false
+    },
+    {
+      "id": "minecraft:mangrove_swamp",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:tropical_basin",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:bayou",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:old_growth_bayou",
+      "required": false
+    },
+    {
+      "id": "wildbackport:mangrove_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:bayou",
+      "required": false
+    },
+    {
+      "id": "wythers:bamboo_jungle_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:bamboo_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:coastal_mangroves",
+      "required": false
+    },
+    {
+      "id": "wythers:dripleaf_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:flooded_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:flooded_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:pantanal",
+      "required": false
+    }
+  ]
+}

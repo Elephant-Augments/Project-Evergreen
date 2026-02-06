@@ -1,15 +1,14 @@
 package com.elephantaugments.projectevergreen.neoforge;
 
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
-import org.slf4j.Logger;
+import com.elephantaugments.projectevergreen.common.integration.SupportedMods;
+import com.elephantaugments.projectevergreen.neoforge.platform.NeoForgePlatformHelper;
+import com.elephantaugments.projectevergreen.neoforge.world.PEBiomePlacement;
 
 import com.elephantaugments.projectevergreen.common.command.FormatStructureEntriesCommand;
 import com.elephantaugments.projectevergreen.neoforge.config.ProjectEvergreenConfig;
 import com.elephantaugments.projectevergreen.neoforge.datagen.DataSources;
 import com.elephantaugments.projectevergreen.neoforge.datagen.TestConditions;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.mojang.logging.LogUtils;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -24,8 +23,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 @Mod(ProjectEvergreenNeoforge.MODID)
 public class ProjectEvergreenNeoforge {
     public static final String MODID = "project_evergreen";
-    public static final Logger LOGGER = LogUtils.getLogger();
-    public static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
+    public static final NeoForgePlatformHelper PLATFORM = new NeoForgePlatformHelper();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
@@ -44,6 +42,10 @@ public class ProjectEvergreenNeoforge {
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        if (SupportedMods.BIOLITH.isLoaded()) {
+            PEBiomePlacement.register();
+        }
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {

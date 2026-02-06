@@ -1,0 +1,60 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:volcano_fields",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:volcano_slopes",
+      "required": false
+    },
+    {
+      "id": "minecraft:stony_peaks",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:dusty_slopes",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:arid_mountains",
+      "required": false
+    },
+    {
+      "id": "terralith:painted_mountains",
+      "required": false
+    },
+    {
+      "id": "terralith:volcanic_peaks",
+      "required": false
+    },
+    {
+      "id": "terralith:volcanic_crater",
+      "required": false
+    },
+    {
+      "id": "terralith:caldera",
+      "required": false
+    },
+    {
+      "id": "terralith:savanna_slopes",
+      "required": false
+    },
+    {
+      "id": "terralith:jungle_mountains",
+      "required": false
+    },
+    {
+      "id": "wythers:icy_volcano",
+      "required": false
+    },
+    {
+      "id": "wythers:volcano",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_volcano",
+      "required": false
+    }
+  ]
+}

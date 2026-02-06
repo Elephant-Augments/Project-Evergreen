@@ -1,0 +1,48 @@
+{
+  "values": [
+    {
+      "id": "minecraft:badlands",
+      "required": false
+    },
+    {
+      "id": "minecraft:eroded_badlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:stratified_desert",
+      "required": false
+    },
+    {
+      "id": "terralith:desert_canyon",
+      "required": false
+    },
+    {
+      "id": "terralith:sandstone_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:ancient_sands",
+      "required": false
+    },
+    {
+      "id": "wythers:ayers_rock",
+      "required": false
+    },
+    {
+      "id": "wythers:badlands_canyon",
+      "required": false
+    },
+    {
+      "id": "wythers:badlands_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:red_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:red_rock_canyon",
+      "required": false
+    }
+  ]
+}

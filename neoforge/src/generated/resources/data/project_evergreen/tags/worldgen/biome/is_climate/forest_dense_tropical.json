@@ -1,0 +1,100 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:flooded_rainforest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:roofed_tropical_forest",
+      "required": false
+    },
+    {
+      "id": "minecraft:jungle",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:tropical_woods",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:rainforest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:tropics",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:eucalyptus_forest",
+      "required": false
+    },
+    {
+      "id": "terralith:tropical_jungle",
+      "required": false
+    },
+    {
+      "id": "terralith:amethyst_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:bamboo_jungle_canyon",
+      "required": false
+    },
+    {
+      "id": "wythers:bamboo_jungle_highlands",
+      "required": false
+    },
+    {
+      "id": "wythers:eucalyptus_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:eucalyptus_jungle_canyon",
+      "required": false
+    },
+    {
+      "id": "wythers:eucalyptus_deanei_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:eucalyptus_salubris_woodland",
+      "required": false
+    },
+    {
+      "id": "wythers:eucalyptus_woodland",
+      "required": false
+    },
+    {
+      "id": "wythers:flooded_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:flooded_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:subtropical_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:highland_tropical_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_forest_canyon",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:windswept_jungle",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "minecraft:warm_ocean",
+      "required": false
+    },
+    {
+      "id": "minecraft:lukewarm_ocean",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:rocky_reef",
+      "required": false
+    },
+    {
+      "id": "wythers:coastal_mangroves",
+      "required": false
+    }
+  ]
+}

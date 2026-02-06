@@ -1,0 +1,404 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:cactus_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:cactus_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bush_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bush_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bush_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bush_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:palm_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:palm_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:palm_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:palm_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:spruce_log_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:spruce_log_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:oak_log_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:oak_log_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:jungle_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:birch_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:acacia_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:desert_pillars_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:desert_pillars_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:snowman_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:snowman_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:sandstone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:cobblestone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:cobblestone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:cobblestone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:snow_pile_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:snow_pile_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:snow_pile_3",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:redrock",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:rock",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_1",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_2",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_3",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_4",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_5",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_6",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_7",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_arc_1",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_arc_2",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:cactus_big",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:farmland_field",
+      "required": false
+    },
+    {
+      "id": "mvs:log_pile/acacia_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:log_pile/birch_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:log_pile/jungle_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:log_pile/oak_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:log_pile/spruce_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_acacia_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_birch_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_campfire_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_jungle_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/medium_oak_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_spruce_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/pile",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/haystack",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/bench",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/fire_camp",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/lamp_chest",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/paths",
+      "required": false
+    },
+    {
+      "id": "mvs:acacia_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:bench",
+      "required": false
+    },
+    {
+      "id": "mvs:birch_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:boulder",
+      "required": false
+    },
+    {
+      "id": "mvs:dark_oak_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:haystack",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_palm_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:fire_camp",
+      "required": false
+    },
+    {
+      "id": "mvs:lamp_chest",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_oak_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:oak_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:paths",
+      "required": false
+    },
+    {
+      "id": "mvs:pile",
+      "required": false
+    },
+    {
+      "id": "mvs:small_acacia_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_birch_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_campfire_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_jungle_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_oak_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_spruce_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:spruce_log_pile",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_common/plains",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:beetroot_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:carrot_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:potato_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:pumpkin_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:wheat_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:pumpkin_field",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:melon_patch",
+      "required": false
+    }
+  ]
+}

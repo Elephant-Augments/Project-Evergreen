@@ -1,12 +1,11 @@
 package com.elephantaugments.projectevergreen.common.data.defaults;
 
-import com.elephantaugments.projectevergreen.common.data.PEBiome;
+import com.elephantaugments.projectevergreen.common.api.PatchableBiome;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableBiomes;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ImmutableList;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class DefaultBiomeTags {
 
@@ -68,9 +67,9 @@ public class DefaultBiomeTags {
     public static final String SPECIAL_SWAMPY_TEMPERATE = "#project_evergreen:special_swampy_temperate";
     public static final String SPECIAL_SWAMPY_WARM = "#project_evergreen:special_swampy_warm";
 
-    public static LinkedHashMap<String, PEBiome> buildMapEntries(PatchableBiomes biomeData) {
-        LinkedHashMap<String, PEBiome> biomes = new LinkedHashMap<>();
-        ArrayListMultimap<String, PEBiome> biomesByTag = mapBiomesToTags(biomeData);
+    public static LinkedHashMap<String, PatchableBiome> buildMapEntries(PatchableBiomes biomeData) {
+        LinkedHashMap<String, PatchableBiome> biomes = new LinkedHashMap<>();
+        ArrayListMultimap<String, PatchableBiome> biomesByTag = mapBiomesToTags(biomeData);
         biomeData.Data.forEach((id, biome) -> {
             biome.setBiomeTags(getBiomeTags(biomesByTag, id));
             biomes.put(id, biome);
@@ -78,8 +77,8 @@ public class DefaultBiomeTags {
         return biomes;
     }
 
-    public static LinkedHashMap<String, PEBiome> buildMapEntries(PatchableBiomes biomeData, ArrayListMultimap<String, PEBiome> biomesByTag) {
-        LinkedHashMap<String, PEBiome> biomes = new LinkedHashMap<>();
+    public static LinkedHashMap<String, PatchableBiome> buildMapEntries(PatchableBiomes biomeData, ArrayListMultimap<String, PatchableBiome> biomesByTag) {
+        LinkedHashMap<String, PatchableBiome> biomes = new LinkedHashMap<>();
         biomeData.Data.forEach((id, biome) -> {
             biome.setBiomeTags(getBiomeTags(biomesByTag, id));
             biomes.put(id, biome);
@@ -87,10 +86,10 @@ public class DefaultBiomeTags {
         return biomes;
     }
 
-    private static List<String> getBiomeTags(ArrayListMultimap<String, PEBiome> biomeIDsByTag, String id) {
+    private static List<String> getBiomeTags(ArrayListMultimap<String, PatchableBiome> biomeIDsByTag, String id) {
         List<String> list = new ArrayList<>();
         Set<String> uniqueValues = new HashSet<>();
-        for (Map.Entry<String, PEBiome> e : biomeIDsByTag.entries()) {
+        for (Map.Entry<String, PatchableBiome> e : biomeIDsByTag.entries()) {
             if (e.getValue() != null && e.getValue().id.equals(id)) {
                 String key = e.getKey();
                 if (uniqueValues.add(key)) {
@@ -101,8 +100,8 @@ public class DefaultBiomeTags {
         return list;
     }
 
-    public static ArrayListMultimap<String, PEBiome> mapBiomesToTags(PatchableBiomes biomeData) {
-		ArrayListMultimap<String, PEBiome> biomesByTag = ArrayListMultimap.create();
+    public static ArrayListMultimap<String, PatchableBiome> mapBiomesToTags(PatchableBiomes biomeData) {
+		ArrayListMultimap<String, PatchableBiome> biomesByTag = ArrayListMultimap.create();
         desertDunesAlive.forEach(s -> biomesByTag.put(DESERT_DUNES_ALIVE, biomeData.Data.get(s)));
         desertDunesBarren.forEach(s -> biomesByTag.put(DESERT_DUNES_BARREN, biomeData.Data.get(s)));
         desertRedAlive.forEach(s -> biomesByTag.put(DESERT_RED_ALIVE, biomeData.Data.get(s)));
@@ -186,8 +185,7 @@ public class DefaultBiomeTags {
         "natures_spirit:scorched_dunes",
         "natures_spirit:drylands",
         "wythers:deep_desert",
-        "wythers:desert_pinnacles",
-        "wythers:sand_dunes"
+        "wythers:desert_pinnacles"
     );
     
     public static final List<String> desertRedAlive = ImmutableList.of(
@@ -468,6 +466,11 @@ public class DefaultBiomeTags {
     public static final List<String> oceanDeepWarm = ImmutableList.of(
         "minecraft:deep_lukewarm_ocean"
     );
+
+    public static final List<String> oceanDeepRare = ImmutableList.of(
+        "regions_unexplored:hyacinth_deeps",
+        "jellyfishing:rock_bottom"
+    );
     
     public static final List<String> oceanShallowFrozen = ImmutableList.of(
         "minecraft:frozen_ocean",
@@ -486,6 +489,10 @@ public class DefaultBiomeTags {
         "regions_unexplored:rocky_reef",
         "wythers:coastal_mangroves"
     );
+
+    public static final List<String> oceanShallowRare = ImmutableList.of(
+        "jellyfishing:jellyfish_fields"
+    );
     
     public static final List<String> coastalFrozen = ImmutableList.of(
         "minecraft:snowy_beach",
@@ -503,6 +510,7 @@ public class DefaultBiomeTags {
         "regions_unexplored:gravel_beach",
         "dreamwoods:gravel_beach",
         "dreamwoods:white_shore",
+        "wythers:sand_dunes",
         "wythers:calcite_coast",
         "wythers:gravelly_beach",
         "wythers:temperate_island"

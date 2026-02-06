@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "minecraft:frozen_ocean",
-        "minecraft:deep_frozen_ocean",
-        "minecraft:frozen_river",
-        "#project_evergreen:coastal_frozen"
-    ]
-}

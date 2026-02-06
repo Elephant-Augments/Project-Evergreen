@@ -1,0 +1,64 @@
+{
+  "values": [
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    }
+  ]
+}

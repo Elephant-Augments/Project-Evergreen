@@ -1,0 +1,204 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:maya_temple",
+      "required": false
+    },
+    {
+      "id": "archaeology_ruins:ruined_desert_pyramid",
+      "required": false
+    },
+    {
+      "id": "archaeology_ruins:ruinedjungletemple",
+      "required": false
+    },
+    {
+      "id": "ars_additions:arcane_library",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:stalker_wilden_den",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:temple_jungle",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:stonehenge_grassy",
+      "required": false
+    },
+    {
+      "id": "biomemakeover:mansion",
+      "required": false
+    },
+    {
+      "id": "companions:companions_factory",
+      "required": false
+    },
+    {
+      "id": "create_ltab:birch_structures",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:greenwood_pub",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:snowy_temple",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:skull_camp",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:rex_camp",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_arc",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_dragon",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_chest",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:protector",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:pyramid",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_ancestral",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_ancestral_house",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_double",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_giant",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_old",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_spline",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_stump",
+      "required": false
+    },
+    {
+      "id": "goety:dark_manor",
+      "required": false
+    },
+    {
+      "id": "idas:train_ruins",
+      "required": false
+    },
+    {
+      "id": "idas:apothecary_abode",
+      "required": false
+    },
+    {
+      "id": "idas:pillager_fortress",
+      "required": false
+    },
+    {
+      "id": "imst:caravan",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:cyclops_lair",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:ancient_stronghold",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:abandoned_crypt",
+      "required": false
+    },
+    {
+      "id": "medieval_buildings:fort",
+      "required": false
+    },
+    {
+      "id": "minecraft:trail_ruins",
+      "required": false
+    },
+    {
+      "id": "mvs:red_tower",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/large_warped_tower",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:old_camp",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:ancient_vestiges",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:graveyard",
+      "required": false
+    },
+    {
+      "id": "structory:old_manor",
+      "required": false
+    },
+    {
+      "id": "terramity:court_of_gnomes",
+      "required": false
+    },
+    {
+      "id": "terramity:overgrown_facility",
+      "required": false
+    },
+    {
+      "id": "terramity:snow_fort",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_rustic",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/wooden_manor",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/abandoned_castle_pillager",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    }
+  ]
+}

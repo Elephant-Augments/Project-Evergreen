@@ -2,5 +2,26 @@ plugins {
     // see https://fabricmc.net/develop/ for new versions
     id 'fabric-loom' version '1.8-SNAPSHOT' apply false
     // see https://projects.neoforged.net/neoforged/moddevgradle for new versions
-    id 'net.neoforged.moddev' version '2.0.49-beta' apply false
+    id 'net.neoforged.moddev' version '2.0.107'
+}
+
+allprojects{
+    repositories {
+        mavenCentral()
+        maven { url "https://maven.fabricmc.net/" }
+        maven { url "https://maven.neoforged.net/releases" }
+        maven {
+            name = 'Modrinth'
+            url = 'https://api.modrinth.com/maven'
+            content {
+                includeGroup 'maven.modrinth'
+            }
+        }
+        maven {
+            url "https://cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
 }

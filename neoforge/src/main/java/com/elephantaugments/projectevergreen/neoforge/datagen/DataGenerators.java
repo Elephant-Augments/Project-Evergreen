@@ -1,6 +1,8 @@
 package com.elephantaugments.projectevergreen.neoforge.datagen;
 
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
+import com.elephantaugments.projectevergreen.common.api.WorldgenDataManager;
+import com.elephantaugments.projectevergreen.common.util.PETags;
 import net.enderturret.patchedmod.data.PatchProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -13,10 +15,13 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 
 import java.util.concurrent.CompletableFuture;
 
-@EventBusSubscriber(modid = ProjectEvergreen.MODID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = ProjectEvergreen.MODID)
 public class DataGenerators {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
+        ProjectEvergreen.LOGGER.info("Preparing for data generation...");
+        WorldgenDataManager.loadDefaultWorldgenData();
+
         DataGenerator generator = event.getGenerator();
         PackOutput packOutput = generator.getPackOutput();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
@@ -24,6 +29,12 @@ public class DataGenerators {
 
         PatchProvider structurePatcher = new StructurePatchProvider(generator, PackOutput.Target.DATA_PACK);
         generator.addProvider(event.includeServer(), structurePatcher);
+
+        BiomeTagProvider biomeTagsProvider = new BiomeTagProvider(packOutput, lookupProvider, existingFileHelper);
+        generator.addProvider(event.includeServer(), biomeTagsProvider);
+
+        StructureSetTagProvider ssetTagsProvider = new StructureSetTagProvider(packOutput, lookupProvider);
+        generator.addProvider(event.includeServer(), ssetTagsProvider);
 
         StructureTagProvider structureTagsProvider = new StructureTagProvider(packOutput, lookupProvider, existingFileHelper);
         generator.addProvider(event.includeServer(), structureTagsProvider);

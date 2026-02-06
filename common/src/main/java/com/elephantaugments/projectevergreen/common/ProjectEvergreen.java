@@ -1,9 +1,14 @@
 package com.elephantaugments.projectevergreen.common;
 
+import com.elephantaugments.projectevergreen.common.platform.PlatformHelper;
 import com.elephantaugments.projectevergreen.common.util.PETags;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.mojang.logging.LogUtils;
+import net.minecraft.core.Registry;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
 import org.slf4j.Logger;
 
 public class ProjectEvergreen {
@@ -12,6 +17,10 @@ public class ProjectEvergreen {
     public static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     public static void init() {
-        PETags.initTags();
+        //PETags.initTags();
+    }
+
+    public static <T> TagKey<T> createTag(ResourceKey<Registry<T>> registry, ResourceLocation location) {
+        return TagKey.create(registry, location);
     }
 }

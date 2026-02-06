@@ -1,27 +1,27 @@
 package com.elephantaugments.projectevergreen.common.data.patchable;
 
-import com.elephantaugments.projectevergreen.common.data.PEStructureSet;
-import com.google.common.collect.ArrayListMultimap;
-
 import java.util.Arrays;
-import java.util.Map;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class PatchableTemplatePools extends IPatchableData {
+public class PatchableTemplatePools extends IPatchableList {
 
-    public ArrayListMultimap<String, PEStructureSet> Data;
+    //public LinkedHashMap<String, ?> Data = new LinkedHashMap<>();
 
     public static final String REGISTRY_PATH = "worldgen/template_pool/";
 
     public PatchableTemplatePools() {
         super(defaultSupported, REGISTRY_PATH);
-        //Data = this.mapPatchableData();
     }
 
     @Override
-    protected Map<String, ?> mapPatchableData() {
-        return Map.of();
+    protected void mapPatchableData(SortedSet<String> ids) {
+
+    }
+
+    @Override
+    public void addPatchableData(String id) {
+
     }
 
     public static final SortedSet<String> defaultSupported = new TreeSet<>(Arrays.asList(

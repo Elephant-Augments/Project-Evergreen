@@ -1,0 +1,128 @@
+{
+  "values": [
+    {
+      "id": "aquamirae:shelter",
+      "required": false
+    },
+    {
+      "id": "aquamirae:outpost",
+      "required": false
+    },
+    {
+      "id": "aquamirae:ship",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ice_tribe",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:jungle_illager_ship",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:dark_oak_illager_ship",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:sprucevillagership",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_ship",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:pillager_boat",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:undead_pirate_ship",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:illager_corsair",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise_seven_seas:unicorn_galleon",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise_seven_seas:victory_frigate",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise_seven_seas:corsair_corvette",
+      "required": false
+    },
+    {
+      "id": "joshie:village_ocean",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_ocean",
+      "required": false
+    },
+    {
+      "id": "lios_outlandish_villages:spiral_tower_village_sea",
+      "required": false
+    },
+    {
+      "id": "minecraft:pirate_fleet",
+      "required": false
+    },
+    {
+      "id": "mostructures:pirate_ship",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_ocean",
+      "required": false
+    },
+    {
+      "id": "supplementaries:galleon",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_ocean",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/island_village_1",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/sleepy_island",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/tower_island",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/villager_island",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_rare/coves",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/mushroom_island",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_rare/floating_farm_large",
+      "required": false
+    }
+  ]
+}
