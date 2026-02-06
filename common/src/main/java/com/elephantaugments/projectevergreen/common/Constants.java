@@ -1,6 +1,6 @@
 package com.elephantaugments.projectevergreen.common;
 
-import com.elephantaugments.projectevergreen.common.data.defaults.DefaultBlacklist;
+import com.elephantaugments.projectevergreen.common.api.PEStructure;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultFlags;
 
 import java.util.*;
@@ -57,19 +57,30 @@ public class Constants {
 	public static final String MASSIVE_STRUCTURE_TEST = ProjectEvergreen.MODID + ":massive_structure";
 	public static final String SAFE_STRUCTURE_TYPE = ProjectEvergreen.MODID + ":safe_structure_type";
 	public static final String ADVANCED_STRUCTURE_TYPE = ProjectEvergreen.MODID + ":advanced_structure_type";
-	public static final String IGNORE_STRUCTURE_TYPE = "ignore_structure_type";
 	public static final String ENHANCED_TERRAIN_ADAPTATION = "enhanced_terrain_adaption";
 	public static final String TERRAIN_ADAPTATION_TEST = ProjectEvergreen.MODID + ":" + ENHANCED_TERRAIN_ADAPTATION;
-	public static final String IGNORE_BIOME_REDISTRIBUTION_TEST = ProjectEvergreen.MODID + ":" + DefaultBlacklist.IGNORE_BIOME_REDISTRIBUTION;
-	public static final String IGNORE_BIOME_RADIUS_TEST = ProjectEvergreen.MODID + ":" + DefaultBlacklist.IGNORE_BIOME_RADIUS;
+	public static final String IGNORE_BIOME_REDISTRIBUTION_TEST = ProjectEvergreen.MODID + ":" + PEStructure.Flag.IGNORED_BIOME_REDISTRIBUTION.name();
+	public static final String IGNORE_BIOME_RADIUS_TEST = ProjectEvergreen.MODID + ":" + PEStructure.Flag.IGNORE_BIOME_RADIUS_CHECK.name();
 	public static final String POPULATION_BIAS_TEST = ProjectEvergreen.MODID + ":population_bias_check";
 	public static final String ALLOWED_TERRAIN_HEIGHT_NARROW = "narrow_flatness_allowed_elevation";
 	public static final String FLAT_NARROW_TEST = ProjectEvergreen.MODID + ":flat_check_narrow";
 	public static final String ALLOWED_TERRAIN_HEIGHT_WIDE = "wide_flatness_allowed_elevation";
 	public static final String FLAT_WIDE_TEST = ProjectEvergreen.MODID + ":flat_check_wide";
 	public static final String ALLOWED_TERRAIN_HEIGHT_SPRAWLING = "sprawling_flatness_allowed_elevation";
-	public static final String FLAT_SPRAWLING_TEST = ProjectEvergreen.MODID + ":" + DefaultFlags.FLATNESS_CHECK_SPRAWLING;
+	public static final String FLAT_SPRAWLING_TEST = ProjectEvergreen.MODID + ":" + PEStructure.Flag.FLATNESS_CHECK_SPRAWLING.name();
 	public static final String IGNORE_FLATNESS_CHECK_TEST = ProjectEvergreen.MODID + ":flatness_check_ignored";
+	public static final String FLATNESS_CHECK_SPRAWLING = "flatness_check_sprawling";
+	public static final String FLATNESS_CHECK_LARGE = "flatness_check_large";
+	public static final String FLATNESS_CHECK_SMALL = "flatness_check_small";
+
+	public static final String IGNORE_MOD = "ignore_mods";
+	public static final String IGNORE_STRUCTURE = "ignore_structures";
+	public static final String IGNORE_STRUCTURE_TYPE = "ignore_structure_type";
+	public static final String IGNORE_BIOME_REDISTRIBUTION = "ignore_biome_redistribution";
+	public static final String IGNORE_BIOME_RADIUS = "ignore_biome_radius";
+	public static final String IGNORE_WATER_RESTRICTION = "ignore_water_restriction";
+	public static final String IGNORE_FLATNESS_CHECK = "ignore_flatness_check";
+	public static final String IGNORE_TERRAIN_ADAPTATION = "ignore_terrain_adaptation";
 
 	public static final String POPULATION_BIAS = "population_bias";
 	public static final String POPULATION_BIAS_OFFSET = "population_bias_offset";

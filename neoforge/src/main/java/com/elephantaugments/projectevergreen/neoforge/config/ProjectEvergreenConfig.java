@@ -22,9 +22,9 @@ public class ProjectEvergreenConfig {
     //public static final SortedSet<String> ALL_STRUCTURE_SETS = Constants.parseStructureSets();
     
     //private static final String CATEGORY_FEATURES = "features";
-    private static ModConfigSpec.BooleanValue STRUCTURE_BIOME_REDISTRIBUTION;
-    private static ModConfigSpec.BooleanValue STRUCTURE_RARITY_REDISTRIBUTION;
-    private static ModConfigSpec.BooleanValue PERFORMANCE_FRIENDLY_MODE;
+    private static final ModConfigSpec.BooleanValue STRUCTURE_BIOME_REDISTRIBUTION;
+    private static final ModConfigSpec.BooleanValue STRUCTURE_RARITY_REDISTRIBUTION;
+    private static final ModConfigSpec.BooleanValue PERFORMANCE_FRIENDLY_MODE;
     
     private static final String CATEGORY_FIXES = "fixes";
     private static ModConfigSpec.ConfigValue<List<? extends String>> IGNORE_MOD;
@@ -41,18 +41,18 @@ public class ProjectEvergreenConfig {
     private static ModConfigSpec.ConfigValue<List<? extends String>> ADD_TERRAIN_ADAPTATION;
 
     private static final String CATEGORY_RARITY = "rarity";
-    private static ModConfigSpec.IntValue POPULATION_BIAS;
-    private static ModConfigSpec.IntValue POPULATION_BIAS_OFFSET;
-    private static ModConfigSpec.DoubleValue CIVILIZATION_MASSIVE_RARITY;
-    private static ModConfigSpec.DoubleValue CIVILIZATION_MEDIUM_RARITY;
-    private static ModConfigSpec.DoubleValue CIVILIZATION_DECORATIVE_RARITY;
-    private static ModConfigSpec.DoubleValue WILDERNESS_MASSIVE_RARITY;
-    private static ModConfigSpec.DoubleValue WILDERNESS_MEDIUM_RARITY;
-    private static ModConfigSpec.DoubleValue WILDERNESS_DECORATIVE_RARITY;
-    private static ModConfigSpec.DoubleValue UNDERGROUND_MASSIVE_RARITY;
-    private static ModConfigSpec.DoubleValue OCEAN_MASSIVE_RARITY;
-    private static ModConfigSpec.DoubleValue OCEAN_MEDIUM_RARITY;
-    private static ModConfigSpec.DoubleValue SKY_MASSIVE_RARITY;
+    private static final ModConfigSpec.IntValue POPULATION_BIAS;
+    private static final ModConfigSpec.IntValue POPULATION_BIAS_OFFSET;
+    private static final ModConfigSpec.DoubleValue CIVILIZATION_MASSIVE_RARITY;
+    private static final ModConfigSpec.DoubleValue CIVILIZATION_MEDIUM_RARITY;
+    private static final ModConfigSpec.DoubleValue CIVILIZATION_DECORATIVE_RARITY;
+    private static final ModConfigSpec.DoubleValue WILDERNESS_MASSIVE_RARITY;
+    private static final ModConfigSpec.DoubleValue WILDERNESS_MEDIUM_RARITY;
+    private static final ModConfigSpec.DoubleValue WILDERNESS_DECORATIVE_RARITY;
+    private static final ModConfigSpec.DoubleValue UNDERGROUND_MASSIVE_RARITY;
+    private static final ModConfigSpec.DoubleValue OCEAN_MASSIVE_RARITY;
+    private static final ModConfigSpec.DoubleValue OCEAN_MEDIUM_RARITY;
+    private static final ModConfigSpec.DoubleValue SKY_MASSIVE_RARITY;
     private static ModConfigSpec.ConfigValue<List<? extends String>> CIVILIZATION_MASSIVE;
     private static ModConfigSpec.ConfigValue<List<? extends String>> CIVILIZATION_MEDIUM;
     private static ModConfigSpec.ConfigValue<List<? extends String>> CIVILIZATION_DECO;
@@ -233,21 +233,9 @@ public class ProjectEvergreenConfig {
             ProjectEvergreen.LOGGER.info("Loading Project Evergreen config...");
 
             performanceFriendlyMode = PERFORMANCE_FRIENDLY_MODE.get();
-            ignoreMod = getConfigList(DefaultBlacklist.modIDs, IGNORE_MOD.get());
-            ignoreStructure = getConfigList(DefaultBlacklist.structureIDs, IGNORE_STRUCTURE.get());
-            ignoreStructureType = getConfigList(DefaultBlacklist.ignoreStructureType, IGNORE_STRUCTURE_TYPE.get());
-            ignoreBiomeRedistribution = getConfigList(DefaultBlacklist.ignoreBiomeRedistribution, IGNORE_BIOME_REDISTRIBUTION.get());
-            ignoreFlatnessCheck = getConfigList(DefaultBlacklist.ignoreFlatnessCheck, IGNORE_FLATNESS_CHECK.get());
-            flatnessCheckSprawling = getConfigList(DefaultFlags.flatnessCheckSprawling, FLATNESS_CHECK_SPRAWLING.get());
-            allowedTerrainHeightSprawling = ALLOWED_TERRAIN_HEIGHT_SPRAWLING.get();
-            flatnessCheckWide = getConfigList(DefaultFlags.flatnessCheckLarge, FLATNESS_CHECK_WIDE.get());
-            allowedTerrainHeightWide = ALLOWED_TERRAIN_HEIGHT_WIDE.get();
-            flatnessCheckNarrow = getConfigList(DefaultFlags.flatnessCheckMedium, FLATNESS_CHECK_NARROW.get());
-            allowedTerrainHeightNarrow = ALLOWED_TERRAIN_HEIGHT_NARROW.get();
-            addTerrainAdaptation = getConfigList(DefaultFlags.adjustedTerrainAdaptation, ADD_TERRAIN_ADAPTATION.get());
-            structuresByFix = parseStructureFixes();
-
+            structureBiomeRedistribution = STRUCTURE_BIOME_REDISTRIBUTION.get();
             structureRarityRedistribution = STRUCTURE_RARITY_REDISTRIBUTION.get();
+
             populationBias = POPULATION_BIAS.get();
             populationBiasOffset = POPULATION_BIAS_OFFSET.get();
             civilizationMassiveRarity = CIVILIZATION_MASSIVE_RARITY.get();
@@ -260,20 +248,9 @@ public class ProjectEvergreenConfig {
             oceanMassiveRarity = OCEAN_MASSIVE_RARITY.get();
             oceanMediumRarity = OCEAN_MEDIUM_RARITY.get();
             skyMassiveRarity = SKY_MASSIVE_RARITY.get();
-            civilizationMassive = getConfigList(DefaultStructureRarity.civilizationMassive, CIVILIZATION_MASSIVE.get());
-            civilizationMedium = getConfigList(DefaultStructureRarity.civilizationMedium, CIVILIZATION_MEDIUM.get());
-            civilizationDeco = getConfigList(DefaultStructureRarity.civilizationDeco, CIVILIZATION_DECO.get());
-            wildernessMassive = getConfigList(DefaultStructureRarity.wildernessMassive, WILDERNESS_MASSIVE.get());
-            wildernessMedium = getConfigList(DefaultStructureRarity.wildernessMedium, WILDERNESS_MEDIUM.get());
-            wildernessDeco = getConfigList(DefaultStructureRarity.wildernessDeco, WILDERNESS_DECO.get());
-            oceanFloatingMassive = getConfigList(DefaultStructureRarity.oceanFloatingMassive, OCEAN_FLOATING_MASSIVE.get());
-            oceanUnderwaterMassive = getConfigList(DefaultStructureRarity.oceanUnderwaterMassive, OCEAN_UNDERWATER_MASSIVE.get());
-            oceanAllMedium = getConfigList(DefaultStructureRarity.oceanAllMedium, OCEAN_ALL_MEDIUM.get());
-            undergroundMassive = getConfigList(DefaultStructureRarity.undergroundSprawling, UNDERGROUND_MASSIVE.get());
-            skyMassive = getConfigList(DefaultStructureRarity.skyMassive, SKY_MASSIVE.get());
-            structuresByRarity = parseStructureRarities();
 
-            structureBiomeRedistribution = STRUCTURE_BIOME_REDISTRIBUTION.get();
+
+            /*
             allCivilization = getConfigList(DefaultStructureRegions.allCivilization, ALL_CIVILIZATION.get());
             allWilderness = getConfigList(DefaultStructureRegions.allWilderness, ALL_WILDERNESS.get());
             allOcean = getConfigList(DefaultStructureRegions.allOcean, ALL_OCEAN.get());
@@ -333,6 +310,33 @@ public class ProjectEvergreenConfig {
             undergroundLand = getConfigList(DefaultStructureRegions.allUndergroundLand, UNDERGROUND_LAND.get());
             structuresByBiome = parseStructureBiomes();
 
+            civilizationMassive = getConfigList(DefaultStructureRarity.civilizationMassive, CIVILIZATION_MASSIVE.get());
+            civilizationMedium = getConfigList(DefaultStructureRarity.civilizationMedium, CIVILIZATION_MEDIUM.get());
+            civilizationDeco = getConfigList(DefaultStructureRarity.civilizationDeco, CIVILIZATION_DECO.get());
+            wildernessMassive = getConfigList(DefaultStructureRarity.wildernessMassive, WILDERNESS_MASSIVE.get());
+            wildernessMedium = getConfigList(DefaultStructureRarity.wildernessMedium, WILDERNESS_MEDIUM.get());
+            wildernessDeco = getConfigList(DefaultStructureRarity.wildernessDeco, WILDERNESS_DECO.get());
+            oceanFloatingMassive = getConfigList(DefaultStructureRarity.oceanFloatingMassive, OCEAN_FLOATING_MASSIVE.get());
+            oceanUnderwaterMassive = getConfigList(DefaultStructureRarity.oceanUnderwaterMassive, OCEAN_UNDERWATER_MASSIVE.get());
+            oceanAllMedium = getConfigList(DefaultStructureRarity.oceanAllMedium, OCEAN_ALL_MEDIUM.get());
+            undergroundMassive = getConfigList(DefaultStructureRarity.undergroundSprawling, UNDERGROUND_MASSIVE.get());
+            skyMassive = getConfigList(DefaultStructureRarity.skyMassive, SKY_MASSIVE.get());
+            structuresByRarity = parseStructureRarities();
+
+            ignoreMod = getConfigList(DefaultBlacklist.modIDs, IGNORE_MOD.get());
+            ignoreStructure = getConfigList(DefaultBlacklist.structureIDs, IGNORE_STRUCTURE.get());
+            ignoreStructureType = getConfigList(DefaultBlacklist.ignoreStructureType, IGNORE_STRUCTURE_TYPE.get());
+            ignoreBiomeRedistribution = getConfigList(DefaultBlacklist.ignoreBiomeRedistribution, IGNORE_BIOME_REDISTRIBUTION.get());
+            ignoreFlatnessCheck = getConfigList(DefaultBlacklist.ignoreFlatnessCheck, IGNORE_FLATNESS_CHECK.get());
+            flatnessCheckSprawling = getConfigList(DefaultFlags.flatnessCheckSprawling, FLATNESS_CHECK_SPRAWLING.get());
+            allowedTerrainHeightSprawling = ALLOWED_TERRAIN_HEIGHT_SPRAWLING.get();
+            flatnessCheckWide = getConfigList(DefaultFlags.flatnessCheckLarge, FLATNESS_CHECK_WIDE.get());
+            allowedTerrainHeightWide = ALLOWED_TERRAIN_HEIGHT_WIDE.get();
+            flatnessCheckNarrow = getConfigList(DefaultFlags.flatnessCheckMedium, FLATNESS_CHECK_NARROW.get());
+            allowedTerrainHeightNarrow = ALLOWED_TERRAIN_HEIGHT_NARROW.get();
+            addTerrainAdaptation = getConfigList(DefaultFlags.adjustedTerrainAdaptation, ADD_TERRAIN_ADAPTATION.get());
+            structuresByFix = parseStructureFixes();*/
+
             ProjectEvergreen.LOGGER.info("Finished loading Project Evergreen config.");
         } catch (Exception e) {
             ProjectEvergreen.LOGGER.error("Failed to load Project Evergreen config.");
@@ -364,9 +368,42 @@ public class ProjectEvergreenConfig {
         POPULATION_BIAS_OFFSET = COMMON_BUILDER
             .comment("# The degree to which non-biased structures should be isolated.\n# (2 = slightly rare, 5 = extremely rare)")
             .defineInRange(Constants.POPULATION_BIAS_OFFSET, 3, 2, 5);
+        COMMON_BUILDER.pop();
+
+        COMMON_BUILDER.comment("Rarity Spread").push(CATEGORY_RARITY);
+        CIVILIZATION_MASSIVE_RARITY = COMMON_BUILDER
+                .comment("# Rarity value for villages and other massive Civilization structures.\n# (0.2 = most common, 2.0 = most rare)")
+                .defineInRange(Constants.CIVILIZATION_MASSIVE_RARITY, 1.0, 0.2, 2.0);
+        CIVILIZATION_MEDIUM_RARITY = COMMON_BUILDER
+                .comment("# Rarity value for medium to large Civilization structures.\n# (0.2 = most common, 2.0 = most rare)")
+                .defineInRange(Constants.CIVILIZATION_MEDIUM_RARITY, 1.0, 0.2, 2.0);
+        CIVILIZATION_DECORATIVE_RARITY = COMMON_BUILDER
+                .comment("# Rarity value for small decorative structures found in Civilization biomes.\n# (0.2 = most common, 2.0 = most rare)")
+                .defineInRange(Constants.CIVILIZATION_DECORATIVE_RARITY, 1.0, 0.2, 2.0);
+        WILDERNESS_MASSIVE_RARITY = COMMON_BUILDER
+                .comment("# Rarity value for boss arenas and other massive Wilderness structures.\n# (0.2 = most common, 2.0 = most rare)")
+                .defineInRange(Constants.WILDERNESS_MASSIVE_RARITY, 1.0, 0.2, 2.0);
+        WILDERNESS_MEDIUM_RARITY = COMMON_BUILDER
+                .comment("# Rarity value for medium to large Wilderness structures.\n# (0.2 = most common, 2.0 = most rare)")
+                .defineInRange(Constants.WILDERNESS_MEDIUM_RARITY, 1.0, 0.2, 2.0);
+        WILDERNESS_DECORATIVE_RARITY= COMMON_BUILDER
+                .comment("# Rarity value for small decorative structures found in some Wilderness biomes.\n# (0.2 = most common, 2.0 = most rare)")
+                .defineInRange(Constants.WILDERNESS_DECORATIVE_RARITY, 1.0, 0.2, 2.0);
+        UNDERGROUND_MASSIVE_RARITY = COMMON_BUILDER
+                .comment("# Rarity value for massive Underground structures.\n# (0.2 = most common, 2.0 = most rare)")
+                .defineInRange(Constants.UNDERGROUND_MASSIVE_RARITY, 1.0, 0.2, 2.0);
+        OCEAN_MASSIVE_RARITY = COMMON_BUILDER
+                .comment("# Rarity value for massive Ocean structures, both underwater and on the surface.\n# (0.2 = most common, 2.0 = most rare)")
+                .defineInRange(Constants.OCEAN_MASSIVE_RARITY, 1.0, 0.2, 2.0);
+        OCEAN_MEDIUM_RARITY = COMMON_BUILDER
+                .comment("# Rarity value for medium to large Ocean structures, both underwater and on the surface.\n# (0.2 = most common, 2.0 = most rare)")
+                .defineInRange(Constants.OCEAN_MEDIUM_RARITY, 1.0, 0.2, 2.0);
+        SKY_MASSIVE_RARITY = COMMON_BUILDER
+                .comment("# Rarity value for massive floating Sky structures.\n# (0.2 = most common, 2.0 = most rare)")
+                .defineInRange(Constants.SKY_MASSIVE_RARITY, 1.0, 0.2, 2.0);
 
 
-        COMMON_BUILDER.comment("Blacklist & Other Fixes").push(CATEGORY_FIXES);
+        /*COMMON_BUILDER.comment("Blacklist & Other Fixes").push(CATEGORY_FIXES);
         IGNORE_MOD = COMMON_BUILDER
             .comment("# Ignore all Project Evergreen alterations for all structures from the following mod IDs. Use a comma-separated list, newlines accepted.")
             .defineListAllowEmpty(DefaultBlacklist.IGNORE_MOD, EMPTY_LIST, () -> "", ProjectEvergreenConfig::validateListItem);
@@ -415,36 +452,6 @@ public class ProjectEvergreenConfig {
         COMMON_BUILDER.comment("Rarity Redistribution",
             "Use this feature to add custom compatibility for unsupported mods. Default values cannot be changed.",
             "Use a comma-separated list, newlines accepted.").push(CATEGORY_RARITY);
-        CIVILIZATION_MASSIVE_RARITY = COMMON_BUILDER
-            .comment("# Rarity value for villages and other massive Civilization structures.\n# (0.2 = most common, 2.0 = most rare)")
-            .defineInRange(Constants.CIVILIZATION_MASSIVE_RARITY, 1.0, 0.2, 2.0);
-        CIVILIZATION_MEDIUM_RARITY = COMMON_BUILDER
-            .comment("# Rarity value for medium to large Civilization structures.\n# (0.2 = most common, 2.0 = most rare)")
-            .defineInRange(Constants.CIVILIZATION_MEDIUM_RARITY, 1.0, 0.2, 2.0);
-        CIVILIZATION_DECORATIVE_RARITY = COMMON_BUILDER
-            .comment("# Rarity value for small decorative structures found in Civilization biomes.\n# (0.2 = most common, 2.0 = most rare)")
-            .defineInRange(Constants.CIVILIZATION_DECORATIVE_RARITY, 1.0, 0.2, 2.0);
-        WILDERNESS_MASSIVE_RARITY = COMMON_BUILDER
-            .comment("# Rarity value for boss arenas and other massive Wilderness structures.\n# (0.2 = most common, 2.0 = most rare)")
-            .defineInRange(Constants.WILDERNESS_MASSIVE_RARITY, 1.0, 0.2, 2.0);
-        WILDERNESS_MEDIUM_RARITY = COMMON_BUILDER
-            .comment("# Rarity value for medium to large Wilderness structures.\n# (0.2 = most common, 2.0 = most rare)")
-            .defineInRange(Constants.WILDERNESS_MEDIUM_RARITY, 1.0, 0.2, 2.0);
-        WILDERNESS_DECORATIVE_RARITY= COMMON_BUILDER
-            .comment("# Rarity value for small decorative structures found in some Wilderness biomes.\n# (0.2 = most common, 2.0 = most rare)")
-            .defineInRange(Constants.WILDERNESS_DECORATIVE_RARITY, 1.0, 0.2, 2.0);
-        UNDERGROUND_MASSIVE_RARITY = COMMON_BUILDER
-            .comment("# Rarity value for massive Underground structures.\n# (0.2 = most common, 2.0 = most rare)")
-            .defineInRange(Constants.UNDERGROUND_MASSIVE_RARITY, 1.0, 0.2, 2.0);
-        OCEAN_MASSIVE_RARITY = COMMON_BUILDER
-            .comment("# Rarity value for massive Ocean structures, both underwater and on the surface.\n# (0.2 = most common, 2.0 = most rare)")
-            .defineInRange(Constants.OCEAN_MASSIVE_RARITY, 1.0, 0.2, 2.0);
-        OCEAN_MEDIUM_RARITY = COMMON_BUILDER
-            .comment("# Rarity value for medium to large Ocean structures, both underwater and on the surface.\n# (0.2 = most common, 2.0 = most rare)")
-            .defineInRange(Constants.OCEAN_MEDIUM_RARITY, 1.0, 0.2, 2.0);
-        SKY_MASSIVE_RARITY = COMMON_BUILDER
-            .comment("# Rarity value for massive floating Sky structures.\n# (0.2 = most common, 2.0 = most rare)")
-            .defineInRange(Constants.SKY_MASSIVE_RARITY, 1.0, 0.2, 2.0);
         CIVILIZATION_MASSIVE = COMMON_BUILDER
             .comment("Villages and other massive-sized Civilization structures with a rarer spread. Use a comma-separated list, newlines accepted.")
             .defineListAllowEmpty(Constants.CIVILIZATION_MASSIVE, EMPTY_LIST, () -> "", ProjectEvergreenConfig::validateListItem);
@@ -656,6 +663,7 @@ public class ProjectEvergreenConfig {
         UNDERGROUND_LAND = COMMON_BUILDER
             .comment("Underground structures that generate exclusively beneath land. Use a comma-separated list, newlines accepted.")
             .defineListAllowEmpty(Constants.UNDERGROUND_LAND, EMPTY_LIST, () -> "", ProjectEvergreenConfig::validateListItem);
+        */
         COMMON_BUILDER.pop();
 
         COMMON_CONFIG = COMMON_BUILDER.build();
@@ -663,97 +671,5 @@ public class ProjectEvergreenConfig {
 
     private static boolean validateListItem(final Object obj) {
         return obj instanceof String;
-    }
-
-    public static ArrayListMultimap<String, String> parseStructureBiomes() {
-		ArrayListMultimap<String, String> structuresByBiome = ArrayListMultimap.create();
-        allCivilization.forEach(s -> structuresByBiome.put(DefaultRegions.ALL_CIVILIZATION, s));
-        allWilderness.forEach(s -> structuresByBiome.put(DefaultRegions.ALL_WILDERNESS, s));
-        allOcean.forEach(s -> structuresByBiome.put(DefaultRegions.ALL_OCEAN, s));
-        allRivers.forEach(s -> structuresByBiome.put(DefaultRegions.ALL_RIVERS, s));
-        civilizationConiferous.forEach(s -> structuresByBiome.put(DefaultRegions.CIVILIZATION_CONIFEROUS, s));
-        civilizationDeciduous.forEach(s -> structuresByBiome.put(DefaultRegions.CIVILIZATION_DECIDUOUS, s));
-        civilizationArid.forEach(s -> structuresByBiome.put(DefaultRegions.CIVILIZATION_ARID, s));
-        civilizationDesert.forEach(s -> structuresByBiome.put(DefaultRegions.CIVILIZATION_DESERT, s));
-        civilizationDesertRed.forEach(s -> structuresByBiome.put(DefaultRegions.CIVILIZATION_DESERT_RED, s));
-        civilizationTropical.forEach(s -> structuresByBiome.put(DefaultRegions.CIVILIZATION_TROPICAL, s));
-        civilizationSnow.forEach(s -> structuresByBiome.put(DefaultRegions.CIVILIZATION_SNOW, s));
-        civilizationFields.forEach(s -> structuresByBiome.put(DefaultRegions.CIVILIZATION_FIELDS, s));
-        civilizationTemperate.forEach(s -> structuresByBiome.put(DefaultRegions.CIVILIZATION_TEMPERATE, s));
-        civilizationSpecialAutumnal.forEach(s -> structuresByBiome.put(DefaultRegions.CIVILIZATION_SPECIAL_AUTUMNAL, s));
-        civilizationSpecialCoastal.forEach(s -> structuresByBiome.put(DefaultRegions.CIVILIZATION_SPECIAL_COASTAL, s));
-        civilizationSpecialOriental.forEach(s -> structuresByBiome.put(DefaultRegions.CIVILIZATION_SPECIAL_ORIENTAL, s));
-        wildernessConiferous.forEach(s -> structuresByBiome.put(DefaultRegions.WILDERNESS_CONIFEROUS, s));
-        wildernessDeciduous.forEach(s -> structuresByBiome.put(DefaultRegions.WILDERNESS_DECIDUOUS, s));
-        wildernessArid.forEach(s -> structuresByBiome.put(DefaultRegions.WILDERNESS_ARID, s));
-        wildernessDesert.forEach(s -> structuresByBiome.put(DefaultRegions.WILDERNESS_DESERT, s));
-        wildernessDesertRed.forEach(s -> structuresByBiome.put(DefaultRegions.WILDERNESS_DESERT_RED, s));
-        wildernessTropical.forEach(s -> structuresByBiome.put(DefaultRegions.WILDERNESS_TROPICAL, s));
-        wildernessSnow.forEach(s -> structuresByBiome.put(DefaultRegions.WILDERNESS_SNOW, s));
-        wildernessFields.forEach(s -> structuresByBiome.put(DefaultRegions.WILDERNESS_FIELDS, s));
-        wildernessTemperate.forEach(s -> structuresByBiome.put(DefaultRegions.WILDERNESS_TEMPERATE, s));
-        wildernessSpecialAutumnal.forEach(s -> structuresByBiome.put(DefaultRegions.WILDERNESS_SPECIAL_AUTUMNAL, s));
-        wildernessSpecialCoastal.forEach(s -> structuresByBiome.put(DefaultRegions.WILDERNESS_SPECIAL_COASTAL, s));
-        wildernessSpecialOriental.forEach(s -> structuresByBiome.put(DefaultRegions.WILDERNESS_SPECIAL_ORIENTAL, s));
-        specialBarren.forEach(s -> structuresByBiome.put(DefaultRegions.SPECIAL_BARREN, s));
-        specialCraggy.forEach(s -> structuresByBiome.put(DefaultRegions.SPECIAL_CRAGGY, s));
-        civilizationSpecialFlowery.forEach(s -> structuresByBiome.put(DefaultRegions.CIVILIZATION_SPECIAL_FLOWERY, s));
-        specialIcy.forEach(s -> structuresByBiome.put(DefaultRegions.SPECIAL_ICY, s));
-        specialMagical.forEach(s -> structuresByBiome.put(DefaultRegions.SPECIAL_MAGICAL, s));
-        specialMediterranean.forEach(s -> structuresByBiome.put(DefaultRegions.SPECIAL_MEDITERRANEAN, s));
-        specialMountainousCold.forEach(s -> structuresByBiome.put(DefaultRegions.SPECIAL_MOUNTAINOUS_COLD, s));
-        specialMountainousHot.forEach(s -> structuresByBiome.put(DefaultRegions.SPECIAL_MOUNTAINOUS_HOT, s));
-        specialRuined.forEach(s -> structuresByBiome.put(DefaultRegions.SPECIAL_RUINED, s));
-        specialShroomy.forEach(s -> structuresByBiome.put(DefaultRegions.SPECIAL_SHROOMY, s));
-        specialSpooky.forEach(s -> structuresByBiome.put(DefaultRegions.SPECIAL_SPOOKY, s));
-        specialSwampy.forEach(s -> structuresByBiome.put(DefaultRegions.SPECIAL_SWAMPY, s));
-        specialSwampyWarm.forEach(s -> structuresByBiome.put(DefaultRegions.SPECIAL_SWAMPY_WARM, s));
-        oceanRareDeep.forEach(s -> structuresByBiome.put(DefaultRegions.OCEAN_RARE_DEEP, s));
-        oceanRareShallow.forEach(s -> structuresByBiome.put(DefaultRegions.OCEAN_RARE_SHALLOW, s));
-        oceanWarm.forEach(s -> structuresByBiome.put(DefaultRegions.OCEAN_WARM, s));
-        oceanWarmDeep.forEach(s -> structuresByBiome.put(DefaultRegions.OCEAN_DEEP_WARM, s));
-        oceanDeep.forEach(s -> structuresByBiome.put(DefaultRegions.OCEAN_DEEP, s));
-        oceanShallow.forEach(s -> structuresByBiome.put(DefaultRegions.OCEAN_SHALLOW, s));
-        oceanFrozen.forEach(s -> structuresByBiome.put(DefaultRegions.OCEAN_FROZEN, s));
-        oceanDeepFrozen.forEach(s -> structuresByBiome.put(DefaultRegions.OCEAN_DEEP_FROZEN, s));
-        oceanNotFrozen.forEach(s -> structuresByBiome.put(DefaultRegions.OCEAN_NOT_FROZEN, s));
-        riverOrCoastNotFrozen.forEach(s -> structuresByBiome.put(DefaultRegions.RIVER_OR_COAST_NOT_FROZEN, s));
-        riverOrCoastFrozen.forEach(s -> structuresByBiome.put(DefaultRegions.RIVER_OR_COAST_FROZEN, s));
-        riverFrozen.forEach(s -> structuresByBiome.put(DefaultRegions.RIVER_FROZEN, s));
-        riverNotFrozen.forEach(s -> structuresByBiome.put(DefaultRegions.RIVER_NOT_FROZEN, s));
-        riverTemperate.forEach(s -> structuresByBiome.put(DefaultRegions.RIVER_TEMPERATE, s));
-        riverWarm.forEach(s -> structuresByBiome.put(DefaultRegions.RIVER_WARM, s));
-        undergroundLand.forEach(s -> structuresByBiome.put(DefaultRegions.ALL_UNDERGROUND_LAND, s));
-        return structuresByBiome;
-    }
-
-    public static ArrayListMultimap<String, String> parseStructureRarities() {
-		ArrayListMultimap<String, String> structuresByRarity = ArrayListMultimap.create();
-        civilizationMassive.forEach(s -> structuresByRarity.put(DefaultStructureRarity.CIVILIZATION_MASSIVE, s));
-        civilizationMedium.forEach(s -> structuresByRarity.put(DefaultStructureRarity.CIVILIZATION_MEDIUM, s));
-        civilizationDeco.forEach(s -> structuresByRarity.put(DefaultStructureRarity.CIVILIZATION_DECO, s));
-        wildernessMassive.forEach(s -> structuresByRarity.put(DefaultStructureRarity.WILDERNESS_MASSIVE, s));
-        wildernessMedium.forEach(s -> structuresByRarity.put(DefaultStructureRarity.WILDERNESS_MEDIUM, s));
-        wildernessDeco.forEach(s -> structuresByRarity.put(DefaultStructureRarity.WILDERNESS_DECO, s));
-        oceanFloatingMassive.forEach(s -> structuresByRarity.put(DefaultStructureRarity.OCEAN_FLOATING_MASSIVE, s));
-        oceanUnderwaterMassive.forEach(s -> structuresByRarity.put(DefaultStructureRarity.OCEAN_UNDERWATER_MASSIVE, s));
-        oceanAllMedium.forEach(s -> structuresByRarity.put(DefaultStructureRarity.OCEAN_ALL_MEDIUM, s));
-        undergroundMassive.forEach(s -> structuresByRarity.put(DefaultStructureRarity.UNDERGROUND_SPRAWLING, s));
-        skyMassive.forEach(s -> structuresByRarity.put(DefaultStructureRarity.SKY_MASSIVE, s));
-        return structuresByRarity;
-    }
-
-    public static ArrayListMultimap<String, String> parseStructureFixes() {
-		ArrayListMultimap<String, String> structuresByFix = ArrayListMultimap.create();
-        ignoreMod.forEach(s -> structuresByFix.put(DefaultBlacklist.IGNORE_MOD, s));
-        ignoreStructure.forEach(s -> structuresByFix.put(DefaultBlacklist.IGNORE_STRUCTURE, s));
-        ignoreStructureType.forEach(s -> structuresByFix.put(DefaultBlacklist.IGNORE_STRUCTURE_TYPE, s));
-        ignoreBiomeRedistribution.forEach(s -> structuresByFix.put(DefaultBlacklist.IGNORE_BIOME_REDISTRIBUTION, s));
-        ignoreFlatnessCheck.forEach(s -> structuresByFix.put(DefaultBlacklist.IGNORE_FLATNESS_CHECK, s));
-        flatnessCheckNarrow.forEach(s -> structuresByFix.put(DefaultFlags.FLATNESS_CHECK_NARROW, s));
-        flatnessCheckWide.forEach(s -> structuresByFix.put(DefaultFlags.FLATNESS_CHECK_WIDE, s));
-        addTerrainAdaptation.forEach(s -> structuresByFix.put(DefaultFlags.ADD_TERRAIN_ADAPTATION, s));
-        DefaultFlags.safeStructureType.forEach(s -> structuresByFix.put(DefaultFlags.SAFE_STRUCTURE_TYPE, s));
-        return structuresByFix;
     }
 }

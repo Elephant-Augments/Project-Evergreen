@@ -3,7 +3,6 @@ package com.elephantaugments.projectevergreen.common.api;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultFlags;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableStructures;
-import com.elephantaugments.projectevergreen.common.util.PETags;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
@@ -50,12 +49,6 @@ public enum PEStructure {
         public TagKey<Structure> tag() {
             return this.tag;
         }
-
-        public TagKey<Structure> createTag() {
-            TagKey<Structure> tag = ProjectEvergreen.createTag(Registries.STRUCTURE, location);
-            this.tag = tag;
-            return tag;
-        }
     }
 
     public enum Flag {
@@ -63,6 +56,7 @@ public enum PEStructure {
         DISABLED(DefaultFlags.disabledStructures),
         IGNORED(DefaultFlags.ignoredStructureIDs),
         IGNORED_BIOME_REDISTRIBUTION(DefaultFlags.ignoreBiomeRedistribution),
+        IGNORE_BIOME_RADIUS_CHECK(DefaultFlags.ignoreBiomeRadiusCheck),
         IGNORED_PLACEMENT_TWEAKS(DefaultFlags.ignoreStructureType),
         ADJUSTED_TERRAIN_ADAPTATION(DefaultFlags.adjustedTerrainAdaptation),
         ADJUSTED_OCEAN_HEIGHTMAP(DefaultFlags.adjustedOceanHeightmap),
@@ -88,12 +82,6 @@ public enum PEStructure {
 
         public TagKey<Structure> tag() {
             return this.tag;
-        }
-
-        public TagKey<Structure> createTag() {
-            TagKey<Structure> tag = ProjectEvergreen.createTag(Registries.STRUCTURE, location);
-            this.tag = tag;
-            return tag;
         }
 
         public List<String> defaultIDs() {

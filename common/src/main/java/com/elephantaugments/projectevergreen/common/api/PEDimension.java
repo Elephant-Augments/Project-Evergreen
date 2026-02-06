@@ -63,12 +63,6 @@ public enum PEDimension {
         return this.structureTag;
     }
 
-    public TagKey<Structure> createStructureTag() {
-        TagKey<Structure> tag = ProjectEvergreen.createTag(Registries.STRUCTURE, location);
-        this.structureTag = tag;
-        return tag;
-    }
-
     public String biomeTagKey() {
         return this.biomeTagKey;
     }

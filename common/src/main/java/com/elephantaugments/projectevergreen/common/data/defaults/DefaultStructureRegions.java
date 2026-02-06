@@ -1,98 +1,9 @@
 package com.elephantaugments.projectevergreen.common.data.defaults;
 
-import com.elephantaugments.projectevergreen.common.api.PERegion;
 import com.google.common.collect.ImmutableList;
-
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class DefaultStructureRegions {
-
-//    public static HashSet<String> allOverworldStructures() {
-//
-//        HashSet<String> overworldStructures = Arrays.stream(PERegion.values())
-//                .map(PERegion::defaultStructures)
-//                .toList().stream()
-//                .map(String::valueOf)
-//                .collect(Collectors.toCollection(HashSet::new));
-//
-//        Arrays.stream(PERegion.values()).map(PERegion::defaultStructures).collect(Collectors.toCollection());
-//
-//        allUndergroundLand.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_UNDERGROUND_LAND, structureData.Data.get(s)));
-//        allCivilization.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_CIVILIZATION, structureData.Data.get(s)));
-//        allWilderness.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_WILDERNESS, structureData.Data.get(s)));
-//        allOcean.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_OCEAN, structureData.Data.get(s)));
-//        allRivers.forEach(s -> structuresByRegion.put(DefaultRegions.ALL_RIVERS, structureData.Data.get(s)));
-//        civilizationConiferous.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_CONIFEROUS, structureData.Data.get(s)));
-//        civilizationDeciduous.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_DECIDUOUS, structureData.Data.get(s)));
-//        civilizationArid.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_ARID, structureData.Data.get(s)));
-//        civilizationDesert.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_DESERT, structureData.Data.get(s)));
-//        civilizationDesertRed.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_DESERT_RED, structureData.Data.get(s)));
-//        civilizationTropical.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_TROPICAL, structureData.Data.get(s)));
-//        civilizationSnow.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SNOW, structureData.Data.get(s)));
-//        civilizationFields.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_FIELDS, structureData.Data.get(s)));
-//        civilizationTemperate.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_TEMPERATE, structureData.Data.get(s)));
-//        civilizationSpecialAutumnal.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SPECIAL_AUTUMNAL, structureData.Data.get(s)));
-//        civilizationSpecialCoastal.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SPECIAL_COASTAL, structureData.Data.get(s)));
-//        civilizationSpecialOriental.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SPECIAL_ORIENTAL, structureData.Data.get(s)));
-//        wildernessConiferous.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_CONIFEROUS, structureData.Data.get(s)));
-//        wildernessDeciduous.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_DECIDUOUS, structureData.Data.get(s)));
-//        wildernessArid.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_ARID, structureData.Data.get(s)));
-//        wildernessDesert.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_DESERT, structureData.Data.get(s)));
-//        wildernessDesertRed.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_DESERT_RED, structureData.Data.get(s)));
-//        wildernessTropical.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_TROPICAL, structureData.Data.get(s)));
-//        wildernessSnow.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_SNOW, structureData.Data.get(s)));
-//        wildernessFields.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_FIELDS, structureData.Data.get(s)));
-//        wildernessTemperate.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_TEMPERATE, structureData.Data.get(s)));
-//        wildernessSpecialAutumnal.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_SPECIAL_AUTUMNAL, structureData.Data.get(s)));
-//        wildernessSpecialCoastal.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_SPECIAL_COASTAL, structureData.Data.get(s)));
-//        wildernessSpecialOriental.forEach(s -> structuresByRegion.put(DefaultRegions.WILDERNESS_SPECIAL_ORIENTAL, structureData.Data.get(s)));
-//        specialRocky.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_BARREN, structureData.Data.get(s)));
-//        specialCraggy.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_CRAGGY, structureData.Data.get(s)));
-//        civilizationSpecialFlowery.forEach(s -> structuresByRegion.put(DefaultRegions.CIVILIZATION_SPECIAL_FLOWERY, structureData.Data.get(s)));
-//        specialIcy.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_ICY, structureData.Data.get(s)));
-//        specialMagical.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_MAGICAL, structureData.Data.get(s)));
-//        specialMediterranean.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_MEDITERRANEAN, structureData.Data.get(s)));
-//        specialMountainousCold.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_MOUNTAINOUS_COLD, structureData.Data.get(s)));
-//        specialMountainousHot.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_MOUNTAINOUS_HOT, structureData.Data.get(s)));
-//        specialRuined.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_RUINED, structureData.Data.get(s)));
-//        specialShroomy.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_SHROOMY, structureData.Data.get(s)));
-//        specialSpooky.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_SPOOKY, structureData.Data.get(s)));
-//        specialSwampy.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_SWAMPY, structureData.Data.get(s)));
-//        specialSwampyWarm.forEach(s -> structuresByRegion.put(DefaultRegions.SPECIAL_SWAMPY_WARM, structureData.Data.get(s)));
-//        oceanRareDeep.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_RARE_DEEP, structureData.Data.get(s)));
-//        oceanRareShallow.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_RARE_SHALLOW, structureData.Data.get(s)));
-//        oceanWarm.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_WARM, structureData.Data.get(s)));
-//        oceanWarmDeep.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_DEEP_WARM, structureData.Data.get(s)));
-//        oceanDeep.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_DEEP, structureData.Data.get(s)));
-//        oceanShallow.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_SHALLOW, structureData.Data.get(s)));
-//        oceanFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_FROZEN, structureData.Data.get(s)));
-//        oceanDeepFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_DEEP_FROZEN, structureData.Data.get(s)));
-//        oceanNotFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.OCEAN_NOT_FROZEN, structureData.Data.get(s)));
-//        riverOrCoastNotFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_OR_COAST_NOT_FROZEN, structureData.Data.get(s)));
-//        riverOrCoastFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_OR_COAST_FROZEN, structureData.Data.get(s)));
-//        riverFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_FROZEN, structureData.Data.get(s)));
-//        riverNotFrozen.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_NOT_FROZEN, structureData.Data.get(s)));
-//        riverTemperate.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_TEMPERATE, structureData.Data.get(s)));
-//        riverWarm.forEach(s -> structuresByRegion.put(DefaultRegions.RIVER_WARM, structureData.Data.get(s)));
-//
-//        //TODO: Add PERegion support to other dimensions
-//        /*ArrayListMultimap<DefaultStructureDimensions.Dimension, String> structuresByOtherDimension = DefaultStructureDimensions.mapStructuresToOtherDimensions();
-//        structuresByOtherDimension.get(DefaultStructureDimensions.Dimension.NETHER).forEach((s) ->
-//            structuresByRegion.put(DefaultRegions.NETHER_BIOMES, structureData.Data.get(s))
-//        );
-//        structuresByOtherDimension.get(DefaultStructureDimensions.Dimension.END).forEach((s) ->
-//            structuresByRegion.put(DefaultRegions.END_BIOMES, structureData.Data.get(s))
-//        );
-//        structuresByOtherDimension.get(DefaultStructureDimensions.Dimension.AETHER).forEach((s) ->
-//            structuresByRegion.put(DefaultRegions.AETHER_BIOMES, structureData.Data.get(s))
-//        );
-//        structuresByOtherDimension.get(DefaultStructureDimensions.Dimension.AFTERDARK).forEach((s) ->
-//            structuresByRegion.put(DefaultRegions.AFTERDARK_BIOMES, structureData.Data.get(s))
-//        );*/
-//        structuresByRegion.values().removeIf(Objects::isNull);
-//        return structuresByRegion;
-//    }
     
     //CIVILIZATION_TEMPERATE
     public static final List<String> civilizationTemperate = ImmutableList.of(

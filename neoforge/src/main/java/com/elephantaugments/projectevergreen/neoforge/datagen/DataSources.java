@@ -2,6 +2,9 @@ package com.elephantaugments.projectevergreen.neoforge.datagen;
 
 import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
+import com.elephantaugments.projectevergreen.common.api.PERegion;
+import com.elephantaugments.projectevergreen.common.api.PEStructure;
+import com.elephantaugments.projectevergreen.common.api.PEStructureSet;
 import com.elephantaugments.projectevergreen.common.data.defaults.*;
 import com.elephantaugments.projectevergreen.neoforge.ProjectEvergreenNeoforge;
 import com.elephantaugments.projectevergreen.neoforge.config.ProjectEvergreenConfig;
@@ -25,19 +28,19 @@ public class DataSources {
             return switch (value.getAsString()) {
                 case "get_biome" -> DataSources.getBiomeTag(from.getAsString());
                 case Constants.IGNORE_STRUCTURE_TYPE -> DataSources.getIgnoreStructureType(from.getAsString());
-                case DefaultFlags.FLATNESS_CHECK_NARROW -> DataSources.getFlatnessCheckNarrow(from.getAsString());
-                case DefaultFlags.FLATNESS_CHECK_WIDE -> DataSources.getFlatnessCheckWide(from.getAsString());
+                case Constants.FLATNESS_CHECK_SMALL -> DataSources.getFlatnessCheckNarrow(from.getAsString());
+                case Constants.FLATNESS_CHECK_LARGE -> DataSources.getFlatnessCheckWide(from.getAsString());
                 case Constants.ALLOWED_TERRAIN_HEIGHT_NARROW -> DataSources.getAllowedTerrainHeightNarrow();
                 case Constants.ALLOWED_TERRAIN_HEIGHT_WIDE -> DataSources.getAllowedTerrainHeightWide();
                 case Constants.ALLOWED_TERRAIN_HEIGHT_SPRAWLING -> DataSources.getAllowedTerrainHeightSprawling();
 
                 case Constants.POPULATION_BIAS -> DataSources.getBiomeRadius();
                 case Constants.POPULATION_BIAS_OFFSET -> DataSources.getPopulationBiasOffset();
-                case Constants.CIVILIZATION_MASSIVE_RARITY -> DataSources.getSpreadWithOffset(from.getAsInt(), ProjectEvergreenConfig.civilizationMassiveRarity, DefaultStructureRarity.CIVILIZATION_MASSIVE);
-                case Constants.CIVILIZATION_MEDIUM_RARITY -> DataSources.getSpreadWithOffset(from.getAsInt(), ProjectEvergreenConfig.civilizationMediumRarity, DefaultStructureRarity.CIVILIZATION_MEDIUM);
+                case Constants.CIVILIZATION_MASSIVE_RARITY -> DataSources.getSpreadWithOffset(from.getAsInt(), ProjectEvergreenConfig.civilizationMassiveRarity, PEStructureSet.CIVILIZATION_INLAND_MASSIVE.location().toString());
+                case Constants.CIVILIZATION_MEDIUM_RARITY -> DataSources.getSpreadWithOffset(from.getAsInt(), ProjectEvergreenConfig.civilizationMediumRarity, PEStructureSet.CIVILIZATION_INLAND_MEDIUM.location().toString());
                 case Constants.CIVILIZATION_DECORATIVE_RARITY -> DataSources.getSpread(from.getAsInt(), ProjectEvergreenConfig.civilizationDecorativeRarity);
-                case Constants.WILDERNESS_MASSIVE_RARITY -> DataSources.getSpreadWithOffset(from.getAsInt(), ProjectEvergreenConfig.wildernessMassiveRarity, DefaultStructureRarity.WILDERNESS_MASSIVE);
-                case Constants.WILDERNESS_MEDIUM_RARITY -> DataSources.getSpreadWithOffset(from.getAsInt(), ProjectEvergreenConfig.wildernessMediumRarity, DefaultStructureRarity.WILDERNESS_MEDIUM);
+                case Constants.WILDERNESS_MASSIVE_RARITY -> DataSources.getSpreadWithOffset(from.getAsInt(), ProjectEvergreenConfig.wildernessMassiveRarity, PEStructureSet.WILDERNESS_INLAND_MASSIVE.location().toString());
+                case Constants.WILDERNESS_MEDIUM_RARITY -> DataSources.getSpreadWithOffset(from.getAsInt(), ProjectEvergreenConfig.wildernessMediumRarity, PEStructureSet.WILDERNESS_INLAND_MEDIUM.location().toString());
                 case Constants.WILDERNESS_DECORATIVE_RARITY -> DataSources.getSpread(from.getAsInt(), ProjectEvergreenConfig.wildernessDecorativeRarity);
                 case Constants.UNDERGROUND_MASSIVE_RARITY -> DataSources.getSpread(from.getAsInt(), ProjectEvergreenConfig.undergroundMassiveRarity);
                 case Constants.OCEAN_MASSIVE_RARITY -> DataSources.getSpread(from.getAsInt(), ProjectEvergreenConfig.oceanMassiveRarity);
@@ -119,7 +122,7 @@ public class DataSources {
                         .sorted(Comparator.reverseOrder())
                         .findFirst();
         return biomeTag.isEmpty() ? 
-            ProjectEvergreen.GSON.toJsonTree(DefaultRegions.NO_BIOMES) :
+            ProjectEvergreen.GSON.toJsonTree(PERegion.NO_BIOMES.tagKey()) :
             ProjectEvergreen.GSON.toJsonTree(biomeTag.get());
     }
 
@@ -133,7 +136,7 @@ public class DataSources {
 
     private static JsonElement buildStructureSet(List<? extends String> set) {
         List<JsonObject> jsonSet = set.stream()
-            .filter(e -> TestConditions.isStructureLoaded(e) && !DefaultBlacklist.structureIDs.contains(e))
+            .filter(e -> TestConditions.isStructureLoaded(e) && !DefaultFlags.disabledStructures.contains(e))
             .map(DataSources::buildStructureEntry)
             .collect(Collectors.toList());
         return ProjectEvergreen.GSON.toJsonTree(jsonSet);

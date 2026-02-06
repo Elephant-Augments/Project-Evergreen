@@ -1,27 +1,9 @@
 package com.elephantaugments.projectevergreen.common.data.defaults;
 
-import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ImmutableList;
-
 import java.util.List;
 
 public class DefaultFlags {
-    public static final String SAFE_STRUCTURE_TYPE = "safe_structure_type";
-    public static final String FLATNESS_CHECK_WIDE = "flatness_check_wide";
-    public static final String FLATNESS_CHECK_NARROW = "flatness_check_narrow";
-    public static final String FLATNESS_CHECK_SPRAWLING = "flatness_check_sprawling";
-    public static final String ADD_TERRAIN_ADAPTATION = "add_terrain_adaptation";
-    public static final String ADJUST_Y_LEVEL = "adjust_y_level";
-    
-    public static ArrayListMultimap<String, String> parseStructures() {
-		ArrayListMultimap<String, String> structuresByFix = ArrayListMultimap.create();
-        safeStructureType.forEach(s -> structuresByFix.put(SAFE_STRUCTURE_TYPE, s));
-        flatnessCheckLarge.forEach(s -> structuresByFix.put(FLATNESS_CHECK_WIDE, s));
-        flatnessCheckMedium.forEach(s -> structuresByFix.put(FLATNESS_CHECK_NARROW, s));
-        adjustedTerrainAdaptation.forEach(s -> structuresByFix.put(ADD_TERRAIN_ADAPTATION, s));
-        adjustedYLevel.forEach(s -> structuresByFix.put(ADJUST_Y_LEVEL, s));
-        return structuresByFix;
-    }
 
     //DISABLED
     //<--- Structure sets to disable individually --->
@@ -492,8 +474,14 @@ public class DefaultFlags {
 		"repurposed_structures:village_ocean"
 	);
 
+	//IGNORE_BIOME_RADIUS_CHECK
+	//<--- Ignore's population bias adjustments --->
+	public static final List<String> ignoreBiomeRadiusCheck = ImmutableList.of(
+
+	);
+
 	//IGNORED_FLATNESS_CHECK
-	//<--- Safe structure type used for structures that break when integrated_api:generic_structure is used --->
+	//<--- TODO: Replace with Heightmap enum --->
 	public static final List<String> ignoreFlatnessCheck = ImmutableList.of(
 		"custom:floating_island",
 		"custom:rootless",

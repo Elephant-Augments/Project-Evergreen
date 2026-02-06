@@ -1,7 +1,5 @@
 package com.elephantaugments.projectevergreen.common;
 
-import com.elephantaugments.projectevergreen.common.platform.PlatformHelper;
-import com.elephantaugments.projectevergreen.common.util.PETags;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.mojang.logging.LogUtils;
@@ -16,9 +14,7 @@ public class ProjectEvergreen {
     public static final Logger LOGGER = LogUtils.getLogger();
     public static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
-    public static void init() {
-        //PETags.initTags();
-    }
+    public static void init() {}
 
     public static <T> TagKey<T> createTag(ResourceKey<Registry<T>> registry, ResourceLocation location) {
         return TagKey.create(registry, location);

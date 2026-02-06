@@ -3,7 +3,6 @@ package com.elephantaugments.projectevergreen.common.api;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultBiomeTags;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableBiomes;
-import com.elephantaugments.projectevergreen.common.util.PETags;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
@@ -95,12 +94,6 @@ public enum PEBiome {
         return this.tagKey;
     }
 
-    public TagKey<Biome> createTag() {
-        TagKey<Biome> tag = ProjectEvergreen.createTag(Registries.BIOME, location);
-        this.tag = tag;
-        return tag;
-    }
-
     public TagKey<Biome> tag() {
         return this.tag;
     }
@@ -132,12 +125,6 @@ public enum PEBiome {
 
         public TagKey<Biome> tag() {
             return this.tag;
-        }
-
-        public TagKey<Biome> createTag() {
-            TagKey<Biome> tag = ProjectEvergreen.createTag(Registries.BIOME, location);
-            this.tag = tag;
-            return tag;
         }
 
         public List<String> defaultIDs() {

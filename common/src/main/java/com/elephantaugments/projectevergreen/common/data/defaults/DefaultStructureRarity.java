@@ -1,88 +1,9 @@
 package com.elephantaugments.projectevergreen.common.data.defaults;
 
-import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
-import com.elephantaugments.projectevergreen.common.api.PatchableStructure;
-import com.elephantaugments.projectevergreen.common.api.PatchableStructureSet;
-import com.elephantaugments.projectevergreen.common.api.WorldgenDataManager;
-import com.elephantaugments.projectevergreen.common.data.patchable.PatchableStructures;
-import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ImmutableList;
-
 import java.util.*;
 
 public class DefaultStructureRarity {
-
-	public static final String CIVILIZATION_SPRAWLING = "project_evergreen:civilization_inland_sprawling";
-	public static final String CIVILIZATION_MASSIVE = "project_evergreen:civilization_inland_massive";
-    public static final String CIVILIZATION_MEDIUM = "project_evergreen:civilization_inland_medium";
-    public static final String CIVILIZATION_DECO = "project_evergreen:civilization_inland_deco";
-    public static final String WILDERNESS_SPRAWLING = "project_evergreen:wilderness_inland_sprawling";
-    public static final String WILDERNESS_MASSIVE = "project_evergreen:wilderness_inland_massive";
-    public static final String WILDERNESS_MEDIUM = "project_evergreen:wilderness_inland_medium";
-    public static final String WILDERNESS_DECO = "project_evergreen:wilderness_inland_deco";
-    public static final String OCEAN_FLOATING_MASSIVE = "project_evergreen:ocean_floating_massive";
-    public static final String OCEAN_UNDERWATER_MASSIVE = "project_evergreen:ocean_underwater_massive";
-    public static final String OCEAN_ALL_MEDIUM = "project_evergreen:ocean_all_medium";
-    public static final String UNDERGROUND_SPRAWLING = "project_evergreen:underground_sprawling";
-    public static final String SKY_MASSIVE = "project_evergreen:sky_massive";
-
-	/*public static LinkedHashMap<String, PatchableStructureSet> mapStructureSetByID() {
-		LinkedHashMap<String, PatchableStructureSet> structureSetsByID = new LinkedHashMap<>();
-		addSetToMap(structureSetsByID, new PatchableStructureSet(
-				DefaultStructureRarity.CIVILIZATION_MASSIVE,
-				65,
-				55
-		));
-		structureSetsByID.get(DefaultStructureRarity.CIVILIZATION_MASSIVE)
-				.appendStructures(DefaultStructureRarity.CIVILIZATION_SPRAWLING);
-		addSetToMap(structureSetsByID, new PatchableStructureSet(
-				DefaultStructureRarity.CIVILIZATION_MASSIVE,
-				65,
-				55
-		));
-
-		ProjectEvergreen.LOGGER.info("Successfully mapped " + structureSetsByID.size() + " structure sets.");
-		return structureSetsByID;
-	}
-
-	public static void addSetToMap(LinkedHashMap<String, PatchableStructureSet> map, PatchableStructureSet structureSet) {
-		map.put(structureSet.id, structureSet);
-		structureSet.updateData();
-	}
-
-    public static ArrayListMultimap<String, PatchableStructure> mapStructuresByRarity(PatchableStructures structureData) {
-
-		ArrayListMultimap<String, PatchableStructure> structuresByRarity = ArrayListMultimap.create();
-        civilizationSprawling.forEach(s -> structuresByRarity.put(CIVILIZATION_SPRAWLING, structureData.Data.get(s)));
-        civilizationMassive.forEach(s -> structuresByRarity.put(CIVILIZATION_MASSIVE, structureData.Data.get(s)));
-        civilizationMedium.forEach(s -> structuresByRarity.put(CIVILIZATION_MEDIUM, structureData.Data.get(s)));
-        civilizationDeco.forEach(s -> structuresByRarity.put(CIVILIZATION_DECO, structureData.Data.get(s)));
-        wildernessSprawling.forEach(s -> structuresByRarity.put(WILDERNESS_SPRAWLING, structureData.Data.get(s)));
-        wildernessMassive.forEach(s -> structuresByRarity.put(WILDERNESS_MASSIVE, structureData.Data.get(s)));
-        wildernessMedium.forEach(s -> structuresByRarity.put(WILDERNESS_MEDIUM, structureData.Data.get(s)));
-        wildernessDeco.forEach(s -> structuresByRarity.put(WILDERNESS_DECO, structureData.Data.get(s)));
-        oceanFloatingMassive.forEach(s -> structuresByRarity.put(OCEAN_FLOATING_MASSIVE, structureData.Data.get(s)));
-        oceanUnderwaterMassive.forEach(s -> structuresByRarity.put(OCEAN_UNDERWATER_MASSIVE, structureData.Data.get(s)));
-        oceanAllMedium.forEach(s -> structuresByRarity.put(OCEAN_ALL_MEDIUM, structureData.Data.get(s)));
-        undergroundSprawling.forEach(s -> structuresByRarity.put(UNDERGROUND_SPRAWLING, structureData.Data.get(s)));
-        skyMassive.forEach(s -> structuresByRarity.put(SKY_MASSIVE, structureData.Data.get(s)));
-
-		structuresByRarity.values().removeIf(Objects::isNull);
-		return structuresByRarity;
-    }
-
-    public static ArrayListMultimap<Size, PatchableStructure> mapStructuresBySize(PatchableStructures structureData) {
-		ArrayListMultimap<Size, PatchableStructure> structuresBySize = ArrayListMultimap.create();
-		ArrayListMultimap<String, PatchableStructure> structuresByRarity = mapStructuresByRarity(structureData);
-
-		structureData.Data.forEach((id, s) -> {
-			PatchableStructure sWithSize = WorldgenDataManager.getStructureWithSize(structuresByRarity, s);
-			structuresBySize.put(sWithSize.getSize(), sWithSize);
-		});
-
-		structuresBySize.values().removeIf(Objects::isNull);
-		return structuresBySize;
-    }*/
 
     //CIVILIZATION_SPRAWLING
     public static final List<String> civilizationSprawling = ImmutableList.of(

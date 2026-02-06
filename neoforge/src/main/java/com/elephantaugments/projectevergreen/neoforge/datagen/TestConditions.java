@@ -1,9 +1,9 @@
 package com.elephantaugments.projectevergreen.neoforge.datagen;
 
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
+import com.elephantaugments.projectevergreen.common.api.PEStructure;
 import com.elephantaugments.projectevergreen.common.api.WorldgenDataManager;
 import com.elephantaugments.projectevergreen.neoforge.config.ProjectEvergreenConfig;
-import com.elephantaugments.projectevergreen.common.data.defaults.DefaultBlacklist;
 import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultFlags;
 import com.google.common.collect.ImmutableList;
@@ -50,10 +50,10 @@ public class TestConditions {
 		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "flatness_check_ignored"), TestConditions::flatnessCheckIgnored);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "flat_check_narrow"), TestConditions::flatCheckNarrow);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "flat_check_wide"), TestConditions::flatCheckWide);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, DefaultFlags.FLATNESS_CHECK_SPRAWLING), TestConditions::flatCheckSprawling);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.FLATNESS_CHECK_SPRAWLING), TestConditions::flatCheckSprawling);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.ENHANCED_TERRAIN_ADAPTATION), TestConditions::enhancedTerrainAdaptation);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, DefaultBlacklist.IGNORE_BIOME_RADIUS), TestConditions::biomeRadiusIgnored);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, DefaultBlacklist.IGNORE_BIOME_REDISTRIBUTION), TestConditions::biomeRedistributionIgnored);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.IGNORE_BIOME_RADIUS), TestConditions::biomeRadiusIgnored);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.IGNORE_BIOME_REDISTRIBUTION), TestConditions::biomeRedistributionIgnored);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "population_bias_check"), TestConditions::populationBiasCheck);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "safe_structure_type"), TestConditions::safeStructureType);
         Patched.registerTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "advanced_structure_type"), TestConditions::advancedStructureType);
@@ -143,12 +143,12 @@ public class TestConditions {
 	}
 
     private static boolean biomeRedistributionIgnored(JsonElement value) {
-		final ResourceLocation id = PatchUtil.assertIsResourceLocation(DefaultBlacklist.IGNORE_BIOME_REDISTRIBUTION, "value", value);
+		final ResourceLocation id = PatchUtil.assertIsResourceLocation(Constants.IGNORE_BIOME_REDISTRIBUTION, "value", value);
         return isBiomeRedistributionIgnored(id.toString());
 	}
 
     private static boolean biomeRadiusIgnored(JsonElement value) {
-		final ResourceLocation id = PatchUtil.assertIsResourceLocation(DefaultBlacklist.IGNORE_BIOME_RADIUS, "value", value);
+		final ResourceLocation id = PatchUtil.assertIsResourceLocation(Constants.IGNORE_BIOME_RADIUS, "value", value);
         return isBiasIgnored(id.toString());
 	}
 
@@ -236,39 +236,39 @@ public class TestConditions {
         return ProjectEvergreenConfig.structuresByFix.entries().stream()
             .filter(e -> Constants.getNamespace(id).equals(e.getValue()) || id.equals(e.getValue()))
             .map(Map.Entry::getKey)
-            .anyMatch(e -> e.equals(DefaultBlacklist.IGNORE_MOD) || e.equals(DefaultBlacklist.IGNORE_STRUCTURE));
+            .anyMatch(e -> e.equals(Constants.IGNORE_MOD) || e.equals(Constants.IGNORE_STRUCTURE));
     }
 
     public static boolean isStructureTypeIgnored(String id) {
         return ProjectEvergreenConfig.structuresByFix.entries().stream()
             .filter(e -> id.equals(e.getValue()))
             .map(Map.Entry::getKey)
-            .anyMatch(e -> e.equals(DefaultBlacklist.IGNORE_STRUCTURE_TYPE));
+            .anyMatch(e -> e.equals(Constants.IGNORE_STRUCTURE_TYPE));
     }
 
     public static boolean isBiomeRedistributionIgnored(String id) {
         return ProjectEvergreenConfig.structuresByFix.entries().stream()
             .filter(e -> id.equals(e.getValue()))
             .map(Map.Entry::getKey)
-            .anyMatch(e -> e.equals(DefaultBlacklist.IGNORE_BIOME_REDISTRIBUTION));
+            .anyMatch(e -> e.equals(Constants.IGNORE_BIOME_REDISTRIBUTION));
     }
 
     public static boolean isBiasIgnored(String id) {
-        return (ALL_IGNORED_BIAS_STRUCTURES.indexOf(id) > 0) || (DefaultBlacklist.ignoreBiomeRadius.indexOf(id) > 0);
+        return (ALL_IGNORED_BIAS_STRUCTURES.indexOf(id) > 0) || (DefaultFlags.ignoreBiomeRadiusCheck.indexOf(id) > 0);
     }
 
     public static boolean isTerrainAdaptationIgnored(String id) {
         return ProjectEvergreenConfig.structuresByFix.entries().stream()
             .filter(e -> id.equals(e.getValue()))
             .map(Map.Entry::getKey)
-            .anyMatch(e -> e.equals(DefaultBlacklist.IGNORE_TERRAIN_ADAPTATION));
+            .anyMatch(e -> e.equals(Constants.IGNORE_TERRAIN_ADAPTATION));
     }
 
     public static boolean isFlatnessCheckIgnored(String id) {
         return ProjectEvergreenConfig.structuresByFix.entries().stream()
             .filter(e -> id.equals(e.getValue()))
             .map(Map.Entry::getKey)
-            .anyMatch(e -> e.equals(DefaultBlacklist.IGNORE_FLATNESS_CHECK));
+            .anyMatch(e -> e.equals(Constants.IGNORE_FLATNESS_CHECK));
     }
 
     public static boolean hasPopulationBias_Structure(String id) {

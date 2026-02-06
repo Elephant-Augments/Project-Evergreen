@@ -3,7 +3,6 @@ package com.elephantaugments.projectevergreen.common.api;
 import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureRegions;
-import com.elephantaugments.projectevergreen.common.util.PETags;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
@@ -629,18 +628,6 @@ public enum PERegion {
 
     public TagKey<Structure> structureTag() {
         return this.structureTag;
-    }
-
-    public TagKey<Biome> createBiomeTag() {
-        TagKey<Biome> tag = ProjectEvergreen.createTag(Registries.BIOME, location);
-        this.biomeTag = tag;
-        return tag;
-    }
-
-    public TagKey<Structure> createStructureTag() {
-        TagKey<Structure> tag = ProjectEvergreen.createTag(Registries.STRUCTURE, location);
-        this.structureTag = tag;
-        return tag;
     }
 
     public List<String> defaultBiomes() {
