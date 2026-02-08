@@ -57,8 +57,8 @@ public class StructureTagProvider extends StructureTagsProvider {
             setFlagTag(flag);
         }
         //IS_DIFFICULTY
-        for (int i = 0; i <= 10; i++) {
-            setDifficultyTag(i);
+        for (PEStructure.Difficulty diff : PEStructure.Difficulty.values()) {
+            setDifficultyTag(diff);
         }
     }
 
@@ -130,15 +130,21 @@ public class StructureTagProvider extends StructureTagsProvider {
         );
     }
 
-    private void setDifficultyTag(int diffLevel) {
-        List<ResourceLocation> structures = WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
-                .filter(s -> s.difficulty == diffLevel)
-                .sorted((a, b) -> collator.compare(a.id.split(":")[0], b.id.split(":")[0]))
-                .map(s -> ResourceLocation.parse(s.id))
-                .toList();
-        TagKey<Structure> tag = diffMap.get(diffLevel) != null ? diffMap.get(diffLevel) : PEStructure.Difficulty.DIFFICULTY_LEVEL_0.tag();
-        structures.forEach(s -> {
-            tag(tag).addOptional(s);
-        });
+    private void setDifficultyTag(PEStructure.Difficulty diff) {
+        Optional.ofNullable(diff.tag()).ifPresent(
+            (tag) -> {
+                if (PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
+                    ProjectEvergreen.LOGGER.info("Populating structure difficulty tag... " + tag.location());
+                }
+                List<ResourceLocation> structures = WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                        .filter(s -> s.getDifficulty().isPresent() && s.getDifficulty().get().equals(diff.number()))
+                        .sorted((a, b) -> collator.compare(a.id.split(":")[0], b.id.split(":")[0]))
+                        .map(s -> ResourceLocation.parse(s.id))
+                        .toList();
+                structures.forEach(s -> {
+                    tag(tag).addOptional(s);
+                });
+            }
+        );
     }
 }

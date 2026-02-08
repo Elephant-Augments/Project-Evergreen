@@ -1,5 +1,6 @@
 package com.elephantaugments.projectevergreen.common.api;
 
+import com.elephantaugments.projectevergreen.common.Constants;
 import com.google.gson.JsonObject;
 
 import java.util.ArrayList;
@@ -8,6 +9,7 @@ import java.util.List;
 public class PatchableBiome extends IPatchable {
 
     protected final String REGISTRY_PATH = "worldgen/biome/";
+    public final String JSON_DATA_KEY = Constants.PATCHABLE_BIOME_KEY;
 
     private final List<PEBiome.Flag> flags = new ArrayList<PEBiome.Flag>();
 

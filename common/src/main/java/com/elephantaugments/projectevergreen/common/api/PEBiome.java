@@ -1,8 +1,10 @@
 package com.elephantaugments.projectevergreen.common.api;
 
+import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultBiomeTags;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableBiomes;
+import com.google.common.collect.ImmutableList;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
@@ -11,6 +13,7 @@ import net.minecraft.world.level.biome.Biome;
 import java.util.List;
 
 public enum PEBiome {
+    NO_BIOMES(List.of("project_evergreen:empty")),
     DESERT_DUNES_ALIVE(DefaultBiomeTags.desertDunesAlive),
     DESERT_DUNES_BARREN(DefaultBiomeTags.desertDunesBarren),
     DESERT_RED_ALIVE(DefaultBiomeTags.desertRedAlive),
@@ -72,6 +75,8 @@ public enum PEBiome {
     SPECIAL_SWAMPY_TEMPERATE(DefaultBiomeTags.specialSwampyTemperate),
     SPECIAL_SWAMPY_WARM(DefaultBiomeTags.specialSwampyWarm);
 
+    private final String jsonKey = "biome";
+    private final String jsonPath = "/" + Constants.PROPERTIES_KEY + "/" + jsonKey;
     private final String tagKey;
     private final String path;
     private final ResourceLocation location;
@@ -90,6 +95,14 @@ public enum PEBiome {
         return this.location;
     }
 
+    public String jsonKey() {
+        return jsonKey;
+    }
+
+    public String jsonPath() {
+        return jsonPath;
+    }
+
     public String tagKey() {
         return this.tagKey;
     }
@@ -105,6 +118,8 @@ public enum PEBiome {
     public enum Flag {
         PATCHABLE(new PatchableBiomes().getIDs().stream().toList());
 
+        private final String jsonKey;
+        private final String jsonPath;
         private final String path;
         private final ResourceLocation location;
         private String tagKey;
@@ -112,11 +127,21 @@ public enum PEBiome {
         private List<String> defaultIDs;
 
         Flag(List<String> defaultIDs) {
+            jsonKey = name().toLowerCase();
+            jsonPath = "/" + Constants.PROPERTIES_KEY + "/" + jsonKey;
             path = name().contains("_") ? ("is_flagged/" + name().toLowerCase()) : name().toLowerCase();
             location = ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, path);
             this.tagKey = "#" + location;
             this.tag = ProjectEvergreen.createTag(Registries.BIOME, location);
             this.defaultIDs = defaultIDs;
+        }
+
+        public String jsonKey() {
+            return jsonKey;
+        }
+
+        public String jsonPath() {
+            return jsonPath;
         }
 
         public String tagKey() {

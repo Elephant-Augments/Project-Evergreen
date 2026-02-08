@@ -2,7 +2,9 @@ package com.elephantaugments.projectevergreen.common.api;
 
 import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
+import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureHeightmaps;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureRegions;
+import com.google.common.collect.ImmutableList;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
@@ -15,12 +17,12 @@ import java.util.stream.Collectors;
 public enum PERegion {
     NO_BIOMES(
         Constants.EMPTY_LIST,
-        new ArrayList<>(),
-        null
+        List.of(PEBiome.NO_BIOMES),
+        DangerLevel.SAFE
     ),
     ALL_UNDERGROUND_LAND(
-        DefaultStructureRegions.allOcean,
-        new ArrayList<>(),
+        DefaultStructureHeightmaps.underground,
+        List.of(PEBiome.NO_BIOMES),
         DangerLevel.NEUTRAL
     ),
     ALL_OCEAN(
@@ -588,13 +590,16 @@ public enum PERegion {
         DangerLevel.DANGEROUS
     );
 
+    private List<String> defaultStructures = new ArrayList<>();
+    private List<PEBiome> defaultBiomes = new ArrayList<>();
+
+    private final String jsonKey = "region";
+    private final String jsonPath = "/" + Constants.PROPERTIES_KEY + "/" + jsonKey;
     private final String path;
     private final ResourceLocation location;
     private final String tagKey;
     private TagKey<Biome> biomeTag;
     private TagKey<Structure> structureTag;
-    private List<PEBiome> defaultBiomes;
-    private List<String> defaultStructures;
     private DangerLevel dangerLevel;
 
     public enum DangerLevel {
@@ -607,8 +612,8 @@ public enum PERegion {
         path = "is_region/" + name().toLowerCase();
         location = ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, path);
         tagKey = "#" + location;
-        this.defaultBiomes = defaultBiomes;
-        this.defaultStructures = defaultStructures;
+        this.defaultBiomes.addAll(defaultBiomes);
+        this.defaultStructures.addAll(defaultStructures);
         this.biomeTag = ProjectEvergreen.createTag(Registries.BIOME, location);
         this.structureTag = ProjectEvergreen.createTag(Registries.STRUCTURE, location);
         this.dangerLevel = dangerLevel;
@@ -616,6 +621,14 @@ public enum PERegion {
 
     public String path() {
         return this.path;
+    }
+
+    public String jsonKey() {
+        return jsonKey;
+    }
+
+    public String jsonPath() {
+        return jsonPath;
     }
 
     public String tagKey() {
@@ -638,6 +651,10 @@ public enum PERegion {
         return defaultStructures;
     }
 
+    public void appendStructures(String id) {
+        defaultStructures.add(id);
+    }
+
     public int difficulty() {
         Map<DangerLevel, Integer> diffOffset = Map.of(
                 DangerLevel.SAFE, Constants.SAFE_DIFFICULTY_OFFSET,
@@ -653,5 +670,14 @@ public enum PERegion {
                 .flatMap(Collection::stream)
                 .collect(Collectors.toCollection(HashSet::new));
         return overworldStructures.stream().toList();
+    }
+
+    public static List<String> allWaterStructures() {
+        HashSet<String> waterStructures = Arrays.stream(PERegion.values())
+                .filter(r -> r.name().contains("OCEAN") || r.name().contains("RIVER"))
+                .map(PERegion::defaultStructures)
+                .flatMap(Collection::stream)
+                .collect(Collectors.toCollection(HashSet::new));
+        return waterStructures.stream().toList();
     }
 }

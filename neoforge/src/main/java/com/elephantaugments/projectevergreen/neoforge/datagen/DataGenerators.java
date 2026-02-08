@@ -25,7 +25,7 @@ public class DataGenerators {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
-        PatchProvider structurePatcher = new StructurePatchProvider(generator, PackOutput.Target.DATA_PACK);
+        PatchProvider structurePatcher = new WorldgenPatchProvider(generator, PackOutput.Target.DATA_PACK);
         generator.addProvider(event.includeServer(), structurePatcher);
 
         BiomeTagProvider biomeTagsProvider = new BiomeTagProvider(packOutput, lookupProvider, existingFileHelper);

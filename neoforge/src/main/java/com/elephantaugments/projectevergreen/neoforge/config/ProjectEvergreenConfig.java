@@ -368,7 +368,6 @@ public class ProjectEvergreenConfig {
         POPULATION_BIAS_OFFSET = COMMON_BUILDER
             .comment("# The degree to which non-biased structures should be isolated.\n# (2 = slightly rare, 5 = extremely rare)")
             .defineInRange(Constants.POPULATION_BIAS_OFFSET, 3, 2, 5);
-        COMMON_BUILDER.pop();
 
         COMMON_BUILDER.comment("Rarity Spread").push(CATEGORY_RARITY);
         CIVILIZATION_MASSIVE_RARITY = COMMON_BUILDER

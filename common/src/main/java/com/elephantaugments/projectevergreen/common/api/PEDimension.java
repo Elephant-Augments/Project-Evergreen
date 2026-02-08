@@ -43,6 +43,8 @@ public enum PEDimension {
         Constants.LOSTCITIES_DIFFICULTY_OFFSET
     );
 
+    private final String jsonKey = "dimension";
+    private final String jsonPath = "/" + Constants.PROPERTIES_KEY + "/" + jsonKey;
     private final String path;
     private final ResourceLocation location;
     private final String biomeTagKey;
@@ -53,7 +55,7 @@ public enum PEDimension {
     PEDimension(String namespace, List<String> defaultStructures, int diffOffset) {
         path = "is_dimension/" + name().toLowerCase();
         location = ResourceLocation.fromNamespaceAndPath(namespace.toLowerCase(), path);
-        biomeTagKey = "#" + location;
+        biomeTagKey = "#" + namespace.toLowerCase() + ":" + name().toLowerCase();
         this.structureTag = ProjectEvergreen.createTag(Registries.STRUCTURE, location);
         this.defaultStructures = defaultStructures;
         this.diffOffset = diffOffset;
@@ -61,6 +63,14 @@ public enum PEDimension {
 
     public TagKey<Structure> structureTag() {
         return this.structureTag;
+    }
+
+    public String jsonKey() {
+        return jsonKey;
+    }
+
+    public String jsonPath() {
+        return jsonPath;
     }
 
     public String biomeTagKey() {

@@ -60,11 +60,11 @@ public class BiomeTagProvider extends BiomeTagsProvider {
         Optional.ofNullable(region.biomeTag()).ifPresent(
             (tag) -> {
                 if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Populating region tag... " + tag.location()); }
-                List<ResourceLocation> regional_structures = region.defaultStructures().stream()
+                List<ResourceLocation> regional_biomes = region.defaultBiomes().stream()
                         .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
                         .map(ResourceLocation::parse)
                         .toList();
-                regional_structures.forEach(s -> {
+                regional_biomes.forEach(s -> {
                     tag(tag).addOptional(s);
                 });
             }

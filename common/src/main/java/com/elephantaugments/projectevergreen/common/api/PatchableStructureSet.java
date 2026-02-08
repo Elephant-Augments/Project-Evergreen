@@ -1,7 +1,10 @@
 package com.elephantaugments.projectevergreen.common.api;
 
+import com.elephantaugments.projectevergreen.common.Constants;
+import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureRarity;
 import com.google.common.collect.ArrayListMultimap;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
 import java.util.ArrayList;
@@ -11,6 +14,7 @@ import java.util.Optional;
 public class PatchableStructureSet extends IPatchable {
 
     protected final String REGISTRY_PATH = "worldgen/structure_set/";
+    public final String JSON_DATA_KEY = Constants.PATCHABLE_STRUCTURE_SET_KEY;
 
     private final List<PEStructureSet.Flag> flags = new ArrayList<PEStructureSet.Flag>();
 
@@ -33,6 +37,15 @@ public class PatchableStructureSet extends IPatchable {
         this.spacing = spacing;
         this.separation = separation;
     }
+
+    /*public boolean hasPopulationBias(int populationBias) {
+        return switch (populationBias) {
+            case 0 -> ProjectEvergreenConfig.structuresByRarity.keys().stream().filter(e -> (e.contains("massive") & e.contains("civilization"))).anyMatch(e -> e.equals(id));
+            case 1 -> false;
+            case 2 -> ProjectEvergreenConfig.structuresByRarity.keys().stream().filter(e -> (e.contains("massive") & e.contains("wilderness"))).anyMatch(e -> e.equals(id));
+            default -> throw new IllegalArgumentException("No Config Value Provided.");
+        };
+    }*/
 
     @Override
     public void updateData() {
@@ -102,7 +115,10 @@ public class PatchableStructureSet extends IPatchable {
     }
 
     @Override
-    public JsonObject toJson() {
-        return null;
+    public JsonElement toJson() {
+        JsonObject json = new JsonObject();
+        json.addProperty(Constants.JsonProp.ID.jsonKey(), this.getId());
+
+        return ProjectEvergreen.GSON.toJsonTree(json);
     }
 }

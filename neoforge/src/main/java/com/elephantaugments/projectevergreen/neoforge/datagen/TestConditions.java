@@ -30,7 +30,7 @@ public class TestConditions {
 
     public static void registerConditions() {
         ProjectEvergreen.LOGGER.info("Registering Project Evergreen Test Conditions");
-        ALL_UNDERGROUND_STRUCTURES = filterUndergroundStructures();
+        /*ALL_UNDERGROUND_STRUCTURES = filterUndergroundStructures();
         ALL_WATER_STRUCTURES = filterWaterStructures();
         ALL_MASSIVE_STRUCTURES = filterMassiveStructures();
         ALL_DECO_STRUCTURES = filterDecoStructures();
@@ -40,31 +40,32 @@ public class TestConditions {
         ProjectEvergreen.LOGGER.info("Checking all Civilization structures... " + ALL_CIVILIZATION_STRUCTURES.size());
         ALL_WILDERNESS_STRUCTURES = filterWildernessStructures();
         ProjectEvergreen.LOGGER.info("Checking all Wilderness structures... " + ALL_WILDERNESS_STRUCTURES.size());
-        ALL_IGNORED_BIAS_STRUCTURES = filterBiasIgnoredStructures();
+        ALL_IGNORED_BIAS_STRUCTURES = filterBiasIgnoredStructures();*/
         
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "structure_registered"), TestConditions::structureRegistered);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.IS_BIOME_REGISTERED_TEST), TestConditions::biomeRegistered);
+        //Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "structure_registered"), TestConditions::structureRegistered);
+        //Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.IS_BIOME_REGISTERED_TEST), TestConditions::biomeRegistered);
+        //TODO: Replace with inherited methods inside IPatchable, maybe?
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "performance_mode"), TestConditions::performanceMode);
 		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "structure_biome_redistribution"), TestConditions::structureBiomeRedistribution);
 		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "structure_rarity_redistribution"), TestConditions::structureRarityRedistribution);
-		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "flatness_check_ignored"), TestConditions::flatnessCheckIgnored);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "flat_check_narrow"), TestConditions::flatCheckNarrow);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "flat_check_wide"), TestConditions::flatCheckWide);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.FLATNESS_CHECK_SPRAWLING), TestConditions::flatCheckSprawling);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.ENHANCED_TERRAIN_ADAPTATION), TestConditions::enhancedTerrainAdaptation);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.IGNORE_BIOME_RADIUS), TestConditions::biomeRadiusIgnored);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.IGNORE_BIOME_REDISTRIBUTION), TestConditions::biomeRedistributionIgnored);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "population_bias_check"), TestConditions::populationBiasCheck);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "safe_structure_type"), TestConditions::safeStructureType);
-        Patched.registerTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "advanced_structure_type"), TestConditions::advancedStructureType);
-
-		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "water_structure"), TestConditions::waterStructure);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "deco_structure"), TestConditions::decoStructure);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "massive_structure"), TestConditions::massiveStructure);
-        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "underground_structure"), TestConditions::undergroundStructure);
-		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "inland_structure"), TestConditions::inlandStructure);
-		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "civilization_structure"), TestConditions::civilizationStructure);
-		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "wilderness_structure"), TestConditions::wildernessStructure);
+//		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "flatness_check_ignored"), TestConditions::flatnessCheckIgnored);
+//        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "flat_check_narrow"), TestConditions::flatCheckNarrow);
+//        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "flat_check_wide"), TestConditions::flatCheckWide);
+//        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.FLATNESS_CHECK_SPRAWLING), TestConditions::flatCheckSprawling);
+//        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.ENHANCED_TERRAIN_ADAPTATION), TestConditions::enhancedTerrainAdaptation);
+//        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.IGNORE_BIOME_RADIUS), TestConditions::biomeRadiusIgnored);
+//        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.IGNORE_BIOME_REDISTRIBUTION), TestConditions::biomeRedistributionIgnored);
+//        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "population_bias_check"), TestConditions::populationBiasCheck);
+//        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "safe_structure_type"), TestConditions::safeStructureType);
+//        Patched.registerTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "advanced_structure_type"), TestConditions::advancedStructureType);
+//
+//		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "water_structure"), TestConditions::waterStructure);
+//        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "deco_structure"), TestConditions::decoStructure);
+//        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "massive_structure"), TestConditions::massiveStructure);
+//        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "underground_structure"), TestConditions::undergroundStructure);
+//		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "inland_structure"), TestConditions::inlandStructure);
+//		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "civilization_structure"), TestConditions::civilizationStructure);
+//		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "wilderness_structure"), TestConditions::wildernessStructure);
 	}
     
     private static boolean performanceMode(JsonElement value) {
@@ -79,7 +80,7 @@ public class TestConditions {
 		return ProjectEvergreenConfig.structureRarityRedistribution == value.getAsBoolean();
 	}
 
-    private static boolean decoStructure(JsonElement value) {
+    /*private static boolean decoStructure(JsonElement value) {
 		final ResourceLocation id = PatchUtil.assertIsResourceLocation(Constants.MASSIVE_STRUCTURE_TEST, "value", value);
         return isDecoStructure(id.toString());
 	}
@@ -178,7 +179,7 @@ public class TestConditions {
     private static boolean structureRegistered(JsonElement value) {
 		final ResourceLocation id = PatchUtil.assertIsResourceLocation(ProjectEvergreen.MODID + ":structure_registered", "value", value);
         return isStructureLoaded(id.toString());
-	}
+	}*/
 
     public static boolean isDecoStructure(String id) {
         return ALL_DECO_STRUCTURES.indexOf(id) > 0;

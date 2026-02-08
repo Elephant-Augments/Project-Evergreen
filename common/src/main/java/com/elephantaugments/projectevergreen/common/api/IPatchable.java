@@ -1,13 +1,19 @@
 package com.elephantaugments.projectevergreen.common.api;
 
-import com.google.gson.JsonObject;
+import com.google.gson.JsonElement;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 
 public abstract class IPatchable {
 
+    private final List<?> flags = new ArrayList<>();
+
     public String id;
     public String full_path;
-    public Integer difficulty;
-    public boolean is_ignored;
+    protected Integer difficulty;
+    protected boolean is_loaded = false;
 
     public IPatchable(String ID) {
         id = ID;
@@ -33,11 +39,23 @@ public abstract class IPatchable {
         return this.id;
     }
 
-    public abstract void updateData();
-
-    public abstract JsonObject toJson();
-
     public String getFullPath(String id, String regPath) {
         return id.replace(":", ":" + regPath);
     }
+
+    public Optional<Integer> getDifficulty() {
+        return Optional.ofNullable(this.difficulty);
+    }
+
+    public boolean isLoaded() {
+        return this.is_loaded;
+    }
+
+    public void setLoaded(boolean loaded) {
+        this.is_loaded = loaded;
+    }
+
+    public abstract void updateData();
+
+    public abstract JsonElement toJson();
 }

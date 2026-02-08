@@ -10,8 +10,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.levelgen.structure.Structure;
 import net.minecraft.world.level.levelgen.structure.StructureSet;
+import org.spongepowered.asm.mixin.injection.struct.InjectorGroupInfo;
 
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public enum PEStructureSet {
     CIVILIZATION_INLAND_SPRAWLING(
@@ -93,6 +95,8 @@ public enum PEStructureSet {
         Constants.SPECIAL_SPREAD_OFFSET
     );
 
+    private final String jsonKey = "structure_set";
+    private final String jsonPath = "/" + Constants.PROPERTIES_KEY + "/" + jsonKey;
     private final String path;
     private final String tagPath;
     private final ResourceLocation location;
@@ -119,6 +123,14 @@ public enum PEStructureSet {
         return this.location;
     }
 
+    public String jsonKey() {
+        return jsonKey;
+    }
+
+    public String jsonPath() {
+        return jsonPath;
+    }
+
     public TagKey<Structure> structureTag() {
         return this.structureTag;
     }
@@ -135,22 +147,45 @@ public enum PEStructureSet {
         return Math.toIntExact(Math.round(this.separation * spreadOffset));
     }
 
+    public static List<String> isRedistributed() {
+        HashSet<String> redistributedStructures = Arrays.stream(PEStructureSet.values())
+                .map(PEStructureSet::defaultStructures)
+                .flatMap(Collection::stream)
+                .collect(Collectors.toCollection(HashSet::new));
+        return WorldgenDataManager.PATCHABLE_STRUCTURE_SETS.keySet().stream()
+                .filter(redistributedStructures::contains)
+                .toList();
+    }
+
     public enum Flag {
         PATCHABLE(new PatchableStructureSets().getIDs().stream().toList()),
         DISABLED(DefaultFlags.disabledSets);
 
+        private List<String> defaultIDs = new ArrayList<>();
+
+        private final String jsonKey;
+        private final String jsonPath;
         private final String path;
         private final ResourceLocation location;
         private String tagKey;
         private TagKey<StructureSet> tag;
-        private List<String> defaultIDs;
 
         Flag(List<String> defaultIDs) {
+            jsonKey = name().toLowerCase();
+            jsonPath = "/" + Constants.PROPERTIES_KEY + "/" + jsonKey;
             path = name().contains("_") ? ("is_flagged/" + name().toLowerCase()) : name().toLowerCase();
             location = ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, path);
             this.tagKey = "#" + location;
             this.tag = ProjectEvergreen.createTag(Registries.STRUCTURE_SET, location);
-            this.defaultIDs = defaultIDs;
+            initIDs(defaultIDs);
+        }
+
+        public String jsonKey() {
+            return jsonKey;
+        }
+
+        public String jsonPath() {
+            return jsonPath;
         }
 
         public String tagKey() {
@@ -163,6 +198,14 @@ public enum PEStructureSet {
 
         public List<String> defaultIDs() {
             return defaultIDs;
+        }
+
+        public void appendIDs(String id) {
+            defaultIDs.add(id);
+        }
+
+        public void initIDs(List<String> ids) {
+            defaultIDs.addAll(ids);
         }
     }
 }

@@ -2,9 +2,7 @@ package com.elephantaugments.projectevergreen.neoforge.datagen;
 
 import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
-import com.elephantaugments.projectevergreen.common.api.PERegion;
-import com.elephantaugments.projectevergreen.common.api.PEStructure;
-import com.elephantaugments.projectevergreen.common.api.PEStructureSet;
+import com.elephantaugments.projectevergreen.common.api.*;
 import com.elephantaugments.projectevergreen.common.data.defaults.*;
 import com.elephantaugments.projectevergreen.neoforge.ProjectEvergreenNeoforge;
 import com.elephantaugments.projectevergreen.neoforge.config.ProjectEvergreenConfig;
@@ -22,14 +20,33 @@ import java.util.stream.Collectors;
 
 public class DataSources {
 
+    public static final ResourceLocation PE_OBJECT = ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.PE_OBJECT_KEY);
+    public static final ResourceLocation PE_VALUE = ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.PE_VALUE_KEY);
+    public static final ResourceLocation CONFIG_VALUE = ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, Constants.CONFIG_VALUE_KEY);
+
     public static void registerDataSources() {
-        //Registers a new data source to pull config values into patch files
+        registerPEDataObject();
+        registerConfigData();
+    }
+
+    private static void registerPEDataObject() {
         SingleDataSource source = (from, value) -> {
             return switch (value.getAsString()) {
-                case "get_biome" -> DataSources.getBiomeTag(from.getAsString());
-                case Constants.IGNORE_STRUCTURE_TYPE -> DataSources.getIgnoreStructureType(from.getAsString());
-                case Constants.FLATNESS_CHECK_SMALL -> DataSources.getFlatnessCheckNarrow(from.getAsString());
-                case Constants.FLATNESS_CHECK_LARGE -> DataSources.getFlatnessCheckWide(from.getAsString());
+                case Constants.PATCHABLE_BIOME_KEY -> getPatchableDataObject(WorldgenDataManager.PATCHABLE_BIOMES.get(from.getAsString()));
+                case Constants.PATCHABLE_STRUCTURE_SET_KEY -> getPatchableDataObject(WorldgenDataManager.PATCHABLE_STRUCTURE_SETS.get(from.getAsString()));
+                case Constants.PATCHABLE_STRUCTURE_KEY -> getPatchableDataObject(WorldgenDataManager.PATCHABLE_STRUCTURES.get(from.getAsString()));
+                //TODO case Constants.PATCHABLE_FEATURE_KEY -> getPatchableDataObject(WorldgenDataManager.PATCHABLE_FEATURES.get(from.getAsString()));
+                //TODO case Constants.PATCHABLE_ENTITY_KEY -> getPatchableDataObject(WorldgenDataManager.PATCHABLE_ENTITIES.get(from.getAsString()));
+
+                default -> throw new IllegalArgumentException("No Data Object Provided.");
+            };
+        };
+        Patched.registerDataSource(PE_OBJECT, source);
+    }
+
+    private static void registerConfigData() {
+        SingleDataSource source = (from, value) -> {
+            return switch (value.getAsString()) {
                 case Constants.ALLOWED_TERRAIN_HEIGHT_NARROW -> DataSources.getAllowedTerrainHeightNarrow();
                 case Constants.ALLOWED_TERRAIN_HEIGHT_WIDE -> DataSources.getAllowedTerrainHeightWide();
                 case Constants.ALLOWED_TERRAIN_HEIGHT_SPRAWLING -> DataSources.getAllowedTerrainHeightSprawling();
@@ -47,7 +64,6 @@ public class DataSources {
                 case Constants.OCEAN_MEDIUM_RARITY -> DataSources.getSpread(from.getAsInt(), ProjectEvergreenConfig.oceanMediumRarity);
                 case Constants.SKY_MASSIVE_RARITY -> DataSources.getSpread(from.getAsInt(), ProjectEvergreenConfig.skyMassiveRarity);
 
-                case Constants.BIOME_TAG -> DataSources.buildTagSet(from.getAsJsonArray().asList());
                 case Constants.CIVILIZATION_MASSIVE -> DataSources.buildStructureSet(ProjectEvergreenConfig.civilizationMassive);
                 case Constants.CIVILIZATION_MEDIUM -> DataSources.buildStructureSet(ProjectEvergreenConfig.civilizationMedium);
                 case Constants.CIVILIZATION_DECO -> DataSources.buildStructureSet(ProjectEvergreenConfig.civilizationDeco);
@@ -63,7 +79,11 @@ public class DataSources {
                 default -> throw new IllegalArgumentException("No Config Value Provided.");
             };
         };
-        Patched.registerDataSource(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, "config_value"), source);
+        Patched.registerDataSource(CONFIG_VALUE, source);
+    }
+
+    private static <T extends IPatchable> JsonElement getPatchableDataObject(T patchableData) {
+        return patchableData.toJson();
     }
 
     private static JsonElement getSpread(Integer spread, Double rarity) {

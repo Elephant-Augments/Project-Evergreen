@@ -45,8 +45,8 @@ public class DefaultFlags {
     //<--- Structure sets to disable individually --->
     public static final List<String> disabledStructures = ImmutableList.of(
 		"ati_structures:lighthouse",
-		"trek:overworld/rare/tower_island",
-		"wabi_sabi_structures:sunken_steamboat"
+		"combat_structures_update:ruinedstronghold",
+		"trek:overworld/rare/tower_island"
     );
 
 	//IGNORED
@@ -480,45 +480,6 @@ public class DefaultFlags {
 
 	);
 
-	//IGNORED_FLATNESS_CHECK
-	//<--- TODO: Replace with Heightmap enum --->
-	public static final List<String> ignoreFlatnessCheck = ImmutableList.of(
-		"custom:floating_island",
-		"custom:rootless",
-		"custom:skull_island",
-		"create_structures_arise:pillagersteampunkairship",
-		"create_structures_arise:createminiskyvillage",
-		"dungeons_arise:thornborn_towers",
-		"dungeons_arise:heavenly_challenger",
-		"dungeons_arise:heavenly_conqueror",
-		"dungeons_arise:heavenly_rider",
-		"imst:airship",
-		"imst:balloon",
-		"integrated_villages:airship_village",
-		"kattersstructures:skyhold",
-		"kattersstructures:sky_dungeon",
-		"kattersstructures:skyrtle",
-		"kattersstructures:village_sky",
-		"mss:birch_river",
-		"mss:cherry_river",
-		"mss:leaf_hollow",
-		"mss:mushroom",
-		"mss:small_pond",
-		"mss:taiga",
-		"mss:tree_1",
-		"mss:tree_2",
-		"mss:tree_3",
-		"mss:tree_4",
-		"mss:tree_5",
-		"mss:tree_6",
-		"mss:tree_7",
-		"mss:tree_8",
-		"mss:volcano",
-		"skyarena:ice_arena",
-		"skyarena:sky_arena",
-		"skyvillages:skyvillage"
-	);
-
     //SAFE_STRUCTURE_TYPE
     //<--- Safe structure type used for structures that break when integrated_api:generic_structure is used --->
     public static final List<String> safeStructureType = ImmutableList.of(
@@ -699,12 +660,6 @@ public class DefaultFlags {
         "species:libra",
 		"species:paleontology_dig_site",
         "wabi_sabi_structures:frost_reactor_plant"
-    );
-
-    //ADJUSTED_OCEAN_HEIGHTMAP
-    //<--- Properly project the heightmap of ocean floor structures that are missing the setting  --->
-    public static final List<String> adjustedOceanHeightmap = ImmutableList.of(
-        
     );
 
     //ADJUSTED_Y_LEVEL

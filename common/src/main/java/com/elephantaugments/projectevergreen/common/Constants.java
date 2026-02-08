@@ -1,11 +1,44 @@
 package com.elephantaugments.projectevergreen.common;
 
 import com.elephantaugments.projectevergreen.common.api.PEStructure;
-import com.elephantaugments.projectevergreen.common.data.defaults.DefaultFlags;
 
 import java.util.*;
 
 public class Constants {
+
+	public enum JsonProp {
+		ID,
+		IS_LOADED,
+		IS_ADVANCED_TYPE,
+		IS_FLAT,
+		IS_INLAND,
+		IS_WATER_BOUND,
+		IS_RADIUS_BOUND,
+		IS_SMALL,
+		IS_MEDIUM,
+		IS_LARGE,
+		IS_MASSIVE,
+		IS_SPRAWLING;
+
+		public String jsonKey() {
+			return this.name().toLowerCase();
+		}
+
+		public String jsonPath() {
+			return "/" + PROPERTIES_KEY + "/" + jsonKey();
+		}
+	}
+
+	public static final String PROPERTIES_KEY = "temp_properties";
+	public static final String PE_OBJECT_KEY = "pe_object";
+	public static final String PE_VALUE_KEY = "pe_value";
+	public static final String CONFIG_VALUE_KEY = "config_value";
+
+	public static final String PATCHABLE_BIOME_KEY = "patchable_biome_data";
+	public static final String PATCHABLE_STRUCTURE_SET_KEY = "patchable_structure_set_data";
+	public static final String PATCHABLE_STRUCTURE_KEY = "patchable_structure_data";
+	public static final String PATCHABLE_FEATURE_KEY = "patchable_feature_data";
+	public static final String PATCHABLE_ENTITY_KEY = "patchable_entity_data";
 
 	public static final List<String> EMPTY_LIST = new ArrayList<>();
 
@@ -21,6 +54,11 @@ public class Constants {
 	public static final int SAFE_DIFFICULTY_OFFSET = -2;
 	public static final int NEUTRAL_DIFFICULTY_OFFSET = 0;
 	public static final int DANGEROUS_DIFFICULTY_OFFSET = 2;
+
+	public static final int SMALL_DIFFICULTY_OFFSET = -1;
+	public static final int MEDIUM_DIFFICULTY_OFFSET = 0;
+	public static final int LARGE_DIFFICULTY_OFFSET = 1;
+	public static final int SPRAWLING_DIFFICULTY_OFFSET = 2;
 
 	public static final int DEFAULT_DECO_SPACING = 12;
 	public static final int DEFAULT_DECO_SEPARATION = 6;
@@ -40,8 +78,16 @@ public class Constants {
 	public static final String STRUCTURE_SET_TAG_PATH = "tags/worldgen/structure_set/";
 	public static final String ENTITY_TAG_PATH = "tags/entity_type/";
 
-	public static final String ID_TAG = "structure_id";
-	public static final String BIOME_TAG = "biome_tag";
+	public static String getNamespace(String location) {
+		return location.split(":")[0];
+	}
+
+	public static String getPath(String location) {
+		return location.split(":")[1];
+	}
+
+
+
 	public static final String LOADED_STRUCTURES_KEY = "loadedStructures";
 	public static final String FLAT_STRUCTURES_KEY = "loadedFlatStructures";
 	public static final String IS_BIOME_REGISTERED_TEST = "is_biome_loaded";
@@ -60,7 +106,7 @@ public class Constants {
 	public static final String ENHANCED_TERRAIN_ADAPTATION = "enhanced_terrain_adaption";
 	public static final String TERRAIN_ADAPTATION_TEST = ProjectEvergreen.MODID + ":" + ENHANCED_TERRAIN_ADAPTATION;
 	public static final String IGNORE_BIOME_REDISTRIBUTION_TEST = ProjectEvergreen.MODID + ":" + PEStructure.Flag.IGNORED_BIOME_REDISTRIBUTION.name();
-	public static final String IGNORE_BIOME_RADIUS_TEST = ProjectEvergreen.MODID + ":" + PEStructure.Flag.IGNORE_BIOME_RADIUS_CHECK.name();
+	public static final String IGNORE_BIOME_RADIUS_TEST = ProjectEvergreen.MODID + ":" + PEStructure.Flag.IGNORED_BIOME_RADIUS_CHECK.name();
 	public static final String POPULATION_BIAS_TEST = ProjectEvergreen.MODID + ":population_bias_check";
 	public static final String ALLOWED_TERRAIN_HEIGHT_NARROW = "narrow_flatness_allowed_elevation";
 	public static final String FLAT_NARROW_TEST = ProjectEvergreen.MODID + ":flat_check_narrow";
@@ -165,25 +211,8 @@ public class Constants {
     public static final String SPECIAL_SWAMPY = "special_swampy";
     public static final String SPECIAL_SWAMPY_WARM = "special_swampy_warm";
     public static final String UNDERGROUND_LAND = "all_underground_land";
-	
 
-	public static String getNamespace(String structureEntry) {
-        return structureEntry.split(":")[0];
-    }
 
-    public static String getLocation(String structureEntry) {
-        ArrayList<String> parts = new ArrayList<>(Arrays.asList(structureEntry.split("/")));
-		return getNamespace(structureEntry) + ":" + String.join("/", parts.subList(2, parts.size()));
-    }
-
-    public static String calculateStructureDifficulty(String structureEntry) {
-        ArrayList<String> parts = new ArrayList<>(Arrays.asList(structureEntry.split("/")));
-		return getNamespace(structureEntry) + ":" + String.join("/", parts.subList(2, parts.size()));
-    }
-
-    public static String getPath(String structureEntry) {
-        return structureEntry.split(":")[1];
-    }
 
 	public static final SortedSet<String> supportedModifierTypes = new TreeSet<>(Arrays.asList(
 		"neoforge:add_features",
