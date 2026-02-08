@@ -1,11 +1,7 @@
 {
   "values": [
     {
-      "id": "iceandfire:gorgon_temple",
-      "required": false
-    },
-    {
-      "id": "integrated_minecraft:cyclops_lair",
+      "id": "project_evergreen:is_climate/special_mediterranean_uninviting",
       "required": false
     }
   ]

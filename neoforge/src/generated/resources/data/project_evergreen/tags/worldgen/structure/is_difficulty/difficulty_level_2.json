@@ -89,6 +89,10 @@
       "required": false
     },
     {
+      "id": "mvs:dark_oak_log_pile",
+      "required": false
+    },
+    {
       "id": "mvs:mushroom_pond",
       "required": false
     },
@@ -134,6 +138,10 @@
     },
     {
       "id": "trek:overworld/rare/castle",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/tower_island",
       "required": false
     },
     {

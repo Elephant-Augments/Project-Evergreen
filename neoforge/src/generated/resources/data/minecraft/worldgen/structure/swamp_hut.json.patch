@@ -1,9 +1,35 @@
 [
-  {
-    "op": "add",
-    "path": "/structure_id",
-    "value": "minecraft:swamp_hut"
-  },
+  [
+    {
+      "op": "add",
+      "path": "/temp_properties",
+      "value": {
+        "id": "minecraft:swamp_hut",
+        "size": "medium",
+        "dimension": "#minecraft:is_overworld",
+        "region": "#project_evergreen:is_region/special_swampy",
+        "is_loaded": false,
+        "is_advanced_type": false,
+        "is_flat": false,
+        "is_inland": true,
+        "is_water_bound": false,
+        "is_radius_bound": true,
+        "is_small": false,
+        "is_medium": true,
+        "is_large": false,
+        "is_massive": false,
+        "is_sprawling": false,
+        "patchable": true
+      }
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:pe_object",
+      "from": "/temp_properties/id",
+      "path": "/temp_properties",
+      "value": "patchable_structure_data"
+    }
+  ],
   [
     {
       "op": "test",
@@ -12,24 +38,20 @@
     },
     {
       "op": "test",
-      "type": "project_evergreen:ignore_biome_redistribution",
-      "value": "minecraft:swamp_hut",
-      "inverse": true
+      "path": "/temp_properties/ignored_biome_redistribution",
+      "value": true
     },
     {
-      "op": "paste",
-      "type": "project_evergreen:config_value",
-      "from": "/structure_id",
+      "op": "copy",
       "path": "/biomes",
-      "value": "get_biome"
+      "from": "/temp_properties/region"
     }
   ],
   [
     {
       "op": "test",
-      "type": "project_evergreen:advanced_structure_type",
-      "path": "/type",
-      "value": "minecraft:swamp_hut"
+      "path": "/temp_properties/is_advanced_type",
+      "value": true
     },
     [
       {
@@ -71,8 +93,8 @@
   [
     {
       "op": "test",
-      "type": "project_evergreen:inland_structure",
-      "value": "minecraft:swamp_hut"
+      "path": "/temp_properties/is_inland",
+      "value": true
     },
     {
       "op": "add",
@@ -83,8 +105,8 @@
   [
     {
       "op": "test",
-      "type": "project_evergreen:enhanced_terrain_adaption",
-      "value": "minecraft:swamp_hut"
+      "path": "/temp_properties/adjusted_terrain_adaptation",
+      "value": true
     },
     {
       "op": "add",
@@ -95,54 +117,72 @@
   [
     {
       "op": "test",
-      "type": "project_evergreen:water_structure",
-      "value": "minecraft:swamp_hut"
+      "type": "project_evergreen:performance_mode",
+      "value": false
     },
-    {
-      "op": "test",
-      "type": "project_evergreen:massive_structure",
-      "value": "minecraft:swamp_hut"
-    },
-    {
-      "op": "add",
-      "path": "/valid_biome_radius_check",
-      "value": 2
-    }
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_water_bound",
+        "value": true
+      },
+      {
+        "op": "test",
+        "path": "/temp_properties/is_massive",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/valid_biome_radius_check",
+        "value": 2
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_massive",
+        "value": true
+      },
+      {
+        "op": "test",
+        "path": "/temp_properties/is_radius_bound",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/valid_biome_radius_check",
+        "value": 2
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "type": "project_evergreen:structure_rarity_redistribution",
+        "value": true
+      },
+      {
+        "op": "test",
+        "type": "project_evergreen:population_bias_check",
+        "value": "minecraft:swamp_hut"
+      },
+      {
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "path": "/valid_biome_radius_check",
+        "value": "population_bias"
+      }
+    ]
   ],
   [
     {
       "op": "test",
-      "type": "project_evergreen:massive_structure",
-      "value": "minecraft:swamp_hut"
-    },
-    {
-      "op": "test",
-      "type": "project_evergreen:ignore_biome_radius",
-      "value": "minecraft:swamp_hut",
-      "inverse": true
-    },
-    {
-      "op": "add",
-      "path": "/valid_biome_radius_check",
-      "value": 1
-    }
-  ],
-  [
-    {
-      "op": "test",
-      "type": "project_evergreen:structure_rarity_redistribution",
+      "path": "/temp_properties/adjusted_ocean_heightmap",
       "value": true
     },
     {
-      "op": "test",
-      "type": "project_evergreen:population_bias_check",
-      "value": "minecraft:swamp_hut"
-    },
-    {
-      "op": "paste",
-      "type": "project_evergreen:config_value",
-      "path": "/valid_biome_radius_check",
-      "value": "population_bias"
+      "op": "add",
+      "path": "/project_start_to_heightmap",
+      "value": "OCEAN_FLOOR_WG"
     }
   ],
   [
@@ -151,73 +191,77 @@
       "type": "project_evergreen:performance_mode",
       "value": false
     },
-    {
-      "op": "test",
-      "type": "project_evergreen:flat_check_narrow",
-      "value": "minecraft:swamp_hut"
-    },
-    {
-      "op": "add",
-      "path": "/terrain_height_radius_check",
-      "value": 1
-    },
-    {
-      "op": "paste",
-      "type": "project_evergreen:config_value",
-      "path": "/allowed_terrain_height_range",
-      "value": "narrow_flatness_allowed_elevation"
-    }
-  ],
-  [
-    {
-      "op": "test",
-      "type": "project_evergreen:performance_mode",
-      "value": false
-    },
-    {
-      "op": "test",
-      "type": "project_evergreen:flat_check_wide",
-      "value": "minecraft:swamp_hut"
-    },
-    {
-      "op": "add",
-      "path": "/terrain_height_radius_check",
-      "value": 2
-    },
-    {
-      "op": "paste",
-      "type": "project_evergreen:config_value",
-      "path": "/allowed_terrain_height_range",
-      "value": "wide_flatness_allowed_elevation"
-    }
-  ],
-  [
-    {
-      "op": "test",
-      "type": "project_evergreen:performance_mode",
-      "value": false
-    },
-    {
-      "op": "test",
-      "type": "project_evergreen:ignore_biome_radius",
-      "value": "minecraft:swamp_hut",
-      "inverse": true
-    },
-    {
-      "op": "test",
-      "type": "project_evergreen:flatness_check_sprawling",
-      "value": "minecraft:swamp_hut"
-    },
-    {
-      "op": "add",
-      "path": "/terrain_height_radius_check",
-      "value": 4
-    },
-    {
-      "op": "paste",
-      "type": "project_evergreen:config_value",
-      "path": "/allowed_terrain_height_range",
-      "value": "sprawling_flatness_allowed_elevation"
-    }
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_small",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 1
+      },
+      {
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "path": "/allowed_terrain_height_range",
+        "value": "narrow_flatness_allowed_elevation"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_medium",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 2
+      },
+      {
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "path": "/allowed_terrain_height_range",
+        "value": "wide_flatness_allowed_elevation"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_large",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 3
+      },
+      {
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "path": "/allowed_terrain_height_range",
+        "value": "wide_flatness_allowed_elevation"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_sprawling",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 5
+      },
+      {
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "path": "/allowed_terrain_height_range",
+        "value": "sprawling_flatness_allowed_elevation"
+      }
+    ]
   ]
 ]

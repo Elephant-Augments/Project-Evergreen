@@ -1,11 +1,7 @@
 {
   "values": [
     {
-      "id": "idas:iceandfire/sirens_cove",
-      "required": false
-    },
-    {
-      "id": "jellyfishing:buried_treasure",
+      "id": "project_evergreen:is_climate/ocean_shallow_warm",
       "required": false
     }
   ]

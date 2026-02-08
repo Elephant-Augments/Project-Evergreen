@@ -1,43 +1,7 @@
 {
   "values": [
     {
-      "id": "additionalstructures:fallen_dead_tree_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:fallen_dead_tree_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:fallen_dead_tree_3",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:wall_ruin_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:wall_ruin_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:wither_skull",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:skeleton_skull",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:ruin_1",
-      "required": false
-    },
-    {
-      "id": "integrated_minecraft:abandoned_factory",
-      "required": false
-    },
-    {
-      "id": "underground_bunkers:underground_bunker",
+      "id": "project_evergreen:is_climate/special_ruined",
       "required": false
     }
   ]

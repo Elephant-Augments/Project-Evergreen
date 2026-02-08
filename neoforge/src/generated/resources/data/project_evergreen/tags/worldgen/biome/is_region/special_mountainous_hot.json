@@ -1,67 +1,7 @@
 {
   "values": [
     {
-      "id": "additionalstructures:meteor",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:lava_fountain",
-      "required": false
-    },
-    {
-      "id": "born_in_chaos_v1:firewell",
-      "required": false
-    },
-    {
-      "id": "born_in_chaos_v1:grave_derivas",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:overworld_obsidianspike_2",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:overworldobsidianspike_1",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:overworldobsidianspike_3",
-      "required": false
-    },
-    {
-      "id": "custom:fire_dragon_spawn",
-      "required": false
-    },
-    {
-      "id": "custom:lightning_dragon_spawn",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:scorched_mines",
-      "required": false
-    },
-    {
-      "id": "dungeons_plus:infested_dungeon",
-      "required": false
-    },
-    {
-      "id": "explorify:guide_post_warm",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:meteor",
-      "required": false
-    },
-    {
-      "id": "irons_spellbooks:pyromancer_tower",
-      "required": false
-    },
-    {
-      "id": "minecraft:volcano_fortress",
-      "required": false
-    },
-    {
-      "id": "skyarena:sky_arena",
+      "id": "project_evergreen:is_climate/mountains_hot",
       "required": false
     }
   ]

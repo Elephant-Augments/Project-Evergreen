@@ -5,11 +5,11 @@
       "required": false
     },
     {
-      "id": "trek:overworld/rare/tower_island",
+      "id": "combat_structures_update:ruinedstronghold",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:sunken_steamboat",
+      "id": "trek:overworld/rare/tower_island",
       "required": false
     }
   ]

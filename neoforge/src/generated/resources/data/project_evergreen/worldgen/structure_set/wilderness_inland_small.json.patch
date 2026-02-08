@@ -1,17 +1,27 @@
 [
   {
-    "op": "add",
-    "path": "/structure_id",
-    "value": "project_evergreen:wilderness_inland_small"
-  },
-  {
     "op": "test",
-    "type": "project_evergreen:structure_rarity_redistribution",
-    "value": true
+    "path": "/temp_properties/id",
+    "value": "SKY_MASSIVE"
   },
   {
-    "op": "replace",
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/placement/spacing",
+    "path": "/placement/spacing",
+    "value": "sky_massive_rarity"
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
+    "from": "/placement/separation",
+    "path": "/placement/separation",
+    "value": "sky_massive_rarity"
+  },
+  {
+    "op": "paste",
+    "type": "project_evergreen:config_value",
     "path": "/structures",
-    "value": []
+    "value": "sky_massive"
   }
 ]

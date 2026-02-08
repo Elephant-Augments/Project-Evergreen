@@ -1,10 +1,5 @@
 [
   {
-    "op": "add",
-    "path": "/structure_id",
-    "value": "dungeons_arise:major_structures"
-  },
-  {
     "op": "test",
     "type": "project_evergreen:structure_rarity_redistribution",
     "value": true

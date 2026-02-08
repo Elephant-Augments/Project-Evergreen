@@ -241,6 +241,10 @@
       "required": false
     },
     {
+      "id": "cataclysm:ancient_factory",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:badlandslostwell",
       "required": false
     },
@@ -337,6 +341,10 @@
       "required": false
     },
     {
+      "id": "dungeons_arise:foundry",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:illager_campsite",
       "required": false
     },
@@ -357,7 +365,15 @@
       "required": false
     },
     {
+      "id": "dungeons_arise:mining_system",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:mushroom_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:plague_asylum",
       "required": false
     },
     {
@@ -490,6 +506,14 @@
     },
     {
       "id": "hexerei:witch_hut",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/deepslate_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/stone_mineshaft",
       "required": false
     },
     {
@@ -701,6 +725,10 @@
       "required": false
     },
     {
+      "id": "mtr:stronghold",
+      "required": false
+    },
+    {
       "id": "mvs:crimson_enchanting_table",
       "required": false
     },
@@ -813,10 +841,6 @@
       "required": false
     },
     {
-      "id": "nova_structures:village_swamp",
-      "required": false
-    },
-    {
       "id": "nova_structures:witch_villa",
       "required": false
     },
@@ -837,11 +861,27 @@
       "required": false
     },
     {
+      "id": "qrafty:jungle_treevillage",
+      "required": false
+    },
+    {
+      "id": "qrafty:transilvania",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:bastion_underground",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:igloo_mangrove",
       "required": false
     },
     {
       "id": "repurposed_structures:mansion_birch",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_mangrove",
       "required": false
     },
     {
@@ -897,11 +937,7 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:village_mountains",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_swamp",
+      "id": "repurposed_structures:village_mushroom",
       "required": false
     },
     {
@@ -1025,7 +1061,7 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:village_swamp",
+      "id": "towns_and_towers:village_mushroom_fields",
       "required": false
     },
     {

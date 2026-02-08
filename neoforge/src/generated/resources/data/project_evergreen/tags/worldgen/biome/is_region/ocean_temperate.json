@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "project_evergreen:is_climate/ocean_deep_temperate",
+      "required": false
+    },
+    {
+      "id": "project_evergreen:is_climate/ocean_shallow_temperate",
+      "required": false
+    }
+  ]
+}

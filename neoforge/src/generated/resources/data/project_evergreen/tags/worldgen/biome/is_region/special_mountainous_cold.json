@@ -1,63 +1,11 @@
 {
   "values": [
     {
-      "id": "block_factorys_bosses:yeti_hideout",
+      "id": "project_evergreen:is_climate/mountains_cold",
       "required": false
     },
     {
-      "id": "born_in_chaos_v1:observation_tower_forest",
-      "required": false
-    },
-    {
-      "id": "born_in_chaos_v1:grave_memesus",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:bunker",
-      "required": false
-    },
-    {
-      "id": "custom:ice_dragon_spawn",
-      "required": false
-    },
-    {
-      "id": "explorify:guide_post_cold",
-      "required": false
-    },
-    {
-      "id": "imst:alpine_house",
-      "required": false
-    },
-    {
-      "id": "imst:mountain_camp",
-      "required": false
-    },
-    {
-      "id": "irons_spellbooks:mountain_tower",
-      "required": false
-    },
-    {
-      "id": "minecraft:ruined_portal_mountain",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_mountains",
-      "required": false
-    },
-    {
-      "id": "skyarena:ice_arena",
-      "required": false
-    },
-    {
-      "id": "structory_towers:ancient_temple",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/all_abandoned",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:lumpy_tower",
+      "id": "project_evergreen:is_climate/special_craggy_snow",
       "required": false
     }
   ]

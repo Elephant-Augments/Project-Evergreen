@@ -1,11 +1,7 @@
 {
   "values": [
     {
-      "id": "combat_structures_update:acacia_trader_boat",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:mangrove_canoe",
+      "id": "project_evergreen:is_climate/river_warm",
       "required": false
     }
   ]

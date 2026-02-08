@@ -1,0 +1,266 @@
+[
+  [
+    {
+      "op": "add",
+      "path": "/temp_properties",
+      "value": {
+        "id": "piglet_structures:desert_boulder",
+        "size": "medium",
+        "is_loaded": false,
+        "is_advanced_type": false,
+        "is_flat": false,
+        "is_inland": true,
+        "is_water_bound": false,
+        "is_radius_bound": true,
+        "is_small": false,
+        "is_medium": true,
+        "is_large": false,
+        "is_massive": false,
+        "is_sprawling": false,
+        "patchable": true,
+        "ignored": true
+      }
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:pe_object",
+      "from": "/temp_properties/id",
+      "path": "/temp_properties",
+      "value": "patchable_structure_data"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:structure_biome_redistribution",
+      "value": true
+    },
+    {
+      "op": "test",
+      "path": "/temp_properties/ignored_biome_redistribution",
+      "value": true
+    },
+    {
+      "op": "copy",
+      "path": "/biomes",
+      "from": "/temp_properties/region"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/is_advanced_type",
+      "value": true
+    },
+    [
+      {
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "repurposed_structures"
+      },
+      {
+        "op": "add",
+        "path": "/type",
+        "value": "repurposed_structures:generic_jigsaw_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "mvs"
+      },
+      {
+        "op": "add",
+        "path": "/type",
+        "value": "moogs_structures:moogs_structures_generic_jigsaw_structure"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "integrated_api"
+      },
+      {
+        "op": "add",
+        "path": "/type",
+        "value": "integrated_api:generic_structure"
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/is_inland",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/cannot_spawn_in_liquid",
+      "value": true
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/adjusted_terrain_adaptation",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/terrain_adaptation",
+      "value": "beard_thin"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:performance_mode",
+      "value": false
+    },
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_water_bound",
+        "value": true
+      },
+      {
+        "op": "test",
+        "path": "/temp_properties/is_massive",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/valid_biome_radius_check",
+        "value": 2
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_massive",
+        "value": true
+      },
+      {
+        "op": "test",
+        "path": "/temp_properties/is_radius_bound",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/valid_biome_radius_check",
+        "value": 2
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "type": "project_evergreen:structure_rarity_redistribution",
+        "value": true
+      },
+      {
+        "op": "test",
+        "type": "project_evergreen:population_bias_check",
+        "value": "piglet_structures:desert_boulder"
+      },
+      {
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "path": "/valid_biome_radius_check",
+        "value": "population_bias"
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/adjusted_ocean_heightmap",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/project_start_to_heightmap",
+      "value": "OCEAN_FLOOR_WG"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:performance_mode",
+      "value": false
+    },
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_small",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 1
+      },
+      {
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "path": "/allowed_terrain_height_range",
+        "value": "narrow_flatness_allowed_elevation"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_medium",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 2
+      },
+      {
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "path": "/allowed_terrain_height_range",
+        "value": "wide_flatness_allowed_elevation"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_large",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 3
+      },
+      {
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "path": "/allowed_terrain_height_range",
+        "value": "wide_flatness_allowed_elevation"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_sprawling",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 5
+      },
+      {
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "path": "/allowed_terrain_height_range",
+        "value": "sprawling_flatness_allowed_elevation"
+      }
+    ]
+  ]
+]

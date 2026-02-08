@@ -1,11 +1,19 @@
 {
   "values": [
     {
-      "id": "idas:fishermans_lodge",
+      "id": "project_evergreen:is_climate/river_temperate",
       "required": false
     },
     {
-      "id": "minecraft:castle",
+      "id": "project_evergreen:is_climate/river_warm",
+      "required": false
+    },
+    {
+      "id": "project_evergreen:is_climate/coastal_temperate",
+      "required": false
+    },
+    {
+      "id": "project_evergreen:is_climate/coastal_warm",
       "required": false
     }
   ]

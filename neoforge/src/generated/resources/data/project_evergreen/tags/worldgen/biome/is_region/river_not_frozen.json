@@ -1,31 +1,11 @@
 {
   "values": [
     {
-      "id": "additionalstructures:boat_1",
+      "id": "project_evergreen:is_climate/river_temperate",
       "required": false
     },
     {
-      "id": "farmers_structures:sushi",
-      "required": false
-    },
-    {
-      "id": "farmers_structures:sushis",
-      "required": false
-    },
-    {
-      "id": "u_sea:raft/temperate/box",
-      "required": false
-    },
-    {
-      "id": "u_sea:ship/hopper",
-      "required": false
-    },
-    {
-      "id": "u_sea:ship/cove",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:river_boat",
+      "id": "project_evergreen:is_climate/river_warm",
       "required": false
     }
   ]

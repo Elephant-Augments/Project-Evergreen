@@ -1,71 +1,11 @@
 {
   "values": [
     {
-      "id": "archaeology_ruins:small_ocean_ruin",
+      "id": "project_evergreen:is_climate/ocean_deep_warm",
       "required": false
     },
     {
-      "id": "betterarcheology:underwater_0",
-      "required": false
-    },
-    {
-      "id": "betterarcheology:underwater_1",
-      "required": false
-    },
-    {
-      "id": "betterarcheology:underwater_2",
-      "required": false
-    },
-    {
-      "id": "betterarcheology:underwater_3",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:jungle_illager_ship",
-      "required": false
-    },
-    {
-      "id": "idas:sunken_ship/sunken_ship_ruins",
-      "required": false
-    },
-    {
-      "id": "lios_outlandish_villages:spiral_tower_village_sea",
-      "required": false
-    },
-    {
-      "id": "medieval_buildings:ship",
-      "required": false
-    },
-    {
-      "id": "minecraft:ocean_ruin_warm",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_ocean",
-      "required": false
-    },
-    {
-      "id": "structory_towers:ocean_pillar",
-      "required": false
-    },
-    {
-      "id": "threateningly_mobs:sea_cucumber_nest",
-      "required": false
-    },
-    {
-      "id": "u_sea:island/warm/hill",
-      "required": false
-    },
-    {
-      "id": "u_sea:island/warm/tower",
-      "required": false
-    },
-    {
-      "id": "u_sea:raft/warm/skipper",
-      "required": false
-    },
-    {
-      "id": "u_sea:raft/warm/cone_skipper",
+      "id": "project_evergreen:is_climate/ocean_shallow_warm",
       "required": false
     }
   ]

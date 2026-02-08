@@ -1,11 +1,15 @@
 {
   "values": [
     {
-      "id": "minecraft:shipwreck",
+      "id": "project_evergreen:is_climate/ocean_shallow_frozen",
       "required": false
     },
     {
-      "id": "u_sea:raft/temperate/grid",
+      "id": "project_evergreen:is_climate/ocean_shallow_temperate",
+      "required": false
+    },
+    {
+      "id": "project_evergreen:is_climate/ocean_shallow_warm",
       "required": false
     }
   ]

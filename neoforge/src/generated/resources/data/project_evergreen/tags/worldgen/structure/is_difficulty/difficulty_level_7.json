@@ -45,6 +45,10 @@
       "required": false
     },
     {
+      "id": "nova_structures:village_swamp",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:mansion_desert",
       "required": false
     },
@@ -57,7 +61,19 @@
       "required": false
     },
     {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_swamp",
+      "required": false
+    },
+    {
       "id": "structory:swamp_ruin",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_swamp",
       "required": false
     },
     {

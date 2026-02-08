@@ -1,10 +1,5 @@
 [
   {
-    "op": "add",
-    "path": "/structure_id",
-    "value": "minecraft:ruined_portals"
-  },
-  {
     "op": "test",
     "type": "project_evergreen:structure_rarity_redistribution",
     "value": true

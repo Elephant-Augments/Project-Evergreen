@@ -1,83 +1,423 @@
 {
   "values": [
     {
-      "id": "additionalstructures:flotsam_1",
+      "id": "additionalstructures:desert_tomb_1",
       "required": false
     },
     {
-      "id": "additionalstructures:flotsam_2",
+      "id": "additionalstructures:desert_tomb_2",
       "required": false
     },
     {
-      "id": "additionalstructures:flotsam_3",
+      "id": "additionalstructures:sewage_system_1",
       "required": false
     },
     {
-      "id": "additionalstructures:flotsam_4",
+      "id": "additionalstructures:silverfish_cluster_1",
       "required": false
     },
     {
-      "id": "additionalstructures:flotsam_5",
+      "id": "additionalstructures:silverfish_cluster_2",
       "required": false
     },
     {
-      "id": "archaeology_ruins:ocean_ruin",
+      "id": "additionalstructures:spider_nest_1",
       "required": false
     },
     {
-      "id": "archaeology_ruins:warm_ocean_ruin",
+      "id": "additionalstructures:spider_nest_2",
       "required": false
     },
     {
-      "id": "combat_structures_update:flyingboat",
+      "id": "additionalstructures:spider_nest_3",
       "required": false
     },
     {
-      "id": "dungeons_arise:typhon",
+      "id": "additionalstructures:tomb_1",
       "required": false
     },
     {
-      "id": "feur_extension_fossil:fossil_bone_fish",
+      "id": "additionalstructures:tomb_2",
       "required": false
     },
     {
-      "id": "feur_extension_fossil:fossil_guardian",
+      "id": "additionalstructures:tomb_3",
       "required": false
     },
     {
-      "id": "feur_extension_fossil:fossil_fish",
+      "id": "additionalstructures:tomb_4",
       "required": false
     },
     {
-      "id": "feur_extension_fossil:fossil_baby_fish",
+      "id": "additionalstructures:underground_base_1",
       "required": false
     },
     {
-      "id": "idas:sunken_ship/sunken_ship",
+      "id": "additionalstructures:underground_base_2",
       "required": false
     },
     {
-      "id": "idas:sunken_ship/sunken_ship_ruins",
+      "id": "additionalstructures:underground_dungeon_1",
       "required": false
     },
     {
-      "id": "kattersstructures:red_coral",
+      "id": "additionalstructures:underground_dungeon_2",
       "required": false
     },
     {
-      "id": "kattersstructures:deep_blue_labs",
+      "id": "additionalstructures:underground_nether_portal",
       "required": false
     },
     {
-      "id": "kattersstructures:deep_blue_lab_ruin",
+      "id": "additionalstructures:underground_stollen_1",
       "required": false
     },
     {
-      "id": "kattersstructures:deep_blue_city",
+      "id": "ati_structures:pufferfish_cave",
       "required": false
     },
     {
-      "id": "minecraft:shipwreck",
+      "id": "ati_structures:rotting_temple_underground",
+      "required": false
+    },
+    {
+      "id": "ati_structures:sculk_deposit",
+      "required": false
+    },
+    {
+      "id": "ati_structures:silverfish_nest",
+      "required": false
+    },
+    {
+      "id": "ati_structures:spider_nest",
+      "required": false
+    },
+    {
+      "id": "ati_structures:underground_monument",
+      "required": false
+    },
+    {
+      "id": "ati_structures:underwater_dungeon",
+      "required": false
+    },
+    {
+      "id": "ati_structures:warden_monument",
+      "required": false
+    },
+    {
+      "id": "ati_structures:wither_cavern",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:catacombs",
+      "required": false
+    },
+    {
+      "id": "betterdungeons:skeleton_dungeon",
+      "required": false
+    },
+    {
+      "id": "betterdungeons:small_dungeon",
+      "required": false
+    },
+    {
+      "id": "betterdungeons:spider_dungeon",
+      "required": false
+    },
+    {
+      "id": "betterdungeons:zombie_dungeon",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_acacia",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_desert",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_dripstone",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_ice",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_jungle",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_lush",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_mesa",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_mushroom",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_oak",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_overgrown",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_red_desert",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_spruce",
+      "required": false
+    },
+    {
+      "id": "bettermineshafts:mineshaft_spruce_snowy",
+      "required": false
+    },
+    {
+      "id": "betterstrongholds:stronghold",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:gauntlet_arena",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ancient_factory",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cave_ruins",
+      "required": false
+    },
+    {
+      "id": "create_ltab:grot",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:create_dungeon_base",
+      "required": false
+    },
+    {
+      "id": "dungeonnowloading:temple_of_duality",
+      "required": false
+    },
+    {
+      "id": "dungeonnowloading:labyrinth",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:foundry",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:mining_complex",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:mining_system",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:plague_asylum",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:deep_crypt",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:dungeon_variant",
+      "required": false
+    },
+    {
+      "id": "eidolon:catacomb",
+      "required": false
+    },
+    {
+      "id": "eidolon:lab",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:quark_slime",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:quark_glimer",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_cave_miner",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_curse",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_flame",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_mineshaft",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_spawner_crystal",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_spawner_deepdark",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_spawner_dripstone",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_spawner_forest",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_spawner_lush",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_spawner_mine",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_spawner_redstone",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_spawner_skeleton",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_spawner_spiders",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_spawner_zombie",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_tower",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeon_tower_lush",
+      "required": false
+    },
+    {
+      "id": "feur_dungeon_spawner:dungeonrail",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/acacia_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/bamboo_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/biomes/dripstone_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/biomes/lush_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/birch_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/deepslate_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/jungle_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/mangrove_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/mud_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/oak_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/spruce_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/stone_mineshaft",
+      "required": false
+    },
+    {
+      "id": "idas:ancient_portal/ancient_portal",
+      "required": false
+    },
+    {
+      "id": "idas:nexus",
+      "required": false
+    },
+    {
+      "id": "idas:underground_camp/underground_camp",
+      "required": false
+    },
+    {
+      "id": "idas:underground_camp/underground_camp_deep",
+      "required": false
+    },
+    {
+      "id": "integrated_stronghold:stronghold",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:catacombs",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:abandoned_crypt",
+      "required": false
+    },
+    {
+      "id": "letsdoaddon-structures:illager_mine",
+      "required": false
+    },
+    {
+      "id": "minecraft:stronghold_big",
+      "required": false
+    },
+    {
+      "id": "minecraft:trial_chambers",
+      "required": false
+    },
+    {
+      "id": "minecraft:ancient_city",
       "required": false
     },
     {
@@ -85,27 +425,83 @@
       "required": false
     },
     {
-      "id": "minecraft:monument",
+      "id": "minecraft:mineshaft",
       "required": false
     },
     {
-      "id": "minecraft:ocean_ruin_cold",
+      "id": "minecraft:mineshaft_mesa",
       "required": false
     },
     {
-      "id": "minecraft:ocean_ruin_warm",
+      "id": "mowziesmobs:wrought_chamber",
       "required": false
     },
     {
-      "id": "minecraft:ruined_portal_ocean",
+      "id": "mtr:stronghold",
       "required": false
     },
     {
-      "id": "mvs:ocean_tower",
+      "id": "mvs:mineshaft",
       "required": false
     },
     {
-      "id": "nova_structures:conduit_ruin",
+      "id": "mythsandlegends:sepulcrum_ignitum",
+      "required": false
+    },
+    {
+      "id": "nova_structures:bunker",
+      "required": false
+    },
+    {
+      "id": "nova_structures:deepslate_camp",
+      "required": false
+    },
+    {
+      "id": "philipsruins:bone_dungeon",
+      "required": false
+    },
+    {
+      "id": "philipsruins:ancient_dungeon",
+      "required": false
+    },
+    {
+      "id": "philipsruins:badlands_start_dungeon",
+      "required": false
+    },
+    {
+      "id": "philipsruins:lost_soul_dungeon",
+      "required": false
+    },
+    {
+      "id": "philipsruins:sculk_dungeon",
+      "required": false
+    },
+    {
+      "id": "philipsruins:underground_structures",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:bastion_underground",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_birch",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_dark_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_desert",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_icy",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_jungle",
       "required": false
     },
     {
@@ -113,19 +509,155 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:pyramid_ocean",
+      "id": "repurposed_structures:mineshaft_savanna",
       "required": false
     },
     {
-      "id": "towns_and_towers:wreckage_ocean",
+      "id": "repurposed_structures:mineshaft_stone",
       "required": false
     },
     {
-      "id": "trek:overworld/medium/underwater_sword",
+      "id": "repurposed_structures:mineshaft_swamp",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:marine_observation_hub",
+      "id": "repurposed_structures:mineshaft_taiga",
+      "required": false
+    },
+    {
+      "id": "terramity:ancient_outcrop",
+      "required": false
+    },
+    {
+      "id": "terramity:fairy_fountain",
+      "required": false
+    },
+    {
+      "id": "terramity:infested_laboratory",
+      "required": false
+    },
+    {
+      "id": "terramity:prismatic_pond",
+      "required": false
+    },
+    {
+      "id": "terramity:subterranean_shrine",
+      "required": false
+    },
+    {
+      "id": "threateningly_mobs:castylosaurus_nest",
+      "required": false
+    },
+    {
+      "id": "threateningly_mobs:forestdungeon",
+      "required": false
+    },
+    {
+      "id": "trials:trials_chambers",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:alchemy_room",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:blacksmith_room1",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:desert_crypt",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:dungeon",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:enchanting_room",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:end_room",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:hidden_temple",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:jungle_main_room",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:library1",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:mainroom1",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:mining_storage_room",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:throne_room",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:torture_chamber",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:treasure_room",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:undead_main_room",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:wine_cellar",
+      "required": false
+    },
+    {
+      "id": "unusual_prehistory:mesozoic_fossil",
+      "required": false
+    },
+    {
+      "id": "unusual_prehistory:paleozoic_fossil",
+      "required": false
+    },
+    {
+      "id": "unusual_prehistory:petrified_tree",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:basalt_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:basalt_factory_ruin",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bat_monolith",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:forgotten_remnants",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:shrine_of_preservation",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:monster_egg_banquet",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:monster_egg",
       "required": false
     }
   ]

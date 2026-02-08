@@ -1,71 +1,11 @@
 {
   "values": [
     {
-      "id": "additionalstructures:ice_floes_1",
+      "id": "project_evergreen:is_climate/ocean_shallow_frozen",
       "required": false
     },
     {
-      "id": "additionalstructures:ice_floes_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:ice_floes_3",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:ice_floes_4",
-      "required": false
-    },
-    {
-      "id": "aquamirae:ice_maze/arch",
-      "required": false
-    },
-    {
-      "id": "aquamirae:ice_maze/common",
-      "required": false
-    },
-    {
-      "id": "aquamirae:ice_maze/spiral",
-      "required": false
-    },
-    {
-      "id": "aquamirae:outpost",
-      "required": false
-    },
-    {
-      "id": "ati_structures:ice_tribe",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:obsidianspikespreading",
-      "required": false
-    },
-    {
-      "id": "irons_spellbooks:impaled_icebreaker",
-      "required": false
-    },
-    {
-      "id": "more_critters:ghost_ship",
-      "required": false
-    },
-    {
-      "id": "nordic_structures:specialvikinglongboat_2",
-      "required": false
-    },
-    {
-      "id": "u_sea:island/cold/glacier",
-      "required": false
-    },
-    {
-      "id": "u_sea:raft/cold/tide_breaker",
-      "required": false
-    },
-    {
-      "id": "u_sea:raft/cold/cone_tide_breaker",
-      "required": false
-    },
-    {
-      "id": "u_sea:raft/cold/wide_tide_breaker",
+      "id": "project_evergreen:is_climate/ocean_deep_frozen",
       "required": false
     }
   ]

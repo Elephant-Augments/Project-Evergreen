@@ -69,6 +69,10 @@
       "required": false
     },
     {
+      "id": "ati_structures:lighthouse",
+      "required": false
+    },
+    {
       "id": "ati_structures:mosque",
       "required": false
     },
@@ -189,11 +193,19 @@
       "required": false
     },
     {
+      "id": "combat_structures_update:ruinedstronghold",
+      "required": false
+    },
+    {
       "id": "create_ltab:cherry_house",
       "required": false
     },
     {
       "id": "create_ltab:jungle_well",
+      "required": false
+    },
+    {
+      "id": "create_ltab:plains_big",
       "required": false
     },
     {
@@ -270,6 +282,10 @@
     },
     {
       "id": "dungeons_arise:illager_galley",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:merchant_campsite",
       "required": false
     },
     {
@@ -410,6 +426,38 @@
     },
     {
       "id": "formationsoverworld:wagon",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/acacia_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/bamboo_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/birch_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/dark_oak_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/jungle_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/oak_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/spruce_mineshaft",
       "required": false
     },
     {
@@ -921,6 +969,10 @@
       "required": false
     },
     {
+      "id": "repurposed_structures:city_overworld",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:outpost_ocean",
       "required": false
     },
@@ -1225,6 +1277,30 @@
       "required": false
     },
     {
+      "id": "trek:overworld/rare/villager_fortress",
+      "required": false
+    },
+    {
+      "id": "trek:village/desert",
+      "required": false
+    },
+    {
+      "id": "trek:village/plains",
+      "required": false
+    },
+    {
+      "id": "trek:village/savanna",
+      "required": false
+    },
+    {
+      "id": "trek:village/snowy",
+      "required": false
+    },
+    {
+      "id": "trek:village/taiga",
+      "required": false
+    },
+    {
       "id": "u_desert:desert/ambient/cactus/fork",
       "required": false
     },
@@ -1346,6 +1422,10 @@
     },
     {
       "id": "wabi_sabi_structures:spruce_cabin",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sunken_steamboat",
       "required": false
     },
     {

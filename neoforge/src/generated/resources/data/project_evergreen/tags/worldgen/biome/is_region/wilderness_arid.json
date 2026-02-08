@@ -1,107 +1,15 @@
 {
   "values": [
     {
-      "id": "additionalstructures:standing_acacia_log",
+      "id": "project_evergreen:is_climate/plains_shrubby_arid",
       "required": false
     },
     {
-      "id": "additionalstructures:acacia_log",
+      "id": "project_evergreen:is_climate/special_craggy_warm",
       "required": false
     },
     {
-      "id": "ancientstructures:roman_ruined_temple",
-      "required": false
-    },
-    {
-      "id": "ati_structures:granite_fort",
-      "required": false
-    },
-    {
-      "id": "bettermineshafts:mineshaft_acacia",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:acaciatreehouse",
-      "required": false
-    },
-    {
-      "id": "custom:fire_dragon_spawn",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:keep_kayra",
-      "required": false
-    },
-    {
-      "id": "feur_extension_fossil:skull_camp",
-      "required": false
-    },
-    {
-      "id": "goety:wind_shrine",
-      "required": false
-    },
-    {
-      "id": "mostructures:savanna_abandoned_church",
-      "required": false
-    },
-    {
-      "id": "mowziesmobs:umvuthana_grove",
-      "required": false
-    },
-    {
-      "id": "mvs:nature/acacia_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:dead_tree/acacia",
-      "required": false
-    },
-    {
-      "id": "mvs:acacia_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:acacia",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:mansion_savanna",
-      "required": false
-    },
-    {
-      "id": "totw_modded:derelict_grass",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/pillager_outpost_nilotic",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/pillager_outpost_iberian",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:pillager_outpost_savanna",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:pillager_outpost_savanna_plateau",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/common/smoldering_altar",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/common/termite_hill",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:effigy_patch_savanna",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:llama_sanctuary_hills",
+      "id": "project_evergreen:is_climate/special_mediterranean_uninviting",
       "required": false
     }
   ]

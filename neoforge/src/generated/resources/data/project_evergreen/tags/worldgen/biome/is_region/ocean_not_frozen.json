@@ -1,123 +1,19 @@
 {
   "values": [
     {
-      "id": "additionalstructures:boat_2",
+      "id": "project_evergreen:is_climate/ocean_deep_temperate",
       "required": false
     },
     {
-      "id": "ba_bt:ocean_tower",
+      "id": "project_evergreen:is_climate/ocean_deep_warm",
       "required": false
     },
     {
-      "id": "ba_bt:ocean_battle_tower",
+      "id": "project_evergreen:is_climate/ocean_shallow_temperate",
       "required": false
     },
     {
-      "id": "combat_structures_update:flyingboat",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:dark_oak_illager_ship",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:sprucevillagership",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:oak_villager_ship",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:illager_corsair",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:illager_galley",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:undead_pirate_ship",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise_seven_seas:small_yacht",
-      "required": false
-    },
-    {
-      "id": "dungeons_enhanced:pirate_ship",
-      "required": false
-    },
-    {
-      "id": "dungeons_enhanced:fishing_ship",
-      "required": false
-    },
-    {
-      "id": "joshie:village_ocean",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:villager_ocean",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:ocean_ships",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:village_ocean",
-      "required": false
-    },
-    {
-      "id": "minecraft:brig",
-      "required": false
-    },
-    {
-      "id": "minecraft:monument",
-      "required": false
-    },
-    {
-      "id": "minecraft:ocean_ruin_cold",
-      "required": false
-    },
-    {
-      "id": "more_critters:collector_wagon_ocean",
-      "required": false
-    },
-    {
-      "id": "mostructures:pirate_ship",
-      "required": false
-    },
-    {
-      "id": "mvs:ocean_tower",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:outpost_ocean",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:temple_ocean",
-      "required": false
-    },
-    {
-      "id": "supplementaries:galleon",
-      "required": false
-    },
-    {
-      "id": "terramity:trial_spire",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_ocean",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:pillager_outpost_ocean",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/ship_pillager",
+      "id": "project_evergreen:is_climate/ocean_shallow_warm",
       "required": false
     }
   ]

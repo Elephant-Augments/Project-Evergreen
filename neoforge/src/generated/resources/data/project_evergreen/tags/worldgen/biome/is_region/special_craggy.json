@@ -1,91 +1,23 @@
 {
   "values": [
     {
-      "id": "additionalstructures:stone_rock_1",
+      "id": "project_evergreen:is_climate/special_craggy_temperate",
       "required": false
     },
     {
-      "id": "additionalstructures:stone_rock_2",
+      "id": "project_evergreen:is_climate/special_craggy_warm",
       "required": false
     },
     {
-      "id": "additionalstructures:stone_rock_3",
+      "id": "project_evergreen:is_climate/special_craggy_snow",
       "required": false
     },
     {
-      "id": "additionalstructures:stone_rock_4",
+      "id": "project_evergreen:is_climate/mountains_alive",
       "required": false
     },
     {
-      "id": "ati_structures:ati_stoneworks",
-      "required": false
-    },
-    {
-      "id": "ati_structures:rotting_temple",
-      "required": false
-    },
-    {
-      "id": "born_in_chaos_v1:observation_tower_plains",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:stone_library_catacombs",
-      "required": false
-    },
-    {
-      "id": "custom:gryphon_nest",
-      "required": false
-    },
-    {
-      "id": "custom:lightning_dragon_spawn",
-      "required": false
-    },
-    {
-      "id": "dungeons_enhanced:watch_tower",
-      "required": false
-    },
-    {
-      "id": "integrated_minecraft:firecaller_tower",
-      "required": false
-    },
-    {
-      "id": "minecraft:airship",
-      "required": false
-    },
-    {
-      "id": "mostructures:pillager_mines",
-      "required": false
-    },
-    {
-      "id": "mvs:nature/stone_rock",
-      "required": false
-    },
-    {
-      "id": "mvs:stone_rock",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:igloo_stone",
-      "required": false
-    },
-    {
-      "id": "structory_towers:warped_greatsword",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/claw_pillager",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/wild_stone",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:infested_castle",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:infested_castle_stony",
+      "id": "project_evergreen:is_climate/special_rocky",
       "required": false
     }
   ]

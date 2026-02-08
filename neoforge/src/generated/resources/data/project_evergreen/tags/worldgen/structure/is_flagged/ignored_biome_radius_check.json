@@ -1,0 +1,7388 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:rengoku_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:ruined_japanese_village",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_pagoda",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_temple",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:japanese_forge",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworld_obsidianspike_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:bunker",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworld_obsidianspike_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:bunker",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworld_obsidianspike_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:bunker",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworld_obsidianspike_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:bunker",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworld_obsidianspike_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:bunker",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworld_obsidianspike_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:bunker",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworld_obsidianspike_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:bunker",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworld_obsidianspike_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:bunker",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworld_obsidianspike_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:bunker",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworld_obsidianspike_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:bunker",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworld_obsidianspike_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:bunker",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworld_obsidianspike_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:bunker",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworldobsidianspike_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:overworld_obsidianspike_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:bunker",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createchinatower",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:dojo",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_challenger",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_conqueror",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:heavenly_rider",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:watch_tower",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:watch_tower",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:watch_tower",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:watch_tower",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:watch_tower",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:watch_tower",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:watch_tower",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:watch_tower",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:watch_tower",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:watch_tower",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:watch_tower",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:watch_tower",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:elders_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:watch_tower",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:sunken_shrine",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:infested_dungeon",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:infested_dungeon",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:infested_dungeon",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:infested_dungeon",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:infested_dungeon",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:infested_dungeon",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:infested_dungeon",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:infested_dungeon",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:infested_dungeon",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:infested_dungeon",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:infested_dungeon",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:infested_dungeon",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:infested_dungeon",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "imst:alpine_house",
+      "required": false
+    },
+    {
+      "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "imst:alpine_house",
+      "required": false
+    },
+    {
+      "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "imst:alpine_house",
+      "required": false
+    },
+    {
+      "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "imst:alpine_house",
+      "required": false
+    },
+    {
+      "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "imst:alpine_house",
+      "required": false
+    },
+    {
+      "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "imst:alpine_house",
+      "required": false
+    },
+    {
+      "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "imst:alpine_house",
+      "required": false
+    },
+    {
+      "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "imst:alpine_house",
+      "required": false
+    },
+    {
+      "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "imst:alpine_house",
+      "required": false
+    },
+    {
+      "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "imst:alpine_house",
+      "required": false
+    },
+    {
+      "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "imst:alpine_house",
+      "required": false
+    },
+    {
+      "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "imst:alpine_house",
+      "required": false
+    },
+    {
+      "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "imst:alpine_house",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:torii_gate",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "jellyfishing:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/trident_shrine",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/floating_spikes",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/large_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/ocean_temple",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/conduit_ruins",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/sunken_city",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "required": false
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "required": false
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "required": false
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "required": false
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "required": false
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "required": false
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "required": false
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "required": false
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "required": false
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "required": false
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "required": false
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "required": false
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:airship",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "required": false
+    },
+    {
+      "id": "minecraft:volcano_fortress",
+      "required": false
+    },
+    {
+      "id": "mostructures:pillager_mines",
+      "required": false
+    },
+    {
+      "id": "mostructures:pillager_mines",
+      "required": false
+    },
+    {
+      "id": "mostructures:pillager_mines",
+      "required": false
+    },
+    {
+      "id": "mostructures:pillager_mines",
+      "required": false
+    },
+    {
+      "id": "mostructures:pillager_mines",
+      "required": false
+    },
+    {
+      "id": "mostructures:pillager_mines",
+      "required": false
+    },
+    {
+      "id": "mostructures:pillager_mines",
+      "required": false
+    },
+    {
+      "id": "mostructures:pillager_mines",
+      "required": false
+    },
+    {
+      "id": "mostructures:pillager_mines",
+      "required": false
+    },
+    {
+      "id": "mostructures:pillager_mines",
+      "required": false
+    },
+    {
+      "id": "mostructures:pillager_mines",
+      "required": false
+    },
+    {
+      "id": "mostructures:pillager_mines",
+      "required": false
+    },
+    {
+      "id": "mostructures:pillager_mines",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:small_bamboo_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "nova_structures:shrine_tower",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_stone",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:ice_arena",
+      "required": false
+    },
+    {
+      "id": "skyarena:sky_arena",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "structory_towers:warped_greatsword",
+      "required": false
+    },
+    {
+      "id": "structory_towers:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "structory_towers:warped_greatsword",
+      "required": false
+    },
+    {
+      "id": "structory_towers:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "structory_towers:warped_greatsword",
+      "required": false
+    },
+    {
+      "id": "structory_towers:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "structory_towers:warped_greatsword",
+      "required": false
+    },
+    {
+      "id": "structory_towers:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "structory_towers:warped_greatsword",
+      "required": false
+    },
+    {
+      "id": "structory_towers:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "structory_towers:warped_greatsword",
+      "required": false
+    },
+    {
+      "id": "structory_towers:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "structory_towers:warped_greatsword",
+      "required": false
+    },
+    {
+      "id": "structory_towers:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "structory_towers:warped_greatsword",
+      "required": false
+    },
+    {
+      "id": "structory_towers:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "structory_towers:warped_greatsword",
+      "required": false
+    },
+    {
+      "id": "structory_towers:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "structory_towers:warped_greatsword",
+      "required": false
+    },
+    {
+      "id": "structory_towers:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "structory_towers:warped_greatsword",
+      "required": false
+    },
+    {
+      "id": "structory_towers:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "structory_towers:warped_greatsword",
+      "required": false
+    },
+    {
+      "id": "structory_towers:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "structory_towers:warped_greatsword",
+      "required": false
+    },
+    {
+      "id": "structory_towers:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:sword_shrine",
+      "required": false
+    },
+    {
+      "id": "terramity:suspicious_shrine",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wild_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/all_abandoned",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/claw_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wild_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/all_abandoned",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/claw_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wild_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/all_abandoned",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/claw_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wild_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/all_abandoned",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/claw_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wild_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/all_abandoned",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/claw_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wild_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/all_abandoned",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/claw_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wild_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/all_abandoned",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/claw_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wild_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/all_abandoned",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/claw_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wild_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/all_abandoned",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/claw_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wild_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/all_abandoned",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/claw_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wild_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/all_abandoned",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/claw_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wild_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/all_abandoned",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/claw_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wild_stone",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/all_abandoned",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/claw_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle_stony",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle_stony",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle_stony",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle_stony",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle_stony",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle_stony",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle_stony",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle_stony",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle_stony",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle_stony",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle_stony",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle_stony",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle_stony",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:bee_farm_cherry",
+      "required": false
+    }
+  ]
+}

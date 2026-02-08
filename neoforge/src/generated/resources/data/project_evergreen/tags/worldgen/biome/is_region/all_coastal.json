@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "project_evergreen:is_climate/coastal_alive",
+      "required": false
+    },
+    {
+      "id": "project_evergreen:is_climate/coastal_barren",
+      "required": false
+    },
+    {
+      "id": "project_evergreen:is_climate/coastal_frozen",
+      "required": false
+    },
+    {
+      "id": "project_evergreen:is_climate/coastal_temperate",
+      "required": false
+    },
+    {
+      "id": "project_evergreen:is_climate/coastal_warm",
+      "required": false
+    }
+  ]
+}

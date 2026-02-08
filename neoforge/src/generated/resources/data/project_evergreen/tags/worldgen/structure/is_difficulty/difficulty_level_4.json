@@ -89,6 +89,10 @@
       "required": false
     },
     {
+      "id": "dungeons_arise:aviary",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:bathhouse",
       "required": false
     },
@@ -289,6 +293,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/rare/island_village_1",
+      "required": false
+    },
+    {
       "id": "trek:overworld/rare/mushroom_island",
       "required": false
     },
@@ -297,7 +305,19 @@
       "required": false
     },
     {
+      "id": "trek:overworld/rare/sleepy_island",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/villager_island",
+      "required": false
+    },
+    {
       "id": "trek:overworld/very_rare/coves",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_rare/floating_farm_large",
       "required": false
     },
     {
