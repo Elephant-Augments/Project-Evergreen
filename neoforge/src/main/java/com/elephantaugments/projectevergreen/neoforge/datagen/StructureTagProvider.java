@@ -68,11 +68,11 @@ public class StructureTagProvider extends StructureTagsProvider {
                 if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
                     ProjectEvergreen.LOGGER.info("Populating structure dimension tag... " + tag.location());
                 }
-                List<ResourceLocation> regional_structures = dimension.defaultStructures().stream()
+                List<ResourceLocation> structures = dimension.defaultStructures().stream()
                         .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
                         .map(ResourceLocation::parse)
                         .toList();
-                regional_structures.forEach(s -> {
+                structures.forEach(s -> {
                     tag(tag).addOptional(s);
                 });
             }

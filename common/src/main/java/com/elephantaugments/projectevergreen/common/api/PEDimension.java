@@ -9,7 +9,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.levelgen.structure.Structure;
 
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public enum PEDimension {
     IS_OVERWORLD(
@@ -38,27 +39,28 @@ public enum PEDimension {
         Constants.AFTERDARK_DIFFICULTY_OFFSET
     ),
     IS_LOSTCITIES(
-        SupportedMods.LOSTCITIES.name(),
+        ProjectEvergreen.MODID,
         DefaultStructureDimensions.lostCitiesStructures,
         Constants.LOSTCITIES_DIFFICULTY_OFFSET
     );
 
-    private final String jsonKey = "dimension";
-    private final String jsonPath = "/" + Constants.PROPERTIES_KEY + "/" + jsonKey;
+    private List<String> defaultStructures = new ArrayList<>();
+
+    private final String jsonKey = Constants.JsonProp.DIMENSION.jsonKey();
+    private final String jsonPath = Constants.JsonProp.DIMENSION.jsonPath();
     private final String path;
     private final ResourceLocation location;
     private final String biomeTagKey;
     private TagKey<Structure> structureTag;
-    private List<String> defaultStructures;
     private int diffOffset;
 
     PEDimension(String namespace, List<String> defaultStructures, int diffOffset) {
         path = "is_dimension/" + name().toLowerCase();
-        location = ResourceLocation.fromNamespaceAndPath(namespace.toLowerCase(), path);
+        location = ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, path);
         biomeTagKey = "#" + namespace.toLowerCase() + ":" + name().toLowerCase();
         this.structureTag = ProjectEvergreen.createTag(Registries.STRUCTURE, location);
-        this.defaultStructures = defaultStructures;
         this.diffOffset = diffOffset;
+        initStructures(defaultStructures);
     }
 
     public TagKey<Structure> structureTag() {
@@ -81,7 +83,20 @@ public enum PEDimension {
         return this.defaultStructures;
     }
 
+    public void initStructures(List<String> ids) {
+        defaultStructures.addAll(ids);
+    }
+
     public int difficulty() {
         return Constants.OTHERWORLD_DIFFICULTY + diffOffset;
+    }
+
+    public static List<String> allOtherworldStructures() {
+        HashSet<String> otherworldStructures = Arrays.stream(PEDimension.values())
+                .filter(d -> d != PEDimension.IS_OVERWORLD)
+                .map(PEDimension::defaultStructures)
+                .flatMap(Collection::stream)
+                .collect(Collectors.toCollection(HashSet::new));
+        return otherworldStructures.stream().toList();
     }
 }

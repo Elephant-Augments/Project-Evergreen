@@ -242,6 +242,11 @@ public class DefaultStructureHeightmaps {
 
     //OCEANFLOOR
     public static final List<String> oceanfloor = ImmutableList.of(
+        "minecraft:shipwreck",
+        "feur_extension_fossil:fossil_baby_fish",
+        "kattersstructures:deep_blue_labs",
+        "kattersstructures:deep_blue_lab_ruin",
+        "kattersstructures:deep_blue_city",
         "wabi_sabi_structures:sunken_steamboat"
     );
 }

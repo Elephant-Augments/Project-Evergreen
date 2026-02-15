@@ -11,6 +11,8 @@ import net.minecraft.world.level.biome.Biomes;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.material.Fluid;
 
+import java.util.Optional;
+
 public enum SupportedMods {
     MINECRAFT,
     PATCHED,
@@ -39,9 +41,16 @@ public enum SupportedMods {
         return ResourceLocation.fromNamespaceAndPath(namespace, path);
     }
 
-    public ResourceKey<Biome> getBiome(String id) {
+    public Optional<ResourceLocation> tryLocation(String path) {
+        return Optional.ofNullable(ResourceLocation.tryBuild(namespace, path));
+    }
+
+    public Optional<ResourceKey<Biome>> getBiome(String id) {
         ResourceKey<Registry<Biome>> BIOME_REGISTRY = Biomes.PLAINS.registryKey();
-        return ResourceKey.create(BIOME_REGISTRY, location(id));
+        Optional<ResourceLocation> location = tryLocation(id);
+        return location.isPresent() ?
+                Optional.of(ResourceKey.create(BIOME_REGISTRY, location(id))) :
+                Optional.empty();
     }
 
     public Block getBlock(String id) {

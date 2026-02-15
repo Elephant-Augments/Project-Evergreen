@@ -593,8 +593,8 @@ public enum PERegion {
     private List<String> defaultStructures = new ArrayList<>();
     private List<PEBiome> defaultBiomes = new ArrayList<>();
 
-    private final String jsonKey = "region";
-    private final String jsonPath = "/" + Constants.PROPERTIES_KEY + "/" + jsonKey;
+    private final String jsonKey = Constants.JsonProp.REGION.jsonKey();
+    private final String jsonPath = Constants.JsonProp.REGION.jsonPath();
     private final String path;
     private final ResourceLocation location;
     private final String tagKey;

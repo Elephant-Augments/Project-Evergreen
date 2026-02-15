@@ -13,6 +13,7 @@ import net.minecraft.world.level.levelgen.structure.Structure;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public enum PEStructure {
     PE_STRUCTURE;
@@ -24,6 +25,7 @@ public enum PEStructure {
         "repurposed_structures:generic_jigsaw_structure",
         "moogs_structures:moogs_structures_generic_jigsaw_structure",
         "mvs:mvs_generic_jigsaw_structure",
+        "takesapillage:pillager_structure",
         "structure_gel:extended_jigsaw",
         "cataclysm:cataclysm_jigsaw",
         "mostructures:generic",
@@ -37,20 +39,35 @@ public enum PEStructure {
         SPRAWLING;
 
         public String jsonKey() {
-            return "size";
+            return Constants.JsonProp.SIZE.jsonKey();
         }
         public String jsonPath() {
-            return "/" + Constants.PROPERTIES_KEY + "/" + jsonKey();
+            return Constants.JsonProp.SIZE.jsonPath();
         }
 
+        public int flatnessRadius() {
+            return switch (this) {
+                case SMALL -> 1;
+                case MEDIUM -> 2;
+                case LARGE -> 3;
+                case SPRAWLING -> 5;
+            };
+        }
+        public int terrainHeight() {
+            return switch (this) {
+                case SMALL -> Constants.DEFAULT_TERRAIN_HEIGHT_SMALL;
+                case MEDIUM -> Constants.DEFAULT_TERRAIN_HEIGHT_MEDIUM;
+                case LARGE -> Constants.DEFAULT_TERRAIN_HEIGHT_LARGE;
+                case SPRAWLING -> Constants.DEFAULT_TERRAIN_HEIGHT_SPRAWLING;
+            };
+        }
         public Integer diffOffset() {
-            Map<Size, Integer> diffMap = Map.of(
-                Size.SMALL, Constants.SMALL_DIFFICULTY_OFFSET,
-                Size.MEDIUM, Constants.MEDIUM_DIFFICULTY_OFFSET,
-                Size.LARGE, Constants.LARGE_DIFFICULTY_OFFSET,
-                Size.SPRAWLING, Constants.SPRAWLING_DIFFICULTY_OFFSET
-            );
-            return diffMap.get(this);
+            return switch (this) {
+                case SMALL -> Constants.SMALL_DIFFICULTY_OFFSET;
+                case MEDIUM -> Constants.MEDIUM_DIFFICULTY_OFFSET;
+                case LARGE -> Constants.LARGE_DIFFICULTY_OFFSET;
+                case SPRAWLING -> Constants.SPRAWLING_DIFFICULTY_OFFSET;
+            };
         }
     }
 
@@ -63,8 +80,8 @@ public enum PEStructure {
 
         private List<String> defaultIDs = new ArrayList<>();
 
-        private final String jsonKey = "heightmap";
-        private final String jsonPath = "/" + Constants.PROPERTIES_KEY + "/" + jsonKey;
+        private final String jsonKey = Constants.JsonProp.HEIGHTMAP.jsonKey();
+        private final String jsonPath = Constants.JsonProp.HEIGHTMAP.jsonPath();
         private final String path;
         private final ResourceLocation location;
 
@@ -94,12 +111,17 @@ public enum PEStructure {
             defaultIDs.addAll(ids);
         }
 
-        public static List<String> allGroundLevelStructures() {
+        public static List<String> nonGroundLevelStructures() {
             HashSet<String> notAboveground = Arrays.stream(Heightmap.values())
                     .filter(h -> h != Heightmap.GROUNDLEVEL)
                     .map(Heightmap::defaultIDs)
                     .flatMap(Collection::stream)
                     .collect(Collectors.toCollection(HashSet::new));
+            return notAboveground.stream().toList();
+        }
+
+        public static List<String> allGroundLevelStructures() {
+            List<String> notAboveground = nonGroundLevelStructures();
             return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
                     .filter(s -> !notAboveground.contains(s.id))
                     .map(PatchableStructure::getId)
@@ -132,8 +154,8 @@ public enum PEStructure {
         DIFFICULTY_LEVEL_10;
 
         private int number;
-        private final String jsonKey = "difficulty";
-        private final String jsonPath = "/" + Constants.PROPERTIES_KEY + "/" + jsonKey;
+        private final String jsonKey = Constants.JsonProp.DIFFICULTY.jsonKey();
+        private final String jsonPath = Constants.JsonProp.DIFFICULTY.jsonPath();
         private final String path;
         private final ResourceLocation location;
         private String tagKey;
@@ -238,6 +260,37 @@ public enum PEStructure {
                 .flatMap(Collection::stream)
                 .collect(Collectors.toCollection(HashSet::new));
             return spawnsInRareOrNarrowRegion.stream().toList();
+        }
+
+        public static List<String> isIgnored() {
+            return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                    .filter(s -> s.getDimension().isEmpty() &&
+                            !(s.getFlags().contains(Flag.IGNORED_BIOME_REDISTRIBUTION)))
+                    .map(PatchableStructure::getId)
+                    .toList();
+        }
+
+        public static List<String> isSprawlingFlat() {
+            return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                    .filter(s -> s.getFlags().contains(Flag.FLATNESS_CHECK_SPRAWLING))
+                    .map(PatchableStructure::getId)
+                    .toList();
+        }
+
+        public static List<String> isLargeFlat() {
+            return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                    .filter(s -> s.getFlags().contains(Flag.FLATNESS_CHECK_LARGE) ||
+                            (s.getStructureSet().isPresent() && s.getStructureSet().get().name().contains("RARE")))
+                    .map(PatchableStructure::getId)
+                    .toList();
+        }
+
+        public static List<String> isSmallFlat() {
+            return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                    .filter(s -> s.getFlags().contains(Flag.FLATNESS_CHECK_SMALL) ||
+                            (s.getStructureSet().isPresent() && s.getStructureSet().get().name().contains("DECO")))
+                    .map(PatchableStructure::getId)
+                    .toList();
         }
     }
 }

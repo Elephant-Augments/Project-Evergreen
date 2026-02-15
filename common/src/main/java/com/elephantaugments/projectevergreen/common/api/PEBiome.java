@@ -4,13 +4,16 @@ import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultBiomeTags;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableBiomes;
-import com.google.common.collect.ImmutableList;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.biome.Biome;
 
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public enum PEBiome {
     NO_BIOMES(List.of("project_evergreen:empty")),
@@ -75,8 +78,8 @@ public enum PEBiome {
     SPECIAL_SWAMPY_TEMPERATE(DefaultBiomeTags.specialSwampyTemperate),
     SPECIAL_SWAMPY_WARM(DefaultBiomeTags.specialSwampyWarm);
 
-    private final String jsonKey = "biome";
-    private final String jsonPath = "/" + Constants.PROPERTIES_KEY + "/" + jsonKey;
+    private final String jsonKey = Constants.JsonProp.BIOME.jsonKey();
+    private final String jsonPath = Constants.JsonProp.BIOME.jsonPath();
     private final String tagKey;
     private final String path;
     private final ResourceLocation location;
@@ -111,12 +114,39 @@ public enum PEBiome {
         return this.tag;
     }
 
-    public List<String> defaultTags() {
+    public List<String> defaultBiomes() {
         return defaultSet;
     }
 
+    public static List<String> allTemperate() {
+        HashSet<String> tempBiomes = Arrays.stream(PEBiome.values())
+                .filter(r -> r.name().contains("TEMPERATE") ||
+                        r.name().contains("FLOWERY") ||
+                        r.name().contains("MEDITERRANEAN") ||
+                        r.name().contains("ORIENTAL") ||
+                        r.name().contains("DECIDUOUS"))
+                .map(PEBiome::defaultBiomes)
+                .flatMap(Collection::stream)
+                .collect(Collectors.toCollection(HashSet::new));
+        return tempBiomes.stream().toList();
+    }
+
+    public static List<String> allWarm() {
+        HashSet<String> warmBiomes = Arrays.stream(PEBiome.values())
+                .filter(r -> r.name().contains("WARM") ||
+                        r.name().contains("TROPICAL") ||
+                        r.name().contains("DESERT") ||
+                        r.name().contains("ARID"))
+                .map(PEBiome::defaultBiomes)
+                .flatMap(Collection::stream)
+                .collect(Collectors.toCollection(HashSet::new));
+        return warmBiomes.stream().toList();
+    }
+
     public enum Flag {
-        PATCHABLE(new PatchableBiomes().getIDs().stream().toList());
+        PATCHABLE(new PatchableBiomes().getIDs().stream().toList()),
+        IS_TEMPERATE(PEBiome.allTemperate()),
+        IS_WARM(PEBiome.allWarm());
 
         private final String jsonKey;
         private final String jsonPath;

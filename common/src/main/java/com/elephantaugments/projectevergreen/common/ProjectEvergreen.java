@@ -9,9 +9,12 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import org.slf4j.Logger;
 
+import java.text.Collator;
+
 public class ProjectEvergreen {
     public static final String MODID = "project_evergreen";
     public static final Logger LOGGER = LogUtils.getLogger();
+    public static final Collator COLLATOR = Collator.getInstance();
     public static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     public static void init() {}

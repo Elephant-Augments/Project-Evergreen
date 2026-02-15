@@ -3,13 +3,10 @@ package com.elephantaugments.projectevergreen.neoforge.datagen;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.api.*;
 import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
-import com.elephantaugments.projectevergreen.neoforge.platform.NeoForgePlatformHelper;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.BiomeTagsProvider;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.TagKey;
-import net.minecraft.world.level.biome.Biome;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 
@@ -45,7 +42,7 @@ public class BiomeTagProvider extends BiomeTagsProvider {
         Optional.ofNullable(biome.tag()).ifPresent(
             (tag) -> {
                 if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Populating biome tag... " + tag.location()); }
-                List<ResourceLocation> biomes = biome.defaultTags().stream()
+                List<ResourceLocation> biomes = biome.defaultBiomes().stream()
                         .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
                         .map(ResourceLocation::parse)
                         .toList();
@@ -65,7 +62,7 @@ public class BiomeTagProvider extends BiomeTagsProvider {
                         .map(ResourceLocation::parse)
                         .toList();
                 regional_biomes.forEach(s -> {
-                    tag(tag).addOptional(s);
+                    tag(tag).addOptionalTag(s);
                 });
             }
         );

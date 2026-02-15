@@ -10,99 +10,99 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.levelgen.structure.Structure;
 import net.minecraft.world.level.levelgen.structure.StructureSet;
-import org.spongepowered.asm.mixin.injection.struct.InjectorGroupInfo;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
 public enum PEStructureSet {
-    CIVILIZATION_INLAND_SPRAWLING(
-        DefaultStructureRarity.civilizationSprawling,
-        Constants.DEFAULT_SPRAWLING_SPACING,
-        Constants.DEFAULT_SPRAWLING_SEPARATION,
+    CIVILIZATION_EXTRA_RARE(
+        DefaultStructureRarity.civilizationExtraRare,
+        Constants.DEFAULT_EXTRA_RARE_SPACING,
+        Constants.DEFAULT_EXTRA_RARE_SEPARATION,
         Constants.CIVILIZATION_SPREAD_OFFSET
     ),
-    CIVILIZATION_INLAND_MASSIVE(
-        DefaultStructureRarity.civilizationMassive,
-        Constants.DEFAULT_MASSIVE_SPACING,
-        Constants.DEFAULT_MASSIVE_SEPARATION,
+    CIVILIZATION_RARE(
+        DefaultStructureRarity.civilizationRare,
+        Constants.DEFAULT_RARE_SPACING,
+        Constants.DEFAULT_RARE_SEPARATION,
         Constants.CIVILIZATION_SPREAD_OFFSET
     ),
-    CIVILIZATION_INLAND_MEDIUM(
-        DefaultStructureRarity.civilizationMedium,
-        Constants.DEFAULT_MEDIUM_SPACING,
-        Constants.DEFAULT_MEDIUM_SEPARATION,
+    CIVILIZATION_COMMON(
+        DefaultStructureRarity.civilizationCommon,
+        Constants.DEFAULT_COMMON_SPACING,
+        Constants.DEFAULT_COMMON_SEPARATION,
         Constants.CIVILIZATION_SPREAD_OFFSET
     ),
-    CIVILIZATION_INLAND_DECO(
+    CIVILIZATION_DECO(
         DefaultStructureRarity.civilizationDeco,
         Constants.DEFAULT_DECO_SPACING,
         Constants.DEFAULT_DECO_SEPARATION,
         Constants.CIVILIZATION_SPREAD_OFFSET
     ),
-    WILDERNESS_INLAND_SPRAWLING(
-        DefaultStructureRarity.wildernessSprawling,
-        Constants.DEFAULT_SPRAWLING_SPACING,
-        Constants.DEFAULT_SPRAWLING_SEPARATION,
+    WILDERNESS_EXTRA_RARE(
+        DefaultStructureRarity.wildernessExtraRare,
+        Constants.DEFAULT_EXTRA_RARE_SPACING,
+        Constants.DEFAULT_EXTRA_RARE_SEPARATION,
         Constants.WILDERNESS_SPREAD_OFFSET
     ),
-    WILDERNESS_INLAND_MASSIVE(
-        DefaultStructureRarity.wildernessMassive,
-        Constants.DEFAULT_MASSIVE_SPACING,
-        Constants.DEFAULT_MASSIVE_SEPARATION,
+    WILDERNESS_RARE(
+        DefaultStructureRarity.wildernessRare,
+        Constants.DEFAULT_RARE_SPACING,
+        Constants.DEFAULT_RARE_SEPARATION,
         Constants.WILDERNESS_SPREAD_OFFSET
     ),
-    WILDERNESS_INLAND_MEDIUM(
-        DefaultStructureRarity.wildernessMedium,
-        Constants.DEFAULT_MEDIUM_SPACING,
-        Constants.DEFAULT_MEDIUM_SEPARATION,
+    WILDERNESS_COMMON(
+        DefaultStructureRarity.wildernessCommon,
+        Constants.DEFAULT_COMMON_SPACING,
+        Constants.DEFAULT_COMMON_SEPARATION,
         Constants.WILDERNESS_SPREAD_OFFSET
     ),
-    WILDERNESS_INLAND_DECO(
+    WILDERNESS_DECO(
         DefaultStructureRarity.wildernessDeco,
         Constants.DEFAULT_DECO_SPACING,
         Constants.DEFAULT_DECO_SEPARATION,
         Constants.WILDERNESS_SPREAD_OFFSET
     ),
-    OCEAN_FLOATING_MASSIVE(
-        DefaultStructureRarity.oceanFloatingMassive,
-        Constants.DEFAULT_SPRAWLING_SPACING,
-        Constants.DEFAULT_SPRAWLING_SEPARATION,
+    OCEAN_FLOATING_RARE(
+        DefaultStructureRarity.oceanFloatingRare,
+        Constants.DEFAULT_EXTRA_RARE_SPACING,
+        Constants.DEFAULT_EXTRA_RARE_SEPARATION,
         Constants.SPECIAL_SPREAD_OFFSET
     ),
-    OCEAN_UNDERWATER_MASSIVE(
-        DefaultStructureRarity.oceanUnderwaterMassive,
-        Constants.DEFAULT_MASSIVE_SPACING,
-        Constants.DEFAULT_MASSIVE_SEPARATION,
+    OCEAN_UNDERWATER_RARE(
+        DefaultStructureRarity.oceanUnderwaterRare,
+        Constants.DEFAULT_EXTRA_RARE_SPACING,
+        Constants.DEFAULT_EXTRA_RARE_SEPARATION,
+        Constants.WILDERNESS_SPREAD_OFFSET
+    ),
+    OCEAN_ALL_COMMON(
+        DefaultStructureRarity.oceanAllCommon,
+        Constants.DEFAULT_RARE_SPACING,
+        Constants.DEFAULT_RARE_SEPARATION,
         Constants.SPECIAL_SPREAD_OFFSET
     ),
-    OCEAN_ALL_MEDIUM(
-        DefaultStructureRarity.oceanAllMedium,
-        Constants.DEFAULT_MEDIUM_SPACING,
-        Constants.DEFAULT_MEDIUM_SEPARATION,
+    UNDERGROUND_RARE(
+        DefaultStructureRarity.undergroundRare,
+        Constants.DEFAULT_EXTRA_RARE_SPACING,
+        Constants.DEFAULT_EXTRA_RARE_SEPARATION,
         Constants.SPECIAL_SPREAD_OFFSET
     ),
-    UNDERGROUND_SPRAWLING(
-        DefaultStructureRarity.undergroundSprawling,
-        Constants.DEFAULT_SPRAWLING_SPACING,
-        Constants.DEFAULT_SPRAWLING_SEPARATION,
-        Constants.SPECIAL_SPREAD_OFFSET
-    ),
-    SKY_MASSIVE(
-        DefaultStructureRarity.skyMassive,
-        Constants.DEFAULT_SPRAWLING_SPACING,
-        Constants.DEFAULT_SPRAWLING_SEPARATION,
+    SKY_RARE(
+        DefaultStructureRarity.skyRare,
+        Constants.DEFAULT_EXTRA_RARE_SPACING,
+        Constants.DEFAULT_EXTRA_RARE_SEPARATION,
         Constants.SPECIAL_SPREAD_OFFSET
     );
 
-    private final String jsonKey = "structure_set";
-    private final String jsonPath = "/" + Constants.PROPERTIES_KEY + "/" + jsonKey;
+    private List<String> defaultSet = new ArrayList<>();
+
+    private final String jsonKey = Constants.JsonProp.STRUCTURE_SET.jsonKey();
+    private final String jsonPath = Constants.JsonProp.STRUCTURE_SET.jsonPath();
     private final String path;
     private final String tagPath;
     private final ResourceLocation location;
     private final ResourceLocation tagLocation;
     private TagKey<Structure> structureTag;
-    private List<String> defaultSet;
     private int separation;
     private int spacing;
     private Double spreadOffset;
@@ -113,10 +113,10 @@ public enum PEStructureSet {
         location = ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, path);
         tagLocation = ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, tagPath);
         this.structureTag = ProjectEvergreen.createTag(Registries.STRUCTURE, tagLocation);
-        this.defaultSet = defaultSet;
         this.spacing = defaultSpacing;
         this.separation = defaultSeparation;
         this.spreadOffset = offset;
+        initIDs(defaultSet);
     }
 
     public ResourceLocation location() {
@@ -139,6 +139,10 @@ public enum PEStructureSet {
         return this.defaultSet;
     }
 
+    public void initIDs(List<String> ids) {
+        defaultSet.addAll(ids);
+    }
+
     public int spacing() {
         return Math.toIntExact(Math.round(this.spacing * spreadOffset));
     }
@@ -147,13 +151,24 @@ public enum PEStructureSet {
         return Math.toIntExact(Math.round(this.separation * spreadOffset));
     }
 
-    public static List<String> isRedistributed() {
+    public static List<String> hasRedistributedStructures() {
         HashSet<String> redistributedStructures = Arrays.stream(PEStructureSet.values())
                 .map(PEStructureSet::defaultStructures)
                 .flatMap(Collection::stream)
                 .collect(Collectors.toCollection(HashSet::new));
         return WorldgenDataManager.PATCHABLE_STRUCTURE_SETS.keySet().stream()
                 .filter(redistributedStructures::contains)
+                .toList();
+    }
+
+    //TODO: Load SSets with their default structure IDs, disable them here and make a note in dev console if other structures disabled without being redistributed
+    public static List<String> hasDisabledStructures() {
+        List<String> disabledStructures = WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                .filter(s -> s.getFlags().contains(PEStructure.Flag.DISABLED))
+                .map(PatchableStructure::getId)
+                .toList();
+        return WorldgenDataManager.PATCHABLE_STRUCTURE_SETS.keySet().stream()
+                .filter(disabledStructures::contains)
                 .toList();
     }
 

@@ -139,7 +139,8 @@ public class DefaultBiomeTags {
         "wythers:maple_mountains",
         "wythers:temperate_rainforest",
 		"wythers:temperate_rainforest_crags",
-        "wythers:warm_birch_forest"
+        "wythers:warm_birch_forest",
+        "wythers:birch_taiga"
     );
     
     public static final List<String> forestDenseTropical = ImmutableList.of(
@@ -192,8 +193,7 @@ public class DefaultBiomeTags {
         "natures_spirit:coniferous_covert",
         "dreamwoods:taiga_shield",
         "dreamwoods:alpine_fields",
-        "dreamwoods:spruce_lowlands",
-        "wythers:birch_taiga"
+        "dreamwoods:spruce_lowlands"
     );
     
     public static final List<String> forestSparseDeciduous = ImmutableList.of(

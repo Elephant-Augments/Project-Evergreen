@@ -48,7 +48,7 @@ public abstract class IPatchable {
     }
 
     public boolean isLoaded() {
-        return this.is_loaded;
+        return is_loaded;
     }
 
     public void setLoaded(boolean loaded) {

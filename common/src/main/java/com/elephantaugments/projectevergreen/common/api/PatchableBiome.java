@@ -1,6 +1,8 @@
 package com.elephantaugments.projectevergreen.common.api;
 
 import com.elephantaugments.projectevergreen.common.Constants;
+import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
 import java.util.ArrayList;
@@ -9,6 +11,7 @@ import java.util.List;
 public class PatchableBiome extends IPatchable {
 
     protected final String REGISTRY_PATH = "worldgen/biome/";
+    protected final String DTYPE = this.getClass().toString();
     public final String JSON_DATA_KEY = Constants.PATCHABLE_BIOME_KEY;
 
     private final List<PEBiome.Flag> flags = new ArrayList<PEBiome.Flag>();
@@ -57,7 +60,14 @@ public class PatchableBiome extends IPatchable {
     }
 
     @Override
-    public JsonObject toJson() {
-        return null;
+    public JsonElement toJson() {
+        JsonObject json = new JsonObject();
+
+        json.addProperty(Constants.JsonProp.ID.jsonKey(), this.getId());
+        this.flags.forEach(flag -> {
+            json.addProperty(flag.jsonKey(), true);
+        });
+
+        return ProjectEvergreen.GSON.toJsonTree(json);
     }
 }

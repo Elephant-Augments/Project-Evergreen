@@ -72,6 +72,7 @@ public class DefaultStructureRegions {
         "imst:observatory",
         "imst:quarry",
         "imst:train_station",
+		"kattersstructures:trader_outposts",
         "medieval_buildings:house_1",
         "medieval_buildings:house_2",
         "medieval_buildings:tower",
@@ -166,6 +167,9 @@ public class DefaultStructureRegions {
         "imst:lumberjack/birch_hut",
         "imst:birch_hut",
         "imst:yurt",
+		"kattersstructures:birch_tree",
+		"kattersstructures:windmill",
+		"kattersstructures:graveyard",
         "letsdoaddon-structures:vinery",
         "meadow:bench",
         "meadow:chapel",
@@ -198,7 +202,6 @@ public class DefaultStructureRegions {
         "trek:overworld/very_rare/farm_island",
         "trek:overworld/medium/farm",
         "trek:overworld/medium/birch_fort",
-		"trek:overworld/medium/birch_trade",
         "trek:overworld/medium/hobbit_hole",
         "trek:overworld/medium/maison",
         "trek:overworld/very_common/plains",
@@ -396,6 +399,8 @@ public class DefaultStructureRegions {
         "humancompanions:sandstone_house",
         "imst:cactus_farm",
         "imst:desert_well",
+		"kattersstructures:villager_desert",
+		"kattersstructures:village_mesa",
         "kattersstructures:desert_dungeon",
         "mostructures:sphinx",
         "mostructures:desert_abandoned_church",
@@ -448,12 +453,19 @@ public class DefaultStructureRegions {
         "create_structures_arise:createlittleman",
         "create_structures_arise:createpickaxestatue",
         "create_structures_arise:create_copper_statue",
+		"create_structures_arise:towerofochrum",
         "dungeons_enhanced:miners_house",
         "formationsoverworld:copper_spire",
         "humancompanions:terracotta_house",
         "more_critters:collector_wagon_badlands",
         "mvs:well/wells/acacia_well",
         "mvs:acacia_well",
+		"qrafty:industrial_cabin",
+		"qrafty:industrial_construction",
+		"qrafty:industrial_digger",
+		"qrafty:industrial_elevator",
+		"qrafty:industrial_grabber",
+		"qrafty:industrial_redstone_crack",
         "repurposed_structures:village_badlands",
         "structory_towers:nomad_outpost",
         "wabi_sabi_structures:badlands_dwelling",
@@ -486,6 +498,7 @@ public class DefaultStructureRegions {
         "imst:cocoa_farm",
         "imst:jungle_hut",
         "imst:lumberjack/jungle_hut",
+		"kattersstructures:village_jungle",
         "lios_outlandish_villages:spiral_tower_village",
         "more_critters:collector_wagon_jungle",
         "mvs:other_decoration/villager_statue",
@@ -535,6 +548,7 @@ public class DefaultStructureRegions {
         "humancompanions:dark_oak_house",
         "idas:winter_wagon",
         "imst:igloo",
+		"kattersstructures:villager_mountain",
         "letsdoaddon-structures:barn",
         "meadow:monument",
         "mostructures:snowy_abandoned_church",
@@ -589,39 +603,6 @@ public class DefaultStructureRegions {
         "wabi_sabi_structures:pumpkin_patch",
         "wabi_sabi_structures:pumpkin_field",
         "additionalstructures:scarecrow"
-	);
-    
-    //CIVILIZATION_SPECIAL_COASTAL
-    public static final List<String> civilizationSpecialCoastal = ImmutableList.of(
-        "additionalstructures:palm_1",
-		"additionalstructures:palm_2",
-		"additionalstructures:palm_3",
-		"additionalstructures:palm_4",
-        "beachparty:ritual_circle",
-        "beachparty:excavated_treasure",
-        "beachparty:beach_hut",
-        "combat_structures_update:ruinedoceantower",
-        "combat_structures_update:beach_house",
-        "farmers_structures:aquaculture_beach",
-        "farmers_structures:aquacultures_beach",
-        "idas:abandoned_lighthouse",
-        "integrated_villages:pirate_village",
-        "integrated_minecraft:beach_house",
-        "mostructures:air_balloon",
-        "mostructures:lighthouse",
-        "mvs:well/well",
-        "mvs:well",
-        "mvs:beach_bar",
-        "structory_towers:lighthouse",
-        "taxtg:giant_palm_tree",
-        "taxtg:giant_palm_tree_1",
-        "towns_and_towers:village_beach",
-        "traveloptics:aqua_mage_tower",
-        "trek:overworld/medium/ruine_bateaux",
-        "u_sea:lighthouse",
-        "verdantvibes:palm_campfire",
-        "wabi_sabi_structures:lighthouse",
-        "wabi_sabi_structures:turtle_soup_kitchen"
 	);
 
     //CIVILIZATION_SPECIAL_FLOWERY
@@ -770,7 +751,6 @@ public class DefaultStructureRegions {
         "eidolon:lab",
         "explorify:ruins",
         "explorify:campsite",
-        "explorify:mausoleum",
         "eugene:pillager_loot_carriage",
         "feur_dungeon_spawner:dungeon_jail",
         "formationsoverworld:campsite",
@@ -853,14 +833,18 @@ public class DefaultStructureRegions {
         "towns_and_towers:pillager_outpost_meadow",
         "towns_and_towers:pillager_outpost_sunflower_plains",
         "ancientstructures:ruined_german_village",
+		"create_ltab:big_windmill",
         "custom:ogre_dwelling",
         "custom:gryphon_nest",
         "betterarcheology:catacombs",
+		"create_ltab:pillage",
+		"create_ltab:railroad",
         "dungeons_arise:illager_windmill",
         "idas:collectors_museum",
         "idas:ancient_mines",
         "idas:hermits_hollow",
         "irons_spellbooks:evoker_fort",
+		"kattersstructures:village_birch",
         "nova_structures:ruin_town",
         "philipsruins:field_stone_ruins",
         "repurposed_structures:igloo_grassy",
@@ -1352,17 +1336,6 @@ public class DefaultStructureRegions {
         "structory:dense_forest_ruin"
 	);
     
-    //WILDERNESS_SPECIAL_COASTAL
-    public static final List<String> wildernessSpecialCoastal = ImmutableList.of(
-        "minecraft:shipwreck_beached",
-        "minecraft:pirate_hideout",    
-        "towns_and_towers:pillager_outpost_beach",
-        "dungeons_arise:lighthouse",
-        "dungeons_arise:fishing_hut",
-        "dungeons_plus:deepwater_dungeon",
-        "mostructures:moai"
-	);
-    
     //WILDERNESS_SPECIAL_MEDITERRANEAN
     public static final List<String> wildernessSpecialMediterranean = ImmutableList.of(
         "iceandfire:gorgon_temple",
@@ -1395,12 +1368,38 @@ public class DefaultStructureRegions {
 
     //COASTAL_TEMPERATE
     public static final List<String> coastalTemperate = ImmutableList.of(
-
+		"dungeons_arise:fishing_hut",
+		"mostructures:air_balloon",
+		"mostructures:lighthouse",
+		"towns_and_towers:village_beach",
+		"towns_and_towers:pillager_outpost_beach",
+		"traveloptics:aqua_mage_tower",
+		"trek:overworld/medium/ruine_bateaux",
+		"u_sea:lighthouse",
+		"wabi_sabi_structures:lighthouse",
+		"wabi_sabi_structures:turtle_soup_kitchen"
 	);
 
     //COASTAL_WARM
     public static final List<String> coastalWarm = ImmutableList.of(
-
+		"additionalstructures:palm_1",
+		"additionalstructures:palm_2",
+		"additionalstructures:palm_3",
+		"additionalstructures:palm_4",
+		"beachparty:beach_hut",
+		"beachparty:ritual_circle",
+		"beachparty:excavated_treasure",
+		"combat_structures_update:beach_house",
+		"farmers_structures:aquaculture_beach",
+		"farmers_structures:aquacultures_beach",
+		"integrated_villages:pirate_village",
+		"integrated_minecraft:beach_house",
+		"minecraft:pirate_hideout",
+		"mvs:beach_bar",
+		"structory_towers:lighthouse",
+		"taxtg:giant_palm_tree",
+		"taxtg:giant_palm_tree_1",
+		"verdantvibes:palm_campfire"
 	);
 
     //OCEAN_NOT_FROZEN
@@ -1424,7 +1423,6 @@ public class DefaultStructureRegions {
         "joshie:village_ocean",
         "kattersstructures:villager_ocean",
         "kattersstructures:ocean_ships",
-        "kattersstructures:village_ocean",
         "mostructures:pirate_ship",
         "more_critters:collector_wagon_ocean",
         "mvs:ocean_tower",
@@ -1436,7 +1434,8 @@ public class DefaultStructureRegions {
         "towns_and_towers:pillager_outpost_ocean",
         //"trek:overworld/rare/tower_island",
         "trek:overworld/medium/ship_pillager",
-        "wabi_sabi_structures:sunken_steamboat"
+		"wabi_sabi_structures:marine_observation_hub"
+        //"wabi_sabi_structures:sunken_steamboat"
 	);
 
     //OCEAN_FROZEN
@@ -1467,69 +1466,70 @@ public class DefaultStructureRegions {
 
     //OCEAN_WARM
     public static final List<String> oceanWarm = ImmutableList.of(
-            "lios_outlandish_villages:spiral_tower_village_sea",
-            "minecraft:ocean_ruin_warm",
-            "archaeology_ruins:small_ocean_ruin",
-            "betterarcheology:underwater_0",
-            "betterarcheology:underwater_1",
-            "betterarcheology:underwater_2",
-            "betterarcheology:underwater_3",
-            "combat_structures_update:jungle_illager_ship",
-            "idas:sunken_ship/sunken_ship_ruins",
-            "medieval_buildings:ship",
-            "structory_towers:ocean_pillar",
-            "u_sea:island/warm/hill",
-            "u_sea:island/warm/tower",
-            "u_sea:raft/warm/skipper",
-            "u_sea:raft/warm/cone_skipper",
-            "threateningly_mobs:sea_cucumber_nest",
-            "repurposed_structures:village_ocean"
+		"lios_outlandish_villages:spiral_tower_village_sea",
+		"minecraft:ocean_ruin_warm",
+		"archaeology_ruins:small_ocean_ruin",
+		"betterarcheology:underwater_0",
+		"betterarcheology:underwater_1",
+		"betterarcheology:underwater_2",
+		"betterarcheology:underwater_3",
+		"combat_structures_update:jungle_illager_ship",
+		"idas:sunken_ship/sunken_ship_ruins",
+		"kattersstructures:red_coral",
+		"medieval_buildings:ship",
+		"structory_towers:ocean_pillar",
+		"u_sea:island/warm/hill",
+		"u_sea:island/warm/tower",
+		"u_sea:raft/warm/skipper",
+		"u_sea:raft/warm/cone_skipper",
+		"threateningly_mobs:sea_cucumber_nest",
+		"repurposed_structures:village_ocean"
     );
 
     //OCEAN_DEEP
     public static final List<String> oceanDeep = ImmutableList.of(
-            "minecraft:monument",
-            "towns_and_towers:village_ocean",
-            "idas:sunken_ship/sunken_ship",
-            "idas:sunken_ship/sunken_ship_coral",
-            "ba_bt:ocean_battle_tower",
-            "betteroceanmonuments:ocean_monument",
-            "cataclysm:sunken_city",
-            "create_structures_arise:pillager_boat",
-            "combat_structures_update:ocean_glass_dome",
-            "combat_structures_update:illagerwarship",
-            "combat_structures_update:watercastle",
-            "create_ltab:water_pre",
-            "dungeons_arise:typhon",
-            "dungeons_arise:mechanical_nest",
-            "dungeons_arise_seven_seas:unicorn_galleon",
-            "dungeons_arise_seven_seas:victory_frigate",
-            "dungeons_arise_seven_seas:corsair_corvette",
-            "dungeons_arise_seven_seas:pirate_junk",
-            "dungeons_plus:warped_garden",
-            "feur_extension_fossil:fossil_bone_fish",
-            "feur_extension_fossil:fossil_guardian",
-            "feur_extension_fossil:fossil_fish",
-            "formationsoverworld:raft",
-            "hopo:underwater_fossils",
-            "hopo:underwater/underwater_fossils",
-            "hopo:underwater_small_ruins",
-            "hopo:underwater/underwater_small_ruins",
-            "hopo:underwater/underwater_city",
-            "hopo:underwater_city",
-            "mtr:ocean_temple",
-            "nova_structures:trident_trial_monument",
-            "philipsruins:ocean_fortress",
-            "philipsruins:ocean_ruins",
-            "repurposed_structures:pyramid_ocean",
-            "repurposed_structures:ancient_city_ocean",
-            "totw_modded:ocean",
-            "threateningly_mobs:underwater_altar",
-            "trek:overworld/very_rare/coves",
-            "trek:overworld/rare/mushroom_island",
-            "underwater_village:tower",
-            "underwater_village:dungeon",
-            "underwater_village:ruins"
+		"minecraft:monument",
+		"towns_and_towers:village_ocean",
+		"idas:sunken_ship/sunken_ship",
+		"idas:sunken_ship/sunken_ship_coral",
+		"ba_bt:ocean_battle_tower",
+		"betteroceanmonuments:ocean_monument",
+		"cataclysm:sunken_city",
+		"create_structures_arise:pillager_boat",
+		"combat_structures_update:ocean_glass_dome",
+		"combat_structures_update:illagerwarship",
+		"combat_structures_update:watercastle",
+		"create_ltab:water_pre",
+		"dungeons_arise:typhon",
+		"dungeons_arise:mechanical_nest",
+		"dungeons_arise_seven_seas:unicorn_galleon",
+		"dungeons_arise_seven_seas:victory_frigate",
+		"dungeons_arise_seven_seas:corsair_corvette",
+		"dungeons_arise_seven_seas:pirate_junk",
+		"dungeons_plus:warped_garden",
+		"feur_extension_fossil:fossil_bone_fish",
+		"feur_extension_fossil:fossil_guardian",
+		"feur_extension_fossil:fossil_fish",
+		"formationsoverworld:raft",
+		"hopo:underwater_fossils",
+		"hopo:underwater/underwater_fossils",
+		"hopo:underwater_small_ruins",
+		"hopo:underwater/underwater_small_ruins",
+		"hopo:underwater/underwater_city",
+		"hopo:underwater_city",
+		"mtr:ocean_temple",
+		"nova_structures:trident_trial_monument",
+		"philipsruins:ocean_fortress",
+		"philipsruins:ocean_ruins",
+		"repurposed_structures:pyramid_ocean",
+		"repurposed_structures:ancient_city_ocean",
+		"totw_modded:ocean",
+		"threateningly_mobs:underwater_altar",
+		"trek:overworld/very_rare/coves",
+		"trek:overworld/rare/mushroom_island",
+		"underwater_village:tower",
+		"underwater_village:dungeon",
+		"underwater_village:ruins"
     );
 
     //OCEAN_DEEP_FROZEN
@@ -1537,20 +1537,14 @@ public class DefaultStructureRegions {
 		"aquamirae:shelter",
 		"aquamirae:ship",
         "combat_structures_update:taintedicespike",
-        "underwater_village:library",
-        "underwater_village:shrine",
-        "underwater_village:temple",
-        "underwater_village:temple_broken",
-        "underwater_village:temple_ruins",
-        "underwater_village:cold_big_gate",
-        "underwater_village:cold_broken_house",
-        "underwater_village:cold_fountain",
-        "underwater_village:cold_gate"
+		"kattersstructures:deep_blue_labs",
+		"kattersstructures:deep_blue_lab_ruin",
+		"spore:iceberg_mines"
 	);
 
     //OCEAN_DEEP_TEMPERATE
     public static final List<String> oceanDeepTemperate = ImmutableList.of(
-
+		"trek:overworld/medium/birch_trade"
     );
 
     //OCEAN_DEEP_WARM
@@ -1572,9 +1566,8 @@ public class DefaultStructureRegions {
 
     //OCEAN_SHALLOW
     public static final List<String> oceanShallow = ImmutableList.of(
-            "minecraft:shipwreck",
-            //"ati_structures:lighthouse",
-            "u_sea:raft/temperate/grid"
+		//"ati_structures:lighthouse",
+		"u_sea:raft/temperate/grid"
     );
     
     //OCEAN_SHALLOW_FROZEN
@@ -1592,13 +1585,23 @@ public class DefaultStructureRegions {
     //OCEAN_SHALLOW_WARM
     public static final List<String> oceanShallowWarm = ImmutableList.of(
         "idas:iceandfire/sirens_cove",
-        "jellyfishing:buried_treasure"
+        "jellyfishing:buried_treasure",
+		"kattersstructures:village_ocean"
 	);
 
     //OCEAN_RARE_SHALLOW
     public static final List<String> oceanRareShallow = ImmutableList.of(
         "idas:iceandfire/sirens_cove",
-        "jellyfishing:buried_treasure"
+        "jellyfishing:buried_treasure",
+		"underwater_village:library",
+		"underwater_village:shrine",
+		"underwater_village:temple",
+		"underwater_village:temple_broken",
+		"underwater_village:temple_ruins",
+		"underwater_village:cold_big_gate",
+		"underwater_village:cold_broken_house",
+		"underwater_village:cold_fountain",
+		"underwater_village:cold_gate"
 	);
     
     //OCEAN_RARE_DEEP
@@ -1617,6 +1620,7 @@ public class DefaultStructureRegions {
 		"joshie:sunken_spires/prismarine_forge",
 		"joshie:sunken_spires/sunken_city",
 		"joshie:sunken_spires/trident_shrine",
+		"kattersstructures:deep_blue_city",
         "nordic_structures:vikinglongboatboss"
 	);
     
@@ -1745,7 +1749,8 @@ public class DefaultStructureRegions {
     
     //SPECIAL_MAGICAL
     public static final List<String> specialMagical = ImmutableList.of(
-        "ati_structures:dark_keep",
+		"minecraft:ruined_portal",
+		"ati_structures:dark_keep",
         "ati_structures:dark_tower",
         "ati_structures:gnome_hut",
         "ars_additions:nexus_tower",
@@ -1766,6 +1771,7 @@ public class DefaultStructureRegions {
         "formationsoverworld:witch_tower",
         "goety:black_assembly",
         "hexerei:owl_post_office",
+		"hopo:portal/overworld/portal_ruined",
         "idas:ars_nouveau/archmages_tower",
         "integrated_minecraft:arcane_abode",
         "integrated_minecraft:ancient_archwood_tree",
@@ -1850,6 +1856,7 @@ public class DefaultStructureRegions {
         "born_in_chaos_v1:grave_memesus",
         "combat_structures_update:bunker",
         "custom:ice_dragon_spawn",
+		"dungeons_arise:wishing_well",
         "explorify:guide_post_cold",
         "imst:alpine_house",
         "imst:mountain_camp",
@@ -1959,7 +1966,6 @@ public class DefaultStructureRegions {
         "goety:spider_den",
         "iceandfire:graveyard",
         "iceandfire:mausoleum",
-        "kattersstructures:graveyard",
         "mvs:gallows",
         "mvs:stone_pillars",
         "mvs:ruins/stone_pillars",
@@ -2117,7 +2123,6 @@ public class DefaultStructureRegions {
         "repurposed_structures:mineshaft_ocean",
         "repurposed_structures:pyramid_ocean",
         "trek:overworld/medium/underwater_sword",
-        "wabi_sabi_structures:marine_observation_hub",
         "additionalstructures:flotsam_1",
         "additionalstructures:flotsam_2",
         "additionalstructures:flotsam_3",
@@ -2127,7 +2132,12 @@ public class DefaultStructureRegions {
 
     //ALL_COASTAL
     public static final List<String> allCoastal = ImmutableList.of(
-
+		"minecraft:shipwreck_beached",
+		"combat_structures_update:ruinedoceantower",
+		"dungeons_arise:lighthouse",
+		"dungeons_plus:deepwater_dungeon",
+		"idas:abandoned_lighthouse",
+		"mostructures:moai"
 	);
 
     //ALL_RIVERS
@@ -2484,7 +2494,6 @@ public class DefaultStructureRegions {
         "minecraft:ruined_portal_mountain",
         "minecraft:ruined_portal_nether",
         "minecraft:ruined_portal_swamp",
-        "minecraft:shipwreck_beached",
         "minecraft:stronghold",
         "minecraft:swamp_hut",
         "minecraft:trail_ruins",
@@ -2862,7 +2871,6 @@ public class DefaultStructureRegions {
         "mvs:dead_tree/oak",
         "mvs:dead_tree/spruce",
         "mvs:other_decoration/fox_hut",
-        "mvs:ruins/small_ruin",
         "mvs:ruins/log_ruin",
         "mvs:other_decoration/campsite",
         "mvs:other_decoration/horse_campsite",
@@ -2891,7 +2899,6 @@ public class DefaultStructureRegions {
         "mvs:spruce",
         "mvs:fox_hut",
         "mvs:jungle_tower",
-        "mvs:small_ruin",
         "mvs:log_ruin",
         "mvs:campsite",
         "mvs:horse_campsite",

@@ -22,7 +22,15 @@ public class DefaultFlags {
 		"integrated_villages:regular_villages",
         "idas:idas_rare",
         "idas:idas_underground_rare",
+		"kattersstructures:ocean",
+		"kattersstructures:villages",
+		"kattersstructures:villagers",
+		"kattersstructures:grassland",
         "nova_structures:firewatch_towers",
+        "nova_structures:villages_swamp",
+        "nova_structures:villages_jungle",
+        "nova_structures:villages_birch",
+        "nova_structures:swamp_structure",
 		"philipsruins:ocean_fortress_main",
         "towns_and_towers:towers",
         "towns_and_towers:towns",
@@ -44,8 +52,14 @@ public class DefaultFlags {
 	//DISABLED
     //<--- Structure sets to disable individually --->
     public static final List<String> disabledStructures = ImmutableList.of(
+		"archaeology_ruins:ruined_ocean_monument",
 		"ati_structures:lighthouse",
+		"born_in_chaos_v1:dark_tower_forest",
 		"combat_structures_update:ruinedstronghold",
+		"kattersstructures:villager_ocean",
+		"mvs:well/well",
+		"mvs:well",
+		"trek:overworld/rare/island_village_1",
 		"trek:overworld/rare/tower_island"
     );
 
@@ -153,36 +167,6 @@ public class DefaultFlags {
 		"combat_structures_update:large_obsidian_spike",
 		"combat_structures_update:shulker_end_city",
 		"combat_structures_update:small_obsidian_spike",
-		"combat_structures_update:smallendislandbridge_1",
-		"combat_structures_update:smallendislandbridge_2",
-		"combat_structures_update:smallendislandbridge_3",
-		"combat_structures_update:smallendislandhouse_1",
-		"combat_structures_update:smallendislandhouse_2",
-		"combat_structures_update:smallendislandruin_1",
-		"combat_structures_update:smallendislandruin_2",
-		"combat_structures_update:smallendislandruin_3",
-		"combat_structures_update:smallendislandruin_4",
-		"combat_structures_update:smallendislandruin_5",
-		"combat_structures_update:ruined_end_city",
-		"combat_structures_update:ruinedendship",
-		"combat_structures_update:end_ruin",
-		"combat_structures_update:nether_basalt_portal",
-		"combat_structures_update:nether_brute_room",
-		"combat_structures_update:nether_hoglin_homestead",
-		"combat_structures_update:nether_mine_shafts",
-		"combat_structures_update:nether_obsidian_spike_1",
-		"combat_structures_update:nether_skeleton",
-		"combat_structures_update:nether_small_gold_fort",
-		"combat_structures_update:nether_strider_dock",
-		"combat_structures_update:nethercastle",
-		"combat_structures_update:netherlargewarpedtree_1",
-		"combat_structures_update:netherlargewarpedtree_2",
-		"combat_structures_update:netherlargewarpedtree_3",
-		"combat_structures_update:netherlargewarpedtree_4",
-		"combat_structures_update:netherlargewarpedtreehouse",
-		"combat_structures_update:netherlongspike",
-		"combat_structures_update:netherrack_mine_tunnels",
-		"combat_structures_update:netherrackspike",
 		"combat_structures_update:wither_castle",
 		"companions:companions_tent",
 		"create_ltab:nether_roof_house",
@@ -199,7 +183,6 @@ public class DefaultFlags {
 		"eugene:piglin_camp",
 		"explorify:black_spiral",
 		"explorify:end_shipwreck",
-		"farmers_structures:aether",
 		"farmers_structures:cook_nether_1",
 		"farmers_structures:cooks_nether_1",
 		"farmers_structures:cook_nether_2",
@@ -208,7 +191,6 @@ public class DefaultFlags {
 		"farmers_structures:undergardens",
 		"farmers_structures:undergarden_sea",
 		"farmers_structures:undergardens_sea",
-		"farmers_structures:afterdark_farms",
 		"farmers_structures:flesh_farms",
 		"farmers_structures:honey_cake_farms",
 		"goety:final_terminal",
@@ -375,6 +357,7 @@ public class DefaultFlags {
 		"nova_structures:firewatch_tower_savanna",
 		"nova_structures:firewatch_tower_swamp",
 		"philipsruins:sculk_dungeon",
+		"qrafty:birk_fort",
 		"repurposed_structures:pyramid_dark_forest",
 		"structory_towers:small_firetower",
 		"threateningly_mobs:distortion_village",
@@ -389,6 +372,7 @@ public class DefaultFlags {
 		"unearthed_journey:temple_to_methuselah",
 		"wabi_sabi_structures:lumpy_tower",
 		"wabi_sabi_structures:sphinx_hidey_hole_icy",
+		"wabi_sabi_structures:sunken_steamboat",
 		"windswept:chestnut_weathered_house",
 		"windswept:grove_weathered_house"
 	);
@@ -499,6 +483,10 @@ public class DefaultFlags {
         "dungeons_arise:thornborn_towers",
         "dungeons_arise:desert_hall",
         "dungeons_arise:shiraz_palace",
+		"epic:witch_hut",
+		"integrated_minecraft:ruined_fortress",
+		"integrated_minecraft:scarlet_citadel",
+		"idas:iceandfire/dread_citadel",
         "idas:collectors_museum",
         "idas:tinkers_citadel",
         "idas:bazaar",
@@ -532,6 +520,7 @@ public class DefaultFlags {
         "biomemakeover:mansion",
         "companions:companions_factory",
         "create_ltab:birch_structures",
+		"create_ltab:railroad",
         "dungeons_arise:bathhouse",
         "dungeons_arise:greenwood_pub",
         "dungeons_plus:snowy_temple",
@@ -602,7 +591,7 @@ public class DefaultFlags {
     //FLATNESS_CHECK_Small
     //<--- Flatness check used for tiny-small sized (~1x1 chunk) structures --->
     public static final List<String> flatnessCheckSmall = ImmutableList.of(
-
+		"qrafty:birk_fort"
     );
 
     //ADD_TERRAIN_ADAPTATION

@@ -1,13 +1,15 @@
 package com.elephantaugments.projectevergreen.common.api;
 
+import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
-import com.elephantaugments.projectevergreen.common.data.defaults.DefaultFlags;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableBiomes;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableProcessorLists;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableStructureSets;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableStructures;
 import com.elephantaugments.projectevergreen.common.api.PEStructure.Size;
 import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
+import net.minecraft.core.Holder;
+import net.minecraft.core.HolderGetter;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.biome.Biome;
@@ -19,26 +21,13 @@ import net.minecraft.tags.TagKey;
 
 
 import java.util.*;
-import java.util.stream.Stream;
 
 public final class WorldgenDataManager {
-    private static final List<String> EMPTY_LIST = new ArrayList<>();
 
     public static LinkedHashMap<String, PatchableBiome> PATCHABLE_BIOMES = new PatchableBiomes().Data;
     public static LinkedHashMap<String, PatchableStructure> PATCHABLE_STRUCTURES = new PatchableStructures().Data;
     public static LinkedHashMap<String, PatchableStructureSet> PATCHABLE_STRUCTURE_SETS = new PatchableStructureSets().Data;
     public static PatchableProcessorLists PATCHABLE_PROCESSOR_LISTS = new PatchableProcessorLists();
-
-//    public static LinkedHashMap<String, PERegion_OLD> REGIONS_BY_TAG;
-//    public static LinkedHashMap<String, PatchableBiome> BIOMES_BY_ID;
-//    public static ArrayListMultimap<String, PatchableStructure> STRUCTURES_BY_REGION = ArrayListMultimap.create();
-//
-//    public static ArrayListMultimap<String, PatchableBiome> BIOMES_BY_TAG;
-//    public static LinkedHashMap<String, PatchableStructureSet> STRUCTURE_SETS_BY_ID;
-//    public static ArrayListMultimap<String, PatchableStructure> STRUCTURES_BY_TAG;
-//    public static LinkedHashMap<String, PatchableStructure> STRUCTURES_BY_ID;
-//    public static ArrayListMultimap<Size, PatchableStructure> STRUCTURES_BY_SIZE;
-//    public static ArrayListMultimap<Dimension, PatchableStructure> STRUCTURES_BY_DIM;
 
     public static SortedSet<String> loadedBiomes = new TreeSet<>();
     public static SortedSet<String> loadedBiomeModifiers = new TreeSet<>();
@@ -48,8 +37,6 @@ public final class WorldgenDataManager {
     public static SortedSet<String> loadedTemplatePools = new TreeSet<>();
     public static SortedSet<String> loadedStructureSets = new TreeSet<>();
     public static SortedSet<String> loadedStructures = new TreeSet<>();
-    public static SortedSet<String> undergroundStructures = new TreeSet<>();
-    public static SortedSet<String> flatStructures = new TreeSet<>();
 
     public static void setBiomeData(String id, PatchableBiome biome) {
         PATCHABLE_BIOMES.replace(id, biome);
@@ -63,22 +50,28 @@ public final class WorldgenDataManager {
         PATCHABLE_STRUCTURES.replace(id, structure);
     }
 
+    /*public static void loadWorldgenData(Optional<RegistryAccess> registryAccess) {
+        registryAccess.ifPresentOrElse((access) -> {
+            ProjectEvergreen.LOGGER.info("Loading dynamic worldgen data...");
+            loadDynamicWorldgenData(access.asGetterLookup());
+        },
+        () -> {
+            ProjectEvergreen.LOGGER.info("Loading default worldgen data...");
+            loadDefaultWorldgenData();
+        });
+        ProjectEvergreen.LOGGER.info("Successfully mapped all worldgen data!");
+    }*/
+
+    public static void loadDynamicWorldgenData(RegistryAccess registryAccess) {
+        loadPatchableStructures(registryAccess.asGetterLookup().lookup(Registries.STRUCTURE));
+        loadPatchableStructureSets(registryAccess.asGetterLookup().lookup(Registries.STRUCTURE_SET));
+        loadPatchableBiomes(registryAccess.asGetterLookup().lookup(Registries.BIOME));
+    }
+
     public static void loadDefaultWorldgenData() {
         loadPatchableStructures(Optional.empty());
         loadPatchableStructureSets(Optional.empty());
         loadPatchableBiomes(Optional.empty());
-
-        ProjectEvergreen.LOGGER.info("Successfully mapped all worldgen data objects!");
-    }
-
-    public static void loadDynamicWorldgenData(HolderLookup.Provider registryLookup) {
-        ProjectEvergreen.LOGGER.info("Loading dynamic worldgen data...");
-
-        loadPatchableStructures(registryLookup.lookup(Registries.STRUCTURE));
-        loadPatchableStructureSets(registryLookup.lookup(Registries.STRUCTURE_SET));
-        loadPatchableBiomes(registryLookup.lookup(Registries.BIOME));
-
-        ProjectEvergreen.LOGGER.info("Successfully mapped all worldgen data objects!");
     }
 
     /**
@@ -86,12 +79,12 @@ public final class WorldgenDataManager {
      * otherwise initializes our default data.
      * @param registryLookup - Optional registry lookup
      */
-    public static void loadPatchableStructures(Optional<HolderLookup.RegistryLookup<Structure>> registryLookup) {
+    public static void loadPatchableStructures(Optional<HolderGetter<Structure>> registryLookup) {
         loadStructuresByDimension(registryLookup);
         loadStructuresByRegion(registryLookup);
         loadStructuresByRarity(registryLookup);
-        loadStructuresByFlag(registryLookup);
         loadStructuresByHeightmap();
+        loadStructuresByFlag(registryLookup);
         loadStructuresBySize();
     }
 
@@ -100,7 +93,7 @@ public final class WorldgenDataManager {
      * otherwise initializes our default data.
      * @param registryLookup - Optional registry lookup
      */
-    public static void loadPatchableStructureSets(Optional<HolderLookup.RegistryLookup<StructureSet>> registryLookup) {
+    public static void loadPatchableStructureSets(Optional<HolderGetter<StructureSet>> registryLookup) {
         for (PEStructureSet sset : PEStructureSet.values()) {
             Optional.ofNullable(PATCHABLE_STRUCTURE_SETS.get(sset.location().toString())).ifPresent(t -> {
                 if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Mapping structure set to itself..." + t.id); }
@@ -112,32 +105,50 @@ public final class WorldgenDataManager {
         }
     }
 
-    public static void mapFlagToStructureSet(PEStructureSet.Flag flag, Optional<HolderLookup.RegistryLookup<StructureSet>> registryLookup) {
-        PEStructureSet.Flag.DISABLED.initIDs(PEStructureSet.isRedistributed());
-        List<String> structure_sets = registryLookup
-                .map(ssetRegistryLookup ->
-                        getTaggedData(ssetRegistryLookup, flag.tag()))
-                .orElseGet(flag::defaultIDs);
-        structure_sets.forEach(s -> {
-            Optional.ofNullable(PATCHABLE_STRUCTURE_SETS.get(s)).ifPresent(t -> {
-                if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Mapping flag to a structure set..." + t.id); }
-                t.appendFlag(flag);
-            });
-        });
-    }
-
     /**
-     * Will initialize all Patchable structure set data passed in via tags if a registry lookup is provided,
+     * Will initialize all Patchable biome data passed in via tags if a registry lookup is provided,
      * otherwise initializes our default data.
      * @param registryLookup - Optional registry lookup
      */
-    public static void loadPatchableBiomes(Optional<HolderLookup.RegistryLookup<Biome>> registryLookup) {
+    public static void loadPatchableBiomes(Optional<HolderGetter<Biome>> registryLookup) {
         for (PEBiome.Flag flag : PEBiome.Flag.values()) {
             mapFlagToBiome(flag, registryLookup);
         }
     }
 
-    public static void mapFlagToBiome(PEBiome.Flag flag, Optional<HolderLookup.RegistryLookup<Biome>> registryLookup) {
+    public static void loadStructuresByDimension(Optional<HolderGetter<Structure>> registryLookup) {
+        for (PEDimension dim : PEDimension.values()) {
+            mapDimensionToStructure(dim, registryLookup);
+        }
+    }
+
+    public static void loadStructuresByRegion(Optional<HolderGetter<Structure>> registryLookup) {
+        for (PERegion region : PERegion.values()) {
+            mapRegionToStructure(region, registryLookup);
+        }
+    }
+
+    public static void loadStructuresByRarity(Optional<HolderGetter<Structure>> registryLookup) {
+        for (PEStructureSet sset : PEStructureSet.values()) {
+            mapRarityToStructure(sset, registryLookup);
+        }
+    }
+
+    public static void loadStructuresByFlag(Optional<HolderGetter<Structure>> registryLookup) {
+        for (PEStructure.Flag flag : PEStructure.Flag.values()) {
+            mapFlagToStructure(flag, registryLookup);
+        }
+    }
+
+    public static void loadStructuresByHeightmap() {
+        PEStructure.Heightmap.OCEANSURFACE.initIDs(PEStructure.Heightmap.allOceanSurfaceStructures());
+        PEStructure.Heightmap.GROUNDLEVEL.initIDs(PEStructure.Heightmap.allGroundLevelStructures());
+        for (PEStructure.Heightmap heightmap : PEStructure.Heightmap.values()) {
+            mapHeightmapToStructure(heightmap);
+        }
+    }
+
+    public static void mapFlagToBiome(PEBiome.Flag flag, Optional<HolderGetter<Biome>> registryLookup) {
         List<String> biomes = registryLookup
                 .map(biomeRegistryLookup ->
                         getTaggedData(biomeRegistryLookup, flag.tag()))
@@ -150,13 +161,22 @@ public final class WorldgenDataManager {
         });
     }
 
-    public static void loadStructuresByDimension(Optional<HolderLookup.RegistryLookup<Structure>> registryLookup) {
-        for (PEDimension dim : PEDimension.values()) {
-            mapDimensionToStructure(dim, registryLookup);
-        }
+    public static void mapFlagToStructureSet(PEStructureSet.Flag flag, Optional<HolderGetter<StructureSet>> registryLookup) {
+        PEStructureSet.Flag.DISABLED.initIDs(PEStructureSet.hasRedistributedStructures());
+        PEStructureSet.Flag.DISABLED.initIDs(PEStructureSet.hasDisabledStructures());
+        List<String> structure_sets = registryLookup
+                .map(ssetRegistryLookup ->
+                        getTaggedData(ssetRegistryLookup, flag.tag()))
+                .orElseGet(flag::defaultIDs);
+        structure_sets.forEach(s -> {
+            Optional.ofNullable(PATCHABLE_STRUCTURE_SETS.get(s)).ifPresent(t -> {
+                if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Mapping flag to a structure set..." + t.id); }
+                t.appendFlag(flag);
+            });
+        });
     }
 
-    private static void mapDimensionToStructure(PEDimension dimension, Optional<HolderLookup.RegistryLookup<Structure>> registryLookup) {
+    private static void mapDimensionToStructure(PEDimension dimension, Optional<HolderGetter<Structure>> registryLookup) {
         List<String> structure_ids = registryLookup
                 .map(structureRegistryLookup ->
                         getTaggedData(structureRegistryLookup, dimension.structureTag()))
@@ -169,13 +189,7 @@ public final class WorldgenDataManager {
         });
     }
 
-    public static void loadStructuresByRegion(Optional<HolderLookup.RegistryLookup<Structure>> registryLookup) {
-        for (PERegion region : PERegion.values()) {
-            mapRegionToStructure(region, registryLookup);
-        }
-    }
-
-    private static void mapRegionToStructure(PERegion region, Optional<HolderLookup.RegistryLookup<Structure>> registryLookup) {
+    private static void mapRegionToStructure(PERegion region, Optional<HolderGetter<Structure>> registryLookup) {
         List<String> structure_ids = registryLookup
                 .map(structureRegistryLookup ->
                         getTaggedData(structureRegistryLookup, region.structureTag()))
@@ -188,13 +202,7 @@ public final class WorldgenDataManager {
         });
     }
 
-    public static void loadStructuresByRarity(Optional<HolderLookup.RegistryLookup<Structure>> registryLookup) {
-        for (PEStructureSet sset : PEStructureSet.values()) {
-            mapRarityToStructure(sset, registryLookup);
-        }
-    }
-
-    public static void mapRarityToStructure(PEStructureSet sset, Optional<HolderLookup.RegistryLookup<Structure>> registryLookup) {
+    public static void mapRarityToStructure(PEStructureSet sset, Optional<HolderGetter<Structure>> registryLookup) {
         List<String> structure_ids = registryLookup
                 .map(structureRegistryLookup ->
                         getTaggedData(structureRegistryLookup, sset.structureTag()))
@@ -207,14 +215,17 @@ public final class WorldgenDataManager {
         });
     }
 
-    public static void loadStructuresByFlag(Optional<HolderLookup.RegistryLookup<Structure>> registryLookup) {
-        for (PEStructure.Flag flag : PEStructure.Flag.values()) {
-            mapFlagToStructure(flag, registryLookup);
-        }
-    }
-
-    public static void mapFlagToStructure(PEStructure.Flag flag, Optional<HolderLookup.RegistryLookup<Structure>> registryLookup) {
+    public static void mapFlagToStructure(PEStructure.Flag flag, Optional<HolderGetter<Structure>> registryLookup) {
+        PEStructure.Flag.IGNORED.initIDs(PEStructure.Flag.isIgnored());
+        PEStructure.Flag.IGNORED_BIOME_REDISTRIBUTION.initIDs(PEStructure.Flag.isIgnored());
+        PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.initIDs(PEStructure.Flag.isIgnored());
+        PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.initIDs(PEStructure.Heightmap.UNDERGROUND.defaultIDs());
+        PEStructure.Flag.IGNORED_BIOME_RADIUS_CHECK.initIDs(PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.defaultIDs());
         PEStructure.Flag.IGNORED_BIOME_RADIUS_CHECK.initIDs(PEStructure.Flag.isBiasIgnored());
+        PEStructure.Flag.FLATNESS_CHECK_SPRAWLING.initIDs(PEStructure.Flag.isSprawlingFlat());
+        PEStructure.Flag.FLATNESS_CHECK_LARGE.initIDs(PEStructure.Flag.isLargeFlat());
+        PEStructure.Flag.FLATNESS_CHECK_SMALL.initIDs(PEStructure.Flag.isSmallFlat());
+
         List<String> structure_ids = registryLookup
                 .map(structureRegistryLookup ->
                         getTaggedData(structureRegistryLookup, flag.tag()))
@@ -227,21 +238,6 @@ public final class WorldgenDataManager {
                 if(flag == PEStructure.Flag.DISABLED) { t.setRegion(PERegion.NO_BIOMES); }
             });
         });
-        //IS_IGNORED
-        Stream<PatchableStructure> ignored = PATCHABLE_STRUCTURES.values().stream()
-                .filter(s -> s.getDimension().isEmpty());
-        ignored.forEach(s -> {
-            PEStructure.Flag.IGNORED.appendIDs(s.id);
-            s.appendFlag(PEStructure.Flag.IGNORED);
-        });
-    }
-
-    public static void loadStructuresByHeightmap() {
-        PEStructure.Heightmap.OCEANSURFACE.initIDs(PEStructure.Heightmap.allOceanSurfaceStructures());
-        PEStructure.Heightmap.GROUNDLEVEL.initIDs(PEStructure.Heightmap.allGroundLevelStructures());
-        for (PEStructure.Heightmap heightmap : PEStructure.Heightmap.values()) {
-            mapHeightmapToStructure(heightmap);
-        }
     }
 
     private static void mapHeightmapToStructure(PEStructure.Heightmap heightmap) {
@@ -261,7 +257,8 @@ public final class WorldgenDataManager {
             "DECO", Size.SMALL,
             "SMALL", Size.SMALL,
             "MEDIUM", Size.MEDIUM,
-            "MASSIVE", Size.LARGE,
+            "COMMON", Size.MEDIUM,
+            "RARE", Size.LARGE,
             "LARGE", Size.LARGE,
             "SPRAWLING", Size.SPRAWLING
         );
@@ -275,10 +272,10 @@ public final class WorldgenDataManager {
                 String flag = flatnessFlag.get().name();
                 sizeKey = flag.substring(flag.lastIndexOf('_') + 1);
                 s.setSize(sizeMap.get(sizeKey));
-            } else if (s.getStructureSet().isPresent()) {
+           /* } else if (s.getStructureSet().isPresent()) {
                 String sset = s.getStructureSet().get().name();
                 sizeKey = sset.substring(sset.lastIndexOf('_') + 1);
-                s.setSize(sizeMap.get(sizeKey));
+                s.setSize(sizeMap.get(sizeKey));*/
             } else {
                 s.setSize(Size.MEDIUM);
             }
@@ -289,7 +286,20 @@ public final class WorldgenDataManager {
         return registryLookup.get(resourceKey).isPresent() && registryLookup.get(resourceKey).get().is(tag);
     }
 
-    private static <T> List<String> getTaggedData(HolderLookup.RegistryLookup<T> registryLookup, TagKey<T> tag) {
-         return registryLookup.get(tag).stream().map(t -> t.key().location().toString()).toList();
+    private static <T> List<String> getTaggedData(HolderGetter<T> registryLookup, TagKey<T> tag) {
+        List<String> ids = new ArrayList<>();
+        try {
+            registryLookup.getOrThrow(tag).stream().map(Holder::unwrapKey).forEach(holder ->
+            {
+                holder.ifPresent((key) -> {
+                    ids.add(key.location().toString());
+                });
+            });
+        } catch (Exception e) {
+            if (PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
+                ProjectEvergreen.LOGGER.error("Failed to load non-existent tag.");
+            }
+        }
+        return ids;
     }
 }
