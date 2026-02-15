@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/effects",
+    "value": "minecraft:the_nether"
+  },
+  {
+    "op": "add",
+    "path": "/fixed_time",
+    "value": 13250
+  }
+]

@@ -1,0 +1,21 @@
+[
+    [
+          {
+              "op": "paste",
+              "type": "project_evergreen:config_value",
+              "path": "/use_fixed_biome",
+              "value": "use_fixed_biome"
+          },
+          {
+              "op": "test",
+              "path": "/use_fixed_biome",
+              "value": true
+          },
+          {
+              "op": "paste",
+              "type": "project_evergreen:config_value",
+              "path": "/values/0/id",
+              "value": "lost_cities_biome"
+          }
+    ]
+]
