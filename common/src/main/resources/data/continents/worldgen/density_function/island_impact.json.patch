@@ -1,19 +1,28 @@
 [
-  [
     {
-      "op": "replace",
-      "path": "/spline/points/2/location",
-      "value": -0.7
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "continents"
     },
     {
-      "op": "replace",
-      "path": "/spline/points/3/location",
-      "value": -0.5
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "from": "/spline/points/2/location",
+        "path": "/spline/points/2/location",
+        "value": "non_continent_island_amount"
     },
     {
-      "op": "replace",
-      "path": "/spline/points/4/location",
-      "value": -0.4
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "from": "/spline/points/3/location",
+        "path": "/spline/points/3/location",
+        "value": "non_continent_island_amount"
+    },
+    {
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "from": "/spline/points/4/location",
+        "path": "/spline/points/4/location",
+        "value": "non_continent_island_amount"
     }
-  ]
 ]

@@ -5,8 +5,10 @@
         "value": "continents"
     },
     {
-        "op": "replace",
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "from": "/argument1/argument/xz_scale",
         "path": "/argument1/argument/xz_scale",
-        "value": 0.4
+        "value": "continents_scale"
     }
 ]

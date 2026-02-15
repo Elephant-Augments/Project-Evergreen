@@ -1,9 +1,14 @@
 [
-  [
     {
-      "op": "replace",
-      "path": "/argument2/argument2/argument/argument2/input/argument1/argument/xz_scale",
-      "value": 0.5
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "continents"
+    },
+    {
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "from": "/argument2/argument2/argument/argument2/input/argument1/argument/xz_scale",
+        "path": "/argument2/argument2/argument/argument2/input/argument1/argument/xz_scale",
+        "value": "non_continent_island_scale"
     }
-  ]
 ]

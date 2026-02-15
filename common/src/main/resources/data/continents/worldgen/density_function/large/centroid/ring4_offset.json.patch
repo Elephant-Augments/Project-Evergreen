@@ -1,14 +1,21 @@
 [
-  [
     {
-      "op": "replace",
-      "path": "/argument/argument1/xz_scale",
-      "value": 2.0
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "continents"
     },
     {
-      "op": "replace",
-      "path": "/argument/argument2/argument1/xz_scale",
-      "value": 1.75
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "from": "/argument/argument1/xz_scale",
+        "path": "/argument/argument1/xz_scale",
+        "value": "spawn_island_scale"
+    },
+    {
+        "op": "paste",
+        "type": "project_evergreen:config_value",
+        "from": "/argument/argument2/argument1/xz_scale",
+        "path": "/argument/argument2/argument1/xz_scale",
+        "value": "spawn_island_scale"
     }
-  ]
 ]
