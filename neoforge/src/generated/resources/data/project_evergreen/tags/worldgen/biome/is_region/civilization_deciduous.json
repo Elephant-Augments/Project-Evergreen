@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/forest_sparse_deciduous",
+      "id": "#project_evergreen:is_climate/forest_sparse_deciduous",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_flowery_forest",
+      "id": "#project_evergreen:is_climate/special_flowery_forest",
       "required": false
     }
   ]

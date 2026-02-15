@@ -1,6 +1,14 @@
 {
   "values": [
     {
+      "id": "archaeology_ruins:ruined_ocean_monument",
+      "required": false
+    },
+    {
+      "id": "archaeology_ruins:ruined_ocean_monument",
+      "required": false
+    },
+    {
       "id": "ati_structures:aboveground_large",
       "required": false
     },
@@ -41,6 +49,14 @@
       "required": false
     },
     {
+      "id": "born_in_chaos_v1:dark_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_tower_forest",
+      "required": false
+    },
+    {
       "id": "bosses_of_mass_destruction:gauntlet_arena",
       "required": false
     },
@@ -137,6 +153,10 @@
       "required": false
     },
     {
+      "id": "combat_structures_update:ruinedstronghold",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:dark_oak_illager_ship",
       "required": false
     },
@@ -169,7 +189,11 @@
       "required": false
     },
     {
-      "id": "create_ltab:plains_big",
+      "id": "combat_structures_update:ruinedstronghold",
+      "required": false
+    },
+    {
+      "id": "create_ltab:pillage",
       "required": false
     },
     {
@@ -181,7 +205,7 @@
       "required": false
     },
     {
-      "id": "create_ltab:plains_big",
+      "id": "create_ltab:pillage",
       "required": false
     },
     {
@@ -333,14 +357,6 @@
       "required": false
     },
     {
-      "id": "feur_extension_fossil:fossil_hand",
-      "required": false
-    },
-    {
-      "id": "feur_extension_fossil:fossil_hand",
-      "required": false
-    },
-    {
       "id": "feur_extension_jungle:pyramid",
       "required": false
     },
@@ -386,6 +402,18 @@
     },
     {
       "id": "integrated_villages:regular_villages",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:ocean",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:villages",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:villagers",
       "required": false
     },
     {
@@ -797,6 +825,22 @@
       "required": false
     },
     {
+      "id": "nova_structures:villages_swamp",
+      "required": false
+    },
+    {
+      "id": "nova_structures:villages_jungle",
+      "required": false
+    },
+    {
+      "id": "nova_structures:villages_birch",
+      "required": false
+    },
+    {
+      "id": "nova_structures:swamp_structure",
+      "required": false
+    },
+    {
       "id": "nova_structures:badlands_miner_outpost",
       "required": false
     },
@@ -809,6 +853,10 @@
       "required": false
     },
     {
+      "id": "nova_structures:trident_trial_monument",
+      "required": false
+    },
+    {
       "id": "nova_structures:badlands_miner_outpost",
       "required": false
     },
@@ -818,10 +866,30 @@
     },
     {
       "id": "nova_structures:stray_fort",
+      "required": false
+    },
+    {
+      "id": "nova_structures:trident_trial_monument",
       "required": false
     },
     {
       "id": "philipsruins:ocean_fortress_main",
+      "required": false
+    },
+    {
+      "id": "philipsruins:field_stone_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:field_stone_ruins_rocks",
+      "required": false
+    },
+    {
+      "id": "philipsruins:field_stone_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:field_stone_ruins_rocks",
       "required": false
     },
     {
@@ -854,6 +922,14 @@
     },
     {
       "id": "repurposed_structures:cities_overworld",
+      "required": false
+    },
+    {
+      "id": "ribbits:ribbit_village",
+      "required": false
+    },
+    {
+      "id": "ribbits:ribbit_village",
       "required": false
     },
     {

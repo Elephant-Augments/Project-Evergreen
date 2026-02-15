@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/mountains_hot",
+      "id": "#project_evergreen:is_climate/mountains_hot",
       "required": false
     }
   ]

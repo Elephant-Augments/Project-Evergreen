@@ -1,15 +1,15 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/plains_shrubby_snow",
+      "id": "#project_evergreen:is_climate/plains_shrubby_snow",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/forest_dense_coniferous_snow",
+      "id": "#project_evergreen:is_climate/forest_dense_coniferous_snow",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_craggy_snow",
+      "id": "#project_evergreen:is_climate/special_craggy_snow",
       "required": false
     }
   ]

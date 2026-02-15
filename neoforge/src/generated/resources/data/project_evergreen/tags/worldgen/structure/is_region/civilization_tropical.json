@@ -109,6 +109,10 @@
       "required": false
     },
     {
+      "id": "kattersstructures:village_jungle",
+      "required": false
+    },
+    {
       "id": "lios_outlandish_villages:spiral_tower_village",
       "required": false
     },

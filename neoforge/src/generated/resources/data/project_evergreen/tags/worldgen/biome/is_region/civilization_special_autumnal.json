@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/special_autumnal_fields",
+      "id": "#project_evergreen:is_climate/special_autumnal_fields",
       "required": false
     }
   ]

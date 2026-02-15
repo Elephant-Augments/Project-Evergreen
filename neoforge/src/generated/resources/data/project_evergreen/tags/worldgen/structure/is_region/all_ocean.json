@@ -123,10 +123,6 @@
     {
       "id": "trek:overworld/medium/underwater_sword",
       "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:marine_observation_hub",
-      "required": false
     }
   ]
 }

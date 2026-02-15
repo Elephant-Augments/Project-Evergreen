@@ -1453,10 +1453,6 @@
       "required": false
     },
     {
-      "id": "minecraft:shipwreck_beached",
-      "required": false
-    },
-    {
       "id": "minecraft:stronghold",
       "required": false
     },
@@ -1550,10 +1546,6 @@
     },
     {
       "id": "mvs:other_decoration/fox_hut",
-      "required": false
-    },
-    {
-      "id": "mvs:ruins/small_ruin",
       "required": false
     },
     {
@@ -1666,10 +1658,6 @@
     },
     {
       "id": "mvs:jungle_tower",
-      "required": false
-    },
-    {
-      "id": "mvs:small_ruin",
       "required": false
     },
     {

@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/river_frozen",
+      "id": "#project_evergreen:is_climate/river_frozen",
       "required": false
     }
   ]

@@ -1,6 +1,26 @@
 {
   "values": [
     {
+      "id": "feur_extension_fossil:fossil_baby_fish",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:deep_blue_labs",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:deep_blue_lab_ruin",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:deep_blue_city",
+      "required": false
+    },
+    {
+      "id": "minecraft:shipwreck",
+      "required": false
+    },
+    {
       "id": "wabi_sabi_structures:sunken_steamboat",
       "required": false
     }

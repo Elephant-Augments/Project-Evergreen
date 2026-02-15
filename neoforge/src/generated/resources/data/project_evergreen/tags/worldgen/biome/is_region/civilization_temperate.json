@@ -1,31 +1,31 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/plains_grassy_temperate",
+      "id": "#project_evergreen:is_climate/plains_grassy_temperate",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/forest_sparse_coniferous",
+      "id": "#project_evergreen:is_climate/forest_sparse_coniferous",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/forest_sparse_deciduous",
+      "id": "#project_evergreen:is_climate/forest_sparse_deciduous",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_autumnal_fields",
+      "id": "#project_evergreen:is_climate/special_autumnal_fields",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_mediterranean_inviting",
+      "id": "#project_evergreen:is_climate/special_mediterranean_inviting",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_flowery_fields",
+      "id": "#project_evergreen:is_climate/special_flowery_fields",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_flowery_forest",
+      "id": "#project_evergreen:is_climate/special_flowery_forest",
       "required": false
     }
   ]

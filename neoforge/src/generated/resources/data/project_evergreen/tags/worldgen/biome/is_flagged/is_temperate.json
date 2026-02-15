@@ -1,0 +1,712 @@
+{
+  "values": [
+    {
+      "id": "aromatic:cinnamon_rainforest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:moor",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:wooded_slopes",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:thermal_springs",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:spruce_slopes",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:boskage",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:weeping_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:calcite_plateau",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:morass",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:highlands",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:wet_larch_forest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:spinney",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:gravel_beach",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:old_growth_swampland",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:lush_grassland",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:temperate_hemlock_rainforest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:golden_aspen_spinney",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:lush_meadow",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:redwood_forest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:poplar_slopes",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:white_shore",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:poplar_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:blooming_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:grassy_shore",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:alpine_fields",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:poplar_fields",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:prairie",
+      "required": false
+    },
+    {
+      "id": "hexerei:willow_swamp",
+      "required": false
+    },
+    {
+      "id": "minecraft:deep_ocean",
+      "required": false
+    },
+    {
+      "id": "minecraft:sunflower_plains",
+      "required": false
+    },
+    {
+      "id": "minecraft:beach",
+      "required": false
+    },
+    {
+      "id": "minecraft:stony_shore",
+      "required": false
+    },
+    {
+      "id": "minecraft:cold_ocean",
+      "required": false
+    },
+    {
+      "id": "minecraft:deep_cold_ocean",
+      "required": false
+    },
+    {
+      "id": "minecraft:flower_forest",
+      "required": false
+    },
+    {
+      "id": "minecraft:plains",
+      "required": false
+    },
+    {
+      "id": "minecraft:cherry_grove",
+      "required": false
+    },
+    {
+      "id": "minecraft:birch_forest",
+      "required": false
+    },
+    {
+      "id": "minecraft:windswept_hills",
+      "required": false
+    },
+    {
+      "id": "minecraft:bamboo_jungle",
+      "required": false
+    },
+    {
+      "id": "minecraft:river",
+      "required": false
+    },
+    {
+      "id": "minecraft:swamp",
+      "required": false
+    },
+    {
+      "id": "minecraft:forest",
+      "required": false
+    },
+    {
+      "id": "minecraft:windswept_forest",
+      "required": false
+    },
+    {
+      "id": "minecraft:ocean",
+      "required": false
+    },
+    {
+      "id": "minecraft:meadow",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:cypress_fields",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:windswept_sugi_forest",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:alpine_highlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:blooming_sugi_forest",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:shrubland",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:flowering_shrubland",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:oak_savanna",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:alpine_clearings",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:shrubby_highlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:wisteria_forest",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:xeric_plains",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:woody_highlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:bamboo_wetlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:lavender_fields",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:prairie",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:heather_fields",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:white_cliffs",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:sugi_forest",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:aspen_forest",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:floral_ridges",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:marigold_meadows",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:carnation_fields",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:blooming_highlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:marsh",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:redwood_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:sparse_redwoods",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:gravel_beach",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:fungal_fen",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:fen",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:orchard",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:highland_fields",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:maple_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:bamboo_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:grassland",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:silver_birch_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:rocky_meadow",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:deciduous_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:prairie",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:clover_plains",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:temperate_grove",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:hyacinth_deeps",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:magnolia_woodland",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:marsh",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:poppy_fields",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwoods",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:chalk_cliffs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:shrubland",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cold_river",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:flower_fields",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:muddy_river",
+      "required": false
+    },
+    {
+      "id": "terralith:lavender_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:basalt_cliffs",
+      "required": false
+    },
+    {
+      "id": "terralith:sakura_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:sakura_grove",
+      "required": false
+    },
+    {
+      "id": "terralith:highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:blooming_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:white_cliffs",
+      "required": false
+    },
+    {
+      "id": "terralith:lavender_forest",
+      "required": false
+    },
+    {
+      "id": "terralith:gravel_beach",
+      "required": false
+    },
+    {
+      "id": "terralith:yosemite_cliffs",
+      "required": false
+    },
+    {
+      "id": "terralith:temperate_highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:forested_highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:granite_cliffs",
+      "required": false
+    },
+    {
+      "id": "terralith:lush_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:birch_taiga",
+      "required": false
+    },
+    {
+      "id": "terralith:shrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:steppe",
+      "required": false
+    },
+    {
+      "id": "terralith:moonlight_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:blooming_plateau",
+      "required": false
+    },
+    {
+      "id": "terralith:valley_clearing",
+      "required": false
+    },
+    {
+      "id": "terralith:rocky_shrubland",
+      "required": false
+    },
+    {
+      "id": "windswept:lavender_hills",
+      "required": false
+    },
+    {
+      "id": "windswept:lavender_fields",
+      "required": false
+    },
+    {
+      "id": "windswept:flowering_savanna",
+      "required": false
+    },
+    {
+      "id": "windswept:chestnut_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_flower_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:sakura_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:highland_plains",
+      "required": false
+    },
+    {
+      "id": "wythers:andesite_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:aspen_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:forest_edge",
+      "required": false
+    },
+    {
+      "id": "wythers:lapacho_plains",
+      "required": false
+    },
+    {
+      "id": "wythers:marsh",
+      "required": false
+    },
+    {
+      "id": "wythers:lantern_river",
+      "required": false
+    },
+    {
+      "id": "wythers:gravelly_river",
+      "required": false
+    },
+    {
+      "id": "wythers:bamboo_jungle_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:giant_sequoia_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:gravelly_beach",
+      "required": false
+    },
+    {
+      "id": "wythers:temperate_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:stony_canyon",
+      "required": false
+    },
+    {
+      "id": "wythers:thermal_taiga_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:forested_highlands",
+      "required": false
+    },
+    {
+      "id": "wythers:savanna_river",
+      "required": false
+    },
+    {
+      "id": "wythers:cold_plains",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_golden_beech_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:temperate_rainforest_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:berry_bog",
+      "required": false
+    },
+    {
+      "id": "wythers:waterlily_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:old_growth_taiga_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:flooded_temperate_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:mediterranean_island_thermal_springs",
+      "required": false
+    },
+    {
+      "id": "wythers:taiga_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:cool_plains",
+      "required": false
+    },
+    {
+      "id": "wythers:spring_flower_fields",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_moss_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:cool_forest_edge",
+      "required": false
+    },
+    {
+      "id": "wythers:bamboo_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:old_growth_taiga_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:spring_flower_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:warm_birch_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:highlands",
+      "required": false
+    },
+    {
+      "id": "wythers:maple_mountains",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_oak_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:granite_canyon",
+      "required": false
+    },
+    {
+      "id": "wythers:fen",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_copper_beech_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:calcite_coast",
+      "required": false
+    },
+    {
+      "id": "wythers:huangshan_highlands",
+      "required": false
+    },
+    {
+      "id": "wythers:cool_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:temperate_island",
+      "required": false
+    },
+    {
+      "id": "wythers:jade_highlands",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_mossy_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:billabong",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_emerald_beech_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:harvest_fields",
+      "required": false
+    },
+    {
+      "id": "wythers:birch_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:autumnal_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:sand_dunes",
+      "required": false
+    },
+    {
+      "id": "wythers:mediterranean_island",
+      "required": false
+    }
+  ]
+}

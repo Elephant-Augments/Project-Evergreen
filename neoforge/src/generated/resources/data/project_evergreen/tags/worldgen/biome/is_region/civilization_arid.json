@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/plains_grassy_arid",
+      "id": "#project_evergreen:is_climate/plains_grassy_arid",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_mediterranean_inviting",
+      "id": "#project_evergreen:is_climate/special_mediterranean_inviting",
       "required": false
     }
   ]

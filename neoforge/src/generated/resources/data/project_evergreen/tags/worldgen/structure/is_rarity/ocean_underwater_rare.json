@@ -1,0 +1,76 @@
+{
+  "values": [
+    {
+      "id": "ba_bt:ocean_tower",
+      "required": false
+    },
+    {
+      "id": "betteroceanmonuments:ocean_monument",
+      "required": false
+    },
+    {
+      "id": "cataclysm:acropolis",
+      "required": false
+    },
+    {
+      "id": "cataclysm:sunken_city",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:watercastle",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:typhon",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:warped_garden",
+      "required": false
+    },
+    {
+      "id": "hopo:underwater/underwater_city",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:deep_blue_city",
+      "required": false
+    },
+    {
+      "id": "minecraft:monument",
+      "required": false
+    },
+    {
+      "id": "mtr:ocean_temple",
+      "required": false
+    },
+    {
+      "id": "nova_structures:trident_trial_monument",
+      "required": false
+    },
+    {
+      "id": "philipsruins:ocean_fortress",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_ocean",
+      "required": false
+    },
+    {
+      "id": "terramity:trial_spire",
+      "required": false
+    },
+    {
+      "id": "underwater_village:dungeon",
+      "required": false
+    },
+    {
+      "id": "underwater_village:ruins",
+      "required": false
+    },
+    {
+      "id": "underwater_village:library",
+      "required": false
+    }
+  ]
+}

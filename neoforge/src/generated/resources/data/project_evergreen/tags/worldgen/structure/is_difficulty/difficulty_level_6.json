@@ -57,6 +57,30 @@
       "required": false
     },
     {
+      "id": "block_factorys_bosses:sandworm_nest",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:lich_tower",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursed_pyramid",
+      "required": false
+    },
+    {
+      "id": "cataclysm:frosted_prison",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bandit_towers",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bandit_village",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:ceryneian_hind",
       "required": false
     },
@@ -65,7 +89,27 @@
       "required": false
     },
     {
+      "id": "dungeons_arise:monastery",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:shiraz_palace",
+      "required": false
+    },
+    {
+      "id": "epic:witch_hut",
+      "required": false
+    },
+    {
       "id": "explorify:dark_forest_settlement",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:afterdark_farms",
       "required": false
     },
     {
@@ -78,10 +122,6 @@
     },
     {
       "id": "feur_extension_fossil:fossil_dragon",
-      "required": false
-    },
-    {
-      "id": "feur_extension_fossil:fossil_hand",
       "required": false
     },
     {
@@ -106,6 +146,18 @@
     },
     {
       "id": "hexerei:dark_coven",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/mangrove_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/mud_mineshaft",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_swamp",
       "required": false
     },
     {
@@ -145,7 +197,31 @@
       "required": false
     },
     {
+      "id": "nova_structures:toxic_lair",
+      "required": false
+    },
+    {
+      "id": "nova_structures:village_swamp",
+      "required": false
+    },
+    {
+      "id": "nova_structures:witch_villa",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:fortress_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_desert",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_snowy",
       "required": false
     },
     {
@@ -173,6 +249,18 @@
       "required": false
     },
     {
+      "id": "repurposed_structures:village_mountains",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_swamp",
+      "required": false
+    },
+    {
+      "id": "ribbits:ribbit_village",
+      "required": false
+    },
+    {
       "id": "skyarena:ice_arena",
       "required": false
     },
@@ -182,6 +270,14 @@
     },
     {
       "id": "structory:old_manor",
+      "required": false
+    },
+    {
+      "id": "structory:swamp_ruin",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_swamp",
       "required": false
     },
     {
@@ -197,7 +293,7 @@
       "required": false
     },
     {
-      "id": "underwater_village:library",
+      "id": "trek:village/swamp",
       "required": false
     }
   ]

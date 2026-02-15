@@ -61,6 +61,10 @@
       "required": false
     },
     {
+      "id": "archaeology_ruins:ruined_ocean_monument",
+      "required": false
+    },
+    {
       "id": "archaeology_ruins:small_ocean_ruin",
       "required": false
     },
@@ -161,6 +165,10 @@
       "required": false
     },
     {
+      "id": "born_in_chaos_v1:dark_tower_forest",
+      "required": false
+    },
+    {
       "id": "born_in_chaos_v1:farm",
       "required": false
     },
@@ -174,6 +182,10 @@
     },
     {
       "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:beach_house",
       "required": false
     },
     {
@@ -193,6 +205,10 @@
       "required": false
     },
     {
+      "id": "combat_structures_update:ruinedoceantower",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:ruinedstronghold",
       "required": false
     },
@@ -202,10 +218,6 @@
     },
     {
       "id": "create_ltab:jungle_well",
-      "required": false
-    },
-    {
-      "id": "create_ltab:plains_big",
       "required": false
     },
     {
@@ -277,7 +289,15 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:towerofochrum",
+      "required": false
+    },
+    {
       "id": "create_structures_arise:windmill",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:fishing_hut",
       "required": false
     },
     {
@@ -285,7 +305,7 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:merchant_campsite",
+      "id": "dungeons_arise:lighthouse",
       "required": false
     },
     {
@@ -298,6 +318,10 @@
     },
     {
       "id": "explorify:farmstead",
+      "required": false
+    },
+    {
+      "id": "explorify:mausoleum",
       "required": false
     },
     {
@@ -318,6 +342,10 @@
     },
     {
       "id": "explorify:watchtower/taiga",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:aquacultures_beach",
       "required": false
     },
     {
@@ -429,38 +457,6 @@
       "required": false
     },
     {
-      "id": "hopo:mineshaft/acacia_mineshaft",
-      "required": false
-    },
-    {
-      "id": "hopo:mineshaft/bamboo_mineshaft",
-      "required": false
-    },
-    {
-      "id": "hopo:mineshaft/birch_mineshaft",
-      "required": false
-    },
-    {
-      "id": "hopo:mineshaft/cherry_mineshaft",
-      "required": false
-    },
-    {
-      "id": "hopo:mineshaft/dark_oak_mineshaft",
-      "required": false
-    },
-    {
-      "id": "hopo:mineshaft/jungle_mineshaft",
-      "required": false
-    },
-    {
-      "id": "hopo:mineshaft/oak_mineshaft",
-      "required": false
-    },
-    {
-      "id": "hopo:mineshaft/spruce_mineshaft",
-      "required": false
-    },
-    {
       "id": "imst:airship",
       "required": false
     },
@@ -537,6 +533,42 @@
       "required": false
     },
     {
+      "id": "kattersstructures:birch_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:desert_dungeon",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:red_coral",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:trader_outposts",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:villager_desert",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:villager_mountain",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:villager_ocean",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:windmill",
+      "required": false
+    },
+    {
       "id": "medieval_buildings:house_1",
       "required": false
     },
@@ -561,27 +593,7 @@
       "required": false
     },
     {
-      "id": "minecraft:shipwreck",
-      "required": false
-    },
-    {
-      "id": "minecraft:village_desert",
-      "required": false
-    },
-    {
-      "id": "minecraft:village_plains",
-      "required": false
-    },
-    {
-      "id": "minecraft:village_savanna",
-      "required": false
-    },
-    {
-      "id": "minecraft:village_snowy",
-      "required": false
-    },
-    {
-      "id": "minecraft:village_taiga",
+      "id": "minecraft:shipwreck_beached",
       "required": false
     },
     {
@@ -594,6 +606,14 @@
     },
     {
       "id": "mostructures:desert_abandoned_church",
+      "required": false
+    },
+    {
+      "id": "mostructures:lighthouse",
+      "required": false
+    },
+    {
+      "id": "mostructures:moai",
       "required": false
     },
     {
@@ -634,6 +654,10 @@
     },
     {
       "id": "mvs:barn",
+      "required": false
+    },
+    {
+      "id": "mvs:beach_bar",
       "required": false
     },
     {
@@ -941,10 +965,6 @@
       "required": false
     },
     {
-      "id": "nova_structures:village_jungle",
-      "required": false
-    },
-    {
       "id": "nova_structures:well_birch",
       "required": false
     },
@@ -969,7 +989,27 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:city_overworld",
+      "id": "qrafty:industrial_cabin",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_construction",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_digger",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_elevator",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_grabber",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_redstone_crack",
       "required": false
     },
     {
@@ -978,38 +1018,6 @@
     },
     {
       "id": "repurposed_structures:temple_ocean",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_badlands",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_bamboo",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_birch",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_cherry",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_dark_forest",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_giant_taiga",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_jungle",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_oak",
       "required": false
     },
     {
@@ -1022,6 +1030,10 @@
     },
     {
       "id": "structory_towers:foraging_outpost",
+      "required": false
+    },
+    {
+      "id": "structory_towers:lighthouse",
       "required": false
     },
     {
@@ -1057,35 +1069,11 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:exclusives/village_classic",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_iberian",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_mediterranean",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_nilotic",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_rustic",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_swedish",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_tudor",
-      "required": false
-    },
-    {
       "id": "towns_and_towers:exclusives/village_wandering_trader_camp",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_beach",
       "required": false
     },
     {
@@ -1093,59 +1081,7 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:village_badlands",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_birch_forest",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_flower_forest",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_forest",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_grove",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_jungle",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_meadow",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_old_growth_taiga",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_savanna_plateau",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_snowy_slopes",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_snowy_taiga",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_sparse_jungle",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_sunflower_plains",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_wooded_badlands",
+      "id": "towns_and_towers:village_beach",
       "required": false
     },
     {
@@ -1166,10 +1102,6 @@
     },
     {
       "id": "trek:overworld/medium/birch_fort",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/birch_trade",
       "required": false
     },
     {
@@ -1237,6 +1169,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/medium/ruine_bateaux",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/ruine_cabane",
       "required": false
     },
@@ -1277,30 +1213,6 @@
       "required": false
     },
     {
-      "id": "trek:overworld/rare/villager_fortress",
-      "required": false
-    },
-    {
-      "id": "trek:village/desert",
-      "required": false
-    },
-    {
-      "id": "trek:village/plains",
-      "required": false
-    },
-    {
-      "id": "trek:village/savanna",
-      "required": false
-    },
-    {
-      "id": "trek:village/snowy",
-      "required": false
-    },
-    {
-      "id": "trek:village/taiga",
-      "required": false
-    },
-    {
       "id": "u_desert:desert/ambient/cactus/fork",
       "required": false
     },
@@ -1326,6 +1238,10 @@
     },
     {
       "id": "u_sea:island/warm/tower",
+      "required": false
+    },
+    {
+      "id": "u_sea:lighthouse",
       "required": false
     },
     {
@@ -1393,7 +1309,15 @@
       "required": false
     },
     {
+      "id": "wabi_sabi_structures:lighthouse",
+      "required": false
+    },
+    {
       "id": "wabi_sabi_structures:llama_sanctuary_plateau",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:marine_observation_hub",
       "required": false
     },
     {
@@ -1425,15 +1349,15 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:sunken_steamboat",
-      "required": false
-    },
-    {
       "id": "wabi_sabi_structures:tall_birch_house",
       "required": false
     },
     {
       "id": "wabi_sabi_structures:totem_pole",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:turtle_soup_kitchen",
       "required": false
     },
     {

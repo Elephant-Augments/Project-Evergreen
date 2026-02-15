@@ -97,6 +97,14 @@
       "required": false
     },
     {
+      "id": "kattersstructures:birch_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:windmill",
+      "required": false
+    },
+    {
       "id": "letsdoaddon-structures:vinery",
       "required": false
     },
@@ -230,10 +238,6 @@
     },
     {
       "id": "trek:overworld/medium/birch_fort",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/birch_trade",
       "required": false
     },
     {

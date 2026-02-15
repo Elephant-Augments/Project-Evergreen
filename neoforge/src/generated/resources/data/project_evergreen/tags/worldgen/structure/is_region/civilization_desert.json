@@ -141,6 +141,14 @@
       "required": false
     },
     {
+      "id": "kattersstructures:villager_desert",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_mesa",
+      "required": false
+    },
+    {
       "id": "kattersstructures:desert_dungeon",
       "required": false
     },

@@ -1,0 +1,180 @@
+{
+  "values": [
+    {
+      "id": "ati_structures:old_home",
+      "required": false
+    },
+    {
+      "id": "create_rustic_structures:rustic_well",
+      "required": false
+    },
+    {
+      "id": "create_rustic_structures:rustic_windmill",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:ruined_building",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:fountain",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:well",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:small_house",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:tiny_house",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:small_statue",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:hobbit_hole",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:desert_houses",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:copper_spire",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:small_temple",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:igloo",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:wagon",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:villager_desert",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:villager_mountain",
+      "required": false
+    },
+    {
+      "id": "mostructures:plains_abandoned_church",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/beehive_house",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/birch_fort",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/birch_trade",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/church",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/desert_outpost",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/desert_ranch",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/destroyed_house",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/dirt_hut",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/enchanter",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/farm",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/fort",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/hobbit_hole",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/igloo_village",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/jungle_outpost",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/jungle_treehouse",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/maison",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/oasis",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/plains_cottage",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/snow_cottage",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/snowman",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/street_vendor_stall",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/spruce_cottage",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wandering_trader_dark_oak",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wandering_trader_oak",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/wandering_trader_spruce",
+      "required": false
+    }
+  ]
+}

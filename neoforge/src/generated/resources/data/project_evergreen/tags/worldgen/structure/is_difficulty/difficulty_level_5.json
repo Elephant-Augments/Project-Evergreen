@@ -133,10 +133,6 @@
       "required": false
     },
     {
-      "id": "block_factorys_bosses:dragon_tower",
-      "required": false
-    },
-    {
       "id": "block_factorys_bosses:yeti_hideout",
       "required": false
     },
@@ -233,18 +229,6 @@
       "required": false
     },
     {
-      "id": "bosses_of_mass_destruction:gauntlet_arena",
-      "required": false
-    },
-    {
-      "id": "bosses_of_mass_destruction:void_blossom",
-      "required": false
-    },
-    {
-      "id": "cataclysm:ancient_factory",
-      "required": false
-    },
-    {
       "id": "combat_structures_update:badlandslostwell",
       "required": false
     },
@@ -257,6 +241,74 @@
       "required": false
     },
     {
+      "id": "combat_structures_update:nether_basalt_portal",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_brute_room",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_hoglin_homestead",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_mine_shafts",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_obsidian_spike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_skeleton",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_small_gold_fort",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_strider_dock",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nethercastle",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherlargewarpedtree_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherlargewarpedtree_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherlargewarpedtree_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherlargewarpedtree_4",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherlargewarpedtreehouse",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherlongspike",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherrack_mine_tunnels",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherrackspike",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:overworld_obsidianspike_2",
       "required": false
     },
@@ -266,10 +318,6 @@
     },
     {
       "id": "combat_structures_update:overworldobsidianspike_3",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:pillager_village",
       "required": false
     },
     {
@@ -329,10 +377,6 @@
       "required": false
     },
     {
-      "id": "create_pillagers_arise:createpillagervillage",
-      "required": false
-    },
-    {
       "id": "darkerdepths:rope_mine_desert",
       "required": false
     },
@@ -341,43 +385,11 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:foundry",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:illager_campsite",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:infested_temple",
-      "required": false
-    },
-    {
       "id": "dungeons_arise:jungle_tree_house",
       "required": false
     },
     {
-      "id": "dungeons_arise:kisegi_sanctuary",
-      "required": false
-    },
-    {
       "id": "dungeons_arise:mining_complex",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:mining_system",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:mushroom_mines",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:plague_asylum",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:thornborn_towers",
       "required": false
     },
     {
@@ -421,6 +433,10 @@
       "required": false
     },
     {
+      "id": "farmers_structures:aether",
+      "required": false
+    },
+    {
       "id": "farmers_structures:ratatouilles",
       "required": false
     },
@@ -450,6 +466,10 @@
     },
     {
       "id": "feur_extension_fossil:fossil_fang",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_hand",
       "required": false
     },
     {
@@ -509,14 +529,6 @@
       "required": false
     },
     {
-      "id": "hopo:mineshaft/deepslate_mineshaft",
-      "required": false
-    },
-    {
-      "id": "hopo:mineshaft/stone_mineshaft",
-      "required": false
-    },
-    {
       "id": "imst:alpine_house",
       "required": false
     },
@@ -545,7 +557,23 @@
       "required": false
     },
     {
-      "id": "minecraft:ancient_city",
+      "id": "kattersstructures:dark_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:deep_blue_lab_ruin",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:deep_blue_labs",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:graveyard",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:witch_circle",
       "required": false
     },
     {
@@ -578,10 +606,6 @@
     },
     {
       "id": "minecraft:ruined_portal_swamp",
-      "required": false
-    },
-    {
-      "id": "minecraft:stronghold",
       "required": false
     },
     {
@@ -725,10 +749,6 @@
       "required": false
     },
     {
-      "id": "mtr:stronghold",
-      "required": false
-    },
-    {
       "id": "mvs:crimson_enchanting_table",
       "required": false
     },
@@ -797,10 +817,6 @@
       "required": false
     },
     {
-      "id": "nova_structures:illager_manor",
-      "required": false
-    },
-    {
       "id": "nova_structures:jungle_ruins",
       "required": false
     },
@@ -837,11 +853,35 @@
       "required": false
     },
     {
-      "id": "nova_structures:toxic_lair",
+      "id": "philipsruins:ancient_crypt",
       "required": false
     },
     {
-      "id": "nova_structures:witch_villa",
+      "id": "philipsruins:level_three_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:level_two_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:level_two_ruins_pool",
+      "required": false
+    },
+    {
+      "id": "philipsruins:lost_soul_city",
+      "required": false
+    },
+    {
+      "id": "philipsruins:lost_soul_dungeon",
+      "required": false
+    },
+    {
+      "id": "philipsruins:pumpkin_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:rare_ruin",
       "required": false
     },
     {
@@ -861,39 +901,11 @@
       "required": false
     },
     {
-      "id": "qrafty:jungle_treevillage",
-      "required": false
-    },
-    {
-      "id": "qrafty:transilvania",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:bastion_underground",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:igloo_mangrove",
       "required": false
     },
     {
-      "id": "repurposed_structures:mansion_birch",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:mansion_mangrove",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:mansion_oak",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:mansion_savanna",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:mansion_taiga",
       "required": false
     },
     {
@@ -937,15 +949,15 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:village_mushroom",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:witch_hut_dark_forest",
       "required": false
     },
     {
       "id": "repurposed_structures:witch_hut_mangrove",
+      "required": false
+    },
+    {
+      "id": "spore:iceberg_mines",
       "required": false
     },
     {
@@ -1058,10 +1070,6 @@
     },
     {
       "id": "towns_and_towers:pillager_outpost_wooded_badlands",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_mushroom_fields",
       "required": false
     },
     {
@@ -1181,14 +1189,6 @@
       "required": false
     },
     {
-      "id": "trek:overworld/rare/sunken_city",
-      "required": false
-    },
-    {
-      "id": "trek:village/mushroom",
-      "required": false
-    },
-    {
       "id": "u_desert:badlands/ambient/geyser",
       "required": false
     },
@@ -1238,38 +1238,6 @@
     },
     {
       "id": "underground_bunkers:underground_bunker",
-      "required": false
-    },
-    {
-      "id": "underwater_village:cold_big_gate",
-      "required": false
-    },
-    {
-      "id": "underwater_village:cold_broken_house",
-      "required": false
-    },
-    {
-      "id": "underwater_village:cold_fountain",
-      "required": false
-    },
-    {
-      "id": "underwater_village:cold_gate",
-      "required": false
-    },
-    {
-      "id": "underwater_village:shrine",
-      "required": false
-    },
-    {
-      "id": "underwater_village:temple",
-      "required": false
-    },
-    {
-      "id": "underwater_village:temple_broken",
-      "required": false
-    },
-    {
-      "id": "underwater_village:temple_ruins",
       "required": false
     },
     {

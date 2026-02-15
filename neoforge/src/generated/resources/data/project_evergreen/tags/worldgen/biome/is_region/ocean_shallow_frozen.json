@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/ocean_shallow_frozen",
+      "id": "#project_evergreen:is_climate/ocean_shallow_frozen",
       "required": false
     }
   ]

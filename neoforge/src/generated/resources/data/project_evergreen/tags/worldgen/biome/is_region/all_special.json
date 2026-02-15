@@ -1,67 +1,67 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/special_craggy_temperate",
+      "id": "#project_evergreen:is_climate/special_craggy_temperate",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_craggy_warm",
+      "id": "#project_evergreen:is_climate/special_craggy_warm",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_craggy_snow",
+      "id": "#project_evergreen:is_climate/special_craggy_snow",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_icy",
+      "id": "#project_evergreen:is_climate/special_icy",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_magical",
+      "id": "#project_evergreen:is_climate/special_magical",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/mountains_alive",
+      "id": "#project_evergreen:is_climate/mountains_alive",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/mountains_barren",
+      "id": "#project_evergreen:is_climate/mountains_barren",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/mountains_cold",
+      "id": "#project_evergreen:is_climate/mountains_cold",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/mountains_hot",
+      "id": "#project_evergreen:is_climate/mountains_hot",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_rocky",
+      "id": "#project_evergreen:is_climate/special_rocky",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_ruined",
+      "id": "#project_evergreen:is_climate/special_ruined",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_shroomy",
+      "id": "#project_evergreen:is_climate/special_shroomy",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_spooky",
+      "id": "#project_evergreen:is_climate/special_spooky",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_swampy_snow",
+      "id": "#project_evergreen:is_climate/special_swampy_snow",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_swampy_temperate",
+      "id": "#project_evergreen:is_climate/special_swampy_temperate",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_swampy_warm",
+      "id": "#project_evergreen:is_climate/special_swampy_warm",
       "required": false
     }
   ]

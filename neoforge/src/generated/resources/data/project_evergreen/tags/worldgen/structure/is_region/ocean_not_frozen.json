@@ -65,10 +65,6 @@
       "required": false
     },
     {
-      "id": "kattersstructures:village_ocean",
-      "required": false
-    },
-    {
       "id": "minecraft:brig",
       "required": false
     },
@@ -121,7 +117,7 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:sunken_steamboat",
+      "id": "wabi_sabi_structures:marine_observation_hub",
       "required": false
     }
   ]

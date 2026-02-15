@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "id": "combat_structures_update:ruinedoceantower",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:lighthouse",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:deepwater_dungeon",
+      "required": false
+    },
+    {
+      "id": "idas:abandoned_lighthouse",
+      "required": false
+    },
+    {
+      "id": "minecraft:shipwreck_beached",
+      "required": false
+    },
+    {
+      "id": "mostructures:moai",
+      "required": false
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/special_mediterranean_inviting",
+      "id": "#project_evergreen:is_climate/special_mediterranean_inviting",
       "required": false
     }
   ]

@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/mountains_cold",
+      "id": "#project_evergreen:is_climate/mountains_cold",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_craggy_snow",
+      "id": "#project_evergreen:is_climate/special_craggy_snow",
       "required": false
     }
   ]

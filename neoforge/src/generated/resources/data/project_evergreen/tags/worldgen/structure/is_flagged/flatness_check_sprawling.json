@@ -33,6 +33,10 @@
       "required": false
     },
     {
+      "id": "idas:iceandfire/dread_citadel",
+      "required": false
+    },
+    {
       "id": "idas:collectors_museum",
       "required": false
     },
@@ -42,6 +46,14 @@
     },
     {
       "id": "idas:bazaar",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:ruined_fortress",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:scarlet_citadel",
       "required": false
     },
     {

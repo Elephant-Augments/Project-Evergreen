@@ -57,7 +57,23 @@
       "required": false
     },
     {
+      "id": "block_factorys_bosses:dragon_tower",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:gauntlet_arena",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:void_blossom",
+      "required": false
+    },
+    {
       "id": "cataclysm:acropolis",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ancient_factory",
       "required": false
     },
     {
@@ -69,6 +85,10 @@
       "required": false
     },
     {
+      "id": "combat_structures_update:pillager_village",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:watercastle",
       "required": false
     },
@@ -77,11 +97,19 @@
       "required": false
     },
     {
+      "id": "create_ltab:pillage",
+      "required": false
+    },
+    {
       "id": "create_ltab:ruins",
       "required": false
     },
     {
       "id": "create_ltab:thecastle",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:createpillagervillage",
       "required": false
     },
     {
@@ -97,6 +125,14 @@
       "required": false
     },
     {
+      "id": "dungeons_arise:foundry",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:illager_campsite",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:illager_fort",
       "required": false
     },
@@ -105,7 +141,15 @@
       "required": false
     },
     {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:keep_kayra",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
       "required": false
     },
     {
@@ -113,11 +157,27 @@
       "required": false
     },
     {
+      "id": "dungeons_arise:mining_system",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:mushroom_house",
       "required": false
     },
     {
+      "id": "dungeons_arise:mushroom_mines",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:mushroom_village",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:plague_asylum",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:thornborn_towers",
       "required": false
     },
     {
@@ -201,7 +261,43 @@
       "required": false
     },
     {
+      "id": "hopo:mineshaft/deepslate_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/stone_mineshaft",
+      "required": false
+    },
+    {
       "id": "hopo:underwater/underwater_city",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:ruined_village",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:sky_dungeon",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:skyrtle",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_birch",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_sky",
+      "required": false
+    },
+    {
+      "id": "minecraft:ancient_city",
+      "required": false
+    },
+    {
+      "id": "minecraft:stronghold",
       "required": false
     },
     {
@@ -226,6 +322,10 @@
     },
     {
       "id": "mtr:ocean_temple",
+      "required": false
+    },
+    {
+      "id": "mtr:stronghold",
       "required": false
     },
     {
@@ -261,7 +361,47 @@
       "required": false
     },
     {
+      "id": "nova_structures:illager_manor",
+      "required": false
+    },
+    {
       "id": "nova_structures:ruin_town",
+      "required": false
+    },
+    {
+      "id": "nova_structures:trident_trial_monument",
+      "required": false
+    },
+    {
+      "id": "philipsruins:ocean_fortress",
+      "required": false
+    },
+    {
+      "id": "qrafty:jungle_treevillage",
+      "required": false
+    },
+    {
+      "id": "qrafty:transilvania",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:bastion_underground",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_birch",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_oak",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_savanna",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_taiga",
       "required": false
     },
     {
@@ -281,7 +421,19 @@
       "required": false
     },
     {
+      "id": "repurposed_structures:village_mushroom",
+      "required": false
+    },
+    {
       "id": "sky_whale_ship:frozen_whale",
+      "required": false
+    },
+    {
+      "id": "takesapillage:bastille",
+      "required": false
+    },
+    {
+      "id": "takesapillage:pillager_camp",
       "required": false
     },
     {
@@ -289,11 +441,11 @@
       "required": false
     },
     {
-      "id": "trek:overworld/rare/abandoned_castle_pillager",
+      "id": "towns_and_towers:village_mushroom_fields",
       "required": false
     },
     {
-      "id": "trek:overworld/rare/island_village_1",
+      "id": "trek:overworld/rare/abandoned_castle_pillager",
       "required": false
     },
     {
@@ -309,6 +461,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/rare/sunken_city",
+      "required": false
+    },
+    {
       "id": "trek:overworld/rare/villager_island",
       "required": false
     },
@@ -321,7 +477,15 @@
       "required": false
     },
     {
+      "id": "trek:village/mushroom",
+      "required": false
+    },
+    {
       "id": "underwater_village:dungeon",
+      "required": false
+    },
+    {
+      "id": "underwater_village:library",
       "required": false
     },
     {

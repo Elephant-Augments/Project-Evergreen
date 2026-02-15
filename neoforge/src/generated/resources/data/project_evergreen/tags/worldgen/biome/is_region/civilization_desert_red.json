@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/desert_red_alive",
+      "id": "#project_evergreen:is_climate/desert_red_alive",
       "required": false
     }
   ]

@@ -33,6 +33,14 @@
       "required": false
     },
     {
+      "id": "create_ltab:big_windmill",
+      "required": false
+    },
+    {
+      "id": "create_ltab:pillage",
+      "required": false
+    },
+    {
       "id": "custom:ogre_dwelling",
       "required": false
     },
@@ -58,6 +66,10 @@
     },
     {
       "id": "irons_spellbooks:evoker_fort",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_birch",
       "required": false
     },
     {

@@ -1,10 +1,6 @@
 {
   "values": [
     {
-      "id": "minecraft:shipwreck",
-      "required": false
-    },
-    {
       "id": "u_sea:raft/temperate/grid",
       "required": false
     }

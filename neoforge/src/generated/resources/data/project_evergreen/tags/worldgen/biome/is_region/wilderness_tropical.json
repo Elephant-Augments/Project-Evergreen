@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/forest_dense_tropical",
+      "id": "#project_evergreen:is_climate/forest_dense_tropical",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/plains_shrubby_tropical",
+      "id": "#project_evergreen:is_climate/plains_shrubby_tropical",
       "required": false
     }
   ]

@@ -21,6 +21,10 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:towerofochrum",
+      "required": false
+    },
+    {
       "id": "dungeons_enhanced:miners_house",
       "required": false
     },
@@ -62,6 +66,30 @@
     },
     {
       "id": "mvs:acacia_well",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_cabin",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_construction",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_digger",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_elevator",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_grabber",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_redstone_crack",
       "required": false
     },
     {

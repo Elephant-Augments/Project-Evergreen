@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/special_spooky",
+      "id": "#project_evergreen:is_climate/special_spooky",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_autumnal_forest",
+      "id": "#project_evergreen:is_climate/special_autumnal_forest",
       "required": false
     }
   ]

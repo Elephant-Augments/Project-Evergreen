@@ -1,27 +1,27 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/plains_shrubby_temperate",
+      "id": "#project_evergreen:is_climate/plains_shrubby_temperate",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/forest_dense_coniferous",
+      "id": "#project_evergreen:is_climate/forest_dense_coniferous",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/forest_dense_deciduous",
+      "id": "#project_evergreen:is_climate/forest_dense_deciduous",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_autumnal_forest",
+      "id": "#project_evergreen:is_climate/special_autumnal_forest",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_mediterranean_uninviting",
+      "id": "#project_evergreen:is_climate/special_mediterranean_uninviting",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_craggy_temperate",
+      "id": "#project_evergreen:is_climate/special_craggy_temperate",
       "required": false
     }
   ]

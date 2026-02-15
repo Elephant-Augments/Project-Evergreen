@@ -1,0 +1,68 @@
+{
+  "values": [
+    {
+      "id": "taxtg:giant_birch_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_birch_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_jungle_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_jungle_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_oak_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_oak_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_palm_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_palm_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_pine_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_pine_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_snowy_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_snowy_tree_1",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_spruce_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_spruce_tree_1",
+      "required": false
+    }
+  ]
+}

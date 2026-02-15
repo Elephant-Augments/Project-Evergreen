@@ -253,6 +253,10 @@
       "required": false
     },
     {
+      "id": "kattersstructures:trader_outposts",
+      "required": false
+    },
+    {
       "id": "medieval_buildings:house_1",
       "required": false
     },

@@ -265,10 +265,6 @@
       "required": false
     },
     {
-      "id": "explorify:mausoleum",
-      "required": false
-    },
-    {
       "id": "feur_dungeon_spawner:dungeon_jail",
       "required": false
     },

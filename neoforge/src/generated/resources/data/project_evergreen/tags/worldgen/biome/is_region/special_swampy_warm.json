@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/special_swampy_warm",
+      "id": "#project_evergreen:is_climate/special_swampy_warm",
       "required": false
     }
   ]

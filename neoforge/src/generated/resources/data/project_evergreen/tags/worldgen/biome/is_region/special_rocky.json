@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/mountains_barren",
+      "id": "#project_evergreen:is_climate/mountains_barren",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/special_rocky",
+      "id": "#project_evergreen:is_climate/special_rocky",
       "required": false
     }
   ]

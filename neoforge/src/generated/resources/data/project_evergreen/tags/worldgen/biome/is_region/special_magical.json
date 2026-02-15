@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/special_magical",
+      "id": "#project_evergreen:is_climate/special_magical",
       "required": false
     }
   ]

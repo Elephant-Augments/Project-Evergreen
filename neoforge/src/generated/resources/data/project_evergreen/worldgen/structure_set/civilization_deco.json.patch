@@ -1,0 +1,51 @@
+[
+  [
+    {
+      "op": "add",
+      "path": "/temp_properties",
+      "value": {
+        "id": "project_evergreen:civilization_deco"
+      }
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:pe_object",
+      "from": "/temp_properties",
+      "path": "/temp_properties",
+      "value": "patchable_structure_set"
+    }
+  ],
+  {
+    "op": "replace",
+    "path": "/placement/salt",
+    "value": 748980576
+  },
+  {
+    "op": "test",
+    "type": "project_evergreen:structure_rarity_redistribution",
+    "value": true
+  },
+  [
+    {
+      "op": "paste",
+      "type": "project_evergreen:config_value",
+      "from": "/temp_properties/id",
+      "path": "/placement/spacing",
+      "value": "spacing_rarity_offset"
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:config_value",
+      "from": "/temp_properties/id",
+      "path": "/placement/separation",
+      "value": "separation_rarity_offset"
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:pe_object",
+      "from": "/temp_properties/id",
+      "path": "/structures",
+      "value": "structure_set_builder"
+    }
+  ]
+]

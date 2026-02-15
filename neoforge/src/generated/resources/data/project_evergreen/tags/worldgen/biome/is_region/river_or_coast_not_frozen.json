@@ -1,19 +1,19 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/river_temperate",
+      "id": "#project_evergreen:is_climate/river_temperate",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/river_warm",
+      "id": "#project_evergreen:is_climate/river_warm",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/coastal_temperate",
+      "id": "#project_evergreen:is_climate/coastal_temperate",
       "required": false
     },
     {
-      "id": "project_evergreen:is_climate/coastal_warm",
+      "id": "#project_evergreen:is_climate/coastal_warm",
       "required": false
     }
   ]

@@ -1,0 +1,72 @@
+{
+  "values": [
+    {
+      "id": "combat_structures_update:nether_basalt_portal",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_brute_room",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_hoglin_homestead",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_mine_shafts",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_obsidian_spike_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_skeleton",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_small_gold_fort",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nether_strider_dock",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:nethercastle",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherlargewarpedtree_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherlargewarpedtree_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherlargewarpedtree_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherlargewarpedtree_4",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherlargewarpedtreehouse",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherlongspike",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherrack_mine_tunnels",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:netherrackspike",
+      "required": false
+    }
+  ]
+}

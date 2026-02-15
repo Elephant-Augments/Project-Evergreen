@@ -757,11 +757,15 @@
       "required": false
     },
     {
+      "id": "create_ltab:desert_structures",
+      "required": false
+    },
+    {
       "id": "create_ltab:grot",
       "required": false
     },
     {
-      "id": "create_ltab:jungle_well",
+      "id": "create_ltab:jungle_structures",
       "required": false
     },
     {
@@ -773,11 +777,11 @@
       "required": false
     },
     {
-      "id": "create_ltab:plains_big",
+      "id": "create_ltab:pillage",
       "required": false
     },
     {
-      "id": "create_ltab:plains_small",
+      "id": "create_ltab:plains_structures",
       "required": false
     },
     {
@@ -789,11 +793,7 @@
       "required": false
     },
     {
-      "id": "create_ltab:sand_house",
-      "required": false
-    },
-    {
-      "id": "create_ltab:snow_fort",
+      "id": "create_ltab:snow_structures",
       "required": false
     },
     {
@@ -866,6 +866,10 @@
     },
     {
       "id": "create_rustic_structures:rustic_windmill",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:create_bastion",
       "required": false
     },
     {
@@ -942,6 +946,10 @@
     },
     {
       "id": "create_structures_arise:pillagersteampunkairship",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:towerofochrum",
       "required": false
     },
     {
@@ -1026,6 +1034,10 @@
     },
     {
       "id": "explorify:watchtowers",
+      "required": false
+    },
+    {
+      "id": "fallen_log_hideout:log_house",
       "required": false
     },
     {
@@ -1389,6 +1401,114 @@
       "required": false
     },
     {
+      "id": "kattersstructures:armory",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:deep_blue_labs",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:desert_dungeon",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:grassland",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:mini_dungeon",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:ocean",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:red_coral",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:sky",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:spider_den",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:trees",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:underground",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:villagers",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:villages",
+      "required": false
+    },
+    {
+      "id": "luistercorp:camping_store",
+      "required": false
+    },
+    {
+      "id": "luistercorp:dead_tree_desert",
+      "required": false
+    },
+    {
+      "id": "luistercorp:decorative_tree",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_acacia",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_azalea",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_birch",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_cherry",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_dark_oak",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_jungle",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_mangrove",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_mega_spruce",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_oak",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_spruce",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_swamp",
+      "required": false
+    },
+    {
       "id": "medieval_buildings:houses",
       "required": false
     },
@@ -1701,11 +1821,19 @@
       "required": false
     },
     {
+      "id": "mtr:badlands_temple",
+      "required": false
+    },
+    {
       "id": "mtr:desert_temple",
       "required": false
     },
     {
       "id": "mtr:jungle_temple",
+      "required": false
+    },
+    {
+      "id": "mtr:nether_temple",
       "required": false
     },
     {
@@ -2385,6 +2513,66 @@
       "required": false
     },
     {
+      "id": "philipsruins:ancient_crypt",
+      "required": false
+    },
+    {
+      "id": "philipsruins:ancient_dungeon",
+      "required": false
+    },
+    {
+      "id": "philipsruins:ancient_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:ancient_towers",
+      "required": false
+    },
+    {
+      "id": "philipsruins:field_stone_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:field_stone_ruins_rocks",
+      "required": false
+    },
+    {
+      "id": "philipsruins:level_one_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:level_three_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:level_two_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:lost_soul_city",
+      "required": false
+    },
+    {
+      "id": "philipsruins:ocean_fortress_main",
+      "required": false
+    },
+    {
+      "id": "philipsruins:ocean_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:pumpkin_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:rare_ruin",
+      "required": false
+    },
+    {
+      "id": "philipsruins:underground_structures",
+      "required": false
+    },
+    {
       "id": "piglet_structures:ruins_biome",
       "required": false
     },
@@ -2401,91 +2589,55 @@
       "required": false
     },
     {
-      "id": "project_evergreen:civilization_inland_deco",
+      "id": "project_evergreen:civilization_common",
       "required": false
     },
     {
-      "id": "project_evergreen:civilization_inland_massive",
+      "id": "project_evergreen:civilization_deco",
       "required": false
     },
     {
-      "id": "project_evergreen:civilization_inland_medium",
+      "id": "project_evergreen:civilization_extra_rare",
       "required": false
     },
     {
-      "id": "project_evergreen:civilization_inland_small",
+      "id": "project_evergreen:civilization_rare",
       "required": false
     },
     {
-      "id": "project_evergreen:ocean_all_medium",
+      "id": "project_evergreen:ocean_all_common",
       "required": false
     },
     {
-      "id": "project_evergreen:ocean_floating_deco",
+      "id": "project_evergreen:ocean_floating_rare",
       "required": false
     },
     {
-      "id": "project_evergreen:ocean_floating_large",
+      "id": "project_evergreen:ocean_underwater_rare",
       "required": false
     },
     {
-      "id": "project_evergreen:ocean_floating_massive",
+      "id": "project_evergreen:sky_rare",
       "required": false
     },
     {
-      "id": "project_evergreen:ocean_underwater_deco",
+      "id": "project_evergreen:underground_rare",
       "required": false
     },
     {
-      "id": "project_evergreen:ocean_underwater_large",
+      "id": "project_evergreen:wilderness_common",
       "required": false
     },
     {
-      "id": "project_evergreen:ocean_underwater_massive",
+      "id": "project_evergreen:wilderness_deco",
       "required": false
     },
     {
-      "id": "project_evergreen:ocean_underwater_small",
+      "id": "project_evergreen:wilderness_extra_rare",
       "required": false
     },
     {
-      "id": "project_evergreen:sky_large",
-      "required": false
-    },
-    {
-      "id": "project_evergreen:sky_massive",
-      "required": false
-    },
-    {
-      "id": "project_evergreen:sky_small",
-      "required": false
-    },
-    {
-      "id": "project_evergreen:underground_large",
-      "required": false
-    },
-    {
-      "id": "project_evergreen:underground_small",
-      "required": false
-    },
-    {
-      "id": "project_evergreen:underground_sprawling",
-      "required": false
-    },
-    {
-      "id": "project_evergreen:wilderness_inland_deco",
-      "required": false
-    },
-    {
-      "id": "project_evergreen:wilderness_inland_massive",
-      "required": false
-    },
-    {
-      "id": "project_evergreen:wilderness_inland_medium",
-      "required": false
-    },
-    {
-      "id": "project_evergreen:wilderness_inland_small",
+      "id": "project_evergreen:wilderness_rare",
       "required": false
     },
     {
@@ -2893,6 +3045,10 @@
       "required": false
     },
     {
+      "id": "ribbits:ribbit_village",
+      "required": false
+    },
+    {
       "id": "sky_whale_ship:frozen_whale",
       "required": false
     },
@@ -3034,6 +3190,10 @@
     },
     {
       "id": "sweety_archaeology:spruce_hut",
+      "required": false
+    },
+    {
+      "id": "takesapillage:pillager_structure",
       "required": false
     },
     {

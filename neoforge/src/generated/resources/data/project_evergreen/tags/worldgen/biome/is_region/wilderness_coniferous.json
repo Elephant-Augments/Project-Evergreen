@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "project_evergreen:is_climate/forest_dense_coniferous",
+      "id": "#project_evergreen:is_climate/forest_dense_coniferous",
       "required": false
     }
   ]

@@ -1,11 +1,35 @@
 {
   "values": [
     {
+      "id": "archaeology_ruins:ruined_ocean_monument",
+      "required": false
+    },
+    {
       "id": "ati_structures:lighthouse",
       "required": false
     },
     {
+      "id": "born_in_chaos_v1:dark_tower_forest",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:ruinedstronghold",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:villager_ocean",
+      "required": false
+    },
+    {
+      "id": "mvs:well/well",
+      "required": false
+    },
+    {
+      "id": "mvs:well",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/island_village_1",
       "required": false
     },
     {
