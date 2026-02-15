@@ -51,6 +51,7 @@ dependencies {
     compileOnly "com.terraformersmc:biolith-neoforge:$biolith_version"
 
     //Optional Dependencies
+    runtimeOnly "curse.maven:moogs-structure-lib-1337167:7238573"
     runtimeOnly "curse.maven:regions-unexplored-659110:7492526"
     runtimeOnly "curse.maven:natures-spirit-1044992:6962784"
     runtimeOnly "curse.maven:terrablender-neoforge-940057:6054947"
