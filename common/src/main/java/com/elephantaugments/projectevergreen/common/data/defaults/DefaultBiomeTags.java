@@ -6,16 +6,14 @@ import java.util.*;
 public class DefaultBiomeTags {
 
     public static final List<String> desertDunesAlive = ImmutableList.of(
-        "minecraft:desert",
         "terralith:desert_oasis",
         "regions_unexplored:joshua_desert",
         "regions_unexplored:saguaro_desert",
         "dreamwoods:arid_plains",
+        "wythers:desert_island",
         "wythers:cactus_desert",
-        "wythers:danakil_desert",
         "wythers:desert_lakes",
         "wythers:guelta",
-        "wythers:outback_desert",
 		"wythers:wooded_desert"
     );
 
@@ -24,15 +22,14 @@ public class DefaultBiomeTags {
         "minecraft:desert",
         "terralith:desert_spires",
         "terralith:white_mesa",
-        "natures_spirit:scorched_dunes",
         "natures_spirit:drylands",
         "wythers:deep_desert",
+        "wythers:danakil_desert",
         "wythers:desert_pinnacles"
     );
     
     public static final List<String> desertRedAlive = ImmutableList.of(
         "minecraft:wooded_badlands",
-        "natures_spirit:woody_highlands",
         "terralith:red_oasis",
         "terralith:arid_highlands",
         "terralith:savanna_badlands",
@@ -40,17 +37,18 @@ public class DefaultBiomeTags {
         "terralith:bryce_canyon",
         "natures_spirit:blooming_dunes",
         "natures_spirit:lively_dunes",
-        "dreamwoods:grassy_badlands"
+        "natures_spirit:scorched_dunes"
     );
     
     public static final List<String> desertRedBarren = ImmutableList.of(
         "minecraft:badlands",
         "minecraft:eroded_badlands",
+        "natures_spirit:stratified_desert",
         "terralith:desert_canyon",
         "terralith:sandstone_valley",
         "terralith:ancient_sands",
-        "natures_spirit:stratified_desert",
         "wythers:ayers_rock",
+        "wythers:outback_desert",
         "wythers:badlands_canyon",
 		"wythers:badlands_desert",
         "wythers:red_desert",
@@ -93,7 +91,6 @@ public class DefaultBiomeTags {
         "regions_unexplored:boreal_taiga",
         "regions_unexplored:golden_boreal_taiga",
         "regions_unexplored:maple_forest",
-        "natures_spirit:fir_forest",
         "dreamwoods:seasonal_taiga",
         "dreamwoods:fir_forest",
         "dreamwoods:spruce_slopes",
@@ -120,8 +117,6 @@ public class DefaultBiomeTags {
         "regions_unexplored:redwoods",
         "natures_spirit:redwood_forest",
         "regions_unexplored:maple_forest",
-        "regions_unexplored:silver_birch_forest",
-        "natures_spirit:aspen_forest",
         "dreamwoods:redwood_forest",
         "dreamwoods:temperate_hemlock_rainforest",
         "dreamwoods:wet_larch_forest",
@@ -162,12 +157,12 @@ public class DefaultBiomeTags {
 		"wythers:eucalyptus_woodland",
         "wythers:flooded_jungle",
 		"wythers:flooded_rainforest",
-        "wythers:subtropical_forest",
         "wythers:highland_tropical_rainforest",
         "wythers:tropical_forest",
 		"wythers:tropical_forest_canyon",
 		"wythers:tropical_rainforest",
-		"wythers:windswept_jungle"
+		"wythers:windswept_jungle",
+        "wythers:jungle_island"
     );
     
     public static final List<String> forestSparseConiferousSnow = ImmutableList.of(
@@ -189,15 +184,16 @@ public class DefaultBiomeTags {
         "terralith:alpine_highlands",
         "terralith:forested_highlands",
         "terralith:temperate_highlands",
-        "regions_unexplored:towering_cliffs",
         "natures_spirit:coniferous_covert",
+        "natures_spirit:fir_forest",
         "dreamwoods:taiga_shield",
         "dreamwoods:alpine_fields",
-        "dreamwoods:spruce_lowlands"
+        "dreamwoods:spruce_lowlands",
+        "wythers:cold_island"
     );
     
     public static final List<String> forestSparseDeciduous = ImmutableList.of(
-        "minecraft:birch_forest",
+        "minecraft:flower_forest",
         "terralith:temperate_highlands",
         "terralith:forested_highlands",
         "terralith:valley_clearing",
@@ -208,12 +204,16 @@ public class DefaultBiomeTags {
         "natures_spirit:cypress_fields",
         "natures_spirit:oak_savanna",
         "natures_spirit:floral_ridges",
+        "regions_unexplored:silver_birch_forest",
+        "natures_spirit:aspen_forest",
         "dreamwoods:spinney",
         "dreamwoods:poplar_grove",
         "dreamwoods:poplar_slopes",
         "windswept:lavender_hills",
         "wythers:forest_edge",
-		"wythers:cool_forest_edge"
+		"wythers:cool_forest_edge",
+		"wythers:spring_flower_forest",
+        "wythers:temperate_island"
     );
     
     public static final List<String> forestSparseTropical = ImmutableList.of(
@@ -224,7 +224,6 @@ public class DefaultBiomeTags {
         "wythers:sparse_bamboo_jungle",
 		"wythers:sparse_eucalyptus_jungle",
 		"wythers:sparse_eucalyptus_woodland",
-		"wythers:subtropical_forest_edge",
         "wythers:tropical_island"
     );
     
@@ -340,8 +339,6 @@ public class DefaultBiomeTags {
         "minecraft:snowy_beach",
         "dreamwoods:frozen_shore",
         "wythers:cold_stony_shore",
-        "wythers:frigid_island",
-		"wythers:frozen_island",
 		"wythers:icy_shore"
     );
     
@@ -354,8 +351,7 @@ public class DefaultBiomeTags {
         "dreamwoods:white_shore",
         "wythers:sand_dunes",
         "wythers:calcite_coast",
-        "wythers:gravelly_beach",
-        "wythers:temperate_island"
+        "wythers:gravelly_beach"
     );
     
     public static final List<String> coastalWarm = ImmutableList.of(
@@ -364,7 +360,6 @@ public class DefaultBiomeTags {
         "wythers:black_beach",
         "wythers:deepslate_shore",
         "wythers:desert_beach",
-		"wythers:jungle_island",
         "wythers:tropical_beach"
     );
     
@@ -372,8 +367,6 @@ public class DefaultBiomeTags {
         "minecraft:beach",
         "dreamwoods:azure_cove",
         "natures_spirit:tropical_shores",
-		"wythers:jungle_island",
-        "wythers:temperate_island",
         "wythers:tropical_beach"
     );
     
@@ -422,6 +415,8 @@ public class DefaultBiomeTags {
         "natures_spirit:xeric_plains",
         "dreamwoods:arid_plains",
         "windswept:flowering_savanna",
+        "wythers:subtropical_grassland",
+        "wythers:subtropical_forest_edge",
         "wythers:dry_tropical_grassland",
         "wythers:flooded_savanna",
         "wythers:flowering_pantanal",
@@ -433,6 +428,8 @@ public class DefaultBiomeTags {
         "terralith:mountain_steppe",
         "natures_spirit:tundra",
         "dreamwoods:fall_snowy_grove",
+        "wythers:frigid_island",
+        "wythers:frozen_island",
         "wythers:tundra"
     );
     
@@ -441,6 +438,7 @@ public class DefaultBiomeTags {
         "minecraft:sunflower_plains",
         "terralith:highlands",
         "natures_spirit:prairie",
+        "regions_unexplored:barley_fields",
         "regions_unexplored:grassland",
         "regions_unexplored:clover_plains",
         "natures_spirit:heather_fields",
@@ -452,12 +450,14 @@ public class DefaultBiomeTags {
         "wythers:cool_plains",
         "wythers:cold_plains",
         "wythers:harvest_fields",
-        "wythers:highland_plains"
+        "wythers:highland_plains",
+        "wythers:subtropical_grassland",
+        "wythers:subtropical_forest_edge"
     );
     
     public static final List<String> plainsGrassyTropical = ImmutableList.of(
         "minecraft:sparse_jungle",
-		"wythers:subtropical_grassland",
+        "wythers:humid_tropical_grassland",
         "wythers:tropical_grassland"
     );
     
@@ -468,8 +468,10 @@ public class DefaultBiomeTags {
         "regions_unexplored:baobab_savanna",
         "regions_unexplored:outback",
         "dreamwoods:savanna_grove",
+        "dreamwoods:grassy_badlands",
         "natures_spirit:shrubland",
         "natures_spirit:shrubby_highlands",
+        "natures_spirit:woody_highlands",
         "natures_spirit:chaparral",
         "wythers:chaparral",
         "wythers:dry_tropical_forest",
@@ -479,6 +481,7 @@ public class DefaultBiomeTags {
 		"wythers:savanna_basaltic_incursions",
         "wythers:scrub_forest",
 		"wythers:scrubland",
+        "wythers:subtropical_forest",
 		"wythers:wooded_savanna"
     );
     
@@ -500,6 +503,7 @@ public class DefaultBiomeTags {
         "terralith:rocky_shrubland",
         "regions_unexplored:shrubland",
         "natures_spirit:shrubland",
+        "regions_unexplored:towering_cliffs",
         "regions_unexplored:highland_fields",
         "regions_unexplored:chalk_cliffs",
         "dreamwoods:grassy_shore",
@@ -513,13 +517,10 @@ public class DefaultBiomeTags {
     public static final List<String> plainsShrubbyTropical = ImmutableList.of(
         "terralith:brushland",
         "dreamwoods:jungle_bushland",
-        "wythers:humid_tropical_grassland",
         "wythers:sandy_jungle"
     );
     
     public static final List<String> specialAutumnalFields = ImmutableList.of(
-        "minecraft:old_growth_birch_forest",
-        "regions_unexplored:barley_fields",
         "regions_unexplored:pumpkin_fields",
         "natures_spirit:golden_wilds",
         "natures_spirit:marigold_meadows",
@@ -529,6 +530,8 @@ public class DefaultBiomeTags {
     );
     
     public static final List<String> specialAutumnalForest = ImmutableList.of(
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
         "regions_unexplored:autumnal_maple_forest",
         "natures_spirit:maple_woodlands",
         "regions_unexplored:silver_birch_forest",
@@ -548,9 +551,6 @@ public class DefaultBiomeTags {
         "minecraft:frozen_peaks",
         "dreamwoods:autumnal_hills",
         "terralith:glacial_chasm",
-        "wythers:cold_stony_shore",
-        "wythers:cold_plains",
-		"wythers:cold_stony_shore",
         "wythers:snowy_canyon"
     );
     
@@ -632,14 +632,14 @@ public class DefaultBiomeTags {
         "natures_spirit:cypress_fields",
         "natures_spirit:lavender_fields",
         "windswept:flowering_savanna",
-        "wythers:mediterranean_island"
+        "wythers:mediterranean_island",
+        "wythers:mediterranean_island_thermal_springs"
     );
     
     public static final List<String> specialMediterraneanUninviting = ImmutableList.of(
         "natures_spirit:shrubby_highlands",
         "natures_spirit:woody_highlands",
-        "natures_spirit:xeric_plains",
-        "wythers:mediterranean_island_thermal_springs"
+        "natures_spirit:xeric_plains"
     );
     
     public static final List<String> specialOrientalInviting = ImmutableList.of(
@@ -728,8 +728,6 @@ public class DefaultBiomeTags {
         "nyctophobia:haunted_lakes",
         "sleepy_hollows:sleepy_hollows",
         "dreamwoods:grim_woods",
-        "dreamwoods:twilight_wetlands",
-        "wythers:tangled_forest",
         "wythers:forbidden_forest",
         "wythers:phantasmal_forest",
 		"wythers:phantasmal_swamp",

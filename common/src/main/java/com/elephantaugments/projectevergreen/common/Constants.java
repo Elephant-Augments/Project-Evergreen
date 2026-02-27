@@ -87,7 +87,7 @@ public class Constants {
 	public static final Double CIVILIZATION_SPREAD_OFFSET = 0.85;
 	public static final Double WILDERNESS_SPREAD_OFFSET = 1.25;
 	public static final Double SPECIAL_SPREAD_OFFSET = 1.35;
-	public static final Double FLATNESS_SPREAD_OFFSET = 0.65;
+	public static final Double FLATNESS_SPREAD_OFFSET = 0.55;
 
 	public static final int DEFAULT_COLD_WATER_COLOR = 3570859;
 	public static final int DEFAULT_TEMPERATE_WATER_COLOR = 3570859;
