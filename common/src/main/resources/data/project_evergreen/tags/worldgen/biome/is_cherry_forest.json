@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "minecraft:cherry_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:blooming_grove",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:blooming_sugi_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:sakura_forest",
+      "required": false
+    }
+  ]
+}

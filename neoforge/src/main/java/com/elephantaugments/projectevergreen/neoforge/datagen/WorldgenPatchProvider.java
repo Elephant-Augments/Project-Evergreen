@@ -23,6 +23,7 @@ public class WorldgenPatchProvider extends PatchProvider {
     @Override
     public void registerPatches() {
 
+    //<-----------------------------------------------------BIOMES----------------------------------------------------->
         ProjectEvergreen.LOGGER.info("Patching all Biomes with new features...");
         WorldgenDataManager.PATCHABLE_BIOMES.forEach((id, biome) -> {
             String fromMod = Constants.getNamespace(id);
@@ -36,6 +37,17 @@ public class WorldgenPatchProvider extends PatchProvider {
                         .add("/" + Constants.PROPERTIES_KEY, biome.toJson())
                     .paste("/" + Constants.PROPERTIES_KEY, DataSources.PE_OBJECT, "/" + Constants.PROPERTIES_KEY, JsonParser.parseString(Constants.PATCHABLE_BIOME_KEY))
                     .end()
+                //SPAWN_NORMALIZATION_PATCH
+//                    .compound()
+//                        .test(PEConfig.MOB_REDISTRIBUTION_TEST, true)
+//                        .test(PEBiome.Flag.IS_TEMPERATE.jsonPath(), null, false)
+//                        .paste("/effects/water_color", DataSources.CONFIG_VALUE, JsonParser.parseString(PEConfig.TEMPERATE_WATER_COLOR_KEY))
+//                    .end()
+//                    .compound()
+//                        .test(PEConfig.WARM_CLIMATE_WATER_NORMALIZATION_TEST, true)
+//                        .test(PEBiome.Flag.IS_WARM.jsonPath(), null, false)
+//                        .paste("/effects/water_color", DataSources.CONFIG_VALUE, JsonParser.parseString(PEConfig.TEMPERATE_WATER_COLOR_KEY))
+//                    .end()
                 //WATER_COLOR_NORMALIZATION_PATCH
                     .compound()
                         .test(PEConfig.TEMPERATE_CLIMATE_WATER_NORMALIZATION_TEST, true)
@@ -47,11 +59,74 @@ public class WorldgenPatchProvider extends PatchProvider {
                         .test(PEBiome.Flag.IS_WARM.jsonPath(), null, false)
                         .paste("/effects/water_color", DataSources.CONFIG_VALUE, JsonParser.parseString(PEConfig.TEMPERATE_WATER_COLOR_KEY))
                     .end()
+                //REMOVE_VEGETATION_COLORING_PATCH
+                    .compound()
+                        .test(PEBiome.Flag.REMOVE_VEGETATION_COLOR.jsonPath(), true, false)
+                        .remove("/effects/foliage_color")
+                        .remove("/effects/grass_color")
+                    .end()
+                //ADD_MEADOW_COLORING_PATCH
+                    .compound()
+                        .test(PEBiome.Flag.IS_MEADOW_BLUE.jsonPath(), true, false)
+                        .add("/effects/foliage_color", 7374422)
+                        .remove("/effects/grass_color")
+                        .add("/temperature", 0.5)
+                        .add("/downfall", 0.8)
+                    .end()
+                //ADD_PRAIRIE_COLORING_PATCH
+                    .compound()
+                        .test(PEBiome.Flag.IS_PRAIRIE_YELLOW.jsonPath(), true, false)
+                        .add("/effects/grass_color", 15259000)
+                    .end()
+                //ADD_STEPPE_COLORING_PATCH
+                    .compound()
+                        .test(PEBiome.Flag.IS_STEPPE_BROWN.jsonPath(), true, false)
+                        .add("/effects/grass_color", -5067675)
+                    .end()
+                //ADD_MARSH_COLORING_PATCH
+                    .compound()
+                        .test(PEBiome.Flag.IS_MARSH_GREEN.jsonPath(), true, false)
+                        .add("/effects/grass_color", 7574355)
+                        .add("/effects/foliage_color", 4347179)
+                    .end()
+                //ADD_BAYOU_COLORING_PATCH
+                    .compound()
+                        .test(PEBiome.Flag.IS_BAYOU_BLUE.jsonPath(), true, false)
+                        .add("/effects/grass_color", 7574355)
+                        .add("/effects/foliage_color", 7441446)
+                        .add("/temperature", 1.2)
+                        .add("/downfall", 0.2)
+                    .end()
+                //ADD_COOL_PLAINS_COLORING_PATCH
+                    .compound()
+                        .test(PEBiome.Flag.IS_COOL_GREEN.jsonPath(), true, false)
+                        .remove("/effects/grass_color")
+                        .remove("/effects/foliage_color")
+                        .add("/temperature", 0.65)
+                        .add("/downfall", 0.3)
+                    .end()
+                //ADD_PLAINS_COLORING_PATCH
+                    .compound()
+                        .test(PEBiome.Flag.IS_PLAINS_GREEN.jsonPath(), true, false)
+                        .add("/temperature", 1.2)
+                        .add("/downfall", 0.2)
+                        .remove("/effects/grass_color")
+                        .remove("/effects/foliage_color")
+                    .end()
+                //ADD_SAVANNA_COLORING_PATCH
+                    .compound()
+                        .test(PEBiome.Flag.IS_SAVANNA_BROWN.jsonPath(), true, false)
+                        .add("/effects/grass_color", 15259000)
+                        .remove("/effects/foliage_color")
+                        .add("/temperature", 2)
+                        .add("/downfall", 0)
+                    .end()
                 .end();
         });
         ProjectEvergreen.LOGGER.info("Patched " + WorldgenDataManager.PATCHABLE_BIOMES.size() + " Biome Tags");
 
 
+    //<-----------------------------------------------PROCESSOR LISTS------------------------------------------------>
         ProjectEvergreen.LOGGER.info("Patching all Processor Lists with fixes...");
         PatchableProcessorLists PROCESSOR_LISTS = WorldgenDataManager.PATCHABLE_PROCESSOR_LISTS;
         PROCESSOR_LISTS.getPaths().forEach((path) -> {
@@ -66,6 +141,7 @@ public class WorldgenPatchProvider extends PatchProvider {
         ProjectEvergreen.LOGGER.info("Patched " + PROCESSOR_LISTS.getPaths().size() + " Processor Lists");
 
 
+    //<------------------------------------------------STRUCTURE SETS------------------------------------------------>
         ProjectEvergreen.LOGGER.info("Patching all Structure Sets with new structures...");
         WorldgenDataManager.PATCHABLE_STRUCTURE_SETS.forEach((id, structureSet) -> {
             String fromMod = Constants.getNamespace(id);
@@ -111,6 +187,7 @@ public class WorldgenPatchProvider extends PatchProvider {
         ProjectEvergreen.LOGGER.info("Patched " + WorldgenDataManager.PATCHABLE_STRUCTURE_SETS.size() + " Structure Sets");
 
 
+    //<---------------------------------------------------STRUCTURES--------------------------------------------------->
         ProjectEvergreen.LOGGER.info("Patching all Structures into new biomes...");
         WorldgenDataManager.PATCHABLE_STRUCTURES.forEach((id, structure) -> {
             String fromMod = Constants.getNamespace(id);
@@ -142,6 +219,16 @@ public class WorldgenPatchProvider extends PatchProvider {
                     .compound()
                         .test(Constants.JsonProp.REGION.jsonPath(), null, false)
                         .copy("/biomes", structure.getRegion().orElse(PERegion.NO_BIOMES).jsonPath())
+                    .end()
+                    //FORCE_BIRCH_SPAWN
+                    .compound()
+                        .test(PEStructure.Flag.IS_BIRCH_FOREST.jsonPath(), true, false)
+                        .add("/biomes", "#" + ProjectEvergreen.MODID + ":is_birch_forest")
+                    .end()
+                    //FORCE_CHERRY_SPAWN
+                    .compound()
+                        .test(PEStructure.Flag.IS_CHERRY_FOREST.jsonPath(), true, false)
+                        .add("/biomes", "#" + ProjectEvergreen.MODID + ":is_cherry_forest")
                     .end()
                 .end()
             //TERRAIN_ADAPTATION_FIX
@@ -217,12 +304,14 @@ public class WorldgenPatchProvider extends PatchProvider {
 
     public static boolean needsSignFix(String mod_id) {
         List<String> modsWithBrokenSigns = ImmutableList.of(
-                "minecraft",
-                "create_pillagers_arise",
-                "mostructures",
-                "nordic_structures",
-                "u_sea",
-                "u_desert"
+            "minecraft",
+            "create_pillagers_arise",
+            "kattersstructures",
+            "mostructures",
+            "nordic_structures",
+            "trek",
+            "u_sea",
+            "u_desert"
         );
         return modsWithBrokenSigns.contains(mod_id);
     }

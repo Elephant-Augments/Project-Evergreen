@@ -5,6 +5,9 @@ import java.util.List;
 
 public class DefaultFlags {
 
+//<--------------------------------------------------STRUCTURE SETS-------------------------------------------------->
+//<------------------------------------------------------------------------------------------------------------------>
+
     //DISABLED
     //<--- Structure sets to disable individually --->
     public static final List<String> disabledSets = ImmutableList.of(
@@ -16,6 +19,7 @@ public class DefaultFlags {
         "ati_structures:aboveground_large",
 		"ati_structures:aboveground_small",
         "dungeons_arise:major_structures",
+        "dungeons_arise_seven_seas:minor_structures",
 		"formationsoverworld:uncommon",
 		"formationsoverworld:rare",
         "integrated_villages:air_villages",
@@ -32,9 +36,11 @@ public class DefaultFlags {
         "nova_structures:villages_birch",
         "nova_structures:swamp_structure",
 		"philipsruins:ocean_fortress_main",
+		"takesapillage:pillager_structure",
         "towns_and_towers:towers",
         "towns_and_towers:towns",
         "structory:ruin_quiet",
+		"supplementaries:galleons",
         "repurposed_structures:outposts_overworld",
         "repurposed_structures:monuments_overworld",
         "repurposed_structures:villages_overworld",
@@ -49,16 +55,22 @@ public class DefaultFlags {
 		"trek:overworld/rare"
     );
 
+
+//<----------------------------------------------------STRUCTURES---------------------------------------------------->
+//<------------------------------------------------------------------------------------------------------------------>
+
 	//DISABLED
     //<--- Structure sets to disable individually --->
     public static final List<String> disabledStructures = ImmutableList.of(
 		"archaeology_ruins:ruined_ocean_monument",
 		"ati_structures:lighthouse",
+		"betterarcheology:catacombs",
 		"born_in_chaos_v1:dark_tower_forest",
 		"combat_structures_update:ruinedstronghold",
 		"kattersstructures:villager_ocean",
 		"mvs:well/well",
 		"mvs:well",
+		"qrafty:oilrig",
 		"trek:overworld/rare/island_village_1",
 		"trek:overworld/rare/tower_island"
     );
@@ -93,7 +105,7 @@ public class DefaultFlags {
 	);
 
 	//IGNORED
-	//<---  --->
+	//<--- Ignored structures, PE will not alter these structures in any way --->
 	public static final List<String> ignoredStructureIDs = ImmutableList.of(
 		"minecraft:end_city",
 		"minecraft:bastion_remnant",
@@ -343,13 +355,6 @@ public class DefaultFlags {
 		"idas:lumber_camp/lumber_camp_bygredwood",
 		"mvs:log_pile/dark_oak_log_pile",
 		"mvs:dark_oak_log_pile",
-		"natures_spirit:village_adobe",
-		"natures_spirit:village_coconut",
-		"natures_spirit:village_cypress",
-		"natures_spirit:village_wisteria",
-		"nova_structures:firewatch_tower_birch",
-		"nova_structures:firewatch_tower_cherry",
-		"nova_structures:tavern_cherry",
 		"nova_structures:firewatch_tower_dark_oak",
 		"nova_structures:firewatch_tower_forest",
 		"nova_structures:firewatch_tower_jungle",
@@ -357,9 +362,7 @@ public class DefaultFlags {
 		"nova_structures:firewatch_tower_savanna",
 		"nova_structures:firewatch_tower_swamp",
 		"philipsruins:sculk_dungeon",
-		"qrafty:birk_fort",
 		"repurposed_structures:pyramid_dark_forest",
-		"structory_towers:small_firetower",
 		"threateningly_mobs:distortion_village",
 		"trek:overworld/medium/cold_red_trade",
 		"trek:overworld/medium/dark_oak_trade",
@@ -369,9 +372,7 @@ public class DefaultFlags {
 		"trek:overworld/rare/tower_island",
 		"trek:overworld/rare/villager_island",
 		"trek:overworld/very_rare/floating_farm_large",
-		"unearthed_journey:temple_to_methuselah",
 		"wabi_sabi_structures:lumpy_tower",
-		"wabi_sabi_structures:sphinx_hidey_hole_icy",
 		"wabi_sabi_structures:sunken_steamboat",
 		"windswept:chestnut_weathered_house",
 		"windswept:grove_weathered_house"
@@ -490,6 +491,7 @@ public class DefaultFlags {
         "idas:collectors_museum",
         "idas:tinkers_citadel",
         "idas:bazaar",
+		"kattersstructures:village_mesa",
         "letsdoaddon-structures:illager_mine",
         "takesapillage:bastille",
         "repurposed_structures:mansion_birch",
@@ -565,6 +567,7 @@ public class DefaultFlags {
         "born_in_chaos_v1:clown_caravan_plains",
         "born_in_chaos_v1:clown_caravan_savanna",
         "born_in_chaos_v1:clown_caravan_taiga",
+		"create_ltab:oak_house",
         "create_structures_arise:createlosttrainstation",
         "create_structures_arise:createcushercrane",
         "eidolon:lab",
@@ -642,6 +645,7 @@ public class DefaultFlags {
 		"ati_structures:wither_keep",
 		"ati_structures:woodland_keep",
         "create_structures_arise:create_ruined_castle",
+		"imst:train_station",
 		"mushroomquest:witch_cottage_redone",
         "mythsandlegends:ancient_vestiges",
 		"mythsandlegends:graveyard",
@@ -654,6 +658,120 @@ public class DefaultFlags {
     //ADJUSTED_Y_LEVEL
     //<--- Offset the start_height of underground structures that peak out above-ground --->
     public static final List<String> adjustedYLevel = ImmutableList.of(
+
+    );
+
+	//IS_BIRCH_FOREST
+	//<--- Forces structures to spawn exclusively in full birch forests --->
+	public static final List<String> forceBirchForest = ImmutableList.of(
+		"additionalstructures:birch_log",
+		"combat_structures_update:birch_cottage",
+		"create_ltab:birch_structures",
+		"explorify:supply_cache/birch",
+		"imst:lumberjack/birch_hut",
+		"imst:birch_hut",
+		"kattersstructures:birch_tree",
+		"luistercorp:fallen_log_birch",
+		"nova_structures:well_birch",
+		"nova_structures:tavern_birch",
+		"nova_structures:firewatch_tower_birch",
+		"qrafty:birk_fort",
+		"trek:overworld/medium/birch_fort",
+		"wabi_sabi_structures:tall_birch_house"
+	);
+
+	//IS_CHERRY_FOREST
+	//<--- Forces structures to spawn exclusively in forests with vanilla cherry trees --->
+	public static final List<String> forceCherryForest = ImmutableList.of(
+		"create_ltab:cherry_house",
+		"hopo:mineshaft/cherry_mineshaft",
+		"luistercorp:fallen_log_cherry",
+		"mvs:lantern/small_cherry_lantern",
+		"mvs:nature/cherry_tree",
+		"mvs:dead_tree/cherry",
+		"mvs:small_cherry_lantern",
+		"mvs:cherry_tree",
+		"mvs:cherry",
+		"kattersstructures:cherry_tree",
+		"kattersstructures:village_cherry",
+		"repurposed_structures:village_cherry",
+		"nova_structures:firewatch_tower_cherry",
+		"nova_structures:tavern_cherry",
+		"taxtg:giant_cherryblossom_tree",
+		"taxtg:giant_cherryblossom_tree_1"
+	);
+
+
+//<------------------------------------------------------BIOMES------------------------------------------------------>
+//<------------------------------------------------------------------------------------------------------------------>
+    //REMOVE_VEGETATION_COLOR
+    //<--- Simply removes any foliage/grass color overrides to leave coloration up to the climate values --->
+    public static final List<String> removeBiomeVegetationColor = ImmutableList.of(
+		"dreamwoods:blooming_grove",
+		"dreamwoods:poplar_grove",
+		"regions_unexplored:shrubland",
+		"regions_unexplored:dry_bushland",
+		"wythers:spring_flower_fields"
+    );
+
+    //ADD_PRAIRIE_GRASS_COLOR
+    //<--- Simply replaces any grass color overrides with a light dry Prairie grass coloring --->
+    public static final List<String> addPrairieGrassColor = ImmutableList.of(
+		"natures_spirit:heather_fields",
+		"wythers:berry_bog"
+    );
+
+    //ADD_STEPPE_GRASS_COLOR
+    //<--- Simply replaces any grass color overrides with a brown Steppe grass coloring --->
+    public static final List<String> addSteppeGrassColor = ImmutableList.of(
+		"dreamwoods:tundra",
+		"regions_unexplored:pumpkin_fields"
+    );
+
+	//ADD_MEADOW_VEGETATION_COLOR
+	//<--- Simply replaces any grass/foliage color overrides and sets the temperate/downfall values to match vanilla Meadow --->
+	public static final List<String> addMeadowGrassColor = ImmutableList.of(
+		//"natures_spirit:alpine_clearings",
+		"natures_spirit:alpine_highlands",
+		"regions_unexplored:pine_taiga",
+		"regions_unexplored:towering_cliffs",
+		"dreamwoods:flowering_fields"
+	);
+
+	//ADD_MARSH_VEGETATION_COLOR
+	//<--- Simply replaces any grass/foliage color overrides with a dark green marsh coloring --->
+	public static final List<String> addMarshVegetationColor = ImmutableList.of(
+		"dreamwoods:weeping_grove"
+		//"dreamwoods:morass"
+	);
+
+	//ADD_BAYOU_VEGETATION_COLOR
+	//<--- Simply replaces any grass/foliage color overrides with a dark blue-green bayou coloring --->
+	public static final List<String> addBayouVegetationColor = ImmutableList.of(
+		"regions_unexplored:bayou",
+		"regions_unexplored:old_growth_bayou"
+	);
+
+	//ADD_COOL_PLAINS_VEGETATION_COLOR
+	//<--- Simply replaces any grass/foliage color overrides with a muted yellow-green coloring --->
+	public static final List<String> addCoolPlainsVegetationColor = ImmutableList.of(
+		"dreamwoods:prairie",
+		"dreamwoods:lush_grassland",
+		"regions_unexplored:grassland",
+		"dreamwoods:autumnal_hills"
+	);
+
+	//ADD_PLAINS_VEGETATION_COLOR
+	//<--- Simply replaces any grass/foliage color overrides with a muted green coloring --->
+	public static final List<String> addPlainsVegetationColor = ImmutableList.of(
+		"natures_spirit:floral_ridges",
+		"regions_unexplored:flower_fields",
+		"regions_unexplored:bamboo_forest"
+	);
+
+    //ADD_SAVANNA_VEGETATION_COLOR
+    //<--- Simply replaces any grass/foliage color overrides with a yellow-brown savanna coloring --->
+    public static final List<String> addSavannaVegetationColor = ImmutableList.of(
 
     );
 }

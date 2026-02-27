@@ -3,6 +3,7 @@ package com.elephantaugments.projectevergreen.common.api;
 import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultBiomeTags;
+import com.elephantaugments.projectevergreen.common.data.defaults.DefaultFlags;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableBiomes;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
@@ -145,6 +146,15 @@ public enum PEBiome {
 
     public enum Flag {
         PATCHABLE(new PatchableBiomes().getIDs().stream().toList()),
+        REMOVE_VEGETATION_COLOR(DefaultFlags.removeBiomeVegetationColor),
+        IS_MEADOW_BLUE(DefaultFlags.addMeadowGrassColor),
+        IS_MARSH_GREEN(DefaultFlags.addMarshVegetationColor),
+        IS_BAYOU_BLUE(DefaultFlags.addBayouVegetationColor),
+        IS_COOL_GREEN(DefaultFlags.addCoolPlainsVegetationColor),
+        IS_PLAINS_GREEN(DefaultFlags.addPlainsVegetationColor),
+        IS_STEPPE_BROWN(DefaultFlags.addSteppeGrassColor),
+        IS_PRAIRIE_YELLOW(DefaultFlags.addPrairieGrassColor),
+        IS_SAVANNA_BROWN(DefaultFlags.addSavannaVegetationColor),
         IS_TEMPERATE(PEBiome.allTemperate()),
         IS_WARM(PEBiome.allWarm());
 
