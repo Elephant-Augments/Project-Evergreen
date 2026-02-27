@@ -1,0 +1,5 @@
+{
+    "op": "replace",
+    "path": "/placement/0/count/max_inclusive",
+    "value": 0
+}

@@ -1,0 +1,13 @@
+[
+    [
+        {
+            "op": "test",
+            "type": "patched:mod_loaded",
+            "value": "expanded_ecosphere"
+        },
+        {
+            "op": "include",
+            "path": "wythers_factor"
+        }
+    ]
+]

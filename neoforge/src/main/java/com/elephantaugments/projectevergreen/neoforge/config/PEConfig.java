@@ -310,7 +310,7 @@ public class PEConfig {
                 .comment("\n## WARNING: Will create chunk borders if changed on an existing world.");
         CONTINENTS_SCALE = COMMON_BUILDER
                 .comment("## <--------------- Overall continents size --------------->")
-                .defineInRange(CONTINENTS_SCALE_KEY, 1.0, 0.25, 4.0);
+                .defineInRange(CONTINENTS_SCALE_KEY, 1.0, 0.1, 4.0);
         NON_CONTINENT_ISLAND_AMOUNT = COMMON_BUILDER
                 .defineInRange(NON_CONTINENT_ISLAND_AMOUNT_KEY, 1.0, 0.25, 2.0);
         NON_CONTINENT_ISLAND_SCALE = COMMON_BUILDER

@@ -1,15 +1,28 @@
 [
-    {
-        "op": "test",
-        "type": "patched:mod_loaded",
-        "value": "larion"
-    },
-    {
-        "op": "replace",
-        "path": "/argument",
-        "value": {
-            "type": "minecraft:cache_2d",
-            "argument": "larion:overworld/terrain/jaggedness"
+    [
+        {
+            "op": "test",
+            "type": "patched:mod_loaded",
+            "value": "expanded_ecosphere"
+        },
+        {
+            "op": "include",
+            "path": "wythers_jaggedness"
         }
-    }
+    ],
+    [
+        {
+            "op": "test",
+            "type": "patched:mod_loaded",
+            "value": "larion"
+        },
+        {
+            "op": "replace",
+            "path": "/argument",
+            "value": {
+                "type": "minecraft:cache_2d",
+                "argument": "larion:overworld/terrain/jaggedness"
+            }
+        }
+    ]
 ]
