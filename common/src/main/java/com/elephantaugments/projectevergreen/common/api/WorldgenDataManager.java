@@ -140,9 +140,6 @@ public final class WorldgenDataManager {
     public static void loadStructuresByFlag(Optional<HolderGetter<Structure>> registryLookup) {
         PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.initIDs(PEStructure.Heightmap.UNDERGROUND.defaultIDs());
         PEStructure.Flag.IGNORED_BIOME_RADIUS_CHECK.initIDs(PEStructure.Flag.isBiasIgnored());
-        PEStructure.Flag.FLATNESS_CHECK_SPRAWLING.initIDs(PEStructure.Flag.isSprawlingFlat());
-        PEStructure.Flag.FLATNESS_CHECK_LARGE.initIDs(PEStructure.Flag.isLargeFlat());
-        PEStructure.Flag.FLATNESS_CHECK_SMALL.initIDs(PEStructure.Flag.isSmallFlat());
         for (PEStructure.Flag flag : PEStructure.Flag.values()) {
             mapFlagToStructure(flag, registryLookup);
         }
@@ -151,6 +148,9 @@ public final class WorldgenDataManager {
         PEStructure.Flag.IGNORED_BIOME_REDISTRIBUTION.initIDs(PEStructure.Flag.IGNORED.defaultIDs());
         PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.initIDs(PEStructure.Flag.IGNORED.defaultIDs());
         PEStructure.Flag.IGNORED_BIOME_RADIUS_CHECK.initIDs(PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.defaultIDs());
+        PEStructure.Flag.FLATNESS_CHECK_SPRAWLING.initIDs(PEStructure.Flag.isSprawlingFlat());
+        PEStructure.Flag.FLATNESS_CHECK_LARGE.initIDs(PEStructure.Flag.isLargeFlat());
+        PEStructure.Flag.FLATNESS_CHECK_SMALL.initIDs(PEStructure.Flag.isSmallFlat());
         for (PEStructure.Flag flag : PEStructure.Flag.values()) {
             mapFlagToStructure(flag, registryLookup);
         }

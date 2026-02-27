@@ -267,7 +267,9 @@ public enum PEStructure {
         //Fix Ignored Biome Redistribution structures counting (this doesn't work)
         public static List<String> isIgnored() {
             return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
-                    .filter(s -> s.getDimension().isEmpty() && s.getFlags().isEmpty())
+                    .filter(s -> s.getDimension().isEmpty() &&
+                            !(s.getFlags().contains(Flag.DISABLED)) &&
+                            s.getFlags().size() <= 1)
                     .map(PatchableStructure::getId)
                     .toList();
         }
