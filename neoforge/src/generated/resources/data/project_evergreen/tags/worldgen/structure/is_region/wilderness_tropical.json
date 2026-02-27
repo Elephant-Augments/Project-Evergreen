@@ -1,23 +1,11 @@
 {
   "values": [
     {
-      "id": "additionalstructures:temple_2",
+      "id": "additionalstructures:big_jungle_log",
       "required": false
     },
     {
-      "id": "additionalstructures:maya_temple",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:standing_jungle_log",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:jungle_tree_hole",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:jungle_log",
+      "id": "additionalstructures:fallen_jungle_tree_1",
       "required": false
     },
     {
@@ -29,11 +17,23 @@
       "required": false
     },
     {
-      "id": "additionalstructures:fallen_jungle_tree_1",
+      "id": "additionalstructures:jungle_log",
       "required": false
     },
     {
-      "id": "additionalstructures:big_jungle_log",
+      "id": "additionalstructures:jungle_tree_hole",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:maya_temple",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_jungle_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:temple_2",
       "required": false
     },
     {
@@ -65,15 +65,11 @@
       "required": false
     },
     {
-      "id": "ati_structures:jungle_settlement",
-      "required": false
-    },
-    {
       "id": "ati_structures:jungle_grotto",
       "required": false
     },
     {
-      "id": "betterarcheology:temple_jungle",
+      "id": "ati_structures:jungle_settlement",
       "required": false
     },
     {
@@ -86,6 +82,10 @@
     },
     {
       "id": "betterarcheology:light_temple",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:temple_jungle",
       "required": false
     },
     {
@@ -109,11 +109,11 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:jungle_tree_house",
+      "id": "dungeons_arise:abandoned_temple",
       "required": false
     },
     {
-      "id": "dungeons_arise:abandoned_temple",
+      "id": "dungeons_arise:jungle_tree_house",
       "required": false
     },
     {
@@ -129,7 +129,15 @@
       "required": false
     },
     {
-      "id": "feur_extension_jungle:village",
+      "id": "feur_extension_jungle:ancient_statue",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:big_melon",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:lost_explorer",
       "required": false
     },
     {
@@ -141,15 +149,7 @@
       "required": false
     },
     {
-      "id": "feur_extension_jungle:ancient_statue",
-      "required": false
-    },
-    {
-      "id": "feur_extension_jungle:big_melon",
-      "required": false
-    },
-    {
-      "id": "feur_extension_jungle:lost_explorer",
+      "id": "feur_extension_jungle:small_temple",
       "required": false
     },
     {
@@ -173,7 +173,7 @@
       "required": false
     },
     {
-      "id": "feur_extension_jungle:small_temple",
+      "id": "feur_extension_jungle:village",
       "required": false
     },
     {
@@ -225,6 +225,26 @@
       "required": false
     },
     {
+      "id": "mvs:dead_tree/jungle",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_palm_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_tower",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_tree",
+      "required": false
+    },
+    {
       "id": "mvs:nature/jungle_palm_tree",
       "required": false
     },
@@ -233,27 +253,7 @@
       "required": false
     },
     {
-      "id": "mvs:dead_tree/jungle",
-      "required": false
-    },
-    {
-      "id": "mvs:well/rare_well",
-      "required": false
-    },
-    {
-      "id": "mvs:jungle_palm_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:jungle_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:jungle",
-      "required": false
-    },
-    {
-      "id": "mvs:jungle_tower",
+      "id": "mvs:rare_well",
       "required": false
     },
     {
@@ -261,7 +261,7 @@
       "required": false
     },
     {
-      "id": "mvs:rare_well",
+      "id": "mvs:well/rare_well",
       "required": false
     },
     {
@@ -277,10 +277,6 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:ruins_land_warm",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:fortress_jungle",
       "required": false
     },
@@ -293,11 +289,15 @@
       "required": false
     },
     {
+      "id": "repurposed_structures:outpost_jungle",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:pyramid_jungle",
       "required": false
     },
     {
-      "id": "repurposed_structures:outpost_jungle",
+      "id": "repurposed_structures:ruins_land_warm",
       "required": false
     },
     {
@@ -337,11 +337,11 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:lost_foot",
+      "id": "wabi_sabi_structures:effigy_patch_jungle",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:effigy_patch_jungle",
+      "id": "wabi_sabi_structures:lost_foot",
       "required": false
     },
     {

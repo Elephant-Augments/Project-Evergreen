@@ -17,23 +17,15 @@
       "required": false
     },
     {
+      "id": "joshie:sunken_spires/colossuem",
+      "required": false
+    },
+    {
       "id": "joshie:sunken_spires/conduit_ruins",
       "required": false
     },
     {
-      "id": "joshie:sunken_spires/small_fossil",
-      "required": false
-    },
-    {
-      "id": "joshie:sunken_spires/spires",
-      "required": false
-    },
-    {
       "id": "joshie:sunken_spires/floating_spikes",
-      "required": false
-    },
-    {
-      "id": "joshie:sunken_spires/colossuem",
       "required": false
     },
     {
@@ -46,6 +38,14 @@
     },
     {
       "id": "joshie:sunken_spires/prismarine_forge",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/small_fossil",
+      "required": false
+    },
+    {
+      "id": "joshie:sunken_spires/spires",
       "required": false
     },
     {

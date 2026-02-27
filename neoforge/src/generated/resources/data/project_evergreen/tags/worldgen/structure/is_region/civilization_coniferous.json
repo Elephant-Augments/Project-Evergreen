@@ -1,15 +1,15 @@
 {
   "values": [
     {
-      "id": "additionalstructures:standing_spruce_log",
-      "required": false
-    },
-    {
       "id": "additionalstructures:spruce_log_1",
       "required": false
     },
     {
       "id": "additionalstructures:spruce_log_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_spruce_log",
       "required": false
     },
     {
@@ -37,11 +37,11 @@
       "required": false
     },
     {
-      "id": "humancompanions:spruce_house",
+      "id": "humancompanions:darkoak_house",
       "required": false
     },
     {
-      "id": "humancompanions:darkoak_house",
+      "id": "humancompanions:spruce_house",
       "required": false
     },
     {
@@ -49,15 +49,11 @@
       "required": false
     },
     {
-      "id": "idas:lumber_camp/lumber_camp_spruce",
-      "required": false
-    },
-    {
       "id": "idas:lumber_camp/lumber_camp_dark_oak",
       "required": false
     },
     {
-      "id": "imst:lumberjack/dark_oak_hut",
+      "id": "idas:lumber_camp/lumber_camp_spruce",
       "required": false
     },
     {
@@ -65,11 +61,15 @@
       "required": false
     },
     {
-      "id": "imst:spruce_hut",
+      "id": "imst:lumberjack/dark_oak_hut",
       "required": false
     },
     {
       "id": "imst:lumberjack/spruce_hut",
+      "required": false
+    },
+    {
+      "id": "imst:spruce_hut",
       "required": false
     },
     {
@@ -105,15 +105,7 @@
       "required": false
     },
     {
-      "id": "mvs:other_decoration/mine_with_campsite",
-      "required": false
-    },
-    {
-      "id": "mvs:well/wells/spruce_well",
-      "required": false
-    },
-    {
-      "id": "mvs:well/wells/dark_oak_well",
+      "id": "mvs:dark_oak_well",
       "required": false
     },
     {
@@ -129,11 +121,7 @@
       "required": false
     },
     {
-      "id": "mvs:spruce_well",
-      "required": false
-    },
-    {
-      "id": "mvs:dark_oak_well",
+      "id": "mvs:other_decoration/mine_with_campsite",
       "required": false
     },
     {
@@ -145,15 +133,23 @@
       "required": false
     },
     {
+      "id": "mvs:spruce_well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/dark_oak_well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/spruce_well",
+      "required": false
+    },
+    {
       "id": "nordic_structures:bigvikingeatinghouse",
       "required": false
     },
     {
       "id": "nordic_structures:tyrfingrshrine",
-      "required": false
-    },
-    {
-      "id": "nordic_structures:vikingtent",
       "required": false
     },
     {
@@ -165,15 +161,11 @@
       "required": false
     },
     {
+      "id": "nordic_structures:vikingtent",
+      "required": false
+    },
+    {
       "id": "nordic_structures:vikingtower",
-      "required": false
-    },
-    {
-      "id": "nova_structures:well_spruce",
-      "required": false
-    },
-    {
-      "id": "nova_structures:tavern_spruce",
       "required": false
     },
     {
@@ -181,11 +173,15 @@
       "required": false
     },
     {
-      "id": "qrafty:blacksmith",
+      "id": "nova_structures:tavern_spruce",
       "required": false
     },
     {
-      "id": "repurposed_structures:village_giant_taiga",
+      "id": "nova_structures:well_spruce",
+      "required": false
+    },
+    {
+      "id": "qrafty:blacksmith",
       "required": false
     },
     {
@@ -193,15 +189,11 @@
       "required": false
     },
     {
+      "id": "repurposed_structures:village_giant_taiga",
+      "required": false
+    },
+    {
       "id": "sweety_archaeology:spruce_hut",
-      "required": false
-    },
-    {
-      "id": "taxtg:giant_spruce_tree",
-      "required": false
-    },
-    {
-      "id": "taxtg:giant_spruce_tree_1",
       "required": false
     },
     {
@@ -213,7 +205,11 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:village_old_growth_taiga",
+      "id": "taxtg:giant_spruce_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_spruce_tree_1",
       "required": false
     },
     {
@@ -221,7 +217,7 @@
       "required": false
     },
     {
-      "id": "trek:village/taiga",
+      "id": "towns_and_towers:village_old_growth_taiga",
       "required": false
     },
     {
@@ -233,6 +229,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/medium/haunted_house",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/spruce_cottage",
       "required": false
     },
@@ -241,19 +241,11 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/haunted_house",
+      "id": "trek:village/taiga",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:water_tower_spruce",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:totem_pole",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:spruce_cabin",
+      "id": "wabi_sabi_structures:old_tiny_house",
       "required": false
     },
     {
@@ -261,7 +253,15 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:old_tiny_house",
+      "id": "wabi_sabi_structures:spruce_cabin",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:totem_pole",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:water_tower_spruce",
       "required": false
     },
     {

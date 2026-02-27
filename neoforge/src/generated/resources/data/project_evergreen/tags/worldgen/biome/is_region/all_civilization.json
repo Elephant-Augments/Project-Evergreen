@@ -1,50 +1,6 @@
 {
   "values": [
     {
-      "id": "#project_evergreen:is_climate/plains_grassy_temperate",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/forest_sparse_coniferous",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/forest_sparse_deciduous",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/special_autumnal_fields",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/special_mediterranean_inviting",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/special_flowery_fields",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/special_flowery_forest",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/plains_grassy_snow",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/forest_sparse_coniferous_snow",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/plains_grassy_arid",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/special_mediterranean_inviting",
-      "required": false
-    },
-    {
       "id": "#project_evergreen:is_climate/desert_dunes_alive",
       "required": false
     },
@@ -53,11 +9,47 @@
       "required": false
     },
     {
-      "id": "#project_evergreen:is_climate/plains_grassy_tropical",
+      "id": "#project_evergreen:is_climate/forest_sparse_coniferous",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/forest_sparse_coniferous_snow",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/forest_sparse_deciduous",
       "required": false
     },
     {
       "id": "#project_evergreen:is_climate/forest_sparse_tropical",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/plains_grassy_arid",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/plains_grassy_snow",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/plains_grassy_temperate",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/plains_grassy_tropical",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_autumnal_fields",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_flowery_fields",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_flowery_forest",
       "required": false
     },
     {

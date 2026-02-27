@@ -1,6 +1,34 @@
 {
   "values": [
     {
+      "id": "dreamwoods:arid_plains",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:azure_cove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:bayou",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:flooded_rainforest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:grassy_badlands",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:jungle_bushland",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:roofed_tropical_forest",
+      "required": false
+    },
+    {
       "id": "dreamwoods:savanna_grove",
       "required": false
     },
@@ -9,75 +37,7 @@
       "required": false
     },
     {
-      "id": "dreamwoods:flooded_rainforest",
-      "required": false
-    },
-    {
-      "id": "dreamwoods:azure_cove",
-      "required": false
-    },
-    {
-      "id": "dreamwoods:jungle_bushland",
-      "required": false
-    },
-    {
-      "id": "dreamwoods:bayou",
-      "required": false
-    },
-    {
-      "id": "dreamwoods:arid_plains",
-      "required": false
-    },
-    {
-      "id": "dreamwoods:grassy_badlands",
-      "required": false
-    },
-    {
-      "id": "dreamwoods:roofed_tropical_forest",
-      "required": false
-    },
-    {
-      "id": "minecraft:eroded_badlands",
-      "required": false
-    },
-    {
-      "id": "minecraft:wooded_badlands",
-      "required": false
-    },
-    {
-      "id": "minecraft:savanna_plateau",
-      "required": false
-    },
-    {
-      "id": "minecraft:mangrove_swamp",
-      "required": false
-    },
-    {
-      "id": "minecraft:jungle",
-      "required": false
-    },
-    {
-      "id": "minecraft:warm_ocean",
-      "required": false
-    },
-    {
       "id": "minecraft:badlands",
-      "required": false
-    },
-    {
-      "id": "minecraft:sparse_jungle",
-      "required": false
-    },
-    {
-      "id": "minecraft:lukewarm_ocean",
-      "required": false
-    },
-    {
-      "id": "minecraft:desert",
-      "required": false
-    },
-    {
-      "id": "minecraft:windswept_savanna",
       "required": false
     },
     {
@@ -85,55 +45,47 @@
       "required": false
     },
     {
+      "id": "minecraft:desert",
+      "required": false
+    },
+    {
+      "id": "minecraft:eroded_badlands",
+      "required": false
+    },
+    {
+      "id": "minecraft:jungle",
+      "required": false
+    },
+    {
+      "id": "minecraft:lukewarm_ocean",
+      "required": false
+    },
+    {
+      "id": "minecraft:mangrove_swamp",
+      "required": false
+    },
+    {
       "id": "minecraft:savanna",
       "required": false
     },
     {
-      "id": "natures_spirit:sparse_tropical_woods",
+      "id": "minecraft:savanna_plateau",
       "required": false
     },
     {
-      "id": "natures_spirit:shrubland",
+      "id": "minecraft:sparse_jungle",
       "required": false
     },
     {
-      "id": "natures_spirit:tropical_shores",
+      "id": "minecraft:warm_ocean",
       "required": false
     },
     {
-      "id": "natures_spirit:lively_dunes",
+      "id": "minecraft:windswept_savanna",
       "required": false
     },
     {
-      "id": "natures_spirit:shrubby_highlands",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:wooded_drylands",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:xeric_plains",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:woody_highlands",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:scorched_dunes",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:tropical_woods",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:tropical_basin",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:chaparral",
+      "id": "minecraft:wooded_badlands",
       "required": false
     },
     {
@@ -141,7 +93,7 @@
       "required": false
     },
     {
-      "id": "natures_spirit:drylands",
+      "id": "natures_spirit:arid_savanna",
       "required": false
     },
     {
@@ -149,35 +101,59 @@
       "required": false
     },
     {
+      "id": "natures_spirit:chaparral",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:drylands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:lively_dunes",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:scorched_dunes",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:shrubby_highlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:shrubland",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:sparse_tropical_woods",
+      "required": false
+    },
+    {
       "id": "natures_spirit:stratified_desert",
       "required": false
     },
     {
-      "id": "natures_spirit:arid_savanna",
+      "id": "natures_spirit:tropical_basin",
       "required": false
     },
     {
-      "id": "regions_unexplored:dry_bushland",
+      "id": "natures_spirit:tropical_shores",
       "required": false
     },
     {
-      "id": "regions_unexplored:bayou",
+      "id": "natures_spirit:tropical_woods",
       "required": false
     },
     {
-      "id": "regions_unexplored:steppe",
+      "id": "natures_spirit:wooded_drylands",
       "required": false
     },
     {
-      "id": "regions_unexplored:rainforest",
+      "id": "natures_spirit:woody_highlands",
       "required": false
     },
     {
-      "id": "regions_unexplored:tropics",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:old_growth_bayou",
+      "id": "natures_spirit:xeric_plains",
       "required": false
     },
     {
@@ -185,7 +161,31 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:bayou",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dry_bushland",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:eucalyptus_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:joshua_desert",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:old_growth_bayou",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:outback",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:rainforest",
       "required": false
     },
     {
@@ -197,7 +197,11 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:outback",
+      "id": "regions_unexplored:sparse_rainforest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:steppe",
       "required": false
     },
     {
@@ -205,67 +209,15 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:sparse_rainforest",
+      "id": "regions_unexplored:tropics",
       "required": false
     },
     {
-      "id": "regions_unexplored:joshua_desert",
+      "id": "terralith:amethyst_canyon",
       "required": false
     },
     {
-      "id": "terralith:fractured_savanna",
-      "required": false
-    },
-    {
-      "id": "terralith:brushland",
-      "required": false
-    },
-    {
-      "id": "terralith:savanna_badlands",
-      "required": false
-    },
-    {
-      "id": "terralith:white_mesa",
-      "required": false
-    },
-    {
-      "id": "terralith:sandstone_valley",
-      "required": false
-    },
-    {
-      "id": "terralith:desert_oasis",
-      "required": false
-    },
-    {
-      "id": "terralith:tropical_jungle",
-      "required": false
-    },
-    {
-      "id": "terralith:rocky_jungle",
-      "required": false
-    },
-    {
-      "id": "terralith:hot_shrubland",
-      "required": false
-    },
-    {
-      "id": "terralith:red_oasis",
-      "required": false
-    },
-    {
-      "id": "terralith:warm_river",
-      "required": false
-    },
-    {
-      "id": "terralith:bryce_canyon",
-      "required": false
-    },
-    {
-      "id": "terralith:ashen_savanna",
-      "required": false
-    },
-    {
-      "id": "terralith:desert_canyon",
+      "id": "terralith:amethyst_rainforest",
       "required": false
     },
     {
@@ -277,15 +229,63 @@
       "required": false
     },
     {
+      "id": "terralith:ashen_savanna",
+      "required": false
+    },
+    {
+      "id": "terralith:brushland",
+      "required": false
+    },
+    {
+      "id": "terralith:bryce_canyon",
+      "required": false
+    },
+    {
+      "id": "terralith:desert_canyon",
+      "required": false
+    },
+    {
+      "id": "terralith:desert_oasis",
+      "required": false
+    },
+    {
       "id": "terralith:desert_spires",
       "required": false
     },
     {
-      "id": "terralith:amethyst_rainforest",
+      "id": "terralith:fractured_savanna",
       "required": false
     },
     {
-      "id": "terralith:amethyst_canyon",
+      "id": "terralith:hot_shrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:red_oasis",
+      "required": false
+    },
+    {
+      "id": "terralith:rocky_jungle",
+      "required": false
+    },
+    {
+      "id": "terralith:sandstone_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:savanna_badlands",
+      "required": false
+    },
+    {
+      "id": "terralith:tropical_jungle",
+      "required": false
+    },
+    {
+      "id": "terralith:warm_river",
+      "required": false
+    },
+    {
+      "id": "terralith:white_mesa",
       "required": false
     },
     {
@@ -297,119 +297,7 @@
       "required": false
     },
     {
-      "id": "wythers:tropical_forest_river",
-      "required": false
-    },
-    {
-      "id": "wythers:tropical_forest_canyon",
-      "required": false
-    },
-    {
-      "id": "wythers:black_river",
-      "required": false
-    },
-    {
-      "id": "wythers:flooded_rainforest",
-      "required": false
-    },
-    {
-      "id": "wythers:wooded_desert",
-      "required": false
-    },
-    {
-      "id": "wythers:eucalyptus_salubris_woodland",
-      "required": false
-    },
-    {
-      "id": "wythers:sparse_eucalyptus_jungle",
-      "required": false
-    },
-    {
-      "id": "wythers:warm_stony_shore",
-      "required": false
-    },
-    {
-      "id": "wythers:dry_savanna",
-      "required": false
-    },
-    {
-      "id": "wythers:desert_island",
-      "required": false
-    },
-    {
-      "id": "wythers:dry_tropical_grassland",
-      "required": false
-    },
-    {
-      "id": "wythers:black_beach",
-      "required": false
-    },
-    {
-      "id": "wythers:highland_tropical_rainforest",
-      "required": false
-    },
-    {
-      "id": "wythers:eucalyptus_woodland",
-      "required": false
-    },
-    {
-      "id": "wythers:bamboo_jungle_swamp",
-      "required": false
-    },
-    {
-      "id": "wythers:sparse_bamboo_jungle",
-      "required": false
-    },
-    {
-      "id": "wythers:scrub_forest",
-      "required": false
-    },
-    {
-      "id": "wythers:chaparral",
-      "required": false
-    },
-    {
-      "id": "wythers:red_desert",
-      "required": false
-    },
-    {
-      "id": "wythers:tropical_island",
-      "required": false
-    },
-    {
-      "id": "wythers:scrubland",
-      "required": false
-    },
-    {
-      "id": "wythers:deep_desert_river",
-      "required": false
-    },
-    {
-      "id": "wythers:flowering_pantanal",
-      "required": false
-    },
-    {
-      "id": "wythers:red_rock_canyon",
-      "required": false
-    },
-    {
-      "id": "wythers:bamboo_jungle_canyon",
-      "required": false
-    },
-    {
-      "id": "wythers:eucalyptus_deanei_forest",
-      "required": false
-    },
-    {
-      "id": "wythers:flooded_savanna",
-      "required": false
-    },
-    {
-      "id": "wythers:tsingy_forest",
-      "required": false
-    },
-    {
-      "id": "wythers:jungle_island",
+      "id": "wythers:ayers_rock",
       "required": false
     },
     {
@@ -417,15 +305,55 @@
       "required": false
     },
     {
-      "id": "wythers:eucalyptus_jungle",
+      "id": "wythers:badlands_desert",
       "required": false
     },
     {
-      "id": "wythers:jungle_canyon",
+      "id": "wythers:badlands_river",
       "required": false
     },
     {
-      "id": "wythers:dry_tropical_forest",
+      "id": "wythers:bamboo_jungle_canyon",
+      "required": false
+    },
+    {
+      "id": "wythers:bamboo_jungle_highlands",
+      "required": false
+    },
+    {
+      "id": "wythers:bamboo_jungle_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:bamboo_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:bayou",
+      "required": false
+    },
+    {
+      "id": "wythers:black_beach",
+      "required": false
+    },
+    {
+      "id": "wythers:black_river",
+      "required": false
+    },
+    {
+      "id": "wythers:cactus_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:chaparral",
+      "required": false
+    },
+    {
+      "id": "wythers:coastal_mangroves",
+      "required": false
+    },
+    {
+      "id": "wythers:danakil_desert",
       "required": false
     },
     {
@@ -433,11 +361,19 @@
       "required": false
     },
     {
-      "id": "wythers:savanna_basaltic_incursions",
+      "id": "wythers:deep_desert_river",
       "required": false
     },
     {
-      "id": "wythers:humid_tropical_grassland",
+      "id": "wythers:deepslate_shore",
+      "required": false
+    },
+    {
+      "id": "wythers:desert_beach",
+      "required": false
+    },
+    {
+      "id": "wythers:desert_island",
       "required": false
     },
     {
@@ -449,55 +385,7 @@
       "required": false
     },
     {
-      "id": "wythers:tropical_forest",
-      "required": false
-    },
-    {
-      "id": "wythers:tropical_beach",
-      "required": false
-    },
-    {
-      "id": "wythers:tropical_grassland",
-      "required": false
-    },
-    {
-      "id": "wythers:jungle_river",
-      "required": false
-    },
-    {
-      "id": "wythers:savanna_badlands",
-      "required": false
-    },
-    {
-      "id": "wythers:desert_beach",
-      "required": false
-    },
-    {
-      "id": "wythers:jacaranda_savanna",
-      "required": false
-    },
-    {
-      "id": "wythers:outback_desert",
-      "required": false
-    },
-    {
-      "id": "wythers:sparse_eucalyptus_woodland",
-      "required": false
-    },
-    {
-      "id": "wythers:bamboo_swamp",
-      "required": false
-    },
-    {
-      "id": "wythers:deepslate_shore",
-      "required": false
-    },
-    {
-      "id": "wythers:tropical_rainforest",
-      "required": false
-    },
-    {
-      "id": "wythers:outback",
+      "id": "wythers:desert_river",
       "required": false
     },
     {
@@ -505,19 +393,23 @@
       "required": false
     },
     {
-      "id": "wythers:windswept_jungle",
+      "id": "wythers:dry_savanna",
       "required": false
     },
     {
-      "id": "wythers:wooded_savanna",
+      "id": "wythers:dry_tropical_forest",
       "required": false
     },
     {
-      "id": "wythers:sandy_jungle",
+      "id": "wythers:dry_tropical_grassland",
       "required": false
     },
     {
-      "id": "wythers:badlands_river",
+      "id": "wythers:eucalyptus_deanei_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:eucalyptus_jungle",
       "required": false
     },
     {
@@ -525,39 +417,11 @@
       "required": false
     },
     {
-      "id": "wythers:guelta",
+      "id": "wythers:eucalyptus_salubris_woodland",
       "required": false
     },
     {
-      "id": "wythers:bayou",
-      "required": false
-    },
-    {
-      "id": "wythers:ayers_rock",
-      "required": false
-    },
-    {
-      "id": "wythers:coastal_mangroves",
-      "required": false
-    },
-    {
-      "id": "wythers:subtropical_forest",
-      "required": false
-    },
-    {
-      "id": "wythers:badlands_desert",
-      "required": false
-    },
-    {
-      "id": "wythers:danakil_desert",
-      "required": false
-    },
-    {
-      "id": "wythers:pantanal",
-      "required": false
-    },
-    {
-      "id": "wythers:cactus_desert",
+      "id": "wythers:eucalyptus_woodland",
       "required": false
     },
     {
@@ -565,7 +429,99 @@
       "required": false
     },
     {
-      "id": "wythers:bamboo_jungle_highlands",
+      "id": "wythers:flooded_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:flooded_savanna",
+      "required": false
+    },
+    {
+      "id": "wythers:flowering_pantanal",
+      "required": false
+    },
+    {
+      "id": "wythers:guelta",
+      "required": false
+    },
+    {
+      "id": "wythers:highland_tropical_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:humid_tropical_grassland",
+      "required": false
+    },
+    {
+      "id": "wythers:jacaranda_savanna",
+      "required": false
+    },
+    {
+      "id": "wythers:jungle_canyon",
+      "required": false
+    },
+    {
+      "id": "wythers:jungle_island",
+      "required": false
+    },
+    {
+      "id": "wythers:jungle_river",
+      "required": false
+    },
+    {
+      "id": "wythers:outback",
+      "required": false
+    },
+    {
+      "id": "wythers:outback_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:pantanal",
+      "required": false
+    },
+    {
+      "id": "wythers:red_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:red_rock_canyon",
+      "required": false
+    },
+    {
+      "id": "wythers:sandy_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:savanna_badlands",
+      "required": false
+    },
+    {
+      "id": "wythers:savanna_basaltic_incursions",
+      "required": false
+    },
+    {
+      "id": "wythers:scrub_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:scrubland",
+      "required": false
+    },
+    {
+      "id": "wythers:sparse_bamboo_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:sparse_eucalyptus_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:sparse_eucalyptus_woodland",
+      "required": false
+    },
+    {
+      "id": "wythers:subtropical_forest",
       "required": false
     },
     {
@@ -573,11 +529,55 @@
       "required": false
     },
     {
-      "id": "wythers:desert_river",
+      "id": "wythers:subtropical_grassland",
       "required": false
     },
     {
-      "id": "wythers:subtropical_grassland",
+      "id": "wythers:tropical_beach",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_forest_canyon",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_forest_river",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_grassland",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_island",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:tsingy_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:warm_stony_shore",
+      "required": false
+    },
+    {
+      "id": "wythers:windswept_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:wooded_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:wooded_savanna",
       "required": false
     }
   ]

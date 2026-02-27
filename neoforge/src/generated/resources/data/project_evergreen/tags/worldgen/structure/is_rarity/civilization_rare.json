@@ -17,35 +17,11 @@
       "required": false
     },
     {
-      "id": "idas:tinkers_workshop",
-      "required": false
-    },
-    {
       "id": "idas:bazaar",
       "required": false
     },
     {
-      "id": "integrated_villages:tavern_village",
-      "required": false
-    },
-    {
-      "id": "integrated_villages:pirate_village",
-      "required": false
-    },
-    {
-      "id": "integrated_villages:mediterranean_village",
-      "required": false
-    },
-    {
-      "id": "integrated_villages:kutcha_village",
-      "required": false
-    },
-    {
-      "id": "integrated_villages:oasis_village",
-      "required": false
-    },
-    {
-      "id": "integrated_villages:mossy_mounds",
+      "id": "idas:tinkers_workshop",
       "required": false
     },
     {
@@ -53,7 +29,11 @@
       "required": false
     },
     {
-      "id": "integrated_villages:quark/minka_village",
+      "id": "integrated_villages:clockwork_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:kutcha_village",
       "required": false
     },
     {
@@ -61,7 +41,35 @@
       "required": false
     },
     {
-      "id": "integrated_villages:clockwork_village",
+      "id": "integrated_villages:mediterranean_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:mossy_mounds",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:oasis_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:pirate_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:tavern_village",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:graveyard",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_birch",
       "required": false
     },
     {
@@ -70,14 +78,6 @@
     },
     {
       "id": "kattersstructures:village_mesa",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:village_birch",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:graveyard",
       "required": false
     },
     {
@@ -113,19 +113,19 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:village_bamboo",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_cherry",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:village_badlands",
       "required": false
     },
     {
+      "id": "repurposed_structures:village_bamboo",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:village_birch",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
       "required": false
     },
     {
@@ -149,11 +149,39 @@
       "required": false
     },
     {
+      "id": "terralith:fortified_desert_village",
+      "required": false
+    },
+    {
       "id": "terralith:fortified_village",
       "required": false
     },
     {
-      "id": "terralith:fortified_desert_village",
+      "id": "towns_and_towers:exclusives/village_classic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_iberian",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_mediterranean",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_nilotic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_rustic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_swedish",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_tudor",
       "required": false
     },
     {
@@ -173,7 +201,7 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:village_snowy_slopes",
+      "id": "towns_and_towers:village_grove",
       "required": false
     },
     {
@@ -193,15 +221,11 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:village_grove",
-      "required": false
-    },
-    {
       "id": "towns_and_towers:village_savanna_plateau",
       "required": false
     },
     {
-      "id": "towns_and_towers:village_sunflower_plains",
+      "id": "towns_and_towers:village_snowy_slopes",
       "required": false
     },
     {
@@ -213,43 +237,19 @@
       "required": false
     },
     {
+      "id": "towns_and_towers:village_sunflower_plains",
+      "required": false
+    },
+    {
       "id": "towns_and_towers:village_wooded_badlands",
       "required": false
     },
     {
-      "id": "towns_and_towers:exclusives/village_mediterranean",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_swedish",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_tudor",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_classic",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_rustic",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_iberian",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_nilotic",
+      "id": "trek:overworld/rare/castle",
       "required": false
     },
     {
       "id": "trek:overworld/rare/villager_castle",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/castle",
       "required": false
     },
     {

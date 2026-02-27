@@ -5,10 +5,6 @@
       "required": false
     },
     {
-      "id": "archaeology_ruins:ruined_ocean_monument",
-      "required": false
-    },
-    {
       "id": "ati_structures:aboveground_large",
       "required": false
     },
@@ -29,27 +25,11 @@
       "required": false
     },
     {
-      "id": "betteroceanmonuments:ocean_monument",
-      "required": false
-    },
-    {
       "id": "block_factorys_bosses:dragon_tower",
       "required": false
     },
     {
       "id": "block_factorys_bosses:sandworm_nest",
-      "required": false
-    },
-    {
-      "id": "block_factorys_bosses:dragon_tower",
-      "required": false
-    },
-    {
-      "id": "block_factorys_bosses:sandworm_nest",
-      "required": false
-    },
-    {
-      "id": "born_in_chaos_v1:dark_tower_forest",
       "required": false
     },
     {
@@ -66,38 +46,6 @@
     },
     {
       "id": "bosses_of_mass_destruction:void_blossom",
-      "required": false
-    },
-    {
-      "id": "bosses_of_mass_destruction:gauntlet_arena",
-      "required": false
-    },
-    {
-      "id": "bosses_of_mass_destruction:lich_tower",
-      "required": false
-    },
-    {
-      "id": "bosses_of_mass_destruction:void_blossom",
-      "required": false
-    },
-    {
-      "id": "cataclysm:acropolis",
-      "required": false
-    },
-    {
-      "id": "cataclysm:ancient_factory",
-      "required": false
-    },
-    {
-      "id": "cataclysm:cursed_pyramid",
-      "required": false
-    },
-    {
-      "id": "cataclysm:frosted_prison",
-      "required": false
-    },
-    {
-      "id": "cataclysm:sunken_city",
       "required": false
     },
     {
@@ -145,39 +93,7 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:sprucevillagership",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:watercastle",
-      "required": false
-    },
-    {
       "id": "combat_structures_update:ruinedstronghold",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:dark_oak_illager_ship",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:flyingboat",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:jungle_illager_ship",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:mansion",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:oak_villager_ship",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:pillager_village",
       "required": false
     },
     {
@@ -186,22 +102,6 @@
     },
     {
       "id": "combat_structures_update:watercastle",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:ruinedstronghold",
-      "required": false
-    },
-    {
-      "id": "create_ltab:pillage",
-      "required": false
-    },
-    {
-      "id": "create_ltab:ruins",
-      "required": false
-    },
-    {
-      "id": "create_ltab:thecastle",
       "required": false
     },
     {
@@ -221,10 +121,6 @@
       "required": false
     },
     {
-      "id": "create_pillagers_arise:createpillagervillage",
-      "required": false
-    },
-    {
       "id": "create_rustic_structures:rustic_barn",
       "required": false
     },
@@ -234,22 +130,6 @@
     },
     {
       "id": "create_rustic_structures:rustic_windmill",
-      "required": false
-    },
-    {
-      "id": "create_rustic_structures:rustic_barn",
-      "required": false
-    },
-    {
-      "id": "create_rustic_structures:rustic_well",
-      "required": false
-    },
-    {
-      "id": "create_rustic_structures:rustic_windmill",
-      "required": false
-    },
-    {
-      "id": "create_structures_arise:pillager_boat",
       "required": false
     },
     {
@@ -269,63 +149,7 @@
       "required": false
     },
     {
-      "id": "epic:witch_hut",
-      "required": false
-    },
-    {
       "id": "explorify:ruins",
-      "required": false
-    },
-    {
-      "id": "explorify:ruins",
-      "required": false
-    },
-    {
-      "id": "feur_extension_desert:cactus_1",
-      "required": false
-    },
-    {
-      "id": "feur_extension_desert:cactus_2",
-      "required": false
-    },
-    {
-      "id": "feur_extension_desert:cactus_3",
-      "required": false
-    },
-    {
-      "id": "feur_extension_desert:cactus_4",
-      "required": false
-    },
-    {
-      "id": "feur_extension_desert:cactus_5",
-      "required": false
-    },
-    {
-      "id": "feur_extension_desert:cactus_6",
-      "required": false
-    },
-    {
-      "id": "feur_extension_desert:cactus_7",
-      "required": false
-    },
-    {
-      "id": "feur_extension_desert:cactus_arc_1",
-      "required": false
-    },
-    {
-      "id": "feur_extension_desert:cactus_arc_2",
-      "required": false
-    },
-    {
-      "id": "feur_extension_desert:cactus_big",
-      "required": false
-    },
-    {
-      "id": "feur_extension_desert:redrock",
-      "required": false
-    },
-    {
-      "id": "feur_extension_desert:rock",
       "required": false
     },
     {
@@ -381,27 +205,11 @@
       "required": false
     },
     {
-      "id": "feur_extension_fossil:fossil_hand",
-      "required": false
-    },
-    {
       "id": "feur_extension_jungle:pyramid",
       "required": false
     },
     {
       "id": "feur_extension_jungle:tree_stump",
-      "required": false
-    },
-    {
-      "id": "feur_extension_jungle:pyramid",
-      "required": false
-    },
-    {
-      "id": "feur_extension_jungle:tree_stump",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:uncommon",
       "required": false
     },
     {
@@ -409,11 +217,7 @@
       "required": false
     },
     {
-      "id": "hexerei:dark_coven",
-      "required": false
-    },
-    {
-      "id": "hexerei:nature_coven",
+      "id": "formationsoverworld:uncommon",
       "required": false
     },
     {
@@ -441,11 +245,11 @@
       "required": false
     },
     {
-      "id": "kattersstructures:ocean",
+      "id": "kattersstructures:grassland",
       "required": false
     },
     {
-      "id": "kattersstructures:villages",
+      "id": "kattersstructures:ocean",
       "required": false
     },
     {
@@ -453,7 +257,7 @@
       "required": false
     },
     {
-      "id": "kattersstructures:grassland",
+      "id": "kattersstructures:villages",
       "required": false
     },
     {
@@ -462,10 +266,6 @@
     },
     {
       "id": "lios_outlandish_villages:spiral_tower_village_sea",
-      "required": false
-    },
-    {
-      "id": "minecraft:villages",
       "required": false
     },
     {
@@ -478,6 +278,10 @@
     },
     {
       "id": "minecraft:ruined_portals",
+      "required": false
+    },
+    {
+      "id": "minecraft:villages",
       "required": false
     },
     {
@@ -497,47 +301,11 @@
       "required": false
     },
     {
-      "id": "mostructures:pillager_mines",
-      "required": false
-    },
-    {
-      "id": "mostructures:pirate_ship",
-      "required": false
-    },
-    {
-      "id": "mostructures:the_castle_in_the_sky",
-      "required": false
-    },
-    {
       "id": "mss:jungle",
       "required": false
     },
     {
       "id": "mss:volcano",
-      "required": false
-    },
-    {
-      "id": "mss:jungle",
-      "required": false
-    },
-    {
-      "id": "mss:volcano",
-      "required": false
-    },
-    {
-      "id": "mtr:desert_temple",
-      "required": false
-    },
-    {
-      "id": "mtr:jungle_temple",
-      "required": false
-    },
-    {
-      "id": "mtr:ocean_temple",
-      "required": false
-    },
-    {
-      "id": "mtr:stronghold",
       "required": false
     },
     {
@@ -693,146 +461,6 @@
       "required": false
     },
     {
-      "id": "mvs:acacia_log_pile",
-      "required": false
-    },
-    {
-      "id": "mvs:acacia_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:bench",
-      "required": false
-    },
-    {
-      "id": "mvs:birch_log_pile",
-      "required": false
-    },
-    {
-      "id": "mvs:birch_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:boulder",
-      "required": false
-    },
-    {
-      "id": "mvs:dark_oak_log_pile",
-      "required": false
-    },
-    {
-      "id": "mvs:fire_camp",
-      "required": false
-    },
-    {
-      "id": "mvs:haystack",
-      "required": false
-    },
-    {
-      "id": "mvs:jungle_log_pile",
-      "required": false
-    },
-    {
-      "id": "mvs:jungle_palm_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:jungle_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:lamp_chest",
-      "required": false
-    },
-    {
-      "id": "mvs:medium_bamboo_cart",
-      "required": false
-    },
-    {
-      "id": "mvs:medium_oak_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:mushroom_pond",
-      "required": false
-    },
-    {
-      "id": "mvs:oak_log_pile",
-      "required": false
-    },
-    {
-      "id": "mvs:oak_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:paths",
-      "required": false
-    },
-    {
-      "id": "mvs:pile",
-      "required": false
-    },
-    {
-      "id": "mvs:small_acacia_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:small_bamboo_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:small_birch_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:small_campfire_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:small_cherry_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:small_dark_oak_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:small_jungle_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:small_mangrove_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:small_oak_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:small_pillager_tower",
-      "required": false
-    },
-    {
-      "id": "mvs:small_spruce_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:spruce_log_pile",
-      "required": false
-    },
-    {
-      "id": "mvs:spruce_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:stone_rock",
-      "required": false
-    },
-    {
-      "id": "mythsandlegends:ancient_vestiges",
-      "required": false
-    },
-    {
       "id": "mythsandlegends:ancient_vestiges",
       "required": false
     },
@@ -849,15 +477,7 @@
       "required": false
     },
     {
-      "id": "nordic_structures:specialvikinglongboat_1",
-      "required": false
-    },
-    {
-      "id": "nordic_structures:specialvikinglongboat_2",
-      "required": false
-    },
-    {
-      "id": "nordic_structures:vikinglongboatboss",
+      "id": "nova_structures:badlands_miner_outpost",
       "required": false
     },
     {
@@ -865,15 +485,11 @@
       "required": false
     },
     {
-      "id": "nova_structures:villages_swamp",
+      "id": "nova_structures:ruin_town",
       "required": false
     },
     {
-      "id": "nova_structures:villages_jungle",
-      "required": false
-    },
-    {
-      "id": "nova_structures:villages_birch",
+      "id": "nova_structures:stray_fort",
       "required": false
     },
     {
@@ -881,35 +497,27 @@
       "required": false
     },
     {
-      "id": "nova_structures:badlands_miner_outpost",
-      "required": false
-    },
-    {
-      "id": "nova_structures:ruin_town",
-      "required": false
-    },
-    {
-      "id": "nova_structures:stray_fort",
-      "required": false
-    },
-    {
       "id": "nova_structures:trident_trial_monument",
       "required": false
     },
     {
-      "id": "nova_structures:badlands_miner_outpost",
+      "id": "nova_structures:villages_birch",
       "required": false
     },
     {
-      "id": "nova_structures:ruin_town",
+      "id": "nova_structures:villages_jungle",
       "required": false
     },
     {
-      "id": "nova_structures:stray_fort",
+      "id": "nova_structures:villages_swamp",
       "required": false
     },
     {
-      "id": "nova_structures:trident_trial_monument",
+      "id": "philipsruins:field_stone_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:field_stone_ruins_rocks",
       "required": false
     },
     {
@@ -917,22 +525,6 @@
       "required": false
     },
     {
-      "id": "philipsruins:field_stone_ruins",
-      "required": false
-    },
-    {
-      "id": "philipsruins:field_stone_ruins_rocks",
-      "required": false
-    },
-    {
-      "id": "philipsruins:field_stone_ruins",
-      "required": false
-    },
-    {
-      "id": "philipsruins:field_stone_ruins_rocks",
-      "required": false
-    },
-    {
       "id": "qrafty:blacksmith",
       "required": false
     },
@@ -941,23 +533,7 @@
       "required": false
     },
     {
-      "id": "qrafty:plains",
-      "required": false
-    },
-    {
-      "id": "qrafty:transilvania",
-      "required": false
-    },
-    {
       "id": "qrafty:oilrig",
-      "required": false
-    },
-    {
-      "id": "qrafty:blacksmith",
-      "required": false
-    },
-    {
-      "id": "qrafty:jungle_treevillage",
       "required": false
     },
     {
@@ -966,22 +542,6 @@
     },
     {
       "id": "qrafty:transilvania",
-      "required": false
-    },
-    {
-      "id": "qrafty:oilrig",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:outposts_overworld",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:monuments_overworld",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:villages_overworld",
       "required": false
     },
     {
@@ -989,31 +549,19 @@
       "required": false
     },
     {
-      "id": "ribbits:ribbit_village",
+      "id": "repurposed_structures:monuments_overworld",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outposts_overworld",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:villages_overworld",
       "required": false
     },
     {
       "id": "ribbits:ribbit_village",
-      "required": false
-    },
-    {
-      "id": "sky_whale_ship:frozen_whale",
-      "required": false
-    },
-    {
-      "id": "sky_whale_ship:whale",
-      "required": false
-    },
-    {
-      "id": "sky_whale_ship:whalearena",
-      "required": false
-    },
-    {
-      "id": "sky_whale_ship:whalelight",
-      "required": false
-    },
-    {
-      "id": "sky_whale_ship:whaleship",
       "required": false
     },
     {
@@ -1042,18 +590,6 @@
     },
     {
       "id": "skyarena:sky_arena",
-      "required": false
-    },
-    {
-      "id": "skyarena:ice_arena",
-      "required": false
-    },
-    {
-      "id": "skyarena:sky_arena",
-      "required": false
-    },
-    {
-      "id": "skyvillages:skyvillage",
       "required": false
     },
     {
@@ -1081,15 +617,7 @@
       "required": false
     },
     {
-      "id": "trek:overworld/very_common",
-      "required": false
-    },
-    {
       "id": "trek:overworld/medium",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/very_rare",
       "required": false
     },
     {
@@ -1097,15 +625,11 @@
       "required": false
     },
     {
-      "id": "underwater_village:dungeon",
+      "id": "trek:overworld/very_common",
       "required": false
     },
     {
-      "id": "underwater_village:library",
-      "required": false
-    },
-    {
-      "id": "underwater_village:ruins",
+      "id": "trek:overworld/very_rare",
       "required": false
     },
     {
@@ -1118,42 +642,6 @@
     },
     {
       "id": "underwater_village:ruins",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:beetroot_patch",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:carrot_patch",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:firewatch_tower",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:melon_patch",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:moss_blob",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:potato_patch",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:pumpkin_field",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:pumpkin_patch",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:wheat_patch",
       "required": false
     },
     {

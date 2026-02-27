@@ -37,7 +37,7 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:wheat_patch",
+      "id": "wabi_sabi_structures:pumpkin_field",
       "required": false
     },
     {
@@ -45,7 +45,7 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:pumpkin_field",
+      "id": "wabi_sabi_structures:wheat_patch",
       "required": false
     }
   ]

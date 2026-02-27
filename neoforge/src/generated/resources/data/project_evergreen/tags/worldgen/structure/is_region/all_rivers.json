@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "dungeons_arise:heavenly_rider",
+      "id": "dungeons_arise:heavenly_challenger",
       "required": false
     },
     {
@@ -9,7 +9,7 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:heavenly_challenger",
+      "id": "dungeons_arise:heavenly_rider",
       "required": false
     }
   ]

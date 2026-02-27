@@ -21,19 +21,19 @@
       "required": false
     },
     {
-      "id": "natures_spirit:carnation_fields",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:lavender_fields",
-      "required": false
-    },
-    {
       "id": "natures_spirit:blooming_highlands",
       "required": false
     },
     {
+      "id": "natures_spirit:carnation_fields",
+      "required": false
+    },
+    {
       "id": "natures_spirit:flowering_shrubland",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:lavender_fields",
       "required": false
     },
     {
@@ -45,11 +45,11 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:rocky_meadow",
+      "id": "regions_unexplored:poppy_fields",
       "required": false
     },
     {
-      "id": "regions_unexplored:poppy_fields",
+      "id": "regions_unexplored:rocky_meadow",
       "required": false
     },
     {

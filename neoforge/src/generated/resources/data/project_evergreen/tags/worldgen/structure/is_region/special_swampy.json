@@ -53,11 +53,11 @@
       "required": false
     },
     {
-      "id": "hexerei:dark_coven",
+      "id": "hexerei:baba_yaga_hut",
       "required": false
     },
     {
-      "id": "hexerei:baba_yaga_hut",
+      "id": "hexerei:dark_coven",
       "required": false
     },
     {
@@ -97,11 +97,11 @@
       "required": false
     },
     {
-      "id": "minecraft:swamp_hut",
+      "id": "minecraft:ruined_portal_swamp",
       "required": false
     },
     {
-      "id": "minecraft:ruined_portal_swamp",
+      "id": "minecraft:swamp_hut",
       "required": false
     },
     {
@@ -117,19 +117,19 @@
       "required": false
     },
     {
-      "id": "mvs:small_swamp_house",
-      "required": false
-    },
-    {
       "id": "mvs:small_dark_oak_lantern",
       "required": false
     },
     {
-      "id": "nova_structures:toxic_lair",
+      "id": "mvs:small_swamp_house",
       "required": false
     },
     {
       "id": "nova_structures:tavern_swamp",
+      "required": false
+    },
+    {
+      "id": "nova_structures:toxic_lair",
       "required": false
     },
     {
@@ -173,19 +173,15 @@
       "required": false
     },
     {
-      "id": "trek:village/swamp",
-      "required": false
-    },
-    {
       "id": "trek:overworld/common/small_swamp_ruins",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:rot_tree",
+      "id": "trek:village/swamp",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:mossy_roof_shed",
+      "id": "wabi_sabi_structures:effigy_patch_swamp",
       "required": false
     },
     {
@@ -193,7 +189,11 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:effigy_patch_swamp",
+      "id": "wabi_sabi_structures:mossy_roof_shed",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:rot_tree",
       "required": false
     }
   ]

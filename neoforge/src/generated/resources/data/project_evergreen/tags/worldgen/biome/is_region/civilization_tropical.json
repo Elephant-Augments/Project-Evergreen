@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "#project_evergreen:is_climate/plains_grassy_tropical",
+      "id": "#project_evergreen:is_climate/forest_sparse_tropical",
       "required": false
     },
     {
-      "id": "#project_evergreen:is_climate/forest_sparse_tropical",
+      "id": "#project_evergreen:is_climate/plains_grassy_tropical",
       "required": false
     }
   ]

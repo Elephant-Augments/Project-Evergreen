@@ -5,6 +5,10 @@
       "required": false
     },
     {
+      "id": "#project_evergreen:is_climate/ocean_deep_rare",
+      "required": false
+    },
+    {
       "id": "#project_evergreen:is_climate/ocean_deep_temperate",
       "required": false
     },
@@ -13,11 +17,11 @@
       "required": false
     },
     {
-      "id": "#project_evergreen:is_climate/ocean_deep_rare",
+      "id": "#project_evergreen:is_climate/ocean_shallow_frozen",
       "required": false
     },
     {
-      "id": "#project_evergreen:is_climate/ocean_shallow_frozen",
+      "id": "#project_evergreen:is_climate/ocean_shallow_rare",
       "required": false
     },
     {
@@ -26,10 +30,6 @@
     },
     {
       "id": "#project_evergreen:is_climate/ocean_shallow_warm",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/ocean_shallow_rare",
       "required": false
     }
   ]

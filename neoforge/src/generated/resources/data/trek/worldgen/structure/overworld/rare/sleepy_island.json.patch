@@ -18,10 +18,7 @@
         "is_water_bound": false,
         "is_water_restricted": true,
         "patchable": true,
-        "ignored": true,
         "ignored_biome_redistribution": true,
-        "ignored_biome_radius_check": true,
-        "ignored_placement_tweaks": true,
         "flatness_check_large": true
       }
     },

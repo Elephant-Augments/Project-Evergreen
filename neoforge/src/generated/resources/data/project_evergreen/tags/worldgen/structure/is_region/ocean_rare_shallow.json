@@ -9,6 +9,22 @@
       "required": false
     },
     {
+      "id": "underwater_village:cold_big_gate",
+      "required": false
+    },
+    {
+      "id": "underwater_village:cold_broken_house",
+      "required": false
+    },
+    {
+      "id": "underwater_village:cold_fountain",
+      "required": false
+    },
+    {
+      "id": "underwater_village:cold_gate",
+      "required": false
+    },
+    {
       "id": "underwater_village:library",
       "required": false
     },
@@ -26,22 +42,6 @@
     },
     {
       "id": "underwater_village:temple_ruins",
-      "required": false
-    },
-    {
-      "id": "underwater_village:cold_big_gate",
-      "required": false
-    },
-    {
-      "id": "underwater_village:cold_broken_house",
-      "required": false
-    },
-    {
-      "id": "underwater_village:cold_fountain",
-      "required": false
-    },
-    {
-      "id": "underwater_village:cold_gate",
       "required": false
     }
   ]

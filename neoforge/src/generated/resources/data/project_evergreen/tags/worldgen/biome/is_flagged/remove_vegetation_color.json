@@ -9,11 +9,11 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:shrubland",
+      "id": "regions_unexplored:dry_bushland",
       "required": false
     },
     {
-      "id": "regions_unexplored:dry_bushland",
+      "id": "regions_unexplored:shrubland",
       "required": false
     },
     {

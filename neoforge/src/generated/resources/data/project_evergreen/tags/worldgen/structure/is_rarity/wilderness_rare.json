@@ -9,11 +9,19 @@
       "required": false
     },
     {
-      "id": "ati_structures:tavern",
+      "id": "ati_structures:ancient_temple",
       "required": false
     },
     {
-      "id": "ati_structures:ancient_temple",
+      "id": "ati_structures:arachnid_dwelling",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
+      "id": "ati_structures:catalonian_castle",
       "required": false
     },
     {
@@ -33,6 +41,10 @@
       "required": false
     },
     {
+      "id": "ati_structures:jungle_grotto",
+      "required": false
+    },
+    {
       "id": "ati_structures:jungle_settlement",
       "required": false
     },
@@ -41,23 +53,11 @@
       "required": false
     },
     {
+      "id": "ati_structures:marble_chateau",
+      "required": false
+    },
+    {
       "id": "ati_structures:old_fort",
-      "required": false
-    },
-    {
-      "id": "ati_structures:ati_stoneworks",
-      "required": false
-    },
-    {
-      "id": "ati_structures:arachnid_dwelling",
-      "required": false
-    },
-    {
-      "id": "ati_structures:catalonian_castle",
-      "required": false
-    },
-    {
-      "id": "ati_structures:steam_house",
       "required": false
     },
     {
@@ -65,19 +65,7 @@
       "required": false
     },
     {
-      "id": "ati_structures:jungle_grotto",
-      "required": false
-    },
-    {
-      "id": "ati_structures:marble_chateau",
-      "required": false
-    },
-    {
-      "id": "ati_structures:sinking_temple",
-      "required": false
-    },
-    {
-      "id": "ati_structures:woodland_keep",
+      "id": "ati_structures:quarry",
       "required": false
     },
     {
@@ -85,7 +73,19 @@
       "required": false
     },
     {
-      "id": "ati_structures:quarry",
+      "id": "ati_structures:sinking_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:steam_house",
+      "required": false
+    },
+    {
+      "id": "ati_structures:tavern",
+      "required": false
+    },
+    {
+      "id": "ati_structures:woodland_keep",
       "required": false
     },
     {
@@ -109,15 +109,15 @@
       "required": false
     },
     {
-      "id": "bosses_of_mass_destruction:void_blossom",
-      "required": false
-    },
-    {
       "id": "bosses_of_mass_destruction:gauntlet_arena",
       "required": false
     },
     {
       "id": "bosses_of_mass_destruction:lich_tower",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:void_blossom",
       "required": false
     },
     {
@@ -129,11 +129,11 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:pillager_village",
+      "id": "combat_structures_update:mansion",
       "required": false
     },
     {
-      "id": "combat_structures_update:mansion",
+      "id": "combat_structures_update:pillager_village",
       "required": false
     },
     {
@@ -153,47 +153,7 @@
       "required": false
     },
     {
-      "id": "custom:fire_dragon_spawn",
-      "required": false
-    },
-    {
-      "id": "custom:ice_dragon_spawn",
-      "required": false
-    },
-    {
-      "id": "custom:lightning_dragon_spawn",
-      "required": false
-    },
-    {
-      "id": "custom:obsidian_spikes",
-      "required": false
-    },
-    {
-      "id": "custom:summon_podium",
-      "required": false
-    },
-    {
       "id": "custom:arena",
-      "required": false
-    },
-    {
-      "id": "custom:librarian_ruin",
-      "required": false
-    },
-    {
-      "id": "custom:father_church",
-      "required": false
-    },
-    {
-      "id": "custom:giant_altar",
-      "required": false
-    },
-    {
-      "id": "custom:sentinel_tree",
-      "required": false
-    },
-    {
-      "id": "custom:twin_arena",
       "required": false
     },
     {
@@ -209,59 +169,47 @@
       "required": false
     },
     {
+      "id": "custom:father_church",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:giant_altar",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:librarian_ruin",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:obsidian_spikes",
+      "required": false
+    },
+    {
+      "id": "custom:sentinel_tree",
+      "required": false
+    },
+    {
+      "id": "custom:summon_podium",
+      "required": false
+    },
+    {
+      "id": "custom:twin_arena",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:aviary",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:coliseum",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:ceryneian_hind",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:greenwood_pub",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:illager_fort",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:illager_windmill",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:mushroom_house",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:mushroom_village",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:keep_kayra",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:shiraz_palace",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:desert_hall",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:thornborn_towers",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:illager_campsite",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:monastery",
       "required": false
     },
     {
@@ -273,7 +221,31 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:kisegi_sanctuary",
+      "id": "dungeons_arise:ceryneian_hind",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:coliseum",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:desert_hall",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:greenwood_pub",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:illager_campsite",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:illager_fort",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:illager_windmill",
       "required": false
     },
     {
@@ -281,7 +253,35 @@
       "required": false
     },
     {
+      "id": "dungeons_arise:keep_kayra",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:kisegi_sanctuary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:monastery",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:mushroom_house",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:mushroom_mines",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:mushroom_village",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:shiraz_palace",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:thornborn_towers",
       "required": false
     },
     {
@@ -305,15 +305,15 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:large_temple",
-      "required": false
-    },
-    {
       "id": "formationsoverworld:ice_castle",
       "required": false
     },
     {
       "id": "formationsoverworld:ice_spire",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:large_temple",
       "required": false
     },
     {
@@ -333,19 +333,11 @@
       "required": false
     },
     {
-      "id": "idas:iceandfire/dread_citadel",
-      "required": false
-    },
-    {
-      "id": "idas:tinkers_citadel",
+      "id": "idas:ancient_mines",
       "required": false
     },
     {
       "id": "idas:ars_nouveau/archmages_tower",
-      "required": false
-    },
-    {
-      "id": "idas:haunted_manor",
       "required": false
     },
     {
@@ -357,11 +349,11 @@
       "required": false
     },
     {
-      "id": "idas:tree_of_wisdom",
+      "id": "idas:haunted_manor",
       "required": false
     },
     {
-      "id": "idas:pillager_fortress",
+      "id": "idas:iceandfire/dread_citadel",
       "required": false
     },
     {
@@ -369,11 +361,19 @@
       "required": false
     },
     {
-      "id": "idas:ancient_mines",
+      "id": "idas:pillager_fortress",
       "required": false
     },
     {
       "id": "idas:ruins_of_the_deep",
+      "required": false
+    },
+    {
+      "id": "idas:tinkers_citadel",
+      "required": false
+    },
+    {
+      "id": "idas:tree_of_wisdom",
       "required": false
     },
     {
@@ -393,6 +393,10 @@
       "required": false
     },
     {
+      "id": "kattersstructures:ruined_village",
+      "required": false
+    },
+    {
       "id": "kattersstructures:village_cherry",
       "required": false
     },
@@ -401,7 +405,7 @@
       "required": false
     },
     {
-      "id": "kattersstructures:ruined_village",
+      "id": "legendary_monsters:abandoned_crypt",
       "required": false
     },
     {
@@ -409,15 +413,11 @@
       "required": false
     },
     {
-      "id": "legendary_monsters:ruined_pyramid",
-      "required": false
-    },
-    {
-      "id": "legendary_monsters:abandoned_crypt",
-      "required": false
-    },
-    {
       "id": "legendary_monsters:cloudy_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:frostbitten_temple",
       "required": false
     },
     {
@@ -425,7 +425,7 @@
       "required": false
     },
     {
-      "id": "legendary_monsters:frostbitten_temple",
+      "id": "legendary_monsters:ruined_pyramid",
       "required": false
     },
     {
@@ -441,11 +441,11 @@
       "required": false
     },
     {
-      "id": "minecraft:witch_hut",
+      "id": "minecraft:living_tree",
       "required": false
     },
     {
-      "id": "minecraft:living_tree",
+      "id": "minecraft:witch_hut",
       "required": false
     },
     {
@@ -453,11 +453,11 @@
       "required": false
     },
     {
-      "id": "mowziesmobs:monastery",
+      "id": "mowziesmobs:frostmaw_spawn",
       "required": false
     },
     {
-      "id": "mowziesmobs:frostmaw_spawn",
+      "id": "mowziesmobs:monastery",
       "required": false
     },
     {
@@ -477,15 +477,7 @@
       "required": false
     },
     {
-      "id": "nova_structures:lone_citadel",
-      "required": false
-    },
-    {
-      "id": "nova_structures:stray_fort",
-      "required": false
-    },
-    {
-      "id": "nova_structures:village_swamp",
+      "id": "nova_structures:badlands_miner_outpost",
       "required": false
     },
     {
@@ -493,7 +485,15 @@
       "required": false
     },
     {
+      "id": "nova_structures:lone_citadel",
+      "required": false
+    },
+    {
       "id": "nova_structures:ruin_town",
+      "required": false
+    },
+    {
+      "id": "nova_structures:stray_fort",
       "required": false
     },
     {
@@ -501,15 +501,11 @@
       "required": false
     },
     {
+      "id": "nova_structures:village_swamp",
+      "required": false
+    },
+    {
       "id": "nova_structures:witch_villa",
-      "required": false
-    },
-    {
-      "id": "nova_structures:badlands_miner_outpost",
-      "required": false
-    },
-    {
-      "id": "qrafty:transilvania",
       "required": false
     },
     {
@@ -517,15 +513,7 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:village_swamp",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_mushroom",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:pyramid_mushroom",
+      "id": "qrafty:transilvania",
       "required": false
     },
     {
@@ -537,15 +525,15 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:mansion_oak",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:mansion_taiga",
+      "id": "repurposed_structures:mansion_desert",
       "required": false
     },
     {
       "id": "repurposed_structures:mansion_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_oak",
       "required": false
     },
     {
@@ -557,15 +545,7 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:mansion_desert",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:monument_jungle",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:monument_icy",
+      "id": "repurposed_structures:mansion_taiga",
       "required": false
     },
     {
@@ -573,7 +553,19 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:pyramid_snowy",
+      "id": "repurposed_structures:monument_icy",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:monument_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_giant_tree_taiga",
       "required": false
     },
     {
@@ -585,11 +577,19 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:pyramid_giant_tree_taiga",
+      "id": "repurposed_structures:pyramid_mushroom",
       "required": false
     },
     {
-      "id": "repurposed_structures:pyramid_flower_forest",
+      "id": "repurposed_structures:pyramid_snowy",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_mushroom",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_swamp",
       "required": false
     },
     {
@@ -633,23 +633,7 @@
       "required": false
     },
     {
-      "id": "trek:overworld/rare/portal_sword",
-      "required": false
-    },
-    {
       "id": "trek:overworld/rare/abandoned_castle_pillager",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/pyramide_of_anubis",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/pillager_mansion",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/wooden_manor",
       "required": false
     },
     {
@@ -657,7 +641,23 @@
       "required": false
     },
     {
+      "id": "trek:overworld/rare/pillager_mansion",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/portal_sword",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/pyramide_of_anubis",
+      "required": false
+    },
+    {
       "id": "trek:overworld/rare/sunken_city",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/wooden_manor",
       "required": false
     },
     {

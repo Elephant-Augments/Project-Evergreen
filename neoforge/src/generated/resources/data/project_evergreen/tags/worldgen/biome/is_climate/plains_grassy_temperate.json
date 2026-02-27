@@ -25,7 +25,7 @@
       "required": false
     },
     {
-      "id": "natures_spirit:prairie",
+      "id": "natures_spirit:alpine_clearings",
       "required": false
     },
     {
@@ -33,7 +33,7 @@
       "required": false
     },
     {
-      "id": "natures_spirit:alpine_clearings",
+      "id": "natures_spirit:prairie",
       "required": false
     },
     {
@@ -41,11 +41,11 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:grassland",
+      "id": "regions_unexplored:clover_plains",
       "required": false
     },
     {
-      "id": "regions_unexplored:clover_plains",
+      "id": "regions_unexplored:grassland",
       "required": false
     },
     {
@@ -53,11 +53,11 @@
       "required": false
     },
     {
-      "id": "wythers:cool_plains",
+      "id": "wythers:cold_plains",
       "required": false
     },
     {
-      "id": "wythers:cold_plains",
+      "id": "wythers:cool_plains",
       "required": false
     },
     {
@@ -69,11 +69,11 @@
       "required": false
     },
     {
-      "id": "wythers:subtropical_grassland",
+      "id": "wythers:subtropical_forest_edge",
       "required": false
     },
     {
-      "id": "wythers:subtropical_forest_edge",
+      "id": "wythers:subtropical_grassland",
       "required": false
     }
   ]

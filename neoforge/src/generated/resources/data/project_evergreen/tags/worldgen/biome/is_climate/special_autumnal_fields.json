@@ -17,11 +17,11 @@
       "required": false
     },
     {
-      "id": "wythers:autumnal_plains",
+      "id": "wythers:autumnal_forest_edge",
       "required": false
     },
     {
-      "id": "wythers:autumnal_forest_edge",
+      "id": "wythers:autumnal_plains",
       "required": false
     }
   ]

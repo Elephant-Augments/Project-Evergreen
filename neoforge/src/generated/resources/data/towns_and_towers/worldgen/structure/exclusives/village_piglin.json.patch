@@ -18,9 +18,9 @@
         "is_water_restricted": true,
         "patchable": true,
         "ignored": true,
+        "ignored_placement_tweaks": true,
         "ignored_biome_redistribution": true,
-        "ignored_biome_radius_check": true,
-        "ignored_placement_tweaks": true
+        "ignored_biome_radius_check": true
       }
     },
     [

@@ -9,11 +9,11 @@
       "required": false
     },
     {
-      "id": "natures_spirit:arid_savanna",
+      "id": "natures_spirit:arid_highlands",
       "required": false
     },
     {
-      "id": "natures_spirit:arid_highlands",
+      "id": "natures_spirit:arid_savanna",
       "required": false
     },
     {
@@ -37,14 +37,6 @@
       "required": false
     },
     {
-      "id": "wythers:subtropical_grassland",
-      "required": false
-    },
-    {
-      "id": "wythers:subtropical_forest_edge",
-      "required": false
-    },
-    {
       "id": "wythers:dry_tropical_grassland",
       "required": false
     },
@@ -58,6 +50,14 @@
     },
     {
       "id": "wythers:jacaranda_savanna",
+      "required": false
+    },
+    {
+      "id": "wythers:subtropical_forest_edge",
+      "required": false
+    },
+    {
+      "id": "wythers:subtropical_grassland",
       "required": false
     }
   ]

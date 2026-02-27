@@ -17,15 +17,15 @@
       "required": false
     },
     {
-      "id": "custom:ninetail_farm",
-      "required": false
-    },
-    {
       "id": "custom:dojo",
       "required": false
     },
     {
-      "id": "dungeons_arise:kisegi_sanctuary",
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:bathhouse",
       "required": false
     },
     {
@@ -33,7 +33,7 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:bathhouse",
+      "id": "dungeons_arise:kisegi_sanctuary",
       "required": false
     },
     {

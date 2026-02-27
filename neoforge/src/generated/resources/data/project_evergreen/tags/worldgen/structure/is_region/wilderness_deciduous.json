@@ -1,15 +1,7 @@
 {
   "values": [
     {
-      "id": "additionalstructures:standing_oak_log",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:oak_log_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:oak_log_2",
+      "id": "additionalstructures:birch_log",
       "required": false
     },
     {
@@ -21,15 +13,23 @@
       "required": false
     },
     {
-      "id": "additionalstructures:birch_log",
+      "id": "additionalstructures:oak_log_1",
       "required": false
     },
     {
-      "id": "ati_structures:woodland_keep",
+      "id": "additionalstructures:oak_log_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_oak_log",
       "required": false
     },
     {
       "id": "ati_structures:old_residence",
+      "required": false
+    },
+    {
+      "id": "ati_structures:woodland_keep",
       "required": false
     },
     {
@@ -65,11 +65,11 @@
       "required": false
     },
     {
-      "id": "idas:tree_of_wisdom",
+      "id": "idas:the_log",
       "required": false
     },
     {
-      "id": "idas:the_log",
+      "id": "idas:tree_of_wisdom",
       "required": false
     },
     {
@@ -77,11 +77,11 @@
       "required": false
     },
     {
-      "id": "mvs:nature/birch_tree",
+      "id": "mvs:birch",
       "required": false
     },
     {
-      "id": "mvs:nature/oak_tree",
+      "id": "mvs:birch_tree",
       "required": false
     },
     {
@@ -93,19 +93,15 @@
       "required": false
     },
     {
-      "id": "mvs:ruins/log_ruin",
+      "id": "mvs:log_ruin",
       "required": false
     },
     {
-      "id": "mvs:birch_tree",
+      "id": "mvs:nature/birch_tree",
       "required": false
     },
     {
-      "id": "mvs:oak_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:birch",
+      "id": "mvs:nature/oak_tree",
       "required": false
     },
     {
@@ -113,7 +109,11 @@
       "required": false
     },
     {
-      "id": "mvs:log_ruin",
+      "id": "mvs:oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:ruins/log_ruin",
       "required": false
     },
     {
@@ -157,6 +157,10 @@
       "required": false
     },
     {
+      "id": "towns_and_towers:exclusives/pillager_outpost_swedish",
+      "required": false
+    },
+    {
       "id": "towns_and_towers:pillager_outpost_birch_forest",
       "required": false
     },
@@ -165,15 +169,11 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:exclusives/pillager_outpost_swedish",
+      "id": "trek:overworld/common/two_woods",
       "required": false
     },
     {
       "id": "trek:overworld/medium/camp_2",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/common/two_woods",
       "required": false
     },
     {

@@ -25,7 +25,7 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:mushroom_mines",
+      "id": "dungeons_arise:giant_mushroom",
       "required": false
     },
     {
@@ -33,11 +33,11 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:mushroom_village",
+      "id": "dungeons_arise:mushroom_mines",
       "required": false
     },
     {
-      "id": "dungeons_arise:giant_mushroom",
+      "id": "dungeons_arise:mushroom_village",
       "required": false
     },
     {
@@ -57,22 +57,6 @@
       "required": false
     },
     {
-      "id": "mvs:nature/large_mushroom",
-      "required": false
-    },
-    {
-      "id": "mvs:nature/mushroom_pond",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/mushroom_statue",
-      "required": false
-    },
-    {
-      "id": "mvs:well/wells/mushroom_well",
-      "required": false
-    },
-    {
       "id": "mvs:large_mushroom",
       "required": false
     },
@@ -89,11 +73,27 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:pyramid_mushroom",
+      "id": "mvs:nature/large_mushroom",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/mushroom_pond",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/mushroom_statue",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/mushroom_well",
       "required": false
     },
     {
       "id": "repurposed_structures:igloo_mushroom",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_mushroom",
       "required": false
     },
     {
@@ -117,11 +117,11 @@
       "required": false
     },
     {
-      "id": "trek:village/mushroom",
+      "id": "trek:overworld/rare/wooden_manor",
       "required": false
     },
     {
-      "id": "trek:overworld/rare/wooden_manor",
+      "id": "trek:village/mushroom",
       "required": false
     },
     {

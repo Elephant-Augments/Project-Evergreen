@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "dreamwoods:weeping_grove",
+      "id": "dreamwoods:morass",
       "required": false
     },
     {
@@ -9,7 +9,7 @@
       "required": false
     },
     {
-      "id": "dreamwoods:morass",
+      "id": "dreamwoods:weeping_grove",
       "required": false
     },
     {
@@ -25,11 +25,11 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:fungal_fen",
+      "id": "regions_unexplored:fen",
       "required": false
     },
     {
-      "id": "regions_unexplored:fen",
+      "id": "regions_unexplored:fungal_fen",
       "required": false
     },
     {
@@ -73,11 +73,11 @@
       "required": false
     },
     {
-      "id": "wythers:waterlily_swamp",
+      "id": "wythers:old_growth_taiga_swamp",
       "required": false
     },
     {
-      "id": "wythers:old_growth_taiga_swamp",
+      "id": "wythers:waterlily_swamp",
       "required": false
     }
   ]

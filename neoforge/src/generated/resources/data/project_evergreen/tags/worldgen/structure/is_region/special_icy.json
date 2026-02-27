@@ -13,15 +13,15 @@
       "required": false
     },
     {
-      "id": "dungeons_plus:snowy_temple",
-      "required": false
-    },
-    {
       "id": "dungeons_plus:frozen_dungeon",
       "required": false
     },
     {
       "id": "dungeons_plus:reanimated_ruins_frozen",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:snowy_temple",
       "required": false
     },
     {
@@ -45,15 +45,7 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:ruins_land_icy",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:monument_icy",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:pyramid_icy",
       "required": false
     },
     {
@@ -61,23 +53,15 @@
       "required": false
     },
     {
+      "id": "repurposed_structures:pyramid_icy",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:ruins_land_icy",
+      "required": false
+    },
+    {
       "id": "terralith:spire",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/tower_of_ice",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/ice_fort",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/frozen_tree",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/claw_spike",
       "required": false
     },
     {
@@ -85,11 +69,27 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/three_finger_ice",
+      "id": "trek:overworld/medium/claw_spike",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/frozen_tree",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/ice_fort",
       "required": false
     },
     {
       "id": "trek:overworld/medium/star_spike",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/three_finger_ice",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/tower_of_ice",
       "required": false
     },
     {

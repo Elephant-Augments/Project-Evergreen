@@ -1,11 +1,99 @@
 {
   "values": [
     {
+      "id": "additionalstructures:acacia_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:birch_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bush_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bush_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bush_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:bush_4",
+      "required": false
+    },
+    {
       "id": "additionalstructures:farm_1",
       "required": false
     },
     {
       "id": "additionalstructures:farm_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:jungle_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:log_bundle",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:oak_log_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:oak_log_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:scarecrow",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:spruce_log_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:spruce_log_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_acacia_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_dark_oak_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_jungle_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_oak_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:standing_spruce_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
       "required": false
     },
     {
@@ -45,74 +133,6 @@
       "required": false
     },
     {
-      "id": "additionalstructures:bush_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:bush_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:bush_3",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:bush_4",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:standing_spruce_log",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:standing_oak_log",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:standing_dark_oak_log",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:standing_jungle_log",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:standing_acacia_log",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:spruce_log_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:spruce_log_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:oak_log_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:oak_log_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:log_bundle",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:jungle_log",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:birch_log",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:acacia_log",
-      "required": false
-    },
-    {
       "id": "additionalstructures:wall_ruin_1",
       "required": false
     },
@@ -121,27 +141,11 @@
       "required": false
     },
     {
-      "id": "additionalstructures:stone_rock_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:stone_rock_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:stone_rock_3",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:stone_rock_4",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:scarecrow",
-      "required": false
-    },
-    {
       "id": "ati_structures:deepslate_keep",
+      "required": false
+    },
+    {
+      "id": "ati_structures:mosque",
       "required": false
     },
     {
@@ -153,7 +157,7 @@
       "required": false
     },
     {
-      "id": "ati_structures:mosque",
+      "id": "betterarcheology:mott",
       "required": false
     },
     {
@@ -165,7 +169,7 @@
       "required": false
     },
     {
-      "id": "betterarcheology:mott",
+      "id": "create_structures_arise:create_copper_statue",
       "required": false
     },
     {
@@ -201,10 +205,6 @@
       "required": false
     },
     {
-      "id": "create_structures_arise:create_copper_statue",
-      "required": false
-    },
-    {
       "id": "create_structures_arise:minetrain",
       "required": false
     },
@@ -221,15 +221,11 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:merchant_campsite",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:merchant_campsite",
-      "required": false
-    },
-    {
       "id": "dungeons_arise:greenwood_pub",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:merchant_campsite",
       "required": false
     },
     {
@@ -237,27 +233,11 @@
       "required": false
     },
     {
-      "id": "explorify:watchtower/plains",
-      "required": false
-    },
-    {
-      "id": "explorify:watchtower/taiga",
-      "required": false
-    },
-    {
-      "id": "explorify:watchtower/savanna",
-      "required": false
-    },
-    {
       "id": "explorify:campsite",
       "required": false
     },
     {
-      "id": "explorify:mausoleum",
-      "required": false
-    },
-    {
-      "id": "explorify:tavern",
+      "id": "explorify:dark_forest_settlement",
       "required": false
     },
     {
@@ -269,7 +249,23 @@
       "required": false
     },
     {
-      "id": "explorify:dark_forest_settlement",
+      "id": "explorify:mausoleum",
+      "required": false
+    },
+    {
+      "id": "explorify:tavern",
+      "required": false
+    },
+    {
+      "id": "explorify:watchtower/plains",
+      "required": false
+    },
+    {
+      "id": "explorify:watchtower/savanna",
+      "required": false
+    },
+    {
+      "id": "explorify:watchtower/taiga",
       "required": false
     },
     {
@@ -289,11 +285,7 @@
       "required": false
     },
     {
-      "id": "humancompanions:oak_house",
-      "required": false
-    },
-    {
-      "id": "humancompanions:oak_birch_house",
+      "id": "humancompanions:acacia_house",
       "required": false
     },
     {
@@ -301,7 +293,15 @@
       "required": false
     },
     {
-      "id": "humancompanions:acacia_house",
+      "id": "humancompanions:darkoak_house",
+      "required": false
+    },
+    {
+      "id": "humancompanions:oak_birch_house",
+      "required": false
+    },
+    {
+      "id": "humancompanions:oak_house",
       "required": false
     },
     {
@@ -309,55 +309,11 @@
       "required": false
     },
     {
-      "id": "humancompanions:darkoak_house",
-      "required": false
-    },
-    {
-      "id": "idas:train_ruins",
-      "required": false
-    },
-    {
-      "id": "idas:washing_camp",
-      "required": false
-    },
-    {
-      "id": "idas:castle",
-      "required": false
-    },
-    {
       "id": "idas:abandonedhouse",
       "required": false
     },
     {
-      "id": "idas:treetop_tavern",
-      "required": false
-    },
-    {
-      "id": "idas:tinkers_workshop",
-      "required": false
-    },
-    {
-      "id": "idas:enchantingtower",
-      "required": false
-    },
-    {
-      "id": "idas:bearclaw_inn",
-      "required": false
-    },
-    {
-      "id": "idas:brickhouse",
-      "required": false
-    },
-    {
-      "id": "idas:beekeepers_house",
-      "required": false
-    },
-    {
-      "id": "idas:farmhouse",
-      "required": false
-    },
-    {
-      "id": "idas:cottage",
+      "id": "idas:ancient_statue/ancient_statue_jungle",
       "required": false
     },
     {
@@ -365,7 +321,47 @@
       "required": false
     },
     {
-      "id": "idas:ancient_statue/ancient_statue_jungle",
+      "id": "idas:bearclaw_inn",
+      "required": false
+    },
+    {
+      "id": "idas:beekeepers_house",
+      "required": false
+    },
+    {
+      "id": "idas:brickhouse",
+      "required": false
+    },
+    {
+      "id": "idas:castle",
+      "required": false
+    },
+    {
+      "id": "idas:cottage",
+      "required": false
+    },
+    {
+      "id": "idas:enchantingtower",
+      "required": false
+    },
+    {
+      "id": "idas:farmhouse",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_acacia",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_birch",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_dark_oak",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_jungle",
       "required": false
     },
     {
@@ -377,19 +373,19 @@
       "required": false
     },
     {
-      "id": "idas:lumber_camp/lumber_camp_birch",
+      "id": "idas:tinkers_workshop",
       "required": false
     },
     {
-      "id": "idas:lumber_camp/lumber_camp_jungle",
+      "id": "idas:train_ruins",
       "required": false
     },
     {
-      "id": "idas:lumber_camp/lumber_camp_acacia",
+      "id": "idas:treetop_tavern",
       "required": false
     },
     {
-      "id": "idas:lumber_camp/lumber_camp_dark_oak",
+      "id": "idas:washing_camp",
       "required": false
     },
     {
@@ -413,19 +409,7 @@
       "required": false
     },
     {
-      "id": "integrated_villages:tavern_village",
-      "required": false
-    },
-    {
-      "id": "integrated_villages:mossy_mounds",
-      "required": false
-    },
-    {
       "id": "integrated_villages:cabin_village",
-      "required": false
-    },
-    {
-      "id": "integrated_villages:quark/minka_village",
       "required": false
     },
     {
@@ -434,6 +418,34 @@
     },
     {
       "id": "integrated_villages:mediterranean_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:mossy_mounds",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:tavern_village",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:trader_outposts",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_birch",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_jungle",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_mesa",
       "required": false
     },
     {
@@ -446,22 +458,6 @@
     },
     {
       "id": "kattersstructures:windmill",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:trader_outposts",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:village_jungle",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:village_mesa",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:village_birch",
       "required": false
     },
     {
@@ -513,11 +509,35 @@
       "required": false
     },
     {
-      "id": "mvs:nature/paths",
+      "id": "mvs:acacia_well",
       "required": false
     },
     {
-      "id": "mvs:shed",
+      "id": "mvs:azelea_house",
+      "required": false
+    },
+    {
+      "id": "mvs:barn",
+      "required": false
+    },
+    {
+      "id": "mvs:bee_dome",
+      "required": false
+    },
+    {
+      "id": "mvs:bench",
+      "required": false
+    },
+    {
+      "id": "mvs:birch_well",
+      "required": false
+    },
+    {
+      "id": "mvs:blue_stall",
+      "required": false
+    },
+    {
+      "id": "mvs:cart",
       "required": false
     },
     {
@@ -525,159 +545,7 @@
       "required": false
     },
     {
-      "id": "mvs:cathedral",
-      "required": false
-    },
-    {
-      "id": "mvs:houses/tall_house",
-      "required": false
-    },
-    {
-      "id": "mvs:horse_pen",
-      "required": false
-    },
-    {
-      "id": "mvs:nature/cherry_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/bench",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/haystack",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/mine_with_campsite",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/wheat_grain_bin",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/windmill",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/wooden_wheat_farm",
-      "required": false
-    },
-    {
-      "id": "mvs:houses/house",
-      "required": false
-    },
-    {
-      "id": "mvs:houses/deepslate_house",
-      "required": false
-    },
-    {
-      "id": "mvs:houses/azelea_house",
-      "required": false
-    },
-    {
-      "id": "mvs:houses/barn",
-      "required": false
-    },
-    {
-      "id": "mvs:houses/warped_house",
-      "required": false
-    },
-    {
-      "id": "mvs:houses/small_swamp_house",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/villager_statue",
-      "required": false
-    },
-    {
-      "id": "mvs:ruins/tree_monument",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/lecturn_garden",
-      "required": false
-    },
-    {
-      "id": "mvs:stall/blue_stall",
-      "required": false
-    },
-    {
-      "id": "mvs:stall/orange_stall",
-      "required": false
-    },
-    {
-      "id": "mvs:stall/pink_stall",
-      "required": false
-    },
-    {
-      "id": "mvs:stall/red_stall",
-      "required": false
-    },
-    {
-      "id": "mvs:well/well",
-      "required": false
-    },
-    {
-      "id": "mvs:well/small_well",
-      "required": false
-    },
-    {
-      "id": "mvs:well/wells/acacia_well",
-      "required": false
-    },
-    {
-      "id": "mvs:well/wells/dark_oak_well",
-      "required": false
-    },
-    {
-      "id": "mvs:well/wells/birch_well",
-      "required": false
-    },
-    {
-      "id": "mvs:well/wells/jungle_well",
-      "required": false
-    },
-    {
-      "id": "mvs:well/wells/oak_well",
-      "required": false
-    },
-    {
-      "id": "mvs:well/wells/rocky_well",
-      "required": false
-    },
-    {
-      "id": "mvs:well/wells/spruce_well",
-      "required": false
-    },
-    {
-      "id": "mvs:well/small_tower_well",
-      "required": false
-    },
-    {
-      "id": "mvs:stone_fountain",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/bee_dome",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/lamp_chest",
-      "required": false
-    },
-    {
-      "id": "mvs:railway",
-      "required": false
-    },
-    {
       "id": "mvs:carts/cart",
-      "required": false
-    },
-    {
-      "id": "mvs:carts/medium_bamboo_cart",
       "required": false
     },
     {
@@ -689,7 +557,71 @@
       "required": false
     },
     {
-      "id": "mvs:out_house",
+      "id": "mvs:carts/medium_bamboo_cart",
+      "required": false
+    },
+    {
+      "id": "mvs:cathedral",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:dark_oak_well",
+      "required": false
+    },
+    {
+      "id": "mvs:deepslate_house",
+      "required": false
+    },
+    {
+      "id": "mvs:haystack",
+      "required": false
+    },
+    {
+      "id": "mvs:horse_pen",
+      "required": false
+    },
+    {
+      "id": "mvs:house",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/azelea_house",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/barn",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/deepslate_house",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/house",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/small_swamp_house",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/tall_house",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/warped_house",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_well",
+      "required": false
+    },
+    {
+      "id": "mvs:lamp_chest",
       "required": false
     },
     {
@@ -709,15 +641,15 @@
       "required": false
     },
     {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
       "id": "mvs:lantern/small_dark_oak_lantern",
       "required": false
     },
     {
       "id": "mvs:lantern/small_jungle_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:lantern/small_cherry_lantern",
       "required": false
     },
     {
@@ -733,71 +665,11 @@
       "required": false
     },
     {
-      "id": "mvs:paths",
+      "id": "mvs:large_cart_1",
       "required": false
     },
     {
-      "id": "mvs:tall_house",
-      "required": false
-    },
-    {
-      "id": "mvs:cherry_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:bench",
-      "required": false
-    },
-    {
-      "id": "mvs:haystack",
-      "required": false
-    },
-    {
-      "id": "mvs:mine_with_campsite",
-      "required": false
-    },
-    {
-      "id": "mvs:wheat_grain_bin",
-      "required": false
-    },
-    {
-      "id": "mvs:windmill",
-      "required": false
-    },
-    {
-      "id": "mvs:wooden_wheat_farm",
-      "required": false
-    },
-    {
-      "id": "mvs:house",
-      "required": false
-    },
-    {
-      "id": "mvs:deepslate_house",
-      "required": false
-    },
-    {
-      "id": "mvs:azelea_house",
-      "required": false
-    },
-    {
-      "id": "mvs:barn",
-      "required": false
-    },
-    {
-      "id": "mvs:warped_house",
-      "required": false
-    },
-    {
-      "id": "mvs:small_swamp_house",
-      "required": false
-    },
-    {
-      "id": "mvs:villager_statue",
-      "required": false
-    },
-    {
-      "id": "mvs:tree_monument",
+      "id": "mvs:large_cart_2",
       "required": false
     },
     {
@@ -805,71 +677,11 @@
       "required": false
     },
     {
-      "id": "mvs:blue_stall",
+      "id": "mvs:medium_bamboo_cart",
       "required": false
     },
     {
-      "id": "mvs:orange_stall",
-      "required": false
-    },
-    {
-      "id": "mvs:pink_stall",
-      "required": false
-    },
-    {
-      "id": "mvs:red_stall",
-      "required": false
-    },
-    {
-      "id": "mvs:well",
-      "required": false
-    },
-    {
-      "id": "mvs:small_well",
-      "required": false
-    },
-    {
-      "id": "mvs:acacia_well",
-      "required": false
-    },
-    {
-      "id": "mvs:dark_oak_well",
-      "required": false
-    },
-    {
-      "id": "mvs:birch_well",
-      "required": false
-    },
-    {
-      "id": "mvs:jungle_well",
-      "required": false
-    },
-    {
-      "id": "mvs:oak_well",
-      "required": false
-    },
-    {
-      "id": "mvs:rocky_well",
-      "required": false
-    },
-    {
-      "id": "mvs:spruce_well",
-      "required": false
-    },
-    {
-      "id": "mvs:small_tower_well",
-      "required": false
-    },
-    {
-      "id": "mvs:bee_dome",
-      "required": false
-    },
-    {
-      "id": "mvs:lamp_chest",
-      "required": false
-    },
-    {
-      "id": "mvs:cart",
+      "id": "mvs:mine_with_campsite",
       "required": false
     },
     {
@@ -877,15 +689,91 @@
       "required": false
     },
     {
-      "id": "mvs:medium_bamboo_cart",
+      "id": "mvs:nature/cherry_tree",
       "required": false
     },
     {
-      "id": "mvs:large_cart_1",
+      "id": "mvs:nature/paths",
       "required": false
     },
     {
-      "id": "mvs:large_cart_2",
+      "id": "mvs:oak_well",
+      "required": false
+    },
+    {
+      "id": "mvs:orange_stall",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/bee_dome",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/bench",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/haystack",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/lamp_chest",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/lecturn_garden",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/mine_with_campsite",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/villager_statue",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/wheat_grain_bin",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/windmill",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/wooden_wheat_farm",
+      "required": false
+    },
+    {
+      "id": "mvs:out_house",
+      "required": false
+    },
+    {
+      "id": "mvs:paths",
+      "required": false
+    },
+    {
+      "id": "mvs:pink_stall",
+      "required": false
+    },
+    {
+      "id": "mvs:railway",
+      "required": false
+    },
+    {
+      "id": "mvs:red_stall",
+      "required": false
+    },
+    {
+      "id": "mvs:rocky_well",
+      "required": false
+    },
+    {
+      "id": "mvs:ruins/tree_monument",
+      "required": false
+    },
+    {
+      "id": "mvs:shed",
       "required": false
     },
     {
@@ -905,15 +793,15 @@
       "required": false
     },
     {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
       "id": "mvs:small_dark_oak_lantern",
       "required": false
     },
     {
       "id": "mvs:small_jungle_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:small_cherry_lantern",
       "required": false
     },
     {
@@ -929,11 +817,119 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:igloo_grassy",
+      "id": "mvs:small_swamp_house",
       "required": false
     },
     {
-      "id": "repurposed_structures:igloo_stone",
+      "id": "mvs:small_tower_well",
+      "required": false
+    },
+    {
+      "id": "mvs:small_well",
+      "required": false
+    },
+    {
+      "id": "mvs:spruce_well",
+      "required": false
+    },
+    {
+      "id": "mvs:stall/blue_stall",
+      "required": false
+    },
+    {
+      "id": "mvs:stall/orange_stall",
+      "required": false
+    },
+    {
+      "id": "mvs:stall/pink_stall",
+      "required": false
+    },
+    {
+      "id": "mvs:stall/red_stall",
+      "required": false
+    },
+    {
+      "id": "mvs:stone_fountain",
+      "required": false
+    },
+    {
+      "id": "mvs:tall_house",
+      "required": false
+    },
+    {
+      "id": "mvs:tree_monument",
+      "required": false
+    },
+    {
+      "id": "mvs:villager_statue",
+      "required": false
+    },
+    {
+      "id": "mvs:warped_house",
+      "required": false
+    },
+    {
+      "id": "mvs:well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/small_tower_well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/small_well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/acacia_well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/birch_well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/dark_oak_well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/jungle_well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/oak_well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/rocky_well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/spruce_well",
+      "required": false
+    },
+    {
+      "id": "mvs:wheat_grain_bin",
+      "required": false
+    },
+    {
+      "id": "mvs:windmill",
+      "required": false
+    },
+    {
+      "id": "mvs:wooden_wheat_farm",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:city_overworld",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:igloo_grassy",
       "required": false
     },
     {
@@ -941,11 +937,11 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:ruins_land_warm",
+      "id": "repurposed_structures:igloo_stone",
       "required": false
     },
     {
-      "id": "repurposed_structures:city_overworld",
+      "id": "repurposed_structures:ruins_land_warm",
       "required": false
     },
     {
@@ -969,15 +965,15 @@
       "required": false
     },
     {
+      "id": "repurposed_structures:village_mushroom",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:village_oak",
       "required": false
     },
     {
       "id": "repurposed_structures:village_swamp",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_mushroom",
       "required": false
     },
     {
@@ -998,10 +994,6 @@
     },
     {
       "id": "skyvillages:skyvillage",
-      "required": false
-    },
-    {
-      "id": "supplementaries:road_sign",
       "required": false
     },
     {
@@ -1057,6 +1049,34 @@
       "required": false
     },
     {
+      "id": "towns_and_towers:exclusives/village_classic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_iberian",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_mediterranean",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_nilotic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_rustic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_swedish",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/village_tudor",
+      "required": false
+    },
+    {
       "id": "towns_and_towers:exclusives/village_wandering_trader_camp",
       "required": false
     },
@@ -1077,7 +1097,7 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:village_snowy_slopes",
+      "id": "towns_and_towers:village_grove",
       "required": false
     },
     {
@@ -1097,15 +1117,11 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:village_grove",
-      "required": false
-    },
-    {
       "id": "towns_and_towers:village_savanna_plateau",
       "required": false
     },
     {
-      "id": "towns_and_towers:village_sunflower_plains",
+      "id": "towns_and_towers:village_snowy_slopes",
       "required": false
     },
     {
@@ -1117,39 +1133,15 @@
       "required": false
     },
     {
+      "id": "towns_and_towers:village_sunflower_plains",
+      "required": false
+    },
+    {
       "id": "towns_and_towers:village_swamp",
       "required": false
     },
     {
       "id": "towns_and_towers:village_wooded_badlands",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_mediterranean",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_swedish",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_tudor",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_classic",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_rustic",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_iberian",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_nilotic",
       "required": false
     },
     {
@@ -1189,6 +1181,10 @@
       "required": false
     },
     {
+      "id": "verdantvibes:oak_overgrown_hut",
+      "required": false
+    },
+    {
       "id": "verdantvibes:palm_campfire",
       "required": false
     },
@@ -1197,87 +1193,7 @@
       "required": false
     },
     {
-      "id": "verdantvibes:oak_overgrown_hut",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:ice_shanty",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:water_tower_spruce",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:water_tower_oak",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:water_tower_savanna",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:water_tower_forest",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:water_tower_dark_oak",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:wandering_trader_cart_cold",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:totem_pole",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:tall_birch_house",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:spruce_cabin",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:spruce_berry_farm",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:spider_cellar",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:potato_patch",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:old_tiny_house",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:old_stable",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:mossy_roof_shed",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:mossy_roof_house",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:hide_tannery_oak",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:concrete_mill_ruins_desert",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:carrot_patch",
+      "id": "wabi_sabi_structures:bee_farm_forest",
       "required": false
     },
     {
@@ -1289,7 +1205,83 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:bee_farm_forest",
+      "id": "wabi_sabi_structures:carrot_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:concrete_mill_ruins_desert",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_oak",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:ice_shanty",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:mossy_roof_house",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:mossy_roof_shed",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:old_stable",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:old_tiny_house",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:potato_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:spider_cellar",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:spruce_berry_farm",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:spruce_cabin",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:tall_birch_house",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:totem_pole",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:wandering_trader_cart_cold",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:water_tower_dark_oak",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:water_tower_forest",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:water_tower_oak",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:water_tower_savanna",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:water_tower_spruce",
       "required": false
     }
   ]

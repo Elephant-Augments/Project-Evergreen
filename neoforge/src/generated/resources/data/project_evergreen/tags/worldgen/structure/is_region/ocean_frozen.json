@@ -57,11 +57,11 @@
       "required": false
     },
     {
-      "id": "u_sea:raft/cold/tide_breaker",
+      "id": "u_sea:raft/cold/cone_tide_breaker",
       "required": false
     },
     {
-      "id": "u_sea:raft/cold/cone_tide_breaker",
+      "id": "u_sea:raft/cold/tide_breaker",
       "required": false
     },
     {

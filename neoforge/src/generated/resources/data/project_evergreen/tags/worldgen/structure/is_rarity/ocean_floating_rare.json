@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "aquamirae:shelter",
+      "id": "aquamirae:outpost",
       "required": false
     },
     {
-      "id": "aquamirae:outpost",
+      "id": "aquamirae:shelter",
       "required": false
     },
     {
@@ -13,15 +13,11 @@
       "required": false
     },
     {
-      "id": "ati_structures:ice_tribe",
-      "required": false
-    },
-    {
       "id": "ati_structures:ancient_vessel",
       "required": false
     },
     {
-      "id": "combat_structures_update:jungle_illager_ship",
+      "id": "ati_structures:ice_tribe",
       "required": false
     },
     {
@@ -29,7 +25,7 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:sprucevillagership",
+      "id": "combat_structures_update:jungle_illager_ship",
       "required": false
     },
     {
@@ -37,7 +33,15 @@
       "required": false
     },
     {
+      "id": "combat_structures_update:sprucevillagership",
+      "required": false
+    },
+    {
       "id": "create_structures_arise:pillager_boat",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:illager_corsair",
       "required": false
     },
     {
@@ -45,7 +49,7 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:illager_corsair",
+      "id": "dungeons_arise_seven_seas:corsair_corvette",
       "required": false
     },
     {
@@ -54,10 +58,6 @@
     },
     {
       "id": "dungeons_arise_seven_seas:victory_frigate",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise_seven_seas:corsair_corvette",
       "required": false
     },
     {
@@ -101,6 +101,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/rare/mushroom_island",
+      "required": false
+    },
+    {
       "id": "trek:overworld/rare/sleepy_island",
       "required": false
     },
@@ -114,10 +118,6 @@
     },
     {
       "id": "trek:overworld/very_rare/coves",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/mushroom_island",
       "required": false
     },
     {

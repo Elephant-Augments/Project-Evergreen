@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "additionalstructures:meteor",
+      "id": "additionalstructures:lava_fountain",
       "required": false
     },
     {
-      "id": "additionalstructures:lava_fountain",
+      "id": "additionalstructures:meteor",
       "required": false
     },
     {

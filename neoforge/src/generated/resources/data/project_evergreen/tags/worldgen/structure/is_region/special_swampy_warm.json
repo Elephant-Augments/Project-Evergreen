@@ -17,7 +17,7 @@
       "required": false
     },
     {
-      "id": "ati_structures:sinking_temple",
+      "id": "ati_structures:mud_tower",
       "required": false
     },
     {
@@ -25,7 +25,7 @@
       "required": false
     },
     {
-      "id": "ati_structures:mud_tower",
+      "id": "ati_structures:sinking_temple",
       "required": false
     },
     {
@@ -77,11 +77,11 @@
       "required": false
     },
     {
-      "id": "imst:mangrove_hut",
+      "id": "imst:lumberjack/mangrove_hut",
       "required": false
     },
     {
-      "id": "imst:lumberjack/mangrove_hut",
+      "id": "imst:mangrove_hut",
       "required": false
     },
     {
@@ -117,10 +117,6 @@
       "required": false
     },
     {
-      "id": "nova_structures:tavern_mangrove",
-      "required": false
-    },
-    {
       "id": "nova_structures:mangrove_witch_hut",
       "required": false
     },
@@ -130,6 +126,10 @@
     },
     {
       "id": "nova_structures:remnant_mud_brick_constructor",
+      "required": false
+    },
+    {
+      "id": "nova_structures:tavern_mangrove",
       "required": false
     },
     {
@@ -145,11 +145,11 @@
       "required": false
     },
     {
-      "id": "structory_towers:overgrown_mangrove",
+      "id": "structory_towers:engineer_tower",
       "required": false
     },
     {
-      "id": "structory_towers:engineer_tower",
+      "id": "structory_towers:overgrown_mangrove",
       "required": false
     },
     {
@@ -165,11 +165,11 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:tree_cage",
+      "id": "wabi_sabi_structures:moss_blob",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:moss_blob",
+      "id": "wabi_sabi_structures:tree_cage",
       "required": false
     }
   ]

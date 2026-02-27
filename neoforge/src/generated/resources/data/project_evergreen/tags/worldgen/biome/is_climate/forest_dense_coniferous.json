@@ -1,19 +1,15 @@
 {
   "values": [
     {
-      "id": "dreamwoods:seasonal_taiga",
-      "required": false
-    },
-    {
       "id": "dreamwoods:fir_forest",
       "required": false
     },
     {
-      "id": "dreamwoods:spruce_slopes",
+      "id": "dreamwoods:seasonal_taiga",
       "required": false
     },
     {
-      "id": "minecraft:taiga",
+      "id": "dreamwoods:spruce_slopes",
       "required": false
     },
     {
@@ -25,11 +21,11 @@
       "required": false
     },
     {
-      "id": "natures_spirit:boreal_taiga",
+      "id": "minecraft:taiga",
       "required": false
     },
     {
-      "id": "regions_unexplored:pine_taiga",
+      "id": "natures_spirit:boreal_taiga",
       "required": false
     },
     {
@@ -42,6 +38,10 @@
     },
     {
       "id": "regions_unexplored:maple_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_taiga",
       "required": false
     },
     {
@@ -65,19 +65,19 @@
       "required": false
     },
     {
-      "id": "wythers:old_growth_taiga_crags",
-      "required": false
-    },
-    {
-      "id": "wythers:taiga_crags",
-      "required": false
-    },
-    {
       "id": "wythers:larch_taiga",
       "required": false
     },
     {
+      "id": "wythers:old_growth_taiga_crags",
+      "required": false
+    },
+    {
       "id": "wythers:pine_barrens",
+      "required": false
+    },
+    {
+      "id": "wythers:taiga_crags",
       "required": false
     },
     {

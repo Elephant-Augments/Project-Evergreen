@@ -13,11 +13,11 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:ocean_glass_dome",
+      "id": "combat_structures_update:illagerwarship",
       "required": false
     },
     {
-      "id": "combat_structures_update:illagerwarship",
+      "id": "combat_structures_update:ocean_glass_dome",
       "required": false
     },
     {
@@ -33,19 +33,11 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:typhon",
-      "required": false
-    },
-    {
       "id": "dungeons_arise:mechanical_nest",
       "required": false
     },
     {
-      "id": "dungeons_arise_seven_seas:unicorn_galleon",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise_seven_seas:victory_frigate",
+      "id": "dungeons_arise:typhon",
       "required": false
     },
     {
@@ -57,6 +49,14 @@
       "required": false
     },
     {
+      "id": "dungeons_arise_seven_seas:unicorn_galleon",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise_seven_seas:victory_frigate",
+      "required": false
+    },
+    {
       "id": "dungeons_plus:warped_garden",
       "required": false
     },
@@ -65,11 +65,11 @@
       "required": false
     },
     {
-      "id": "feur_extension_fossil:fossil_guardian",
+      "id": "feur_extension_fossil:fossil_fish",
       "required": false
     },
     {
-      "id": "feur_extension_fossil:fossil_fish",
+      "id": "feur_extension_fossil:fossil_guardian",
       "required": false
     },
     {
@@ -77,7 +77,7 @@
       "required": false
     },
     {
-      "id": "hopo:underwater_fossils",
+      "id": "hopo:underwater/underwater_city",
       "required": false
     },
     {
@@ -85,19 +85,19 @@
       "required": false
     },
     {
-      "id": "hopo:underwater_small_ruins",
-      "required": false
-    },
-    {
       "id": "hopo:underwater/underwater_small_ruins",
       "required": false
     },
     {
-      "id": "hopo:underwater/underwater_city",
+      "id": "hopo:underwater_city",
       "required": false
     },
     {
-      "id": "hopo:underwater_city",
+      "id": "hopo:underwater_fossils",
+      "required": false
+    },
+    {
+      "id": "hopo:underwater_small_ruins",
       "required": false
     },
     {
@@ -129,11 +129,11 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:pyramid_ocean",
+      "id": "repurposed_structures:ancient_city_ocean",
       "required": false
     },
     {
-      "id": "repurposed_structures:ancient_city_ocean",
+      "id": "repurposed_structures:pyramid_ocean",
       "required": false
     },
     {
@@ -149,15 +149,11 @@
       "required": false
     },
     {
-      "id": "trek:overworld/very_rare/coves",
-      "required": false
-    },
-    {
       "id": "trek:overworld/rare/mushroom_island",
       "required": false
     },
     {
-      "id": "underwater_village:tower",
+      "id": "trek:overworld/very_rare/coves",
       "required": false
     },
     {
@@ -166,6 +162,10 @@
     },
     {
       "id": "underwater_village:ruins",
+      "required": false
+    },
+    {
+      "id": "underwater_village:tower",
       "required": false
     }
   ]

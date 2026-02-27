@@ -1,63 +1,23 @@
 {
   "values": [
     {
-      "id": "additionalstructures:illager_house_1",
+      "id": "additionalstructures:acacia_log",
       "required": false
     },
     {
-      "id": "additionalstructures:spider_nest_1",
+      "id": "additionalstructures:big_jungle_log",
       "required": false
     },
     {
-      "id": "additionalstructures:spider_nest_2",
+      "id": "additionalstructures:birch_log",
       "required": false
     },
     {
-      "id": "additionalstructures:spider_nest_3",
+      "id": "additionalstructures:bone_1",
       "required": false
     },
     {
-      "id": "additionalstructures:suspicious_sand_patch_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:suspicious_sand_patch_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:suspicious_sand_patch_3",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:suspicious_sand_patch_4",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:suspicious_gravel_patch_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:suspicious_gravel_patch_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:fossil_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:fossil_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:dragon_fossil_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:dragon_fossil_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:maya_temple",
+      "id": "additionalstructures:bone_2",
       "required": false
     },
     {
@@ -77,75 +37,31 @@
       "required": false
     },
     {
-      "id": "additionalstructures:standing_spruce_log",
+      "id": "additionalstructures:camp_1",
       "required": false
     },
     {
-      "id": "additionalstructures:standing_oak_log",
+      "id": "additionalstructures:camp_2",
       "required": false
     },
     {
-      "id": "additionalstructures:standing_dark_oak_log",
+      "id": "additionalstructures:camp_3",
       "required": false
     },
     {
-      "id": "additionalstructures:standing_jungle_log",
+      "id": "additionalstructures:damaged_mushroom_1",
       "required": false
     },
     {
-      "id": "additionalstructures:standing_acacia_log",
+      "id": "additionalstructures:damaged_mushroom_2",
       "required": false
     },
     {
-      "id": "additionalstructures:spruce_log_1",
+      "id": "additionalstructures:dragon_fossil_1",
       "required": false
     },
     {
-      "id": "additionalstructures:spruce_log_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:oak_log_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:oak_log_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:jungle_tree_hole",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:jungle_log",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:fallen_spruce_tree_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:fallen_spruce_tree_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:fallen_palm_tree_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:fallen_palm_tree_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:fallen_oak_tree_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:fallen_oak_tree_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:fallen_jungle_tree_1",
+      "id": "additionalstructures:dragon_fossil_2",
       "required": false
     },
     {
@@ -161,31 +77,91 @@
       "required": false
     },
     {
-      "id": "additionalstructures:birch_log",
+      "id": "additionalstructures:fallen_jungle_tree_1",
       "required": false
     },
     {
-      "id": "additionalstructures:big_jungle_log",
+      "id": "additionalstructures:fallen_oak_tree_1",
       "required": false
     },
     {
-      "id": "additionalstructures:acacia_log",
+      "id": "additionalstructures:fallen_oak_tree_2",
       "required": false
     },
     {
-      "id": "additionalstructures:stone_rock_1",
+      "id": "additionalstructures:fallen_palm_tree_1",
       "required": false
     },
     {
-      "id": "additionalstructures:stone_rock_2",
+      "id": "additionalstructures:fallen_palm_tree_2",
       "required": false
     },
     {
-      "id": "additionalstructures:stone_rock_3",
+      "id": "additionalstructures:fallen_spruce_tree_1",
       "required": false
     },
     {
-      "id": "additionalstructures:stone_rock_4",
+      "id": "additionalstructures:fallen_spruce_tree_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fossil_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fossil_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:illager_house_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:jungle_log",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:jungle_tree_hole",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:lava_fountain",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:maya_temple",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:meteor",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:oak_log_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:oak_log_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:pillar_ruin_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:pillar_ruin_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:pillar_ruin_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:ruin_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:skeleton_skull",
       "required": false
     },
     {
@@ -217,83 +193,43 @@
       "required": false
     },
     {
-      "id": "additionalstructures:tomb_1",
+      "id": "additionalstructures:spider_nest_1",
       "required": false
     },
     {
-      "id": "additionalstructures:tomb_2",
+      "id": "additionalstructures:spider_nest_2",
       "required": false
     },
     {
-      "id": "additionalstructures:tomb_3",
+      "id": "additionalstructures:spider_nest_3",
       "required": false
     },
     {
-      "id": "additionalstructures:temple_1",
+      "id": "additionalstructures:spruce_log_1",
       "required": false
     },
     {
-      "id": "additionalstructures:temple_2",
+      "id": "additionalstructures:spruce_log_2",
       "required": false
     },
     {
-      "id": "additionalstructures:tower_1",
+      "id": "additionalstructures:standing_acacia_log",
       "required": false
     },
     {
-      "id": "additionalstructures:tower_2",
+      "id": "additionalstructures:standing_dark_oak_log",
       "required": false
     },
     {
-      "id": "additionalstructures:camp_1",
+      "id": "additionalstructures:standing_jungle_log",
       "required": false
     },
     {
-      "id": "additionalstructures:camp_2",
+      "id": "additionalstructures:standing_oak_log",
       "required": false
     },
     {
-      "id": "additionalstructures:camp_3",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:pillar_ruin_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:pillar_ruin_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:pillar_ruin_3",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:damaged_mushroom_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:damaged_mushroom_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:bone_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:bone_2",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:meteor",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:lava_fountain",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:skeleton_skull",
+      "id": "additionalstructures:standing_spruce_log",
       "required": false
     },
     {
@@ -309,7 +245,71 @@
       "required": false
     },
     {
-      "id": "additionalstructures:ruin_1",
+      "id": "additionalstructures:stone_rock_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:stone_rock_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:suspicious_gravel_patch_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:suspicious_gravel_patch_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:suspicious_sand_patch_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:suspicious_sand_patch_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:suspicious_sand_patch_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:suspicious_sand_patch_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:temple_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:temple_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:tomb_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:tomb_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:tomb_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:tower_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:tower_2",
       "required": false
     },
     {
@@ -345,11 +345,11 @@
       "required": false
     },
     {
-      "id": "ars_additions:nexus_tower",
+      "id": "ars_additions:arcane_library",
       "required": false
     },
     {
-      "id": "ars_additions:arcane_library",
+      "id": "ars_additions:nexus_tower",
       "required": false
     },
     {
@@ -361,7 +361,7 @@
       "required": false
     },
     {
-      "id": "ati_structures:small_keep",
+      "id": "ati_structures:ancient_temple",
       "required": false
     },
     {
@@ -369,7 +369,7 @@
       "required": false
     },
     {
-      "id": "ati_structures:ancient_temple",
+      "id": "ati_structures:dojo",
       "required": false
     },
     {
@@ -377,7 +377,27 @@
       "required": false
     },
     {
+      "id": "ati_structures:granite_fort",
+      "required": false
+    },
+    {
+      "id": "ati_structures:haunted_ruin",
+      "required": false
+    },
+    {
+      "id": "ati_structures:herobrine_stronghold",
+      "required": false
+    },
+    {
       "id": "ati_structures:jungle_settlement",
+      "required": false
+    },
+    {
+      "id": "ati_structures:manor",
+      "required": false
+    },
+    {
+      "id": "ati_structures:monastery_tower",
       "required": false
     },
     {
@@ -389,39 +409,7 @@
       "required": false
     },
     {
-      "id": "ati_structures:granite_fort",
-      "required": false
-    },
-    {
-      "id": "ati_structures:herobrine_stronghold",
-      "required": false
-    },
-    {
-      "id": "ati_structures:manor",
-      "required": false
-    },
-    {
-      "id": "ati_structures:sinking_temple",
-      "required": false
-    },
-    {
-      "id": "ati_structures:woodland_keep",
-      "required": false
-    },
-    {
-      "id": "ati_structures:ruined_castle",
-      "required": false
-    },
-    {
-      "id": "ati_structures:haunted_ruin",
-      "required": false
-    },
-    {
       "id": "ati_structures:rotten_log",
-      "required": false
-    },
-    {
-      "id": "ati_structures:stray_ruins",
       "required": false
     },
     {
@@ -429,11 +417,23 @@
       "required": false
     },
     {
-      "id": "ati_structures:dojo",
+      "id": "ati_structures:ruined_castle",
       "required": false
     },
     {
-      "id": "ati_structures:monastery_tower",
+      "id": "ati_structures:sinking_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:small_keep",
+      "required": false
+    },
+    {
+      "id": "ati_structures:stray_ruins",
+      "required": false
+    },
+    {
+      "id": "ati_structures:woodland_keep",
       "required": false
     },
     {
@@ -442,14 +442,6 @@
     },
     {
       "id": "ba_bt:overgrown_land_battle_tower",
-      "required": false
-    },
-    {
-      "id": "betterarcheology:light_temple",
-      "required": false
-    },
-    {
-      "id": "betterarcheology:temple_jungle",
       "required": false
     },
     {
@@ -478,6 +470,14 @@
     },
     {
       "id": "betterarcheology:fossil_wolf",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:light_temple",
+      "required": false
+    },
+    {
+      "id": "betterarcheology:temple_jungle",
       "required": false
     },
     {
@@ -585,19 +585,11 @@
       "required": false
     },
     {
-      "id": "born_in_chaos_v1:dark_tower_taiga",
-      "required": false
-    },
-    {
       "id": "born_in_chaos_v1:dark_tower_plain",
       "required": false
     },
     {
-      "id": "born_in_chaos_v1:observation_tower_plains",
-      "required": false
-    },
-    {
-      "id": "born_in_chaos_v1:observation_tower_forest",
+      "id": "born_in_chaos_v1:dark_tower_taiga",
       "required": false
     },
     {
@@ -685,11 +677,19 @@
       "required": false
     },
     {
-      "id": "bosses_of_mass_destruction:void_blossom",
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
       "required": false
     },
     {
       "id": "bosses_of_mass_destruction:gauntlet_arena",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:void_blossom",
       "required": false
     },
     {
@@ -705,7 +705,7 @@
       "required": false
     },
     {
-      "id": "create_structures_arise:createhouse",
+      "id": "create_structures_arise:create_ruined_castle",
       "required": false
     },
     {
@@ -713,11 +713,11 @@
       "required": false
     },
     {
-      "id": "create_structures_arise:createoldruine",
+      "id": "create_structures_arise:createhouse",
       "required": false
     },
     {
-      "id": "create_structures_arise:create_ruined_castle",
+      "id": "create_structures_arise:createoldruine",
       "required": false
     },
     {
@@ -725,11 +725,7 @@
       "required": false
     },
     {
-      "id": "custom:ninetail_farm",
-      "required": false
-    },
-    {
-      "id": "custom:ogre_dwelling",
+      "id": "custom:arena",
       "required": false
     },
     {
@@ -737,67 +733,7 @@
       "required": false
     },
     {
-      "id": "custom:toolsmith_ruin",
-      "required": false
-    },
-    {
-      "id": "custom:castle",
-      "required": false
-    },
-    {
-      "id": "custom:puzzle_dungeon",
-      "required": false
-    },
-    {
-      "id": "custom:korok",
-      "required": false
-    },
-    {
-      "id": "custom:fire_dragon_spawn",
-      "required": false
-    },
-    {
-      "id": "custom:ice_dragon_spawn",
-      "required": false
-    },
-    {
-      "id": "custom:lightning_dragon_spawn",
-      "required": false
-    },
-    {
-      "id": "custom:obsidian_spikes",
-      "required": false
-    },
-    {
-      "id": "custom:summon_podium",
-      "required": false
-    },
-    {
-      "id": "custom:arena",
-      "required": false
-    },
-    {
-      "id": "custom:librarian_ruin",
-      "required": false
-    },
-    {
-      "id": "custom:father_church",
-      "required": false
-    },
-    {
-      "id": "custom:giant_altar",
-      "required": false
-    },
-    {
-      "id": "custom:sentinel_tree",
-      "required": false
-    },
-    {
-      "id": "custom:twin_arena",
-      "required": false
-    },
-    {
-      "id": "custom:church",
+      "id": "custom:barbarian_camp",
       "required": false
     },
     {
@@ -805,23 +741,15 @@
       "required": false
     },
     {
-      "id": "custom:npc_spawn",
+      "id": "custom:castle",
       "required": false
     },
     {
-      "id": "custom:wolf_hideout",
+      "id": "custom:church",
       "required": false
     },
     {
-      "id": "custom:fallen_house",
-      "required": false
-    },
-    {
-      "id": "custom:rat",
-      "required": false
-    },
-    {
-      "id": "custom:barbarian_camp",
+      "id": "custom:church_group",
       "required": false
     },
     {
@@ -833,7 +761,59 @@
       "required": false
     },
     {
-      "id": "custom:church_group",
+      "id": "custom:ent_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:fallen_house",
+      "required": false
+    },
+    {
+      "id": "custom:father_church",
+      "required": false
+    },
+    {
+      "id": "custom:fire_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:giant_altar",
+      "required": false
+    },
+    {
+      "id": "custom:gryphon_nest",
+      "required": false
+    },
+    {
+      "id": "custom:ice_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:korok",
+      "required": false
+    },
+    {
+      "id": "custom:librarian_ruin",
+      "required": false
+    },
+    {
+      "id": "custom:lightning_dragon_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:ninetail_farm",
+      "required": false
+    },
+    {
+      "id": "custom:npc_spawn",
+      "required": false
+    },
+    {
+      "id": "custom:obsidian_spikes",
+      "required": false
+    },
+    {
+      "id": "custom:ogre_dwelling",
       "required": false
     },
     {
@@ -841,11 +821,31 @@
       "required": false
     },
     {
-      "id": "custom:ent_spawn",
+      "id": "custom:puzzle_dungeon",
       "required": false
     },
     {
-      "id": "custom:gryphon_nest",
+      "id": "custom:rat",
+      "required": false
+    },
+    {
+      "id": "custom:sentinel_tree",
+      "required": false
+    },
+    {
+      "id": "custom:summon_podium",
+      "required": false
+    },
+    {
+      "id": "custom:toolsmith_ruin",
+      "required": false
+    },
+    {
+      "id": "custom:twin_arena",
+      "required": false
+    },
+    {
+      "id": "custom:wolf_hideout",
       "required": false
     },
     {
@@ -873,30 +873,6 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:illager_fort",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:illager_campsite",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:jungle_tree_house",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:wishing_well",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:infested_temple",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:thornborn_towers",
-      "required": false
-    },
-    {
       "id": "dungeons_arise:bathhouse",
       "required": false
     },
@@ -905,7 +881,31 @@
       "required": false
     },
     {
+      "id": "dungeons_arise:illager_campsite",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:illager_fort",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:infested_temple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:jungle_tree_house",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:keep_kayra",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:thornborn_towers",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:wishing_well",
       "required": false
     },
     {
@@ -925,7 +925,7 @@
       "required": false
     },
     {
-      "id": "eidolon:stray_tower",
+      "id": "eidolon:catacomb",
       "required": false
     },
     {
@@ -933,11 +933,31 @@
       "required": false
     },
     {
-      "id": "eidolon:catacomb",
+      "id": "eidolon:stray_tower",
+      "required": false
+    },
+    {
+      "id": "explorify:badlands_pyramid",
       "required": false
     },
     {
       "id": "explorify:campsite",
+      "required": false
+    },
+    {
+      "id": "explorify:desert_shrine",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_cold",
+      "required": false
+    },
+    {
+      "id": "explorify:guide_post_warm",
+      "required": false
+    },
+    {
+      "id": "explorify:ruins",
       "required": false
     },
     {
@@ -969,30 +989,6 @@
       "required": false
     },
     {
-      "id": "explorify:ruins",
-      "required": false
-    },
-    {
-      "id": "explorify:guide_post_cold",
-      "required": false
-    },
-    {
-      "id": "explorify:guide_post_warm",
-      "required": false
-    },
-    {
-      "id": "explorify:desert_shrine",
-      "required": false
-    },
-    {
-      "id": "explorify:badlands_pyramid",
-      "required": false
-    },
-    {
-      "id": "feur_extension_fossil:small_coal_rex_camp",
-      "required": false
-    },
-    {
       "id": "feur_extension_fossil:fossil_arc",
       "required": false
     },
@@ -1001,11 +997,7 @@
       "required": false
     },
     {
-      "id": "feur_extension_jungle:protector",
-      "required": false
-    },
-    {
-      "id": "feur_extension_jungle:pyramid",
+      "id": "feur_extension_fossil:small_coal_rex_camp",
       "required": false
     },
     {
@@ -1018,6 +1010,14 @@
     },
     {
       "id": "feur_extension_jungle:lost_explorer",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:protector",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:pyramid",
       "required": false
     },
     {
@@ -1045,6 +1045,10 @@
       "required": false
     },
     {
+      "id": "goblinsanddungeons:medium_goblin_camp",
+      "required": false
+    },
+    {
       "id": "goblinsanddungeons:ruined_keep",
       "required": false
     },
@@ -1053,11 +1057,7 @@
       "required": false
     },
     {
-      "id": "goblinsanddungeons:medium_goblin_camp",
-      "required": false
-    },
-    {
-      "id": "goety:wind_shrine",
+      "id": "goety:black_assembly",
       "required": false
     },
     {
@@ -1065,19 +1065,7 @@
       "required": false
     },
     {
-      "id": "goety:spider_den",
-      "required": false
-    },
-    {
-      "id": "goety:secluded_igloo",
-      "required": false
-    },
-    {
-      "id": "goety:ominous_blacksmith",
-      "required": false
-    },
-    {
-      "id": "goety:dark_manor",
+      "id": "goety:buried_ritual",
       "required": false
     },
     {
@@ -1085,7 +1073,7 @@
       "required": false
     },
     {
-      "id": "goety:buried_ritual",
+      "id": "goety:dark_manor",
       "required": false
     },
     {
@@ -1093,19 +1081,23 @@
       "required": false
     },
     {
-      "id": "goety:black_assembly",
-      "required": false
-    },
-    {
       "id": "goety:mangrove_tower",
       "required": false
     },
     {
-      "id": "hexerei:nature_coven",
+      "id": "goety:ominous_blacksmith",
       "required": false
     },
     {
-      "id": "hexerei:dark_coven",
+      "id": "goety:secluded_igloo",
+      "required": false
+    },
+    {
+      "id": "goety:spider_den",
+      "required": false
+    },
+    {
+      "id": "goety:wind_shrine",
       "required": false
     },
     {
@@ -1113,11 +1105,19 @@
       "required": false
     },
     {
-      "id": "hexerei:witch_hut",
+      "id": "hexerei:dark_coven",
+      "required": false
+    },
+    {
+      "id": "hexerei:nature_coven",
       "required": false
     },
     {
       "id": "hexerei:owl_post_office",
+      "required": false
+    },
+    {
+      "id": "hexerei:witch_hut",
       "required": false
     },
     {
@@ -1141,43 +1141,7 @@
       "required": false
     },
     {
-      "id": "idas:ars_nouveau/archmages_tower",
-      "required": false
-    },
-    {
-      "id": "idas:snifferhenge",
-      "required": false
-    },
-    {
-      "id": "idas:hunters_cabin",
-      "required": false
-    },
-    {
       "id": "idas:animal_den/forest_den",
-      "required": false
-    },
-    {
-      "id": "idas:tinkers_citadel",
-      "required": false
-    },
-    {
-      "id": "idas:collectors_museum",
-      "required": false
-    },
-    {
-      "id": "idas:tree_of_wisdom",
-      "required": false
-    },
-    {
-      "id": "idas:pillager_fortress",
-      "required": false
-    },
-    {
-      "id": "idas:pillager_camp",
-      "required": false
-    },
-    {
-      "id": "idas:wizard_tower",
       "required": false
     },
     {
@@ -1185,11 +1149,11 @@
       "required": false
     },
     {
-      "id": "idas:witches_treestump",
+      "id": "idas:ars_nouveau/archmages_tower",
       "required": false
     },
     {
-      "id": "idas:hermits_hollow",
+      "id": "idas:collectors_museum",
       "required": false
     },
     {
@@ -1197,7 +1161,39 @@
       "required": false
     },
     {
-      "id": "illagerinvasion:sorcerer_hut",
+      "id": "idas:hermits_hollow",
+      "required": false
+    },
+    {
+      "id": "idas:hunters_cabin",
+      "required": false
+    },
+    {
+      "id": "idas:pillager_camp",
+      "required": false
+    },
+    {
+      "id": "idas:pillager_fortress",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:tinkers_citadel",
+      "required": false
+    },
+    {
+      "id": "idas:tree_of_wisdom",
+      "required": false
+    },
+    {
+      "id": "idas:witches_treestump",
+      "required": false
+    },
+    {
+      "id": "idas:wizard_tower",
       "required": false
     },
     {
@@ -1217,6 +1213,10 @@
       "required": false
     },
     {
+      "id": "illagerinvasion:sorcerer_hut",
+      "required": false
+    },
+    {
       "id": "imst:bandit_camp",
       "required": false
     },
@@ -1225,11 +1225,11 @@
       "required": false
     },
     {
-      "id": "integrated_minecraft:ruined_fortress",
+      "id": "integrated_minecraft:abandoned_factory",
       "required": false
     },
     {
-      "id": "integrated_minecraft:scarlet_citadel",
+      "id": "integrated_minecraft:ancient_archwood_tree",
       "required": false
     },
     {
@@ -1241,15 +1241,7 @@
       "required": false
     },
     {
-      "id": "integrated_minecraft:travelers_camp",
-      "required": false
-    },
-    {
-      "id": "integrated_minecraft:strange_ruins",
-      "required": false
-    },
-    {
-      "id": "integrated_minecraft:illusioner_shack",
+      "id": "integrated_minecraft:cyclops_lair",
       "required": false
     },
     {
@@ -1257,11 +1249,19 @@
       "required": false
     },
     {
-      "id": "integrated_minecraft:cyclops_lair",
+      "id": "integrated_minecraft:illusioner_shack",
       "required": false
     },
     {
-      "id": "integrated_minecraft:abandoned_factory",
+      "id": "integrated_minecraft:ruined_fortress",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:scarlet_citadel",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:strange_ruins",
       "required": false
     },
     {
@@ -1269,15 +1269,11 @@
       "required": false
     },
     {
+      "id": "integrated_minecraft:travelers_camp",
+      "required": false
+    },
+    {
       "id": "integrated_minecraft:witches_abode",
-      "required": false
-    },
-    {
-      "id": "integrated_minecraft:ancient_archwood_tree",
-      "required": false
-    },
-    {
-      "id": "irons_spellbooks:mountain_tower",
       "required": false
     },
     {
@@ -1289,7 +1285,7 @@
       "required": false
     },
     {
-      "id": "kattersstructures:ruined_village",
+      "id": "irons_spellbooks:mountain_tower",
       "required": false
     },
     {
@@ -1297,7 +1293,19 @@
       "required": false
     },
     {
-      "id": "kattersstructures:skyhold",
+      "id": "kattersstructures:birch_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:dark_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:graveyard",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:magic_tower",
       "required": false
     },
     {
@@ -1317,31 +1325,23 @@
       "required": false
     },
     {
+      "id": "kattersstructures:ruined_village",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:skyhold",
+      "required": false
+    },
+    {
       "id": "kattersstructures:spider_den",
       "required": false
     },
     {
-      "id": "kattersstructures:dark_tree",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:birch_tree",
+      "id": "kattersstructures:village_swamp",
       "required": false
     },
     {
       "id": "kattersstructures:witch_circle",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:magic_tower",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:graveyard",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:village_swamp",
       "required": false
     },
     {
@@ -1353,11 +1353,11 @@
       "required": false
     },
     {
-      "id": "legendary_monsters:mossy_temple",
+      "id": "legendary_monsters:frostbitten_temple",
       "required": false
     },
     {
-      "id": "legendary_monsters:frostbitten_temple",
+      "id": "legendary_monsters:mossy_temple",
       "required": false
     },
     {
@@ -1381,15 +1381,15 @@
       "required": false
     },
     {
-      "id": "minecraft:hall_of_greed",
-      "required": false
-    },
-    {
       "id": "minecraft:ancient_city",
       "required": false
     },
     {
       "id": "minecraft:desert_pyramid",
+      "required": false
+    },
+    {
+      "id": "minecraft:hall_of_greed",
       "required": false
     },
     {
@@ -1417,14 +1417,6 @@
       "required": false
     },
     {
-      "id": "minecraft:stronghold_big",
-      "required": false
-    },
-    {
-      "id": "minecraft:trial_chambers",
-      "required": false
-    },
-    {
       "id": "minecraft:ruined_portal",
       "required": false
     },
@@ -1449,6 +1441,10 @@
       "required": false
     },
     {
+      "id": "minecraft:stronghold_big",
+      "required": false
+    },
+    {
       "id": "minecraft:swamp_hut",
       "required": false
     },
@@ -1457,7 +1453,7 @@
       "required": false
     },
     {
-      "id": "moresnifferflowers:snow_sniffer_temple",
+      "id": "minecraft:trial_chambers",
       "required": false
     },
     {
@@ -1465,43 +1461,59 @@
       "required": false
     },
     {
+      "id": "moresnifferflowers:snow_sniffer_temple",
+      "required": false
+    },
+    {
       "id": "mowziesmobs:monastery",
       "required": false
     },
     {
-      "id": "mvs:nature/boulder",
+      "id": "mvs:acacia",
       "required": false
     },
     {
-      "id": "mvs:nature/stone_rock",
+      "id": "mvs:acacia_tree",
       "required": false
     },
     {
-      "id": "mvs:nature/acacia_tree",
+      "id": "mvs:big_oak_tree",
       "required": false
     },
     {
-      "id": "mvs:nature/birch_tree",
+      "id": "mvs:birch",
       "required": false
     },
     {
-      "id": "mvs:nature/dark_oak_tree",
+      "id": "mvs:birch_tree",
       "required": false
     },
     {
-      "id": "mvs:nature/jungle_palm_tree",
+      "id": "mvs:boulder",
       "required": false
     },
     {
-      "id": "mvs:nature/jungle_tree",
+      "id": "mvs:campsite",
       "required": false
     },
     {
-      "id": "mvs:nature/oak_tree",
+      "id": "mvs:castle_ruins",
       "required": false
     },
     {
-      "id": "mvs:nature/spruce_tree",
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:crimson_enchanting_table",
+      "required": false
+    },
+    {
+      "id": "mvs:dark_oak",
+      "required": false
+    },
+    {
+      "id": "mvs:dark_oak_tree",
       "required": false
     },
     {
@@ -1537,127 +1549,11 @@
       "required": false
     },
     {
-      "id": "mvs:other_decoration/fox_hut",
-      "required": false
-    },
-    {
-      "id": "mvs:ruins/log_ruin",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/campsite",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/horse_campsite",
-      "required": false
-    },
-    {
-      "id": "mvs:ruins/castle_ruins",
-      "required": false
-    },
-    {
-      "id": "mvs:nature/big_oak_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:ruins/ruined_beacon",
-      "required": false
-    },
-    {
-      "id": "mvs:houses/large_warped_tower",
-      "required": false
-    },
-    {
-      "id": "mvs:well/rare_well",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/crimson_enchanting_table",
-      "required": false
-    },
-    {
-      "id": "mvs:boulder",
-      "required": false
-    },
-    {
-      "id": "mvs:stone_rock",
-      "required": false
-    },
-    {
-      "id": "mvs:acacia_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:birch_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:dark_oak_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:jungle_palm_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:jungle_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:oak_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:spruce_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:acacia",
-      "required": false
-    },
-    {
-      "id": "mvs:birch",
-      "required": false
-    },
-    {
-      "id": "mvs:cherry",
-      "required": false
-    },
-    {
-      "id": "mvs:dark_oak",
-      "required": false
-    },
-    {
-      "id": "mvs:jungle",
-      "required": false
-    },
-    {
-      "id": "mvs:mangrove",
-      "required": false
-    },
-    {
-      "id": "mvs:oak",
-      "required": false
-    },
-    {
-      "id": "mvs:spruce",
-      "required": false
-    },
-    {
       "id": "mvs:fox_hut",
       "required": false
     },
     {
-      "id": "mvs:jungle_tower",
-      "required": false
-    },
-    {
-      "id": "mvs:log_ruin",
-      "required": false
-    },
-    {
-      "id": "mvs:campsite",
+      "id": "mvs:gallows",
       "required": false
     },
     {
@@ -1665,11 +1561,103 @@
       "required": false
     },
     {
-      "id": "mvs:castle_ruins",
+      "id": "mvs:houses/large_warped_tower",
       "required": false
     },
     {
-      "id": "mvs:big_oak_tree",
+      "id": "mvs:jungle",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_palm_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_tower",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:large_warped_tower",
+      "required": false
+    },
+    {
+      "id": "mvs:log_ruin",
+      "required": false
+    },
+    {
+      "id": "mvs:mangrove",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/acacia_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/big_oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/birch_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/boulder",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/dark_oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/jungle_palm_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/jungle_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/spruce_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/stone_rock",
+      "required": false
+    },
+    {
+      "id": "mvs:oak",
+      "required": false
+    },
+    {
+      "id": "mvs:oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/campsite",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/crimson_enchanting_table",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/fox_hut",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/horse_campsite",
+      "required": false
+    },
+    {
+      "id": "mvs:rare_well",
       "required": false
     },
     {
@@ -1681,27 +1669,39 @@
       "required": false
     },
     {
+      "id": "mvs:ruins/castle_ruins",
+      "required": false
+    },
+    {
+      "id": "mvs:ruins/log_ruin",
+      "required": false
+    },
+    {
+      "id": "mvs:ruins/ruined_beacon",
+      "required": false
+    },
+    {
       "id": "mvs:small_pillager_tower",
       "required": false
     },
     {
-      "id": "mvs:gallows",
+      "id": "mvs:spruce",
       "required": false
     },
     {
-      "id": "mvs:large_warped_tower",
+      "id": "mvs:spruce_tree",
       "required": false
     },
     {
-      "id": "mvs:rare_well",
+      "id": "mvs:stone_rock",
       "required": false
     },
     {
-      "id": "mvs:crimson_enchanting_table",
+      "id": "mvs:well/rare_well",
       "required": false
     },
     {
-      "id": "mythsandlegends:sepulcrum_ignitum",
+      "id": "mythsandlegends:ancient_vestiges",
       "required": false
     },
     {
@@ -1709,7 +1709,35 @@
       "required": false
     },
     {
-      "id": "mythsandlegends:ancient_vestiges",
+      "id": "mythsandlegends:sepulcrum_ignitum",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_big_remnant",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_big_remnant_2",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_big_remnant_3",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_bridge_remnant",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_medium_remnant",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_medium_remnant_2",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_miner_hut",
       "required": false
     },
     {
@@ -1730,34 +1758,6 @@
     },
     {
       "id": "nova_structures:shrine_combat_tier_5",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_big_remnant",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_big_remnant_2",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_big_remnant_3",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_bridge_remnant",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_medium_remnant_2",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_medium_remnant",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_miner_hut",
       "required": false
     },
     {
@@ -1793,10 +1793,6 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:ruins_land_warm",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:fortress_jungle",
       "required": false
     },
@@ -1805,15 +1801,11 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:mansion_oak",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:mansion_taiga",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:mansion_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_oak",
       "required": false
     },
     {
@@ -1821,19 +1813,11 @@
       "required": false
     },
     {
+      "id": "repurposed_structures:mansion_taiga",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:monument_jungle",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:pyramid_jungle",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:pyramid_giant_tree_taiga",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:pyramid_flower_forest",
       "required": false
     },
     {
@@ -1841,15 +1825,11 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:outpost_jungle",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:outpost_giant_tree_taiga",
       "required": false
     },
     {
-      "id": "repurposed_structures:outpost_taiga",
+      "id": "repurposed_structures:outpost_jungle",
       "required": false
     },
     {
@@ -1857,7 +1837,27 @@
       "required": false
     },
     {
+      "id": "repurposed_structures:outpost_taiga",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_flower_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_giant_tree_taiga",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_jungle",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:pyramid_mushroom",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:ruins_land_warm",
       "required": false
     },
     {
@@ -1881,7 +1881,15 @@
       "required": false
     },
     {
-      "id": "structory:outcast_villager_grassy",
+      "id": "structory:abandoned_camp",
+      "required": false
+    },
+    {
+      "id": "structory:abandoned_chapel",
+      "required": false
+    },
+    {
+      "id": "structory:dense_forest_ruin",
       "required": false
     },
     {
@@ -1889,11 +1897,19 @@
       "required": false
     },
     {
-      "id": "structory:ruin_grassy",
+      "id": "structory:jungle_ruin",
       "required": false
     },
     {
-      "id": "structory:jungle_ruin",
+      "id": "structory:old_manor",
+      "required": false
+    },
+    {
+      "id": "structory:outcast_villager_grassy",
+      "required": false
+    },
+    {
+      "id": "structory:ruin_grassy",
       "required": false
     },
     {
@@ -1902,22 +1918,6 @@
     },
     {
       "id": "structory:taiga_ruin_surface",
-      "required": false
-    },
-    {
-      "id": "structory:dense_forest_ruin",
-      "required": false
-    },
-    {
-      "id": "structory:abandoned_chapel",
-      "required": false
-    },
-    {
-      "id": "structory:abandoned_camp",
-      "required": false
-    },
-    {
-      "id": "structory:old_manor",
       "required": false
     },
     {
@@ -1969,11 +1969,11 @@
       "required": false
     },
     {
-      "id": "threateningly_mobs:titan_summon_altar",
+      "id": "threateningly_mobs:forestdungeon",
       "required": false
     },
     {
-      "id": "threateningly_mobs:forestdungeon",
+      "id": "threateningly_mobs:titan_summon_altar",
       "required": false
     },
     {
@@ -1982,6 +1982,34 @@
     },
     {
       "id": "totw_modded:derelict_grass",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_classic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_iberian",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_mediterranean",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_oriental",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_rustic",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_swedish",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_tudor",
       "required": false
     },
     {
@@ -2041,6 +2069,10 @@
       "required": false
     },
     {
+      "id": "towns_and_towers:pillager_outpost_snowy_taiga",
+      "required": false
+    },
+    {
       "id": "towns_and_towers:pillager_outpost_sparse_jungle",
       "required": false
     },
@@ -2057,39 +2089,7 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:pillager_outpost_snowy_taiga",
-      "required": false
-    },
-    {
       "id": "towns_and_towers:pillager_outpost_wooded_badlands",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/pillager_outpost_mediterranean",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/pillager_outpost_tudor",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/pillager_outpost_classic",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/pillager_outpost_oriental",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/pillager_outpost_swedish",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/pillager_outpost_iberian",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/pillager_outpost_rustic",
       "required": false
     },
     {
@@ -2098,6 +2098,10 @@
     },
     {
       "id": "underground_rooms:dungeon",
+      "required": false
+    },
+    {
+      "id": "underground_rooms:end_room",
       "required": false
     },
     {
@@ -2117,55 +2121,31 @@
       "required": false
     },
     {
-      "id": "underground_rooms:end_room",
+      "id": "wabi_sabi_structures:abandoned_small_castle",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:shrine_of_preservation",
+      "id": "wabi_sabi_structures:badlands_dwelling",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:sphinx_hidey_hole_sandy",
+      "id": "wabi_sabi_structures:birch_mushroom_cave",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "id": "wabi_sabi_structures:effigy_patch_forest",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:woody_camp",
+      "id": "wabi_sabi_structures:effigy_patch_jungle",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:vigilante_fort",
+      "id": "wabi_sabi_structures:effigy_patch_savanna",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:tree_cage",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:rot_tree",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:muddy_badlands_well",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:moss_blob",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:lumpy_tower",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:lost_foot",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:infested_castle",
+      "id": "wabi_sabi_structures:firewatch_tower",
       "required": false
     },
     {
@@ -2177,31 +2157,15 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:firewatch_tower",
+      "id": "wabi_sabi_structures:infested_castle",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:effigy_patch_savanna",
+      "id": "wabi_sabi_structures:lost_foot",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:effigy_patch_jungle",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:effigy_patch_forest",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:birch_mushroom_cave",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:badlands_dwelling",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:abandoned_small_castle",
+      "id": "wabi_sabi_structures:lumpy_tower",
       "required": false
     },
     {
@@ -2209,7 +2173,43 @@
       "required": false
     },
     {
+      "id": "wabi_sabi_structures:moss_blob",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:muddy_badlands_well",
+      "required": false
+    },
+    {
       "id": "wabi_sabi_structures:old_fort",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:rot_tree",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:shrine_of_preservation",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_sandy",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:tree_cage",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:vigilante_fort",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:woody_camp",
       "required": false
     }
   ]

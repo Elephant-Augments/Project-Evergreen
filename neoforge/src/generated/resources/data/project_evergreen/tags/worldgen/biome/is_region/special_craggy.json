@@ -1,11 +1,7 @@
 {
   "values": [
     {
-      "id": "#project_evergreen:is_climate/special_craggy_temperate",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/special_craggy_warm",
+      "id": "#project_evergreen:is_climate/mountains_alive",
       "required": false
     },
     {
@@ -13,7 +9,11 @@
       "required": false
     },
     {
-      "id": "#project_evergreen:is_climate/mountains_alive",
+      "id": "#project_evergreen:is_climate/special_craggy_temperate",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_craggy_warm",
       "required": false
     },
     {

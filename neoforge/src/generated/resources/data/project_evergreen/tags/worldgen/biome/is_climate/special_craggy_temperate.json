@@ -1,19 +1,7 @@
 {
   "values": [
     {
-      "id": "dreamwoods:moor",
-      "required": false
-    },
-    {
-      "id": "dreamwoods:highlands",
-      "required": false
-    },
-    {
-      "id": "dreamwoods:wooded_slopes",
-      "required": false
-    },
-    {
-      "id": "dreamwoods:spruce_slopes",
+      "id": "dreamwoods:boskage",
       "required": false
     },
     {
@@ -21,15 +9,23 @@
       "required": false
     },
     {
+      "id": "dreamwoods:highlands",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:moor",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:spruce_slopes",
+      "required": false
+    },
+    {
       "id": "dreamwoods:thermal_springs",
       "required": false
     },
     {
-      "id": "dreamwoods:boskage",
-      "required": false
-    },
-    {
-      "id": "minecraft:windswept_hills",
+      "id": "dreamwoods:wooded_slopes",
       "required": false
     },
     {
@@ -37,15 +33,19 @@
       "required": false
     },
     {
+      "id": "minecraft:windswept_hills",
+      "required": false
+    },
+    {
       "id": "natures_spirit:alpine_highlands",
       "required": false
     },
     {
-      "id": "natures_spirit:windswept_sugi_forest",
+      "id": "natures_spirit:white_cliffs",
       "required": false
     },
     {
-      "id": "natures_spirit:white_cliffs",
+      "id": "natures_spirit:windswept_sugi_forest",
       "required": false
     },
     {
@@ -89,7 +89,7 @@
       "required": false
     },
     {
-      "id": "wythers:temperate_rainforest_crags",
+      "id": "wythers:stony_canyon",
       "required": false
     },
     {
@@ -97,7 +97,7 @@
       "required": false
     },
     {
-      "id": "wythers:stony_canyon",
+      "id": "wythers:temperate_rainforest_crags",
       "required": false
     },
     {

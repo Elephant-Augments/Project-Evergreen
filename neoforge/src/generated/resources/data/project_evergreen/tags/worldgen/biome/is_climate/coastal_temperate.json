@@ -25,15 +25,15 @@
       "required": false
     },
     {
-      "id": "wythers:sand_dunes",
-      "required": false
-    },
-    {
       "id": "wythers:calcite_coast",
       "required": false
     },
     {
       "id": "wythers:gravelly_beach",
+      "required": false
+    },
+    {
+      "id": "wythers:sand_dunes",
       "required": false
     }
   ]

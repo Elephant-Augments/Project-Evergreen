@@ -17,11 +17,11 @@
       "required": false
     },
     {
-      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
       "required": false
     },
     {
-      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
       "required": false
     },
     {
@@ -65,11 +65,7 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:zen_chair_museum",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "id": "wabi_sabi_structures:bamboo_firework_site",
       "required": false
     },
     {
@@ -77,7 +73,11 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:bamboo_firework_site",
+      "id": "wabi_sabi_structures:hide_tannery_cherry",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
       "required": false
     }
   ]

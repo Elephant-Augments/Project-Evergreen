@@ -17,31 +17,7 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:farmland_field",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:stone_tower",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:small_house",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:tiny_house",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:small_statue",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:hobbit_hole",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:desert_houses",
+      "id": "formationsoverworld:bamboo_hut",
       "required": false
     },
     {
@@ -49,7 +25,15 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:small_temple",
+      "id": "formationsoverworld:desert_houses",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:farmland_field",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:hobbit_hole",
       "required": false
     },
     {
@@ -57,7 +41,23 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:bamboo_hut",
+      "id": "formationsoverworld:small_house",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:small_statue",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:small_temple",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:stone_tower",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:tiny_house",
       "required": false
     },
     {
@@ -157,11 +157,11 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/street_vendor_stall",
+      "id": "trek:overworld/medium/spruce_cottage",
       "required": false
     },
     {
-      "id": "trek:overworld/medium/spruce_cottage",
+      "id": "trek:overworld/medium/street_vendor_stall",
       "required": false
     },
     {

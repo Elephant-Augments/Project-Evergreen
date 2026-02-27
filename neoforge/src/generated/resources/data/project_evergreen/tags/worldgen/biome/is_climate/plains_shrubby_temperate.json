@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "dreamwoods:boskage",
+      "required": false
+    },
+    {
       "id": "dreamwoods:grassy_shore",
       "required": false
     },
@@ -13,11 +17,15 @@
       "required": false
     },
     {
-      "id": "dreamwoods:boskage",
+      "id": "natures_spirit:shrubland",
       "required": false
     },
     {
-      "id": "natures_spirit:shrubland",
+      "id": "regions_unexplored:chalk_cliffs",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:highland_fields",
       "required": false
     },
     {
@@ -29,15 +37,7 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:highland_fields",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:chalk_cliffs",
-      "required": false
-    },
-    {
-      "id": "terralith:steppe",
+      "id": "terralith:rocky_shrubland",
       "required": false
     },
     {
@@ -45,7 +45,7 @@
       "required": false
     },
     {
-      "id": "terralith:rocky_shrubland",
+      "id": "terralith:steppe",
       "required": false
     },
     {

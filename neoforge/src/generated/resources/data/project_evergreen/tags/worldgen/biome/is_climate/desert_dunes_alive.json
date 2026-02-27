@@ -17,11 +17,11 @@
       "required": false
     },
     {
-      "id": "wythers:desert_island",
+      "id": "wythers:cactus_desert",
       "required": false
     },
     {
-      "id": "wythers:cactus_desert",
+      "id": "wythers:desert_island",
       "required": false
     },
     {

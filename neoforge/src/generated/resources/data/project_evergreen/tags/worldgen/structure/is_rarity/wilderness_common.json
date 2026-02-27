@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "ati_structures:castillo",
+      "required": false
+    },
+    {
       "id": "ati_structures:deepslate_keep",
       "required": false
     },
@@ -13,6 +17,14 @@
       "required": false
     },
     {
+      "id": "ati_structures:illager_homestead",
+      "required": false
+    },
+    {
+      "id": "ati_structures:mud_tower",
+      "required": false
+    },
+    {
       "id": "ati_structures:nomadic_camp",
       "required": false
     },
@@ -21,19 +33,7 @@
       "required": false
     },
     {
-      "id": "ati_structures:stray_ruins",
-      "required": false
-    },
-    {
       "id": "ati_structures:rotting_temple",
-      "required": false
-    },
-    {
-      "id": "ati_structures:illager_homestead",
-      "required": false
-    },
-    {
-      "id": "ati_structures:mud_tower",
       "required": false
     },
     {
@@ -45,7 +45,7 @@
       "required": false
     },
     {
-      "id": "ati_structures:castillo",
+      "id": "ati_structures:stray_ruins",
       "required": false
     },
     {
@@ -61,19 +61,11 @@
       "required": false
     },
     {
+      "id": "formationsoverworld:campsite",
+      "required": false
+    },
+    {
       "id": "formationsoverworld:cobble_hole",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:stone_ore_spikes",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:witch_tower",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:mushroom_hut",
       "required": false
     },
     {
@@ -89,7 +81,11 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:campsite",
+      "id": "formationsoverworld:mesoamerican_temple",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:mushroom_hut",
       "required": false
     },
     {
@@ -97,11 +93,15 @@
       "required": false
     },
     {
+      "id": "formationsoverworld:stone_ore_spikes",
+      "required": false
+    },
+    {
       "id": "formationsoverworld:tower_remnant",
       "required": false
     },
     {
-      "id": "formationsoverworld:mesoamerican_temple",
+      "id": "formationsoverworld:witch_tower",
       "required": false
     },
     {
@@ -369,14 +369,6 @@
       "required": false
     },
     {
-      "id": "trek:overworld/rare/elven_tree",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/small_pyramide",
-      "required": false
-    },
-    {
       "id": "trek:overworld/medium/all_abandoned",
       "required": false
     },
@@ -429,11 +421,11 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/farm_pillager",
+      "id": "trek:overworld/medium/explorer_cabin",
       "required": false
     },
     {
-      "id": "trek:overworld/medium/explorer_cabin",
+      "id": "trek:overworld/medium/farm_pillager",
       "required": false
     },
     {
@@ -490,6 +482,10 @@
     },
     {
       "id": "trek:overworld/medium/ruine_tour",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/small_pyramide",
       "required": false
     },
     {
@@ -558,6 +554,10 @@
     },
     {
       "id": "trek:overworld/medium/witch_tower",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/elven_tree",
       "required": false
     },
     {

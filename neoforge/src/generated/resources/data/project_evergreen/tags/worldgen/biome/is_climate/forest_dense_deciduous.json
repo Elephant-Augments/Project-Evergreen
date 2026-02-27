@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "dreamwoods:golden_aspen_spinney",
+      "required": false
+    },
+    {
       "id": "dreamwoods:redwood_forest",
       "required": false
     },
@@ -9,11 +13,11 @@
       "required": false
     },
     {
-      "id": "dreamwoods:wet_larch_forest",
+      "id": "dreamwoods:weeping_grove",
       "required": false
     },
     {
-      "id": "dreamwoods:golden_aspen_spinney",
+      "id": "dreamwoods:wet_larch_forest",
       "required": false
     },
     {
@@ -21,15 +25,7 @@
       "required": false
     },
     {
-      "id": "dreamwoods:weeping_grove",
-      "required": false
-    },
-    {
       "id": "minecraft:forest",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:sugi_forest",
       "required": false
     },
     {
@@ -37,15 +33,11 @@
       "required": false
     },
     {
+      "id": "natures_spirit:sugi_forest",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:deciduous_forest",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:willow_forest",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:redwoods",
       "required": false
     },
     {
@@ -53,15 +45,23 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:redwoods",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_forest",
+      "required": false
+    },
+    {
       "id": "terralith:birch_taiga",
       "required": false
     },
     {
-      "id": "terralith:lush_valley",
+      "id": "terralith:blooming_valley",
       "required": false
     },
     {
-      "id": "terralith:blooming_valley",
+      "id": "terralith:lush_valley",
       "required": false
     },
     {
@@ -85,11 +85,15 @@
       "required": false
     },
     {
-      "id": "wythers:forested_highlands",
+      "id": "wythers:birch_taiga",
       "required": false
     },
     {
       "id": "wythers:cool_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:forested_highlands",
       "required": false
     },
     {
@@ -110,10 +114,6 @@
     },
     {
       "id": "wythers:warm_birch_forest",
-      "required": false
-    },
-    {
-      "id": "wythers:birch_taiga",
       "required": false
     }
   ]

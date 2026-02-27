@@ -21,11 +21,11 @@
       "required": false
     },
     {
-      "id": "beachparty:ritual_circle",
+      "id": "beachparty:excavated_treasure",
       "required": false
     },
     {
-      "id": "beachparty:excavated_treasure",
+      "id": "beachparty:ritual_circle",
       "required": false
     },
     {

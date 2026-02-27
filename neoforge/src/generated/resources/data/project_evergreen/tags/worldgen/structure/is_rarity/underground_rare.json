@@ -21,7 +21,7 @@
       "required": false
     },
     {
-      "id": "dungeons_plus:reanimated_ruins_mossy",
+      "id": "dungeons_plus:reanimated_ruins_frozen",
       "required": false
     },
     {
@@ -29,7 +29,7 @@
       "required": false
     },
     {
-      "id": "dungeons_plus:reanimated_ruins_frozen",
+      "id": "dungeons_plus:reanimated_ruins_mossy",
       "required": false
     },
     {
@@ -57,15 +57,11 @@
       "required": false
     },
     {
+      "id": "hopo:mineshaft/deepslate_mineshaft",
+      "required": false
+    },
+    {
       "id": "hopo:mineshaft/jungle_mineshaft",
-      "required": false
-    },
-    {
-      "id": "hopo:mineshaft/oak_mineshaft",
-      "required": false
-    },
-    {
-      "id": "hopo:mineshaft/spruce_mineshaft",
       "required": false
     },
     {
@@ -77,19 +73,23 @@
       "required": false
     },
     {
+      "id": "hopo:mineshaft/oak_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/spruce_mineshaft",
+      "required": false
+    },
+    {
       "id": "hopo:mineshaft/stone_mineshaft",
       "required": false
     },
     {
-      "id": "hopo:mineshaft/deepslate_mineshaft",
+      "id": "idas:ancient_portal/ancient_portal",
       "required": false
     },
     {
       "id": "idas:nexus",
-      "required": false
-    },
-    {
-      "id": "idas:ancient_portal/ancient_portal",
       "required": false
     },
     {

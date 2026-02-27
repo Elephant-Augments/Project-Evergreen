@@ -20,9 +20,9 @@
         "is_water_restricted": false,
         "patchable": true,
         "disabled": true,
-        "ignored_biome_radius_check": true,
         "ignored_placement_tweaks": true,
-        "flatness_check_sprawling": true
+        "flatness_check_sprawling": true,
+        "ignored_biome_radius_check": true
       }
     },
     [

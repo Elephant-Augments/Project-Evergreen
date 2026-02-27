@@ -5,7 +5,7 @@
       "path": "/temp_properties",
       "value": {
         "id": "bosses_of_mass_destruction:gauntlet_arena",
-        "size": "LARGE",
+        "size": "SPRAWLING",
         "heightmap": "UNDERGROUND",
         "dimension": "#minecraft:is_overworld",
         "region": "#project_evergreen:is_region/all_wilderness",
@@ -21,10 +21,11 @@
         "is_water_restricted": false,
         "patchable": true,
         "ignored": true,
-        "ignored_biome_radius_check": true,
         "ignored_placement_tweaks": true,
-        "flatness_check_large": true,
-        "flatness_check_sprawling": true
+        "flatness_check_sprawling": true,
+        "ignored_biome_redistribution": true,
+        "ignored_biome_radius_check": true,
+        "flatness_check_large": true
       }
     },
     [
@@ -266,7 +267,7 @@
     {
       "op": "add",
       "path": "/terrain_height_radius_check",
-      "value": 3
+      "value": 5
     },
     {
       "op": "paste",

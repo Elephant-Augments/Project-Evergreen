@@ -17,19 +17,19 @@
       "required": false
     },
     {
-      "id": "terralith:highlands",
-      "required": false
-    },
-    {
-      "id": "terralith:shield",
-      "required": false
-    },
-    {
       "id": "terralith:alpine_highlands",
       "required": false
     },
     {
       "id": "terralith:forested_highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:shield",
       "required": false
     },
     {

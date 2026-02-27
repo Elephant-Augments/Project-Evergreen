@@ -1,19 +1,19 @@
 {
   "values": [
     {
-      "id": "additionalstructures:standing_acacia_log",
-      "required": false
-    },
-    {
       "id": "additionalstructures:acacia_log",
       "required": false
     },
     {
-      "id": "ati_structures:granite_fort",
+      "id": "additionalstructures:standing_acacia_log",
       "required": false
     },
     {
       "id": "ati_structures:fortified_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:granite_fort",
       "required": false
     },
     {
@@ -53,11 +53,7 @@
       "required": false
     },
     {
-      "id": "mvs:nature/acacia_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:dead_tree/acacia",
+      "id": "mvs:acacia",
       "required": false
     },
     {
@@ -65,7 +61,11 @@
       "required": false
     },
     {
-      "id": "mvs:acacia",
+      "id": "mvs:dead_tree/acacia",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/acacia_tree",
       "required": false
     },
     {
@@ -81,11 +81,11 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:exclusives/pillager_outpost_nilotic",
+      "id": "towns_and_towers:exclusives/pillager_outpost_iberian",
       "required": false
     },
     {
-      "id": "towns_and_towers:exclusives/pillager_outpost_iberian",
+      "id": "towns_and_towers:exclusives/pillager_outpost_nilotic",
       "required": false
     },
     {

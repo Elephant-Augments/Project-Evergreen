@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "dreamwoods:prairie",
+      "id": "dreamwoods:autumnal_hills",
       "required": false
     },
     {
@@ -9,7 +9,7 @@
       "required": false
     },
     {
-      "id": "dreamwoods:autumnal_hills",
+      "id": "dreamwoods:prairie",
       "required": false
     },
     {

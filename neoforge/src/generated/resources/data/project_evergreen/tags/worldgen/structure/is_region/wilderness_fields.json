@@ -41,11 +41,11 @@
       "required": false
     },
     {
-      "id": "custom:ogre_dwelling",
+      "id": "custom:gryphon_nest",
       "required": false
     },
     {
-      "id": "custom:gryphon_nest",
+      "id": "custom:ogre_dwelling",
       "required": false
     },
     {
@@ -53,11 +53,11 @@
       "required": false
     },
     {
-      "id": "idas:collectors_museum",
+      "id": "idas:ancient_mines",
       "required": false
     },
     {
-      "id": "idas:ancient_mines",
+      "id": "idas:collectors_museum",
       "required": false
     },
     {
@@ -66,30 +66,6 @@
     },
     {
       "id": "irons_spellbooks:evoker_fort",
-      "required": false
-    },
-    {
-      "id": "nova_structures:ruin_town",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_ruin_farmer",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_sawmill",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_ruin_smith",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_classic_village",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_school_remnant",
       "required": false
     },
     {
@@ -109,7 +85,7 @@
       "required": false
     },
     {
-      "id": "nova_structures:remnant_medium_remnant_2",
+      "id": "nova_structures:remnant_classic_village",
       "required": false
     },
     {
@@ -117,7 +93,31 @@
       "required": false
     },
     {
+      "id": "nova_structures:remnant_medium_remnant_2",
+      "required": false
+    },
+    {
       "id": "nova_structures:remnant_miner_hut",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_ruin_farmer",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_ruin_smith",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_sawmill",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_school_remnant",
+      "required": false
+    },
+    {
+      "id": "nova_structures:ruin_town",
       "required": false
     },
     {

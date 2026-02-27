@@ -1,15 +1,15 @@
 {
   "values": [
     {
+      "id": "#project_evergreen:is_climate/plains_shrubby_arid",
+      "required": false
+    },
+    {
       "id": "#project_evergreen:is_climate/plains_shrubby_snow",
       "required": false
     },
     {
       "id": "#project_evergreen:is_climate/plains_shrubby_temperate",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/plains_shrubby_arid",
       "required": false
     }
   ]

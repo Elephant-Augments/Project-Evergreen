@@ -1,10 +1,6 @@
 {
   "values": [
     {
-      "id": "#project_evergreen:is_climate/plains_grassy_temperate",
-      "required": false
-    },
-    {
       "id": "#project_evergreen:is_climate/forest_sparse_coniferous",
       "required": false
     },
@@ -13,11 +9,11 @@
       "required": false
     },
     {
-      "id": "#project_evergreen:is_climate/special_autumnal_fields",
+      "id": "#project_evergreen:is_climate/plains_grassy_temperate",
       "required": false
     },
     {
-      "id": "#project_evergreen:is_climate/special_mediterranean_inviting",
+      "id": "#project_evergreen:is_climate/special_autumnal_fields",
       "required": false
     },
     {
@@ -26,6 +22,10 @@
     },
     {
       "id": "#project_evergreen:is_climate/special_flowery_forest",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_mediterranean_inviting",
       "required": false
     }
   ]

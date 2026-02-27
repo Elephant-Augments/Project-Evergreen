@@ -5,11 +5,11 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:flower_fields",
+      "id": "regions_unexplored:bamboo_forest",
       "required": false
     },
     {
-      "id": "regions_unexplored:bamboo_forest",
+      "id": "regions_unexplored:flower_fields",
       "required": false
     }
   ]

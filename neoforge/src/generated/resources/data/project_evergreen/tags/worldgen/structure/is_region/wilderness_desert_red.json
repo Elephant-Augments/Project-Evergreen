@@ -45,11 +45,11 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:ceryneian_hind",
+      "id": "dungeons_arise:bandit_towers",
       "required": false
     },
     {
-      "id": "dungeons_arise:bandit_towers",
+      "id": "dungeons_arise:ceryneian_hind",
       "required": false
     },
     {
@@ -73,15 +73,7 @@
       "required": false
     },
     {
-      "id": "feur_extension_fossil:rex_camp",
-      "required": false
-    },
-    {
       "id": "feur_extension_fossil:bones_tree",
-      "required": false
-    },
-    {
-      "id": "feur_extension_fossil:fossil_hand",
       "required": false
     },
     {
@@ -93,11 +85,19 @@
       "required": false
     },
     {
-      "id": "feur_extension_fossil:small_rex_camp",
+      "id": "feur_extension_fossil:fossil_hand",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:rex_camp",
       "required": false
     },
     {
       "id": "feur_extension_fossil:small_coal_rex_camp",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:small_rex_camp",
       "required": false
     },
     {
@@ -137,11 +137,11 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:pyramid_badlands",
+      "id": "repurposed_structures:outpost_badlands",
       "required": false
     },
     {
-      "id": "repurposed_structures:outpost_badlands",
+      "id": "repurposed_structures:pyramid_badlands",
       "required": false
     },
     {
@@ -161,15 +161,11 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:pillager_outpost_wooded_badlands",
-      "required": false
-    },
-    {
       "id": "towns_and_towers:pillager_outpost_badlands",
       "required": false
     },
     {
-      "id": "trek:overworld/medium/railroad",
+      "id": "towns_and_towers:pillager_outpost_wooded_badlands",
       "required": false
     },
     {
@@ -177,15 +173,11 @@
       "required": false
     },
     {
-      "id": "u_desert:desert/archeology/fossil/croc",
+      "id": "trek:overworld/medium/railroad",
       "required": false
     },
     {
-      "id": "u_desert:desert/archeology/fossil/head",
-      "required": false
-    },
-    {
-      "id": "u_desert:badlands/ambient/termite_mound",
+      "id": "u_desert:badlands/ambient/geyser",
       "required": false
     },
     {
@@ -194,6 +186,18 @@
     },
     {
       "id": "u_desert:badlands/ambient/skeleton/spine",
+      "required": false
+    },
+    {
+      "id": "u_desert:badlands/ambient/termite_mound",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/archeology/fossil/croc",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/archeology/fossil/head",
       "required": false
     },
     {
@@ -206,10 +210,6 @@
     },
     {
       "id": "u_desert:desert/archeology/ruin/pit",
-      "required": false
-    },
-    {
-      "id": "u_desert:badlands/ambient/geyser",
       "required": false
     },
     {

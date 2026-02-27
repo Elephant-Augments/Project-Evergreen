@@ -37,11 +37,11 @@
       "required": false
     },
     {
-      "id": "feur_extension_fossil:fossil_bone_fish",
+      "id": "feur_extension_fossil:fossil_baby_fish",
       "required": false
     },
     {
-      "id": "feur_extension_fossil:fossil_guardian",
+      "id": "feur_extension_fossil:fossil_bone_fish",
       "required": false
     },
     {
@@ -49,7 +49,7 @@
       "required": false
     },
     {
-      "id": "feur_extension_fossil:fossil_baby_fish",
+      "id": "feur_extension_fossil:fossil_guardian",
       "required": false
     },
     {
@@ -61,11 +61,7 @@
       "required": false
     },
     {
-      "id": "kattersstructures:red_coral",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:deep_blue_labs",
+      "id": "kattersstructures:deep_blue_city",
       "required": false
     },
     {
@@ -73,11 +69,11 @@
       "required": false
     },
     {
-      "id": "kattersstructures:deep_blue_city",
+      "id": "kattersstructures:deep_blue_labs",
       "required": false
     },
     {
-      "id": "minecraft:shipwreck",
+      "id": "kattersstructures:red_coral",
       "required": false
     },
     {
@@ -98,6 +94,10 @@
     },
     {
       "id": "minecraft:ruined_portal_ocean",
+      "required": false
+    },
+    {
+      "id": "minecraft:shipwreck",
       "required": false
     },
     {

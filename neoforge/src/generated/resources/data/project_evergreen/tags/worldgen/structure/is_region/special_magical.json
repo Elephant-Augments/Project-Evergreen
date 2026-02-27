@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "ars_additions:nexus_tower",
+      "id": "ars_additions:arcane_library",
       "required": false
     },
     {
-      "id": "ars_additions:arcane_library",
+      "id": "ars_additions:nexus_tower",
       "required": false
     },
     {
@@ -65,11 +65,11 @@
       "required": false
     },
     {
-      "id": "explorify:supply_cache/dark",
+      "id": "explorify:dark_forest_settlement",
       "required": false
     },
     {
-      "id": "explorify:dark_forest_settlement",
+      "id": "explorify:supply_cache/dark",
       "required": false
     },
     {
@@ -97,11 +97,11 @@
       "required": false
     },
     {
-      "id": "integrated_minecraft:arcane_abode",
+      "id": "integrated_minecraft:ancient_archwood_tree",
       "required": false
     },
     {
-      "id": "integrated_minecraft:ancient_archwood_tree",
+      "id": "integrated_minecraft:arcane_abode",
       "required": false
     },
     {
@@ -109,11 +109,11 @@
       "required": false
     },
     {
-      "id": "kattersstructures:witch_circle",
+      "id": "kattersstructures:magic_tower",
       "required": false
     },
     {
-      "id": "kattersstructures:magic_tower",
+      "id": "kattersstructures:witch_circle",
       "required": false
     },
     {
@@ -126,6 +126,10 @@
     },
     {
       "id": "mostructures:the_castle_in_the_sky",
+      "required": false
+    },
+    {
+      "id": "mss:arena",
       "required": false
     },
     {
@@ -173,6 +177,10 @@
       "required": false
     },
     {
+      "id": "mss:muddy_water_hole",
+      "required": false
+    },
+    {
       "id": "mss:mushroom",
       "required": false
     },
@@ -182,10 +190,6 @@
     },
     {
       "id": "mss:palm_island",
-      "required": false
-    },
-    {
-      "id": "mss:muddy_water_hole",
       "required": false
     },
     {
@@ -249,19 +253,27 @@
       "required": false
     },
     {
-      "id": "mss:arena",
+      "id": "mvs:crimson_enchanting_table",
       "required": false
     },
     {
-      "id": "mvs:warped_house",
+      "id": "mvs:crystal",
       "required": false
     },
     {
-      "id": "mvs:nature/floating_islands",
+      "id": "mvs:dark_oak_tree",
       "required": false
     },
     {
-      "id": "mvs:nature/dark_oak_tree",
+      "id": "mvs:duck",
+      "required": false
+    },
+    {
+      "id": "mvs:floating_islands",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/large_floating_island",
       "required": false
     },
     {
@@ -273,11 +285,23 @@
       "required": false
     },
     {
-      "id": "mvs:other_decoration/lecturn_garden",
+      "id": "mvs:large_floating_island",
+      "required": false
+    },
+    {
+      "id": "mvs:large_warped_tower",
       "required": false
     },
     {
       "id": "mvs:lecturn_garden",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/dark_oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/floating_islands",
       "required": false
     },
     {
@@ -289,35 +313,11 @@
       "required": false
     },
     {
-      "id": "mvs:houses/large_floating_island",
+      "id": "mvs:other_decoration/lecturn_garden",
       "required": false
     },
     {
-      "id": "mvs:large_floating_island",
-      "required": false
-    },
-    {
-      "id": "mvs:floating_islands",
-      "required": false
-    },
-    {
-      "id": "mvs:dark_oak_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:large_warped_tower",
-      "required": false
-    },
-    {
-      "id": "mvs:crimson_enchanting_table",
-      "required": false
-    },
-    {
-      "id": "mvs:crystal",
-      "required": false
-    },
-    {
-      "id": "mvs:duck",
+      "id": "mvs:warped_house",
       "required": false
     },
     {
@@ -345,7 +345,7 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/ritual",
+      "id": "trek:overworld/common/elven_pillars",
       "required": false
     },
     {
@@ -353,19 +353,19 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/sorcerers_house",
-      "required": false
-    },
-    {
       "id": "trek:overworld/medium/explorer_cabin",
       "required": false
     },
     {
-      "id": "trek:overworld/medium/witch_tower",
+      "id": "trek:overworld/medium/ritual",
       "required": false
     },
     {
-      "id": "trek:overworld/common/elven_pillars",
+      "id": "trek:overworld/medium/sorcerers_house",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/witch_tower",
       "required": false
     },
     {

@@ -33,11 +33,11 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:fungal_fen",
+      "id": "regions_unexplored:flower_fields",
       "required": false
     },
     {
-      "id": "regions_unexplored:flower_fields",
+      "id": "regions_unexplored:fungal_fen",
       "required": false
     },
     {
@@ -53,7 +53,7 @@
       "required": false
     },
     {
-      "id": "terralith:moonlight_valley",
+      "id": "terralith:mirage_isles",
       "required": false
     },
     {
@@ -61,7 +61,7 @@
       "required": false
     },
     {
-      "id": "terralith:mirage_isles",
+      "id": "terralith:moonlight_valley",
       "required": false
     }
   ]

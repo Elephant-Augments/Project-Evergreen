@@ -205,11 +205,11 @@
       "required": false
     },
     {
-      "id": "dungeonnowloading:temple_of_duality",
+      "id": "dungeonnowloading:labyrinth",
       "required": false
     },
     {
-      "id": "dungeonnowloading:labyrinth",
+      "id": "dungeonnowloading:temple_of_duality",
       "required": false
     },
     {
@@ -249,11 +249,11 @@
       "required": false
     },
     {
-      "id": "farmers_structures:quark_slime",
+      "id": "farmers_structures:quark_glimer",
       "required": false
     },
     {
-      "id": "farmers_structures:quark_glimer",
+      "id": "farmers_structures:quark_slime",
       "required": false
     },
     {
@@ -409,14 +409,6 @@
       "required": false
     },
     {
-      "id": "minecraft:stronghold_big",
-      "required": false
-    },
-    {
-      "id": "minecraft:trial_chambers",
-      "required": false
-    },
-    {
       "id": "minecraft:ancient_city",
       "required": false
     },
@@ -430,6 +422,14 @@
     },
     {
       "id": "minecraft:mineshaft_mesa",
+      "required": false
+    },
+    {
+      "id": "minecraft:stronghold_big",
+      "required": false
+    },
+    {
+      "id": "minecraft:trial_chambers",
       "required": false
     },
     {
@@ -457,15 +457,15 @@
       "required": false
     },
     {
-      "id": "philipsruins:bone_dungeon",
-      "required": false
-    },
-    {
       "id": "philipsruins:ancient_dungeon",
       "required": false
     },
     {
       "id": "philipsruins:badlands_start_dungeon",
+      "required": false
+    },
+    {
+      "id": "philipsruins:bone_dungeon",
       "required": false
     },
     {
@@ -649,7 +649,7 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:shrine_of_preservation",
+      "id": "wabi_sabi_structures:monster_egg",
       "required": false
     },
     {
@@ -657,7 +657,7 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:monster_egg",
+      "id": "wabi_sabi_structures:shrine_of_preservation",
       "required": false
     }
   ]

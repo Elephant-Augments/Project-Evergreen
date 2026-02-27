@@ -1,6 +1,18 @@
 {
   "values": [
     {
+      "id": "combat_structures_update:end_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:ruined_end_city",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:ruinedendship",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:smallendislandbridge_1",
       "required": false
     },
@@ -38,18 +50,6 @@
     },
     {
       "id": "combat_structures_update:smallendislandruin_5",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:ruined_end_city",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:ruinedendship",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:end_ruin",
       "required": false
     }
   ]

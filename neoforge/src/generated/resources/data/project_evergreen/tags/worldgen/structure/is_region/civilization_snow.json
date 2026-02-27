@@ -1,14 +1,6 @@
 {
   "values": [
     {
-      "id": "additionalstructures:snowman_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:snowman_2",
-      "required": false
-    },
-    {
       "id": "additionalstructures:snow_pile_1",
       "required": false
     },
@@ -18,6 +10,14 @@
     },
     {
       "id": "additionalstructures:snow_pile_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:snowman_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:snowman_2",
       "required": false
     },
     {
@@ -73,14 +73,6 @@
       "required": false
     },
     {
-      "id": "mvs:other_decoration/snowy_dog_hut",
-      "required": false
-    },
-    {
-      "id": "mvs:houses/small_igloo",
-      "required": false
-    },
-    {
       "id": "mvs:houses/medium_igloo_1",
       "required": false
     },
@@ -89,15 +81,7 @@
       "required": false
     },
     {
-      "id": "mvs:well/wells/snowy_well",
-      "required": false
-    },
-    {
-      "id": "mvs:snowy_dog_hut",
-      "required": false
-    },
-    {
-      "id": "mvs:small_igloo",
+      "id": "mvs:houses/small_igloo",
       "required": false
     },
     {
@@ -109,7 +93,23 @@
       "required": false
     },
     {
+      "id": "mvs:other_decoration/snowy_dog_hut",
+      "required": false
+    },
+    {
+      "id": "mvs:small_igloo",
+      "required": false
+    },
+    {
+      "id": "mvs:snowy_dog_hut",
+      "required": false
+    },
+    {
       "id": "mvs:snowy_well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/snowy_well",
       "required": false
     },
     {
@@ -121,15 +121,15 @@
       "required": false
     },
     {
+      "id": "nordic_structures:vikingfarm",
+      "required": false
+    },
+    {
       "id": "nordic_structures:vikingstatuebirch",
       "required": false
     },
     {
       "id": "nordic_structures:vikingstatueplains",
-      "required": false
-    },
-    {
-      "id": "nordic_structures:vikingfarm",
       "required": false
     },
     {

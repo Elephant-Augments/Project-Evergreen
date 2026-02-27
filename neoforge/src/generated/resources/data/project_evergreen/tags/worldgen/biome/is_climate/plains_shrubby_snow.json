@@ -13,11 +13,11 @@
       "required": false
     },
     {
-      "id": "terralith:cold_shrubland",
+      "id": "terralith:alpine_grove",
       "required": false
     },
     {
-      "id": "terralith:alpine_grove",
+      "id": "terralith:cold_shrubland",
       "required": false
     },
     {

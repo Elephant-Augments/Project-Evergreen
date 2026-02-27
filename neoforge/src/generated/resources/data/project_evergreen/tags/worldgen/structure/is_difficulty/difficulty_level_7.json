@@ -1,6 +1,18 @@
 {
   "values": [
     {
+      "id": "bosses_of_mass_destruction:lich_tower",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursed_pyramid",
+      "required": false
+    },
+    {
+      "id": "cataclysm:frosted_prison",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:end_ruin",
       "required": false
     },
@@ -50,6 +62,26 @@
     },
     {
       "id": "combat_structures_update:smallendislandruin_5",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:shiraz_palace",
+      "required": false
+    },
+    {
+      "id": "epic:witch_hut",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_desert",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mansion_snowy",
       "required": false
     }
   ]

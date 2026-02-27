@@ -65,11 +65,11 @@
       "required": false
     },
     {
-      "id": "underwater_village:ruins",
+      "id": "underwater_village:library",
       "required": false
     },
     {
-      "id": "underwater_village:library",
+      "id": "underwater_village:ruins",
       "required": false
     }
   ]

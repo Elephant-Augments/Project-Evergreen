@@ -1,7 +1,11 @@
 {
   "values": [
     {
-      "id": "additionalstructures:standing_spruce_log",
+      "id": "additionalstructures:fallen_spruce_tree_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:fallen_spruce_tree_2",
       "required": false
     },
     {
@@ -13,11 +17,7 @@
       "required": false
     },
     {
-      "id": "additionalstructures:fallen_spruce_tree_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:fallen_spruce_tree_2",
+      "id": "additionalstructures:standing_spruce_log",
       "required": false
     },
     {
@@ -73,11 +73,11 @@
       "required": false
     },
     {
-      "id": "luistercorp:fallen_log_spruce",
+      "id": "luistercorp:fallen_log_mega_spruce",
       "required": false
     },
     {
-      "id": "luistercorp:fallen_log_mega_spruce",
+      "id": "luistercorp:fallen_log_spruce",
       "required": false
     },
     {
@@ -85,15 +85,11 @@
       "required": false
     },
     {
-      "id": "mvs:nature/spruce_tree",
-      "required": false
-    },
-    {
       "id": "mvs:dead_tree/spruce",
       "required": false
     },
     {
-      "id": "mvs:spruce_tree",
+      "id": "mvs:nature/spruce_tree",
       "required": false
     },
     {
@@ -101,11 +97,11 @@
       "required": false
     },
     {
-      "id": "nova_structures:creeping_crypt",
+      "id": "mvs:spruce_tree",
       "required": false
     },
     {
-      "id": "nova_structures:remnant_taiga_castle",
+      "id": "nova_structures:creeping_crypt",
       "required": false
     },
     {
@@ -113,11 +109,15 @@
       "required": false
     },
     {
+      "id": "nova_structures:remnant_taiga_castle",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:mansion_taiga",
       "required": false
     },
     {
-      "id": "repurposed_structures:temple_taiga",
+      "id": "repurposed_structures:outpost_giant_tree_taiga",
       "required": false
     },
     {
@@ -125,7 +125,7 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:outpost_giant_tree_taiga",
+      "id": "repurposed_structures:temple_taiga",
       "required": false
     },
     {
@@ -137,11 +137,11 @@
       "required": false
     },
     {
-      "id": "structory:taiga_ruin_underground",
+      "id": "structory:taiga_ruin_surface",
       "required": false
     },
     {
-      "id": "structory:taiga_ruin_surface",
+      "id": "structory:taiga_ruin_underground",
       "required": false
     },
     {
@@ -157,14 +157,6 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:pillager_outpost_old_growth_taiga",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:pillager_outpost_taiga",
-      "required": false
-    },
-    {
       "id": "towns_and_towers:exclusives/pillager_outpost_tudor",
       "required": false
     },
@@ -173,7 +165,15 @@
       "required": false
     },
     {
+      "id": "towns_and_towers:pillager_outpost_old_growth_taiga",
+      "required": false
+    },
+    {
       "id": "towns_and_towers:pillager_outpost_swamp",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_taiga",
       "required": false
     },
     {
@@ -205,11 +205,11 @@
       "required": false
     },
     {
-      "id": "trek:overworld/rare/pillager_mansion",
+      "id": "trek:overworld/medium/strange_house",
       "required": false
     },
     {
-      "id": "trek:overworld/medium/strange_house",
+      "id": "trek:overworld/rare/pillager_mansion",
       "required": false
     }
   ]

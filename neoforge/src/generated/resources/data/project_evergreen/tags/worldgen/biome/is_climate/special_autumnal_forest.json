@@ -21,11 +21,11 @@
       "required": false
     },
     {
-      "id": "natures_spirit:maple_woodlands",
+      "id": "natures_spirit:aspen_forest",
       "required": false
     },
     {
-      "id": "natures_spirit:aspen_forest",
+      "id": "natures_spirit:maple_woodlands",
       "required": false
     },
     {

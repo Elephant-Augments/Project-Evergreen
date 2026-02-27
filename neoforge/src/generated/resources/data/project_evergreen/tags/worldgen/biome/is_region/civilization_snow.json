@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "#project_evergreen:is_climate/plains_grassy_snow",
+      "id": "#project_evergreen:is_climate/forest_sparse_coniferous_snow",
       "required": false
     },
     {
-      "id": "#project_evergreen:is_climate/forest_sparse_coniferous_snow",
+      "id": "#project_evergreen:is_climate/plains_grassy_snow",
       "required": false
     }
   ]

@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "minecraft:warm_ocean",
+      "id": "minecraft:lukewarm_ocean",
       "required": false
     },
     {
-      "id": "minecraft:lukewarm_ocean",
+      "id": "minecraft:warm_ocean",
       "required": false
     },
     {

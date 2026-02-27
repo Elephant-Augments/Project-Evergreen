@@ -17,6 +17,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:eucalyptus_forest",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:rainforest",
       "required": false
     },
@@ -25,15 +29,11 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:eucalyptus_forest",
+      "id": "terralith:amethyst_rainforest",
       "required": false
     },
     {
       "id": "terralith:tropical_jungle",
-      "required": false
-    },
-    {
-      "id": "terralith:amethyst_rainforest",
       "required": false
     },
     {
@@ -45,15 +45,15 @@
       "required": false
     },
     {
+      "id": "wythers:eucalyptus_deanei_forest",
+      "required": false
+    },
+    {
       "id": "wythers:eucalyptus_jungle",
       "required": false
     },
     {
       "id": "wythers:eucalyptus_jungle_canyon",
-      "required": false
-    },
-    {
-      "id": "wythers:eucalyptus_deanei_forest",
       "required": false
     },
     {
@@ -77,6 +77,10 @@
       "required": false
     },
     {
+      "id": "wythers:jungle_island",
+      "required": false
+    },
+    {
       "id": "wythers:tropical_forest",
       "required": false
     },
@@ -90,10 +94,6 @@
     },
     {
       "id": "wythers:windswept_jungle",
-      "required": false
-    },
-    {
-      "id": "wythers:jungle_island",
       "required": false
     }
   ]

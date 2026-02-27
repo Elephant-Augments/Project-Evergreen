@@ -21,11 +21,11 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:exclusives/village_mediterranean",
+      "id": "towns_and_towers:exclusives/pillager_outpost_mediterranean",
       "required": false
     },
     {
-      "id": "towns_and_towers:exclusives/pillager_outpost_mediterranean",
+      "id": "towns_and_towers:exclusives/village_mediterranean",
       "required": false
     }
   ]

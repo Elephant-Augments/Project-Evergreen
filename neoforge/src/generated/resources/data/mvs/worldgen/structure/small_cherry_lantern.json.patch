@@ -20,8 +20,8 @@
         "is_water_bound": false,
         "is_water_restricted": true,
         "patchable": true,
-        "flatness_check_small": true,
-        "is_cherry_forest": true
+        "is_cherry_forest": true,
+        "flatness_check_small": true
       }
     },
     [

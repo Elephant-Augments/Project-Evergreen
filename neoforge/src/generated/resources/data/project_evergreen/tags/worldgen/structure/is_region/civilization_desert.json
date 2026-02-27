@@ -1,19 +1,19 @@
 {
   "values": [
     {
-      "id": "additionalstructures:oasis_1",
-      "required": false
-    },
-    {
-      "id": "additionalstructures:oasis_2",
-      "required": false
-    },
-    {
       "id": "additionalstructures:desert_pillars_1",
       "required": false
     },
     {
       "id": "additionalstructures:desert_pillars_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:oasis_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:oasis_2",
       "required": false
     },
     {
@@ -57,10 +57,6 @@
       "required": false
     },
     {
-      "id": "feur_extension_desert:sphynx",
-      "required": false
-    },
-    {
       "id": "feur_extension_desert:oasis_big",
       "required": false
     },
@@ -81,15 +77,19 @@
       "required": false
     },
     {
+      "id": "feur_extension_desert:sphynx",
+      "required": false
+    },
+    {
       "id": "formationsoverworld:desert_houses",
       "required": false
     },
     {
-      "id": "humancompanions:terracotta_house",
+      "id": "humancompanions:sandstone_house",
       "required": false
     },
     {
-      "id": "humancompanions:sandstone_house",
+      "id": "humancompanions:terracotta_house",
       "required": false
     },
     {
@@ -101,11 +101,11 @@
       "required": false
     },
     {
-      "id": "idas:desert_camp/desert_camp_red",
+      "id": "idas:desert_camp/desert_camp_orange",
       "required": false
     },
     {
-      "id": "idas:desert_camp/desert_camp_orange",
+      "id": "idas:desert_camp/desert_camp_red",
       "required": false
     },
     {
@@ -113,11 +113,11 @@
       "required": false
     },
     {
-      "id": "idas:desert_market/desert_market_red",
+      "id": "idas:desert_market/desert_market_orange",
       "required": false
     },
     {
-      "id": "idas:desert_market/desert_market_orange",
+      "id": "idas:desert_market/desert_market_red",
       "required": false
     },
     {
@@ -133,11 +133,11 @@
       "required": false
     },
     {
-      "id": "integrated_villages:oasis_village",
+      "id": "integrated_villages:kutcha_village",
       "required": false
     },
     {
-      "id": "integrated_villages:kutcha_village",
+      "id": "integrated_villages:oasis_village",
       "required": false
     },
     {
@@ -153,15 +153,11 @@
       "required": false
     },
     {
-      "id": "more_critters:collector_wagon_desert",
-      "required": false
-    },
-    {
       "id": "more_critters:abandoned_bunbug_farm",
       "required": false
     },
     {
-      "id": "mostructures:sphinx",
+      "id": "more_critters:collector_wagon_desert",
       "required": false
     },
     {
@@ -169,27 +165,11 @@
       "required": false
     },
     {
-      "id": "mvs:houses/desert_house",
-      "required": false
-    },
-    {
-      "id": "mvs:well/small_copper_well",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/desert_pump",
-      "required": false
-    },
-    {
-      "id": "mvs:well/wells/desert_well",
+      "id": "mostructures:sphinx",
       "required": false
     },
     {
       "id": "mvs:desert_house",
-      "required": false
-    },
-    {
-      "id": "mvs:small_copper_well",
       "required": false
     },
     {
@@ -198,6 +178,26 @@
     },
     {
       "id": "mvs:desert_well",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/desert_house",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/desert_pump",
+      "required": false
+    },
+    {
+      "id": "mvs:small_copper_well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/small_copper_well",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/desert_well",
       "required": false
     },
     {
@@ -213,11 +213,11 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:village_badlands",
+      "id": "repurposed_structures:ruins_land_hot",
       "required": false
     },
     {
-      "id": "repurposed_structures:ruins_land_hot",
+      "id": "repurposed_structures:village_badlands",
       "required": false
     },
     {
@@ -249,14 +249,6 @@
       "required": false
     },
     {
-      "id": "u_desert:oasis",
-      "required": false
-    },
-    {
-      "id": "u_desert:desert/archeology/ruin/well",
-      "required": false
-    },
-    {
       "id": "u_desert:desert/ambient/cactus/fork",
       "required": false
     },
@@ -270,6 +262,14 @@
     },
     {
       "id": "u_desert:desert/ambient/oasis/lively",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/archeology/ruin/well",
+      "required": false
+    },
+    {
+      "id": "u_desert:oasis",
       "required": false
     },
     {

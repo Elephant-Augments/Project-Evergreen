@@ -5,7 +5,7 @@
       "path": "/temp_properties",
       "value": {
         "id": "dungeons_arise:thornborn_towers",
-        "size": "LARGE",
+        "size": "SPRAWLING",
         "heightmap": "AIRBORN",
         "dimension": "#minecraft:is_overworld",
         "region": "#project_evergreen:is_region/wilderness_deciduous",
@@ -20,8 +20,8 @@
         "is_water_bound": false,
         "is_water_restricted": false,
         "patchable": true,
-        "flatness_check_large": true,
-        "flatness_check_sprawling": true
+        "flatness_check_sprawling": true,
+        "flatness_check_large": true
       }
     },
     [
@@ -263,7 +263,7 @@
     {
       "op": "add",
       "path": "/terrain_height_radius_check",
-      "value": 3
+      "value": 5
     },
     {
       "op": "paste",

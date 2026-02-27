@@ -17,11 +17,11 @@
       "required": false
     },
     {
-      "id": "wythers:deep_desert",
+      "id": "wythers:danakil_desert",
       "required": false
     },
     {
-      "id": "wythers:danakil_desert",
+      "id": "wythers:deep_desert",
       "required": false
     },
     {

@@ -17,6 +17,10 @@
       "required": false
     },
     {
+      "id": "additionalstructures:illager_house_1",
+      "required": false
+    },
+    {
       "id": "additionalstructures:spawn_altar_1",
       "required": false
     },
@@ -33,55 +37,11 @@
       "required": false
     },
     {
-      "id": "additionalstructures:illager_house_1",
-      "required": false
-    },
-    {
       "id": "additionalstructures:suspicious_gravel_patch_1",
       "required": false
     },
     {
       "id": "additionalstructures:suspicious_gravel_patch_2",
-      "required": false
-    },
-    {
-      "id": "ati_structures:overgrown_outpost",
-      "required": false
-    },
-    {
-      "id": "ati_structures:steam_house",
-      "required": false
-    },
-    {
-      "id": "ati_structures:quarry",
-      "required": false
-    },
-    {
-      "id": "ati_structures:ruined_castle",
-      "required": false
-    },
-    {
-      "id": "ati_structures:marble_chateau",
-      "required": false
-    },
-    {
-      "id": "ati_structures:tavern",
-      "required": false
-    },
-    {
-      "id": "ati_structures:illager_homestead",
-      "required": false
-    },
-    {
-      "id": "ati_structures:illager_tower",
-      "required": false
-    },
-    {
-      "id": "ati_structures:nomadic_camp",
-      "required": false
-    },
-    {
-      "id": "ati_structures:small_keep",
       "required": false
     },
     {
@@ -93,7 +53,43 @@
       "required": false
     },
     {
-      "id": "betterarcheology:villager_grave",
+      "id": "ati_structures:illager_homestead",
+      "required": false
+    },
+    {
+      "id": "ati_structures:illager_tower",
+      "required": false
+    },
+    {
+      "id": "ati_structures:marble_chateau",
+      "required": false
+    },
+    {
+      "id": "ati_structures:nomadic_camp",
+      "required": false
+    },
+    {
+      "id": "ati_structures:overgrown_outpost",
+      "required": false
+    },
+    {
+      "id": "ati_structures:quarry",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ruined_castle",
+      "required": false
+    },
+    {
+      "id": "ati_structures:small_keep",
+      "required": false
+    },
+    {
+      "id": "ati_structures:steam_house",
+      "required": false
+    },
+    {
+      "id": "ati_structures:tavern",
       "required": false
     },
     {
@@ -117,6 +113,10 @@
       "required": false
     },
     {
+      "id": "betterarcheology:villager_grave",
+      "required": false
+    },
+    {
       "id": "betterdungeons:zombie_dungeon",
       "required": false
     },
@@ -125,7 +125,7 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:ruinedpurpleroom",
+      "id": "combat_structures_update:mansion",
       "required": false
     },
     {
@@ -137,19 +137,19 @@
       "required": false
     },
     {
+      "id": "combat_structures_update:ravagerpen",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:ruinedpurpleroom",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:tudor_castle",
       "required": false
     },
     {
       "id": "combat_structures_update:turdor_watchtower",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:ravagerpen",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:mansion",
       "required": false
     },
     {
@@ -161,11 +161,11 @@
       "required": false
     },
     {
-      "id": "create_ltab:thecastle",
+      "id": "create_ltab:the_caretakersbunker",
       "required": false
     },
     {
-      "id": "create_ltab:the_caretakersbunker",
+      "id": "create_ltab:thecastle",
       "required": false
     },
     {
@@ -193,11 +193,15 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:create_ruined_castle",
+      "required": false
+    },
+    {
       "id": "create_structures_arise:createhouse",
       "required": false
     },
     {
-      "id": "create_structures_arise:create_ruined_castle",
+      "id": "custom:rat",
       "required": false
     },
     {
@@ -206,10 +210,6 @@
     },
     {
       "id": "custom:wolf_hideout",
-      "required": false
-    },
-    {
-      "id": "custom:rat",
       "required": false
     },
     {
@@ -257,11 +257,11 @@
       "required": false
     },
     {
-      "id": "explorify:ruins",
+      "id": "explorify:campsite",
       "required": false
     },
     {
-      "id": "explorify:campsite",
+      "id": "explorify:ruins",
       "required": false
     },
     {
@@ -273,15 +273,11 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:offering",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:tower_remnant",
-      "required": false
-    },
-    {
       "id": "formationsoverworld:cobble_hole",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:offering",
       "required": false
     },
     {
@@ -289,7 +285,15 @@
       "required": false
     },
     {
+      "id": "formationsoverworld:tower_remnant",
+      "required": false
+    },
+    {
       "id": "goblinsanddungeons:large_goblin_camp",
+      "required": false
+    },
+    {
+      "id": "goblinsanddungeons:medium_goblin_camp",
       "required": false
     },
     {
@@ -301,15 +305,7 @@
       "required": false
     },
     {
-      "id": "goblinsanddungeons:medium_goblin_camp",
-      "required": false
-    },
-    {
       "id": "goety:dark_manor",
-      "required": false
-    },
-    {
-      "id": "idas:ruins_of_the_deep",
       "required": false
     },
     {
@@ -318,14 +314,6 @@
     },
     {
       "id": "idas:pillager_camp",
-      "required": false
-    },
-    {
-      "id": "idas:tinkers_citadel",
-      "required": false
-    },
-    {
-      "id": "idas:wizard_tower",
       "required": false
     },
     {
@@ -338,6 +326,18 @@
     },
     {
       "id": "idas:ruined_well",
+      "required": false
+    },
+    {
+      "id": "idas:ruins_of_the_deep",
+      "required": false
+    },
+    {
+      "id": "idas:tinkers_citadel",
+      "required": false
+    },
+    {
+      "id": "idas:wizard_tower",
       "required": false
     },
     {
@@ -377,7 +377,19 @@
       "required": false
     },
     {
+      "id": "mvs:castle_ruins",
+      "required": false
+    },
+    {
+      "id": "mvs:fox_hut",
+      "required": false
+    },
+    {
       "id": "mvs:other_decoration/fox_hut",
+      "required": false
+    },
+    {
+      "id": "mvs:red_tower",
       "required": false
     },
     {
@@ -393,15 +405,7 @@
       "required": false
     },
     {
-      "id": "mvs:statue_ruins",
-      "required": false
-    },
-    {
-      "id": "mvs:fox_hut",
-      "required": false
-    },
-    {
-      "id": "mvs:red_tower",
+      "id": "mvs:small_pillager_tower",
       "required": false
     },
     {
@@ -409,15 +413,7 @@
       "required": false
     },
     {
-      "id": "mvs:castle_ruins",
-      "required": false
-    },
-    {
-      "id": "mvs:small_pillager_tower",
-      "required": false
-    },
-    {
-      "id": "mythsandlegends:old_camp",
+      "id": "mvs:statue_ruins",
       "required": false
     },
     {
@@ -425,7 +421,7 @@
       "required": false
     },
     {
-      "id": "nova_structures:remnant_zombie_horse_ranch",
+      "id": "mythsandlegends:old_camp",
       "required": false
     },
     {
@@ -441,6 +437,10 @@
       "required": false
     },
     {
+      "id": "nova_structures:remnant_zombie_horse_ranch",
+      "required": false
+    },
+    {
       "id": "nova_structures:undead_crypt",
       "required": false
     },
@@ -453,6 +453,10 @@
       "required": false
     },
     {
+      "id": "philipsruins:ancient_dungeon",
+      "required": false
+    },
+    {
       "id": "philipsruins:ancient_ruins",
       "required": false
     },
@@ -461,15 +465,11 @@
       "required": false
     },
     {
-      "id": "philipsruins:ancient_dungeon",
+      "id": "philipsruins:field_stone_ruins_rocks",
       "required": false
     },
     {
       "id": "philipsruins:level_one_ruins",
-      "required": false
-    },
-    {
-      "id": "philipsruins:field_stone_ruins_rocks",
       "required": false
     },
     {
@@ -505,6 +505,10 @@
       "required": false
     },
     {
+      "id": "terramity:mausoleum",
+      "required": false
+    },
+    {
       "id": "terramity:overgrown_facility",
       "required": false
     },
@@ -517,14 +521,6 @@
       "required": false
     },
     {
-      "id": "terramity:infested_laboratory",
-      "required": false
-    },
-    {
-      "id": "terramity:mausoleum",
-      "required": false
-    },
-    {
       "id": "threateningly_mobs:zombiewarrior_outpost",
       "required": false
     },
@@ -533,15 +529,19 @@
       "required": false
     },
     {
-      "id": "trek:overworld/common/well_pillager_small",
-      "required": false
-    },
-    {
       "id": "trek:overworld/common/cooking_pork",
       "required": false
     },
     {
+      "id": "trek:overworld/common/well_pillager_small",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/base_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/fort",
       "required": false
     },
     {
@@ -561,6 +561,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/medium/tour",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/well_pillager_medium",
       "required": false
     },
@@ -577,23 +581,7 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/tour",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/fort",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:vigilante_fort",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:lumpy_tower",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:infested_castle",
+      "id": "wabi_sabi_structures:abandoned_small_castle",
       "required": false
     },
     {
@@ -601,11 +589,19 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:abandoned_small_castle",
+      "id": "wabi_sabi_structures:infested_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:lumpy_tower",
       "required": false
     },
     {
       "id": "wabi_sabi_structures:old_fort",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:vigilante_fort",
       "required": false
     }
   ]

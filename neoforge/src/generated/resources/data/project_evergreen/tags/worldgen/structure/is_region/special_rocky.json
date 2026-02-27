@@ -33,15 +33,11 @@
       "required": false
     },
     {
-      "id": "mvs:nature/boulder",
-      "required": false
-    },
-    {
       "id": "mvs:boulder",
       "required": false
     },
     {
-      "id": "mvs:houses/deepslate_house",
+      "id": "mvs:dark_oak",
       "required": false
     },
     {
@@ -57,7 +53,15 @@
       "required": false
     },
     {
-      "id": "mvs:dark_oak",
+      "id": "mvs:deepslate_house",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/deepslate_house",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/boulder",
       "required": false
     },
     {
@@ -66,10 +70,6 @@
     },
     {
       "id": "mvs:spruce",
-      "required": false
-    },
-    {
-      "id": "mvs:deepslate_house",
       "required": false
     },
     {

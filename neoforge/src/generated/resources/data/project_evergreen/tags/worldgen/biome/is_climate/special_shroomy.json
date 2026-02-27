@@ -13,19 +13,19 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:fungal_fen",
-      "required": false
-    },
-    {
       "id": "regions_unexplored:blackwood_taiga",
       "required": false
     },
     {
-      "id": "terralith:warped_mesa",
+      "id": "regions_unexplored:fungal_fen",
       "required": false
     },
     {
       "id": "terralith:orchid_swamp",
+      "required": false
+    },
+    {
+      "id": "terralith:warped_mesa",
       "required": false
     },
     {

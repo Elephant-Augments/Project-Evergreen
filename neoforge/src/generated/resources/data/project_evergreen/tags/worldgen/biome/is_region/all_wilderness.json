@@ -1,7 +1,19 @@
 {
   "values": [
     {
+      "id": "#project_evergreen:is_climate/desert_dunes_barren",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/desert_red_barren",
+      "required": false
+    },
+    {
       "id": "#project_evergreen:is_climate/forest_dense_coniferous",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/forest_dense_coniferous_snow",
       "required": false
     },
     {
@@ -13,15 +25,11 @@
       "required": false
     },
     {
-      "id": "#project_evergreen:is_climate/desert_dunes_barren",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/desert_red_barren",
-      "required": false
-    },
-    {
       "id": "#project_evergreen:is_climate/plains_shrubby_arid",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/plains_shrubby_snow",
       "required": false
     },
     {
@@ -33,23 +41,7 @@
       "required": false
     },
     {
-      "id": "#project_evergreen:is_climate/plains_shrubby_snow",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/forest_dense_coniferous_snow",
-      "required": false
-    },
-    {
       "id": "#project_evergreen:is_climate/special_autumnal_forest",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/special_mediterranean_uninviting",
-      "required": false
-    },
-    {
-      "id": "#project_evergreen:is_climate/special_oriental_uninviting",
       "required": false
     },
     {
@@ -62,6 +54,14 @@
     },
     {
       "id": "#project_evergreen:is_climate/special_craggy_warm",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_mediterranean_uninviting",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_oriental_uninviting",
       "required": false
     }
   ]

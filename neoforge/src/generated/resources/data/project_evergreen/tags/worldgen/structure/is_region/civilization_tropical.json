@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "additionalstructures:standing_jungle_log",
+      "id": "additionalstructures:jungle_log",
       "required": false
     },
     {
-      "id": "additionalstructures:jungle_log",
+      "id": "additionalstructures:standing_jungle_log",
       "required": false
     },
     {
@@ -49,11 +49,11 @@
       "required": false
     },
     {
-      "id": "farmers_structures:quark_jungle",
+      "id": "farmers_structures:cacaos",
       "required": false
     },
     {
-      "id": "farmers_structures:cacaos",
+      "id": "farmers_structures:quark_jungle",
       "required": false
     },
     {
@@ -85,15 +85,15 @@
       "required": false
     },
     {
-      "id": "idas:treetop_tavern",
-      "required": false
-    },
-    {
       "id": "idas:ancient_statue/ancient_statue_jungle",
       "required": false
     },
     {
       "id": "idas:lumber_camp/lumber_camp_jungle",
+      "required": false
+    },
+    {
+      "id": "idas:treetop_tavern",
       "required": false
     },
     {
@@ -121,11 +121,11 @@
       "required": false
     },
     {
-      "id": "mvs:other_decoration/villager_statue",
+      "id": "mvs:jungle_log_pile",
       "required": false
     },
     {
-      "id": "mvs:well/wells/jungle_well",
+      "id": "mvs:jungle_well",
       "required": false
     },
     {
@@ -137,11 +137,7 @@
       "required": false
     },
     {
-      "id": "mvs:villager_statue",
-      "required": false
-    },
-    {
-      "id": "mvs:jungle_well",
+      "id": "mvs:other_decoration/villager_statue",
       "required": false
     },
     {
@@ -149,19 +145,19 @@
       "required": false
     },
     {
-      "id": "mvs:jungle_log_pile",
-      "required": false
-    },
-    {
       "id": "mvs:stone_fountain",
       "required": false
     },
     {
-      "id": "natures_spirit:village_coconut",
+      "id": "mvs:villager_statue",
       "required": false
     },
     {
-      "id": "nova_structures:well_jungle",
+      "id": "mvs:well/wells/jungle_well",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:village_coconut",
       "required": false
     },
     {
@@ -170,6 +166,10 @@
     },
     {
       "id": "nova_structures:village_jungle",
+      "required": false
+    },
+    {
+      "id": "nova_structures:well_jungle",
       "required": false
     },
     {

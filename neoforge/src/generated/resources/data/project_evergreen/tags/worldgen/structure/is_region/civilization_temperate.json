@@ -17,6 +17,10 @@
       "required": false
     },
     {
+      "id": "ancientstructures:german_town",
+      "required": false
+    },
+    {
       "id": "ancientstructures:lone_german_house",
       "required": false
     },
@@ -25,15 +29,11 @@
       "required": false
     },
     {
-      "id": "ancientstructures:german_town",
+      "id": "ati_structures:old_home",
       "required": false
     },
     {
       "id": "ati_structures:storage_shack",
-      "required": false
-    },
-    {
-      "id": "ati_structures:old_home",
       "required": false
     },
     {
@@ -53,6 +53,10 @@
       "required": false
     },
     {
+      "id": "create_ltab:oak_house",
+      "required": false
+    },
+    {
       "id": "create_ltab:plains_big",
       "required": false
     },
@@ -62,10 +66,6 @@
     },
     {
       "id": "create_ltab:quarry",
-      "required": false
-    },
-    {
-      "id": "create_ltab:oak_house",
       "required": false
     },
     {
@@ -105,11 +105,11 @@
       "required": false
     },
     {
-      "id": "explorify:watchtower/plains",
+      "id": "explorify:campsite",
       "required": false
     },
     {
-      "id": "explorify:campsite",
+      "id": "explorify:farmstead",
       "required": false
     },
     {
@@ -117,7 +117,7 @@
       "required": false
     },
     {
-      "id": "explorify:farmstead",
+      "id": "explorify:watchtower/plains",
       "required": false
     },
     {
@@ -129,11 +129,11 @@
       "required": false
     },
     {
-      "id": "farmers_structures:aquacultures_common",
+      "id": "farmers_structures:aquacultures_cod",
       "required": false
     },
     {
-      "id": "farmers_structures:aquacultures_cod",
+      "id": "farmers_structures:aquacultures_common",
       "required": false
     },
     {
@@ -149,19 +149,19 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:stone_tower",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:wagon",
-      "required": false
-    },
-    {
       "id": "formationsoverworld:small_house",
       "required": false
     },
     {
+      "id": "formationsoverworld:stone_tower",
+      "required": false
+    },
+    {
       "id": "formationsoverworld:tiny_house",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:wagon",
       "required": false
     },
     {
@@ -173,27 +173,7 @@
       "required": false
     },
     {
-      "id": "idas:train_ruins",
-      "required": false
-    },
-    {
-      "id": "idas:castle",
-      "required": false
-    },
-    {
-      "id": "idas:washing_camp",
-      "required": false
-    },
-    {
-      "id": "idas:tinkers_workshop",
-      "required": false
-    },
-    {
-      "id": "idas:enchantingtower",
-      "required": false
-    },
-    {
-      "id": "idas:redhorn_guild",
+      "id": "idas:botanist",
       "required": false
     },
     {
@@ -201,11 +181,19 @@
       "required": false
     },
     {
+      "id": "idas:castle",
+      "required": false
+    },
+    {
       "id": "idas:cottage",
       "required": false
     },
     {
-      "id": "idas:botanist",
+      "id": "idas:dig_site/dig_site",
+      "required": false
+    },
+    {
+      "id": "idas:enchantingtower",
       "required": false
     },
     {
@@ -213,11 +201,23 @@
       "required": false
     },
     {
+      "id": "idas:redhorn_guild",
+      "required": false
+    },
+    {
       "id": "idas:ruined_church",
       "required": false
     },
     {
-      "id": "idas:dig_site/dig_site",
+      "id": "idas:tinkers_workshop",
+      "required": false
+    },
+    {
+      "id": "idas:train_ruins",
+      "required": false
+    },
+    {
+      "id": "idas:washing_camp",
       "required": false
     },
     {
@@ -241,11 +241,11 @@
       "required": false
     },
     {
-      "id": "integrated_villages:mossy_mounds",
+      "id": "integrated_villages:marketstead_village",
       "required": false
     },
     {
-      "id": "integrated_villages:marketstead_village",
+      "id": "integrated_villages:mossy_mounds",
       "required": false
     },
     {
@@ -254,6 +254,10 @@
     },
     {
       "id": "loot_n_explore:plains_inn",
+      "required": false
+    },
+    {
+      "id": "medieval_buildings:fort",
       "required": false
     },
     {
@@ -269,11 +273,11 @@
       "required": false
     },
     {
-      "id": "medieval_buildings:fort",
+      "id": "more_critters:collector_wagon_plains",
       "required": false
     },
     {
-      "id": "more_critters:collector_wagon_plains",
+      "id": "mostructures:plains_abandoned_church",
       "required": false
     },
     {
@@ -285,7 +289,35 @@
       "required": false
     },
     {
-      "id": "mostructures:plains_abandoned_church",
+      "id": "mvs:bench",
+      "required": false
+    },
+    {
+      "id": "mvs:cathedral",
+      "required": false
+    },
+    {
+      "id": "mvs:fire_camp",
+      "required": false
+    },
+    {
+      "id": "mvs:horse_campsite",
+      "required": false
+    },
+    {
+      "id": "mvs:horse_pen",
+      "required": false
+    },
+    {
+      "id": "mvs:house",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/tall_house",
+      "required": false
+    },
+    {
+      "id": "mvs:lamp_chest",
       "required": false
     },
     {
@@ -301,7 +333,7 @@
       "required": false
     },
     {
-      "id": "mvs:cathedral",
+      "id": "mvs:oak_well",
       "required": false
     },
     {
@@ -309,27 +341,7 @@
       "required": false
     },
     {
-      "id": "mvs:well/small_well",
-      "required": false
-    },
-    {
-      "id": "mvs:well/wells/oak_well",
-      "required": false
-    },
-    {
-      "id": "mvs:well/small_tower_well",
-      "required": false
-    },
-    {
-      "id": "mvs:other_decoration/lamp_chest",
-      "required": false
-    },
-    {
       "id": "mvs:other_decoration/fire_camp",
-      "required": false
-    },
-    {
-      "id": "mvs:horse_campsite",
       "required": false
     },
     {
@@ -337,27 +349,19 @@
       "required": false
     },
     {
-      "id": "mvs:houses/tall_house",
-      "required": false
-    },
-    {
-      "id": "mvs:fire_camp",
-      "required": false
-    },
-    {
-      "id": "mvs:horse_pen",
-      "required": false
-    },
-    {
-      "id": "mvs:tall_house",
-      "required": false
-    },
-    {
-      "id": "mvs:house",
+      "id": "mvs:other_decoration/lamp_chest",
       "required": false
     },
     {
       "id": "mvs:out_house",
+      "required": false
+    },
+    {
+      "id": "mvs:paths",
+      "required": false
+    },
+    {
+      "id": "mvs:shed",
       "required": false
     },
     {
@@ -369,7 +373,7 @@
       "required": false
     },
     {
-      "id": "mvs:paths",
+      "id": "mvs:small_tower_well",
       "required": false
     },
     {
@@ -377,23 +381,19 @@
       "required": false
     },
     {
-      "id": "mvs:oak_well",
+      "id": "mvs:tall_house",
       "required": false
     },
     {
-      "id": "mvs:small_tower_well",
+      "id": "mvs:well/small_tower_well",
       "required": false
     },
     {
-      "id": "mvs:lamp_chest",
+      "id": "mvs:well/small_well",
       "required": false
     },
     {
-      "id": "mvs:bench",
-      "required": false
-    },
-    {
-      "id": "mvs:shed",
+      "id": "mvs:well/wells/oak_well",
       "required": false
     },
     {
@@ -429,10 +429,6 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/street_vendor_stall",
-      "required": false
-    },
-    {
       "id": "trek:overworld/medium/destroyed_house",
       "required": false
     },
@@ -442,6 +438,10 @@
     },
     {
       "id": "trek:overworld/medium/plains_cottage",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/street_vendor_stall",
       "required": false
     },
     {
@@ -457,27 +457,11 @@
       "required": false
     },
     {
-      "id": "verdantvibes:spruce_overgrown_hut",
-      "required": false
-    },
-    {
       "id": "verdantvibes:oak_overgrown_hut",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:water_tower_oak",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:potato_patch",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:hide_tannery_oak",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:carrot_patch",
+      "id": "verdantvibes:spruce_overgrown_hut",
       "required": false
     },
     {
@@ -485,7 +469,23 @@
       "required": false
     },
     {
+      "id": "wabi_sabi_structures:carrot_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hide_tannery_oak",
+      "required": false
+    },
+    {
       "id": "wabi_sabi_structures:old_stable",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:potato_patch",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:water_tower_oak",
       "required": false
     },
     {

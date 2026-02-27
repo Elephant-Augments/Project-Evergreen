@@ -1,10 +1,6 @@
 {
   "values": [
     {
-      "id": "additionalstructures:spawn_altar_7",
-      "required": false
-    },
-    {
       "id": "additionalstructures:fallen_dead_tree_1",
       "required": false
     },
@@ -17,11 +13,19 @@
       "required": false
     },
     {
+      "id": "additionalstructures:ruin_1",
+      "required": false
+    },
+    {
       "id": "additionalstructures:skeleton_skull",
       "required": false
     },
     {
-      "id": "additionalstructures:ruin_1",
+      "id": "additionalstructures:spawn_altar_7",
+      "required": false
+    },
+    {
+      "id": "ati_structures:arachnid_dwelling",
       "required": false
     },
     {
@@ -29,15 +33,19 @@
       "required": false
     },
     {
-      "id": "ati_structures:wither_keep",
-      "required": false
-    },
-    {
       "id": "ati_structures:herobrine_stronghold",
       "required": false
     },
     {
-      "id": "ati_structures:arachnid_dwelling",
+      "id": "ati_structures:wither_keep",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:clown_caravan_taiga",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_tower_taiga",
       "required": false
     },
     {
@@ -85,15 +93,11 @@
       "required": false
     },
     {
-      "id": "born_in_chaos_v1:clown_caravan_taiga",
-      "required": false
-    },
-    {
-      "id": "born_in_chaos_v1:dark_tower_taiga",
-      "required": false
-    },
-    {
       "id": "dungeons_enhanced:stables",
+      "required": false
+    },
+    {
+      "id": "goety:black_assembly",
       "required": false
     },
     {
@@ -102,10 +106,6 @@
     },
     {
       "id": "goety:graveyard",
-      "required": false
-    },
-    {
-      "id": "goety:black_assembly",
       "required": false
     },
     {
@@ -121,11 +121,11 @@
       "required": false
     },
     {
-      "id": "idas:haunted_manor",
+      "id": "idas:dark_tower",
       "required": false
     },
     {
-      "id": "idas:dark_tower",
+      "id": "idas:haunted_manor",
       "required": false
     },
     {
@@ -133,11 +133,11 @@
       "required": false
     },
     {
-      "id": "mvs:stone_pillars",
+      "id": "mvs:ruins/stone_pillars",
       "required": false
     },
     {
-      "id": "mvs:ruins/stone_pillars",
+      "id": "mvs:stone_pillars",
       "required": false
     },
     {
@@ -177,11 +177,11 @@
       "required": false
     },
     {
-      "id": "philipsruins:lost_soul_dungeon",
+      "id": "philipsruins:lost_soul_city",
       "required": false
     },
     {
-      "id": "philipsruins:lost_soul_city",
+      "id": "philipsruins:lost_soul_dungeon",
       "required": false
     },
     {
@@ -197,10 +197,6 @@
       "required": false
     },
     {
-      "id": "structory:old_manor",
-      "required": false
-    },
-    {
       "id": "structory:abandoned_chapel",
       "required": false
     },
@@ -209,15 +205,19 @@
       "required": false
     },
     {
+      "id": "structory:old_manor",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/graveyard",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:gallows",
+      "id": "wabi_sabi_structures:effigy_patch_forest",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:effigy_patch_forest",
+      "id": "wabi_sabi_structures:gallows",
       "required": false
     }
   ]

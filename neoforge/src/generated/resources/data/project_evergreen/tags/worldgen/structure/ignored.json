@@ -221,10 +221,6 @@
       "required": false
     },
     {
-      "id": "archaeology_ruins:ruined_ocean_monument",
-      "required": false
-    },
-    {
       "id": "arphex:altar_spawn",
       "required": false
     },
@@ -257,19 +253,11 @@
       "required": false
     },
     {
-      "id": "ati_structures:lighthouse",
-      "required": false
-    },
-    {
       "id": "betterdungeons:small_nether_dungeon",
       "required": false
     },
     {
       "id": "block_factorys_bosses:underworld_arena",
-      "required": false
-    },
-    {
-      "id": "born_in_chaos_v1:dark_tower_forest",
       "required": false
     },
     {
@@ -294,10 +282,6 @@
     },
     {
       "id": "combat_structures_update:basaltobsidianspike",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:birch_cottage",
       "required": false
     },
     {
@@ -345,10 +329,6 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:ruinedstronghold",
-      "required": false
-    },
-    {
       "id": "combat_structures_update:shulker_end_city",
       "required": false
     },
@@ -362,14 +342,6 @@
     },
     {
       "id": "companions:companions_tent",
-      "required": false
-    },
-    {
-      "id": "create_ltab:birch_structures",
-      "required": false
-    },
-    {
-      "id": "create_ltab:cherry_house",
       "required": false
     },
     {
@@ -505,18 +477,6 @@
       "required": false
     },
     {
-      "id": "hopo:portal/overworld/portal_deepslate",
-      "required": false
-    },
-    {
-      "id": "hopo:portal/overworld/portal_dripstone",
-      "required": false
-    },
-    {
-      "id": "hopo:portal/overworld/portal_lush",
-      "required": false
-    },
-    {
       "id": "idas:ancient_portal/nether_ancient_portal",
       "required": false
     },
@@ -541,10 +501,6 @@
       "required": false
     },
     {
-      "id": "imst:lumberjack/birch_hut",
-      "required": false
-    },
-    {
       "id": "imst:terralith/yurt",
       "required": false
     },
@@ -557,19 +513,11 @@
       "required": false
     },
     {
-      "id": "kattersstructures:cherry_tree",
-      "required": false
-    },
-    {
       "id": "kattersstructures:shroom_cave",
       "required": false
     },
     {
       "id": "kattersstructures:skyrtle",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:village_cherry",
       "required": false
     },
     {
@@ -610,14 +558,6 @@
     },
     {
       "id": "letsdoaddon-structures:warped_vinery",
-      "required": false
-    },
-    {
-      "id": "luistercorp:fallen_log_birch",
-      "required": false
-    },
-    {
-      "id": "luistercorp:fallen_log_cherry",
       "required": false
     },
     {
@@ -678,10 +618,6 @@
     },
     {
       "id": "mtr:nether_temple",
-      "required": false
-    },
-    {
-      "id": "mvs:dark_oak_log_pile",
       "required": false
     },
     {
@@ -793,34 +729,6 @@
       "required": false
     },
     {
-      "id": "nova_structures:firewatch_tower_birch",
-      "required": false
-    },
-    {
-      "id": "nova_structures:firewatch_tower_cherry",
-      "required": false
-    },
-    {
-      "id": "nova_structures:firewatch_tower_dark_oak",
-      "required": false
-    },
-    {
-      "id": "nova_structures:firewatch_tower_forest",
-      "required": false
-    },
-    {
-      "id": "nova_structures:firewatch_tower_jungle",
-      "required": false
-    },
-    {
-      "id": "nova_structures:firewatch_tower_mangrove",
-      "required": false
-    },
-    {
-      "id": "nova_structures:firewatch_tower_swamp",
-      "required": false
-    },
-    {
       "id": "nova_structures:hamlet",
       "required": false
     },
@@ -881,19 +789,7 @@
       "required": false
     },
     {
-      "id": "nova_structures:tavern_birch",
-      "required": false
-    },
-    {
-      "id": "nova_structures:tavern_cherry",
-      "required": false
-    },
-    {
       "id": "nova_structures:tavern_dark_oak",
-      "required": false
-    },
-    {
-      "id": "nova_structures:well_birch",
       "required": false
     },
     {
@@ -1241,10 +1137,6 @@
       "required": false
     },
     {
-      "id": "qrafty:birk_fort",
-      "required": false
-    },
-    {
       "id": "qrafty:bunker",
       "required": false
     },
@@ -1341,10 +1233,6 @@
       "required": false
     },
     {
-      "id": "qrafty:oilrig",
-      "required": false
-    },
-    {
       "id": "qrafty:orbital",
       "required": false
     },
@@ -1414,10 +1302,6 @@
     },
     {
       "id": "repurposed_structures:city_nether",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:mansion_mangrove",
       "required": false
     },
     {
@@ -1538,10 +1422,6 @@
     },
     {
       "id": "repurposed_structures:temple_nether_wasteland",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_cherry",
       "required": false
     },
     {
@@ -1677,42 +1557,6 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/birch_fort",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/cold_red_trade",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/dark_oak_trade",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/small_red_trade",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/island_village_1",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/sleepy_island",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/tower_island",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/villager_island",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/very_rare/floating_farm_large",
-      "required": false
-    },
-    {
       "id": "wabi_sabi_structures:basalt_castle",
       "required": false
     },
@@ -1742,10 +1586,6 @@
     },
     {
       "id": "wabi_sabi_structures:strider_stable",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:sunken_steamboat",
       "required": false
     },
     {

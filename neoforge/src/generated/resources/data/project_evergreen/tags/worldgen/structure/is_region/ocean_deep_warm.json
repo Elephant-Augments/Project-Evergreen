@@ -9,11 +9,11 @@
       "required": false
     },
     {
-      "id": "hopo:underwater_warm_small_ruins",
+      "id": "hopo:underwater/underwater_warm_small_ruins",
       "required": false
     },
     {
-      "id": "hopo:underwater/underwater_warm_small_ruins",
+      "id": "hopo:underwater_warm_small_ruins",
       "required": false
     },
     {
@@ -33,6 +33,10 @@
       "required": false
     },
     {
+      "id": "underwater_village:small_gate",
+      "required": false
+    },
+    {
       "id": "underwater_village:warm_big_gate",
       "required": false
     },
@@ -46,10 +50,6 @@
     },
     {
       "id": "underwater_village:warm_gate",
-      "required": false
-    },
-    {
-      "id": "underwater_village:small_gate",
       "required": false
     }
   ]

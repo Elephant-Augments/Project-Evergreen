@@ -17,11 +17,11 @@
       "required": false
     },
     {
-      "id": "ancientstructures:windmill",
+      "id": "ancientstructures:lone_german_farmer",
       "required": false
     },
     {
-      "id": "ancientstructures:lone_german_farmer",
+      "id": "ancientstructures:windmill",
       "required": false
     },
     {
@@ -49,19 +49,15 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:small_statue",
-      "required": false
-    },
-    {
       "id": "formationsoverworld:hobbit_hole",
       "required": false
     },
     {
-      "id": "humancompanions:oak_house",
+      "id": "formationsoverworld:small_statue",
       "required": false
     },
     {
-      "id": "idas:farmhouse",
+      "id": "humancompanions:oak_house",
       "required": false
     },
     {
@@ -73,15 +69,19 @@
       "required": false
     },
     {
+      "id": "idas:farmhouse",
+      "required": false
+    },
+    {
       "id": "imst:yurt",
       "required": false
     },
     {
-      "id": "kattersstructures:windmill",
+      "id": "kattersstructures:graveyard",
       "required": false
     },
     {
-      "id": "kattersstructures:graveyard",
+      "id": "kattersstructures:windmill",
       "required": false
     },
     {
@@ -113,7 +113,35 @@
       "required": false
     },
     {
+      "id": "mvs:barn",
+      "required": false
+    },
+    {
+      "id": "mvs:big_oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:cartographer_tower",
+      "required": false
+    },
+    {
+      "id": "mvs:haystack",
+      "required": false
+    },
+    {
+      "id": "mvs:houses/barn",
+      "required": false
+    },
+    {
       "id": "mvs:lantern/medium_oak_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:medium_oak_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/big_oak_tree",
       "required": false
     },
     {
@@ -133,30 +161,6 @@
       "required": false
     },
     {
-      "id": "mvs:cartographer_tower",
-      "required": false
-    },
-    {
-      "id": "mvs:nature/big_oak_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:big_oak_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:houses/barn",
-      "required": false
-    },
-    {
-      "id": "mvs:medium_oak_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:haystack",
-      "required": false
-    },
-    {
       "id": "mvs:wheat_grain_bin",
       "required": false
     },
@@ -166,10 +170,6 @@
     },
     {
       "id": "mvs:wooden_wheat_farm",
-      "required": false
-    },
-    {
-      "id": "mvs:barn",
       "required": false
     },
     {
@@ -193,14 +193,6 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:village_meadow",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_sunflower_plains",
-      "required": false
-    },
-    {
       "id": "towns_and_towers:exclusives/village_classic",
       "required": false
     },
@@ -209,7 +201,11 @@
       "required": false
     },
     {
-      "id": "trek:overworld/very_rare/farm_island",
+      "id": "towns_and_towers:village_meadow",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_sunflower_plains",
       "required": false
     },
     {
@@ -226,6 +222,10 @@
     },
     {
       "id": "trek:overworld/very_common/plains",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_rare/farm_island",
       "required": false
     },
     {

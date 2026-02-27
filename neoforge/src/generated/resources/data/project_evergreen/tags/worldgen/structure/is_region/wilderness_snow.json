@@ -33,11 +33,11 @@
       "required": false
     },
     {
-      "id": "born_in_chaos_v1:grave_rotborne",
+      "id": "born_in_chaos_v1:grave_petasi",
       "required": false
     },
     {
-      "id": "born_in_chaos_v1:grave_petasi",
+      "id": "born_in_chaos_v1:grave_rotborne",
       "required": false
     },
     {
@@ -45,11 +45,11 @@
       "required": false
     },
     {
-      "id": "create_ltab:snow_fort",
+      "id": "create_ltab:dungeon_snow",
       "required": false
     },
     {
-      "id": "create_ltab:dungeon_snow",
+      "id": "create_ltab:snow_fort",
       "required": false
     },
     {
@@ -73,11 +73,11 @@
       "required": false
     },
     {
-      "id": "dungeons_plus:snowy_temple",
+      "id": "dungeons_plus:cold_dungeon",
       "required": false
     },
     {
-      "id": "dungeons_plus:cold_dungeon",
+      "id": "dungeons_plus:snowy_temple",
       "required": false
     },
     {
@@ -101,7 +101,7 @@
       "required": false
     },
     {
-      "id": "idas:iceandfire/dread_citadel",
+      "id": "idas:animal_den/polar_bear_den",
       "required": false
     },
     {
@@ -109,7 +109,7 @@
       "required": false
     },
     {
-      "id": "idas:animal_den/polar_bear_den",
+      "id": "idas:iceandfire/dread_citadel",
       "required": false
     },
     {
@@ -157,11 +157,11 @@
       "required": false
     },
     {
-      "id": "nova_structures:stray_fort",
+      "id": "nova_structures:lone_citadel",
       "required": false
     },
     {
-      "id": "nova_structures:lone_citadel",
+      "id": "nova_structures:stray_fort",
       "required": false
     },
     {
@@ -169,11 +169,11 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:pyramid_snowy",
+      "id": "repurposed_structures:outpost_snowy",
       "required": false
     },
     {
-      "id": "repurposed_structures:outpost_snowy",
+      "id": "repurposed_structures:pyramid_snowy",
       "required": false
     },
     {
@@ -186,6 +186,10 @@
     },
     {
       "id": "terramity:snow_fort",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:exclusives/pillager_outpost_classic",
       "required": false
     },
     {
@@ -205,15 +209,11 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:exclusives/pillager_outpost_classic",
+      "id": "trek:overworld/medium/cold_hideout",
       "required": false
     },
     {
       "id": "trek:overworld/medium/lush_ice",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/cold_hideout",
       "required": false
     },
     {

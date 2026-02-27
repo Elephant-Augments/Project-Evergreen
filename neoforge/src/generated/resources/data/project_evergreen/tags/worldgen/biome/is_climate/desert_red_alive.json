@@ -17,15 +17,7 @@
       "required": false
     },
     {
-      "id": "terralith:red_oasis",
-      "required": false
-    },
-    {
       "id": "terralith:arid_highlands",
-      "required": false
-    },
-    {
-      "id": "terralith:savanna_badlands",
       "required": false
     },
     {
@@ -34,6 +26,14 @@
     },
     {
       "id": "terralith:bryce_canyon",
+      "required": false
+    },
+    {
+      "id": "terralith:red_oasis",
+      "required": false
+    },
+    {
+      "id": "terralith:savanna_badlands",
       "required": false
     }
   ]

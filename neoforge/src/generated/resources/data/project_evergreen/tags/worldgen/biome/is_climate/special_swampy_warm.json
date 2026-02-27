@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "dreamwoods:flooded_rainforest",
+      "id": "dreamwoods:bayou",
       "required": false
     },
     {
-      "id": "dreamwoods:bayou",
+      "id": "dreamwoods:flooded_rainforest",
       "required": false
     },
     {
@@ -29,15 +29,15 @@
       "required": false
     },
     {
-      "id": "wythers:bayou",
-      "required": false
-    },
-    {
       "id": "wythers:bamboo_jungle_swamp",
       "required": false
     },
     {
       "id": "wythers:bamboo_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:bayou",
       "required": false
     },
     {

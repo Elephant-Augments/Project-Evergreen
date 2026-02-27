@@ -29,11 +29,11 @@
       "required": false
     },
     {
-      "id": "wythers:icy_volcano",
+      "id": "wythers:icy_crags",
       "required": false
     },
     {
-      "id": "wythers:icy_crags",
+      "id": "wythers:icy_volcano",
       "required": false
     }
   ]

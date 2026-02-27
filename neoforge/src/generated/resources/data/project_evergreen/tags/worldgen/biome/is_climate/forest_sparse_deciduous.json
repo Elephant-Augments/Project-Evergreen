@@ -1,10 +1,6 @@
 {
   "values": [
     {
-      "id": "dreamwoods:spinney",
-      "required": false
-    },
-    {
       "id": "dreamwoods:poplar_grove",
       "required": false
     },
@@ -13,19 +9,11 @@
       "required": false
     },
     {
+      "id": "dreamwoods:spinney",
+      "required": false
+    },
+    {
       "id": "minecraft:flower_forest",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:cypress_fields",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:oak_savanna",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:floral_ridges",
       "required": false
     },
     {
@@ -33,15 +21,19 @@
       "required": false
     },
     {
+      "id": "natures_spirit:cypress_fields",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:floral_ridges",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:oak_savanna",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:orchard",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:temperate_grove",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:sparse_redwoods",
       "required": false
     },
     {
@@ -53,11 +45,19 @@
       "required": false
     },
     {
-      "id": "terralith:temperate_highlands",
+      "id": "regions_unexplored:sparse_redwoods",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:temperate_grove",
       "required": false
     },
     {
       "id": "terralith:forested_highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:temperate_highlands",
       "required": false
     },
     {
@@ -69,11 +69,11 @@
       "required": false
     },
     {
-      "id": "wythers:forest_edge",
+      "id": "wythers:cool_forest_edge",
       "required": false
     },
     {
-      "id": "wythers:cool_forest_edge",
+      "id": "wythers:forest_edge",
       "required": false
     },
     {

@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "dreamwoods:savanna_grove",
+      "id": "dreamwoods:grassy_badlands",
       "required": false
     },
     {
-      "id": "dreamwoods:grassy_badlands",
+      "id": "dreamwoods:savanna_grove",
       "required": false
     },
     {
@@ -13,7 +13,7 @@
       "required": false
     },
     {
-      "id": "natures_spirit:shrubland",
+      "id": "natures_spirit:chaparral",
       "required": false
     },
     {
@@ -21,19 +21,19 @@
       "required": false
     },
     {
+      "id": "natures_spirit:shrubland",
+      "required": false
+    },
+    {
       "id": "natures_spirit:woody_highlands",
       "required": false
     },
     {
-      "id": "natures_spirit:chaparral",
+      "id": "regions_unexplored:baobab_savanna",
       "required": false
     },
     {
       "id": "regions_unexplored:dry_bushland",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:baobab_savanna",
       "required": false
     },
     {
@@ -49,11 +49,11 @@
       "required": false
     },
     {
-      "id": "wythers:dry_tropical_forest",
+      "id": "wythers:dry_savanna",
       "required": false
     },
     {
-      "id": "wythers:dry_savanna",
+      "id": "wythers:dry_tropical_forest",
       "required": false
     },
     {

@@ -17,11 +17,11 @@
       "required": false
     },
     {
-      "id": "u_sea:ship/hopper",
+      "id": "u_sea:ship/cove",
       "required": false
     },
     {
-      "id": "u_sea:ship/cove",
+      "id": "u_sea:ship/hopper",
       "required": false
     },
     {

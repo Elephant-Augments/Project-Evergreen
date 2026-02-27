@@ -57,11 +57,11 @@
       "required": false
     },
     {
-      "id": "u_sea:raft/warm/skipper",
+      "id": "u_sea:raft/warm/cone_skipper",
       "required": false
     },
     {
-      "id": "u_sea:raft/warm/cone_skipper",
+      "id": "u_sea:raft/warm/skipper",
       "required": false
     }
   ]

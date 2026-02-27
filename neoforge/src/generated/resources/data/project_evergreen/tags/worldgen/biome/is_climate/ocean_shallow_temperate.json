@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "minecraft:ocean",
+      "id": "minecraft:cold_ocean",
       "required": false
     },
     {
-      "id": "minecraft:cold_ocean",
+      "id": "minecraft:ocean",
       "required": false
     }
   ]
