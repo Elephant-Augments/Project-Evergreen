@@ -25,6 +25,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:towering_cliffs",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:highland_fields",
       "required": false
     },

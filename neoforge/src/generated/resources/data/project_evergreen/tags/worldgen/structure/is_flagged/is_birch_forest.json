@@ -1,0 +1,60 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:birch_log",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:birch_cottage",
+      "required": false
+    },
+    {
+      "id": "create_ltab:birch_structures",
+      "required": false
+    },
+    {
+      "id": "explorify:supply_cache/birch",
+      "required": false
+    },
+    {
+      "id": "imst:birch_hut",
+      "required": false
+    },
+    {
+      "id": "imst:lumberjack/birch_hut",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:birch_tree",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_birch",
+      "required": false
+    },
+    {
+      "id": "nova_structures:firewatch_tower_birch",
+      "required": false
+    },
+    {
+      "id": "nova_structures:tavern_birch",
+      "required": false
+    },
+    {
+      "id": "nova_structures:well_birch",
+      "required": false
+    },
+    {
+      "id": "qrafty:birk_fort",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/birch_fort",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:tall_birch_house",
+      "required": false
+    }
+  ]
+}

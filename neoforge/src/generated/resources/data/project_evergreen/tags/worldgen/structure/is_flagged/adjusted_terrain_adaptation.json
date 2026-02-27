@@ -181,6 +181,10 @@
       "required": false
     },
     {
+      "id": "imst:train_station",
+      "required": false
+    },
+    {
       "id": "mushroomquest:witch_cottage_redone",
       "required": false
     },

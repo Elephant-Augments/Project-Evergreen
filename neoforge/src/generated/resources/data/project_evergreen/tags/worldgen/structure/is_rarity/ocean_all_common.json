@@ -13,6 +13,10 @@
       "required": false
     },
     {
+      "id": "dungeons_arise_seven_seas:pirate_junk",
+      "required": false
+    },
+    {
       "id": "idas:sunken_ship/sunken_ship_ruins",
       "required": false
     },

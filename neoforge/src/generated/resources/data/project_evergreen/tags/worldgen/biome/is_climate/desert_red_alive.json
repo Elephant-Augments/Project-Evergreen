@@ -1,15 +1,7 @@
 {
   "values": [
     {
-      "id": "dreamwoods:grassy_badlands",
-      "required": false
-    },
-    {
       "id": "minecraft:wooded_badlands",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:woody_highlands",
       "required": false
     },
     {
@@ -18,6 +10,10 @@
     },
     {
       "id": "natures_spirit:lively_dunes",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:scorched_dunes",
       "required": false
     },
     {

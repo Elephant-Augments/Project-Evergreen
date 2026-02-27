@@ -37,6 +37,10 @@
       "required": false
     },
     {
+      "id": "create_ltab:dungeon_plains",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:thornborn_towers",
       "required": false
     },
@@ -66,6 +70,10 @@
     },
     {
       "id": "idas:the_log",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:sky_dungeon",
       "required": false
     },
     {

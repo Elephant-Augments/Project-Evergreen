@@ -1005,6 +1005,10 @@
       "required": false
     },
     {
+      "id": "supplementaries:road_sign",
+      "required": false
+    },
+    {
       "id": "taxtg:giant_birch_tree",
       "required": false
     },

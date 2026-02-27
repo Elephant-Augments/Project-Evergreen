@@ -53,15 +53,19 @@
       "required": false
     },
     {
+      "id": "feur_extension_fossil:fossil_hand",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_stump",
+      "required": false
+    },
+    {
       "id": "formationsoverworld:cobble_hole",
       "required": false
     },
     {
       "id": "formationsoverworld:stone_ore_spikes",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:stone_tower",
       "required": false
     },
     {
@@ -98,6 +102,10 @@
     },
     {
       "id": "formationsoverworld:mesoamerican_temple",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:witch_circle",
       "required": false
     },
     {

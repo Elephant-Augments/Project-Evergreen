@@ -133,6 +133,10 @@
       "required": false
     },
     {
+      "id": "qrafty:relict",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:pyramid_badlands",
       "required": false
     },

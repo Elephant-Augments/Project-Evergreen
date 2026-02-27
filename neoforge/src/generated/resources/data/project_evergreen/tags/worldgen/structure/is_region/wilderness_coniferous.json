@@ -69,6 +69,18 @@
       "required": false
     },
     {
+      "id": "luistercorp:fallen_log_dark_oak",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_spruce",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_mega_spruce",
+      "required": false
+    },
+    {
       "id": "minecraft:mansion",
       "required": false
     },

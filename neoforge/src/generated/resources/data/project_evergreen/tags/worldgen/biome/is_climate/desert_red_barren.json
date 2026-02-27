@@ -29,6 +29,10 @@
       "required": false
     },
     {
+      "id": "wythers:outback_desert",
+      "required": false
+    },
+    {
       "id": "wythers:badlands_canyon",
       "required": false
     },

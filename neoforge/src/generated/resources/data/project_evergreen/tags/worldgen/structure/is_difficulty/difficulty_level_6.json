@@ -21,10 +21,6 @@
       "required": false
     },
     {
-      "id": "ati_structures:fortified_temple",
-      "required": false
-    },
-    {
       "id": "ati_structures:herobrine_stronghold",
       "required": false
     },
@@ -138,6 +134,14 @@
     },
     {
       "id": "feur_extension_jungle:tree_stump",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:ice_castle",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:ice_spire",
       "required": false
     },
     {

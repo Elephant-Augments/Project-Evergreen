@@ -185,10 +185,6 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:farmland_field",
-      "required": false
-    },
-    {
       "id": "mvs:log_pile/acacia_log_pile",
       "required": false
     },
@@ -366,6 +362,10 @@
     },
     {
       "id": "mvs:stone_rock",
+      "required": false
+    },
+    {
+      "id": "qrafty:plains",
       "required": false
     },
     {

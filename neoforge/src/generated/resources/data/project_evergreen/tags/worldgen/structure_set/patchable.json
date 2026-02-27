@@ -1,6 +1,14 @@
 {
   "values": [
     {
+      "id": "alekiships:unfinished_rowboat",
+      "required": false
+    },
+    {
+      "id": "alekiships:unfinished_sloop",
+      "required": false
+    },
+    {
       "id": "ancientstructures:german_buildings",
       "required": false
     },
@@ -869,6 +877,10 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:chocolate_pit",
+      "required": false
+    },
+    {
       "id": "create_structures_arise:create_bastion",
       "required": false
     },
@@ -897,6 +909,10 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:createdesertwell",
+      "required": false
+    },
+    {
       "id": "create_structures_arise:createfluidtank",
       "required": false
     },
@@ -917,6 +933,10 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:createmonsterroom",
+      "required": false
+    },
+    {
       "id": "create_structures_arise:createoldruine",
       "required": false
     },
@@ -925,11 +945,19 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:createwitchhut",
+      "required": false
+    },
+    {
       "id": "create_structures_arise:darkcastle",
       "required": false
     },
     {
       "id": "create_structures_arise:deadlordshouse",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:honey_pit",
       "required": false
     },
     {
@@ -978,6 +1006,10 @@
     },
     {
       "id": "dungeons_arise_seven_seas:minor_structures",
+      "required": false
+    },
+    {
+      "id": "epic:witch_hut",
       "required": false
     },
     {
@@ -1450,6 +1482,22 @@
     },
     {
       "id": "kattersstructures:villages",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:dungeons",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:frostmonarch_temple",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:overworld_inns",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:underground_structures",
       "required": false
     },
     {

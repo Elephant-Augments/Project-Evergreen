@@ -101,6 +101,10 @@
       "required": false
     },
     {
+      "id": "create_ltab:dungeon_jungle",
+      "required": false
+    },
+    {
       "id": "dungeonnowloading:temple_of_duality",
       "required": false
     },
@@ -201,6 +205,10 @@
       "required": false
     },
     {
+      "id": "luistercorp:fallen_log_jungle",
+      "required": false
+    },
+    {
       "id": "minecraft:jungle_pyramid",
       "required": false
     },
@@ -265,6 +273,10 @@
       "required": false
     },
     {
+      "id": "qrafty:lush_waterfall",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:ruins_land_warm",
       "required": false
     },
@@ -318,6 +330,10 @@
     },
     {
       "id": "trek:overworld/rare/maya",
+      "required": false
+    },
+    {
+      "id": "unearthed_journey:temple_to_methuselah",
       "required": false
     },
     {

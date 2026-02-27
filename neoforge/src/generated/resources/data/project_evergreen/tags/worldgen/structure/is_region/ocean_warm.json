@@ -57,14 +57,6 @@
       "required": false
     },
     {
-      "id": "u_sea:island/warm/hill",
-      "required": false
-    },
-    {
-      "id": "u_sea:island/warm/tower",
-      "required": false
-    },
-    {
       "id": "u_sea:raft/warm/skipper",
       "required": false
     },

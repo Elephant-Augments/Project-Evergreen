@@ -8,7 +8,7 @@
         "size": "MEDIUM",
         "heightmap": "AIRBORN",
         "dimension": "#minecraft:is_overworld",
-        "region": "#project_evergreen:is_region/all_civilization",
+        "region": "#project_evergreen:is_region/civilization_desert_red",
         "is_loaded": false,
         "is_advanced_type": false,
         "is_flat": false,
@@ -81,6 +81,30 @@
         "op": "copy",
         "path": "/biomes",
         "from": "/temp_properties/region"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_birch_forest",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_birch_forest"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_cherry_forest",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_cherry_forest"
       }
     ]
   ],

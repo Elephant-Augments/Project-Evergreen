@@ -1,6 +1,46 @@
 {
   "values": [
     {
+      "id": "alekiships:unfinished_rowboat_birch",
+      "required": false
+    },
+    {
+      "id": "alekiships:unfinished_rowboat_cherry",
+      "required": false
+    },
+    {
+      "id": "alekiships:unfinished_rowboat_dark_oak",
+      "required": false
+    },
+    {
+      "id": "alekiships:unfinished_rowboat_oak",
+      "required": false
+    },
+    {
+      "id": "alekiships:unfinished_rowboat_spruce",
+      "required": false
+    },
+    {
+      "id": "alekiships:unfinished_sloop_birch",
+      "required": false
+    },
+    {
+      "id": "alekiships:unfinished_sloop_cherry",
+      "required": false
+    },
+    {
+      "id": "alekiships:unfinished_sloop_dark_oak",
+      "required": false
+    },
+    {
+      "id": "alekiships:unfinished_sloop_oak",
+      "required": false
+    },
+    {
+      "id": "alekiships:unfinished_sloop_spruce",
+      "required": false
+    },
+    {
       "id": "ancientstructures:german_farm",
       "required": false
     },
@@ -1301,6 +1341,10 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:chocolate_pit",
+      "required": false
+    },
+    {
       "id": "create_structures_arise:create_bastion",
       "required": false
     },
@@ -1329,6 +1373,10 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:createdesertwell",
+      "required": false
+    },
+    {
       "id": "create_structures_arise:createfluidtank",
       "required": false
     },
@@ -1349,6 +1397,10 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:createmonsterroom",
+      "required": false
+    },
+    {
       "id": "create_structures_arise:createoldruine",
       "required": false
     },
@@ -1357,11 +1409,19 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:createwitchhut",
+      "required": false
+    },
+    {
       "id": "create_structures_arise:darkcastle",
       "required": false
     },
     {
       "id": "create_structures_arise:deadlordshouse",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:honey_pit",
       "required": false
     },
     {
@@ -2442,6 +2502,34 @@
     },
     {
       "id": "kattersstructures:witch_circle",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:badlands_inn",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:cold_monster_rooms",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:desert_inn",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:frostmonarch_temple",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:glacial_tomb",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:glaze_tower",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:plains_inn",
       "required": false
     },
     {

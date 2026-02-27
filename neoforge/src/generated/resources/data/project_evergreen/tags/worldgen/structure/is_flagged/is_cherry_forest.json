@@ -1,0 +1,68 @@
+{
+  "values": [
+    {
+      "id": "create_ltab:cherry_house",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree/cherry",
+      "required": false
+    },
+    {
+      "id": "mvs:lantern/small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "mvs:nature/cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:small_cherry_lantern",
+      "required": false
+    },
+    {
+      "id": "nova_structures:firewatch_tower_cherry",
+      "required": false
+    },
+    {
+      "id": "nova_structures:tavern_cherry",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "required": false
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "required": false
+    }
+  ]
+}

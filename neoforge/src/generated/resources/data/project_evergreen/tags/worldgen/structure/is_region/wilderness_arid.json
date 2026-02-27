@@ -9,11 +9,11 @@
       "required": false
     },
     {
-      "id": "ancientstructures:roman_ruined_temple",
+      "id": "ati_structures:granite_fort",
       "required": false
     },
     {
-      "id": "ati_structures:granite_fort",
+      "id": "ati_structures:fortified_temple",
       "required": false
     },
     {
@@ -41,6 +41,10 @@
       "required": false
     },
     {
+      "id": "luistercorp:fallen_log_acacia",
+      "required": false
+    },
+    {
       "id": "mostructures:savanna_abandoned_church",
       "required": false
     },
@@ -62,6 +66,10 @@
     },
     {
       "id": "mvs:acacia",
+      "required": false
+    },
+    {
+      "id": "nova_structures:firewatch_tower_savanna",
       "required": false
     },
     {

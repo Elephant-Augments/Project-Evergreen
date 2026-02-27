@@ -7,6 +7,7 @@
         "id": "qrafty:oilrig",
         "size": "MEDIUM",
         "heightmap": "GROUNDLEVEL",
+        "region": "#project_evergreen:is_region/no_biomes",
         "is_loaded": false,
         "is_advanced_type": false,
         "is_flat": false,
@@ -17,6 +18,7 @@
         "is_water_bound": false,
         "is_water_restricted": true,
         "patchable": true,
+        "disabled": true,
         "ignored": true,
         "ignored_biome_redistribution": true,
         "ignored_biome_radius_check": true,
@@ -83,6 +85,30 @@
         "op": "copy",
         "path": "/biomes",
         "from": "/temp_properties/region"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_birch_forest",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_birch_forest"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_cherry_forest",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_cherry_forest"
       }
     ]
   ],

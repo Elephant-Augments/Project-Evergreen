@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:tundra",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pumpkin_fields",
+      "required": false
+    }
+  ]
+}

@@ -9,6 +9,10 @@
       "required": false
     },
     {
+      "id": "create_rustic_structures:rustic_barn",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:merchant_campsite",
       "required": false
     },
@@ -70,6 +74,10 @@
     },
     {
       "id": "kattersstructures:village_birch",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:graveyard",
       "required": false
     },
     {

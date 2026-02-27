@@ -5,11 +5,11 @@
       "path": "/temp_properties",
       "value": {
         "id": "formationsoverworld:farmland_field",
-        "size": "SMALL",
+        "size": "MEDIUM",
         "heightmap": "GROUNDLEVEL",
         "dimension": "#minecraft:is_overworld",
         "region": "#project_evergreen:is_region/civilization_fields",
-        "structure_set": "project_evergreen:civilization_deco",
+        "structure_set": "project_evergreen:civilization_common",
         "is_loaded": false,
         "is_advanced_type": false,
         "is_flat": false,
@@ -19,8 +19,7 @@
         "is_radius_bound": false,
         "is_water_bound": false,
         "is_water_restricted": true,
-        "patchable": true,
-        "flatness_check_small": true
+        "patchable": true
       }
     },
     [
@@ -83,6 +82,30 @@
         "op": "copy",
         "path": "/biomes",
         "from": "/temp_properties/region"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_birch_forest",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_birch_forest"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_cherry_forest",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_cherry_forest"
       }
     ]
   ],
@@ -238,7 +261,7 @@
     {
       "op": "add",
       "path": "/terrain_height_radius_check",
-      "value": 1
+      "value": 2
     },
     {
       "op": "paste",

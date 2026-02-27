@@ -21,10 +21,6 @@
       "required": false
     },
     {
-      "id": "wythers:jungle_island",
-      "required": false
-    },
-    {
       "id": "wythers:tropical_beach",
       "required": false
     }

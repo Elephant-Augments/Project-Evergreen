@@ -82,6 +82,30 @@
         "path": "/biomes",
         "from": "/temp_properties/region"
       }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_birch_forest",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_birch_forest"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_cherry_forest",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_cherry_forest"
+      }
     ]
   ],
   [

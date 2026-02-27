@@ -7,8 +7,6 @@
         "id": "create_ltab:cherry_house",
         "size": "MEDIUM",
         "heightmap": "GROUNDLEVEL",
-        "dimension": "#minecraft:is_overworld",
-        "region": "#project_evergreen:is_region/civilization_special_oriental",
         "is_loaded": false,
         "is_advanced_type": false,
         "is_flat": false,
@@ -19,7 +17,11 @@
         "is_water_bound": false,
         "is_water_restricted": true,
         "patchable": true,
-        "ignored_biome_radius_check": true
+        "ignored": true,
+        "ignored_biome_redistribution": true,
+        "ignored_biome_radius_check": true,
+        "ignored_placement_tweaks": true,
+        "is_cherry_forest": true
       }
     },
     [
@@ -82,6 +84,30 @@
         "op": "copy",
         "path": "/biomes",
         "from": "/temp_properties/region"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_birch_forest",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_birch_forest"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_cherry_forest",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_cherry_forest"
       }
     ]
   ],

@@ -189,10 +189,6 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:birch_cottage",
-      "required": false
-    },
-    {
       "id": "combat_structures_update:flyingboat",
       "required": false
     },
@@ -213,11 +209,11 @@
       "required": false
     },
     {
-      "id": "create_ltab:cherry_house",
+      "id": "create_ltab:jungle_well",
       "required": false
     },
     {
-      "id": "create_ltab:jungle_well",
+      "id": "create_ltab:oak_house",
       "required": false
     },
     {
@@ -237,10 +233,6 @@
       "required": false
     },
     {
-      "id": "create_rustic_structures:rustic_barn",
-      "required": false
-    },
-    {
       "id": "create_rustic_structures:rustic_smithy",
       "required": false
     },
@@ -254,6 +246,10 @@
     },
     {
       "id": "create_structures_arise:create_copper_statue",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:createairdrop",
       "required": false
     },
     {
@@ -325,10 +321,6 @@
       "required": false
     },
     {
-      "id": "explorify:supply_cache/birch",
-      "required": false
-    },
-    {
       "id": "explorify:tavern",
       "required": false
     },
@@ -342,6 +334,10 @@
     },
     {
       "id": "explorify:watchtower/taiga",
+      "required": false
+    },
+    {
+      "id": "fallen_log_hideout:log_house",
       "required": false
     },
     {
@@ -425,6 +421,10 @@
       "required": false
     },
     {
+      "id": "formationsoverworld:farmland_field",
+      "required": false
+    },
+    {
       "id": "formationsoverworld:graveyard",
       "required": false
     },
@@ -446,6 +446,10 @@
     },
     {
       "id": "formationsoverworld:small_temple",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:stone_tower",
       "required": false
     },
     {
@@ -497,10 +501,6 @@
       "required": false
     },
     {
-      "id": "imst:lumberjack/birch_hut",
-      "required": false
-    },
-    {
       "id": "imst:lumberjack/dark_oak_hut",
       "required": false
     },
@@ -533,18 +533,6 @@
       "required": false
     },
     {
-      "id": "kattersstructures:birch_tree",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:cherry_tree",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:desert_dungeon",
-      "required": false
-    },
-    {
       "id": "kattersstructures:red_coral",
       "required": false
     },
@@ -566,6 +554,34 @@
     },
     {
       "id": "kattersstructures:windmill",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:badlands_inn",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:desert_inn",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:plains_inn",
+      "required": false
+    },
+    {
+      "id": "luistercorp:camping_store",
+      "required": false
+    },
+    {
+      "id": "luistercorp:decorative_tree",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_azalea",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_oak",
       "required": false
     },
     {
@@ -905,35 +921,11 @@
       "required": false
     },
     {
-      "id": "nova_structures:remnant_classic_village",
-      "required": false
-    },
-    {
       "id": "nova_structures:remnant_forest_smith",
       "required": false
     },
     {
-      "id": "nova_structures:remnant_ruin_farmer",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_ruin_smith",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_sawmill",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_school_remnant",
-      "required": false
-    },
-    {
       "id": "nova_structures:tavern_acacia",
-      "required": false
-    },
-    {
-      "id": "nova_structures:tavern_birch",
       "required": false
     },
     {
@@ -965,10 +957,6 @@
       "required": false
     },
     {
-      "id": "nova_structures:well_birch",
-      "required": false
-    },
-    {
       "id": "nova_structures:well_dark_oak",
       "required": false
     },
@@ -986,6 +974,26 @@
     },
     {
       "id": "nova_structures:well_spruce",
+      "required": false
+    },
+    {
+      "id": "qrafty:akropolis",
+      "required": false
+    },
+    {
+      "id": "qrafty:azalea_ruins",
+      "required": false
+    },
+    {
+      "id": "qrafty:blacksmith",
+      "required": false
+    },
+    {
+      "id": "qrafty:farm",
+      "required": false
+    },
+    {
+      "id": "qrafty:hobbit_hole",
       "required": false
     },
     {
@@ -1010,6 +1018,18 @@
     },
     {
       "id": "qrafty:industrial_redstone_crack",
+      "required": false
+    },
+    {
+      "id": "qrafty:oilrig",
+      "required": false
+    },
+    {
+      "id": "qrafty:sphinx",
+      "required": false
+    },
+    {
+      "id": "qrafty:windmill",
       "required": false
     },
     {
@@ -1046,6 +1066,10 @@
     },
     {
       "id": "structory_towers:ocean_pillar",
+      "required": false
+    },
+    {
+      "id": "structory_towers:small_firetower",
       "required": false
     },
     {
@@ -1101,10 +1125,6 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/birch_fort",
-      "required": false
-    },
-    {
       "id": "trek:overworld/medium/buried_village",
       "required": false
     },
@@ -1133,7 +1153,7 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/fort",
+      "id": "trek:overworld/medium/haunted_house",
       "required": false
     },
     {

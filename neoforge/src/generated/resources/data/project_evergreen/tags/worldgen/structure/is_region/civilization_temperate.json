@@ -65,6 +65,10 @@
       "required": false
     },
     {
+      "id": "create_ltab:oak_house",
+      "required": false
+    },
+    {
       "id": "create_rustic_structures:rustic_barn",
       "required": false
     },
@@ -77,19 +81,7 @@
       "required": false
     },
     {
-      "id": "create_structures_arise:createcontainer",
-      "required": false
-    },
-    {
-      "id": "create_structures_arise:createcushercrane",
-      "required": false
-    },
-    {
       "id": "create_structures_arise:createlosttrainstation",
-      "required": false
-    },
-    {
-      "id": "create_structures_arise:minetrain",
       "required": false
     },
     {
@@ -154,6 +146,10 @@
     },
     {
       "id": "farmers_structures:shepherd_farms",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:stone_tower",
       "required": false
     },
     {
@@ -254,6 +250,10 @@
     },
     {
       "id": "kattersstructures:trader_outposts",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:plains_inn",
       "required": false
     },
     {
@@ -397,23 +397,11 @@
       "required": false
     },
     {
-      "id": "nova_structures:remnant_sawmill",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_ruin_smith",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_classic_village",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_school_remnant",
-      "required": false
-    },
-    {
       "id": "nova_structures:underground_house",
+      "required": false
+    },
+    {
+      "id": "qrafty:farm",
       "required": false
     },
     {
@@ -449,10 +437,6 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/fort",
-      "required": false
-    },
-    {
       "id": "trek:overworld/medium/dirt_hut",
       "required": false
     },
@@ -470,10 +454,6 @@
     },
     {
       "id": "trek:overworld/rare/villager_fortress",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/wooden_manor",
       "required": false
     },
     {

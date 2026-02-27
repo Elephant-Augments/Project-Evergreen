@@ -5,10 +5,6 @@
       "required": false
     },
     {
-      "id": "dreamwoods:twilight_wetlands",
-      "required": false
-    },
-    {
       "id": "minecraft:pale_garden",
       "required": false
     },
@@ -34,10 +30,6 @@
     },
     {
       "id": "sleepy_hollows:sleepy_hollows",
-      "required": false
-    },
-    {
-      "id": "wythers:tangled_forest",
       "required": false
     },
     {

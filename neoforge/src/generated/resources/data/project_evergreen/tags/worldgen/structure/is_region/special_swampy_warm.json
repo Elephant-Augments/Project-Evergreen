@@ -97,6 +97,10 @@
       "required": false
     },
     {
+      "id": "luistercorp:fallen_log_mangrove",
+      "required": false
+    },
+    {
       "id": "mvs:dead_tree/mangrove",
       "required": false
     },

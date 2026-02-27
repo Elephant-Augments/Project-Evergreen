@@ -5,10 +5,6 @@
       "required": false
     },
     {
-      "id": "natures_spirit:scorched_dunes",
-      "required": false
-    },
-    {
       "id": "natures_spirit:drylands",
       "required": false
     },
@@ -22,6 +18,10 @@
     },
     {
       "id": "wythers:deep_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:danakil_desert",
       "required": false
     },
     {

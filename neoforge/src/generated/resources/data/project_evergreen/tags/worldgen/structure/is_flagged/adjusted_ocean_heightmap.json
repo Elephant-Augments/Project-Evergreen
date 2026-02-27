@@ -5,7 +5,7 @@
       "required": false
     },
     {
-      "id": "kattersstructures:deep_blue_labs",
+      "id": "kattersstructures:deep_blue_city",
       "required": false
     },
     {
@@ -13,7 +13,7 @@
       "required": false
     },
     {
-      "id": "kattersstructures:deep_blue_city",
+      "id": "kattersstructures:deep_blue_labs",
       "required": false
     },
     {

@@ -145,11 +145,7 @@
       "required": false
     },
     {
-      "id": "kattersstructures:village_mesa",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:desert_dungeon",
+      "id": "loot_n_explore:desert_inn",
       "required": false
     },
     {
@@ -206,6 +202,14 @@
     },
     {
       "id": "nova_structures:tavern_desert",
+      "required": false
+    },
+    {
+      "id": "qrafty:akropolis",
+      "required": false
+    },
+    {
+      "id": "qrafty:sphinx",
       "required": false
     },
     {

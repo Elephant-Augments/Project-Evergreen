@@ -35,10 +35,6 @@
     {
       "id": "wythers:gravelly_beach",
       "required": false
-    },
-    {
-      "id": "wythers:temperate_island",
-      "required": false
     }
   ]
 }

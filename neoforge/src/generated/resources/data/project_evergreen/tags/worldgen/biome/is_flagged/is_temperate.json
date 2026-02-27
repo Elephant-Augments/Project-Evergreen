@@ -149,10 +149,6 @@
       "required": false
     },
     {
-      "id": "minecraft:birch_forest",
-      "required": false
-    },
-    {
       "id": "minecraft:windswept_hills",
       "required": false
     },
@@ -345,11 +341,19 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:towering_cliffs",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:hyacinth_deeps",
       "required": false
     },
     {
       "id": "regions_unexplored:magnolia_woodland",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:barley_fields",
       "required": false
     },
     {
@@ -541,6 +545,10 @@
       "required": false
     },
     {
+      "id": "wythers:birch_taiga",
+      "required": false
+    },
+    {
       "id": "wythers:temperate_rainforest",
       "required": false
     },
@@ -705,7 +713,15 @@
       "required": false
     },
     {
+      "id": "wythers:subtropical_forest_edge",
+      "required": false
+    },
+    {
       "id": "wythers:mediterranean_island",
+      "required": false
+    },
+    {
+      "id": "wythers:subtropical_grassland",
       "required": false
     }
   ]

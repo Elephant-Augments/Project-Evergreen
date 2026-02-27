@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:prairie",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:lush_grassland",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:autumnal_hills",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:grassland",
+      "required": false
+    }
+  ]
+}

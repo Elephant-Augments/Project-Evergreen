@@ -1,6 +1,242 @@
 {
   "values": [
     {
+      "id": "dreamwoods:alpine_fields",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:arid_plains",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:autumnal_hills",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:autumnal_wood",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:azure_cove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:bayou",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:blooming_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:boskage",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:calcite_plateau",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:elder_woods",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:fairy_garden",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:fall_fruitfull_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:fall_snowy_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:fir_forest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:flooded_rainforest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:flowering_fields",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:frozen_shore",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:golden_aspen_spinney",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:grassy_badlands",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:grassy_shore",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:gravel_beach",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:grim_woods",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:ice_abyss",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:ice_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:jungle_bushland",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:jungle_shore",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:lush_coniferous_forest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:lush_grassland",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:lush_meadow",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:moor",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:morass",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:northern_swamp",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:old_growth_swampland",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:poplar_fields",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:poplar_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:poplar_slopes",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:prairie",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:redwood_forest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:roofed_tropical_forest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:ruby_maple_forest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:savanna_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:seasonal_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:seasonal_taiga",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:snowy_forest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:snowy_pinelands",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:spinney",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:spruce_lowlands",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:spruce_slopes",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:temperate_hemlock_rainforest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:thaumic_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:thermal_springs",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:tropical_river",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:tundra",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:twilight_wetlands",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:volcano_fields",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:weeping_grove",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:wet_larch_forest",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:white_shore",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:wooded_slopes",
+      "required": false
+    },
+    {
       "id": "hexerei:willow_swamp",
       "required": false
     },

@@ -289,10 +289,6 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:stone_tower",
-      "required": false
-    },
-    {
       "id": "goblinsanddungeons:large_goblin_camp",
       "required": false
     },
@@ -582,6 +578,10 @@
     },
     {
       "id": "trek:overworld/medium/tour",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/fort",
       "required": false
     },
     {

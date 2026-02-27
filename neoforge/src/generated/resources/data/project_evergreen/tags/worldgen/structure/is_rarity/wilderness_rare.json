@@ -309,6 +309,14 @@
       "required": false
     },
     {
+      "id": "formationsoverworld:ice_castle",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:ice_spire",
+      "required": false
+    },
+    {
       "id": "goblinsanddungeons:ruined_keep",
       "required": false
     },

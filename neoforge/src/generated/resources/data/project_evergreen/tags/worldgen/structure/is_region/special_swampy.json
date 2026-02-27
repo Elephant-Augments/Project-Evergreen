@@ -25,6 +25,10 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:createwitchhut",
+      "required": false
+    },
+    {
       "id": "custom:ogre_swamp_spawn",
       "required": false
     },
@@ -86,6 +90,10 @@
     },
     {
       "id": "letsdoaddon-structures:swamp_well",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_swamp",
       "required": false
     },
     {

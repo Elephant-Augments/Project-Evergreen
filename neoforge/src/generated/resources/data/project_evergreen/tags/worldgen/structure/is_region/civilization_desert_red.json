@@ -25,6 +25,46 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:createairdrop",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:createcontainer",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:createcushercrane",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:createfluidtank",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:createlittleman",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:createlosttrainstation",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:createminiskyvillage",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:createpickaxestatue",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:create_copper_statue",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:minetrain",
+      "required": false
+    },
+    {
       "id": "dungeons_enhanced:miners_house",
       "required": false
     },
@@ -57,6 +97,14 @@
       "required": false
     },
     {
+      "id": "kattersstructures:village_mesa",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:badlands_inn",
+      "required": false
+    },
+    {
       "id": "more_critters:collector_wagon_badlands",
       "required": false
     },
@@ -66,6 +114,10 @@
     },
     {
       "id": "mvs:acacia_well",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:village_adobe",
       "required": false
     },
     {

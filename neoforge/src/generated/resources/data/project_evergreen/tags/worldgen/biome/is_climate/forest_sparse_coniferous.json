@@ -21,7 +21,7 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:towering_cliffs",
+      "id": "natures_spirit:fir_forest",
       "required": false
     },
     {
@@ -45,7 +45,7 @@
       "required": false
     },
     {
-      "id": "wythers:birch_taiga",
+      "id": "wythers:cold_island",
       "required": false
     }
   ]

@@ -11,10 +11,6 @@
     {
       "id": "natures_spirit:xeric_plains",
       "required": false
-    },
-    {
-      "id": "wythers:mediterranean_island_thermal_springs",
-      "required": false
     }
   ]
 }

@@ -77,10 +77,6 @@
       "required": false
     },
     {
-      "id": "betterarcheology:catacombs",
-      "required": false
-    },
-    {
       "id": "betterarcheology:desert_obelisk",
       "required": false
     },
@@ -361,6 +357,18 @@
       "required": false
     },
     {
+      "id": "create_ltab:dungeon_desert",
+      "required": false
+    },
+    {
+      "id": "create_ltab:dungeon_jungle",
+      "required": false
+    },
+    {
+      "id": "create_ltab:dungeon_snow",
+      "required": false
+    },
+    {
       "id": "create_ltab:mangrove_structures",
       "required": false
     },
@@ -377,6 +385,10 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:createwitchhut",
+      "required": false
+    },
+    {
       "id": "darkerdepths:rope_mine_desert",
       "required": false
     },
@@ -390,6 +402,10 @@
     },
     {
       "id": "dungeons_arise:mining_complex",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:wishing_well",
       "required": false
     },
     {
@@ -501,14 +517,6 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:ice_castle",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:ice_spire",
-      "required": false
-    },
-    {
       "id": "formationsoverworld:mesoamerican_temple",
       "required": false
     },
@@ -526,6 +534,10 @@
     },
     {
       "id": "hexerei:witch_hut",
+      "required": false
+    },
+    {
+      "id": "hopo:portal/overworld/portal_ruined",
       "required": false
     },
     {
@@ -569,11 +581,43 @@
       "required": false
     },
     {
-      "id": "kattersstructures:graveyard",
+      "id": "kattersstructures:desert_dungeon",
       "required": false
     },
     {
       "id": "kattersstructures:witch_circle",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:cold_monster_rooms",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:frostmonarch_temple",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:glacial_tomb",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:glaze_tower",
+      "required": false
+    },
+    {
+      "id": "luistercorp:dead_tree_desert",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_jungle",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_mangrove",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_swamp",
       "required": false
     },
     {
@@ -590,6 +634,10 @@
     },
     {
       "id": "minecraft:mineshaft_mesa",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal",
       "required": false
     },
     {
@@ -901,6 +949,22 @@
       "required": false
     },
     {
+      "id": "qrafty:graveyard",
+      "required": false
+    },
+    {
+      "id": "qrafty:lush_waterfall",
+      "required": false
+    },
+    {
+      "id": "qrafty:oasis",
+      "required": false
+    },
+    {
+      "id": "qrafty:relict",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:igloo_mangrove",
       "required": false
     },
@@ -1122,10 +1186,6 @@
     },
     {
       "id": "trek:overworld/medium/graveyard",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/haunted_house",
       "required": false
     },
     {

@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "betterarcheology:catacombs",
+      "required": false
+    },
+    {
       "id": "idas:beekeepers_house",
       "required": false
     },
@@ -18,6 +22,10 @@
     },
     {
       "id": "integrated_villages:mossy_mounds",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_azalea",
       "required": false
     },
     {
@@ -45,7 +53,15 @@
       "required": false
     },
     {
+      "id": "natures_spirit:village_wisteria",
+      "required": false
+    },
+    {
       "id": "nova_structures:remnant_bee_keeper",
+      "required": false
+    },
+    {
+      "id": "qrafty:hobbit_hole",
       "required": false
     },
     {

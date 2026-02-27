@@ -333,6 +333,10 @@
       "required": false
     },
     {
+      "id": "wythers:desert_island",
+      "required": false
+    },
+    {
       "id": "wythers:dry_tropical_grassland",
       "required": false
     },

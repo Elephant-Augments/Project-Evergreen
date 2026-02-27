@@ -17,11 +17,11 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:fountain",
+      "id": "formationsoverworld:farmland_field",
       "required": false
     },
     {
-      "id": "formationsoverworld:well",
+      "id": "formationsoverworld:stone_tower",
       "required": false
     },
     {
@@ -77,15 +77,15 @@
       "required": false
     },
     {
+      "id": "qrafty:blacksmith",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/beehive_house",
       "required": false
     },
     {
       "id": "trek:overworld/medium/birch_fort",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/birch_trade",
       "required": false
     },
     {

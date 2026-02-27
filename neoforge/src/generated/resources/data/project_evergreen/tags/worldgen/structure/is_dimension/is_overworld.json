@@ -1533,10 +1533,6 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:birch_cottage",
-      "required": false
-    },
-    {
       "id": "combat_structures_update:pillager_village",
       "required": false
     },
@@ -1605,6 +1601,22 @@
       "required": false
     },
     {
+      "id": "create_ltab:dungeon_desert",
+      "required": false
+    },
+    {
+      "id": "create_ltab:dungeon_jungle",
+      "required": false
+    },
+    {
+      "id": "create_ltab:railroad",
+      "required": false
+    },
+    {
+      "id": "create_ltab:dungeon_snow",
+      "required": false
+    },
+    {
       "id": "create_ltab:spruce_structures",
       "required": false
     },
@@ -1649,7 +1661,7 @@
       "required": false
     },
     {
-      "id": "create_ltab:birch_structures",
+      "id": "create_ltab:dungeon_plains",
       "required": false
     },
     {
@@ -1665,7 +1677,7 @@
       "required": false
     },
     {
-      "id": "create_ltab:cherry_house",
+      "id": "create_ltab:oak_house",
       "required": false
     },
     {
@@ -1778,6 +1790,10 @@
     },
     {
       "id": "create_structures_arise:windmill",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:createwitchhut",
       "required": false
     },
     {
@@ -2442,6 +2458,10 @@
     },
     {
       "id": "explorify:farmstead",
+      "required": false
+    },
+    {
+      "id": "fallen_log_hideout:log_house",
       "required": false
     },
     {
@@ -3489,10 +3509,6 @@
       "required": false
     },
     {
-      "id": "imst:birch_hut",
-      "required": false
-    },
-    {
       "id": "imst:mangrove_hut",
       "required": false
     },
@@ -3606,10 +3622,6 @@
     },
     {
       "id": "imst:caravan",
-      "required": false
-    },
-    {
-      "id": "imst:lumberjack/birch_hut",
       "required": false
     },
     {
@@ -3865,10 +3877,6 @@
       "required": false
     },
     {
-      "id": "kattersstructures:village_cherry",
-      "required": false
-    },
-    {
       "id": "kattersstructures:mini_dungeon_rugged_shack",
       "required": false
     },
@@ -3897,6 +3905,10 @@
       "required": false
     },
     {
+      "id": "kattersstructures:sky_dungeon",
+      "required": false
+    },
+    {
       "id": "kattersstructures:witch_circle",
       "required": false
     },
@@ -3922,10 +3934,6 @@
     },
     {
       "id": "kattersstructures:village_birch",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:cherry_tree",
       "required": false
     },
     {
@@ -4002,6 +4010,82 @@
     },
     {
       "id": "lios_outlandish_villages:spiral_tower_village",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:glaze_tower",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:glacial_tomb",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:desert_inn",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:cold_monster_rooms",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:frostmonarch_temple",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:plains_inn",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:badlands_inn",
+      "required": false
+    },
+    {
+      "id": "luistercorp:camping_store",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_dark_oak",
+      "required": false
+    },
+    {
+      "id": "luistercorp:dead_tree_desert",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_oak",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_swamp",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_mangrove",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_acacia",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_azalea",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_jungle",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_mega_spruce",
+      "required": false
+    },
+    {
+      "id": "luistercorp:fallen_log_spruce",
+      "required": false
+    },
+    {
+      "id": "luistercorp:decorative_tree",
       "required": false
     },
     {
@@ -4146,10 +4230,6 @@
     },
     {
       "id": "minecraft:hall_of_greed",
-      "required": false
-    },
-    {
-      "id": "minecraft:ruined_portal_nether",
       "required": false
     },
     {
@@ -5449,6 +5529,22 @@
       "required": false
     },
     {
+      "id": "natures_spirit:village_cypress",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:village_wisteria",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:village_adobe",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:village_coconut",
+      "required": false
+    },
+    {
       "id": "nordic_structures:bigvikingeatinghouse",
       "required": false
     },
@@ -5530,6 +5626,10 @@
     },
     {
       "id": "nova_structures:remnant_medium_remnant",
+      "required": false
+    },
+    {
+      "id": "nova_structures:firewatch_tower_savanna",
       "required": false
     },
     {
@@ -5645,10 +5745,6 @@
       "required": false
     },
     {
-      "id": "nova_structures:well_birch",
-      "required": false
-    },
-    {
       "id": "nova_structures:remnant_birch_graveyard",
       "required": false
     },
@@ -5694,10 +5790,6 @@
     },
     {
       "id": "nova_structures:remnant_woodland_hud",
-      "required": false
-    },
-    {
-      "id": "nova_structures:tavern_birch",
       "required": false
     },
     {
@@ -5917,7 +6009,27 @@
       "required": false
     },
     {
+      "id": "qrafty:blacksmith",
+      "required": false
+    },
+    {
+      "id": "qrafty:plains",
+      "required": false
+    },
+    {
       "id": "qrafty:industrial_construction",
+      "required": false
+    },
+    {
+      "id": "qrafty:sphinx",
+      "required": false
+    },
+    {
+      "id": "qrafty:farm",
+      "required": false
+    },
+    {
+      "id": "qrafty:oasis",
       "required": false
     },
     {
@@ -5929,11 +6041,43 @@
       "required": false
     },
     {
+      "id": "qrafty:windmill",
+      "required": false
+    },
+    {
+      "id": "qrafty:hobbit_hole",
+      "required": false
+    },
+    {
+      "id": "qrafty:graveyard",
+      "required": false
+    },
+    {
+      "id": "qrafty:roman_ruins_1",
+      "required": false
+    },
+    {
+      "id": "qrafty:lush_waterfall",
+      "required": false
+    },
+    {
+      "id": "qrafty:akropolis",
+      "required": false
+    },
+    {
       "id": "qrafty:industrial_redstone_crack",
       "required": false
     },
     {
+      "id": "qrafty:relict",
+      "required": false
+    },
+    {
       "id": "qrafty:industrial_cabin",
+      "required": false
+    },
+    {
+      "id": "qrafty:azalea_ruins",
       "required": false
     },
     {
@@ -5970,10 +6114,6 @@
     },
     {
       "id": "repurposed_structures:ancient_city_ocean",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_cherry",
       "required": false
     },
     {
@@ -6397,6 +6537,10 @@
       "required": false
     },
     {
+      "id": "structory_towers:small_firetower",
+      "required": false
+    },
+    {
       "id": "structory_towers:ocean_pillar",
       "required": false
     },
@@ -6498,10 +6642,6 @@
     },
     {
       "id": "taxtg:giant_spruce_tree_001",
-      "required": false
-    },
-    {
-      "id": "taxtg:giant_cherryblossom_tree_1",
       "required": false
     },
     {
@@ -7066,10 +7206,6 @@
     },
     {
       "id": "trek:overworld/common/ruins",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/birch_fort",
       "required": false
     },
     {
@@ -7650,6 +7786,10 @@
     },
     {
       "id": "underwater_village:ruins",
+      "required": false
+    },
+    {
+      "id": "unearthed_journey:temple_to_methuselah",
       "required": false
     },
     {

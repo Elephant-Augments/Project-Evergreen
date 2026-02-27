@@ -9,6 +9,10 @@
       "required": false
     },
     {
+      "id": "betterarcheology:catacombs",
+      "required": false
+    },
+    {
       "id": "born_in_chaos_v1:dark_tower_forest",
       "required": false
     },
@@ -21,11 +25,15 @@
       "required": false
     },
     {
+      "id": "mvs:well",
+      "required": false
+    },
+    {
       "id": "mvs:well/well",
       "required": false
     },
     {
-      "id": "mvs:well",
+      "id": "qrafty:oilrig",
       "required": false
     },
     {

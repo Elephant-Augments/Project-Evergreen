@@ -5,11 +5,11 @@
       "required": false
     },
     {
-      "id": "bosses_of_mass_destruction:lich_tower",
+      "id": "bosses_of_mass_destruction:gauntlet_arena",
       "required": false
     },
     {
-      "id": "bosses_of_mass_destruction:gauntlet_arena",
+      "id": "bosses_of_mass_destruction:lich_tower",
       "required": false
     },
     {
@@ -21,10 +21,6 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:thornborn_towers",
-      "required": false
-    },
-    {
       "id": "dungeons_arise:desert_hall",
       "required": false
     },
@@ -33,7 +29,15 @@
       "required": false
     },
     {
-      "id": "idas:iceandfire/dread_citadel",
+      "id": "dungeons_arise:thornborn_towers",
+      "required": false
+    },
+    {
+      "id": "epic:witch_hut",
+      "required": false
+    },
+    {
+      "id": "idas:bazaar",
       "required": false
     },
     {
@@ -41,11 +45,11 @@
       "required": false
     },
     {
-      "id": "idas:tinkers_citadel",
+      "id": "idas:iceandfire/dread_citadel",
       "required": false
     },
     {
-      "id": "idas:bazaar",
+      "id": "idas:tinkers_citadel",
       "required": false
     },
     {
@@ -54,6 +58,10 @@
     },
     {
       "id": "integrated_minecraft:scarlet_citadel",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_mesa",
       "required": false
     },
     {

@@ -49,6 +49,10 @@
       "required": false
     },
     {
+      "id": "create_ltab:dungeon_snow",
+      "required": false
+    },
+    {
       "id": "create_pillagers_arise:createpillagercamp",
       "required": false
     },
@@ -114,6 +118,14 @@
     },
     {
       "id": "legendary_monsters:frostbitten_temple",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:cold_monster_rooms",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:frostmonarch_temple",
       "required": false
     },
     {

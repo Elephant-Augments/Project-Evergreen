@@ -21,6 +21,10 @@
       "required": false
     },
     {
+      "id": "dungeons_arise:wishing_well",
+      "required": false
+    },
+    {
       "id": "explorify:guide_post_cold",
       "required": false
     },

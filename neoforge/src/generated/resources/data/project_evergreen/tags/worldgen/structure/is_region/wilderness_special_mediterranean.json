@@ -1,11 +1,19 @@
 {
   "values": [
     {
+      "id": "ancientstructures:roman_ruined_temple",
+      "required": false
+    },
+    {
       "id": "iceandfire:gorgon_temple",
       "required": false
     },
     {
       "id": "integrated_minecraft:cyclops_lair",
+      "required": false
+    },
+    {
+      "id": "qrafty:roman_ruins_1",
       "required": false
     }
   ]

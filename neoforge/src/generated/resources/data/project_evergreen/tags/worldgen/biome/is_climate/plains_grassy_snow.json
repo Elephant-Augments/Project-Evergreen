@@ -17,6 +17,14 @@
       "required": false
     },
     {
+      "id": "wythers:frigid_island",
+      "required": false
+    },
+    {
+      "id": "wythers:frozen_island",
+      "required": false
+    },
+    {
       "id": "wythers:tundra",
       "required": false
     }

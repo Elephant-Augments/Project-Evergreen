@@ -13,6 +13,10 @@
       "required": false
     },
     {
+      "id": "ati_structures:fortified_temple",
+      "required": false
+    },
+    {
       "id": "ati_structures:granite_fort",
       "required": false
     },
@@ -97,7 +101,15 @@
       "required": false
     },
     {
+      "id": "create_ltab:birch_structures",
+      "required": false
+    },
+    {
       "id": "create_ltab:pillage",
+      "required": false
+    },
+    {
+      "id": "create_ltab:railroad",
       "required": false
     },
     {
@@ -261,6 +273,10 @@
       "required": false
     },
     {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
       "id": "hopo:mineshaft/deepslate_mineshaft",
       "required": false
     },
@@ -285,7 +301,7 @@
       "required": false
     },
     {
-      "id": "kattersstructures:village_birch",
+      "id": "kattersstructures:village_cherry",
       "required": false
     },
     {
@@ -421,6 +437,10 @@
       "required": false
     },
     {
+      "id": "repurposed_structures:village_cherry",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:village_mushroom",
       "required": false
     },
@@ -466,6 +486,10 @@
     },
     {
       "id": "trek:overworld/rare/villager_island",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/wooden_manor",
       "required": false
     },
     {

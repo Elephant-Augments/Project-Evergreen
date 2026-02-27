@@ -41,19 +41,7 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:birch_cottage",
-      "required": false
-    },
-    {
-      "id": "create_ltab:birch_structures",
-      "required": false
-    },
-    {
       "id": "create_rustic_structures:rustic_windmill",
-      "required": false
-    },
-    {
-      "id": "explorify:supply_cache/birch",
       "required": false
     },
     {
@@ -85,19 +73,7 @@
       "required": false
     },
     {
-      "id": "imst:lumberjack/birch_hut",
-      "required": false
-    },
-    {
-      "id": "imst:birch_hut",
-      "required": false
-    },
-    {
       "id": "imst:yurt",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:birch_tree",
       "required": false
     },
     {
@@ -105,7 +81,15 @@
       "required": false
     },
     {
+      "id": "kattersstructures:graveyard",
+      "required": false
+    },
+    {
       "id": "letsdoaddon-structures:vinery",
+      "required": false
+    },
+    {
+      "id": "luistercorp:decorative_tree",
       "required": false
     },
     {
@@ -193,15 +177,11 @@
       "required": false
     },
     {
-      "id": "nova_structures:remnant_ruin_farmer",
+      "id": "qrafty:plains",
       "required": false
     },
     {
-      "id": "nova_structures:well_birch",
-      "required": false
-    },
-    {
-      "id": "nova_structures:tavern_birch",
+      "id": "qrafty:windmill",
       "required": false
     },
     {
@@ -234,10 +214,6 @@
     },
     {
       "id": "trek:overworld/medium/farm",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/birch_fort",
       "required": false
     },
     {

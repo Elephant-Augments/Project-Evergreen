@@ -29,10 +29,6 @@
       "required": false
     },
     {
-      "id": "natures_spirit:fir_forest",
-      "required": false
-    },
-    {
       "id": "regions_unexplored:pine_taiga",
       "required": false
     },

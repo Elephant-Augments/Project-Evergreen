@@ -225,11 +225,19 @@
       "required": false
     },
     {
+      "id": "create_rustic_structures:rustic_barn",
+      "required": false
+    },
+    {
       "id": "create_rustic_structures:rustic_well",
       "required": false
     },
     {
       "id": "create_rustic_structures:rustic_windmill",
+      "required": false
+    },
+    {
+      "id": "create_rustic_structures:rustic_barn",
       "required": false
     },
     {
@@ -253,6 +261,18 @@
       "required": false
     },
     {
+      "id": "dungeons_arise_seven_seas:minor_structures",
+      "required": false
+    },
+    {
+      "id": "epic:witch_hut",
+      "required": false
+    },
+    {
+      "id": "epic:witch_hut",
+      "required": false
+    },
+    {
       "id": "explorify:ruins",
       "required": false
     },
@@ -357,11 +377,27 @@
       "required": false
     },
     {
-      "id": "feur_extension_jungle:pyramid",
+      "id": "feur_extension_fossil:fossil_hand",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_hand",
       "required": false
     },
     {
       "id": "feur_extension_jungle:pyramid",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_stump",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:pyramid",
+      "required": false
+    },
+    {
+      "id": "feur_extension_jungle:tree_stump",
       "required": false
     },
     {
@@ -414,6 +450,10 @@
     },
     {
       "id": "kattersstructures:villagers",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:grassland",
       "required": false
     },
     {
@@ -893,11 +933,7 @@
       "required": false
     },
     {
-      "id": "qrafty:jungle_treevillage",
-      "required": false
-    },
-    {
-      "id": "qrafty:transilvania",
+      "id": "qrafty:blacksmith",
       "required": false
     },
     {
@@ -905,7 +941,35 @@
       "required": false
     },
     {
+      "id": "qrafty:plains",
+      "required": false
+    },
+    {
       "id": "qrafty:transilvania",
+      "required": false
+    },
+    {
+      "id": "qrafty:oilrig",
+      "required": false
+    },
+    {
+      "id": "qrafty:blacksmith",
+      "required": false
+    },
+    {
+      "id": "qrafty:jungle_treevillage",
+      "required": false
+    },
+    {
+      "id": "qrafty:plains",
+      "required": false
+    },
+    {
+      "id": "qrafty:transilvania",
+      "required": false
+    },
+    {
+      "id": "qrafty:oilrig",
       "required": false
     },
     {
@@ -998,6 +1062,14 @@
     },
     {
       "id": "structory:ruin_quiet",
+      "required": false
+    },
+    {
+      "id": "supplementaries:galleons",
+      "required": false
+    },
+    {
+      "id": "takesapillage:pillager_structure",
       "required": false
     },
     {

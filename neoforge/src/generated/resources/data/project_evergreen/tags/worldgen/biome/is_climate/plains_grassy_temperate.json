@@ -37,6 +37,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:barley_fields",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:grassland",
       "required": false
     },
@@ -62,6 +66,14 @@
     },
     {
       "id": "wythers:highland_plains",
+      "required": false
+    },
+    {
+      "id": "wythers:subtropical_grassland",
+      "required": false
+    },
+    {
+      "id": "wythers:subtropical_forest_edge",
       "required": false
     }
   ]

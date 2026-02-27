@@ -85,6 +85,10 @@
       "required": false
     },
     {
+      "id": "hopo:portal/overworld/portal_ruined",
+      "required": false
+    },
+    {
       "id": "idas:ars_nouveau/archmages_tower",
       "required": false
     },
@@ -110,6 +114,10 @@
     },
     {
       "id": "kattersstructures:magic_tower",
+      "required": false
+    },
+    {
+      "id": "minecraft:ruined_portal",
       "required": false
     },
     {

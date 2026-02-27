@@ -33,6 +33,14 @@
       "required": false
     },
     {
+      "id": "loot_n_explore:glacial_tomb",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:glaze_tower",
+      "required": false
+    },
+    {
       "id": "mostructures:ice_tower",
       "required": false
     },

@@ -29,10 +29,6 @@
       "required": false
     },
     {
-      "id": "wythers:subtropical_forest_edge",
-      "required": false
-    },
-    {
       "id": "wythers:tropical_island",
       "required": false
     }

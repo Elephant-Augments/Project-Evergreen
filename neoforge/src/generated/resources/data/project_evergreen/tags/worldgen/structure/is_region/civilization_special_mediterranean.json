@@ -17,6 +17,10 @@
       "required": false
     },
     {
+      "id": "natures_spirit:village_cypress",
+      "required": false
+    },
+    {
       "id": "towns_and_towers:exclusives/village_mediterranean",
       "required": false
     },

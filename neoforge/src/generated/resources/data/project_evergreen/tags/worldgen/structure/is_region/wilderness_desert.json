@@ -117,10 +117,6 @@
       "required": false
     },
     {
-      "id": "ati_structures:fortified_temple",
-      "required": false
-    },
-    {
       "id": "ba_bt:sandy_land_battle_tower",
       "required": false
     },
@@ -162,6 +158,10 @@
     },
     {
       "id": "combat_structures_update:runieddesertportal",
+      "required": false
+    },
+    {
+      "id": "create_ltab:dungeon_desert",
       "required": false
     },
     {
@@ -321,7 +321,15 @@
       "required": false
     },
     {
+      "id": "kattersstructures:desert_dungeon",
+      "required": false
+    },
+    {
       "id": "legendary_monsters:ruined_pyramid",
+      "required": false
+    },
+    {
+      "id": "luistercorp:dead_tree_desert",
       "required": false
     },
     {
@@ -354,6 +362,10 @@
     },
     {
       "id": "philipsruins:desert_structures",
+      "required": false
+    },
+    {
+      "id": "qrafty:oasis",
       "required": false
     },
     {

@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "natures_spirit:heather_fields",
+      "required": false
+    },
+    {
+      "id": "wythers:berry_bog",
+      "required": false
+    }
+  ]
+}

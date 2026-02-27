@@ -93,6 +93,10 @@
       "required": false
     },
     {
+      "id": "qrafty:azalea_ruins",
+      "required": false
+    },
+    {
       "id": "towns_and_towers:exclusives/village_iberian",
       "required": false
     },

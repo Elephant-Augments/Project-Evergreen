@@ -9,10 +9,6 @@
       "required": false
     },
     {
-      "id": "wythers:humid_tropical_grassland",
-      "required": false
-    },
-    {
       "id": "wythers:sandy_jungle",
       "required": false
     }

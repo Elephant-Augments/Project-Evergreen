@@ -13,18 +13,6 @@
       "required": false
     },
     {
-      "id": "wythers:cold_stony_shore",
-      "required": false
-    },
-    {
-      "id": "wythers:cold_plains",
-      "required": false
-    },
-    {
-      "id": "wythers:cold_stony_shore",
-      "required": false
-    },
-    {
       "id": "wythers:snowy_canyon",
       "required": false
     }

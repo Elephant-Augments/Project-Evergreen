@@ -25,7 +25,7 @@
       "required": false
     },
     {
-      "id": "create_ltab:birch_structures",
+      "id": "create_rustic_structures:rustic_barn",
       "required": false
     },
     {
@@ -77,10 +77,6 @@
       "required": false
     },
     {
-      "id": "hopo:mineshaft/cherry_mineshaft",
-      "required": false
-    },
-    {
       "id": "hopo:mineshaft/dark_oak_mineshaft",
       "required": false
     },
@@ -101,7 +97,11 @@
       "required": false
     },
     {
-      "id": "kattersstructures:village_cherry",
+      "id": "kattersstructures:graveyard",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_birch",
       "required": false
     },
     {
@@ -210,10 +210,6 @@
     },
     {
       "id": "repurposed_structures:village_birch",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_cherry",
       "required": false
     },
     {
@@ -362,10 +358,6 @@
     },
     {
       "id": "trek:overworld/rare/villager_fortress",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/wooden_manor",
       "required": false
     },
     {

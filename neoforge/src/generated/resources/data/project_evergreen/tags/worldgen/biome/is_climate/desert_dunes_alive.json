@@ -5,10 +5,6 @@
       "required": false
     },
     {
-      "id": "minecraft:desert",
-      "required": false
-    },
-    {
       "id": "regions_unexplored:joshua_desert",
       "required": false
     },
@@ -21,11 +17,11 @@
       "required": false
     },
     {
-      "id": "wythers:cactus_desert",
+      "id": "wythers:desert_island",
       "required": false
     },
     {
-      "id": "wythers:danakil_desert",
+      "id": "wythers:cactus_desert",
       "required": false
     },
     {
@@ -34,10 +30,6 @@
     },
     {
       "id": "wythers:guelta",
-      "required": false
-    },
-    {
-      "id": "wythers:outback_desert",
       "required": false
     },
     {

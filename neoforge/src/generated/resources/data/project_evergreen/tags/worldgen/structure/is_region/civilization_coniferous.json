@@ -181,6 +181,10 @@
       "required": false
     },
     {
+      "id": "qrafty:blacksmith",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:village_giant_taiga",
       "required": false
     },
@@ -234,6 +238,10 @@
     },
     {
       "id": "trek:overworld/medium/wandering_trader_spruce",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/haunted_house",
       "required": false
     },
     {

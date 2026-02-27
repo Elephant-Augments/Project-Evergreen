@@ -13,6 +13,14 @@
       "required": false
     },
     {
+      "id": "minecraft:birch_forest",
+      "required": false
+    },
+    {
+      "id": "minecraft:old_growth_birch_forest",
+      "required": false
+    },
+    {
       "id": "natures_spirit:maple_woodlands",
       "required": false
     },

@@ -129,10 +129,6 @@
       "required": false
     },
     {
-      "id": "kattersstructures:graveyard",
-      "required": false
-    },
-    {
       "id": "mvs:gallows",
       "required": false
     },
@@ -197,6 +193,10 @@
       "required": false
     },
     {
+      "id": "qrafty:graveyard",
+      "required": false
+    },
+    {
       "id": "structory:old_manor",
       "required": false
     },
@@ -206,10 +206,6 @@
     },
     {
       "id": "structory:graveyard",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/haunted_house",
       "required": false
     },
     {

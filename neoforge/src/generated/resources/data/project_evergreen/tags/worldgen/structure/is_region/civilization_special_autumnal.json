@@ -25,6 +25,10 @@
       "required": false
     },
     {
+      "id": "kattersstructures:village_birch",
+      "required": false
+    },
+    {
       "id": "mvs:other_decoration/pile",
       "required": false
     },

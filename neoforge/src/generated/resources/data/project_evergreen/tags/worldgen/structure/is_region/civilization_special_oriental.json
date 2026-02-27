@@ -25,15 +25,7 @@
       "required": false
     },
     {
-      "id": "create_ltab:cherry_house",
-      "required": false
-    },
-    {
       "id": "formationsoverworld:bamboo_hut",
-      "required": false
-    },
-    {
-      "id": "hopo:mineshaft/cherry_mineshaft",
       "required": false
     },
     {
@@ -49,31 +41,11 @@
       "required": false
     },
     {
-      "id": "kattersstructures:cherry_tree",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:village_cherry",
-      "required": false
-    },
-    {
       "id": "mvs:carts/medium_bamboo_cart",
       "required": false
     },
     {
       "id": "mvs:lantern/small_bamboo_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:lantern/small_cherry_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:nature/cherry_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:dead_tree/cherry",
       "required": false
     },
     {
@@ -85,31 +57,7 @@
       "required": false
     },
     {
-      "id": "mvs:small_cherry_lantern",
-      "required": false
-    },
-    {
-      "id": "mvs:cherry_tree",
-      "required": false
-    },
-    {
-      "id": "mvs:cherry",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:village_bamboo",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_cherry",
-      "required": false
-    },
-    {
-      "id": "taxtg:giant_cherryblossom_tree",
-      "required": false
-    },
-    {
-      "id": "taxtg:giant_cherryblossom_tree_1",
       "required": false
     },
     {

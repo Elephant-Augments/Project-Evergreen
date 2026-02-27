@@ -20,7 +20,8 @@
         "ignored": true,
         "ignored_biome_redistribution": true,
         "ignored_biome_radius_check": true,
-        "ignored_placement_tweaks": true
+        "ignored_placement_tweaks": true,
+        "is_birch_forest": true
       }
     },
     [
@@ -83,6 +84,30 @@
         "op": "copy",
         "path": "/biomes",
         "from": "/temp_properties/region"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_birch_forest",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_birch_forest"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_cherry_forest",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_cherry_forest"
       }
     ]
   ],

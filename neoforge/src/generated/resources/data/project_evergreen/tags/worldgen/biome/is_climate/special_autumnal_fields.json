@@ -5,19 +5,11 @@
       "required": false
     },
     {
-      "id": "minecraft:old_growth_birch_forest",
-      "required": false
-    },
-    {
       "id": "natures_spirit:golden_wilds",
       "required": false
     },
     {
       "id": "natures_spirit:marigold_meadows",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:barley_fields",
       "required": false
     },
     {
