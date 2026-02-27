@@ -1,7 +1,10 @@
 package com.elephantaugments.projectevergreen.common.integration;
 
+import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
+import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
+import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
@@ -13,12 +16,15 @@ import net.minecraft.world.level.material.Fluid;
 
 import java.util.Optional;
 
+
 public enum SupportedMods {
     MINECRAFT,
     PATCHED,
     BIOLITH,
     LITHOSTITCHED,
     WYTHERS,
+    DREAMWOODS,
+    BIOMESWEVEGONE,
     REGIONS_UNEXPLORED,
     NATURES_SPIRIT,
     AETHER,
@@ -26,6 +32,8 @@ public enum SupportedMods {
     LOSTCITIES,
     INTEGRATED_API,
     MOOGS_STRUCTURES;
+
+    public static RegistryAccess registryAccess;
 
     private final String namespace;
 
@@ -42,15 +50,13 @@ public enum SupportedMods {
     }
 
     public Optional<ResourceLocation> tryLocation(String path) {
-        return Optional.ofNullable(ResourceLocation.tryBuild(namespace, path));
+        return ResourceLocation.read(namespace + ":" + path).result();
     }
 
-    public Optional<ResourceKey<Biome>> getBiome(String id) {
+    public Optional<ResourceKey<Biome>> getBiome(String path) {
         ResourceKey<Registry<Biome>> BIOME_REGISTRY = Biomes.PLAINS.registryKey();
-        Optional<ResourceLocation> location = tryLocation(id);
-        return location.isPresent() ?
-                Optional.of(ResourceKey.create(BIOME_REGISTRY, location(id))) :
-                Optional.empty();
+        ProjectEvergreen.LOGGER.info("Getting biome: " + registryAccess.lookup(BIOME_REGISTRY).flatMap(r -> r.get(ResourceKey.create(BIOME_REGISTRY, location(path)))).flatMap(Holder.Reference::unwrapKey));
+        return registryAccess.lookup(BIOME_REGISTRY).flatMap(r -> r.get(ResourceKey.create(BIOME_REGISTRY, location(path)))).flatMap(Holder.Reference::unwrapKey);
     }
 
     public Block getBlock(String id) {

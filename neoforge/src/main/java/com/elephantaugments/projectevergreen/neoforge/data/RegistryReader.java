@@ -1,14 +1,25 @@
-package com.elephantaugments.projectevergreen.common.api;
+package com.elephantaugments.projectevergreen.neoforge.data;
 
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
+import com.elephantaugments.projectevergreen.common.api.IPatchable;
+import com.elephantaugments.projectevergreen.common.api.PEStructure;
+import com.elephantaugments.projectevergreen.common.api.PatchableStructure;
+import com.elephantaugments.projectevergreen.common.api.WorldgenDataManager;
+import com.elephantaugments.projectevergreen.common.integration.SupportedMods;
 import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
+import com.elephantaugments.projectevergreen.neoforge.ProjectEvergreenNeoforge;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import net.minecraft.core.RegistryAccess;
-import net.minecraft.core.WritableRegistry;
+import net.minecraft.core.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.biome.Biome;
+import net.minecraft.world.level.biome.Biomes;
+import net.minecraft.world.level.levelgen.structure.Structure;
+import net.minecraft.world.level.levelgen.structure.StructureSet;
 
+import javax.swing.text.html.Option;
 import java.util.Optional;
 import java.util.SortedSet;
 
@@ -17,22 +28,39 @@ public class RegistryReader {
     private final String registryPath;
     private final String registryName;
 
+    public HolderLookup.RegistryLookup<Biome> BIOME_LOOKUP;
+    public HolderGetter.Provider STRUCTURE_SET_LOOKUP;
+    public HolderGetter.Provider STRUCTURE_LOOKUP;
+
     public RegistryReader(WritableRegistry<?> registry) {
         this.registryPath = registry.key().location().getPath();
         this.registryName = registryPath.substring(registryPath.lastIndexOf('/') + 1);
-        updateDefaultWorldgenData();
+        updateDefaultWorldgenData(registry);
     }
 
-    @SuppressWarnings("unchecked")
-    public void updateLoadedWorldgenData(RegistryAccess registryAccess) {
-        switch (registryPath) {
-            case "worldgen/biome" -> WorldgenDataManager.loadPatchableBiomes(registryAccess.asGetterLookup().lookup(Registries.BIOME));
-            case "worldgen/structure_set" -> WorldgenDataManager.loadPatchableStructureSets(registryAccess.asGetterLookup().lookup(Registries.STRUCTURE_SET));
-            case "worldgen/structure" -> WorldgenDataManager.loadPatchableStructures(registryAccess.asGetterLookup().lookup(Registries.STRUCTURE));
-        }
-    }
+//    public void updateLoadedWorldgenData(RegistryAccess registryAccess) {
+//        switch (registryPath) {
+//            case "worldgen/biome" -> {
+//                ProjectEvergreen.LOGGER.info("Getting biome: " + registryAccess.registry(Registries.BIOME.registryKey()).get().size());
+//                //this.BIOME_LOOKUP = registryAccess.asGetterLookup().lookup(Registries.BIOME).toString();
+//                ProjectEvergreenNeoforge.BIOME_REGISTRY = this;
+//                ProjectEvergreenNeoforge.initBiolith();
+//                //WorldgenDataManager.loadPatchableBiomes(BIOME_LOOKUP);
+//            }
+//            case "worldgen/structure_set" -> {
+//                this.STRUCTURE_SET_LOOKUP = registryAccess.asGetterLookup();
+//                ProjectEvergreenNeoforge.STRUCTURE_SET_REGISTRY = this;
+//                //WorldgenDataManager.loadPatchableStructureSets(STRUCTURE_SET_LOOKUP);
+//            }
+//            case "worldgen/structure" -> {
+//                this.STRUCTURE_LOOKUP = registryAccess.asGetterLookup();
+//                ProjectEvergreenNeoforge.STRUCTURE_REGISTRY = this;
+//                //WorldgenDataManager.loadPatchableStructures(STRUCTURE_LOOKUP);
+//            }
+//        }
+//    }
 
-    public void updateDefaultWorldgenData() {
+    public void updateDefaultWorldgenData(WritableRegistry<?> registry) {
         switch (registryPath) {
             case "worldgen/biome" -> WorldgenDataManager.loadPatchableBiomes(Optional.empty());
             case "worldgen/structure_set" -> WorldgenDataManager.loadPatchableStructureSets(Optional.empty());

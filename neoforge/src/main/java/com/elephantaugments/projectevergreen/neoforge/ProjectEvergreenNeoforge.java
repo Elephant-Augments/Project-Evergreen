@@ -4,6 +4,7 @@ import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.api.*;
 import com.elephantaugments.projectevergreen.common.integration.SupportedMods;
 import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
+import com.elephantaugments.projectevergreen.neoforge.data.RegistryReader;
 import com.elephantaugments.projectevergreen.neoforge.platform.NeoForgePlatformHelper;
 import com.elephantaugments.projectevergreen.neoforge.world.PEBiomePlacement;
 
@@ -27,6 +28,7 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.event.TagsUpdatedEvent;
 import net.neoforged.neoforge.event.server.ServerAboutToStartEvent;
+import net.neoforged.neoforge.event.server.ServerStoppedEvent;
 
 import java.util.Optional;
 import java.util.SortedSet;
@@ -35,6 +37,10 @@ import java.util.SortedSet;
 public class ProjectEvergreenNeoforge {
     public static final String MODID = "project_evergreen";
     public static final NeoForgePlatformHelper PLATFORM = new NeoForgePlatformHelper();
+
+    public static RegistryReader BIOME_REGISTRY;
+    public static RegistryReader STRUCTURE_SET_REGISTRY;
+    public static RegistryReader STRUCTURE_REGISTRY;
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
@@ -52,10 +58,6 @@ public class ProjectEvergreenNeoforge {
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
-        if (SupportedMods.BIOLITH.isLoaded()) {
-            PEBiomePlacement.register();
-        }
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
@@ -65,14 +67,33 @@ public class ProjectEvergreenNeoforge {
 
     @SubscribeEvent
     public void onServerAboutToStart(ServerAboutToStartEvent event) {
-        RegistryAccess registryAccess = event.getServer().registryAccess();
         //WorldgenDataManager.loadDynamicWorldgenData(registryAccess);
+//        SupportedMods.registryAccess = event.getServer().registryAccess();
+//        if (SupportedMods.BIOLITH.isLoaded()) {
+//            PEBiomePlacement.register();
+//        }
+    }
+
+    @SubscribeEvent
+    public void onServerStopped(ServerStoppedEvent event) {
+        BIOME_REGISTRY = null;
+        STRUCTURE_SET_REGISTRY = null;
+        STRUCTURE_REGISTRY = null;
     }
 
     @SubscribeEvent
     public void onTagsLoaded(TagsUpdatedEvent event) {
-        RegistryAccess registryAccess = event.getRegistryAccess();
-        //WorldgenDataManager.loadDynamicWorldgenData(registryAccess);
+        SupportedMods.registryAccess = event.getRegistryAccess();
+        if (SupportedMods.BIOLITH.isLoaded()) {
+            PEBiomePlacement.register();
+        }
+    }
+
+    public static void initBiolith() {
+        ProjectEvergreen.LOGGER.info("Grabbing biome values from biome registry reader... " + BIOME_REGISTRY.toString());
+        if (SupportedMods.BIOLITH.isLoaded()) {
+            PEBiomePlacement.register();
+        }
     }
 
     private void registerCommands(RegisterCommandsEvent event) {

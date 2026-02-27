@@ -1,18 +1,13 @@
 package com.elephantaugments.projectevergreen.neoforge.mixin;
 
-import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.api.*;
-import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
+import com.elephantaugments.projectevergreen.neoforge.ProjectEvergreenNeoforge;
+import com.elephantaugments.projectevergreen.neoforge.data.RegistryReader;
 import com.llamalad7.mixinextras.sugar.Local;
 import net.minecraft.core.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.server.packs.resources.ResourceManager;
-import net.minecraft.server.packs.resources.ResourceProvider;
-import net.minecraft.world.level.biome.Biome;
-import net.minecraft.world.level.levelgen.structure.Structure;
-import net.minecraft.world.level.levelgen.structure.StructureSet;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
@@ -25,18 +20,9 @@ import net.minecraft.server.packs.resources.Resource;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.List;
-import java.util.Map;
-import java.util.Optional;
 
 @Mixin(RegistryDataLoader.class)
 public class ReadRegistryMixin {
-
-    @Unique
-    private static RegistryReader project_Evergreen$biomeReader;
-    @Unique
-    private static RegistryReader project_Evergreen$structureSetReader;
-    @Unique
-    private static RegistryReader project_Evergreen$structureReader;
 
     @Inject(at = @At(value = "INVOKE", target = "Lcom/mojang/serialization/Decoder;parse(Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;"),
             method = "loadElementFromResource")
@@ -55,8 +41,8 @@ public class ReadRegistryMixin {
 
         //<---------------------STRUCTURES--------------------->
         if (regLocation == Registries.STRUCTURE.location()) {
-            if (project_Evergreen$structureReader == null) { project_Evergreen$structureReader = new RegistryReader(registry); }
-            project_Evergreen$structureReader.readFromRegistry(
+            if (ProjectEvergreenNeoforge.STRUCTURE_REGISTRY == null) { ProjectEvergreenNeoforge.STRUCTURE_REGISTRY = new RegistryReader(registry); }
+            ProjectEvergreenNeoforge.STRUCTURE_REGISTRY.readFromRegistry(
                     resourceKey,
                     jsonElement.getAsJsonObject(),
                     WorldgenDataManager.loadedStructures
@@ -64,8 +50,8 @@ public class ReadRegistryMixin {
         }
         //<----------------------BIOMES---------------------->
         if (regLocation == Registries.BIOME.location()) {
-            if (project_Evergreen$biomeReader == null) { project_Evergreen$biomeReader = new RegistryReader(registry); }
-            project_Evergreen$biomeReader.readFromRegistry(
+            if (ProjectEvergreenNeoforge.BIOME_REGISTRY == null) { ProjectEvergreenNeoforge.BIOME_REGISTRY = new RegistryReader(registry); }
+            ProjectEvergreenNeoforge.BIOME_REGISTRY.readFromRegistry(
                     resourceKey,
                     jsonElement.getAsJsonObject(),
                     WorldgenDataManager.loadedBiomes
@@ -73,8 +59,8 @@ public class ReadRegistryMixin {
         }
         //<-------------------STRUCTURE_SETS------------------->
         if (regLocation == Registries.STRUCTURE_SET.location()) {
-            if (project_Evergreen$structureSetReader == null) { project_Evergreen$structureSetReader = new RegistryReader(registry); }
-            project_Evergreen$structureSetReader.readFromRegistry(
+            if (ProjectEvergreenNeoforge.STRUCTURE_SET_REGISTRY == null) { ProjectEvergreenNeoforge.STRUCTURE_SET_REGISTRY = new RegistryReader(registry); }
+            ProjectEvergreenNeoforge.STRUCTURE_SET_REGISTRY.readFromRegistry(
                     resourceKey,
                     jsonElement.getAsJsonObject(),
                     WorldgenDataManager.loadedStructureSets
@@ -135,10 +121,9 @@ public class ReadRegistryMixin {
             List<RegistryDataLoader.RegistryData<?>> registryData,
             CallbackInfoReturnable<RegistryAccess.Frozen> cir)
     {
-        project_Evergreen$biomeReader.updateDefaultWorldgenData();
-        project_Evergreen$structureSetReader.updateDefaultWorldgenData();
-        project_Evergreen$structureReader.updateDefaultWorldgenData();
-        ProjectEvergreen.LOGGER.info("Here's how many ocean surface structures are loaded2: " + PEStructure.Heightmap.OCEANSURFACE.defaultIDs().size());
+        ProjectEvergreenNeoforge.BIOME_REGISTRY.updateLoadedWorldgenData(registryAccess);
+        ProjectEvergreenNeoforge.STRUCTURE_SET_REGISTRY.updateLoadedWorldgenData(registryAccess);
+        ProjectEvergreenNeoforge.STRUCTURE_REGISTRY.updateLoadedWorldgenData(registryAccess);
     }
 
     @Inject(at = @At("RETURN"), method = "load(Ljava/util/Map;Lnet/minecraft/server/packs/resources/ResourceProvider;Lnet/minecraft/core/RegistryAccess;Ljava/util/List;)Lnet/minecraft/core/RegistryAccess$Frozen;")
@@ -149,9 +134,8 @@ public class ReadRegistryMixin {
             List<RegistryDataLoader.RegistryData<?>> registryData,
             CallbackInfoReturnable<RegistryAccess.Frozen> cir)
     {
-        project_Evergreen$biomeReader.updateDefaultWorldgenData();
-        project_Evergreen$structureSetReader.updateDefaultWorldgenData();
-        project_Evergreen$structureReader.updateDefaultWorldgenData();
-        ProjectEvergreen.LOGGER.info("Here's how many ocean surface structures are loaded3: " + PEStructure.Heightmap.OCEANSURFACE.defaultIDs().size());
+        ProjectEvergreenNeoforge.BIOME_REGISTRY.updateLoadedWorldgenData(registryAccess);
+        ProjectEvergreenNeoforge.STRUCTURE_SET_REGISTRY.updateLoadedWorldgenData(registryAccess);
+        ProjectEvergreenNeoforge.STRUCTURE_REGISTRY.updateLoadedWorldgenData(registryAccess);
     }*/
 }

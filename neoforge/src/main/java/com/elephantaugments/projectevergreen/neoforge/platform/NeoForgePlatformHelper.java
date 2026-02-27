@@ -2,6 +2,7 @@ package com.elephantaugments.projectevergreen.neoforge.platform;
 
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.platform.PlatformHelper;
+import net.minecraft.SharedConstants;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.loading.FMLLoader;
 
