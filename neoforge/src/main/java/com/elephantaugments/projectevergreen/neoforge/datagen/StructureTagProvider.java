@@ -13,9 +13,7 @@ import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 
 import java.text.Collator;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 import java.util.concurrent.CompletableFuture;
 
 public class StructureTagProvider extends StructureTagsProvider {
@@ -68,13 +66,7 @@ public class StructureTagProvider extends StructureTagsProvider {
                 if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
                     ProjectEvergreen.LOGGER.info("Populating structure dimension tag... " + tag.location());
                 }
-                List<ResourceLocation> structures = dimension.defaultStructures().stream()
-                        .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
-                        .map(ResourceLocation::parse)
-                        .toList();
-                structures.forEach(s -> {
-                    tag(tag).addOptional(s);
-                });
+                appendIDOnce(tag, dimension.defaultStructures());
             }
         );
     }
@@ -85,13 +77,7 @@ public class StructureTagProvider extends StructureTagsProvider {
                 if (PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
                     ProjectEvergreen.LOGGER.info("Populating structure region tag... " + tag.location());
                 }
-                List<ResourceLocation> structures = region.defaultStructures().stream()
-                        .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
-                        .map(ResourceLocation::parse)
-                        .toList();
-                structures.forEach(s -> {
-                    tag(tag).addOptional(s);
-                });
+                appendIDOnce(tag, region.defaultStructures());
             }
         );
     }
@@ -102,13 +88,7 @@ public class StructureTagProvider extends StructureTagsProvider {
                 if (PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
                     ProjectEvergreen.LOGGER.info("Populating structure rarity tag... " + tag.location());
                 }
-                List<ResourceLocation> structures = sset.defaultStructures().stream()
-                        .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
-                        .map(ResourceLocation::parse)
-                        .toList();
-                structures.forEach(s -> {
-                    tag(tag).addOptional(s);
-                });
+                appendIDOnce(tag, sset.defaultStructures());
             }
         );
     }
@@ -119,13 +99,7 @@ public class StructureTagProvider extends StructureTagsProvider {
                 if (PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
                     ProjectEvergreen.LOGGER.info("Populating structure flag tag... " + tag.location());
                 }
-                List<ResourceLocation> structures = flag.defaultIDs().stream()
-                        .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
-                        .map(ResourceLocation::parse)
-                        .toList();
-                structures.forEach(s -> {
-                    tag(tag).addOptional(s);
-                });
+                appendIDOnce(tag, flag.defaultIDs());
             }
         );
     }
@@ -136,15 +110,19 @@ public class StructureTagProvider extends StructureTagsProvider {
                 if (PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
                     ProjectEvergreen.LOGGER.info("Populating structure difficulty tag... " + tag.location());
                 }
-                List<ResourceLocation> structures = WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                appendIDOnce(tag, WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
                         .filter(s -> s.getDifficulty().isPresent() && s.getDifficulty().get().equals(diff.number()))
-                        .sorted((a, b) -> collator.compare(a.id.split(":")[0], b.id.split(":")[0]))
-                        .map(s -> ResourceLocation.parse(s.id))
-                        .toList();
-                structures.forEach(s -> {
-                    tag(tag).addOptional(s);
-                });
+                        .map(PatchableStructure::getId)
+                        .toList());
             }
         );
+    }
+
+    private void appendIDOnce(TagKey<Structure> tag, List<String> ids) {
+        TreeSet<String> structures = new TreeSet<>(ids);
+        structures.stream().map(ResourceLocation::parse)
+                .forEach(s -> {
+                    tag(tag).addOptional(s);
+                });
     }
 }

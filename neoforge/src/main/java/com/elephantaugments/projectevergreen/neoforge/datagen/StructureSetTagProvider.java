@@ -14,6 +14,7 @@ import net.minecraft.world.level.levelgen.structure.StructureSet;
 import java.text.Collator;
 import java.util.List;
 import java.util.Optional;
+import java.util.TreeSet;
 import java.util.concurrent.CompletableFuture;
 
 public class StructureSetTagProvider extends TagsProvider<StructureSet> {
@@ -36,14 +37,16 @@ public class StructureSetTagProvider extends TagsProvider<StructureSet> {
         Optional.ofNullable(flag.tag()).ifPresent(
             (tag) -> {
                 if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Populating structure set tag... " + tag.location()); }
-                List<ResourceLocation> regional_structures = flag.defaultIDs().stream()
-                        .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
-                        .map(ResourceLocation::parse)
-                        .toList();
-                regional_structures.forEach(s -> {
-                    tag(tag).addOptional(s);
-                });
+                appendIDOnce(tag, flag.defaultIDs());
             }
         );
+    }
+
+    private void appendIDOnce(TagKey<StructureSet> tag, List<String> ids) {
+        TreeSet<String> structures = new TreeSet<>(ids);
+        structures.stream().map(ResourceLocation::parse)
+                .forEach(s -> {
+                    tag(tag).addOptional(s);
+                });
     }
 }

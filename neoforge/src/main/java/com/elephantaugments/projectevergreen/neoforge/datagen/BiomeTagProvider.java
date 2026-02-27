@@ -7,12 +7,15 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.BiomeTagsProvider;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.level.biome.Biome;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 
 import java.text.Collator;
 import java.util.List;
 import java.util.Optional;
+import java.util.TreeSet;
 import java.util.concurrent.CompletableFuture;
 
 public class BiomeTagProvider extends BiomeTagsProvider {
@@ -42,13 +45,7 @@ public class BiomeTagProvider extends BiomeTagsProvider {
         Optional.ofNullable(biome.tag()).ifPresent(
             (tag) -> {
                 if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Populating biome tag... " + tag.location()); }
-                List<ResourceLocation> biomes = biome.defaultBiomes().stream()
-                        .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
-                        .map(ResourceLocation::parse)
-                        .toList();
-                biomes.forEach(s -> {
-                    tag(tag).addOptional(s);
-                });
+                appendIDOnce(tag, biome.defaultBiomes());
             }
         );
     }
@@ -57,13 +54,7 @@ public class BiomeTagProvider extends BiomeTagsProvider {
         Optional.ofNullable(region.biomeTag()).ifPresent(
             (tag) -> {
                 if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Populating region tag... " + tag.location()); }
-                List<ResourceLocation> regional_biomes = region.defaultBiomes().stream()
-                        .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
-                        .map(ResourceLocation::parse)
-                        .toList();
-                regional_biomes.forEach(s -> {
-                    tag(tag).addOptionalTag(s);
-                });
+                appendTagOnce(tag, region.defaultBiomes());
             }
         );
     }
@@ -72,14 +63,24 @@ public class BiomeTagProvider extends BiomeTagsProvider {
         Optional.ofNullable(flag.tag()).ifPresent(
             (tag) -> {
                 if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Populating biome flag tag... " + tag.location()); }
-                List<ResourceLocation> regional_structures = flag.defaultIDs().stream()
-                        .sorted((a, b) -> collator.compare(a.split(":")[0], b.split(":")[0]))
-                        .map(ResourceLocation::parse)
-                        .toList();
-                regional_structures.forEach(s -> {
-                    tag(tag).addOptional(s);
-                });
+                appendIDOnce(tag, flag.defaultIDs());
             }
         );
+    }
+
+    private void appendIDOnce(TagKey<Biome> tag, List<String> ids) {
+        TreeSet<String> structures = new TreeSet<>(ids);
+        structures.stream().map(ResourceLocation::parse)
+                .forEach(s -> {
+                    tag(tag).addOptional(s);
+                });
+    }
+
+    private void appendTagOnce(TagKey<Biome> tag, List<String> ids) {
+        TreeSet<String> structures = new TreeSet<>(ids);
+        structures.stream().map(ResourceLocation::parse)
+                .forEach(s -> {
+                    tag(tag).addOptionalTag(s);
+                });
     }
 }
