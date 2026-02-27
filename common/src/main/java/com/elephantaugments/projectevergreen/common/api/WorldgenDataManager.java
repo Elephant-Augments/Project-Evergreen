@@ -100,6 +100,9 @@ public final class WorldgenDataManager {
                 t.setData(sset);
             });
         }
+
+        PEStructureSet.Flag.DISABLED.initIDs(PEStructureSet.hasRedistributedStructures());
+        PEStructureSet.Flag.DISABLED.initIDs(PEStructureSet.hasDisabledStructures());
         for (PEStructureSet.Flag flag : PEStructureSet.Flag.values()) {
             mapFlagToStructureSet(flag, registryLookup);
         }
@@ -135,6 +138,19 @@ public final class WorldgenDataManager {
     }
 
     public static void loadStructuresByFlag(Optional<HolderGetter<Structure>> registryLookup) {
+        PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.initIDs(PEStructure.Heightmap.UNDERGROUND.defaultIDs());
+        PEStructure.Flag.IGNORED_BIOME_RADIUS_CHECK.initIDs(PEStructure.Flag.isBiasIgnored());
+        PEStructure.Flag.FLATNESS_CHECK_SPRAWLING.initIDs(PEStructure.Flag.isSprawlingFlat());
+        PEStructure.Flag.FLATNESS_CHECK_LARGE.initIDs(PEStructure.Flag.isLargeFlat());
+        PEStructure.Flag.FLATNESS_CHECK_SMALL.initIDs(PEStructure.Flag.isSmallFlat());
+        for (PEStructure.Flag flag : PEStructure.Flag.values()) {
+            mapFlagToStructure(flag, registryLookup);
+        }
+
+        PEStructure.Flag.IGNORED.initIDs(PEStructure.Flag.isIgnored());
+        PEStructure.Flag.IGNORED_BIOME_REDISTRIBUTION.initIDs(PEStructure.Flag.IGNORED.defaultIDs());
+        PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.initIDs(PEStructure.Flag.IGNORED.defaultIDs());
+        PEStructure.Flag.IGNORED_BIOME_RADIUS_CHECK.initIDs(PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.defaultIDs());
         for (PEStructure.Flag flag : PEStructure.Flag.values()) {
             mapFlagToStructure(flag, registryLookup);
         }
@@ -162,8 +178,6 @@ public final class WorldgenDataManager {
     }
 
     public static void mapFlagToStructureSet(PEStructureSet.Flag flag, Optional<HolderGetter<StructureSet>> registryLookup) {
-        PEStructureSet.Flag.DISABLED.initIDs(PEStructureSet.hasRedistributedStructures());
-        PEStructureSet.Flag.DISABLED.initIDs(PEStructureSet.hasDisabledStructures());
         List<String> structure_sets = registryLookup
                 .map(ssetRegistryLookup ->
                         getTaggedData(ssetRegistryLookup, flag.tag()))
@@ -216,16 +230,6 @@ public final class WorldgenDataManager {
     }
 
     public static void mapFlagToStructure(PEStructure.Flag flag, Optional<HolderGetter<Structure>> registryLookup) {
-        PEStructure.Flag.IGNORED.initIDs(PEStructure.Flag.isIgnored());
-        PEStructure.Flag.IGNORED_BIOME_REDISTRIBUTION.initIDs(PEStructure.Flag.isIgnored());
-        PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.initIDs(PEStructure.Flag.isIgnored());
-        PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.initIDs(PEStructure.Heightmap.UNDERGROUND.defaultIDs());
-        PEStructure.Flag.IGNORED_BIOME_RADIUS_CHECK.initIDs(PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.defaultIDs());
-        PEStructure.Flag.IGNORED_BIOME_RADIUS_CHECK.initIDs(PEStructure.Flag.isBiasIgnored());
-        PEStructure.Flag.FLATNESS_CHECK_SPRAWLING.initIDs(PEStructure.Flag.isSprawlingFlat());
-        PEStructure.Flag.FLATNESS_CHECK_LARGE.initIDs(PEStructure.Flag.isLargeFlat());
-        PEStructure.Flag.FLATNESS_CHECK_SMALL.initIDs(PEStructure.Flag.isSmallFlat());
-
         List<String> structure_ids = registryLookup
                 .map(structureRegistryLookup ->
                         getTaggedData(structureRegistryLookup, flag.tag()))

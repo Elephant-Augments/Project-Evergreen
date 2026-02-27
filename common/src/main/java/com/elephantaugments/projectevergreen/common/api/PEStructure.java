@@ -203,7 +203,9 @@ public enum PEStructure {
         FLATNESS_CHECK_SMALL(DefaultFlags.flatnessCheckSmall),
         FLATNESS_CHECK_MEDIUM(DefaultFlags.flatnessCheckMedium),
         FLATNESS_CHECK_LARGE(DefaultFlags.flatnessCheckLarge),
-        FLATNESS_CHECK_SPRAWLING(DefaultFlags.flatnessCheckSprawling);
+        FLATNESS_CHECK_SPRAWLING(DefaultFlags.flatnessCheckSprawling),
+        IS_BIRCH_FOREST(DefaultFlags.forceBirchForest),
+        IS_CHERRY_FOREST(DefaultFlags.forceCherryForest);
 
         private List<String> defaultIDs = new ArrayList<>();
 
@@ -262,10 +264,10 @@ public enum PEStructure {
             return spawnsInRareOrNarrowRegion.stream().toList();
         }
 
+        //Fix Ignored Biome Redistribution structures counting (this doesn't work)
         public static List<String> isIgnored() {
             return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
-                    .filter(s -> s.getDimension().isEmpty() &&
-                            !(s.getFlags().contains(Flag.IGNORED_BIOME_REDISTRIBUTION)))
+                    .filter(s -> s.getDimension().isEmpty() && s.getFlags().isEmpty())
                     .map(PatchableStructure::getId)
                     .toList();
         }
