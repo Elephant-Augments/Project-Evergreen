@@ -4,7 +4,8 @@
       "op": "add",
       "path": "/temp_properties",
       "value": {
-        "id": "project_evergreen:wilderness_deco"
+        "id": "project_evergreen:wilderness_deco",
+        "is_loaded": false
       }
     },
     {

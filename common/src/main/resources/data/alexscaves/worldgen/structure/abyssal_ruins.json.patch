@@ -1,0 +1,9 @@
+[
+    [
+          {
+              "op": "add",
+              "path": "/liquid_settings",
+              "value": "ignore_waterlogging"
+          }
+    ]
+]

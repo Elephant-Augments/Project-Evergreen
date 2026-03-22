@@ -35,6 +35,18 @@
     {
       "id": "terralith:savanna_badlands",
       "required": false
+    },
+    {
+      "id": "wythers:kwongan_heath",
+      "required": false
+    },
+    {
+      "id": "wythers:outback",
+      "required": false
+    },
+    {
+      "id": "wythers:outback_desert",
+      "required": false
     }
   ]
 }

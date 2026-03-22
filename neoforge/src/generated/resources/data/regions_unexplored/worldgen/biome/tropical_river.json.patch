@@ -6,6 +6,7 @@
       "value": {
         "id": "regions_unexplored:tropical_river",
         "patchable": true,
+        "remove_vegetation_color": true,
         "is_warm": true
       }
     },

@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:set_structure_spawn_condition",
+  "structures": "#project_evergreen:is_heightmap/underground",
+  "spawn_condition": {
+    "type": "lithostitched:grid",
+    "radius": 100,
+    "distance_between_points": 10,
+    "condition": {
+      "type": "lithostitched:in_biome",
+      "biomes": "alexscaves:abyssal_chasm"
+    },
+    "allowed_count": 0
+  }
+}

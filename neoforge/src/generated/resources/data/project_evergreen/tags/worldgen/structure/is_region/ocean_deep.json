@@ -141,10 +141,6 @@
       "required": false
     },
     {
-      "id": "totw_modded:ocean",
-      "required": false
-    },
-    {
       "id": "towns_and_towers:village_ocean",
       "required": false
     },

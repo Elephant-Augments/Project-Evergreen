@@ -21,6 +21,22 @@
       "required": false
     },
     {
+      "id": "archeological:ancient_vault_wasteland_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:wasteland_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:wasteland_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:wasteland_ruins_small",
+      "required": false
+    },
+    {
       "id": "ba_bt:sandy_land_battle_tower",
       "required": false
     },
@@ -109,6 +125,10 @@
       "required": false
     },
     {
+      "id": "mtr:badlands_temple",
+      "required": false
+    },
+    {
       "id": "nova_structures:badlands_miner_outpost",
       "required": false
     },
@@ -130,10 +150,6 @@
     },
     {
       "id": "piglet_structures:badlands_ruins",
-      "required": false
-    },
-    {
-      "id": "qrafty:relict",
       "required": false
     },
     {

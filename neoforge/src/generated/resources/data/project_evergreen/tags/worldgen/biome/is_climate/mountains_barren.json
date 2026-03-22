@@ -37,15 +37,15 @@
       "required": false
     },
     {
-      "id": "terralith:volcanic_crater",
-      "required": false
-    },
-    {
       "id": "terralith:volcanic_peaks",
       "required": false
     },
     {
       "id": "wythers:tibesti_mountains",
+      "required": false
+    },
+    {
+      "id": "wythers:volcano",
       "required": false
     }
   ]

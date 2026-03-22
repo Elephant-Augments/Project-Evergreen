@@ -10,10 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.biome.Biome;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public enum PEBiome {
@@ -77,7 +74,16 @@ public enum PEBiome {
     SPECIAL_SPOOKY(DefaultBiomeTags.specialSpooky),
     SPECIAL_SWAMPY_SNOW(DefaultBiomeTags.specialSwampySnow),
     SPECIAL_SWAMPY_TEMPERATE(DefaultBiomeTags.specialSwampyTemperate),
-    SPECIAL_SWAMPY_WARM(DefaultBiomeTags.specialSwampyWarm);
+    SPECIAL_SWAMPY_WARM(DefaultBiomeTags.specialSwampyWarm),
+    BIRCH_FOREST(DefaultBiomeTags.birchForest),
+    CHERRY_FOREST(DefaultBiomeTags.cherryForest),
+    VOLCANIC_CRATER(DefaultBiomeTags.volcanicCrater),
+    UNDERGROUND(DefaultBiomeTags.underground);
+
+    private List<String> defaultBiomes = new ArrayList<>();
+    private List<String> entityAdditions = new ArrayList<>();
+    private List<String> featureAdditions = new ArrayList<>();
+    private List<String> featureRemovals = new ArrayList<>();
 
     private final String jsonKey = Constants.JsonProp.BIOME.jsonKey();
     private final String jsonPath = Constants.JsonProp.BIOME.jsonPath();
@@ -85,14 +91,20 @@ public enum PEBiome {
     private final String path;
     private final ResourceLocation location;
     private TagKey<Biome> tag;
-    private List<String> defaultSet;
 
-    PEBiome(List<String> defaultSet) {
+    PEBiome(List<String> defaultBiomes
+            //List<String> entityAdditions,
+            //List<String> featureAdditions,
+            //List<String> featureRemovals
+    ) {
         path = "is_climate/" + name().toLowerCase();
         location = ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, path);
         this.tag = ProjectEvergreen.createTag(Registries.BIOME, location);
         this.tagKey = "#" + location;
-        this.defaultSet = defaultSet;
+        this.defaultBiomes.addAll(defaultBiomes);
+        //this.entityAdditions.addAll(featureAdditions);
+        //this.featureAdditions.addAll(featureAdditions);
+        //this.featureRemovals.addAll(featureRemovals);
     }
 
     public ResourceLocation location() {
@@ -116,7 +128,7 @@ public enum PEBiome {
     }
 
     public List<String> defaultBiomes() {
-        return defaultSet;
+        return defaultBiomes;
     }
 
     public static List<String> allTemperate() {

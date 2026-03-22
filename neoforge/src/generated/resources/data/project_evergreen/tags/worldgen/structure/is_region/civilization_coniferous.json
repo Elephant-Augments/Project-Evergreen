@@ -173,6 +173,10 @@
       "required": false
     },
     {
+      "id": "nova_structures:tavern_dark_oak",
+      "required": false
+    },
+    {
       "id": "nova_structures:tavern_spruce",
       "required": false
     },
@@ -181,7 +185,23 @@
       "required": false
     },
     {
+      "id": "qrafty:archeology_taiga",
+      "required": false
+    },
+    {
       "id": "qrafty:blacksmith",
+      "required": false
+    },
+    {
+      "id": "qrafty:spruce_cabin",
+      "required": false
+    },
+    {
+      "id": "qrafty:stelzen",
+      "required": false
+    },
+    {
+      "id": "qrafty:taiga",
       "required": false
     },
     {

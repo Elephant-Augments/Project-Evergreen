@@ -12,6 +12,7 @@ public class DefaultStructureDimensions {
 
     //NETHER
     public static final List<String> netherStructures = ImmutableList.of(
+        "ati_structures:wither_cavern",
         "combat_structures_update:nether_basalt_portal",
         "combat_structures_update:nether_brute_room",
         "combat_structures_update:nether_hoglin_homestead",
@@ -28,7 +29,8 @@ public class DefaultStructureDimensions {
         "combat_structures_update:netherlargewarpedtreehouse",
         "combat_structures_update:netherlongspike",
         "combat_structures_update:netherrack_mine_tunnels",
-        "combat_structures_update:netherrackspike"
+        "combat_structures_update:netherrackspike",
+        "fdbosses:malkuth_arena"
     );
 
     //AFTERDARK
@@ -55,6 +57,8 @@ public class DefaultStructureDimensions {
 
     //LOST_CITIES
     public static final List<String> lostCitiesStructures = ImmutableList.of(
+        "create_ltab:water_pre",
+        "integrated_minecraft:abandoned_factory",
         "spore:biomass_tower",
         "spore:cathedral",
         "spore:cell",
@@ -66,6 +70,7 @@ public class DefaultStructureDimensions {
         "spore:mass_grave",
         "spore:military_camp",
         "spore:mines",
-        "spore:prison"
+        "spore:prison",
+        "underground_bunkers:underground_bunker"
     );
 }

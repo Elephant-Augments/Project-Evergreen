@@ -17,6 +17,14 @@
       "required": false
     },
     {
+      "id": "integrated_villages:mediterranean_village",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_sky",
+      "required": false
+    },
+    {
       "id": "natures_spirit:village_cypress",
       "required": false
     },

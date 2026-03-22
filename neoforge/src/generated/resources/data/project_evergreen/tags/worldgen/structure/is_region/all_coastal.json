@@ -23,6 +23,10 @@
     {
       "id": "mostructures:moai",
       "required": false
+    },
+    {
+      "id": "supplementaries:road_sign",
+      "required": false
     }
   ]
 }

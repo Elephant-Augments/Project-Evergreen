@@ -1,6 +1,14 @@
 {
   "values": [
     {
+      "id": "create_ltab:water_pre",
+      "required": false
+    },
+    {
+      "id": "integrated_minecraft:abandoned_factory",
+      "required": false
+    },
+    {
       "id": "spore:biomass_tower",
       "required": false
     },
@@ -46,6 +54,10 @@
     },
     {
       "id": "spore:prison",
+      "required": false
+    },
+    {
+      "id": "underground_bunkers:underground_bunker",
       "required": false
     }
   ]

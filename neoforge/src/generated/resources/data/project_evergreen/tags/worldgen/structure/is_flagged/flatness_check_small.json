@@ -49,10 +49,6 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:meteor",
-      "required": false
-    },
-    {
       "id": "mvs:acacia_log_pile",
       "required": false
     },

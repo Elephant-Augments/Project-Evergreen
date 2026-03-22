@@ -77,6 +77,10 @@
       "required": false
     },
     {
+      "id": "minecraft:pillager_outpost_forest",
+      "required": false
+    },
+    {
       "id": "mvs:birch",
       "required": false
     },

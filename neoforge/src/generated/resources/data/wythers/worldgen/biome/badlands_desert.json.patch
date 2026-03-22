@@ -6,6 +6,7 @@
       "value": {
         "id": "wythers:badlands_desert",
         "patchable": true,
+        "is_savanna_brown": true,
         "is_warm": true
       }
     },

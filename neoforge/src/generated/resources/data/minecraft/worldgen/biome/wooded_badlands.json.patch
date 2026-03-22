@@ -6,6 +6,7 @@
       "value": {
         "id": "minecraft:wooded_badlands",
         "patchable": true,
+        "is_savanna_brown": true,
         "is_warm": true
       }
     },

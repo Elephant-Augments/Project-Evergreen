@@ -1,6 +1,14 @@
 {
   "values": [
     {
+      "id": "ati_structures:rotting_temple_underground",
+      "required": false
+    },
+    {
+      "id": "betterstrongholds:stronghold",
+      "required": false
+    },
+    {
       "id": "cataclysm:ancient_factory",
       "required": false
     },
@@ -34,6 +42,10 @@
     },
     {
       "id": "dungeons_revival:redstone_mines",
+      "required": false
+    },
+    {
+      "id": "fdbosses:chesed_arena",
       "required": false
     },
     {
@@ -101,7 +113,11 @@
       "required": false
     },
     {
-      "id": "minecraft:ancient_city",
+      "id": "kattersstructures:village_underground",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:frostmonarch_temple",
       "required": false
     },
     {
@@ -109,7 +125,19 @@
       "required": false
     },
     {
+      "id": "minecraft:stronghold_big",
+      "required": false
+    },
+    {
+      "id": "minecraft:trial_chambers",
+      "required": false
+    },
+    {
       "id": "mtr:stronghold",
+      "required": false
+    },
+    {
+      "id": "qrafty:bunker",
       "required": false
     },
     {

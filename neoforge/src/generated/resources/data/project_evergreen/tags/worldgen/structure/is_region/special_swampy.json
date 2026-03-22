@@ -5,6 +5,18 @@
       "required": false
     },
     {
+      "id": "archeological:ruined_hut_large",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_hut_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_hut_small",
+      "required": false
+    },
+    {
       "id": "betterarcheology:mott",
       "required": false
     },
@@ -97,6 +109,10 @@
       "required": false
     },
     {
+      "id": "minecraft:pillager_outpost_swamp",
+      "required": false
+    },
+    {
       "id": "minecraft:ruined_portal_swamp",
       "required": false
     },
@@ -145,6 +161,14 @@
       "required": false
     },
     {
+      "id": "qrafty:lotussea",
+      "required": false
+    },
+    {
+      "id": "qrafty:relict",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:village_swamp",
       "required": false
     },
@@ -178,6 +202,10 @@
     },
     {
       "id": "trek:village/swamp",
+      "required": false
+    },
+    {
+      "id": "villagesandpillages:village_witch",
       "required": false
     },
     {

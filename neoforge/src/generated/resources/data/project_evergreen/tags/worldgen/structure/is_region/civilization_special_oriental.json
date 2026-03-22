@@ -57,6 +57,14 @@
       "required": false
     },
     {
+      "id": "qrafty:bamboo",
+      "required": false
+    },
+    {
+      "id": "qrafty:tsumago",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:village_bamboo",
       "required": false
     },

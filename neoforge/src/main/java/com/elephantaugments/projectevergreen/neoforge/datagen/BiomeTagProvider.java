@@ -1,5 +1,6 @@
 package com.elephantaugments.projectevergreen.neoforge.datagen;
 
+import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.api.*;
 import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
@@ -31,6 +32,7 @@ public class BiomeTagProvider extends BiomeTagsProvider {
         for (PEBiome biome : PEBiome.values()) {
             setBiomeTag(biome);
         }
+        tag(PEBiome.UNDERGROUND.tag()).addOptionalTag(ResourceLocation.parse(Constants.CAVE_TAG));
         //IS_REGION
         for (PERegion region : PERegion.values()) {
             setRegionTag(region);

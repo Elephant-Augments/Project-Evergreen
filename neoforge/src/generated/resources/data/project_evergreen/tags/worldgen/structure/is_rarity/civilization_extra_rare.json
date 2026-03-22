@@ -1,6 +1,78 @@
 {
   "values": [
     {
+      "id": "ati_structures:villager_inn",
+      "required": false
+    },
+    {
+      "id": "beautify:botanist_house_desert",
+      "required": false
+    },
+    {
+      "id": "create_rustic_structures:rustic_barn",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:copper_spire",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:desert_houses",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:farmland_field",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:hobbit_hole",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:igloo",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:small_house",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:small_statue",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:small_temple",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:stone_tower",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:tiny_house",
+      "required": false
+    },
+    {
+      "id": "idas:tinkers_workshop",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:villager_desert",
+      "required": false
+    },
+    {
+      "id": "qrafty:archeology_desert",
+      "required": false
+    },
+    {
+      "id": "qrafty:camel_house",
+      "required": false
+    },
+    {
       "id": "taxtg:giant_birch_tree",
       "required": false
     },
@@ -62,6 +134,10 @@
     },
     {
       "id": "taxtg:giant_spruce_tree_1",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/desert_ranch",
       "required": false
     }
   ]

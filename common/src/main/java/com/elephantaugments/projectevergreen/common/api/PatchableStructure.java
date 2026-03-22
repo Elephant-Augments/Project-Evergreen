@@ -31,9 +31,19 @@ public class PatchableStructure extends IPatchable {
     private int flatnessCheckRadius = 1;
     private int allowedTerrainHeight = 10;
 
+    private PEStructure data;
+
     public PatchableStructure(String ID) {
         super(ID);
         full_path = getFullPath(ID, REGISTRY_PATH);
+    }
+
+    public Optional<PEStructure> getData() {
+        return Optional.ofNullable(this.data);
+    }
+
+    public void setData(PEStructure structure) {
+        this.data = structure;
     }
 
     public boolean isCivilization() {
@@ -219,7 +229,8 @@ public class PatchableStructure extends IPatchable {
     }
 
     public void calculateWeight() {
-        if (isFlat() && isMassive()) {
+        if (isMassive() &&
+                (isFlat() || id.contains("village"))) {
             this.weight = 3;
         } else if (isFlat() && !isMassive()) {
             this.weight = 2;
@@ -260,20 +271,22 @@ public class PatchableStructure extends IPatchable {
     public void initJsonData(String type, String step, JsonElement heightmap) {
         setType(type);
         setStep(step);
-        if (heightmap != null) {
-            if (isWaterBound()) {
-                if (heightmap.getAsString().toLowerCase().contains("ocean_floor")) {
-                    setHeightmap(PEStructure.Heightmap.OCEANFLOOR);
-                    PEStructure.Heightmap.OCEANFLOOR.appendIDs(id);
-                } else {
-                    setHeightmap(PEStructure.Heightmap.OCEANSURFACE);
-                    PEStructure.Heightmap.OCEANSURFACE.appendIDs(id);
+        if (getHeightmap().isEmpty()) {
+            if (heightmap != null) {
+                if (isWaterBound()) {
+                    if (heightmap.getAsString().toLowerCase().contains("ocean_floor")) {
+                        setHeightmap(PEStructure.Heightmap.OCEANFLOOR);
+                        PEStructure.Heightmap.OCEANFLOOR.appendIDs(id);
+                    } else {
+                        setHeightmap(PEStructure.Heightmap.OCEANSURFACE);
+                        PEStructure.Heightmap.OCEANSURFACE.appendIDs(id);
+                    }
                 }
             }
-        }
-        if ((step.equals("underground_structures") || step.equals("underground_decoration") || step.equals("strongholds"))) {
-            setHeightmap(PEStructure.Heightmap.UNDERGROUND);
-            PEStructure.Heightmap.UNDERGROUND.appendIDs(id);
+            if ((step.equals("underground_structures") || step.equals("underground_decoration") || step.equals("strongholds"))) {
+                setHeightmap(PEStructure.Heightmap.UNDERGROUND);
+                PEStructure.Heightmap.UNDERGROUND.appendIDs(id);
+            }
         }
     }
 
@@ -296,6 +309,10 @@ public class PatchableStructure extends IPatchable {
         });
         getStructureSet().ifPresent((sset) -> {
             json.addProperty(sset.jsonKey(), sset.location().toString());
+        });
+
+        getData().ifPresent((sdata) -> {
+            json.addProperty(Constants.JsonProp.REGION.jsonKey(), sdata.biomeTag());
         });
 
         json.addProperty(Constants.JsonProp.IS_LOADED.jsonKey(), this.is_loaded);

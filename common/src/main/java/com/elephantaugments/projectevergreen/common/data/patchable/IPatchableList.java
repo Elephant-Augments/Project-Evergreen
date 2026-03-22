@@ -11,7 +11,7 @@ public abstract class IPatchableList {
     protected SortedSet<String> IDs;
 
     protected IPatchableList(SortedSet<String> set) {
-        Paths = set;
+        IDs = set;
     }
 
     protected IPatchableList(SortedSet<String> set, String regPath) {

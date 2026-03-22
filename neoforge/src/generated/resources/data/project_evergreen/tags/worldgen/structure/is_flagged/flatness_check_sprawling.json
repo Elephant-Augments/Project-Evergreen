@@ -69,6 +69,14 @@
       "required": false
     },
     {
+      "id": "qrafty:mangrove_village",
+      "required": false
+    },
+    {
+      "id": "qrafty:mushroom_village",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:mansion_birch",
       "required": false
     },

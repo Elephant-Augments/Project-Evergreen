@@ -9,8 +9,6 @@ public class DefaultBiomeTags {
         "terralith:desert_oasis",
         "regions_unexplored:joshua_desert",
         "regions_unexplored:saguaro_desert",
-        "dreamwoods:arid_plains",
-        "wythers:desert_island",
         "wythers:cactus_desert",
         "wythers:desert_lakes",
         "wythers:guelta",
@@ -37,7 +35,10 @@ public class DefaultBiomeTags {
         "terralith:bryce_canyon",
         "natures_spirit:blooming_dunes",
         "natures_spirit:lively_dunes",
-        "natures_spirit:scorched_dunes"
+        "natures_spirit:scorched_dunes",
+        "wythers:outback",
+        "wythers:outback_desert",
+        "wythers:kwongan_heath"
     );
     
     public static final List<String> desertRedBarren = ImmutableList.of(
@@ -47,8 +48,6 @@ public class DefaultBiomeTags {
         "terralith:desert_canyon",
         "terralith:sandstone_valley",
         "terralith:ancient_sands",
-        "wythers:ayers_rock",
-        "wythers:outback_desert",
         "wythers:badlands_canyon",
 		"wythers:badlands_desert",
         "wythers:red_desert",
@@ -143,7 +142,6 @@ public class DefaultBiomeTags {
         "terralith:tropical_jungle",
         "terralith:amethyst_rainforest",
         "regions_unexplored:rainforest",
-        "regions_unexplored:tropics",
         "natures_spirit:tropical_woods",
         "regions_unexplored:eucalyptus_forest",
         "dreamwoods:flooded_rainforest",
@@ -184,6 +182,7 @@ public class DefaultBiomeTags {
         "terralith:alpine_highlands",
         "terralith:forested_highlands",
         "terralith:temperate_highlands",
+        "natures_spirit:tundra",
         "natures_spirit:coniferous_covert",
         "natures_spirit:fir_forest",
         "dreamwoods:taiga_shield",
@@ -219,6 +218,7 @@ public class DefaultBiomeTags {
     public static final List<String> forestSparseTropical = ImmutableList.of(
         "minecraft:sparse_jungle",
         "terralith:rocky_jungle",
+        "regions_unexplored:tropics",
         "regions_unexplored:sparse_rainforest",
         "natures_spirit:sparse_tropical_woods",
         "wythers:sparse_bamboo_jungle",
@@ -245,13 +245,13 @@ public class DefaultBiomeTags {
         "terralith:scarlet_mountains",
         "terralith:painted_mountains",
         "terralith:volcanic_peaks",
-        "terralith:volcanic_crater",
         "terralith:caldera",
         "terralith:emerald_peaks",
         "terralith:rocky_mountains",
         "natures_spirit:red_peaks",
         "natures_spirit:sleeted_slopes",
-        "wythers:tibesti_mountains"
+        "wythers:tibesti_mountains",
+        "wythers:volcano"
     );
     
     public static final List<String> mountainsCold = ImmutableList.of(
@@ -289,7 +289,9 @@ public class DefaultBiomeTags {
         "dreamwoods:volcano_fields",
         "dreamwoods:volcano_slopes",
         "wythers:icy_volcano",
+        "wythers:ayers_rock",
         "wythers:volcano",
+        "wythers:volcanic_crater",
         "wythers:tropical_volcano"
     );
     
@@ -411,22 +413,22 @@ public class DefaultBiomeTags {
         "natures_spirit:arid_savanna",
         "natures_spirit:arid_highlands",
         "natures_spirit:wooded_drylands",
+        "natures_spirit:shrubland",
         "regions_unexplored:steppe",
-        "natures_spirit:xeric_plains",
         "dreamwoods:arid_plains",
+        "dreamwoods:savanna_grove",
         "windswept:flowering_savanna",
-        "wythers:subtropical_grassland",
-        "wythers:subtropical_forest_edge",
         "wythers:dry_tropical_grassland",
         "wythers:flooded_savanna",
         "wythers:flowering_pantanal",
-        "wythers:jacaranda_savanna"
+        "wythers:jacaranda_savanna",
+        "wythers:subtropical_grassland",
+        "wythers:subtropical_forest_edge"
     );
     
     public static final List<String> plainsGrassySnow = ImmutableList.of(
         "minecraft:snowy_plains",
         "terralith:mountain_steppe",
-        "natures_spirit:tundra",
         "dreamwoods:fall_snowy_grove",
         "wythers:frigid_island",
         "wythers:frozen_island",
@@ -467,16 +469,15 @@ public class DefaultBiomeTags {
         "regions_unexplored:dry_bushland",
         "regions_unexplored:baobab_savanna",
         "regions_unexplored:outback",
-        "dreamwoods:savanna_grove",
         "dreamwoods:grassy_badlands",
-        "natures_spirit:shrubland",
         "natures_spirit:shrubby_highlands",
         "natures_spirit:woody_highlands",
         "natures_spirit:chaparral",
+        "natures_spirit:xeric_plains",
+        "wythers:desert_island",
         "wythers:chaparral",
         "wythers:dry_tropical_forest",
         "wythers:dry_savanna",
-        "wythers:outback",
         "wythers:savanna_badlands",
 		"wythers:savanna_basaltic_incursions",
         "wythers:scrub_forest",
@@ -781,5 +782,30 @@ public class DefaultBiomeTags {
         "wythers:flooded_jungle",
 		"wythers:flooded_rainforest",
         "wythers:pantanal"
+    );
+
+    public static final List<String> underground = ImmutableList.of(
+        "wythers:underground",
+        "wythers:deep_underground"
+    );
+
+    public static final List<String> birchForest = ImmutableList.of(
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
+        "regions_unexplored:silver_birch_forest",
+        "wythers:warm_birch_forest",
+        "wythers:birch_swamp"
+    );
+
+    public static final List<String> cherryForest = ImmutableList.of(
+        "minecraft:cherry_grove",
+        "dreamwoods:blooming_grove",
+        "natures_spirit:blooming_sugi_forest",
+        "wythers:sakura_forest"
+    );
+
+    public static final List<String> volcanicCrater = ImmutableList.of(
+        "terralith:volcanic_crater",
+        "wythers:volcanic_crater"
     );
 }

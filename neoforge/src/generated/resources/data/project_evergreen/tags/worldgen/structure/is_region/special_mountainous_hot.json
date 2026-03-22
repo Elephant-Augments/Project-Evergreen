@@ -49,10 +49,6 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:meteor",
-      "required": false
-    },
-    {
       "id": "irons_spellbooks:pyromancer_tower",
       "required": false
     },

@@ -25,10 +25,6 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:tropics",
-      "required": false
-    },
-    {
       "id": "terralith:amethyst_rainforest",
       "required": false
     },

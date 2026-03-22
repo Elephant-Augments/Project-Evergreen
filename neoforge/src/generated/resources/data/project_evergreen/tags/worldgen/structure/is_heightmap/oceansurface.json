@@ -1,0 +1,404 @@
+{
+  "values": [
+    {
+      "id": "additionalstructures:boat_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:boat_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:flotsam_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:flotsam_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:flotsam_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:flotsam_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:flotsam_5",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:ice_floes_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:ice_floes_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:ice_floes_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:ice_floes_4",
+      "required": false
+    },
+    {
+      "id": "alexscaves:ocean_trench",
+      "required": false
+    },
+    {
+      "id": "aquamirae:ice_maze/arch",
+      "required": false
+    },
+    {
+      "id": "aquamirae:ice_maze/common",
+      "required": false
+    },
+    {
+      "id": "aquamirae:ice_maze/spiral",
+      "required": false
+    },
+    {
+      "id": "aquamirae:outpost",
+      "required": false
+    },
+    {
+      "id": "aquamirae:shelter",
+      "required": false
+    },
+    {
+      "id": "aquamirae:ship",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ice_tribe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:acacia_trader_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:dark_oak_illager_ship",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:flyingboat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:icespike_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:illagerwarship",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:jungle_illager_ship",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:mangrove_canoe",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_paddlewheel_boat",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:oak_villager_ship",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:sprucevillagership",
+      "required": false
+    },
+    {
+      "id": "create_ltab:oil_rig",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:pillager_boat",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:illager_corsair",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:illager_galley",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:mechanical_nest",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:undead_pirate_ship",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise_seven_seas:corsair_corvette",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise_seven_seas:pirate_junk",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise_seven_seas:small_yacht",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise_seven_seas:unicorn_galleon",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise_seven_seas:victory_frigate",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:fishing_ship",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:flying_dutchman",
+      "required": false
+    },
+    {
+      "id": "dungeons_enhanced:pirate_ship",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushi",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:sushis",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_baby_fish",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:raft",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:impaled_icebreaker",
+      "required": false
+    },
+    {
+      "id": "joshie:village_ocean",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:ocean_ships",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_ocean",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:villager_ocean",
+      "required": false
+    },
+    {
+      "id": "medieval_buildings:ship",
+      "required": false
+    },
+    {
+      "id": "minecraft:brig",
+      "required": false
+    },
+    {
+      "id": "minecraft:buried_treasure",
+      "required": false
+    },
+    {
+      "id": "minecraft:castle",
+      "required": false
+    },
+    {
+      "id": "minecraft:monument",
+      "required": false
+    },
+    {
+      "id": "minecraft:pirate_fleet",
+      "required": false
+    },
+    {
+      "id": "more_critters:collector_wagon_ocean",
+      "required": false
+    },
+    {
+      "id": "more_critters:ghost_ship",
+      "required": false
+    },
+    {
+      "id": "mostructures:pirate_ship",
+      "required": false
+    },
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_1",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_2",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:specialvikinglongboat_3",
+      "required": false
+    },
+    {
+      "id": "nordic_structures:vikinglongboatboss",
+      "required": false
+    },
+    {
+      "id": "qrafty:oilrig",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_ocean",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_ocean",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_ocean",
+      "required": false
+    },
+    {
+      "id": "spore:iceberg_mines",
+      "required": false
+    },
+    {
+      "id": "structory:boat",
+      "required": false
+    },
+    {
+      "id": "supplementaries:galleon",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_ocean",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_snowy_beach",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_ocean",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:wreckage_ocean",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/birch_trade",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/offshore_platform_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/ship_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/mushroom_island",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_rare/coves",
+      "required": false
+    },
+    {
+      "id": "u_sea:island/cold/glacier",
+      "required": false
+    },
+    {
+      "id": "u_sea:island/warm/hill",
+      "required": false
+    },
+    {
+      "id": "u_sea:island/warm/tower",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/cold/cone_tide_breaker",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/cold/tide_breaker",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/cold/wide_tide_breaker",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/beam",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/box",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/temperate/grid",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/warm/cone_skipper",
+      "required": false
+    },
+    {
+      "id": "u_sea:raft/warm/skipper",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/cove",
+      "required": false
+    },
+    {
+      "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:river_boat",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
+      "required": false
+    }
+  ]
+}

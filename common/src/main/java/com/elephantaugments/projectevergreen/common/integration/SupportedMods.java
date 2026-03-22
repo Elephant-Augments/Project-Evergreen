@@ -22,16 +22,20 @@ public enum SupportedMods {
     PATCHED,
     BIOLITH,
     LITHOSTITCHED,
+    QUARK,
     WYTHERS,
     DREAMWOODS,
     BIOMESWEVEGONE,
     REGIONS_UNEXPLORED,
     NATURES_SPIRIT,
+    DARKERDEPTHS,
     AETHER,
     THE_AFTERDARK,
     LOSTCITIES,
     INTEGRATED_API,
-    MOOGS_STRUCTURES;
+    MOOGS_STRUCTURES,
+    SUPPLEMENTARIES,
+    BLOCK_FACTORYS_BOSSES;
 
     public static RegistryAccess registryAccess;
 
@@ -55,7 +59,6 @@ public enum SupportedMods {
 
     public Optional<ResourceKey<Biome>> getBiome(String path) {
         ResourceKey<Registry<Biome>> BIOME_REGISTRY = Biomes.PLAINS.registryKey();
-        ProjectEvergreen.LOGGER.info("Getting biome: " + registryAccess.lookup(BIOME_REGISTRY).flatMap(r -> r.get(ResourceKey.create(BIOME_REGISTRY, location(path)))).flatMap(Holder.Reference::unwrapKey));
         return registryAccess.lookup(BIOME_REGISTRY).flatMap(r -> r.get(ResourceKey.create(BIOME_REGISTRY, location(path)))).flatMap(Holder.Reference::unwrapKey);
     }
 

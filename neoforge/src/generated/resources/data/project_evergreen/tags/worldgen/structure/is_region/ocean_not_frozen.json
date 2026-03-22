@@ -115,10 +115,6 @@
     {
       "id": "trek:overworld/medium/ship_pillager",
       "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:marine_observation_hub",
-      "required": false
     }
   ]
 }

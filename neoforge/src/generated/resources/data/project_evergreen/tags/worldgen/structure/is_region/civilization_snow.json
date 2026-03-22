@@ -49,6 +49,10 @@
       "required": false
     },
     {
+      "id": "imst:observatory",
+      "required": false
+    },
+    {
       "id": "kattersstructures:villager_mountain",
       "required": false
     },
@@ -138,6 +142,10 @@
     },
     {
       "id": "nova_structures:well_dark_oak",
+      "required": false
+    },
+    {
+      "id": "qrafty:igloo_village",
       "required": false
     },
     {

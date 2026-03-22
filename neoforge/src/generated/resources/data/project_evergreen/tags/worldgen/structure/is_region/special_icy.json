@@ -33,6 +33,10 @@
       "required": false
     },
     {
+      "id": "loot_n_explore:frostmonarch_temple",
+      "required": false
+    },
+    {
       "id": "loot_n_explore:glacial_tomb",
       "required": false
     },
@@ -42,6 +46,14 @@
     },
     {
       "id": "mostructures:ice_tower",
+      "required": false
+    },
+    {
+      "id": "qrafty:ice_fort",
+      "required": false
+    },
+    {
+      "id": "qrafty:lush_ice",
       "required": false
     },
     {

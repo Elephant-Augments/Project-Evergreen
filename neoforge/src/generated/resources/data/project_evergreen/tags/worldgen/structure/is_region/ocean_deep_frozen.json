@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "alexscaves:ocean_trench",
+      "required": false
+    },
+    {
       "id": "aquamirae:shelter",
       "required": false
     },
@@ -10,14 +14,6 @@
     },
     {
       "id": "combat_structures_update:taintedicespike",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:deep_blue_lab_ruin",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:deep_blue_labs",
       "required": false
     },
     {

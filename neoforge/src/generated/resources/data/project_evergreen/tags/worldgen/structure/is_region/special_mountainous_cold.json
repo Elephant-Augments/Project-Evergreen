@@ -45,6 +45,10 @@
       "required": false
     },
     {
+      "id": "qrafty:forgotten_mine",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:village_mountains",
       "required": false
     },

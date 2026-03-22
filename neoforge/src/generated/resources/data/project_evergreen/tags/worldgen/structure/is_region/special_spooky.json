@@ -197,6 +197,22 @@
       "required": false
     },
     {
+      "id": "qrafty:transilvania",
+      "required": false
+    },
+    {
+      "id": "ssp_gothic_things:stonebarracks",
+      "required": false
+    },
+    {
+      "id": "ssp_gothic_things:stonechurch",
+      "required": false
+    },
+    {
+      "id": "ssp_gothic_things:stonegates",
+      "required": false
+    },
+    {
       "id": "structory:abandoned_chapel",
       "required": false
     },

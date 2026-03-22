@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:set_structure_spawn_condition",
+  "structures": "#project_evergreen:is_rarity/civilization_rare",
+  "spawn_condition": {
+    "type": "lithostitched:grid",
+    "radius": 48,
+    "distance_between_points": 16,
+    "condition": {
+      "type": "lithostitched:in_biome",
+      "biomes": "#minecraft:is_ocean"
+    },
+    "allowed_count": 0
+  }
+}

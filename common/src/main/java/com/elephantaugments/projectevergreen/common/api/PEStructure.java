@@ -5,7 +5,9 @@ import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultFlags;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureHeightmaps;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableStructures;
+import com.elephantaugments.projectevergreen.common.integration.SupportedMods;
 import com.google.common.collect.ImmutableList;
+import com.google.gson.JsonObject;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
@@ -13,10 +15,54 @@ import net.minecraft.world.level.levelgen.structure.Structure;
 
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public enum PEStructure {
-    PE_STRUCTURE;
+    DRAGON_TOWER(
+        SupportedMods.BLOCK_FACTORYS_BOSSES.name(),
+        PEBiome.VOLCANIC_CRATER.tagKey(),
+        Constants.EMPTY_LIST
+    );
+
+    private List<String> defaultSpawns = new ArrayList<>();
+
+    private final String jsonKey = Constants.JsonProp.STRUCTURE_SET.jsonKey();
+    private final String jsonPath = Constants.JsonProp.STRUCTURE_SET.jsonPath();
+    private final ResourceLocation location;
+    private final String biomeTag;
+
+    PEStructure(String namespace,
+                String biomeTag,
+                List<String> spawnOverrides
+    ) {
+        String path = name().toLowerCase();
+        location = ResourceLocation.fromNamespaceAndPath(namespace.toLowerCase(), path);
+        this.biomeTag = biomeTag;
+        initIDs(spawnOverrides);
+    }
+
+    public ResourceLocation location() {
+        return this.location;
+    }
+
+    public String jsonKey() {
+        return jsonKey;
+    }
+
+    public String jsonPath() {
+        return jsonPath;
+    }
+
+    public String biomeTag() {
+        return this.biomeTag;
+    }
+
+    public List<String> defaultSpawns() {
+        return this.defaultSpawns;
+    }
+
+    public void initIDs(List<String> ids) {
+        defaultSpawns.addAll(ids);
+    }
 
     public final static List<String> SupportedTypes = ImmutableList.of(
         "minecraft:jigsaw",
@@ -76,7 +122,7 @@ public enum PEStructure {
         OCEANSURFACE(Constants.EMPTY_LIST),
         AIRBORN(DefaultStructureHeightmaps.airborn),
         UNDERGROUND(DefaultStructureHeightmaps.underground),
-        GROUNDLEVEL(Constants.EMPTY_LIST);
+        GROUNDLEVEL(DefaultStructureHeightmaps.groundlevel);
 
         private List<String> defaultIDs = new ArrayList<>();
 
@@ -84,10 +130,14 @@ public enum PEStructure {
         private final String jsonPath = Constants.JsonProp.HEIGHTMAP.jsonPath();
         private final String path;
         private final ResourceLocation location;
+        private String tagKey;
+        private TagKey<Structure> tag;
 
         Heightmap(List<String> defaultIDs) {
-            path = name().toLowerCase();
+            path = "is_heightmap/" + name().toLowerCase();
             location = ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, path);
+            this.tagKey = "#" + location;
+            this.tag = ProjectEvergreen.createTag(Registries.STRUCTURE, location);
             this.defaultIDs.addAll(defaultIDs);
         }
 
@@ -109,6 +159,24 @@ public enum PEStructure {
 
         public void initIDs(List<String> ids) {
             defaultIDs.addAll(ids);
+        }
+
+        public TagKey<Structure> tag() {
+            return this.tag;
+        }
+
+        public String spawnStep() {
+            return switch (this) {
+                case GROUNDLEVEL, OCEANSURFACE, OCEANFLOOR, AIRBORN -> "surface_structures";
+                case UNDERGROUND -> "underground_structures";
+            };
+        }
+        public String projectToHeightmap() {
+            return switch (this) {
+                case GROUNDLEVEL, OCEANSURFACE, AIRBORN -> "WORLD_SURFACE_WG";
+                case OCEANFLOOR -> "OCEAN_FLOOR_WG";
+                case UNDERGROUND -> null;
+            };
         }
 
         public static List<String> nonGroundLevelStructures() {
@@ -135,8 +203,23 @@ public enum PEStructure {
                     .flatMap(Collection::stream)
                     .collect(Collectors.toCollection(HashSet::new));
             return PERegion.allWaterStructures().stream()
-                    .filter(s -> !isOceanFloor.contains(s))
+                    .filter(s -> !isOceanFloor.contains(s) &&
+                        !Heightmap.AIRBORN.defaultIDs().contains(s))
                     .toList();
+        }
+
+        public static JsonObject buildStartHeight(int min, int max) {
+            JsonObject start_height = new JsonObject();
+            start_height.addProperty("type", "minecraft:uniform");
+
+            JsonObject min_inclusive = new JsonObject();
+            min_inclusive.addProperty("absolute", min);
+            JsonObject max_inclusive = new JsonObject();
+            max_inclusive.addProperty("absolute", max);
+
+            start_height.add("min_inclusive", min_inclusive);
+            start_height.add("max_inclusive", max_inclusive);
+            return start_height;
         }
     }
 
@@ -199,11 +282,14 @@ public enum PEStructure {
         IGNORED_PLACEMENT_TWEAKS(DefaultFlags.ignoreStructureType),
         ADJUSTED_TERRAIN_ADAPTATION(DefaultFlags.adjustedTerrainAdaptation),
         ADJUSTED_OCEAN_HEIGHTMAP(DefaultStructureHeightmaps.oceanfloor),
-        ADJUSTED_UNDERGROUND_Y_LEVEL(DefaultFlags.adjustedYLevel),
+        ADJUSTED_UNDERGROUND_Y_LEVEL_SHALLOW(DefaultFlags.adjustedYLevelShallow),
+        ADJUSTED_UNDERGROUND_Y_LEVEL_DEEP(DefaultFlags.adjustedYLevelDeep),
+        LATE_SPAWN_STEP(DefaultFlags.lateSpawnStep),
         FLATNESS_CHECK_SMALL(DefaultFlags.flatnessCheckSmall),
         FLATNESS_CHECK_MEDIUM(DefaultFlags.flatnessCheckMedium),
         FLATNESS_CHECK_LARGE(DefaultFlags.flatnessCheckLarge),
         FLATNESS_CHECK_SPRAWLING(DefaultFlags.flatnessCheckSprawling),
+        IS_DEEP_DARK(DefaultFlags.forceDeepDark),
         IS_BIRCH_FOREST(DefaultFlags.forceBirchForest),
         IS_CHERRY_FOREST(DefaultFlags.forceCherryForest);
 

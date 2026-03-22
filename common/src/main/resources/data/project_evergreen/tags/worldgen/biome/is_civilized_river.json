@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "minecraft:river",
+      "required": false
+    },
+    {
+      "id": "wythers:gravelly_river",
+      "required": false
+    },
+    {
+      "id": "wythers:lantern_river",
+      "required": false
+    },
+    {
+      "id": "wythers:savanna_river",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cold_river",
+      "required": false
+    }
+  ]
+}

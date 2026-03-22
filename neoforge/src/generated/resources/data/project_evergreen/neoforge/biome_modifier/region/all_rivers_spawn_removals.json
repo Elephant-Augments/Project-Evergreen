@@ -1,0 +1,5 @@
+{
+  "type": "neoforge:remove_spawns",
+  "biomes": "#project_evergreen:is_region/all_rivers",
+  "entity_types": "#project_evergreen:is_category/non_water_critter"
+}

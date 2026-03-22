@@ -37,10 +37,6 @@
       "required": false
     },
     {
-      "id": "ati_structures:villager_inn",
-      "required": false
-    },
-    {
       "id": "beautify:botanist_house_plains",
       "required": false
     },
@@ -221,18 +217,6 @@
       "required": false
     },
     {
-      "id": "imst:observatory",
-      "required": false
-    },
-    {
-      "id": "imst:quarry",
-      "required": false
-    },
-    {
-      "id": "imst:train_station",
-      "required": false
-    },
-    {
       "id": "integrated_minecraft:old_base",
       "required": false
     },
@@ -401,7 +385,19 @@
       "required": false
     },
     {
+      "id": "qrafty:castle_tower",
+      "required": false
+    },
+    {
+      "id": "qrafty:dirt_hut",
+      "required": false
+    },
+    {
       "id": "qrafty:farm",
+      "required": false
+    },
+    {
+      "id": "qrafty:fort",
       "required": false
     },
     {

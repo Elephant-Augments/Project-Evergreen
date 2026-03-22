@@ -1,0 +1,304 @@
+{
+  "values": [
+    {
+      "id": "alpinewhispers:alpine_sheep",
+      "required": false
+    },
+    {
+      "id": "alpinewhispers:chair",
+      "required": false
+    },
+    {
+      "id": "alpinewhispers:reindeer",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:baby_spider_controlled",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:thornshell_crab",
+      "required": false
+    },
+    {
+      "id": "cataclysm:modern_remnant",
+      "required": false
+    },
+    {
+      "id": "cataclysm:netherite_ministrosity",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_baby_leviathan",
+      "required": false
+    },
+    {
+      "id": "companions:antlion",
+      "required": false
+    },
+    {
+      "id": "companions:broken_dinamo",
+      "required": false
+    },
+    {
+      "id": "companions:bubble_frog",
+      "required": false
+    },
+    {
+      "id": "companions:cloak",
+      "required": false
+    },
+    {
+      "id": "companions:cornelius",
+      "required": false
+    },
+    {
+      "id": "companions:croissant_dragon",
+      "required": false
+    },
+    {
+      "id": "companions:dinamo",
+      "required": false
+    },
+    {
+      "id": "companions:ember_pole",
+      "required": false
+    },
+    {
+      "id": "companions:ender_frog",
+      "required": false
+    },
+    {
+      "id": "companions:firework_toad",
+      "required": false
+    },
+    {
+      "id": "companions:golden_allay",
+      "required": false
+    },
+    {
+      "id": "companions:hostile_puppet_glove",
+      "required": false
+    },
+    {
+      "id": "companions:living_candle",
+      "required": false
+    },
+    {
+      "id": "companions:mankh",
+      "required": false
+    },
+    {
+      "id": "companions:minion",
+      "required": false
+    },
+    {
+      "id": "companions:nether_bullfrog",
+      "required": false
+    },
+    {
+      "id": "companions:puppet",
+      "required": false
+    },
+    {
+      "id": "companions:puppet_glove",
+      "required": false
+    },
+    {
+      "id": "companions:sacred_pontiff",
+      "required": false
+    },
+    {
+      "id": "companions:shade_maw",
+      "required": false
+    },
+    {
+      "id": "companions:shade_sword",
+      "required": false
+    },
+    {
+      "id": "companions:soul_mage",
+      "required": false
+    },
+    {
+      "id": "companions:teddy",
+      "required": false
+    },
+    {
+      "id": "crittersandcompanions:dragonfly",
+      "required": false
+    },
+    {
+      "id": "crittersandcompanions:ferret",
+      "required": false
+    },
+    {
+      "id": "crittersandcompanions:jumping_spider",
+      "required": false
+    },
+    {
+      "id": "crittersandcompanions:leaf_insect",
+      "required": false
+    },
+    {
+      "id": "crittersandcompanions:otter",
+      "required": false
+    },
+    {
+      "id": "crittersandcompanions:red_panda",
+      "required": false
+    },
+    {
+      "id": "crittersandcompanions:shima_enaga",
+      "required": false
+    },
+    {
+      "id": "darkerdepths:void_soul",
+      "required": false
+    },
+    {
+      "id": "hexerei:crow",
+      "required": false
+    },
+    {
+      "id": "hexerei:owl",
+      "required": false
+    },
+    {
+      "id": "minecraft:allay",
+      "required": false
+    },
+    {
+      "id": "minecraft:armadillo",
+      "required": false
+    },
+    {
+      "id": "minecraft:bee",
+      "required": false
+    },
+    {
+      "id": "minecraft:camel",
+      "required": false
+    },
+    {
+      "id": "minecraft:cat",
+      "required": false
+    },
+    {
+      "id": "minecraft:chicken",
+      "required": false
+    },
+    {
+      "id": "minecraft:cow",
+      "required": false
+    },
+    {
+      "id": "minecraft:donkey",
+      "required": false
+    },
+    {
+      "id": "minecraft:fox",
+      "required": false
+    },
+    {
+      "id": "minecraft:frog",
+      "required": false
+    },
+    {
+      "id": "minecraft:goat",
+      "required": false
+    },
+    {
+      "id": "minecraft:horse",
+      "required": false
+    },
+    {
+      "id": "minecraft:llama",
+      "required": false
+    },
+    {
+      "id": "minecraft:mooshroom",
+      "required": false
+    },
+    {
+      "id": "minecraft:mule",
+      "required": false
+    },
+    {
+      "id": "minecraft:ocelot",
+      "required": false
+    },
+    {
+      "id": "minecraft:panda",
+      "required": false
+    },
+    {
+      "id": "minecraft:parrot",
+      "required": false
+    },
+    {
+      "id": "minecraft:pig",
+      "required": false
+    },
+    {
+      "id": "minecraft:polar_bear",
+      "required": false
+    },
+    {
+      "id": "minecraft:rabbit",
+      "required": false
+    },
+    {
+      "id": "minecraft:sheep",
+      "required": false
+    },
+    {
+      "id": "minecraft:skeleton_horse",
+      "required": false
+    },
+    {
+      "id": "minecraft:sniffer",
+      "required": false
+    },
+    {
+      "id": "minecraft:strider",
+      "required": false
+    },
+    {
+      "id": "minecraft:tadpole",
+      "required": false
+    },
+    {
+      "id": "minecraft:trader_llama",
+      "required": false
+    },
+    {
+      "id": "minecraft:turtle",
+      "required": false
+    },
+    {
+      "id": "minecraft:wandering_trader",
+      "required": false
+    },
+    {
+      "id": "minecraft:wolf",
+      "required": false
+    },
+    {
+      "id": "minecraft:zombie_horse",
+      "required": false
+    },
+    {
+      "id": "piglet_structures:chocolate_cow",
+      "required": false
+    },
+    {
+      "id": "ribbits:ribbit",
+      "required": false
+    },
+    {
+      "id": "supplementaries:red_merchant",
+      "required": false
+    }
+  ]
+}

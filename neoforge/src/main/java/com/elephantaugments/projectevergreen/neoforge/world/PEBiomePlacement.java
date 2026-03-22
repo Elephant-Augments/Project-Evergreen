@@ -58,6 +58,7 @@ public class PEBiomePlacement {
         if (PlatformHooks.PLATFORM_HELPER.isModLoaded("expanded_ecosphere"))
         {
             ResourceKey<Biome> gravellyRiver = WYTHERS.getBiome("gravelly_river").get();
+            ResourceKey<Biome> gravellyBeach = WYTHERS.getBiome("gravelly_beach").get();
             ResourceKey<Biome> forestEdge = WYTHERS.getBiome("forest_edge").get();
             ResourceKey<Biome> coolForest = WYTHERS.getBiome("cool_forest").get();
             ResourceKey<Biome> coolForestEdge = WYTHERS.getBiome("cool_forest_edge").get();
@@ -71,6 +72,66 @@ public class PEBiomePlacement {
             ResourceKey<Biome> tundra = WYTHERS.getBiome("tundra").get();
             ResourceKey<Biome> fen = WYTHERS.getBiome("fen").get();
             ResourceKey<Biome> marsh = WYTHERS.getBiome("marsh").get();
+            ResourceKey<Biome> gravellyBeachReplacement = REGIONS_UNEXPLORED.getBiome("gravel_beach")
+                    .orElseGet(() -> DREAMWOODS.getBiome("gravel_beach")
+                            .orElseGet(() -> gravellyBeach));
+            ResourceKey<Biome> gravellyRiverReplacement = REGIONS_UNEXPLORED.getBiome("cold_river")
+                            .orElseGet(() -> Biomes.RIVER);
+
+            BiomePlacement.replaceOverworld(Biomes.BEACH, WYTHERS.getBiome("sand_dunes").get());
+            BiomePlacement.replaceOverworld(gravellyRiver, gravellyRiverReplacement);
+            BiomePlacement.replaceOverworld(gravellyBeach, gravellyBeachReplacement);
+
+
+            //<------------------------------OCEAN ECOSYSTEM------------------------------>
+            ResourceKey<Biome> deepFrozenOcean = Biomes.DEEP_FROZEN_OCEAN;
+            ResourceKey<Biome> deepIcyOcean = WYTHERS.getBiome("deep_icy_ocean").get();
+            ResourceKey<Biome> icyOceanAddition = REGIONS_UNEXPLORED.getBiome("hyacinth_deeps")
+                            .orElseGet(() -> deepIcyOcean);
+            ResourceKey<Biome> warmOceanAddition = REGIONS_UNEXPLORED.getBiome("rocky_reef")
+                            .orElseGet(() -> Biomes.WARM_OCEAN);
+
+            clearingBiome(deepFrozenOcean, icyOceanAddition, 0.1F);
+            clearingBiome(deepIcyOcean, icyOceanAddition, 0.3F);
+            clearingBiome(Biomes.WARM_OCEAN, warmOceanAddition, 0.4F);
+
+
+            //<------------------------------CAVE ECOSYSTEM------------------------------>
+            ResourceKey<Biome> underground = WYTHERS.getBiome("underground").get();
+            ResourceKey<Biome> undergroundDeep = WYTHERS.getBiome("deep_underground").get();
+            ResourceKey<Biome> lichenousCavesReplacement = QUARK.getBiome("glimmering_weald")
+                            .orElseGet(() -> WYTHERS.getBiome("lichenous_caves").get());
+            ResourceKey<Biome> rareGemsCave = REGIONS_UNEXPLORED.getBiome("prismachasm")
+                    .orElseGet(() -> REGIONS_UNEXPLORED.getBiome("bioshroom_caves")
+                            .orElseGet(() -> WYTHERS.getBiome("lush_fungous_dripstone_caves").get()));
+            ResourceKey<Biome> rareShroomyCave = DARKERDEPTHS.getBiome("glowshroom_forest")
+                    .orElseGet(() -> QUARK.getBiome("glimmering_weald")
+                            .orElseGet(() -> WYTHERS.getBiome("lush_shroom_caves").get()));
+            ResourceKey<Biome> rareSandyCave = REGIONS_UNEXPLORED.getBiome("ancient_delta")
+                    .orElseGet(() -> DARKERDEPTHS.getBiome("sandy_catacombs")
+                            .orElseGet(() -> WYTHERS.getBiome("mossy_dripstone_caves").get()));
+            ResourceKey<Biome> lavaCaveClearing = REGIONS_UNEXPLORED.getBiome("scorching_caves")
+                    .orElseGet(() -> DARKERDEPTHS.getBiome("molten_cavern")
+                            .orElseGet(() -> WYTHERS.getBiome("deep_underground").get()));
+            ResourceKey<Biome> gemCaveClearing = REGIONS_UNEXPLORED.getBiome("redstone_abyss")
+                    .orElseGet(() -> DARKERDEPTHS.getBiome("molten_cavern")
+                            .orElseGet(() -> WYTHERS.getBiome("deep_underground").get()));
+            ResourceKey<Biome> shroomCaveClearing = QUARK.getBiome("glimmering_weald")
+                    .orElseGet(() -> REGIONS_UNEXPLORED.getBiome("bioshroom_caves")
+                            .orElseGet(() -> WYTHERS.getBiome("mushroom_caves").get()));
+            ResourceKey<Biome> sandyCaveClearing = DARKERDEPTHS.getBiome("sandy_catacombs")
+                    .orElseGet(() -> REGIONS_UNEXPLORED.getBiome("ancient_delta")
+                            .orElseGet(() -> WYTHERS.getBiome("calcite_caverns").get()));
+
+            BiomePlacement.replaceOverworld(WYTHERS.getBiome("lichenous_caves").get(), lichenousCavesReplacement);
+            BiomePlacement.replaceOverworld(undergroundDeep, lavaCaveClearing, 0.5F);
+            transitionalBiome(Biomes.DEEP_DARK, underground, Biomes.DEEP_DARK);
+            transitionalBiome(WYTHERS.getBiome("lush_fungous_dripstone_caves").get(), underground, rareGemsCave);
+            transitionalBiome(WYTHERS.getBiome("lush_shroom_caves").get(), underground, rareShroomyCave);
+            transitionalBiome(WYTHERS.getBiome("mossy_dripstone_caves").get(), underground, rareSandyCave);
+            transitionalBiome(WYTHERS.getBiome("calcite_caverns").get(), underground, sandyCaveClearing);
+            transitionalBiome(WYTHERS.getBiome("mushroom_caves").get(), underground, shroomCaveClearing);
+            clearingBiome(undergroundDeep, gemCaveClearing, 0.5F);
 
 
             //<------------------------------FLOWER FOREST ECOSYSTEMS------------------------------>
@@ -109,13 +170,14 @@ public class PEBiomePlacement {
             ResourceKey<Biome> desertIsland = WYTHERS.getBiome("desert_island").get();
             ResourceKey<Biome> volcano = WYTHERS.getBiome("volcano").get();
 
-            ResourceKey<Biome> tropicalBeachReplacement = DREAMWOODS.getBiome("azure_cove")
+            ResourceKey<Biome> tropicalBeachReplacement = DREAMWOODS.getBiome("jungle_shore")
                             .orElseGet(() -> WYTHERS.getBiome("tropical_beach").get());
             ResourceKey<Biome> tropicalIslandReplacement = REGIONS_UNEXPLORED.getBiome("tropics")
                             .orElseGet(() -> tropicalIsland);
-            ResourceKey<Biome> jungleIslandReplacement = NATURES_SPIRIT.getBiome("tropical_woods")
-                    .orElseGet(() -> REGIONS_UNEXPLORED.getBiome("sparse_rainforest")
-                            .orElseGet(() -> desertIsland));
+            ResourceKey<Biome> jungleIslandReplacement = DREAMWOODS.getBiome("roofed_tropical_forest")
+                    .orElseGet(() -> NATURES_SPIRIT.getBiome("tropical_woods")
+                        .orElseGet(() -> REGIONS_UNEXPLORED.getBiome("sparse_rainforest")
+                            .orElseGet(() -> desertIsland)));
             ResourceKey<Biome> desertIslandReplacement = NATURES_SPIRIT.getBiome("xeric_plains")
                             .orElseGet(() -> desertIsland);
             ResourceKey<Biome> coldIslandReplacement = NATURES_SPIRIT.getBiome("coniferous_covert")
@@ -198,6 +260,10 @@ public class PEBiomePlacement {
             ResourceKey<Biome> birchTaigaReplacement = NATURES_SPIRIT.getBiome("aspen_forest")
                     .orElseGet(() -> REGIONS_UNEXPLORED.getBiome("pine_taiga")
                             .orElseGet(() -> WYTHERS.getBiome("birch_taiga").get()));
+            ResourceKey<Biome> autumnPlainsTransition = REGIONS_UNEXPLORED.getBiome("prairie")
+                    .orElseGet(() -> Biomes.SUNFLOWER_PLAINS);
+            ResourceKey<Biome> autumnMeadowTransition = DREAMWOODS.getBiome("poplar_slopes")
+                    .orElseGet(() -> Biomes.SUNFLOWER_PLAINS);
             ResourceKey<Biome> mountainAutumnTransition = DREAMWOODS.getBiome("golden_aspen_spinney")
                     .orElseGet(() -> NATURES_SPIRIT.getBiome("aspen_forest")
                             .orElseGet(() -> WYTHERS.getBiome("birch_taiga").get()));
@@ -227,6 +293,9 @@ public class PEBiomePlacement {
             transitionalEdgeBiome(forestedHighlandsReplacement, coolForestReplacement, mountainAutumnTransition);
             transitionalBiome(WYTHERS.getBiome("taiga_crags").get(), coolForestEdgeReplacement, taigaAutumnTransition);
             transitionalBiome(harvestFields, coolPlainsReplacement, harvestFieldsThicket);
+            transitionalBiome(harvestFields, autumnalFieldsReplacement, autumnPlainsTransition);
+            transitionalBiome(Biomes.PLAINS, autumnalFieldsReplacement, autumnPlainsTransition);
+            transitionalBiome(Biomes.MEADOW, autumnalFieldsReplacement, autumnMeadowTransition);
 
 
             //<------------------------------TUNDRA ECOSYSTEMS------------------------------>
@@ -550,6 +619,7 @@ public class PEBiomePlacement {
             BiomePlacement.replaceOverworld(WYTHERS.getBiome("danakil_desert").get(), danakilDesertReplacement);
             transitionalEdgeBiome(Biomes.DESERT, dryTropicalGrasslandReplacement, desertLivelyAlternate);
             transitionalEdgeBiome(Biomes.DESERT, dryTropicalForestReplacement, desertLivelyAlternate);
+            transitionalBiome(Biomes.DESERT, Biomes.BADLANDS, dryTropicalGrasslandReplacement);
             transitionalBiome(Biomes.DESERT, tropicalForestReplacement, WYTHERS.getBiome("sandy_jungle").get());
             transitionalBiome(WYTHERS.getBiome("badlands_desert").get(), cactusDesertReplacement, desertBadlandsTransition);
             edgeBiome(Biomes.DESERT, desertLivelyAlternate, BiomeParameterTargets.HUMIDITY);

@@ -1153,6 +1153,18 @@
       "required": false
     },
     {
+      "id": "fdbosses:chesed_arena",
+      "required": false
+    },
+    {
+      "id": "fdbosses:geburah_arena",
+      "required": false
+    },
+    {
+      "id": "fdbosses:malkuth_arena",
+      "required": false
+    },
+    {
       "id": "feur_extension_desert:anubis_arena",
       "required": false
     },
@@ -3221,6 +3233,14 @@
       "required": false
     },
     {
+      "id": "supplementaries:galleons",
+      "required": false
+    },
+    {
+      "id": "supplementaries:road_signs",
+      "required": false
+    },
+    {
       "id": "sweety_archaeology:desert_outpost",
       "required": false
     },
@@ -3794,6 +3814,38 @@
     },
     {
       "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wythers:banyan_sparse_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:baobab_dry_tropical_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:baobab_savanna",
+      "required": false
+    },
+    {
+      "id": "wythers:baobab_tropical_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:el_dorado",
+      "required": false
+    },
+    {
+      "id": "wythers:elephant_graveyard_fossils",
+      "required": false
+    },
+    {
+      "id": "wythers:features",
+      "required": false
+    },
+    {
+      "id": "wythers:villages",
       "required": false
     }
   ]

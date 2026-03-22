@@ -17,6 +17,7 @@ public class Constants {
 		HEIGHTMAP,
 		DIFFICULTY,
 		IS_LOADED,
+		IS_MODIFIER,
 		IS_ADVANCED_TYPE,
 		IS_FLAT,
 		IS_INLAND,
@@ -71,21 +72,21 @@ public class Constants {
 	public static final int LARGE_DIFFICULTY_OFFSET = 1;
 	public static final int SPRAWLING_DIFFICULTY_OFFSET = 2;
 
-	public static final int DEFAULT_TERRAIN_HEIGHT_SMALL = 8;
-	public static final int DEFAULT_TERRAIN_HEIGHT_MEDIUM = 12;
-	public static final int DEFAULT_TERRAIN_HEIGHT_LARGE = 18;
-	public static final int DEFAULT_TERRAIN_HEIGHT_SPRAWLING = 24;
+	public static final int DEFAULT_TERRAIN_HEIGHT_SMALL = 10;
+	public static final int DEFAULT_TERRAIN_HEIGHT_MEDIUM = 16;
+	public static final int DEFAULT_TERRAIN_HEIGHT_LARGE = 24;
+	public static final int DEFAULT_TERRAIN_HEIGHT_SPRAWLING = 28;
 
 	public static final int DEFAULT_DECO_SPACING = 12;
 	public static final int DEFAULT_DECO_SEPARATION = 6;
-	public static final int DEFAULT_COMMON_SPACING = 30;
-	public static final int DEFAULT_COMMON_SEPARATION = 24;
-	public static final int DEFAULT_RARE_SPACING = 42;
-	public static final int DEFAULT_RARE_SEPARATION = 34;
+	public static final int DEFAULT_COMMON_SPACING = 38;
+	public static final int DEFAULT_COMMON_SEPARATION = 32;
+	public static final int DEFAULT_RARE_SPACING = 52;
+	public static final int DEFAULT_RARE_SEPARATION = 44;
 	public static final int DEFAULT_EXTRA_RARE_SPACING = 68;
 	public static final int DEFAULT_EXTRA_RARE_SEPARATION = 58;
-	public static final Double CIVILIZATION_SPREAD_OFFSET = 0.85;
-	public static final Double WILDERNESS_SPREAD_OFFSET = 1.25;
+	public static final Double CIVILIZATION_SPREAD_OFFSET = 0.9;
+	public static final Double WILDERNESS_SPREAD_OFFSET = 1.15;
 	public static final Double SPECIAL_SPREAD_OFFSET = 1.35;
 	public static final Double FLATNESS_SPREAD_OFFSET = 0.55;
 
@@ -93,6 +94,12 @@ public class Constants {
 	public static final int DEFAULT_TEMPERATE_WATER_COLOR = 3570859;
 	public static final int DEFAULT_WARM_WATER_COLOR = 3570859;
 
+	public static final int UNDERGROUND_Y_MAX_SHALLOW = -11;
+	public static final int UNDERGROUND_Y_MIN_SHALLOW = -32;
+	public static final int UNDERGROUND_Y_MAX_DEEP = -32;
+	public static final int UNDERGROUND_Y_MIN_DEEP = -64;
+
+	public static final String CAVE_TAG = "c:caves";
 	public static final String BIOME_TAG_PATH = "tags/worldgen/biome/";
 	public static final String STRUCTURE_TAG_PATH = "tags/worldgen/structure/";
 	public static final String STRUCTURE_SET_TAG_PATH = "tags/worldgen/structure_set/";
@@ -105,10 +112,4 @@ public class Constants {
 	public static String getPath(String location) {
 		return location.split(":")[1];
 	}
-
-	public static final SortedSet<String> supportedModifierTypes = new TreeSet<>(Arrays.asList(
-		"neoforge:add_features",
-		"neoforge:add_spawns",
-		"forge:add_spawns"
-	));
 }

@@ -173,6 +173,14 @@
       "required": false
     },
     {
+      "id": "qrafty:jungle_treehouse",
+      "required": false
+    },
+    {
+      "id": "qrafty:jungle_treevillage",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:ruins_land_warm",
       "required": false
     },
@@ -214,6 +222,10 @@
     },
     {
       "id": "trek:overworld/medium/jungle_treehouse",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/maison",
       "required": false
     },
     {

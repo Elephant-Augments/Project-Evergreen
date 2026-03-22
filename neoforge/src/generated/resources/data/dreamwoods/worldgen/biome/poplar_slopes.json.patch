@@ -6,6 +6,7 @@
       "value": {
         "id": "dreamwoods:poplar_slopes",
         "patchable": true,
+        "is_plains_green": true,
         "is_temperate": true
       }
     },

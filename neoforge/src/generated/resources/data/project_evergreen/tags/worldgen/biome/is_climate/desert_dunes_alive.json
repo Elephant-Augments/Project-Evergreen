@@ -1,10 +1,6 @@
 {
   "values": [
     {
-      "id": "dreamwoods:arid_plains",
-      "required": false
-    },
-    {
       "id": "regions_unexplored:joshua_desert",
       "required": false
     },
@@ -18,10 +14,6 @@
     },
     {
       "id": "wythers:cactus_desert",
-      "required": false
-    },
-    {
-      "id": "wythers:desert_island",
       "required": false
     },
     {

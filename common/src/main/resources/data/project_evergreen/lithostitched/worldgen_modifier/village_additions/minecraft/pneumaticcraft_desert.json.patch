@@ -1,0 +1,12 @@
+[
+    {
+        "op": "test",
+        "type": "project_evergreen:pneumaticcraft_single_villager",
+        "value": true
+    },
+    {
+        "op": "replace",
+        "path": "/neoforge:conditions/0/values/0/type",
+        "value": "neoforge:true"
+    }
+]

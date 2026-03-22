@@ -13,6 +13,46 @@
       "required": false
     },
     {
+      "id": "archeological:ancient_vault_desert_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_frozen_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_rock_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_ruined_hut",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_wasteland_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:desert_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:frozen_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:rock_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_hut_large",
+      "required": false
+    },
+    {
+      "id": "archeological:wasteland_ruins_large",
+      "required": false
+    },
+    {
       "id": "ars_additions:arcane_library",
       "required": false
     },
@@ -89,6 +129,10 @@
       "required": false
     },
     {
+      "id": "ati_structures:rotting_temple_underground",
+      "required": false
+    },
+    {
       "id": "ati_structures:ruined_castle",
       "required": false
     },
@@ -113,6 +157,10 @@
       "required": false
     },
     {
+      "id": "beautify:botanist_house_desert",
+      "required": false
+    },
+    {
       "id": "betterarcheology:stonehenge_grassy",
       "required": false
     },
@@ -130,6 +178,10 @@
     },
     {
       "id": "betteroceanmonuments:ocean_monument",
+      "required": false
+    },
+    {
+      "id": "betterstrongholds:stronghold",
       "required": false
     },
     {
@@ -393,6 +445,10 @@
       "required": false
     },
     {
+      "id": "fdbosses:chesed_arena",
+      "required": false
+    },
+    {
       "id": "feur_extension_fossil:fossil_arc",
       "required": false
     },
@@ -402,6 +458,10 @@
     },
     {
       "id": "feur_extension_fossil:fossil_dragon",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_hand",
       "required": false
     },
     {
@@ -449,6 +509,26 @@
       "required": false
     },
     {
+      "id": "formationsoverworld:bamboo_hut",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:copper_spire",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:desert_houses",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:farmland_field",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:hobbit_hole",
+      "required": false
+    },
+    {
       "id": "formationsoverworld:ice_castle",
       "required": false
     },
@@ -457,7 +537,31 @@
       "required": false
     },
     {
+      "id": "formationsoverworld:igloo",
+      "required": false
+    },
+    {
       "id": "formationsoverworld:large_temple",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:small_house",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:small_statue",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:small_temple",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:stone_tower",
+      "required": false
+    },
+    {
+      "id": "formationsoverworld:tiny_house",
       "required": false
     },
     {
@@ -589,6 +693,14 @@
       "required": false
     },
     {
+      "id": "kattersstructures:village_underground",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:villager_desert",
+      "required": false
+    },
+    {
       "id": "legendary_monsters:abandoned_crypt",
       "required": false
     },
@@ -597,11 +709,15 @@
       "required": false
     },
     {
+      "id": "loot_n_explore:frostmonarch_temple",
+      "required": false
+    },
+    {
       "id": "medieval_buildings:fort",
       "required": false
     },
     {
-      "id": "minecraft:ancient_city",
+      "id": "minecraft:mansion",
       "required": false
     },
     {
@@ -613,7 +729,15 @@
       "required": false
     },
     {
+      "id": "minecraft:stronghold_big",
+      "required": false
+    },
+    {
       "id": "minecraft:trail_ruins",
+      "required": false
+    },
+    {
+      "id": "minecraft:trial_chambers",
       "required": false
     },
     {
@@ -753,7 +877,31 @@
       "required": false
     },
     {
+      "id": "qrafty:archeology_desert",
+      "required": false
+    },
+    {
+      "id": "qrafty:bunker",
+      "required": false
+    },
+    {
+      "id": "qrafty:camel_house",
+      "required": false
+    },
+    {
+      "id": "qrafty:igloo_village",
+      "required": false
+    },
+    {
       "id": "qrafty:jungle_treevillage",
+      "required": false
+    },
+    {
+      "id": "qrafty:mangrove_village",
+      "required": false
+    },
+    {
+      "id": "qrafty:sunken_city",
       "required": false
     },
     {
@@ -810,6 +958,10 @@
     },
     {
       "id": "repurposed_structures:monument_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_desert",
       "required": false
     },
     {
@@ -933,6 +1085,10 @@
       "required": false
     },
     {
+      "id": "supplementaries:galleon",
+      "required": false
+    },
+    {
       "id": "takesapillage:bastille",
       "required": false
     },
@@ -982,6 +1138,10 @@
     },
     {
       "id": "towns_and_towers:exclusives/village_tudor",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:pillager_outpost_desert",
       "required": false
     },
     {
@@ -1050,6 +1210,18 @@
     },
     {
       "id": "towns_and_towers:village_wooded_badlands",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/desert_outpost",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/desert_ranch",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/tour_desert",
       "required": false
     },
     {
@@ -1165,7 +1337,15 @@
       "required": false
     },
     {
+      "id": "villagesandpillages:village_witch",
+      "required": false
+    },
+    {
       "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wythers:village_badlands",
       "required": false
     }
   ]

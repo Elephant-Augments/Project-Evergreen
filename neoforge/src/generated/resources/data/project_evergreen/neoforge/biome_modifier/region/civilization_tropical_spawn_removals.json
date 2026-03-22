@@ -1,0 +1,5 @@
+{
+  "type": "neoforge:remove_spawns",
+  "biomes": "#project_evergreen:is_region/civilization_tropical",
+  "entity_types": "#project_evergreen:disabled"
+}

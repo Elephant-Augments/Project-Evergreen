@@ -17,6 +17,10 @@
       "required": false
     },
     {
+      "id": "archeological:ancient_vault_ruined_hut",
+      "required": false
+    },
+    {
       "id": "ati_structures:mud_tower",
       "required": false
     },
@@ -101,7 +105,15 @@
       "required": false
     },
     {
+      "id": "minecraft:pillager_outpost_mangrove",
+      "required": false
+    },
+    {
       "id": "mvs:dead_tree/mangrove",
+      "required": false
+    },
+    {
+      "id": "mvs:dead_tree_mangrove",
       "required": false
     },
     {
@@ -137,6 +149,14 @@
       "required": false
     },
     {
+      "id": "qrafty:mangrove_village",
+      "required": false
+    },
+    {
+      "id": "qrafty:mangrove_watchtower",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:igloo_mangrove",
       "required": false
     },
@@ -166,6 +186,10 @@
     },
     {
       "id": "wabi_sabi_structures:moss_blob",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:sunken_steamboat",
       "required": false
     },
     {

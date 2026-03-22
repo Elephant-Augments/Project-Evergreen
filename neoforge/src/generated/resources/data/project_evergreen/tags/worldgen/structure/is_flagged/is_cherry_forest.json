@@ -33,6 +33,10 @@
       "required": false
     },
     {
+      "id": "mvs:dead_tree_cherry",
+      "required": false
+    },
+    {
       "id": "mvs:lantern/small_cherry_lantern",
       "required": false
     },

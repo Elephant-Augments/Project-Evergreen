@@ -41,6 +41,10 @@
       "required": false
     },
     {
+      "id": "alexscaves:underground_cabin",
+      "required": false
+    },
+    {
       "id": "ancientstructures:german_farm",
       "required": false
     },
@@ -170,6 +174,130 @@
     },
     {
       "id": "archaeology_ruins:warm_ocean_ruin",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_deep_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_desert_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_frozen_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_rock_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_ruined_hut",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_underground_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_wasteland_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:deep_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:deep_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:deep_ruins_small",
+      "required": false
+    },
+    {
+      "id": "archeological:desert_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:desert_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:desert_ruins_small",
+      "required": false
+    },
+    {
+      "id": "archeological:frozen_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:frozen_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:frozen_ruins_small",
+      "required": false
+    },
+    {
+      "id": "archeological:rock_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:rock_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:rock_ruins_small",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_blue_camp",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_green_camp",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_hut_large",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_hut_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_hut_small",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_red_camp",
+      "required": false
+    },
+    {
+      "id": "archeological:underground_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:underground_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:underground_ruins_small",
+      "required": false
+    },
+    {
+      "id": "archeological:wasteland_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:wasteland_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:wasteland_ruins_small",
       "required": false
     },
     {
@@ -1241,6 +1369,10 @@
       "required": false
     },
     {
+      "id": "create_ltab:oil_rig",
+      "required": false
+    },
+    {
       "id": "create_ltab:pillage",
       "required": false
     },
@@ -1818,6 +1950,18 @@
     },
     {
       "id": "farmers_structures:undergardens_sea",
+      "required": false
+    },
+    {
+      "id": "fdbosses:chesed_arena",
+      "required": false
+    },
+    {
+      "id": "fdbosses:geburah_arena",
+      "required": false
+    },
+    {
+      "id": "fdbosses:malkuth_arena",
       "required": false
     },
     {
@@ -5313,6 +5457,14 @@
       "required": false
     },
     {
+      "id": "supplementaries:galleon",
+      "required": false
+    },
+    {
+      "id": "supplementaries:road_sign",
+      "required": false
+    },
+    {
       "id": "sweety_archaeology:desert_outpost",
       "required": false
     },
@@ -6361,6 +6513,10 @@
       "required": false
     },
     {
+      "id": "villagesandpillages:village_witch",
+      "required": false
+    },
+    {
       "id": "wabi_sabi_structures:abandoned_small_castle",
       "required": false
     },
@@ -6690,6 +6846,46 @@
     },
     {
       "id": "wabi_sabi_structures:zen_chair_museum",
+      "required": false
+    },
+    {
+      "id": "wythers:banyan_sparse_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:baobab_dry_tropical_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:baobab_savanna",
+      "required": false
+    },
+    {
+      "id": "wythers:baobab_tropical_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:el_dorado",
+      "required": false
+    },
+    {
+      "id": "wythers:elephant_graveyard_fossil",
+      "required": false
+    },
+    {
+      "id": "wythers:giant_fallen_log",
+      "required": false
+    },
+    {
+      "id": "wythers:village_badlands",
+      "required": false
+    },
+    {
+      "id": "wythers:village_badlands_desert",
+      "required": false
+    },
+    {
+      "id": "wythers:village_wooded_badlands",
       "required": false
     }
   ]

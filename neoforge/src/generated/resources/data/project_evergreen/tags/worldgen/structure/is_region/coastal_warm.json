@@ -49,6 +49,10 @@
       "required": false
     },
     {
+      "id": "kattersstructures:skyrtle",
+      "required": false
+    },
+    {
       "id": "minecraft:pirate_hideout",
       "required": false
     },

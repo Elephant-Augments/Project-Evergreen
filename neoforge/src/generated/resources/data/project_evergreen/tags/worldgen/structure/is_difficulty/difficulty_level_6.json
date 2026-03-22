@@ -9,6 +9,38 @@
       "required": false
     },
     {
+      "id": "archeological:ancient_vault_desert_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_frozen_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_ruined_hut",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_wasteland_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:desert_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:frozen_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_hut_large",
+      "required": false
+    },
+    {
+      "id": "archeological:wasteland_ruins_large",
+      "required": false
+    },
+    {
       "id": "ati_structures:ancient_temple",
       "required": false
     },
@@ -37,6 +69,10 @@
       "required": false
     },
     {
+      "id": "ati_structures:rotting_temple_underground",
+      "required": false
+    },
+    {
       "id": "ati_structures:sinking_temple",
       "required": false
     },
@@ -53,7 +89,71 @@
       "required": false
     },
     {
+      "id": "betterstrongholds:stronghold",
+      "required": false
+    },
+    {
       "id": "block_factorys_bosses:sandworm_nest",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:void_blossom",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ancient_factory",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:end_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:ruined_end_city",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:ruinedendship",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:smallendislandbridge_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:smallendislandbridge_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:smallendislandbridge_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:smallendislandhouse_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:smallendislandhouse_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:smallendislandruin_1",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:smallendislandruin_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:smallendislandruin_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:smallendislandruin_4",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:smallendislandruin_5",
       "required": false
     },
     {
@@ -73,7 +173,19 @@
       "required": false
     },
     {
+      "id": "dungeons_arise:foundry",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:mining_system",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:monastery",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:plague_asylum",
       "required": false
     },
     {
@@ -85,7 +197,7 @@
       "required": false
     },
     {
-      "id": "farmers_structures:afterdark_farms",
+      "id": "fdbosses:chesed_arena",
       "required": false
     },
     {
@@ -98,6 +210,10 @@
     },
     {
       "id": "feur_extension_fossil:fossil_dragon",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_hand",
       "required": false
     },
     {
@@ -133,6 +249,14 @@
       "required": false
     },
     {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/deepslate_mineshaft",
+      "required": false
+    },
+    {
       "id": "hopo:mineshaft/mangrove_mineshaft",
       "required": false
     },
@@ -141,7 +265,27 @@
       "required": false
     },
     {
+      "id": "hopo:mineshaft/stone_mineshaft",
+      "required": false
+    },
+    {
       "id": "kattersstructures:village_swamp",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_underground",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:frostmonarch_temple",
+      "required": false
+    },
+    {
+      "id": "minecraft:stronghold_big",
+      "required": false
+    },
+    {
+      "id": "minecraft:trial_chambers",
       "required": false
     },
     {
@@ -162,6 +306,10 @@
     },
     {
       "id": "mtr:jungle_temple",
+      "required": false
+    },
+    {
+      "id": "mtr:stronghold",
       "required": false
     },
     {
@@ -193,6 +341,14 @@
       "required": false
     },
     {
+      "id": "qrafty:bunker",
+      "required": false
+    },
+    {
+      "id": "qrafty:transilvania",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:fortress_jungle",
       "required": false
     },
@@ -206,6 +362,10 @@
     },
     {
       "id": "repurposed_structures:monument_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_desert",
       "required": false
     },
     {
@@ -249,7 +409,19 @@
       "required": false
     },
     {
+      "id": "towns_and_towers:pillager_outpost_desert",
+      "required": false
+    },
+    {
       "id": "towns_and_towers:village_swamp",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/desert_outpost",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/tour_desert",
       "required": false
     },
     {
@@ -266,6 +438,10 @@
     },
     {
       "id": "trek:village/swamp",
+      "required": false
+    },
+    {
+      "id": "villagesandpillages:village_witch",
       "required": false
     }
   ]

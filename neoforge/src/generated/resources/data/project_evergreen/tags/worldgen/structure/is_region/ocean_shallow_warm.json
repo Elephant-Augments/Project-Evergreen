@@ -5,10 +5,6 @@
       "required": false
     },
     {
-      "id": "jellyfishing:buried_treasure",
-      "required": false
-    },
-    {
       "id": "kattersstructures:village_ocean",
       "required": false
     },

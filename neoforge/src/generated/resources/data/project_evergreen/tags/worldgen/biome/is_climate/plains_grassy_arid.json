@@ -5,6 +5,10 @@
       "required": false
     },
     {
+      "id": "dreamwoods:savanna_grove",
+      "required": false
+    },
+    {
       "id": "minecraft:savanna",
       "required": false
     },
@@ -17,11 +21,11 @@
       "required": false
     },
     {
-      "id": "natures_spirit:wooded_drylands",
+      "id": "natures_spirit:shrubland",
       "required": false
     },
     {
-      "id": "natures_spirit:xeric_plains",
+      "id": "natures_spirit:wooded_drylands",
       "required": false
     },
     {

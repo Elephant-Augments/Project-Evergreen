@@ -9,6 +9,10 @@
       "required": false
     },
     {
+      "id": "arphex:termite_hill",
+      "required": false
+    },
+    {
       "id": "ati_structures:fortified_temple",
       "required": false
     },
@@ -41,6 +45,14 @@
       "required": false
     },
     {
+      "id": "kattersstructures:mini_dungeon_rugged_shack",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:mini_dungeon_tuff",
+      "required": false
+    },
+    {
       "id": "luistercorp:fallen_log_acacia",
       "required": false
     },
@@ -65,11 +77,23 @@
       "required": false
     },
     {
+      "id": "mvs:dead_tree_acacia",
+      "required": false
+    },
+    {
       "id": "mvs:nature/acacia_tree",
       "required": false
     },
     {
       "id": "nova_structures:firewatch_tower_savanna",
+      "required": false
+    },
+    {
+      "id": "qrafty:table_mountain",
+      "required": false
+    },
+    {
+      "id": "qrafty:termite_hill",
       "required": false
     },
     {

@@ -1,6 +1,18 @@
 {
   "values": [
     {
+      "id": "darkerdepths:glowshroom_forest",
+      "required": false
+    },
+    {
+      "id": "darkerdepths:molten_cavern",
+      "required": false
+    },
+    {
+      "id": "darkerdepths:sandy_catacombs",
+      "required": false
+    },
+    {
       "id": "dreamwoods:alpine_fields",
       "required": false
     },
@@ -702,6 +714,10 @@
     },
     {
       "id": "natures_spirit:xeric_plains",
+      "required": false
+    },
+    {
+      "id": "quark:glimmering_weald",
       "required": false
     },
     {

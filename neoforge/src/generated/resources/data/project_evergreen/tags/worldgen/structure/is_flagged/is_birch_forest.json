@@ -33,6 +33,10 @@
       "required": false
     },
     {
+      "id": "mvs:dead_tree_birch",
+      "required": false
+    },
+    {
       "id": "nova_structures:firewatch_tower_birch",
       "required": false
     },
@@ -41,11 +45,23 @@
       "required": false
     },
     {
+      "id": "nova_structures:village_birch",
+      "required": false
+    },
+    {
       "id": "nova_structures:well_birch",
       "required": false
     },
     {
       "id": "qrafty:birk_fort",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:village_birch",
+      "required": false
+    },
+    {
+      "id": "towns_and_towers:village_birch_forest",
       "required": false
     },
     {

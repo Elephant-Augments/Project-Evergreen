@@ -173,7 +173,11 @@
       "required": false
     },
     {
-      "id": "nova_structures:village_birch",
+      "id": "qrafty:farm",
+      "required": false
+    },
+    {
+      "id": "qrafty:farmer_fort",
       "required": false
     },
     {
@@ -181,11 +185,15 @@
       "required": false
     },
     {
-      "id": "qrafty:windmill",
+      "id": "qrafty:railroad",
       "required": false
     },
     {
-      "id": "repurposed_structures:village_birch",
+      "id": "qrafty:stonehedge",
+      "required": false
+    },
+    {
+      "id": "qrafty:windmill",
       "required": false
     },
     {
@@ -194,10 +202,6 @@
     },
     {
       "id": "towns_and_towers:exclusives/village_classic",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_birch_forest",
       "required": false
     },
     {
@@ -214,10 +218,6 @@
     },
     {
       "id": "trek:overworld/medium/hobbit_hole",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/maison",
       "required": false
     },
     {

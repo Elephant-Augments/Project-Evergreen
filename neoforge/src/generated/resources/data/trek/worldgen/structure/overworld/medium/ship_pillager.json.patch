@@ -5,7 +5,7 @@
       "path": "/temp_properties",
       "value": {
         "id": "trek:overworld/medium/ship_pillager",
-        "size": "MEDIUM",
+        "size": "SMALL",
         "heightmap": "OCEANSURFACE",
         "dimension": "#minecraft:is_overworld",
         "region": "#project_evergreen:is_region/ocean_not_frozen",
@@ -87,13 +87,25 @@
     [
       {
         "op": "test",
+        "path": "/temp_properties/is_deep_dark",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "minecraft:deep_dark"
+      }
+    ],
+    [
+      {
+        "op": "test",
         "path": "/temp_properties/is_birch_forest",
         "value": true
       },
       {
         "op": "add",
         "path": "/biomes",
-        "value": "#project_evergreen:is_birch_forest"
+        "value": "#project_evergreen:is_climate/birch_forest"
       }
     ],
     [
@@ -105,7 +117,7 @@
       {
         "op": "add",
         "path": "/biomes",
-        "value": "#project_evergreen:is_cherry_forest"
+        "value": "#project_evergreen:is_climate/cherry_forest"
       }
     ]
   ],
@@ -119,6 +131,78 @@
       "op": "add",
       "path": "/terrain_adaptation",
       "value": "beard_thin"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/adjusted_underground_y_level_shallow",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/start_height",
+      "value": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -32
+        },
+        "max_inclusive": {
+          "absolute": -11
+        }
+      }
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/adjusted_underground_y_level_deep",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/start_height",
+      "value": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -64
+        },
+        "max_inclusive": {
+          "absolute": -32
+        }
+      }
+    },
+    {
+      "op": "test",
+      "path": "/project_start_to_heightmap"
+    },
+    {
+      "op": "remove",
+      "path": "/project_start_to_heightmap"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/heightmap",
+      "value": "UNDERGROUND"
+    },
+    {
+      "op": "add",
+      "path": "/step",
+      "value": "underground_structures"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/late_spawn_step",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/step",
+      "value": "vegetal_decoration"
     }
   ],
   [
@@ -261,7 +345,7 @@
     {
       "op": "add",
       "path": "/terrain_height_radius_check",
-      "value": 2
+      "value": 1
     },
     {
       "op": "paste",

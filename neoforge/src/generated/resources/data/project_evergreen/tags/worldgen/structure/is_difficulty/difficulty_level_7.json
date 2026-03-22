@@ -13,63 +13,15 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:end_ruin",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:ruined_end_city",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:ruinedendship",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandbridge_1",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandbridge_2",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandbridge_3",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandhouse_1",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandhouse_2",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandruin_1",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandruin_2",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandruin_3",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandruin_4",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandruin_5",
-      "required": false
-    },
-    {
       "id": "dungeons_arise:shiraz_palace",
       "required": false
     },
     {
       "id": "epic:witch_hut",
+      "required": false
+    },
+    {
+      "id": "qrafty:mangrove_village",
       "required": false
     },
     {
@@ -82,6 +34,54 @@
     },
     {
       "id": "repurposed_structures:mansion_snowy",
+      "required": false
+    },
+    {
+      "id": "spore:biomass_tower",
+      "required": false
+    },
+    {
+      "id": "spore:cathedral",
+      "required": false
+    },
+    {
+      "id": "spore:cell",
+      "required": false
+    },
+    {
+      "id": "spore:celltower",
+      "required": false
+    },
+    {
+      "id": "spore:church",
+      "required": false
+    },
+    {
+      "id": "spore:hospital",
+      "required": false
+    },
+    {
+      "id": "spore:lab",
+      "required": false
+    },
+    {
+      "id": "spore:lodge",
+      "required": false
+    },
+    {
+      "id": "spore:mass_grave",
+      "required": false
+    },
+    {
+      "id": "spore:military_camp",
+      "required": false
+    },
+    {
+      "id": "spore:mines",
+      "required": false
+    },
+    {
+      "id": "spore:prison",
       "required": false
     }
   ]

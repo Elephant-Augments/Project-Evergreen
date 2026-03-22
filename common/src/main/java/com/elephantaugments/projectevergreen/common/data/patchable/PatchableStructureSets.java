@@ -316,6 +316,9 @@ public class PatchableStructureSets extends IPatchableList {
         "farmers_structures:sushus_with_all",
         "farmers_structures:undergardens_sea_with_all",
         "farmers_structures:undergardens_with_all",
+        "fdbosses:chesed_arena",
+        "fdbosses:geburah_arena",
+        "fdbosses:malkuth_arena",
         "feur_extension_desert:anubis_arena",
         "feur_extension_desert:anubis_road",
         "feur_extension_desert:anubis_statue",
@@ -833,6 +836,8 @@ public class PatchableStructureSets extends IPatchableList {
         "structory_towers:rare_towers",
         "structory_towers:towers",
         "structory_towers:ultra_rare_towers",
+        "supplementaries:galleons",
+        "supplementaries:road_signs",
         "sweety_archaeology:desert_outpost",
         "sweety_archaeology:prehistoric_remains_site",
         "sweety_archaeology:ritual_ruins",
@@ -976,7 +981,15 @@ public class PatchableStructureSets extends IPatchableList {
         "wabi_sabi_structures:wheat_patch",
         "wabi_sabi_structures:woody_camp",
         "wabi_sabi_structures:xocolatl_farm",
-        "wabi_sabi_structures:zen_chair_museum"
+        "wabi_sabi_structures:zen_chair_museum",
+        "wythers:banyan_sparse_jungle",
+        "wythers:baobab_dry_tropical_forest",
+        "wythers:baobab_savanna",
+        "wythers:baobab_tropical_forest",
+        "wythers:el_dorado",
+        "wythers:elephant_graveyard_fossils",
+        "wythers:features",
+        "wythers:villages"
     ));
 
     //OLD IDs

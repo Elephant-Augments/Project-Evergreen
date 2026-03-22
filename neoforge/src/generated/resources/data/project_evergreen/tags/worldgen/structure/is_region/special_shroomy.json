@@ -49,6 +49,10 @@
       "required": false
     },
     {
+      "id": "kattersstructures:shroom_cave",
+      "required": false
+    },
+    {
       "id": "more_critters:mightshroom_burial",
       "required": false
     },
@@ -86,6 +90,18 @@
     },
     {
       "id": "mvs:well/wells/mushroom_well",
+      "required": false
+    },
+    {
+      "id": "qrafty:magenta_shroom_clearing",
+      "required": false
+    },
+    {
+      "id": "qrafty:mushroom_village",
+      "required": false
+    },
+    {
+      "id": "qrafty:sunken_city",
       "required": false
     },
     {

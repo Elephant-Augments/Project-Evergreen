@@ -135,6 +135,7 @@ public class PatchableStructureSet extends IPatchable {
         JsonObject json = new JsonObject();
 
         json.addProperty(Constants.JsonProp.ID.jsonKey(), this.getId());
+        json.addProperty(Constants.JsonProp.IS_LOADED.jsonKey(), this.is_loaded);
 
         return ProjectEvergreen.GSON.toJsonTree(json);
     }

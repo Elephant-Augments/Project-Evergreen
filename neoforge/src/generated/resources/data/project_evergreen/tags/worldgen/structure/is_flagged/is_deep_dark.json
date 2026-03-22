@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "ati_structures:sculk_deposit",
+      "required": false
+    },
+    {
+      "id": "fdbosses:chesed_arena",
+      "required": false
+    },
+    {
+      "id": "minecraft:ancient_city",
+      "required": false
+    },
+    {
+      "id": "philipsruins:sculk_dungeon",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:forgotten_remnants",
+      "required": false
+    }
+  ]
+}

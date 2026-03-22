@@ -17,6 +17,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:tropical_river",
+      "required": false
+    },
+    {
       "id": "wythers:spring_flower_fields",
       "required": false
     }

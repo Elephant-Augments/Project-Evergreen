@@ -185,10 +185,6 @@
       "required": false
     },
     {
-      "id": "formationsoverworld:meteor",
-      "required": false
-    },
-    {
       "id": "joshie:sunken_spires/conduit_ruins",
       "required": false
     },

@@ -49,7 +49,15 @@
       "required": false
     },
     {
+      "id": "create_ltab:dungeon_desert",
+      "required": false
+    },
+    {
       "id": "create_ltab:sand_house",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:createdesertwell",
       "required": false
     },
     {
@@ -206,6 +214,14 @@
     },
     {
       "id": "qrafty:akropolis",
+      "required": false
+    },
+    {
+      "id": "qrafty:archeology_desert",
+      "required": false
+    },
+    {
+      "id": "qrafty:camel_house",
       "required": false
     },
     {

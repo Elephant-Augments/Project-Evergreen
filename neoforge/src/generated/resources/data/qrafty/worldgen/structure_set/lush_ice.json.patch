@@ -1,7 +1,12 @@
 [
   {
+    "op": "test",
+    "type": "project_evergreen:structure_rarity_redistribution",
+    "value": true
+  },
+  {
     "op": "replace",
-    "path": "/placement/salt",
-    "value": 12628999
+    "path": "/structures",
+    "value": []
   }
 ]

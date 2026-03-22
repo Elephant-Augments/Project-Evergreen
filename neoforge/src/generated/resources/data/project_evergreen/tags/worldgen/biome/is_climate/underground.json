@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "wythers:deep_underground",
+      "required": false
+    },
+    {
+      "id": "wythers:underground",
+      "required": false
+    },
+    {
+      "id": "#c:caves",
+      "required": false
+    }
+  ]
+}

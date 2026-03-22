@@ -29,6 +29,22 @@
       "required": false
     },
     {
+      "id": "archeological:ancient_vault_rock_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:rock_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:rock_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:rock_ruins_small",
+      "required": false
+    },
+    {
       "id": "create_ltab:big_windmill",
       "required": false
     },

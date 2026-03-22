@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "ati_structures:wither_cavern",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:nether_basalt_portal",
       "required": false
     },
@@ -66,6 +70,10 @@
     },
     {
       "id": "combat_structures_update:netherrackspike",
+      "required": false
+    },
+    {
+      "id": "fdbosses:malkuth_arena",
       "required": false
     }
   ]

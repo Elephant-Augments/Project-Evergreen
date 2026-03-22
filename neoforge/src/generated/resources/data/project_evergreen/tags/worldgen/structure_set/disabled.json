@@ -13,6 +13,26 @@
       "required": false
     },
     {
+      "id": "beautify:botanist_house_desert",
+      "required": false
+    },
+    {
+      "id": "beautify:botanist_house_plains",
+      "required": false
+    },
+    {
+      "id": "beautify:botanist_house_savanna",
+      "required": false
+    },
+    {
+      "id": "beautify:botanist_house_snowy",
+      "required": false
+    },
+    {
+      "id": "beautify:botanist_house_taiga",
+      "required": false
+    },
+    {
       "id": "betterdeserttemples:desert_temples",
       "required": false
     },
@@ -22,6 +42,10 @@
     },
     {
       "id": "betteroceanmonuments:ocean_monument",
+      "required": false
+    },
+    {
+      "id": "betterstrongholds:stronghold",
       "required": false
     },
     {
@@ -125,6 +149,10 @@
       "required": false
     },
     {
+      "id": "create_rustic_structures:rustic_smithy",
+      "required": false
+    },
+    {
       "id": "create_rustic_structures:rustic_well",
       "required": false
     },
@@ -150,6 +178,10 @@
     },
     {
       "id": "explorify:ruins",
+      "required": false
+    },
+    {
+      "id": "fdbosses:chesed_arena",
       "required": false
     },
     {
@@ -198,6 +230,10 @@
     },
     {
       "id": "feur_extension_desert:rock",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_chest",
       "required": false
     },
     {
@@ -269,6 +305,10 @@
       "required": false
     },
     {
+      "id": "loot_n_explore:frostmonarch_temple",
+      "required": false
+    },
+    {
       "id": "minecraft:ocean_monuments",
       "required": false
     },
@@ -278,6 +318,10 @@
     },
     {
       "id": "minecraft:ruined_portals",
+      "required": false
+    },
+    {
+      "id": "minecraft:trial_chambers",
       "required": false
     },
     {
@@ -525,7 +569,123 @@
       "required": false
     },
     {
+      "id": "qrafty:archeology",
+      "required": false
+    },
+    {
+      "id": "qrafty:archeology_desert",
+      "required": false
+    },
+    {
+      "id": "qrafty:archeology_taiga",
+      "required": false
+    },
+    {
+      "id": "qrafty:azalea_ruins",
+      "required": false
+    },
+    {
+      "id": "qrafty:bamboo",
+      "required": false
+    },
+    {
+      "id": "qrafty:birk_fort",
+      "required": false
+    },
+    {
       "id": "qrafty:blacksmith",
+      "required": false
+    },
+    {
+      "id": "qrafty:bunker",
+      "required": false
+    },
+    {
+      "id": "qrafty:buried_villager",
+      "required": false
+    },
+    {
+      "id": "qrafty:camel_house",
+      "required": false
+    },
+    {
+      "id": "qrafty:camp",
+      "required": false
+    },
+    {
+      "id": "qrafty:castle_tower",
+      "required": false
+    },
+    {
+      "id": "qrafty:crane",
+      "required": false
+    },
+    {
+      "id": "qrafty:dirt_hut",
+      "required": false
+    },
+    {
+      "id": "qrafty:enchanter",
+      "required": false
+    },
+    {
+      "id": "qrafty:farm",
+      "required": false
+    },
+    {
+      "id": "qrafty:farmer_fort",
+      "required": false
+    },
+    {
+      "id": "qrafty:forgotten_mine",
+      "required": false
+    },
+    {
+      "id": "qrafty:fort",
+      "required": false
+    },
+    {
+      "id": "qrafty:graveyard",
+      "required": false
+    },
+    {
+      "id": "qrafty:hobbit_hole",
+      "required": false
+    },
+    {
+      "id": "qrafty:ice_fort",
+      "required": false
+    },
+    {
+      "id": "qrafty:igloo_village",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_cabin",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_construction",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_digger",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_elevator",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_grabber",
+      "required": false
+    },
+    {
+      "id": "qrafty:industrial_redstone_crack",
+      "required": false
+    },
+    {
+      "id": "qrafty:jungle_treehouse",
       "required": false
     },
     {
@@ -533,7 +693,51 @@
       "required": false
     },
     {
+      "id": "qrafty:lotussea",
+      "required": false
+    },
+    {
+      "id": "qrafty:lush_ice",
+      "required": false
+    },
+    {
+      "id": "qrafty:lush_waterfall",
+      "required": false
+    },
+    {
+      "id": "qrafty:magenta_shroom_clearing",
+      "required": false
+    },
+    {
+      "id": "qrafty:mangrove_village",
+      "required": false
+    },
+    {
+      "id": "qrafty:mangrove_watchtower",
+      "required": false
+    },
+    {
+      "id": "qrafty:maya",
+      "required": false
+    },
+    {
+      "id": "qrafty:mesa_settlement",
+      "required": false
+    },
+    {
+      "id": "qrafty:mushroom_village",
+      "required": false
+    },
+    {
+      "id": "qrafty:oasis",
+      "required": false
+    },
+    {
       "id": "qrafty:oilrig",
+      "required": false
+    },
+    {
+      "id": "qrafty:orbital",
       "required": false
     },
     {
@@ -541,7 +745,67 @@
       "required": false
     },
     {
+      "id": "qrafty:railroad",
+      "required": false
+    },
+    {
+      "id": "qrafty:relict",
+      "required": false
+    },
+    {
+      "id": "qrafty:roman_ruins_1",
+      "required": false
+    },
+    {
+      "id": "qrafty:savanna_watchtower",
+      "required": false
+    },
+    {
+      "id": "qrafty:spruce_cabin",
+      "required": false
+    },
+    {
+      "id": "qrafty:stelzen",
+      "required": false
+    },
+    {
+      "id": "qrafty:stonehedge",
+      "required": false
+    },
+    {
+      "id": "qrafty:sunken_city",
+      "required": false
+    },
+    {
+      "id": "qrafty:table_mountain",
+      "required": false
+    },
+    {
+      "id": "qrafty:taiga",
+      "required": false
+    },
+    {
+      "id": "qrafty:termite_hill",
+      "required": false
+    },
+    {
+      "id": "qrafty:tower",
+      "required": false
+    },
+    {
       "id": "qrafty:transilvania",
+      "required": false
+    },
+    {
+      "id": "qrafty:tsumago",
+      "required": false
+    },
+    {
+      "id": "qrafty:well",
+      "required": false
+    },
+    {
+      "id": "qrafty:windmill",
       "required": false
     },
     {
@@ -678,6 +942,10 @@
     },
     {
       "id": "wabi_sabi_structures:wheat_patch",
+      "required": false
+    },
+    {
+      "id": "wythers:villages",
       "required": false
     }
   ]

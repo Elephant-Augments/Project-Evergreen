@@ -25,19 +25,11 @@
       "required": false
     },
     {
-      "id": "wythers:ayers_rock",
-      "required": false
-    },
-    {
       "id": "wythers:badlands_canyon",
       "required": false
     },
     {
       "id": "wythers:badlands_desert",
-      "required": false
-    },
-    {
-      "id": "wythers:outback_desert",
       "required": false
     },
     {

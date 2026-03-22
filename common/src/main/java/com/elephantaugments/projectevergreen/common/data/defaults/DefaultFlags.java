@@ -5,6 +5,16 @@ import java.util.List;
 
 public class DefaultFlags {
 
+//<-----------------------------------------------------ENTITIES----------------------------------------------------->
+//<------------------------------------------------------------------------------------------------------------------>
+
+    //DISABLED
+    //<--- Structure sets to disable individually --->
+    public static final List<String> disabledMobs = ImmutableList.of(
+
+	);
+
+
 //<--------------------------------------------------STRUCTURE SETS-------------------------------------------------->
 //<------------------------------------------------------------------------------------------------------------------>
 
@@ -52,7 +62,8 @@ public class DefaultFlags {
 		"trek:overworld/very_common",
 		"trek:overworld/medium",
 		"trek:overworld/very_rare",
-		"trek:overworld/rare"
+		"trek:overworld/rare",
+		"wythers:villages"
     );
 
 
@@ -64,7 +75,6 @@ public class DefaultFlags {
     public static final List<String> disabledStructures = ImmutableList.of(
 		"archaeology_ruins:ruined_ocean_monument",
 		"ati_structures:lighthouse",
-		"betterarcheology:catacombs",
 		"born_in_chaos_v1:dark_tower_forest",
 		"combat_structures_update:ruinedstronghold",
 		"kattersstructures:villager_ocean",
@@ -215,6 +225,10 @@ public class DefaultFlags {
 		"idas:ancient_portal/nether_ancient_portal",
 		"imst:terralith/yurt",
 		"irons_spellbooks:ancient_battleground",
+		"kattersstructures:red_coral",
+		"kattersstructures:deep_blue_labs",
+		"kattersstructures:deep_blue_lab_ruin",
+		"kattersstructures:deep_blue_city",
 		"legendary_monsters:ancient_tower_remains",
 		"legendary_monsters:lava_eater_spawn",
 		"legendary_monsters:shulker_tower",
@@ -263,6 +277,7 @@ public class DefaultFlags {
 		"philipsruins:sealedruinedghaststatue1",
 		"philipsruins:start_nether_dungeon",
 		"philipsruins:start_nether_ruin",
+		"qrafty:overworld_leak",
 		"repurposed_structures:ancient_city_end",
 		"repurposed_structures:ancient_city_nether",
 		"repurposed_structures:city_nether",
@@ -361,7 +376,6 @@ public class DefaultFlags {
 		"nova_structures:firewatch_tower_mangrove",
 		"nova_structures:firewatch_tower_savanna",
 		"nova_structures:firewatch_tower_swamp",
-		"philipsruins:sculk_dungeon",
 		"repurposed_structures:pyramid_dark_forest",
 		"threateningly_mobs:distortion_village",
 		"trek:overworld/medium/cold_red_trade",
@@ -373,7 +387,6 @@ public class DefaultFlags {
 		"trek:overworld/rare/villager_island",
 		"trek:overworld/very_rare/floating_farm_large",
 		"wabi_sabi_structures:lumpy_tower",
-		"wabi_sabi_structures:sunken_steamboat",
 		"windswept:chestnut_weathered_house",
 		"windswept:grove_weathered_house"
 	);
@@ -386,6 +399,7 @@ public class DefaultFlags {
 		"minecraft:village_savanna",
 		"minecraft:village_snowy",
 		"minecraft:village_taiga",
+		"supplementaries:road_sign",
 		"towns_and_towers:exclusives/pillager_outpost_classic",
 		"towns_and_towers:exclusives/pillager_outpost_iberian",
 		"towns_and_towers:exclusives/pillager_outpost_mediterranean",
@@ -443,7 +457,6 @@ public class DefaultFlags {
 		"towns_and_towers:village_swamp",
 		"towns_and_towers:village_wooded_badlands",
 		"trek:village/desert",
-		"trek:village/mushroom",
 		"trek:village/plains",
 		"trek:village/savanna",
 		"trek:village/snowy",
@@ -451,6 +464,7 @@ public class DefaultFlags {
 		"trek:village/taiga",
 		"betterarcheology:light_temple",
 		"cataclysm:acropolis",
+		"fdbosses:malkuth_arena",
 		"windswept:village_frozen",
 		"dungeons_arise:small_blimp",
 		"unusual_prehistory:mesozoic_fossil",
@@ -493,6 +507,8 @@ public class DefaultFlags {
         "idas:bazaar",
 		"kattersstructures:village_mesa",
         "letsdoaddon-structures:illager_mine",
+		"qrafty:mushroom_village",
+		"qrafty:mangrove_village",
         "takesapillage:bastille",
         "repurposed_structures:mansion_birch",
 		"repurposed_structures:mansion_desert",
@@ -542,6 +558,7 @@ public class DefaultFlags {
         "feur_extension_jungle:tree_stump",
         "goety:dark_manor",
         "imst:caravan",
+		"kattersstructures:graveyard",
         "legendary_monsters:ancient_stronghold",
         "legendary_monsters:abandoned_crypt",
         "medieval_buildings:fort",
@@ -555,6 +572,7 @@ public class DefaultFlags {
         "terramity:overgrown_facility",
         "terramity:snow_fort",
 		"towns_and_towers:exclusives/pillager_outpost_rustic",
+		"trek:village/mushroom",
         "trek:overworld/rare/wooden_manor",
         "trek:overworld/rare/abandoned_castle_pillager",
         "wabi_sabi_structures:zen_chair_museum"
@@ -600,7 +618,7 @@ public class DefaultFlags {
     //ADD_TERRAIN_ADAPTATION
     //<--- Add beard_thin adaptation to structures with none --->
     public static final List<String> adjustedTerrainAdaptation = ImmutableList.of(
-        "ati_structures:ancient_temple",
+		"ati_structures:ancient_temple",
 		"ati_structures:ancient_vessel",
 		"ati_structures:arachnid_dwelling",
 		"ati_structures:ati_stoneworks",
@@ -655,11 +673,47 @@ public class DefaultFlags {
         "wabi_sabi_structures:frost_reactor_plant"
     );
 
-    //ADJUSTED_Y_LEVEL
+    //ADJUSTED_Y_LEVEL_SHALLOW
     //<--- Offset the start_height of underground structures that peak out above-ground --->
-    public static final List<String> adjustedYLevel = ImmutableList.of(
+    public static final List<String> adjustedYLevelShallow = ImmutableList.of(
+		"alexscaves:underground_cabin",
+		"ati_structures:rotting_temple_underground",
+		"bettermineshafts:mineshaft_acacia",
+		"bettermineshafts:mineshaft_desert",
+		"bettermineshafts:mineshaft_dripstone",
+		"bettermineshafts:mineshaft_ice",
+		"bettermineshafts:mineshaft_jungle",
+		"bettermineshafts:mineshaft_lush",
+		"bettermineshafts:mineshaft_mesa",
+		"bettermineshafts:mineshaft_mushroom",
+		"bettermineshafts:mineshaft_oak",
+		"bettermineshafts:mineshaft_overgrown",
+		"bettermineshafts:mineshaft_red_desert",
+		"bettermineshafts:mineshaft_spruce",
+		"bettermineshafts:mineshaft_spruce_snowy"
+    );
+
+    //ADJUSTED_Y_LEVEL_DEEP
+    //<--- Offset the start_height of underground structures to spawn near bedrock --->
+    public static final List<String> adjustedYLevelDeep = ImmutableList.of(
+		"mtr:stronghold"
+    );
+
+    //IS_LATE_SPAWN_STEP
+    //<--- Change the spawn step to "vegetal_decoration" to place it later than all other structure steps --->
+    public static final List<String> lateSpawnStep = ImmutableList.of(
 
     );
+
+	//IS_DEEP_DARK
+	//<--- Forces structures to spawn exclusively in the deep dark --->
+	public static final List<String> forceDeepDark = ImmutableList.of(
+		"minecraft:ancient_city",
+		"ati_structures:sculk_deposit",
+		"fdbosses:chesed_arena",
+		"philipsruins:sculk_dungeon",
+		"wabi_sabi_structures:forgotten_remnants"
+	);
 
 	//IS_BIRCH_FOREST
 	//<--- Forces structures to spawn exclusively in full birch forests --->
@@ -672,10 +726,14 @@ public class DefaultFlags {
 		"imst:birch_hut",
 		"kattersstructures:birch_tree",
 		"luistercorp:fallen_log_birch",
+		"mvs:dead_tree_birch",
 		"nova_structures:well_birch",
 		"nova_structures:tavern_birch",
 		"nova_structures:firewatch_tower_birch",
+		"nova_structures:village_birch",
 		"qrafty:birk_fort",
+		"repurposed_structures:village_birch",
+		"towns_and_towers:village_birch_forest",
 		"trek:overworld/medium/birch_fort",
 		"wabi_sabi_structures:tall_birch_house"
 	);
@@ -685,6 +743,8 @@ public class DefaultFlags {
 	public static final List<String> forceCherryForest = ImmutableList.of(
 		"create_ltab:cherry_house",
 		"hopo:mineshaft/cherry_mineshaft",
+		"kattersstructures:cherry_tree",
+		"kattersstructures:village_cherry",
 		"luistercorp:fallen_log_cherry",
 		"mvs:lantern/small_cherry_lantern",
 		"mvs:nature/cherry_tree",
@@ -692,11 +752,10 @@ public class DefaultFlags {
 		"mvs:small_cherry_lantern",
 		"mvs:cherry_tree",
 		"mvs:cherry",
-		"kattersstructures:cherry_tree",
-		"kattersstructures:village_cherry",
-		"repurposed_structures:village_cherry",
+		"mvs:dead_tree_cherry",
 		"nova_structures:firewatch_tower_cherry",
 		"nova_structures:tavern_cherry",
+		"repurposed_structures:village_cherry",
 		"taxtg:giant_cherryblossom_tree",
 		"taxtg:giant_cherryblossom_tree_1"
 	);
@@ -711,6 +770,7 @@ public class DefaultFlags {
 		"dreamwoods:poplar_grove",
 		"regions_unexplored:shrubland",
 		"regions_unexplored:dry_bushland",
+		"regions_unexplored:tropical_river",
 		"wythers:spring_flower_fields"
     );
 
@@ -758,12 +818,14 @@ public class DefaultFlags {
 		"dreamwoods:prairie",
 		"dreamwoods:lush_grassland",
 		"regions_unexplored:grassland",
+		//"regions_unexplored:prairie",
 		"dreamwoods:autumnal_hills"
 	);
 
 	//ADD_PLAINS_VEGETATION_COLOR
 	//<--- Simply replaces any grass/foliage color overrides with a muted green coloring --->
 	public static final List<String> addPlainsVegetationColor = ImmutableList.of(
+		"dreamwoods:poplar_slopes",
 		"natures_spirit:floral_ridges",
 		"regions_unexplored:flower_fields",
 		"regions_unexplored:bamboo_forest"
@@ -772,6 +834,9 @@ public class DefaultFlags {
     //ADD_SAVANNA_VEGETATION_COLOR
     //<--- Simply replaces any grass/foliage color overrides with a yellow-brown savanna coloring --->
     public static final List<String> addSavannaVegetationColor = ImmutableList.of(
-
+		"minecraft:badlands",
+		"minecraft:eroded_badlands",
+		"minecraft:wooded_badlands",
+		"wythers:badlands_desert"
     );
 }

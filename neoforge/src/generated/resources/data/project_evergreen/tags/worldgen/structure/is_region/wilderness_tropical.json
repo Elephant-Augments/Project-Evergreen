@@ -97,6 +97,10 @@
       "required": false
     },
     {
+      "id": "bosses_of_mass_destruction:void_blossom",
+      "required": false
+    },
+    {
       "id": "companions:companions_monkey_temple",
       "required": false
     },
@@ -229,6 +233,10 @@
       "required": false
     },
     {
+      "id": "mvs:dead_tree_jungle",
+      "required": false
+    },
+    {
       "id": "mvs:jungle",
       "required": false
     },
@@ -274,6 +282,14 @@
     },
     {
       "id": "qrafty:lush_waterfall",
+      "required": false
+    },
+    {
+      "id": "qrafty:maya",
+      "required": false
+    },
+    {
+      "id": "qrafty:orbital",
       "required": false
     },
     {

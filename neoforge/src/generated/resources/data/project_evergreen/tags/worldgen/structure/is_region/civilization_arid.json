@@ -21,6 +21,10 @@
       "required": false
     },
     {
+      "id": "formationsoverworld:copper_spire",
+      "required": false
+    },
+    {
       "id": "hopo:mineshaft/acacia_mineshaft",
       "required": false
     },
@@ -42,10 +46,6 @@
     },
     {
       "id": "imst:lumberjack/acacia_hut",
-      "required": false
-    },
-    {
-      "id": "integrated_villages:mediterranean_village",
       "required": false
     },
     {
@@ -94,6 +94,10 @@
     },
     {
       "id": "qrafty:azalea_ruins",
+      "required": false
+    },
+    {
+      "id": "qrafty:savanna_watchtower",
       "required": false
     },
     {

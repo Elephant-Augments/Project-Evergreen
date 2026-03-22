@@ -57,10 +57,6 @@
       "required": false
     },
     {
-      "id": "kattersstructures:deep_blue_city",
-      "required": false
-    },
-    {
       "id": "nordic_structures:vikinglongboatboss",
       "required": false
     }

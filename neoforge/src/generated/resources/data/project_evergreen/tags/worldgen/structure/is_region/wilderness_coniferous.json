@@ -85,6 +85,10 @@
       "required": false
     },
     {
+      "id": "minecraft:pillager_outpost_dark_forest",
+      "required": false
+    },
+    {
       "id": "mvs:dead_tree/spruce",
       "required": false
     },

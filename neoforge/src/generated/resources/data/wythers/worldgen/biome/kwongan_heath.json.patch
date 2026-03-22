@@ -5,7 +5,8 @@
       "path": "/temp_properties",
       "value": {
         "id": "wythers:kwongan_heath",
-        "patchable": true
+        "patchable": true,
+        "is_warm": true
       }
     },
     {

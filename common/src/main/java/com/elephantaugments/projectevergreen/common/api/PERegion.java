@@ -4,10 +4,10 @@ import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureHeightmaps;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureRegions;
-import com.google.common.collect.ImmutableList;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.levelgen.structure.Structure;
 
@@ -17,16 +17,22 @@ import java.util.stream.Collectors;
 public enum PERegion {
     NO_BIOMES(
         Constants.EMPTY_LIST,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(PEBiome.NO_BIOMES),
         DangerLevel.SAFE
     ),
-    ALL_UNDERGROUND_LAND(
+    UNDERGROUND_LAND(
         DefaultStructureHeightmaps.underground,
-        List.of(PEBiome.NO_BIOMES),
-        DangerLevel.NEUTRAL
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
+        List.of(PEBiome.UNDERGROUND),
+        DangerLevel.DANGEROUS
     ),
     ALL_OCEAN(
         DefaultStructureRegions.allOcean,
+        PEMob.NON_WATER_CRITTER.defaultMobs(),
+        PEMob.NON_WATER_CRITTER.tag(),
         List.of(
             PEBiome.OCEAN_DEEP_FROZEN,
             PEBiome.OCEAN_DEEP_TEMPERATE,
@@ -41,6 +47,8 @@ public enum PERegion {
     ),
     ALL_COASTAL(
         DefaultStructureRegions.allCoastal,
+        PEMob.UNCIVILIZED_MONSTER.defaultMobs(),
+        PEMob.UNCIVILIZED_MONSTER.tag(),
         List.of(
             PEBiome.COASTAL_ALIVE,
             PEBiome.COASTAL_BARREN,
@@ -52,6 +60,8 @@ public enum PERegion {
     ),
     ALL_RIVERS(
         DefaultStructureRegions.allRivers,
+        PEMob.NON_WATER_CRITTER.defaultMobs(),
+        PEMob.NON_WATER_CRITTER.tag(),
         List.of(
             PEBiome.RIVER_FROZEN,
             PEBiome.RIVER_TEMPERATE,
@@ -61,6 +71,8 @@ public enum PERegion {
     ),
     ALL_CIVILIZATION(
         DefaultStructureRegions.allCivilization,
+        PEMob.UNCIVILIZED_MONSTER.defaultMobs(),
+        PEMob.UNCIVILIZED_MONSTER.tag(),
         List.of(
             PEBiome.PLAINS_GRASSY_TEMPERATE,
             PEBiome.FOREST_SPARSE_CONIFEROUS,
@@ -84,6 +96,8 @@ public enum PERegion {
     ),
     ALL_WILDERNESS(
         DefaultStructureRegions.allWilderness,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.FOREST_DENSE_CONIFEROUS,
             PEBiome.FOREST_DENSE_DECIDUOUS,
@@ -106,6 +120,8 @@ public enum PERegion {
     ),
     ALL_SPECIAL(
         Constants.EMPTY_LIST,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_CRAGGY_TEMPERATE,
             PEBiome.SPECIAL_CRAGGY_WARM,
@@ -128,6 +144,8 @@ public enum PERegion {
     ),
     CIVILIZATION_TEMPERATE(
         DefaultStructureRegions.civilizationTemperate,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.PLAINS_GRASSY_TEMPERATE,
             PEBiome.FOREST_SPARSE_CONIFEROUS,
@@ -141,6 +159,8 @@ public enum PERegion {
     ),
     CIVILIZATION_FIELDS(
         DefaultStructureRegions.civilizationFields,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.PLAINS_GRASSY_TEMPERATE,
             PEBiome.SPECIAL_FLOWERY_FIELDS,
@@ -150,6 +170,8 @@ public enum PERegion {
     ),
     CIVILIZATION_CONIFEROUS(
         DefaultStructureRegions.civilizationConiferous,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.FOREST_SPARSE_CONIFEROUS_SNOW,
             PEBiome.FOREST_SPARSE_CONIFEROUS
@@ -158,6 +180,8 @@ public enum PERegion {
     ),
     CIVILIZATION_DECIDUOUS(
         DefaultStructureRegions.civilizationDeciduous,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.FOREST_SPARSE_DECIDUOUS,
             PEBiome.SPECIAL_FLOWERY_FOREST
@@ -166,6 +190,8 @@ public enum PERegion {
     ),
     CIVILIZATION_ARID(
         DefaultStructureRegions.civilizationArid,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.PLAINS_GRASSY_ARID,
             PEBiome.SPECIAL_MEDITERRANEAN_INVITING
@@ -174,6 +200,8 @@ public enum PERegion {
     ),
     CIVILIZATION_DESERT(
         DefaultStructureRegions.civilizationDesert,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.DESERT_DUNES_ALIVE
         ),
@@ -181,6 +209,8 @@ public enum PERegion {
     ),
     CIVILIZATION_DESERT_RED(
         DefaultStructureRegions.civilizationDesertRed,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.DESERT_RED_ALIVE
         ),
@@ -188,6 +218,8 @@ public enum PERegion {
     ),
     CIVILIZATION_TROPICAL(
         DefaultStructureRegions.civilizationTropical,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.PLAINS_GRASSY_TROPICAL,
             PEBiome.FOREST_SPARSE_TROPICAL
@@ -196,6 +228,8 @@ public enum PERegion {
     ),
     CIVILIZATION_SNOW(
         DefaultStructureRegions.civilizationSnow,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.PLAINS_GRASSY_SNOW,
             PEBiome.FOREST_SPARSE_CONIFEROUS_SNOW
@@ -204,6 +238,8 @@ public enum PERegion {
     ),
     CIVILIZATION_SPECIAL_AUTUMNAL(
         DefaultStructureRegions.civilizationSpecialAutumnal,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_AUTUMNAL_FIELDS
         ),
@@ -211,6 +247,8 @@ public enum PERegion {
     ),
     CIVILIZATION_SPECIAL_FLOWERY(
         DefaultStructureRegions.civilizationSpecialFlowery,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_FLOWERY_FIELDS,
             PEBiome.SPECIAL_FLOWERY_FOREST
@@ -219,6 +257,8 @@ public enum PERegion {
     ),
     CIVILIZATION_SPECIAL_MEDITERRANEAN(
         DefaultStructureRegions.civilizationSpecialMediterranean,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_MEDITERRANEAN_INVITING
         ),
@@ -226,6 +266,8 @@ public enum PERegion {
     ),
     CIVILIZATION_SPECIAL_ORIENTAL(
         DefaultStructureRegions.civilizationSpecialOriental,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_ORIENTAL_INVITING
         ),
@@ -233,6 +275,8 @@ public enum PERegion {
     ),
     WILDERNESS_TEMPERATE(
         DefaultStructureRegions.wildernessTemperate,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.PLAINS_SHRUBBY_TEMPERATE,
             PEBiome.FOREST_DENSE_CONIFEROUS,
@@ -245,6 +289,8 @@ public enum PERegion {
     ),
     WILDERNESS_FIELDS(
         DefaultStructureRegions.wildernessFields,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.PLAINS_SHRUBBY_SNOW,
             PEBiome.PLAINS_SHRUBBY_TEMPERATE,
@@ -254,6 +300,8 @@ public enum PERegion {
     ),
     WILDERNESS_CONIFEROUS(
         DefaultStructureRegions.wildernessConiferous,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.FOREST_DENSE_CONIFEROUS
         ),
@@ -261,6 +309,8 @@ public enum PERegion {
     ),
     WILDERNESS_DECIDUOUS(
         DefaultStructureRegions.wildernessDeciduous,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.FOREST_DENSE_DECIDUOUS
         ),
@@ -268,6 +318,8 @@ public enum PERegion {
     ),
     WILDERNESS_ARID(
         DefaultStructureRegions.wildernessArid,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.PLAINS_SHRUBBY_ARID,
             PEBiome.SPECIAL_CRAGGY_WARM,
@@ -277,6 +329,8 @@ public enum PERegion {
     ),
     WILDERNESS_DESERT(
         DefaultStructureRegions.wildernessDesert,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.DESERT_DUNES_BARREN
         ),
@@ -284,6 +338,8 @@ public enum PERegion {
     ),
     WILDERNESS_DESERT_RED(
         DefaultStructureRegions.wildernessDesertRed,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.DESERT_RED_BARREN
         ),
@@ -291,6 +347,8 @@ public enum PERegion {
     ),
     WILDERNESS_TROPICAL(
         DefaultStructureRegions.wildernessTropical,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.FOREST_DENSE_TROPICAL,
             PEBiome.PLAINS_SHRUBBY_TROPICAL
@@ -299,6 +357,8 @@ public enum PERegion {
     ),
     WILDERNESS_SNOW(
         DefaultStructureRegions.wildernessSnow,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.PLAINS_SHRUBBY_SNOW,
             PEBiome.FOREST_DENSE_CONIFEROUS_SNOW,
@@ -308,6 +368,8 @@ public enum PERegion {
     ),
     WILDERNESS_SPECIAL_AUTUMNAL(
         DefaultStructureRegions.wildernessSpecialAutumnal,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_AUTUMNAL_FOREST
         ),
@@ -315,6 +377,8 @@ public enum PERegion {
     ),
     WILDERNESS_SPECIAL_MEDITERRANEAN(
         DefaultStructureRegions.wildernessSpecialMediterranean,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_MEDITERRANEAN_UNINVITING
         ),
@@ -322,6 +386,8 @@ public enum PERegion {
     ),
     WILDERNESS_SPECIAL_ORIENTAL(
         DefaultStructureRegions.wildernessSpecialOriental,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_ORIENTAL_UNINVITING
         ),
@@ -329,6 +395,8 @@ public enum PERegion {
     ),
     COASTAL_FROZEN(
         DefaultStructureRegions.coastalFrozen,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.COASTAL_FROZEN
         ),
@@ -336,6 +404,8 @@ public enum PERegion {
     ),
     COASTAL_TEMPERATE(
         DefaultStructureRegions.coastalTemperate,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.COASTAL_TEMPERATE
         ),
@@ -343,6 +413,8 @@ public enum PERegion {
     ),
     COASTAL_WARM(
         DefaultStructureRegions.coastalWarm,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.COASTAL_WARM
         ),
@@ -350,6 +422,8 @@ public enum PERegion {
     ),
     OCEAN_DEEP(
         DefaultStructureRegions.oceanDeep,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.OCEAN_DEEP_FROZEN,
             PEBiome.OCEAN_DEEP_TEMPERATE,
@@ -359,6 +433,8 @@ public enum PERegion {
     ),
     OCEAN_SHALLOW(
         DefaultStructureRegions.oceanShallow,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.OCEAN_SHALLOW_FROZEN,
             PEBiome.OCEAN_SHALLOW_TEMPERATE,
@@ -368,6 +444,8 @@ public enum PERegion {
     ),
     OCEAN_NOT_FROZEN(
         DefaultStructureRegions.oceanNotFrozen,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.OCEAN_DEEP_TEMPERATE,
             PEBiome.OCEAN_DEEP_WARM,
@@ -378,6 +456,8 @@ public enum PERegion {
     ),
     OCEAN_FROZEN(
         DefaultStructureRegions.oceanFrozen,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.OCEAN_SHALLOW_FROZEN,
             PEBiome.OCEAN_DEEP_FROZEN
@@ -386,6 +466,8 @@ public enum PERegion {
     ),
     OCEAN_TEMPERATE(
         DefaultStructureRegions.oceanTemperate,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.OCEAN_DEEP_TEMPERATE,
             PEBiome.OCEAN_SHALLOW_TEMPERATE
@@ -394,6 +476,8 @@ public enum PERegion {
     ),
     OCEAN_WARM(
         DefaultStructureRegions.oceanWarm,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.OCEAN_DEEP_WARM,
             PEBiome.OCEAN_SHALLOW_WARM
@@ -402,6 +486,8 @@ public enum PERegion {
     ),
     OCEAN_DEEP_FROZEN(
         DefaultStructureRegions.oceanDeepFrozen,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.OCEAN_DEEP_FROZEN
         ),
@@ -409,6 +495,8 @@ public enum PERegion {
     ),
     OCEAN_DEEP_TEMPERATE(
         DefaultStructureRegions.oceanDeepTemperate,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
                 PEBiome.OCEAN_DEEP_TEMPERATE
         ),
@@ -416,6 +504,8 @@ public enum PERegion {
     ),
     OCEAN_DEEP_WARM(
         DefaultStructureRegions.oceanDeepWarm,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.OCEAN_DEEP_WARM
         ),
@@ -423,6 +513,8 @@ public enum PERegion {
     ),
     OCEAN_RARE_DEEP(
         DefaultStructureRegions.oceanRareDeep,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.OCEAN_DEEP_RARE
         ),
@@ -430,6 +522,8 @@ public enum PERegion {
     ),
     OCEAN_SHALLOW_FROZEN(
         DefaultStructureRegions.oceanShallowFrozen,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.OCEAN_SHALLOW_FROZEN
         ),
@@ -437,6 +531,8 @@ public enum PERegion {
     ),
     OCEAN_SHALLOW_TEMPERATE(
         DefaultStructureRegions.oceanShallowTemperate,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.OCEAN_SHALLOW_TEMPERATE
         ),
@@ -444,6 +540,8 @@ public enum PERegion {
     ),
     OCEAN_SHALLOW_WARM(
         DefaultStructureRegions.oceanShallowWarm,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.OCEAN_SHALLOW_WARM
         ),
@@ -451,6 +549,8 @@ public enum PERegion {
     ),
     OCEAN_RARE_SHALLOW(
         DefaultStructureRegions.oceanRareShallow,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.OCEAN_SHALLOW_RARE
         ),
@@ -458,6 +558,8 @@ public enum PERegion {
     ),
     RIVER_OR_COAST_NOT_FROZEN(
         DefaultStructureRegions.riverOrCoastNotFrozen,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.RIVER_TEMPERATE,
             PEBiome.RIVER_WARM,
@@ -468,6 +570,8 @@ public enum PERegion {
     ),
     RIVER_OR_COAST_FROZEN(
         DefaultStructureRegions.riverOrCoastFrozen,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.RIVER_FROZEN,
             PEBiome.COASTAL_FROZEN
@@ -476,6 +580,8 @@ public enum PERegion {
     ),
     RIVER_NOT_FROZEN(
         DefaultStructureRegions.riverNotFrozen,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.RIVER_TEMPERATE,
             PEBiome.RIVER_WARM
@@ -484,6 +590,8 @@ public enum PERegion {
     ),
     RIVER_FROZEN(
         DefaultStructureRegions.riverFrozen,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.RIVER_FROZEN
         ),
@@ -491,6 +599,8 @@ public enum PERegion {
     ),
     RIVER_TEMPERATE(
         DefaultStructureRegions.riverTemperate,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.RIVER_TEMPERATE
         ),
@@ -498,6 +608,8 @@ public enum PERegion {
     ),
     RIVER_WARM(
         DefaultStructureRegions.riverWarm,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.RIVER_WARM
         ),
@@ -505,6 +617,8 @@ public enum PERegion {
     ),
     SPECIAL_ROCKY(
         DefaultStructureRegions.specialRocky,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.MOUNTAINS_BARREN,
             PEBiome.SPECIAL_ROCKY
@@ -513,6 +627,8 @@ public enum PERegion {
     ),
     SPECIAL_CRAGGY(
         DefaultStructureRegions.specialCraggy,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_CRAGGY_TEMPERATE,
             PEBiome.SPECIAL_CRAGGY_WARM,
@@ -524,6 +640,8 @@ public enum PERegion {
     ),
     SPECIAL_ICY(
         DefaultStructureRegions.specialIcy,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_ICY
         ),
@@ -531,6 +649,8 @@ public enum PERegion {
     ),
     SPECIAL_MAGICAL(
         DefaultStructureRegions.specialMagical,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_MAGICAL
         ),
@@ -538,6 +658,8 @@ public enum PERegion {
     ),
     SPECIAL_MOUNTAINOUS_COLD(
         DefaultStructureRegions.specialMountainousCold,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.MOUNTAINS_COLD,
             PEBiome.SPECIAL_CRAGGY_SNOW
@@ -546,6 +668,8 @@ public enum PERegion {
     ),
     SPECIAL_MOUNTAINOUS_HOT(
         DefaultStructureRegions.specialMountainousHot,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.MOUNTAINS_HOT
         ),
@@ -553,6 +677,8 @@ public enum PERegion {
     ),
     SPECIAL_RUINED(
         DefaultStructureRegions.specialRuined,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_RUINED
         ),
@@ -560,6 +686,8 @@ public enum PERegion {
     ),
     SPECIAL_SHROOMY(
         DefaultStructureRegions.specialShroomy,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_SHROOMY
         ),
@@ -567,6 +695,8 @@ public enum PERegion {
     ),
     SPECIAL_SPOOKY(
         DefaultStructureRegions.specialSpooky,
+        PEMob.LAND_CRITTER.defaultMobs(),
+        PEMob.LAND_CRITTER.tag(),
         List.of(
             PEBiome.SPECIAL_SPOOKY,
             PEBiome.SPECIAL_AUTUMNAL_FOREST
@@ -575,6 +705,8 @@ public enum PERegion {
     ),
     SPECIAL_SWAMPY(
         DefaultStructureRegions.specialSwampy,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_SWAMPY_SNOW,
             PEBiome.SPECIAL_SWAMPY_TEMPERATE,
@@ -584,6 +716,8 @@ public enum PERegion {
     ),
     SPECIAL_SWAMPY_WARM(
         DefaultStructureRegions.specialSwampyWarm,
+        PEMob.Flag.DISABLED.defaultIDs(),
+        PEMob.Flag.DISABLED.tag(),
         List.of(
             PEBiome.SPECIAL_SWAMPY_WARM
         ),
@@ -591,6 +725,7 @@ public enum PERegion {
     );
 
     private List<String> defaultStructures = new ArrayList<>();
+    private List<String> mobRemovals = new ArrayList<>();
     private List<PEBiome> defaultBiomes = new ArrayList<>();
 
     private final String jsonKey = Constants.JsonProp.REGION.jsonKey();
@@ -600,6 +735,8 @@ public enum PERegion {
     private final String tagKey;
     private TagKey<Biome> biomeTag;
     private TagKey<Structure> structureTag;
+    private TagKey<EntityType<?>> mobTag;
+    private ResourceLocation modifierLocation;
     private DangerLevel dangerLevel;
 
     public enum DangerLevel {
@@ -608,15 +745,24 @@ public enum PERegion {
         DANGEROUS
     }
 
-    PERegion(List<String> defaultStructures, List<PEBiome> defaultBiomes, DangerLevel dangerLevel) {
+    PERegion(List<String> defaultStructures,
+             List<String> mobRemovals,
+             TagKey<EntityType<?>> mobRemovalTag,
+             List<PEBiome> defaultBiomes,
+             DangerLevel dangerLevel
+    ) {
         path = "is_region/" + name().toLowerCase();
         location = ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, path);
         tagKey = "#" + location;
         this.defaultBiomes.addAll(defaultBiomes);
         this.defaultStructures.addAll(defaultStructures);
+        this.mobRemovals.addAll(mobRemovals);
+        this.mobTag = mobRemovalTag;
         this.biomeTag = ProjectEvergreen.createTag(Registries.BIOME, location);
         this.structureTag = ProjectEvergreen.createTag(Registries.STRUCTURE, location);
         this.dangerLevel = dangerLevel;
+        this.modifierLocation = ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID,
+                "region/" + name().toLowerCase() + "_spawn_removals");
     }
 
     public String path() {
@@ -635,6 +781,10 @@ public enum PERegion {
         return tagKey;
     }
 
+    public ResourceLocation modifierLocation() {
+        return this.modifierLocation;
+    }
+
     public TagKey<Biome> biomeTag() {
         return this.biomeTag;
     }
@@ -643,12 +793,20 @@ public enum PERegion {
         return this.structureTag;
     }
 
+    public TagKey<EntityType<?>> mobTag() {
+        return this.mobTag;
+    }
+
     public List<String> defaultBiomes() {
         return defaultBiomes.stream().map(b -> b.location().toString()).toList();
     }
 
     public List<String> defaultStructures() {
         return defaultStructures;
+    }
+
+    public List<String> defaultEntities() {
+        return mobRemovals;
     }
 
     public void appendStructures(String id) {

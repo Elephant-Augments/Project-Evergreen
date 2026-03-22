@@ -221,6 +221,10 @@
       "required": false
     },
     {
+      "id": "archeological:ancient_vault_deep_ruins",
+      "required": false
+    },
+    {
       "id": "arphex:altar_spawn",
       "required": false
     },
@@ -246,10 +250,6 @@
     },
     {
       "id": "arphex:spider_cave",
-      "required": false
-    },
-    {
-      "id": "arphex:termite_hill",
       "required": false
     },
     {
@@ -349,19 +349,7 @@
       "required": false
     },
     {
-      "id": "create_structures_arise:chocolate_pit",
-      "required": false
-    },
-    {
       "id": "create_structures_arise:create_bastion",
-      "required": false
-    },
-    {
-      "id": "create_structures_arise:createdesertwell",
-      "required": false
-    },
-    {
-      "id": "create_structures_arise:createmonsterroom",
       "required": false
     },
     {
@@ -370,10 +358,6 @@
     },
     {
       "id": "create_structures_arise:deadlordshouse",
-      "required": false
-    },
-    {
-      "id": "create_structures_arise:honey_pit",
       "required": false
     },
     {
@@ -461,6 +445,10 @@
       "required": false
     },
     {
+      "id": "fdbosses:geburah_arena",
+      "required": false
+    },
+    {
       "id": "formationsoverworld:fountain",
       "required": false
     },
@@ -509,23 +497,19 @@
       "required": false
     },
     {
-      "id": "kattersstructures:better_vanilla_dungeon",
+      "id": "kattersstructures:deep_blue_city",
       "required": false
     },
     {
-      "id": "kattersstructures:shroom_cave",
+      "id": "kattersstructures:deep_blue_lab_ruin",
       "required": false
     },
     {
-      "id": "kattersstructures:skyrtle",
+      "id": "kattersstructures:deep_blue_labs",
       "required": false
     },
     {
-      "id": "kattersstructures:village_sky",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:village_underground",
+      "id": "kattersstructures:red_coral",
       "required": false
     },
     {
@@ -581,22 +565,6 @@
       "required": false
     },
     {
-      "id": "minecraft:pillager_outpost_dark_forest",
-      "required": false
-    },
-    {
-      "id": "minecraft:pillager_outpost_forest",
-      "required": false
-    },
-    {
-      "id": "minecraft:pillager_outpost_mangrove",
-      "required": false
-    },
-    {
-      "id": "minecraft:pillager_outpost_swamp",
-      "required": false
-    },
-    {
       "id": "minecraft:ruined_portal_nether",
       "required": false
     },
@@ -613,35 +581,11 @@
       "required": false
     },
     {
-      "id": "mtr:badlands_temple",
-      "required": false
-    },
-    {
       "id": "mtr:nether_temple",
       "required": false
     },
     {
-      "id": "mvs:dead_tree_acacia",
-      "required": false
-    },
-    {
-      "id": "mvs:dead_tree_birch",
-      "required": false
-    },
-    {
-      "id": "mvs:dead_tree_cherry",
-      "required": false
-    },
-    {
       "id": "mvs:dead_tree_dark_oak",
-      "required": false
-    },
-    {
-      "id": "mvs:dead_tree_jungle",
-      "required": false
-    },
-    {
-      "id": "mvs:dead_tree_mangrove",
       "required": false
     },
     {
@@ -786,10 +730,6 @@
     },
     {
       "id": "nova_structures:skeleton_camp_waste",
-      "required": false
-    },
-    {
-      "id": "nova_structures:tavern_dark_oak",
       "required": false
     },
     {
@@ -1121,31 +1061,7 @@
       "required": false
     },
     {
-      "id": "qrafty:archeology",
-      "required": false
-    },
-    {
-      "id": "qrafty:archeology_desert",
-      "required": false
-    },
-    {
-      "id": "qrafty:archeology_taiga",
-      "required": false
-    },
-    {
-      "id": "qrafty:bamboo",
-      "required": false
-    },
-    {
-      "id": "qrafty:bunker",
-      "required": false
-    },
-    {
       "id": "qrafty:buried_villager",
-      "required": false
-    },
-    {
-      "id": "qrafty:camel_house",
       "required": false
     },
     {
@@ -1153,19 +1069,7 @@
       "required": false
     },
     {
-      "id": "qrafty:castle_tower",
-      "required": false
-    },
-    {
       "id": "qrafty:crane",
-      "required": false
-    },
-    {
-      "id": "qrafty:dirt_hut",
-      "required": false
-    },
-    {
-      "id": "qrafty:enchanter",
       "required": false
     },
     {
@@ -1173,119 +1077,7 @@
       "required": false
     },
     {
-      "id": "qrafty:farmer_fort",
-      "required": false
-    },
-    {
-      "id": "qrafty:forgotten_mine",
-      "required": false
-    },
-    {
-      "id": "qrafty:fort",
-      "required": false
-    },
-    {
-      "id": "qrafty:ice_fort",
-      "required": false
-    },
-    {
-      "id": "qrafty:igloo_village",
-      "required": false
-    },
-    {
-      "id": "qrafty:jungle_treehouse",
-      "required": false
-    },
-    {
-      "id": "qrafty:jungle_treevillage",
-      "required": false
-    },
-    {
-      "id": "qrafty:lotussea",
-      "required": false
-    },
-    {
-      "id": "qrafty:lush_ice",
-      "required": false
-    },
-    {
-      "id": "qrafty:magenta_shroom_clearing",
-      "required": false
-    },
-    {
-      "id": "qrafty:mangrove_village",
-      "required": false
-    },
-    {
-      "id": "qrafty:mangrove_watchtower",
-      "required": false
-    },
-    {
-      "id": "qrafty:maya",
-      "required": false
-    },
-    {
-      "id": "qrafty:mesa_settlement",
-      "required": false
-    },
-    {
-      "id": "qrafty:mushroom_village",
-      "required": false
-    },
-    {
-      "id": "qrafty:orbital",
-      "required": false
-    },
-    {
       "id": "qrafty:overworld_leak",
-      "required": false
-    },
-    {
-      "id": "qrafty:railroad",
-      "required": false
-    },
-    {
-      "id": "qrafty:savanna_watchtower",
-      "required": false
-    },
-    {
-      "id": "qrafty:spruce_cabin",
-      "required": false
-    },
-    {
-      "id": "qrafty:stelzen",
-      "required": false
-    },
-    {
-      "id": "qrafty:stonehedge",
-      "required": false
-    },
-    {
-      "id": "qrafty:sunken_city",
-      "required": false
-    },
-    {
-      "id": "qrafty:table_mountain",
-      "required": false
-    },
-    {
-      "id": "qrafty:taiga",
-      "required": false
-    },
-    {
-      "id": "qrafty:termite_hill",
-      "required": false
-    },
-    {
-      "id": "qrafty:tower",
-      "required": false
-    },
-    {
-      "id": "qrafty:transilvania",
-      "required": false
-    },
-    {
-      "id": "qrafty:tsumago",
       "required": false
     },
     {
@@ -1298,6 +1090,10 @@
     },
     {
       "id": "repurposed_structures:ancient_city_nether",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:bastion_underground",
       "required": false
     },
     {

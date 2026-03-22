@@ -1,11 +1,15 @@
 {
   "values": [
     {
-      "id": "idas:iceandfire/sirens_cove",
+      "id": "create_ltab:oil_rig",
       "required": false
     },
     {
-      "id": "jellyfishing:buried_treasure",
+      "id": "qrafty:oilrig",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:marine_observation_hub",
       "required": false
     }
   ]

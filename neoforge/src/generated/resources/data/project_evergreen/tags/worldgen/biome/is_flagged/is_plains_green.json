@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "dreamwoods:poplar_slopes",
+      "required": false
+    },
+    {
       "id": "natures_spirit:floral_ridges",
       "required": false
     },

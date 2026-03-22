@@ -21,6 +21,22 @@
       "required": false
     },
     {
+      "id": "archeological:ancient_vault_frozen_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:frozen_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:frozen_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:frozen_ruins_small",
+      "required": false
+    },
+    {
       "id": "ars_nouveau:guardian_wilden_den",
       "required": false
     },
@@ -89,6 +105,10 @@
       "required": false
     },
     {
+      "id": "formationsoverworld:meteor",
+      "required": false
+    },
+    {
       "id": "goety:ominous_blacksmith",
       "required": false
     },
@@ -122,10 +142,6 @@
     },
     {
       "id": "loot_n_explore:cold_monster_rooms",
-      "required": false
-    },
-    {
-      "id": "loot_n_explore:frostmonarch_temple",
       "required": false
     },
     {

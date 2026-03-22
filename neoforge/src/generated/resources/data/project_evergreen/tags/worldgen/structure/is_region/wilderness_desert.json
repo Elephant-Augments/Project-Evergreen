@@ -113,6 +113,22 @@
       "required": false
     },
     {
+      "id": "archeological:ancient_vault_desert_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:desert_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:desert_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:desert_ruins_small",
+      "required": false
+    },
+    {
       "id": "ati_structures:desert_outpost",
       "required": false
     },
@@ -158,10 +174,6 @@
     },
     {
       "id": "combat_structures_update:towerruin",
-      "required": false
-    },
-    {
-      "id": "create_ltab:dungeon_desert",
       "required": false
     },
     {

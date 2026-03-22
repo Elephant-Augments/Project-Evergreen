@@ -49,6 +49,10 @@
       "required": false
     },
     {
+      "id": "ati_structures:villager_inn",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:greenwood_pub",
       "required": false
     },
@@ -186,10 +190,6 @@
     },
     {
       "id": "towns_and_towers:village_forest",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/enchanter",
       "required": false
     },
     {

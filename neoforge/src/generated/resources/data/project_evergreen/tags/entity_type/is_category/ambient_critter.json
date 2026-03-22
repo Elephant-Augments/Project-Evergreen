@@ -1,0 +1,60 @@
+{
+  "values": [
+    {
+      "id": "minecraft:axolotl",
+      "required": false
+    },
+    {
+      "id": "minecraft:bat",
+      "required": false
+    },
+    {
+      "id": "minecraft:cod",
+      "required": false
+    },
+    {
+      "id": "minecraft:pufferfish",
+      "required": false
+    },
+    {
+      "id": "minecraft:salmon",
+      "required": false
+    },
+    {
+      "id": "minecraft:tropical_fish",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:lantern",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:brown_amanita_fungling",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:crimson_fungling",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:morel_fungling",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:red_amanita_fungling",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:warped_fungling",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:wine_cap_fungling",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:yellow_amanita_fungling",
+      "required": false
+    }
+  ]
+}

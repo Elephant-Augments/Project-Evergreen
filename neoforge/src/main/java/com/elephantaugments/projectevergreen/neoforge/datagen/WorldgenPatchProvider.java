@@ -11,7 +11,6 @@ import net.enderturret.patchedmod.data.PatchProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput.Target;
 
-import javax.xml.crypto.Data;
 import java.util.*;
 
 public class WorldgenPatchProvider extends PatchProvider {
@@ -104,6 +103,8 @@ public class WorldgenPatchProvider extends PatchProvider {
                         .remove("/effects/foliage_color")
                         .add("/temperature", 0.65)
                         .add("/downfall", 0.3)
+                        //.add("/temperature", 0.7)
+                        //.add("/downfall", 0)
                     .end()
                 //ADD_PLAINS_COLORING_PATCH
                     .compound()
@@ -220,21 +221,51 @@ public class WorldgenPatchProvider extends PatchProvider {
                         .test(Constants.JsonProp.REGION.jsonPath(), null, false)
                         .copy("/biomes", structure.getRegion().orElse(PERegion.NO_BIOMES).jsonPath())
                     .end()
+                    //FORCE_DEEP_DARK
+                    .compound()
+                        .test(PEStructure.Flag.IS_DEEP_DARK.jsonPath(), true, false)
+                        .add("/biomes", "minecraft:deep_dark")
+                    .end()
                     //FORCE_BIRCH_SPAWN
                     .compound()
                         .test(PEStructure.Flag.IS_BIRCH_FOREST.jsonPath(), true, false)
-                        .add("/biomes", "#" + ProjectEvergreen.MODID + ":is_birch_forest")
+                        .add("/biomes", PEBiome.BIRCH_FOREST.tagKey())
                     .end()
                     //FORCE_CHERRY_SPAWN
                     .compound()
                         .test(PEStructure.Flag.IS_CHERRY_FOREST.jsonPath(), true, false)
-                        .add("/biomes", "#" + ProjectEvergreen.MODID + ":is_cherry_forest")
+                        .add("/biomes", PEBiome.CHERRY_FOREST.tagKey())
                     .end()
                 .end()
             //TERRAIN_ADAPTATION_FIX
                 .compound()
                     .test(PEStructure.Flag.ADJUSTED_TERRAIN_ADAPTATION.jsonPath(), true, false)
                     .add("/terrain_adaptation", "beard_thin")
+                .end()
+            //ADJUST_UNDERGROUND_Y_LEVEL_SHALLOW
+                .compound()
+                    .test(PEStructure.Flag.ADJUSTED_UNDERGROUND_Y_LEVEL_SHALLOW.jsonPath(), true, false)
+                    .add("/start_height", PEStructure.Heightmap.buildStartHeight(
+                            Constants.UNDERGROUND_Y_MIN_SHALLOW, Constants.UNDERGROUND_Y_MAX_SHALLOW))
+                .end()
+            //ADJUST_UNDERGROUND_Y_LEVEL_DEEP
+                .compound()
+                    .test(PEStructure.Flag.ADJUSTED_UNDERGROUND_Y_LEVEL_DEEP.jsonPath(), true, false)
+                    .add("/start_height", PEStructure.Heightmap.buildStartHeight(
+                            Constants.UNDERGROUND_Y_MIN_DEEP, Constants.UNDERGROUND_Y_MAX_DEEP))
+                    .test("/project_start_to_heightmap", null, false)
+                    .remove("/project_start_to_heightmap")
+                .end()
+            //SPAWN_STEP_NORMALIZATION
+                .compound()
+                    //.test(PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.jsonPath(), null, true)
+                    .test(Constants.JsonProp.HEIGHTMAP.jsonPath(), "UNDERGROUND", false)
+                    .add("/step", "underground_structures")
+                .end()
+            //IS_LATE_SPAWN_STEP
+                .compound()
+                    .test(PEStructure.Flag.LATE_SPAWN_STEP.jsonPath(), true, false)
+                    .add("/step", "vegetal_decoration")
                 .end()
             //OCEANFLOOR_HEIGHTMAP_FIX
                 .compound()

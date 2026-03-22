@@ -345,6 +345,18 @@
       "required": false
     },
     {
+      "id": "archeological:deep_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:deep_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:deep_ruins_small",
+      "required": false
+    },
+    {
       "id": "ars_additions:arcane_library",
       "required": false
     },
@@ -505,62 +517,6 @@
       "required": false
     },
     {
-      "id": "bettermineshafts:mineshaft_acacia",
-      "required": false
-    },
-    {
-      "id": "bettermineshafts:mineshaft_desert",
-      "required": false
-    },
-    {
-      "id": "bettermineshafts:mineshaft_dripstone",
-      "required": false
-    },
-    {
-      "id": "bettermineshafts:mineshaft_ice",
-      "required": false
-    },
-    {
-      "id": "bettermineshafts:mineshaft_jungle",
-      "required": false
-    },
-    {
-      "id": "bettermineshafts:mineshaft_lush",
-      "required": false
-    },
-    {
-      "id": "bettermineshafts:mineshaft_mesa",
-      "required": false
-    },
-    {
-      "id": "bettermineshafts:mineshaft_mushroom",
-      "required": false
-    },
-    {
-      "id": "bettermineshafts:mineshaft_oak",
-      "required": false
-    },
-    {
-      "id": "bettermineshafts:mineshaft_overgrown",
-      "required": false
-    },
-    {
-      "id": "bettermineshafts:mineshaft_red_desert",
-      "required": false
-    },
-    {
-      "id": "bettermineshafts:mineshaft_spruce",
-      "required": false
-    },
-    {
-      "id": "bettermineshafts:mineshaft_spruce_snowy",
-      "required": false
-    },
-    {
-      "id": "betterstrongholds:stronghold",
-      "required": false
-    },
-    {
       "id": "block_factorys_bosses:dragon_tower",
       "required": false
     },
@@ -697,10 +653,6 @@
       "required": false
     },
     {
-      "id": "create_ltab:ruins",
-      "required": false
-    },
-    {
       "id": "create_pillagers_arise:createpillagerblimp",
       "required": false
     },
@@ -714,6 +666,10 @@
     },
     {
       "id": "create_structures_arise:createhouse",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:createmonsterroom",
       "required": false
     },
     {
@@ -861,10 +817,6 @@
       "required": false
     },
     {
-      "id": "dungeoncrawl:dungeon",
-      "required": false
-    },
-    {
       "id": "dungeonnowloading:temple_of_duality",
       "required": false
     },
@@ -922,10 +874,6 @@
     },
     {
       "id": "eeeabsmobs:guling",
-      "required": false
-    },
-    {
-      "id": "eidolon:catacomb",
       "required": false
     },
     {
@@ -990,10 +938,6 @@
     },
     {
       "id": "feur_extension_fossil:fossil_arc",
-      "required": false
-    },
-    {
-      "id": "feur_extension_fossil:fossil_chest",
       "required": false
     },
     {
@@ -1309,22 +1253,6 @@
       "required": false
     },
     {
-      "id": "kattersstructures:mini_dungeon_rugged_shack",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:mini_dungeon_ruin",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:mini_dungeon_stone",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:mini_dungeon_tuff",
-      "required": false
-    },
-    {
       "id": "kattersstructures:ruined_village",
       "required": false
     },
@@ -1381,10 +1309,6 @@
       "required": false
     },
     {
-      "id": "minecraft:ancient_city",
-      "required": false
-    },
-    {
       "id": "minecraft:desert_pyramid",
       "required": false
     },
@@ -1402,14 +1326,6 @@
     },
     {
       "id": "minecraft:mansion",
-      "required": false
-    },
-    {
-      "id": "minecraft:mineshaft",
-      "required": false
-    },
-    {
-      "id": "minecraft:mineshaft_mesa",
       "required": false
     },
     {
@@ -1441,19 +1357,11 @@
       "required": false
     },
     {
-      "id": "minecraft:stronghold_big",
-      "required": false
-    },
-    {
       "id": "minecraft:swamp_hut",
       "required": false
     },
     {
       "id": "minecraft:trail_ruins",
-      "required": false
-    },
-    {
-      "id": "minecraft:trial_chambers",
       "required": false
     },
     {
@@ -2093,34 +2001,6 @@
       "required": false
     },
     {
-      "id": "underground_rooms:desert_crypt",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:dungeon",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:end_room",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:hidden_temple",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:torture_chamber",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:treasure_room",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:undead_main_room",
-      "required": false
-    },
-    {
       "id": "wabi_sabi_structures:abandoned_small_castle",
       "required": false
     },
@@ -2186,10 +2066,6 @@
     },
     {
       "id": "wabi_sabi_structures:rot_tree",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:shrine_of_preservation",
       "required": false
     },
     {

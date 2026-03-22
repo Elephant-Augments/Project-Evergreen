@@ -357,6 +357,26 @@
       "required": false
     },
     {
+      "id": "archeological:ancient_vault_deep_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_underground_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:underground_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:underground_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:underground_ruins_small",
+      "required": false
+    },
+    {
       "id": "arphex:altar_spawn",
       "required": false
     },
@@ -382,10 +402,6 @@
     },
     {
       "id": "arphex:spider_cave",
-      "required": false
-    },
-    {
-      "id": "arphex:termite_hill",
       "required": false
     },
     {
@@ -438,10 +454,6 @@
     },
     {
       "id": "ati_structures:warden_monument",
-      "required": false
-    },
-    {
-      "id": "ati_structures:wither_cavern",
       "required": false
     },
     {
@@ -729,10 +741,6 @@
       "required": false
     },
     {
-      "id": "create_structures_arise:chocolate_pit",
-      "required": false
-    },
-    {
       "id": "create_structures_arise:create_bastion",
       "required": false
     },
@@ -741,23 +749,11 @@
       "required": false
     },
     {
-      "id": "create_structures_arise:createdesertwell",
-      "required": false
-    },
-    {
-      "id": "create_structures_arise:createmonsterroom",
-      "required": false
-    },
-    {
       "id": "create_structures_arise:darkcastle",
       "required": false
     },
     {
       "id": "create_structures_arise:deadlordshouse",
-      "required": false
-    },
-    {
-      "id": "create_structures_arise:honey_pit",
       "required": false
     },
     {
@@ -913,10 +909,6 @@
       "required": false
     },
     {
-      "id": "eidolon:lab",
-      "required": false
-    },
-    {
       "id": "end_villager_outpost:end_villager_outpost",
       "required": false
     },
@@ -1009,6 +1001,18 @@
       "required": false
     },
     {
+      "id": "fdbosses:chesed_arena",
+      "required": false
+    },
+    {
+      "id": "fdbosses:geburah_arena",
+      "required": false
+    },
+    {
+      "id": "fdbosses:malkuth_arena",
+      "required": false
+    },
+    {
       "id": "feur_dungeon_spawner:dungeon_cave_miner",
       "required": false
     },
@@ -1082,10 +1086,6 @@
     },
     {
       "id": "formationsoverworld:fountain",
-      "required": false
-    },
-    {
-      "id": "formationsoverworld:meteor",
       "required": false
     },
     {
@@ -1317,15 +1317,23 @@
       "required": false
     },
     {
+      "id": "kattersstructures:deep_blue_lab_ruin",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:deep_blue_labs",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:red_coral",
+      "required": false
+    },
+    {
       "id": "kattersstructures:shroom_cave",
       "required": false
     },
     {
       "id": "kattersstructures:skyrtle",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:village_sky",
       "required": false
     },
     {
@@ -1373,6 +1381,22 @@
       "required": false
     },
     {
+      "id": "loot_n_explore:cold_monster_rooms",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:frostmonarch_temple",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:glacial_tomb",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:glaze_tower",
+      "required": false
+    },
+    {
       "id": "minecraft:airship",
       "required": false
     },
@@ -1382,10 +1406,6 @@
     },
     {
       "id": "minecraft:bastion_remnant",
-      "required": false
-    },
-    {
-      "id": "minecraft:buried_treasure",
       "required": false
     },
     {
@@ -1417,22 +1437,6 @@
       "required": false
     },
     {
-      "id": "minecraft:pillager_outpost_dark_forest",
-      "required": false
-    },
-    {
-      "id": "minecraft:pillager_outpost_forest",
-      "required": false
-    },
-    {
-      "id": "minecraft:pillager_outpost_mangrove",
-      "required": false
-    },
-    {
-      "id": "minecraft:pillager_outpost_swamp",
-      "required": false
-    },
-    {
       "id": "minecraft:pirate_hideout",
       "required": false
     },
@@ -1446,6 +1450,10 @@
     },
     {
       "id": "minecraft:shipwreck_beached",
+      "required": false
+    },
+    {
+      "id": "minecraft:stronghold",
       "required": false
     },
     {
@@ -1517,10 +1525,6 @@
       "required": false
     },
     {
-      "id": "mtr:badlands_temple",
-      "required": false
-    },
-    {
       "id": "mtr:nether_temple",
       "required": false
     },
@@ -1537,27 +1541,7 @@
       "required": false
     },
     {
-      "id": "mvs:dead_tree_acacia",
-      "required": false
-    },
-    {
-      "id": "mvs:dead_tree_birch",
-      "required": false
-    },
-    {
-      "id": "mvs:dead_tree_cherry",
-      "required": false
-    },
-    {
       "id": "mvs:dead_tree_dark_oak",
-      "required": false
-    },
-    {
-      "id": "mvs:dead_tree_jungle",
-      "required": false
-    },
-    {
-      "id": "mvs:dead_tree_mangrove",
       "required": false
     },
     {
@@ -1701,6 +1685,10 @@
       "required": false
     },
     {
+      "id": "nova_structures:illager_hideout",
+      "required": false
+    },
+    {
       "id": "nova_structures:nether_keep",
       "required": false
     },
@@ -1761,7 +1749,11 @@
       "required": false
     },
     {
-      "id": "nova_structures:tavern_dark_oak",
+      "id": "nova_structures:undead_crypt",
+      "required": false
+    },
+    {
+      "id": "nova_structures:underground_house",
       "required": false
     },
     {
@@ -1782,6 +1774,10 @@
     },
     {
       "id": "philipsruins:end_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:lost_soul_city",
       "required": false
     },
     {
@@ -2117,18 +2113,6 @@
       "required": false
     },
     {
-      "id": "qrafty:archeology",
-      "required": false
-    },
-    {
-      "id": "qrafty:archeology_desert",
-      "required": false
-    },
-    {
-      "id": "qrafty:archeology_taiga",
-      "required": false
-    },
-    {
       "id": "qrafty:bamboo",
       "required": false
     },
@@ -2141,15 +2125,7 @@
       "required": false
     },
     {
-      "id": "qrafty:camel_house",
-      "required": false
-    },
-    {
       "id": "qrafty:camp",
-      "required": false
-    },
-    {
-      "id": "qrafty:castle_tower",
       "required": false
     },
     {
@@ -2157,19 +2133,7 @@
       "required": false
     },
     {
-      "id": "qrafty:dirt_hut",
-      "required": false
-    },
-    {
-      "id": "qrafty:enchanter",
-      "required": false
-    },
-    {
       "id": "qrafty:exogino",
-      "required": false
-    },
-    {
-      "id": "qrafty:farmer_fort",
       "required": false
     },
     {
@@ -2177,107 +2141,7 @@
       "required": false
     },
     {
-      "id": "qrafty:fort",
-      "required": false
-    },
-    {
-      "id": "qrafty:ice_fort",
-      "required": false
-    },
-    {
-      "id": "qrafty:igloo_village",
-      "required": false
-    },
-    {
-      "id": "qrafty:jungle_treehouse",
-      "required": false
-    },
-    {
-      "id": "qrafty:jungle_treevillage",
-      "required": false
-    },
-    {
-      "id": "qrafty:lotussea",
-      "required": false
-    },
-    {
-      "id": "qrafty:lush_ice",
-      "required": false
-    },
-    {
-      "id": "qrafty:magenta_shroom_clearing",
-      "required": false
-    },
-    {
-      "id": "qrafty:mangrove_village",
-      "required": false
-    },
-    {
-      "id": "qrafty:mangrove_watchtower",
-      "required": false
-    },
-    {
-      "id": "qrafty:maya",
-      "required": false
-    },
-    {
-      "id": "qrafty:mesa_settlement",
-      "required": false
-    },
-    {
-      "id": "qrafty:mushroom_village",
-      "required": false
-    },
-    {
-      "id": "qrafty:orbital",
-      "required": false
-    },
-    {
       "id": "qrafty:overworld_leak",
-      "required": false
-    },
-    {
-      "id": "qrafty:railroad",
-      "required": false
-    },
-    {
-      "id": "qrafty:savanna_watchtower",
-      "required": false
-    },
-    {
-      "id": "qrafty:spruce_cabin",
-      "required": false
-    },
-    {
-      "id": "qrafty:stelzen",
-      "required": false
-    },
-    {
-      "id": "qrafty:stonehedge",
-      "required": false
-    },
-    {
-      "id": "qrafty:sunken_city",
-      "required": false
-    },
-    {
-      "id": "qrafty:table_mountain",
-      "required": false
-    },
-    {
-      "id": "qrafty:taiga",
-      "required": false
-    },
-    {
-      "id": "qrafty:termite_hill",
-      "required": false
-    },
-    {
-      "id": "qrafty:tower",
-      "required": false
-    },
-    {
-      "id": "qrafty:transilvania",
       "required": false
     },
     {
@@ -2553,6 +2417,10 @@
       "required": false
     },
     {
+      "id": "supplementaries:road_sign",
+      "required": false
+    },
+    {
       "id": "taxtg:giant_palm_tree",
       "required": false
     },
@@ -2598,14 +2466,6 @@
     },
     {
       "id": "terramity:sword_shrine",
-      "required": false
-    },
-    {
-      "id": "threateningly_mobs:castylosaurus_nest",
-      "required": false
-    },
-    {
-      "id": "threateningly_mobs:forestdungeon",
       "required": false
     },
     {
@@ -2938,10 +2798,6 @@
     },
     {
       "id": "trek:village/desert",
-      "required": false
-    },
-    {
-      "id": "trek:village/mushroom",
       "required": false
     },
     {

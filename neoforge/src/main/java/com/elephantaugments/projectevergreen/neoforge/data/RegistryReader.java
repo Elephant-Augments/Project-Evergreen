@@ -1,25 +1,17 @@
 package com.elephantaugments.projectevergreen.neoforge.data;
 
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
-import com.elephantaugments.projectevergreen.common.api.IPatchable;
-import com.elephantaugments.projectevergreen.common.api.PEStructure;
-import com.elephantaugments.projectevergreen.common.api.PatchableStructure;
-import com.elephantaugments.projectevergreen.common.api.WorldgenDataManager;
-import com.elephantaugments.projectevergreen.common.integration.SupportedMods;
+import com.elephantaugments.projectevergreen.common.api.*;
 import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
-import com.elephantaugments.projectevergreen.neoforge.ProjectEvergreenNeoforge;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import net.minecraft.core.*;
-import net.minecraft.core.registries.Registries;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.biome.Biome;
-import net.minecraft.world.level.biome.Biomes;
-import net.minecraft.world.level.levelgen.structure.Structure;
-import net.minecraft.world.level.levelgen.structure.StructureSet;
 
-import javax.swing.text.html.Option;
 import java.util.Optional;
 import java.util.SortedSet;
 
@@ -33,6 +25,7 @@ public class RegistryReader {
     public HolderGetter.Provider STRUCTURE_LOOKUP;
 
     public RegistryReader(WritableRegistry<?> registry) {
+        ProjectEvergreen.LOGGER.info("Worldgen Registry Path: " + registry.key().location().getPath());
         this.registryPath = registry.key().location().getPath();
         this.registryName = registryPath.substring(registryPath.lastIndexOf('/') + 1);
         updateDefaultWorldgenData(registry);
@@ -68,7 +61,7 @@ public class RegistryReader {
         }
     }
 
-    public <E> void readFromRegistry(ResourceKey<E> resourceKey, JsonObject json, SortedSet<String> loadedList) {
+    public <E> void readFromDynamicRegistry(ResourceKey<E> resourceKey, JsonObject json, SortedSet<String> loadedList) {
         String location = resourceKey.location().toString();
         logProgress(loadedList);
         loadedList.add(location);
@@ -77,6 +70,14 @@ public class RegistryReader {
         switch (registryPath) {
             case "worldgen/biome" -> wdata = Optional.ofNullable(WorldgenDataManager.PATCHABLE_BIOMES.get(location));
             case "worldgen/structure_set" -> wdata = Optional.ofNullable(WorldgenDataManager.PATCHABLE_STRUCTURE_SETS.get(location));
+            case "worldgen/placed_feature", "biome_modifier" -> {
+                wdata = Optional.ofNullable(WorldgenDataManager.PATCHABLE_FEATURES.get(location));
+                wdata.ifPresent(p -> {
+                    PatchableFeature feature = WorldgenDataManager.PATCHABLE_FEATURES.get(location);
+                    feature.setRegistry(registryPath);
+                    WorldgenDataManager.setFeatureData(location, feature);
+                });
+            }
             case "worldgen/structure" -> {
                 wdata = Optional.ofNullable(WorldgenDataManager.PATCHABLE_STRUCTURES.get(location));
                 wdata.ifPresent(p -> {
@@ -84,16 +85,7 @@ public class RegistryReader {
                     JsonElement heightmap = json.get("project_start_to_heightmap");
                     String type = json.get("type").getAsString().toLowerCase();
                     String step = json.get("step").getAsString().toLowerCase();
-                    structure.setType(type);
-                    structure.setStep(step);
-                    if (heightmap != null && (heightmap.getAsString().toLowerCase().contains("ocean_floor"))) {
-                        structure.setHeightmap(PEStructure.Heightmap.OCEANFLOOR);
-                        PEStructure.Heightmap.OCEANFLOOR.appendIDs(location);
-                    }
-                    if ((step.equals("underground_structures") || step.equals("underground_decoration") || step.equals("strongholds"))) {
-                        structure.setHeightmap(PEStructure.Heightmap.UNDERGROUND);
-                        PEStructure.Heightmap.UNDERGROUND.appendIDs(location);
-                    }
+                    structure.initJsonData(type, step, heightmap);
                     WorldgenDataManager.setStructureData(location, structure);
                 });
             }
@@ -102,6 +94,28 @@ public class RegistryReader {
         wdata.ifPresent((p) -> {
             p.setLoaded(true);
         });
+    }
+
+    //TODO: Add switch statement for other registries
+    public <T> void readFromStaticRegistry(DefaultedRegistry<T> registry, SortedSet<String> loadedList) {
+        for (ResourceLocation id : registry.keySet()) {
+            logProgress(loadedList);
+            loadedList.add(id.toString());
+
+//            Optional<IPatchable> wdata;
+//            switch (registry) {
+//                case BuiltInRegistries.ENTITY_TYPE ->
+//                default -> wdata = Optional.empty();
+//            }
+
+            EntityType<?> e = BuiltInRegistries.ENTITY_TYPE.get(id);
+            Optional<IPatchable> wdata = Optional.ofNullable(WorldgenDataManager.PATCHABLE_ENTITIES.get(id.toString()));
+            wdata.ifPresent((p) -> {
+                p.setLoaded(true);
+                PatchableEntity entity = WorldgenDataManager.PATCHABLE_ENTITIES.get(id.toString());
+                entity.setMobCategory(e.getCategory().name());
+            });
+        }
     }
 
     private <T> void logProgress(SortedSet<String> loadedList) {

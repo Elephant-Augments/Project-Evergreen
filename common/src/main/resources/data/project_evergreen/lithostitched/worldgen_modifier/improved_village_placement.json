@@ -1,9 +1,9 @@
 {
   "type": "lithostitched:set_structure_spawn_condition",
-  "structures": "#minecraft:village",
+  "structures": "#project_evergreen:is_rarity/civilization_rare",
   "spawn_condition": {
     "type": "lithostitched:grid",
-    "radius": 128,
+    "radius": 80,
     "distance_between_points": 8,
     "condition": {
       "type": "lithostitched:not",
@@ -12,8 +12,8 @@
         "range_type": "heightmap_relative",
         "heightmap": "WORLD_SURFACE_WG",
         "permitted_range": [
-          -8,
-          8
+          -12,
+          12
         ]
       }
     },

@@ -54,6 +54,16 @@ public class PEConfig {
     public static final String ALLOWED_TERRAIN_HEIGHT_MEDIUM_KEY = "medium_flatness_allowed_elevation";
     public static final String ALLOWED_TERRAIN_HEIGHT_LARGE_KEY = "large_flatness_allowed_elevation";
     public static final String ALLOWED_TERRAIN_HEIGHT_SPRAWLING_KEY = "sprawling_flatness_allowed_elevation";
+    public static final String RPGARCHERS_SINGLE_VILLAGER_KEY = "rpgarchers_single_villager";
+    public static final String RPGPRIESTS_SINGLE_VILLAGER_KEY = "rpgpriests_single_villager";
+    public static final String RPGWARRIORS_SINGLE_VILLAGER_KEY = "rpgwarriors_single_villager";
+    public static final String RPGWIZARDS_SINGLE_VILLAGER_KEY = "rpgwizards_single_villager";
+    public static final String RPGJEWELRY_SINGLE_VILLAGER_KEY = "rpgjewelry_single_villager";
+    public static final String PNEUMATICCRAFT_SINGLE_VILLAGER_KEY = "pneumaticcraft_single_villager";
+    public static final String LOOTNEXPLORE_SINGLE_VILLAGER_KEY = "lootnexplore_single_villager";
+    public static final String BEAUTIFY_SINGLE_VILLAGER_KEY = "beautify_single_villager";
+    public static final String FARMERSDELIGHT_VILLAGE_COMPOST_KEY = "farmersdelight_village_compost_limit";
+    public static final String VEGGIESDELIGHT_VILLAGE_DEPOT_KEY = "veggiesdelight_village_depot_limit";
 
     public static final String CONTINENTS_SCALE_KEY = "continents_scale";
     public static final String NON_CONTINENT_ISLAND_SCALE_KEY = "non_continent_island_scale";
@@ -85,6 +95,16 @@ public class PEConfig {
     private static final ModConfigSpec.IntValue ALLOWED_TERRAIN_HEIGHT_LARGE;
     private static final ModConfigSpec.IntValue ALLOWED_TERRAIN_HEIGHT_MEDIUM;
     private static final ModConfigSpec.IntValue ALLOWED_TERRAIN_HEIGHT_SMALL;
+    private static final ModConfigSpec.BooleanValue RPGARCHERS_SINGLE_VILLAGER;
+    private static final ModConfigSpec.BooleanValue RPGPRIESTS_SINGLE_VILLAGER;
+    private static final ModConfigSpec.BooleanValue RPGWARRIORS_SINGLE_VILLAGER;
+    private static final ModConfigSpec.BooleanValue RPGWIZARDS_SINGLE_VILLAGER;
+    private static final ModConfigSpec.BooleanValue RPGJEWELRY_SINGLE_VILLAGER;
+    private static final ModConfigSpec.BooleanValue PNEUMATICCRAFT_SINGLE_VILLAGER;
+    private static final ModConfigSpec.BooleanValue LOOTNEXPLORE_SINGLE_VILLAGER;
+    private static final ModConfigSpec.BooleanValue BEAUTIFY_SINGLE_VILLAGER;
+    private static final ModConfigSpec.BooleanValue FARMERSDELIGHT_VILLAGE_COMPOST_LIMIT;
+    private static final ModConfigSpec.BooleanValue VEGGIESDELIGHT_VILLAGE_DEPOT_LIMIT;
 
     private static final String CATEGORY_RARITY = "rarity";
     private static final ModConfigSpec.IntValue POPULATION_BIAS;
@@ -130,6 +150,17 @@ public class PEConfig {
     public static int temperateWaterColor;
     public static boolean warmBiomeColorNormalization;
     public static int warmWaterColor;
+
+    public static boolean rpgArchersSingleVillager;
+    public static boolean rpgPriestsSingleVillager;
+    public static boolean rpgWarriorsSingleVillager;
+    public static boolean rpgWizardsSingleVillager;
+    public static boolean rpgJewelrySingleVillager;
+    public static boolean pneumaticcraftSingleVillager;
+    public static boolean lootnExploreSingleVillager;
+    public static boolean beautifySingleVillager;
+    public static boolean farmersDelightVillageCompostLimit;
+    public static boolean veggiesDelightVillageDepotLimit;
 
     public static double civilizationExtraRareOffset;
     public static double civilizationRareOffset;
@@ -177,6 +208,17 @@ public class PEConfig {
             temperateWaterColor = TEMPERATE_WATER_COLOR.getAsInt();
             warmBiomeColorNormalization = WARM_CLIMATE_WATER_NORMALIZATION.get();
             warmWaterColor = WARM_WATER_COLOR.getAsInt();
+
+            rpgArchersSingleVillager = RPGARCHERS_SINGLE_VILLAGER.get();
+            rpgPriestsSingleVillager = RPGPRIESTS_SINGLE_VILLAGER.get();
+            rpgWarriorsSingleVillager = RPGWARRIORS_SINGLE_VILLAGER.get();
+            rpgWizardsSingleVillager = RPGWIZARDS_SINGLE_VILLAGER.get();
+            rpgJewelrySingleVillager = RPGJEWELRY_SINGLE_VILLAGER.get();
+            pneumaticcraftSingleVillager = PNEUMATICCRAFT_SINGLE_VILLAGER.get();
+            lootnExploreSingleVillager = LOOTNEXPLORE_SINGLE_VILLAGER.get();
+            beautifySingleVillager = BEAUTIFY_SINGLE_VILLAGER.get();
+            farmersDelightVillageCompostLimit = FARMERSDELIGHT_VILLAGE_COMPOST_LIMIT.get();
+            veggiesDelightVillageDepotLimit = VEGGIESDELIGHT_VILLAGE_DEPOT_LIMIT.get();
 
             populationBias = POPULATION_BIAS.get();
             populationBiasOffset = POPULATION_BIAS_OFFSET.get();
@@ -303,11 +345,42 @@ public class PEConfig {
         ALLOWED_TERRAIN_HEIGHT_SMALL = COMMON_BUILDER
                 .comment("# The average elevation (in blocks) at which flat_small (~1x1 chunk) structures can be allowed to spawn.\n# (6 = extremely flat, 30 = vanilla parity)")
                 .defineInRange(ALLOWED_TERRAIN_HEIGHT_SMALL_KEY, PEStructure.Size.SMALL.terrainHeight(), 6, 30);
+
+        RPGARCHERS_SINGLE_VILLAGER = COMMON_BUILDER
+                .comment("# If true, injects a single RPG Archers archery range into village template pools.")
+                .define(RPGARCHERS_SINGLE_VILLAGER_KEY, false);
+        RPGPRIESTS_SINGLE_VILLAGER = COMMON_BUILDER
+                .comment("# If true, injects a single RPG Paladins & Priests sanctuary into village template pools.")
+                .define(RPGPRIESTS_SINGLE_VILLAGER_KEY, false);
+        RPGWIZARDS_SINGLE_VILLAGER = COMMON_BUILDER
+                .comment("# If true, injects a single RPG Wizards tower into village template pools.")
+                .define(RPGWIZARDS_SINGLE_VILLAGER_KEY, false);
+        RPGWARRIORS_SINGLE_VILLAGER = COMMON_BUILDER
+                .comment("# If true, injects a single RPG Rogues & Warriors barracks into village template pools.")
+                .define(RPGWARRIORS_SINGLE_VILLAGER_KEY, false);
+        RPGJEWELRY_SINGLE_VILLAGER = COMMON_BUILDER
+                .comment("# If true, injects a single RPG Jewelry jewelers shop into village template pools.")
+                .define(RPGJEWELRY_SINGLE_VILLAGER_KEY, false);
+        PNEUMATICCRAFT_SINGLE_VILLAGER = COMMON_BUILDER
+                .comment("# If true, injects a single PneumaticCraft mechanic house into village template pools.")
+                .define(PNEUMATICCRAFT_SINGLE_VILLAGER_KEY, false);
+        LOOTNEXPLORE_SINGLE_VILLAGER = COMMON_BUILDER
+                .comment("# If true, injects a single Loot & Explore inn into village template pools.")
+                .define(LOOTNEXPLORE_SINGLE_VILLAGER_KEY, false);
+        BEAUTIFY_SINGLE_VILLAGER = COMMON_BUILDER
+                .comment("# If true, injects a single Beautify botanist house into village template pools.")
+                .define(BEAUTIFY_SINGLE_VILLAGER_KEY, false);
+        FARMERSDELIGHT_VILLAGE_COMPOST_LIMIT = COMMON_BUILDER
+                .comment("# If true, injects a maximum of 2 Farmer's Delight compost sheds into village template pools.")
+                .define(FARMERSDELIGHT_VILLAGE_COMPOST_KEY, false);
+        VEGGIESDELIGHT_VILLAGE_DEPOT_LIMIT = COMMON_BUILDER
+                .comment("# If true, injects a maximum of 2 Veggies Delight depot sheds into village template pools.")
+                .define(VEGGIESDELIGHT_VILLAGE_DEPOT_KEY, false);
         COMMON_BUILDER.pop();
 
 
         COMMON_BUILDER.comment("Continents Tweaks").push(CATEGORY_CONTINENTS)
-                .comment("\n## WARNING: Will create chunk borders if changed on an existing world.");
+                .comment("## WARNING: Will create chunk borders if changed on an existing world.");
         CONTINENTS_SCALE = COMMON_BUILDER
                 .comment("## <--------------- Overall continents size --------------->")
                 .defineInRange(CONTINENTS_SCALE_KEY, 1.0, 0.1, 4.0);

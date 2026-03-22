@@ -449,6 +449,10 @@
       "required": false
     },
     {
+      "id": "kattersstructures:village_sky",
+      "required": false
+    },
+    {
       "id": "kattersstructures:villager_desert",
       "required": false
     },
@@ -682,10 +686,6 @@
     },
     {
       "id": "mvs:mine_with_campsite",
-      "required": false
-    },
-    {
-      "id": "mvs:mineshaft",
       "required": false
     },
     {
@@ -997,10 +997,6 @@
       "required": false
     },
     {
-      "id": "supplementaries:road_sign",
-      "required": false
-    },
-    {
       "id": "taxtg:giant_birch_tree",
       "required": false
     },
@@ -1085,10 +1081,6 @@
       "required": false
     },
     {
-      "id": "towns_and_towers:village_birch_forest",
-      "required": false
-    },
-    {
       "id": "towns_and_towers:village_flower_forest",
       "required": false
     },
@@ -1146,38 +1138,6 @@
     },
     {
       "id": "trek:overworld/medium/street_vendor_stall",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:alchemy_room",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:blacksmith_room1",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:enchanting_room",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:library1",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:mainroom1",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:mining_storage_room",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:throne_room",
-      "required": false
-    },
-    {
-      "id": "underground_rooms:wine_cellar",
       "required": false
     },
     {

@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:remove_carvers",
+  "biomes": "#project_evergreen:is_lostcities",
+  "carvers": [
+    "bettercaves:better_cave",
+    "bettercaves:surface_cave"
+  ]
+}

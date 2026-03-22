@@ -297,10 +297,6 @@
       "required": false
     },
     {
-      "id": "wythers:ayers_rock",
-      "required": false
-    },
-    {
       "id": "wythers:badlands_canyon",
       "required": false
     },
@@ -466,6 +462,10 @@
     },
     {
       "id": "wythers:jungle_river",
+      "required": false
+    },
+    {
+      "id": "wythers:kwongan_heath",
       "required": false
     },
     {

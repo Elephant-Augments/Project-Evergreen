@@ -5,6 +5,46 @@
       "required": false
     },
     {
+      "id": "archeological:ancient_vault_desert_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_frozen_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_rock_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_ruined_hut",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_wasteland_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:desert_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:frozen_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:rock_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_hut_large",
+      "required": false
+    },
+    {
+      "id": "archeological:wasteland_ruins_large",
+      "required": false
+    },
+    {
       "id": "ars_additions:arcane_library",
       "required": false
     },
@@ -297,6 +337,10 @@
       "required": false
     },
     {
+      "id": "feur_extension_fossil:fossil_chest",
+      "required": false
+    },
+    {
       "id": "feur_extension_jungle:pyramid",
       "required": false
     },
@@ -445,6 +489,10 @@
       "required": false
     },
     {
+      "id": "minecraft:mansion",
+      "required": false
+    },
+    {
       "id": "minecraft:witch_hut",
       "required": false
     },
@@ -510,6 +558,14 @@
     },
     {
       "id": "qrafty:jungle_treevillage",
+      "required": false
+    },
+    {
+      "id": "qrafty:mangrove_village",
+      "required": false
+    },
+    {
+      "id": "qrafty:sunken_city",
       "required": false
     },
     {
@@ -658,6 +714,10 @@
     },
     {
       "id": "trek:overworld/rare/wooden_manor",
+      "required": false
+    },
+    {
+      "id": "villagesandpillages:village_witch",
       "required": false
     },
     {

@@ -45,6 +45,18 @@
       "required": false
     },
     {
+      "id": "archeological:ruined_blue_camp",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_green_camp",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_red_camp",
+      "required": false
+    },
+    {
       "id": "ati_structures:castillo",
       "required": false
     },
@@ -121,10 +133,6 @@
       "required": false
     },
     {
-      "id": "bosses_of_mass_destruction:void_blossom",
-      "required": false
-    },
-    {
       "id": "combat_structures_update:mansion",
       "required": false
     },
@@ -158,6 +166,10 @@
     },
     {
       "id": "create_ltab:grot",
+      "required": false
+    },
+    {
+      "id": "create_ltab:ruins",
       "required": false
     },
     {
@@ -353,6 +365,14 @@
       "required": false
     },
     {
+      "id": "kattersstructures:mini_dungeon_ruin",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:mini_dungeon_stone",
+      "required": false
+    },
+    {
       "id": "legendary_monsters:ancient_stronghold",
       "required": false
     },
@@ -470,6 +490,10 @@
     },
     {
       "id": "philipsruins:level_one_ruins",
+      "required": false
+    },
+    {
+      "id": "qrafty:tower",
       "required": false
     },
     {

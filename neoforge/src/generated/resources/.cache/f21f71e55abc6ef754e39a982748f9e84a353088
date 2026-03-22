@@ -1,0 +1,8 @@
+// 1.21.1	2026-03-17T00:48:54.2617289	Tags for minecraft:entity_type mod id project_evergreen
+623561b7aaac9bce0eb5a5dda88fe015800fc7fd data/project_evergreen/tags/entity_type/is_category/ambient_critter.json
+2743a630b6401b97be9eac818650c898c83713c0 data/project_evergreen/tags/entity_type/is_category/land_critter.json
+0eda2c7c1156b614e27a1f85c348de72e1bbfc6b data/project_evergreen/tags/entity_type/is_category/monster.json
+1719dace73ccb2c824ced548b83ef2f05d494ba3 data/project_evergreen/tags/entity_type/is_category/non_water_critter.json
+0eda2c7c1156b614e27a1f85c348de72e1bbfc6b data/project_evergreen/tags/entity_type/is_category/uncivilized_monster.json
+fd58481a8d034f942b3b21f076d28ccbfc6e1cff data/project_evergreen/tags/entity_type/is_category/water_critter.json
+62ceef822b77ff7ae9db38a778b26b299f1792c1 data/project_evergreen/tags/entity_type/patchable.json
