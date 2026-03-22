@@ -2,8 +2,12 @@ package com.elephantaugments.projectevergreen.neoforge.datagen;
 
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.api.*;
+import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureRarity;
+import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureRegions;
+import com.elephantaugments.projectevergreen.common.integration.SupportedMods;
 import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
 import net.minecraft.core.HolderLookup;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.StructureTagsProvider;
 import net.minecraft.resources.ResourceLocation;
@@ -58,6 +62,17 @@ public class StructureTagProvider extends StructureTagsProvider {
         for (PEStructure.Difficulty diff : PEStructure.Difficulty.values()) {
             setDifficultyTag(diff);
         }
+        //IS_HEIGHTMAP
+        for (PEStructure.Heightmap hm : PEStructure.Heightmap.values()) {
+            setHeightmapTag(hm);
+        }
+        setSupplementariesRoadSignTag();
+    }
+
+    private void setSupplementariesRoadSignTag() {
+        ResourceLocation roadSignTag = ResourceLocation.fromNamespaceAndPath(SupportedMods.SUPPLEMENTARIES.name().toLowerCase(), "road_sign_destinations");
+        TagKey<Structure> villages = ProjectEvergreen.createTag(Registries.STRUCTURE, roadSignTag);
+        appendIDOnce(villages, DefaultStructureRarity.civilizationRare);
     }
 
     private void setDimensionTag(PEDimension dimension) {
@@ -100,6 +115,17 @@ public class StructureTagProvider extends StructureTagsProvider {
                     ProjectEvergreen.LOGGER.info("Populating structure flag tag... " + tag.location());
                 }
                 appendIDOnce(tag, flag.defaultIDs());
+            }
+        );
+    }
+
+    private void setHeightmapTag(PEStructure.Heightmap heightmap) {
+        Optional.ofNullable(heightmap.tag()).ifPresent(
+            (tag) -> {
+                if (PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
+                    ProjectEvergreen.LOGGER.info("Populating structure heightmap tag... " + tag.location());
+                }
+                appendIDOnce(tag, heightmap.defaultIDs());
             }
         );
     }

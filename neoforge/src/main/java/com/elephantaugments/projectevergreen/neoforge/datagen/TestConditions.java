@@ -21,6 +21,16 @@ public class TestConditions {
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.TEMPERATE_CLIMATE_WATER_NORMALIZATION_KEY), TestConditions::temperateClimateWaterNormalization);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.WARM_CLIMATE_WATER_NORMALIZATION_KEY), TestConditions::warmClimateWaterNormalization);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.POPULATION_BIAS_KEY), TestConditions::populationBiasCheck);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.RPGJEWELRY_SINGLE_VILLAGER_KEY), TestConditions::rpgJewelrySingleVillager);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.RPGWIZARDS_SINGLE_VILLAGER_KEY), TestConditions::rpgWizardsSingleVillager);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.RPGWARRIORS_SINGLE_VILLAGER_KEY), TestConditions::rpgWarriorsSingleVillager);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.RPGPRIESTS_SINGLE_VILLAGER_KEY), TestConditions::rpgPriestsSingleVillager);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.RPGARCHERS_SINGLE_VILLAGER_KEY), TestConditions::rpgArchersSingleVillager);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.PNEUMATICCRAFT_SINGLE_VILLAGER_KEY), TestConditions::pneumaticcraftSingleVillager);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.LOOTNEXPLORE_SINGLE_VILLAGER_KEY), TestConditions::lootnExploreSingleVillager);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.BEAUTIFY_SINGLE_VILLAGER_KEY), TestConditions::beautifySingleVillager);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.FARMERSDELIGHT_VILLAGE_COMPOST_KEY), TestConditions::farmersdelightVillageCompostLimit);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.VEGGIESDELIGHT_VILLAGE_DEPOT_KEY), TestConditions::veggiesdelightVillageDepotLimit);
 	}
 
     private static boolean performanceMode(JsonElement value) {
@@ -45,6 +55,46 @@ public class TestConditions {
 
     private static boolean warmClimateWaterNormalization(JsonElement value) {
 		return PEConfig.warmBiomeColorNormalization == value.getAsBoolean();
+	}
+
+    private static boolean rpgJewelrySingleVillager(JsonElement value) {
+		return PEConfig.rpgJewelrySingleVillager == value.getAsBoolean();
+	}
+
+    private static boolean rpgWizardsSingleVillager(JsonElement value) {
+		return PEConfig.rpgWizardsSingleVillager == value.getAsBoolean();
+	}
+
+    private static boolean rpgWarriorsSingleVillager(JsonElement value) {
+		return PEConfig.rpgWarriorsSingleVillager == value.getAsBoolean();
+	}
+
+    private static boolean rpgPriestsSingleVillager(JsonElement value) {
+		return PEConfig.rpgPriestsSingleVillager == value.getAsBoolean();
+	}
+
+    private static boolean rpgArchersSingleVillager(JsonElement value) {
+		return PEConfig.rpgArchersSingleVillager == value.getAsBoolean();
+	}
+
+    private static boolean pneumaticcraftSingleVillager(JsonElement value) {
+		return PEConfig.pneumaticcraftSingleVillager == value.getAsBoolean();
+	}
+
+    private static boolean lootnExploreSingleVillager(JsonElement value) {
+		return PEConfig.lootnExploreSingleVillager == value.getAsBoolean();
+	}
+
+    private static boolean beautifySingleVillager(JsonElement value) {
+		return PEConfig.beautifySingleVillager == value.getAsBoolean();
+	}
+
+    private static boolean farmersdelightVillageCompostLimit(JsonElement value) {
+		return PEConfig.farmersDelightVillageCompostLimit == value.getAsBoolean();
+	}
+
+    private static boolean veggiesdelightVillageDepotLimit(JsonElement value) {
+		return PEConfig.veggiesDelightVillageDepotLimit == value.getAsBoolean();
 	}
 
     //TODO: Replace with local Patchable Structure method

@@ -5,8 +5,9 @@ import com.elephantaugments.projectevergreen.neoforge.ProjectEvergreenNeoforge;
 import com.elephantaugments.projectevergreen.neoforge.data.RegistryReader;
 import com.llamalad7.mixinextras.sugar.Local;
 import net.minecraft.core.*;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.server.packs.resources.ResourceManager;
+import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -17,9 +18,8 @@ import com.mojang.serialization.*;
 
 import net.minecraft.resources.*;
 import net.minecraft.server.packs.resources.Resource;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import java.util.List;
+import java.util.Optional;
 
 @Mixin(RegistryDataLoader.class)
 public class ReadRegistryMixin {
@@ -39,10 +39,19 @@ public class ReadRegistryMixin {
 
         ResourceLocation regLocation = registry.key().location();
 
+        //<---------------------ENTITIES--------------------->
+        //We read these guys in statically instead of dynamically.
+        if (ProjectEvergreenNeoforge.ENTITY_REGISTRY == null) {
+            ProjectEvergreenNeoforge.ENTITY_REGISTRY = new RegistryReader((WritableRegistry<?>) BuiltInRegistries.ENTITY_TYPE);
+            ProjectEvergreenNeoforge.ENTITY_REGISTRY.readFromStaticRegistry(
+                    BuiltInRegistries.ENTITY_TYPE,
+                    WorldgenDataManager.loadedEntities
+            );
+        }
         //<---------------------STRUCTURES--------------------->
         if (regLocation == Registries.STRUCTURE.location()) {
             if (ProjectEvergreenNeoforge.STRUCTURE_REGISTRY == null) { ProjectEvergreenNeoforge.STRUCTURE_REGISTRY = new RegistryReader(registry); }
-            ProjectEvergreenNeoforge.STRUCTURE_REGISTRY.readFromRegistry(
+            ProjectEvergreenNeoforge.STRUCTURE_REGISTRY.readFromDynamicRegistry(
                     resourceKey,
                     jsonElement.getAsJsonObject(),
                     WorldgenDataManager.loadedStructures
@@ -51,7 +60,7 @@ public class ReadRegistryMixin {
         //<----------------------BIOMES---------------------->
         if (regLocation == Registries.BIOME.location()) {
             if (ProjectEvergreenNeoforge.BIOME_REGISTRY == null) { ProjectEvergreenNeoforge.BIOME_REGISTRY = new RegistryReader(registry); }
-            ProjectEvergreenNeoforge.BIOME_REGISTRY.readFromRegistry(
+            ProjectEvergreenNeoforge.BIOME_REGISTRY.readFromDynamicRegistry(
                     resourceKey,
                     jsonElement.getAsJsonObject(),
                     WorldgenDataManager.loadedBiomes
@@ -60,48 +69,38 @@ public class ReadRegistryMixin {
         //<-------------------STRUCTURE_SETS------------------->
         if (regLocation == Registries.STRUCTURE_SET.location()) {
             if (ProjectEvergreenNeoforge.STRUCTURE_SET_REGISTRY == null) { ProjectEvergreenNeoforge.STRUCTURE_SET_REGISTRY = new RegistryReader(registry); }
-            ProjectEvergreenNeoforge.STRUCTURE_SET_REGISTRY.readFromRegistry(
+            ProjectEvergreenNeoforge.STRUCTURE_SET_REGISTRY.readFromDynamicRegistry(
                     resourceKey,
                     jsonElement.getAsJsonObject(),
                     WorldgenDataManager.loadedStructureSets
             );
         }
-//
-//        //<------------------BIOME_MODIFIERS------------------>
-//        if (registryLocation.contains("biome_modifier\b")) {
-//            logProgress(registryName, WorldgenDataManager.loadedBiomeModifiers);
-//            /*Optional<PatchableFeature> pfeature = Optional.ofNullable(WorldgenDataManager.PATCHABLE_FEATURES.get(location));
-//            pfeature.ifPresentOrElse((p) -> {
-//                p.setLoaded(true);
-//            }, () -> {});*/
-//
-//            JsonObject jsonObject = jsonElement.getAsJsonObject();
-//            String type = jsonObject.get("type").getAsString();
-//
-//            if(Constants.supportedModifierTypes.contains(type)) {
-//                WorldgenDataManager.loadedBiomeModifiers.add(location);
-//            }
-//        }
-//
-//        //<---------------------ENTITIES--------------------->
-//        if (registryLocation.contains("entity_type\b")) {
-//            logProgress(registryName, WorldgenDataManager.loadedEntities);
-//            WorldgenDataManager.loadedEntities.add(location);
-//            /*Optional<PatchableEntity> pmob = Optional.ofNullable(WorldgenDataManager.PATCHABLE_FEATURES.get(location));
-//            pmob.ifPresentOrElse((p) -> {
-//                p.setLoaded(true);
-//            }, () -> {});*/
-//        }
-//
-//        //<-------------------PROCESSOR_LISTS------------------->
-//        if (registryLocation.equals("worldgen/processor_list")) {
-//            logProgress(registryName, WorldgenDataManager.loadedProcessorLists);
-//            WorldgenDataManager.loadedProcessorLists.add(location);
-//            /*Optional<PatchableProcessorList> pproc_list = Optional.ofNullable(WorldgenDataManager.PATCHABLE_PROCESSOR_LISTS.get(location));
-//            pproc_list.ifPresentOrElse((p) -> {
-//                p.setLoaded(true);
-//            }, () -> {});*/
-//        }
+        //<------------------BIOME_MODIFIERS------------------>
+        if (regLocation == NeoForgeRegistries.Keys.BIOME_MODIFIERS.location()) {
+            if (ProjectEvergreenNeoforge.BIOME_MODIFIER_REGISTRY == null) { ProjectEvergreenNeoforge.BIOME_MODIFIER_REGISTRY = new RegistryReader(registry); }
+            ProjectEvergreenNeoforge.BIOME_MODIFIER_REGISTRY.readFromDynamicRegistry(
+                    resourceKey,
+                    jsonElement.getAsJsonObject(),
+                    WorldgenDataManager.loadedFeatures
+            );
+        }
+        //<------------------PLACED_FEATURES------------------->
+        if (regLocation == Registries.PLACED_FEATURE.location()) {
+            if (ProjectEvergreenNeoforge.PLACED_FEATURE_REGISTRY == null) { ProjectEvergreenNeoforge.PLACED_FEATURE_REGISTRY = new RegistryReader(registry); }
+            ProjectEvergreenNeoforge.PLACED_FEATURE_REGISTRY.readFromDynamicRegistry(
+                    resourceKey,
+                    jsonElement.getAsJsonObject(),
+                    WorldgenDataManager.loadedFeatures
+            );
+        }
+        //<-------------------PROCESSOR_LISTS------------------->
+        if (regLocation == Registries.PROCESSOR_LIST.location()) {
+            WorldgenDataManager.loadedProcessorLists.add(resourceKey.location().toString());
+            /*Optional<PatchableProcessorList> pproc_list = Optional.ofNullable(WorldgenDataManager.PATCHABLE_PROCESSOR_LISTS.get(location));
+            pproc_list.ifPresentOrElse((p) -> {
+                p.setLoaded(true);
+            }, () -> {});*/
+        }
 //
 //        //<--------------------TEMPLATE_POOLS-------------------->
 //        if (registryLocation.equals("worldgen/template_pool")) {
