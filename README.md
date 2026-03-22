@@ -1,5 +1,5 @@
 # Project-Evergreen
-Integrated biomes, structures, and mob spawns.
+Integrated environments.
 
 ## Dependencies
 - [Patched](https://github.com/EnderTurret/PatchedMod)
