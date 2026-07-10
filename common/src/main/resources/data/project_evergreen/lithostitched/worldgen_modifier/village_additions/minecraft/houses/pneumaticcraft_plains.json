@@ -3,7 +3,7 @@
   "fabric:load_conditions": {
     "condition": "fabric:all_mods_loaded",
     "values": [
-      "loot_n_explore"
+      "pneumaticcraft"
     ]
   },
   "neoforge:conditions": [
@@ -15,23 +15,23 @@
         },
         {
           "type": "neoforge:mod_loaded",
-          "modid": "loot_n_explore"
+          "modid": "pneumaticcraft"
         }
       ]
     }
   ],
   "template_pools": [
-    "minecraft:village/desert/houses"],
+    "minecraft:village/plains/houses"],
   "elements": [
     {
-      "weight": 3,
+      "weight": 1,
       "element": {
         "element_type": "lithostitched:limited",
         "delegate": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "processors": "minecraft:empty",
-          "location": "loot_n_explore:village/desert/small_inn"
+          "location": "pneumaticcraft:village/mechanic_house_plains"
         },
         "limit": 1
       }

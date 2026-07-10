@@ -21,17 +21,17 @@
     }
   ],
   "template_pools": [
-    "minecraft:village/savanna/houses"],
+    "minecraft:village/desert/houses"],
   "elements": [
     {
-      "weight": 3,
+      "weight": 1,
       "element": {
         "element_type": "lithostitched:limited",
         "delegate": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "processors": "minecraft:empty",
-          "location": "pneumaticcraft:village/mechanic_house_savanna"
+          "location": "pneumaticcraft:village/mechanic_house_desert"
         },
         "limit": 1
       }

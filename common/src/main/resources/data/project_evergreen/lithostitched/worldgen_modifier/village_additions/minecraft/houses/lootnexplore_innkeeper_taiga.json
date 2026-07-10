@@ -3,7 +3,7 @@
   "fabric:load_conditions": {
     "condition": "fabric:all_mods_loaded",
     "values": [
-      "pneumaticcraft"
+      "loot_n_explore"
     ]
   },
   "neoforge:conditions": [
@@ -15,7 +15,7 @@
         },
         {
           "type": "neoforge:mod_loaded",
-          "modid": "pneumaticcraft"
+          "modid": "loot_n_explore"
         }
       ]
     }
@@ -24,14 +24,14 @@
     "minecraft:village/taiga/houses"],
   "elements": [
     {
-      "weight": 3,
+      "weight": 15,
       "element": {
         "element_type": "lithostitched:limited",
         "delegate": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "processors": "minecraft:empty",
-          "location": "pneumaticcraft:village/mechanic_house_taiga"
+          "location": "loot_n_explore:village/taiga/small_inn"
         },
         "limit": 1
       }

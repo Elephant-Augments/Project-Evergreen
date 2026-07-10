@@ -21,17 +21,17 @@
     }
   ],
   "template_pools": [
-    "minecraft:village/savanna/houses"],
+    "minecraft:village/plains/houses"],
   "elements": [
     {
-      "weight": 3,
+      "weight": 15,
       "element": {
         "element_type": "lithostitched:limited",
         "delegate": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "processors": "minecraft:empty",
-          "location": "loot_n_explore:village/savanna/small_inn"
+          "location": "loot_n_explore:village/plains/small_inn"
         },
         "limit": 1
       }
