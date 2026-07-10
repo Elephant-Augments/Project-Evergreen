@@ -66,7 +66,41 @@ public class StructureTagProvider extends StructureTagsProvider {
         for (PEStructure.Heightmap hm : PEStructure.Heightmap.values()) {
             setHeightmapTag(hm);
         }
-        setSupplementariesRoadSignTag();
+        //setSupplementariesRoadSignTag();
+        //setDungeonDifficultyTags();
+        setThiefProtectedTag();
+    }
+
+    private void setDungeonDifficultyTags() {
+        TagKey<Structure> dungeonLevelOne = ProjectEvergreen.createTag(Registries.STRUCTURE,
+                ResourceLocation.fromNamespaceAndPath(SupportedMods.DUNGEON_DIFFICULTY.name().toLowerCase(), "level_1"));
+        List<String> dungeonLevelOneStructures = PEStructure.Difficulty.allDungeonLevelOneStructures();
+        appendIDOnce(dungeonLevelOne, dungeonLevelOneStructures);
+
+        TagKey<Structure> dungeonLevelTwo = ProjectEvergreen.createTag(Registries.STRUCTURE,
+                ResourceLocation.fromNamespaceAndPath(SupportedMods.DUNGEON_DIFFICULTY.name().toLowerCase(), "level_2"));
+        List<String> dungeonLevelTwoStructures = PEStructure.Difficulty.allDungeonLevelTwoStructures();
+        appendIDOnce(dungeonLevelTwo, dungeonLevelTwoStructures);
+
+        TagKey<Structure> dungeonLevelThree = ProjectEvergreen.createTag(Registries.STRUCTURE,
+                ResourceLocation.fromNamespaceAndPath(SupportedMods.DUNGEON_DIFFICULTY.name().toLowerCase(), "level_3"));
+        List<String> dungeonLevelThreeStructures = PEStructure.Difficulty.allDungeonLevelThreeStructures();
+        appendIDOnce(dungeonLevelThree, dungeonLevelThreeStructures);
+
+        TagKey<Structure> dungeonLevelFour = ProjectEvergreen.createTag(Registries.STRUCTURE,
+                ResourceLocation.fromNamespaceAndPath(SupportedMods.DUNGEON_DIFFICULTY.name().toLowerCase(), "level_4"));
+        List<String> dungeonLevelFourStructures = PEStructure.Difficulty.allDungeonLevelFourStructures();
+        appendIDOnce(dungeonLevelFour, dungeonLevelFourStructures);
+
+        TagKey<Structure> dungeonLevelFive = ProjectEvergreen.createTag(Registries.STRUCTURE,
+                ResourceLocation.fromNamespaceAndPath(SupportedMods.DUNGEON_DIFFICULTY.name().toLowerCase(), "level_5"));
+        List<String> dungeonLevelFiveStructures = PEStructure.Difficulty.allDungeonLevelFiveStructures();
+        appendIDOnce(dungeonLevelFive, dungeonLevelFiveStructures);
+    }
+    private void setThiefProtectedTag() {
+        ResourceLocation protectedTag = ResourceLocation.fromNamespaceAndPath(SupportedMods.THIEF.name().toLowerCase(), "protected");
+        TagKey<Structure> villages = ProjectEvergreen.createTag(Registries.STRUCTURE, protectedTag);
+        appendIDOnce(villages, DefaultStructureRarity.civilizationRare);
     }
 
     private void setSupplementariesRoadSignTag() {

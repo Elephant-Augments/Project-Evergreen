@@ -7,6 +7,11 @@ import com.google.gson.JsonElement;
 import net.enderturret.patchedmod.Patched;
 import net.enderturret.patchedmod.util.PatchUtil;
 import net.minecraft.resources.ResourceLocation;
+import net.neoforged.fml.InterModComms;
+import net.neoforged.fml.event.lifecycle.InterModEnqueueEvent;
+import org.apache.commons.lang3.tuple.Pair;
+
+import java.util.function.BinaryOperator;
 
 public class TestConditions {
 
@@ -17,6 +22,8 @@ public class TestConditions {
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.PERFORMANCE_MODE_KEY), TestConditions::performanceMode);
 		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.STRUCTURE_BIOME_REDISTRIBUTION_KEY), TestConditions::structureBiomeRedistribution);
 		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.STRUCTURE_RARITY_REDISTRIBUTION_KEY), TestConditions::structureRarityRedistribution);
+		Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.MOB_REDISTRIBUTION_KEY), TestConditions::mobRedistribution);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.FIX_TREE_REDUNDANCY_KEY), TestConditions::fixTreeRedundancy);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.COLD_CLIMATE_WATER_NORMALIZATION_KEY), TestConditions::coldClimateWaterNormalization);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.TEMPERATE_CLIMATE_WATER_NORMALIZATION_KEY), TestConditions::temperateClimateWaterNormalization);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.WARM_CLIMATE_WATER_NORMALIZATION_KEY), TestConditions::warmClimateWaterNormalization);
@@ -31,6 +38,8 @@ public class TestConditions {
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.BEAUTIFY_SINGLE_VILLAGER_KEY), TestConditions::beautifySingleVillager);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.FARMERSDELIGHT_VILLAGE_COMPOST_KEY), TestConditions::farmersdelightVillageCompostLimit);
         Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.VEGGIESDELIGHT_VILLAGE_DEPOT_KEY), TestConditions::veggiesdelightVillageDepotLimit);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.MONOBANK_VILLAGE_VAULT_KEY), TestConditions::monobankVillageVaultLimit);
+        Patched.registerSimpleTestCondition(ResourceLocation.fromNamespaceAndPath(ProjectEvergreen.MODID, PEConfig.WAYSTONE_SINGLE_VILLAGE_KEY), TestConditions::waystoneSingleVillageLimit);
 	}
 
     private static boolean performanceMode(JsonElement value) {
@@ -43,6 +52,14 @@ public class TestConditions {
     
     private static boolean structureRarityRedistribution(JsonElement value) {
 		return PEConfig.structureRarityRedistribution == value.getAsBoolean();
+	}
+
+    private static boolean mobRedistribution(JsonElement value) {
+		return PEConfig.mobRedistribution == value.getAsBoolean();
+	}
+
+    private static boolean fixTreeRedundancy(JsonElement value) {
+		return PEConfig.fixTreeRedundancy == value.getAsBoolean();
 	}
 
     private static boolean coldClimateWaterNormalization(JsonElement value) {
@@ -95,6 +112,14 @@ public class TestConditions {
 
     private static boolean veggiesdelightVillageDepotLimit(JsonElement value) {
 		return PEConfig.veggiesDelightVillageDepotLimit == value.getAsBoolean();
+	}
+
+    private static boolean monobankVillageVaultLimit(JsonElement value) {
+		return PEConfig.monobankVillageVaultLimit == value.getAsBoolean();
+	}
+
+    private static boolean waystoneSingleVillageLimit(JsonElement value) {
+		return PEConfig.waystoneSingleVillage == value.getAsBoolean();
 	}
 
     //TODO: Replace with local Patchable Structure method

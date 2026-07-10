@@ -1,8 +1,10 @@
 package com.elephantaugments.projectevergreen.neoforge.datagen;
 
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
+import com.elephantaugments.projectevergreen.common.api.PEBiome;
 import com.elephantaugments.projectevergreen.common.api.PEDimension;
 import com.elephantaugments.projectevergreen.common.api.PEMob;
+import com.elephantaugments.projectevergreen.common.api.PERegion;
 import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -31,6 +33,14 @@ public class EntityTagProvider extends EntityTypeTagsProvider {
         for (PEMob category : PEMob.values()) {
             setCategoryTag(category);
         }
+        //IS_CLIMATE
+        for (PEBiome biome : PEBiome.values()) {
+            setBiomeTag(biome);
+        }
+        //IS_REDISTRIBUTED
+        for (PERegion region : PERegion.values()) {
+            setRedistributedTag(region);
+        }
         //IS_FLAGGED
         for (PEMob.Flag flag : PEMob.Flag.values()) {
             setFlagTag(flag);
@@ -44,6 +54,28 @@ public class EntityTagProvider extends EntityTypeTagsProvider {
                     ProjectEvergreen.LOGGER.info("Populating mob category tag... " + tag.location());
                 }
                 appendIDOnce(tag, category.defaultMobs());
+            }
+        );
+    }
+
+    private void setBiomeTag(PEBiome biome) {
+        Optional.ofNullable(biome.entityTag()).ifPresent(
+            (tag) -> {
+                if (PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
+                    ProjectEvergreen.LOGGER.info("Populating mob biome tag... " + tag.location());
+                }
+                appendIDOnce(tag, biome.entityAdditions());
+            }
+        );
+    }
+
+    private void setRedistributedTag(PERegion region) {
+        Optional.ofNullable(region.mobRemovalTag()).ifPresent(
+            (tag) -> {
+                if (PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
+                    ProjectEvergreen.LOGGER.info("Populating mob redistribution tag... " + tag.location());
+                }
+                appendIDOnce(tag, region.mobRemovals());
             }
         );
     }

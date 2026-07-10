@@ -21,12 +21,15 @@ public class PEConfig {
     public static final String STRUCTURE_BIOME_REDISTRIBUTION_TEST = ProjectEvergreen.MODID + ":" + STRUCTURE_BIOME_REDISTRIBUTION_KEY;
     public static final String STRUCTURE_RARITY_REDISTRIBUTION_KEY = "structure_rarity_redistribution";
     public static final String STRUCTURE_RARITY_REDISTRIBUTION_TEST = ProjectEvergreen.MODID + ":" + STRUCTURE_RARITY_REDISTRIBUTION_KEY;
+    public static final String MOB_REDISTRIBUTION_KEY = "mob_redistribution";
+    public static final String MOB_REDISTRIBUTION_TEST = ProjectEvergreen.MODID + ":" + MOB_REDISTRIBUTION_KEY;
 
     public static final String POPULATION_BIAS_KEY = "population_bias";
     public static final String POPULATION_BIAS_TEST = ProjectEvergreen.MODID + ":" + POPULATION_BIAS_KEY;
     public static final String POPULATION_BIAS_OFFSET_KEY = "population_bias_offset";
     public static final String SPACING_RARITY_KEY = "spacing_rarity_offset";
     public static final String SEPARATION_RARITY_KEY = "separation_rarity_offset";
+    public static final String FLATNESS_OFFSET_KEY = "apply_flatness_offset";
     public static final String CIVILIZATION_EXTRA_RARE_OFFSET_KEY = "civilization_inland_sprawling_rarity";
     public static final String CIVILIZATION_RARE_OFFSET_KEY = PEStructureSet.CIVILIZATION_RARE.name().toLowerCase() + "_offset";
     public static final String CIVILIZATION_COMMON_OFFSET_KEY = PEStructureSet.CIVILIZATION_COMMON.name().toLowerCase() + "_offset";
@@ -40,6 +43,7 @@ public class PEConfig {
     public static final String UNDERGROUND_RARE_OFFSET_KEY = PEStructureSet.UNDERGROUND_RARE.name().toLowerCase() + "_offset";
     public static final String SKY_RARE_OFFSET_KEY = PEStructureSet.SKY_RARE.name().toLowerCase() + "_offset";
 
+    public static final String FIX_TREE_REDUNDANCY_KEY = "fix_tree_redundancy";
     public static final String COLD_CLIMATE_WATER_NORMALIZATION_KEY = "cold_climate_color_normalization";
     public static final String COLD_CLIMATE_WATER_NORMALIZATION_TEST = ProjectEvergreen.MODID + ":" + COLD_CLIMATE_WATER_NORMALIZATION_KEY;
     public static final String COLD_WATER_COLOR_KEY = "cold_climate_water_color";
@@ -54,6 +58,7 @@ public class PEConfig {
     public static final String ALLOWED_TERRAIN_HEIGHT_MEDIUM_KEY = "medium_flatness_allowed_elevation";
     public static final String ALLOWED_TERRAIN_HEIGHT_LARGE_KEY = "large_flatness_allowed_elevation";
     public static final String ALLOWED_TERRAIN_HEIGHT_SPRAWLING_KEY = "sprawling_flatness_allowed_elevation";
+
     public static final String RPGARCHERS_SINGLE_VILLAGER_KEY = "rpgarchers_single_villager";
     public static final String RPGPRIESTS_SINGLE_VILLAGER_KEY = "rpgpriests_single_villager";
     public static final String RPGWARRIORS_SINGLE_VILLAGER_KEY = "rpgwarriors_single_villager";
@@ -64,6 +69,8 @@ public class PEConfig {
     public static final String BEAUTIFY_SINGLE_VILLAGER_KEY = "beautify_single_villager";
     public static final String FARMERSDELIGHT_VILLAGE_COMPOST_KEY = "farmersdelight_village_compost_limit";
     public static final String VEGGIESDELIGHT_VILLAGE_DEPOT_KEY = "veggiesdelight_village_depot_limit";
+    public static final String MONOBANK_VILLAGE_VAULT_KEY = "monobank_village_vault_limit";
+    public static final String WAYSTONE_SINGLE_VILLAGE_KEY = "waystone_village_limit";
 
     public static final String CONTINENTS_SCALE_KEY = "continents_scale";
     public static final String NON_CONTINENT_ISLAND_SCALE_KEY = "non_continent_island_scale";
@@ -83,8 +90,10 @@ public class PEConfig {
     private static final ModConfigSpec.BooleanValue PERFORMANCE_FRIENDLY_MODE;
     private static final ModConfigSpec.BooleanValue STRUCTURE_BIOME_REDISTRIBUTION;
     private static final ModConfigSpec.BooleanValue STRUCTURE_RARITY_REDISTRIBUTION;
-    
+    private static final ModConfigSpec.BooleanValue MOB_REDISTRIBUTION;
+
     private static final String CATEGORY_TWEAKS = "tweaks";
+    private static final ModConfigSpec.BooleanValue FIX_TREE_REDUNDANCY;
     private static final ModConfigSpec.BooleanValue COLD_CLIMATE_WATER_NORMALIZATION;
     private static final ModConfigSpec.IntValue COLD_WATER_COLOR;
     private static final ModConfigSpec.BooleanValue TEMPERATE_CLIMATE_WATER_NORMALIZATION;
@@ -105,6 +114,8 @@ public class PEConfig {
     private static final ModConfigSpec.BooleanValue BEAUTIFY_SINGLE_VILLAGER;
     private static final ModConfigSpec.BooleanValue FARMERSDELIGHT_VILLAGE_COMPOST_LIMIT;
     private static final ModConfigSpec.BooleanValue VEGGIESDELIGHT_VILLAGE_DEPOT_LIMIT;
+    private static final ModConfigSpec.BooleanValue MONOBANK_VILLAGE_VAULT_LIMIT;
+    private static final ModConfigSpec.BooleanValue WAYSTONE_SINGLE_VILLAGE;
 
     private static final String CATEGORY_RARITY = "rarity";
     private static final ModConfigSpec.IntValue POPULATION_BIAS;
@@ -136,6 +147,7 @@ public class PEConfig {
     public static boolean performanceFriendlyMode;
     public static boolean structureBiomeRedistribution;
     public static boolean structureRarityRedistribution;
+    public static boolean mobRedistribution;
 
     public static int populationBias;
     public static int populationBiasOffset;
@@ -144,6 +156,7 @@ public class PEConfig {
     public static int allowedTerrainHeightMedium;
     public static int allowedTerrainHeightSmall;
 
+    public static boolean fixTreeRedundancy;
     public static boolean coldBiomeColorNormalization;
     public static int coldWaterColor;
     public static boolean temperateBiomeColorNormalization;
@@ -161,6 +174,8 @@ public class PEConfig {
     public static boolean beautifySingleVillager;
     public static boolean farmersDelightVillageCompostLimit;
     public static boolean veggiesDelightVillageDepotLimit;
+    public static boolean monobankVillageVaultLimit;
+    public static boolean waystoneSingleVillage;
 
     public static double civilizationExtraRareOffset;
     public static double civilizationRareOffset;
@@ -196,12 +211,14 @@ public class PEConfig {
             performanceFriendlyMode = PERFORMANCE_FRIENDLY_MODE.get();
             structureBiomeRedistribution = STRUCTURE_BIOME_REDISTRIBUTION.get();
             structureRarityRedistribution = STRUCTURE_RARITY_REDISTRIBUTION.get();
+            mobRedistribution = MOB_REDISTRIBUTION.get();
 
             allowedTerrainHeightSprawling = ALLOWED_TERRAIN_HEIGHT_SPRAWLING.get();
             allowedTerrainHeightLarge = ALLOWED_TERRAIN_HEIGHT_LARGE.get();
             allowedTerrainHeightMedium = ALLOWED_TERRAIN_HEIGHT_MEDIUM.get();
             allowedTerrainHeightSmall = ALLOWED_TERRAIN_HEIGHT_SMALL.get();
 
+            fixTreeRedundancy = FIX_TREE_REDUNDANCY.get();
             coldBiomeColorNormalization = COLD_CLIMATE_WATER_NORMALIZATION.get();
             coldWaterColor = COLD_WATER_COLOR.getAsInt();
             temperateBiomeColorNormalization = TEMPERATE_CLIMATE_WATER_NORMALIZATION.get();
@@ -219,6 +236,8 @@ public class PEConfig {
             beautifySingleVillager = BEAUTIFY_SINGLE_VILLAGER.get();
             farmersDelightVillageCompostLimit = FARMERSDELIGHT_VILLAGE_COMPOST_LIMIT.get();
             veggiesDelightVillageDepotLimit = VEGGIESDELIGHT_VILLAGE_DEPOT_LIMIT.get();
+            monobankVillageVaultLimit = MONOBANK_VILLAGE_VAULT_LIMIT.get();
+            waystoneSingleVillage = WAYSTONE_SINGLE_VILLAGE.get();
 
             populationBias = POPULATION_BIAS.get();
             populationBiasOffset = POPULATION_BIAS_OFFSET.get();
@@ -265,6 +284,9 @@ public class PEConfig {
         STRUCTURE_RARITY_REDISTRIBUTION = COMMON_BUILDER
             .comment("# Enable/Disable rarity distribution based on structure size.\n(e.g Massive structures are rare, decorative structures more common.)")
             .define(STRUCTURE_RARITY_REDISTRIBUTION_KEY, true);
+        MOB_REDISTRIBUTION = COMMON_BUILDER
+            .comment("# Enable/Disable mob distribution into structures & biomes based on difficulty calculation.")
+            .define(MOB_REDISTRIBUTION_KEY, true);
         PERFORMANCE_FRIENDLY_MODE = COMMON_BUILDER
             .comment("# Disables extra structure placement checks that may cause chunk lag.\n(e.g Disables terrain flatness, biome radius, and no-spawn-in-water checks.)")
             .define(PERFORMANCE_MODE_KEY, false);
@@ -317,6 +339,9 @@ public class PEConfig {
 
 
         COMMON_BUILDER.comment("Tweaks & Fixes").push(CATEGORY_TWEAKS);
+        FIX_TREE_REDUNDANCY = COMMON_BUILDER
+                .comment("## If true, redundant tree features (e.g \"maple\") will be unified to one mod.")
+                .define(FIX_TREE_REDUNDANCY_KEY, true);
         COLD_CLIMATE_WATER_NORMALIZATION = COMMON_BUILDER
                 .comment("## If true, all cold climate biomes will adopt the same water color value (below)")
                 .define(COLD_CLIMATE_WATER_NORMALIZATION_KEY, false);
@@ -376,6 +401,12 @@ public class PEConfig {
         VEGGIESDELIGHT_VILLAGE_DEPOT_LIMIT = COMMON_BUILDER
                 .comment("# If true, injects a maximum of 2 Veggies Delight depot sheds into village template pools.")
                 .define(VEGGIESDELIGHT_VILLAGE_DEPOT_KEY, false);
+        MONOBANK_VILLAGE_VAULT_LIMIT = COMMON_BUILDER
+                .comment("# If true, injects a maximum of 1 Monobank vaults into village template pools.")
+                .define(MONOBANK_VILLAGE_VAULT_KEY, false);
+        WAYSTONE_SINGLE_VILLAGE = COMMON_BUILDER
+                .comment("# If true, injects a maximum of 1 Waystone into village template pools.")
+                .define(WAYSTONE_SINGLE_VILLAGE_KEY, true);
         COMMON_BUILDER.pop();
 
 

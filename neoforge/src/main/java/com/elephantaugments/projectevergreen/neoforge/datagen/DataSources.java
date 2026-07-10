@@ -29,12 +29,13 @@ public class DataSources {
     private static void registerPEDataObject() {
         SingleDataSource source = (from, value) ->
             switch (value.getAsString()) {
-                case Constants.PATCHABLE_BIOME_KEY -> getPatchableDataObject(value.getAsString(), from.getAsJsonObject());
-                case Constants.PATCHABLE_STRUCTURE_SET_KEY -> getPatchableDataObject(value.getAsString(), from.getAsJsonObject());
-                case Constants.PATCHABLE_STRUCTURE_KEY -> getPatchableDataObject(value.getAsString(), from.getAsJsonObject());
-                //TODO case Constants.PATCHABLE_FEATURE_KEY -> getPatchableDataObject(from.getAsJsonObject());
-                //TODO case Constants.PATCHABLE_ENTITY_KEY -> getPatchableDataObject(from.getAsJsonObject());
+                case Constants.PATCHABLE_BIOME_KEY,
+                     Constants.PATCHABLE_FEATURE_KEY,
+                     Constants.PATCHABLE_STRUCTURE_SET_KEY,
+                     Constants.PATCHABLE_STRUCTURE_KEY,
+                     Constants.PATCHABLE_ENTITY_KEY -> getPatchableDataObject(value.getAsString(), from.getAsJsonObject());
                 case Constants.DYNAMIC_STRUCTURE_SET_KEY -> buildStructureSet(WorldgenDataManager.PATCHABLE_STRUCTURE_SETS.get(from.getAsString()));
+                case Constants.DYNAMIC_BIOME_SPAWNS_KEY -> buildBiomeSpawners(WorldgenDataManager.PATCHABLE_BIOMES.get(from.getAsString()));
 
                 default -> throw new IllegalArgumentException("No Data Object Provided.");
             };
@@ -49,6 +50,7 @@ public class DataSources {
                 case PEConfig.SPACING_RARITY_KEY  -> DataSources.getSpread(value.getAsString(), from.getAsString());
                 case PEConfig.SEPARATION_RARITY_KEY  -> DataSources.getSpread(value.getAsString(), from.getAsString());
                 case PEConfig.ALLOWED_TERRAIN_HEIGHT_KEY  -> DataSources.getAllowedTerrainHeight(from.getAsString());
+                case PEConfig.FLATNESS_OFFSET_KEY  -> DataSources.applyFlatnessOffset(from.getAsInt());
 
                 case PEConfig.COLD_WATER_COLOR_KEY -> DataSources.getJsonInt(PEConfig.coldWaterColor);
                 case PEConfig.TEMPERATE_WATER_COLOR_KEY -> DataSources.getJsonInt(PEConfig.temperateWaterColor);
@@ -72,7 +74,16 @@ public class DataSources {
         String id = json.get(Constants.JsonProp.ID.jsonKey()).getAsString();
         Optional<IPatchable> wdata;
         switch (data_key) {
-            case Constants.PATCHABLE_BIOME_KEY -> wdata = Optional.ofNullable(WorldgenDataManager.PATCHABLE_BIOMES.get(id));
+            case Constants.PATCHABLE_BIOME_KEY -> {
+                wdata = Optional.ofNullable(WorldgenDataManager.PATCHABLE_BIOMES.get(id));
+                wdata.ifPresent(p -> {
+                    PatchableBiome biome = WorldgenDataManager.PATCHABLE_BIOMES.get(id);
+                    JsonObject spawners = json.getAsJsonObject(Constants.JsonProp.SPAWNERS.jsonKey());
+                    biome.initJsonData(spawners);
+                });
+            }
+            case Constants.PATCHABLE_FEATURE_KEY -> wdata = Optional.ofNullable(WorldgenDataManager.PATCHABLE_FEATURES.get(id));
+            case Constants.PATCHABLE_ENTITY_KEY -> wdata = Optional.ofNullable(WorldgenDataManager.PATCHABLE_ENTITIES.get(id));
             case Constants.PATCHABLE_STRUCTURE_SET_KEY -> wdata = Optional.ofNullable(WorldgenDataManager.PATCHABLE_STRUCTURE_SETS.get(id));
             case Constants.PATCHABLE_STRUCTURE_KEY -> {
                 wdata = Optional.ofNullable(WorldgenDataManager.PATCHABLE_STRUCTURES.get(id));
@@ -86,13 +97,17 @@ public class DataSources {
             }
             default -> wdata = Optional.empty();
         }
-        return wdata.isPresent()?
+        return wdata.isPresent() ?
                 wdata.get().toJson() :
                 new JsonObject();
     }
 
     private static JsonElement buildStructureSet(PatchableStructureSet sset) {
         return sset.buildStructureSet();
+    }
+
+    private static JsonElement buildBiomeSpawners(PatchableBiome biome) {
+        return biome.buildSpawners();
     }
 
     public static JsonElement getJsonBool(boolean config_bool) {
@@ -144,6 +159,10 @@ public class DataSources {
                 Math.toIntExact(Math.round(spread * Constants.FLATNESS_SPREAD_OFFSET * rarity_offset)) :
                 Math.toIntExact(Math.round(spread * rarity_offset));
         return ProjectEvergreen.GSON.toJsonTree(spread);
+    }
+
+    private static JsonElement applyFlatnessOffset(int spread) {
+        return ProjectEvergreen.GSON.toJsonTree(spread * Constants.FLATNESS_SPREAD_OFFSET);
     }
 
     private static Double getRarityOffset(PEStructureSet sset) {

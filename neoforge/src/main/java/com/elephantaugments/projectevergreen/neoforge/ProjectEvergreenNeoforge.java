@@ -69,6 +69,7 @@ public class ProjectEvergreenNeoforge {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
+        ProjectEvergreen.initCompat();
         TestConditions.registerConditions();
         DataSources.registerDataSources();
     }
@@ -96,7 +97,7 @@ public class ProjectEvergreenNeoforge {
 
     public static void initBiolith() {
         ProjectEvergreen.LOGGER.info("Grabbing biome values from biome registry reader... " + BIOME_REGISTRY.toString());
-        if (SupportedMods.BIOLITH.isLoaded()) {
+        if (PlatformHooks.PLATFORM_HELPER.isModLoaded("biolith")) {
             PEBiomePlacement.register();
         }
     }

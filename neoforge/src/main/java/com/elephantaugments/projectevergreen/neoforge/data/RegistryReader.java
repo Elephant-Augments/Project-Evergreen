@@ -28,7 +28,7 @@ public class RegistryReader {
         ProjectEvergreen.LOGGER.info("Worldgen Registry Path: " + registry.key().location().getPath());
         this.registryPath = registry.key().location().getPath();
         this.registryName = registryPath.substring(registryPath.lastIndexOf('/') + 1);
-        updateDefaultWorldgenData(registry);
+        updateDefaultWorldgenData();
     }
 
 //    public void updateLoadedWorldgenData(RegistryAccess registryAccess) {
@@ -53,11 +53,13 @@ public class RegistryReader {
 //        }
 //    }
 
-    public void updateDefaultWorldgenData(WritableRegistry<?> registry) {
+    public void updateDefaultWorldgenData() {
         switch (registryPath) {
             case "worldgen/biome" -> WorldgenDataManager.loadPatchableBiomes(Optional.empty());
             case "worldgen/structure_set" -> WorldgenDataManager.loadPatchableStructureSets(Optional.empty());
             case "worldgen/structure" -> WorldgenDataManager.loadPatchableStructures(Optional.empty());
+            case "worldgen/placed_feature", "biome_modifier" -> WorldgenDataManager.loadPatchableFeatures(Optional.empty());
+            case "entity_type" -> WorldgenDataManager.loadPatchableEntities(Optional.empty());
         }
     }
 
@@ -75,7 +77,7 @@ public class RegistryReader {
                 wdata.ifPresent(p -> {
                     PatchableFeature feature = WorldgenDataManager.PATCHABLE_FEATURES.get(location);
                     feature.setRegistry(registryPath);
-                    WorldgenDataManager.setFeatureData(location, feature);
+                    //WorldgenDataManager.setFeatureData(location, feature);
                 });
             }
             case "worldgen/structure" -> {
