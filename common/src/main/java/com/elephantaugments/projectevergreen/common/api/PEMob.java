@@ -38,12 +38,16 @@ public enum PEMob {
     AMBIENT_CRITTER(
         DefaultMobCategories.ambientCritters,
         1
+    ),
+    MISC(
+        DefaultMobCategories.miscMobs,
+        1
     );
 
     private List<String> defaultMobs = new ArrayList<>();
 
-    private final String jsonKey = Constants.JsonProp.DIMENSION.jsonKey();
-    private final String jsonPath = Constants.JsonProp.DIMENSION.jsonPath();
+    private final String jsonKey = this.name().toLowerCase();
+    private final String jsonPath = "/" + Constants.PROPERTIES_KEY + "/" + jsonKey();
     private final String path;
     private final ResourceLocation location;
     private TagKey<EntityType<?>> tag;
@@ -110,7 +114,22 @@ public enum PEMob {
         return nonWaterMobs.stream().toList();
     }
 
+    public static List<String> isRedistributed() {
+        HashSet<String> redistributedMobs = Arrays.stream(PEBiome.values())
+                .map(PEBiome::entityAdditions)
+                .flatMap(Collection::stream)
+                .collect(Collectors.toCollection(HashSet::new));
+        return WorldgenDataManager.PATCHABLE_ENTITIES.keySet().stream()
+                .filter(redistributedMobs::contains)
+                .toList();
+    }
+
     public enum Flag {
+        IS_REDISTRIBUTED(Constants.EMPTY_LIST),
+        IS_COMMON_SPAWN(DefaultFlags.commonSpawn),
+        IS_RARE_SPAWN(DefaultFlags.rareSpawn),
+        IS_EXTRA_RARE_SPAWN(DefaultFlags.extraRareSpawn),
+        FIX_BROKEN_SPAWN(DefaultFlags.brokenSpawnFix),
         PATCHABLE(new PatchableEntities().getIDs().stream().toList()),
         DISABLED(DefaultFlags.disabledMobs);
 

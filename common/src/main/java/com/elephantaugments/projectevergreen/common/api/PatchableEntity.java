@@ -15,6 +15,7 @@ public class PatchableEntity extends IPatchable {
 
     private final List<PEMob.Flag> flags = new ArrayList<PEMob.Flag>();
     private String mobCategory;
+    private List<PEBiome> biomes;
 
     public PatchableEntity(String ID) {
         super(ID);
@@ -37,6 +38,15 @@ public class PatchableEntity extends IPatchable {
         this.mobCategory = category;
     }
 
+    public Optional<List<PEBiome>> getBiomes() {
+        return Optional.ofNullable(this.biomes);
+    }
+
+    public void appendBiome(PEBiome biome) {
+        this.biomes.add(biome);
+        updateData();
+    }
+
     @Override
     public void updateData() {
         WorldgenDataManager.setEntityData(this.id, this);
@@ -48,6 +58,9 @@ public class PatchableEntity extends IPatchable {
 
         json.addProperty(Constants.JsonProp.ID.jsonKey(), this.getId());
         json.addProperty(Constants.JsonProp.IS_LOADED.jsonKey(), this.is_loaded);
+        this.flags.forEach(flag -> {
+            json.addProperty(flag.jsonKey(), true);
+        });
 
         return ProjectEvergreen.GSON.toJsonTree(json);
     }
