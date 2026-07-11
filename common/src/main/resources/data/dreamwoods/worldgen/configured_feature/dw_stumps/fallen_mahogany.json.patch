@@ -1,0 +1,34 @@
+[
+      {
+          "op": "test",
+          "type": "project_evergreen:fix_tree_redundancy",
+          "value": true
+      },
+      [
+          {
+              "op": "test",
+              "type": "patched:mod_loaded",
+              "value": "natures_spirit"
+          },
+          {
+              "op": "replace",
+              "path": "/config/features/0/feature/config/layers/0/provider/state/Name",
+              "value": "natures_spirit:mahogany_log"
+          },
+          {
+              "op": "replace",
+              "path": "/config/features/1/feature/config/layers/0/provider/state/Name",
+              "value": "natures_spirit:mahogany_log"
+          },
+          {
+              "op": "replace",
+              "path": "/config/features/2/feature/config/layers/0/provider/state/Name",
+              "value": "natures_spirit:mahogany_log"
+          },
+          {
+              "op": "replace",
+              "path": "/config/features/3/feature/config/layers/0/provider/state/Name",
+              "value": "natures_spirit:mahogany_log"
+          }
+      ]
+]

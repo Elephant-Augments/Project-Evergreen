@@ -1,0 +1,29 @@
+[
+    {
+        "op": "test",
+        "type": "project_evergreen:fix_tree_redundancy",
+        "value": true
+    },
+    [
+        {
+            "op": "test",
+            "type": "patched:mod_loaded",
+            "value": "regions_unexplored"
+        },
+        {
+            "op": "replace",
+            "path": "/config/trunk_provider/state/Name",
+            "value": "regions_unexplored:baobab_log"
+        },
+        {
+            "op": "replace",
+            "path": "/config/foliage_provider/entries/0/data/Name",
+            "value": "regions_unexplored:baobab_leaves"
+        },
+        {
+            "op": "replace",
+            "path": "/config/decorators/0/block_provider/state/Name",
+            "value": "regions_unexplored:baobab_leaves"
+        }
+    ]
+]
