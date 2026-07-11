@@ -1,4 +1,4 @@
-// 1.21.1	2026-07-09T08:57:20.4574764	Tags for minecraft:worldgen/biome mod id project_evergreen
+// 1.21.1	2026-07-10T23:15:30.8267178	Tags for minecraft:worldgen/biome mod id project_evergreen
 52a1f962dd2736906e1cb23b526567f9b1e2f2e2 data/eternal_starlight/tags/worldgen/biome/is_eternal_starlight.json
 cee4cbf6c387cb26a2b15c37ebd4fe312afe297a data/project_evergreen/tags/worldgen/biome/is_climate/birch_forest.json
 f71db4924fec685d473812069d8d187daf43c2f2 data/project_evergreen/tags/worldgen/biome/is_climate/cherry_forest.json
@@ -29,8 +29,8 @@ bd243b02ada0e980390a702e074ec75a255b646d data/project_evergreen/tags/worldgen/bi
 fbd7a904501ffdbc5a5644260e12a12f08d37d80 data/project_evergreen/tags/worldgen/biome/is_climate/no_biomes.json
 6fd8fb4090a6ec3dd39b5cc05d936ddd077fac77 data/project_evergreen/tags/worldgen/biome/is_climate/ocean_deep_frozen.json
 ef6ad09d270c880f16d2012be976f573bd942f00 data/project_evergreen/tags/worldgen/biome/is_climate/ocean_deep_rare.json
-023047d7dab7816baace08b954b95f095d8988f0 data/project_evergreen/tags/worldgen/biome/is_climate/ocean_deep_temperate.json
-b63ec7424de8a481aa700efdf1bfe6f2de60f91d data/project_evergreen/tags/worldgen/biome/is_climate/ocean_deep_warm.json
+d25836c0588aad088ffdbcbecbb4bd324b0ae8ac data/project_evergreen/tags/worldgen/biome/is_climate/ocean_deep_temperate.json
+be36b0518e5fc34f9e106481661fb47c9015a4e5 data/project_evergreen/tags/worldgen/biome/is_climate/ocean_deep_warm.json
 1dac2bb493afa51a9494c1564eeb0ffab77d748c data/project_evergreen/tags/worldgen/biome/is_climate/ocean_shallow_frozen.json
 6e962969e04f0be74a67d4ca52ca90ae7ce45888 data/project_evergreen/tags/worldgen/biome/is_climate/ocean_shallow_rare.json
 0d179f4eb4486da20715fbba8099437be38dfaff data/project_evergreen/tags/worldgen/biome/is_climate/ocean_shallow_temperate.json
@@ -93,8 +93,8 @@ d94a492f5ebe1b481a1478622bbc2a2a63c9ec9c data/project_evergreen/tags/worldgen/bi
 1f6fe5942a88ed75a46ab66c49619d8314eb1dc8 data/project_evergreen/tags/worldgen/biome/is_flagged/is_prairie_yellow.json
 72e0808a0eb357c87a78af951cf5155551a0ae1f data/project_evergreen/tags/worldgen/biome/is_flagged/is_savanna_brown.json
 eee044cfd79df4765f48c48f86797db64cb6f8dc data/project_evergreen/tags/worldgen/biome/is_flagged/is_steppe_brown.json
-10aa555152bed0429d88a95ef18d52cdb98baaac data/project_evergreen/tags/worldgen/biome/is_flagged/is_temperate.json
-69c3a48afa49004f97115bc9da0a7f5c4d816d9c data/project_evergreen/tags/worldgen/biome/is_flagged/is_warm.json
+e45c89c25f1ad998ed7ac4d31a4f41b1c106200e data/project_evergreen/tags/worldgen/biome/is_flagged/is_temperate.json
+ec97273b8c77cc696ccdc7e562c6909fbfc9ecc1 data/project_evergreen/tags/worldgen/biome/is_flagged/is_warm.json
 cdcd60775b300c2bb7b7faa47b9583127ba9af8e data/project_evergreen/tags/worldgen/biome/is_flagged/remove_snow.json
 6a1314905e1cb00118f608bfbc44f4d8ee9562e7 data/project_evergreen/tags/worldgen/biome/is_flagged/remove_vegetation_color.json
 6ea95ca180f43ddea08d866c26c857a5257715a9 data/project_evergreen/tags/worldgen/biome/is_region/all_civilization.json

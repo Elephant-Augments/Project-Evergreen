@@ -7,6 +7,14 @@
     {
       "id": "minecraft:deep_ocean",
       "required": false
+    },
+    {
+      "id": "spawn:dodo_island",
+      "required": false
+    },
+    {
+      "id": "spawn:rocky_shore",
+      "required": false
     }
   ]
 }

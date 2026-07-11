@@ -6,7 +6,8 @@
       "value": {
         "id": "spawn:sandy_island",
         "spawners": {},
-        "patchable": true
+        "patchable": true,
+        "is_warm": true
       }
     },
     [

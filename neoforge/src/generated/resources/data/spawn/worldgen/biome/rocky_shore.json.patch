@@ -6,7 +6,8 @@
       "value": {
         "id": "spawn:rocky_shore",
         "spawners": {},
-        "patchable": true
+        "patchable": true,
+        "is_temperate": true
       }
     },
     [

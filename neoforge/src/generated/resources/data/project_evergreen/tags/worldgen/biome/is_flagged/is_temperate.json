@@ -385,6 +385,14 @@
       "required": false
     },
     {
+      "id": "spawn:dodo_island",
+      "required": false
+    },
+    {
+      "id": "spawn:rocky_shore",
+      "required": false
+    },
+    {
       "id": "terralith:basalt_cliffs",
       "required": false
     },

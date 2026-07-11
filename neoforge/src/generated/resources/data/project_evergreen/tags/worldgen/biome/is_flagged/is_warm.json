@@ -221,6 +221,22 @@
       "required": false
     },
     {
+      "id": "spawn:sandy_island",
+      "required": false
+    },
+    {
+      "id": "spawn:seagrass_meadow",
+      "required": false
+    },
+    {
+      "id": "spawn:tropical_island",
+      "required": false
+    },
+    {
+      "id": "spawn:volcanic_island",
+      "required": false
+    },
+    {
       "id": "terralith:amethyst_canyon",
       "required": false
     },

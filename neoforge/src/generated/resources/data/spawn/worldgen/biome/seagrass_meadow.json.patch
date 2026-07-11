@@ -6,7 +6,8 @@
       "value": {
         "id": "spawn:seagrass_meadow",
         "spawners": {},
-        "patchable": true
+        "patchable": true,
+        "is_warm": true
       }
     },
     [

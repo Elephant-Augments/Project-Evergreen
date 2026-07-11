@@ -6,7 +6,8 @@
       "value": {
         "id": "spawn:tropical_island",
         "spawners": {},
-        "patchable": true
+        "patchable": true,
+        "is_warm": true
       }
     },
     [
