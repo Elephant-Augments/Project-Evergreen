@@ -9,7 +9,7 @@
       "required": false
     },
     {
-      "id": "dreamwoods:spinney",
+      "id": "minecraft:birch_forest",
       "required": false
     },
     {
@@ -17,7 +17,7 @@
       "required": false
     },
     {
-      "id": "natures_spirit:aspen_forest",
+      "id": "minecraft:old_growth_birch_forest",
       "required": false
     },
     {
@@ -34,10 +34,6 @@
     },
     {
       "id": "regions_unexplored:orchard",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:prairie",
       "required": false
     },
     {

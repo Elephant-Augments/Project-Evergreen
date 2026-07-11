@@ -1,0 +1,44 @@
+{
+  "values": [
+    {
+      "id": "crittersandcompanions:koi_fish",
+      "required": false
+    },
+    {
+      "id": "envelope:pigeon",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:yeti_crab",
+      "required": false
+    },
+    {
+      "id": "koopascritters:agazzis_cichlid",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bush_dog",
+      "required": false
+    },
+    {
+      "id": "koopascritters:california_quail",
+      "required": false
+    },
+    {
+      "id": "koopascritters:candy_cane_snail",
+      "required": false
+    },
+    {
+      "id": "koopascritters:clown_loach",
+      "required": false
+    },
+    {
+      "id": "koopascritters:peacock_bass",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:condemned",
+      "required": false
+    }
+  ]
+}

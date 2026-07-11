@@ -1,11 +1,27 @@
 {
   "values": [
     {
+      "id": "archaeology_ruins:ocean_ruin",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:sea_obelisk",
+      "required": false
+    },
+    {
       "id": "jellyfishing:buried_treasure",
       "required": false
     },
     {
+      "id": "jvs:deep_sea_tower",
+      "required": false
+    },
+    {
       "id": "totw_modded:ocean",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/very_rare/coves",
       "required": false
     },
     {

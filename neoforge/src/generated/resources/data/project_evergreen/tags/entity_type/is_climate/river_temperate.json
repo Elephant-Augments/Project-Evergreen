@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "hybrid-aquatic:crayfish",
+      "required": false
+    },
+    {
+      "id": "koopascritters:clown_loach",
+      "required": false
+    },
+    {
+      "id": "koopascritters:yangtze_giant_softshell_turtle",
+      "required": false
+    }
+  ]
+}

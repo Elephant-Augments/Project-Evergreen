@@ -37,6 +37,10 @@
       "required": false
     },
     {
+      "id": "bosses_of_mass_destruction:void_blossom",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:tainted_crossroads",
       "required": false
     },
@@ -85,6 +89,14 @@
       "required": false
     },
     {
+      "id": "friendsandfoes:illusioner_shack",
+      "required": false
+    },
+    {
+      "id": "friendsandfoes:illusioner_training_grounds",
+      "required": false
+    },
+    {
       "id": "goety:black_assembly",
       "required": false
     },
@@ -110,6 +122,18 @@
     },
     {
       "id": "integrated_minecraft:arcane_abode",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:sunken_village",
+      "required": false
+    },
+    {
+      "id": "jvs:glowstone_portal",
+      "required": false
+    },
+    {
+      "id": "jvs:stonehenge",
       "required": false
     },
     {
@@ -345,6 +369,10 @@
       "required": false
     },
     {
+      "id": "rpgstructures:mage_guild",
+      "required": false
+    },
+    {
       "id": "structory_towers:wizard_tower",
       "required": false
     },
@@ -385,7 +413,15 @@
       "required": false
     },
     {
+      "id": "trek:overworld/medium/street_vendor_stall",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/witch_tower",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/abandoned_castle_pillager",
       "required": false
     },
     {

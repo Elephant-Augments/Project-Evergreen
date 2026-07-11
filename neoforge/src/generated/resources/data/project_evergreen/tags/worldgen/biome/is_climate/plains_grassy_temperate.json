@@ -17,6 +17,10 @@
       "required": false
     },
     {
+      "id": "minecraft:meadow",
+      "required": false
+    },
+    {
       "id": "minecraft:plains",
       "required": false
     },
@@ -26,10 +30,6 @@
     },
     {
       "id": "natures_spirit:alpine_clearings",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:heather_fields",
       "required": false
     },
     {
@@ -46,6 +46,10 @@
     },
     {
       "id": "regions_unexplored:grassland",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:prairie",
       "required": false
     },
     {

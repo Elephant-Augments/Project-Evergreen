@@ -45,6 +45,10 @@
       "required": false
     },
     {
+      "id": "hollowmarch:raid_camp",
+      "required": false
+    },
+    {
       "id": "hunterillager:hunter_house",
       "required": false
     },
@@ -57,11 +61,19 @@
       "required": false
     },
     {
+      "id": "illagerstructures:tipi",
+      "required": false
+    },
+    {
       "id": "imst:dark_tower",
       "required": false
     },
     {
       "id": "imst:viking_house",
+      "required": false
+    },
+    {
+      "id": "jvs:viking_house_grass",
       "required": false
     },
     {

@@ -1,10 +1,6 @@
 {
   "values": [
     {
-      "id": "#project_evergreen:is_climate/special_swampy_snow",
-      "required": false
-    },
-    {
       "id": "#project_evergreen:is_climate/special_swampy_temperate",
       "required": false
     },

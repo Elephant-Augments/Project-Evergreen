@@ -73,7 +73,7 @@
       "required": false
     },
     {
-      "id": "integrated_villages:tavern_village",
+      "id": "integrated_villages:cabin_village",
       "required": false
     },
     {
@@ -249,11 +249,11 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/haunted_house",
+      "id": "trek:overworld/medium/spruce_cottage",
       "required": false
     },
     {
-      "id": "trek:overworld/medium/spruce_cottage",
+      "id": "trek:overworld/medium/wandering_trader_dark_oak",
       "required": false
     },
     {

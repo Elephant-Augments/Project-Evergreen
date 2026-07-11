@@ -29,6 +29,10 @@
       "required": false
     },
     {
+      "id": "wythers:cold_stony_shore",
+      "required": false
+    },
+    {
       "id": "wythers:gravelly_beach",
       "required": false
     },

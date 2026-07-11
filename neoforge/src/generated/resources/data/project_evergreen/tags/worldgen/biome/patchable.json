@@ -249,6 +249,78 @@
       "required": false
     },
     {
+      "id": "eternal_starlight:crystallized_desert",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:dark_swamp",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:ether_river",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:lush_shallow_sea",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:scarlet_forest",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:shimmer_river",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:spiral_kelp_forest",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:starlight_dense_forest",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:starlight_forest",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:starlight_permafrost_forest",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:starlit_sea",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:the_abyss",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:torreya_forest",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:warm_shore",
+      "required": false
+    },
+    {
+      "id": "extradelight:cornfield",
+      "required": false
+    },
+    {
+      "id": "galosphere:crystal_canyons",
+      "required": false
+    },
+    {
+      "id": "galosphere:lichen_caves",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt_caves",
+      "required": false
+    },
+    {
       "id": "hexerei:willow_swamp",
       "required": false
     },
@@ -861,6 +933,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:inferno",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:joshua_desert",
       "required": false
     },
@@ -894,6 +970,18 @@
     },
     {
       "id": "regions_unexplored:old_growth_bayou",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:old_growth_boreal_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:old_growth_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:old_growth_golden_boreal_taiga",
       "required": false
     },
     {
@@ -1001,7 +1089,75 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:tundra",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:willow_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:windswept_maple_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:wisteria_grove",
+      "required": false
+    },
+    {
+      "id": "spawn:ant_gardens",
+      "required": false
+    },
+    {
+      "id": "spawn:cold_island",
+      "required": false
+    },
+    {
+      "id": "spawn:deep_warm_ocean",
+      "required": false
+    },
+    {
+      "id": "spawn:dodo_island",
+      "required": false
+    },
+    {
+      "id": "spawn:rocky_shore",
+      "required": false
+    },
+    {
+      "id": "spawn:sandy_island",
+      "required": false
+    },
+    {
+      "id": "spawn:seagrass_meadow",
+      "required": false
+    },
+    {
+      "id": "spawn:tide_pool",
+      "required": false
+    },
+    {
+      "id": "spawn:tropical_island",
+      "required": false
+    },
+    {
+      "id": "spawn:volcanic_island",
+      "required": false
+    },
+    {
+      "id": "undergroundworlds:spider_cave",
+      "required": false
+    },
+    {
+      "id": "undergroundworlds:underground_desert",
+      "required": false
+    },
+    {
+      "id": "undergroundworlds:underground_jungle",
+      "required": false
+    },
+    {
+      "id": "undergroundworlds:underground_tundra",
       "required": false
     },
     {
@@ -1758,6 +1914,14 @@
     },
     {
       "id": "wythers:wooded_savanna",
+      "required": false
+    },
+    {
+      "id": "yungscavebiomes:frosted_caves",
+      "required": false
+    },
+    {
+      "id": "yungscavebiomes:lost_caves",
       "required": false
     }
   ]

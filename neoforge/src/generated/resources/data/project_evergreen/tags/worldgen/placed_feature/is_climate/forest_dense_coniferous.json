@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "mushroomquest:common_puffball_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:log_3_feature_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:spruce_stump_2_biome_modifier",
+      "required": false
+    }
+  ]
+}

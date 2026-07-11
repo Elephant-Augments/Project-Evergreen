@@ -5,10 +5,6 @@
       "required": false
     },
     {
-      "id": "bosses_of_mass_destruction:lich_tower",
-      "required": false
-    },
-    {
       "id": "dungeons_enhanced:ice_pit",
       "required": false
     },
@@ -102,6 +98,14 @@
     },
     {
       "id": "trek:overworld/medium/tower_of_ice",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:frost_reactor_plant",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:ice_shanty",
       "required": false
     },
     {

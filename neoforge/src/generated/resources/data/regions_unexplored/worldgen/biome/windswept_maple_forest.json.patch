@@ -1,0 +1,275 @@
+[
+  [
+    {
+      "op": "add",
+      "path": "/temp_properties",
+      "value": {
+        "id": "regions_unexplored:windswept_maple_forest",
+        "spawners": {},
+        "patchable": true
+      }
+    },
+    [
+      {
+        "op": "copy",
+        "path": "/temp_properties/spawners",
+        "from": "/spawners"
+      }
+    ],
+    {
+      "op": "paste",
+      "type": "project_evergreen:pe_object",
+      "from": "/temp_properties",
+      "path": "/temp_properties",
+      "value": "patchable_biome"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:mob_redistribution",
+      "value": true
+    },
+    {
+      "op": "test",
+      "path": "/temp_properties/has_spawn_overrides",
+      "value": true
+    },
+    {
+      "op": "move",
+      "path": "/spawners",
+      "from": "/temp_properties/spawners"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:temperate_climate_color_normalization",
+      "value": true
+    },
+    {
+      "op": "test",
+      "path": "/temp_properties/is_temperate"
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:config_value",
+      "path": "/effects/water_color",
+      "value": "temperate_climate_water_color"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:warm_climate_color_normalization",
+      "value": true
+    },
+    {
+      "op": "test",
+      "path": "/temp_properties/is_warm"
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:config_value",
+      "path": "/effects/water_color",
+      "value": "temperate_climate_water_color"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/remove_snow",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/temperature",
+      "value": 0.5
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/remove_vegetation_color",
+      "value": true
+    },
+    {
+      "op": "remove",
+      "path": "/effects/foliage_color"
+    },
+    {
+      "op": "remove",
+      "path": "/effects/grass_color"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/is_meadow_blue",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/effects/foliage_color",
+      "value": 7374422
+    },
+    {
+      "op": "remove",
+      "path": "/effects/grass_color"
+    },
+    {
+      "op": "add",
+      "path": "/temperature",
+      "value": 0.5
+    },
+    {
+      "op": "add",
+      "path": "/downfall",
+      "value": 0.8
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/is_prairie_yellow",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/effects/grass_color",
+      "value": 15259000
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/is_steppe_brown",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/effects/grass_color",
+      "value": -5067675
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/is_marsh_green",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/effects/grass_color",
+      "value": 7574355
+    },
+    {
+      "op": "add",
+      "path": "/effects/foliage_color",
+      "value": 4347179
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/is_bayou_blue",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/effects/grass_color",
+      "value": 7574355
+    },
+    {
+      "op": "add",
+      "path": "/effects/foliage_color",
+      "value": 7441446
+    },
+    {
+      "op": "add",
+      "path": "/temperature",
+      "value": 1.2
+    },
+    {
+      "op": "add",
+      "path": "/downfall",
+      "value": 0.2
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/is_cool_green",
+      "value": true
+    },
+    {
+      "op": "remove",
+      "path": "/effects/grass_color"
+    },
+    {
+      "op": "remove",
+      "path": "/effects/foliage_color"
+    },
+    {
+      "op": "add",
+      "path": "/temperature",
+      "value": 0.65
+    },
+    {
+      "op": "add",
+      "path": "/downfall",
+      "value": 0.3
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/is_plains_green",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/temperature",
+      "value": 1.2
+    },
+    {
+      "op": "add",
+      "path": "/downfall",
+      "value": 0.2
+    },
+    {
+      "op": "remove",
+      "path": "/effects/grass_color"
+    },
+    {
+      "op": "remove",
+      "path": "/effects/foliage_color"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/is_savanna_brown",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/effects/grass_color",
+      "value": 15259000
+    },
+    {
+      "op": "remove",
+      "path": "/effects/foliage_color"
+    },
+    {
+      "op": "add",
+      "path": "/temperature",
+      "value": 2
+    },
+    {
+      "op": "add",
+      "path": "/downfall",
+      "value": 0
+    }
+  ]
+]

@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "mushroomquest:mega_mushies_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:mini_mushies_biome_modifier",
+      "required": false
+    }
+  ]
+}

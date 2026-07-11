@@ -93,6 +93,22 @@
       "required": false
     },
     {
+      "id": "jvs:froglord_lair",
+      "required": false
+    },
+    {
+      "id": "jvs:mangrove_witch_hut",
+      "required": false
+    },
+    {
+      "id": "jvs:mohai_jungle",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_swamp",
+      "required": false
+    },
+    {
       "id": "letsdoaddon-structures:mangrove_outpost",
       "required": false
     },

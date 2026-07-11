@@ -37,6 +37,10 @@
       "required": false
     },
     {
+      "id": "butchery:vindicator_butchers_house",
+      "required": false
+    },
+    {
       "id": "create_ltab:dungeon_plains",
       "required": false
     },
@@ -70,10 +74,6 @@
     },
     {
       "id": "idas:tree_of_wisdom",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:sky_dungeon",
       "required": false
     },
     {

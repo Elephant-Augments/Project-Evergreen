@@ -9,11 +9,11 @@
       "required": false
     },
     {
-      "id": "dreamwoods:temperate_hemlock_rainforest",
+      "id": "dreamwoods:spinney",
       "required": false
     },
     {
-      "id": "dreamwoods:weeping_grove",
+      "id": "dreamwoods:temperate_hemlock_rainforest",
       "required": false
     },
     {
@@ -93,15 +93,15 @@
       "required": false
     },
     {
+      "id": "wythers:flooded_temperate_rainforest",
+      "required": false
+    },
+    {
       "id": "wythers:forested_highlands",
       "required": false
     },
     {
       "id": "wythers:giant_sequoia_forest",
-      "required": false
-    },
-    {
-      "id": "wythers:maple_mountains",
       "required": false
     },
     {

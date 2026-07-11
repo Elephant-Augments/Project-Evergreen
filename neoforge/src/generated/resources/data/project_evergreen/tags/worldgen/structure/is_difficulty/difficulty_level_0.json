@@ -1,14 +1,6 @@
 {
   "values": [
     {
-      "id": "ancientstructures:german_farm",
-      "required": false
-    },
-    {
-      "id": "ancientstructures:german_town",
-      "required": false
-    },
-    {
       "id": "ancientstructures:japanese_forge",
       "required": false
     },
@@ -18,18 +10,6 @@
     },
     {
       "id": "ancientstructures:japanese_temple",
-      "required": false
-    },
-    {
-      "id": "ancientstructures:lone_german_farmer",
-      "required": false
-    },
-    {
-      "id": "ancientstructures:lone_german_house",
-      "required": false
-    },
-    {
-      "id": "ancientstructures:lone_priest",
       "required": false
     },
     {
@@ -58,6 +38,10 @@
     },
     {
       "id": "ancientstructures:windmill",
+      "required": false
+    },
+    {
+      "id": "archaeology_ruins:ocean_ruin",
       "required": false
     },
     {
@@ -213,15 +197,7 @@
       "required": false
     },
     {
-      "id": "create_ltab:oil_rig",
-      "required": false
-    },
-    {
       "id": "create_ltab:plains_small",
-      "required": false
-    },
-    {
-      "id": "create_ltab:quarry",
       "required": false
     },
     {
@@ -365,14 +341,6 @@
       "required": false
     },
     {
-      "id": "feur_extension_desert:oasis_big",
-      "required": false
-    },
-    {
-      "id": "feur_extension_desert:oasis_small",
-      "required": false
-    },
-    {
       "id": "feur_extension_desert:old_house",
       "required": false
     },
@@ -405,7 +373,167 @@
       "required": false
     },
     {
-      "id": "imst:airship",
+      "id": "hollowmarch:lighthouse",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:sea_obelisk",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:shell_house",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:traveler_obelisk",
+      "required": false
+    },
+    {
+      "id": "idas:abandoned_lighthouse",
+      "required": false
+    },
+    {
+      "id": "idas:abandoned_vineyard",
+      "required": false
+    },
+    {
+      "id": "idas:abandonedhouse",
+      "required": false
+    },
+    {
+      "id": "idas:ancient_statue/ancient_statue_jungle",
+      "required": false
+    },
+    {
+      "id": "idas:ancient_statue/ancient_statue_plains",
+      "required": false
+    },
+    {
+      "id": "idas:beekeepers_house",
+      "required": false
+    },
+    {
+      "id": "idas:botanist",
+      "required": false
+    },
+    {
+      "id": "idas:brickhouse",
+      "required": false
+    },
+    {
+      "id": "idas:castle",
+      "required": false
+    },
+    {
+      "id": "idas:cottage",
+      "required": false
+    },
+    {
+      "id": "idas:desert_camp/desert_camp",
+      "required": false
+    },
+    {
+      "id": "idas:desert_camp/desert_camp_orange",
+      "required": false
+    },
+    {
+      "id": "idas:desert_camp/desert_camp_red",
+      "required": false
+    },
+    {
+      "id": "idas:desert_market/desert_market",
+      "required": false
+    },
+    {
+      "id": "idas:desert_market/desert_market_orange",
+      "required": false
+    },
+    {
+      "id": "idas:desert_market/desert_market_red",
+      "required": false
+    },
+    {
+      "id": "idas:dig_site/dig_site",
+      "required": false
+    },
+    {
+      "id": "idas:dig_site/dig_site_desert",
+      "required": false
+    },
+    {
+      "id": "idas:enchantingtower",
+      "required": false
+    },
+    {
+      "id": "idas:farmhouse",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_acacia",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_birch",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_dark_oak",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_jungle",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_oak",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_spruce",
+      "required": false
+    },
+    {
+      "id": "idas:mason_house",
+      "required": false
+    },
+    {
+      "id": "idas:redhorn_guild",
+      "required": false
+    },
+    {
+      "id": "idas:ruined_church",
+      "required": false
+    },
+    {
+      "id": "idas:snifferhenge",
+      "required": false
+    },
+    {
+      "id": "idas:sunken_ship/sunken_ship_ruins",
+      "required": false
+    },
+    {
+      "id": "idas:treetop_tavern",
+      "required": false
+    },
+    {
+      "id": "idas:washing_camp",
+      "required": false
+    },
+    {
+      "id": "idas:winter_wagon",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:herbalist_house",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:monk_tower",
       "required": false
     },
     {
@@ -473,6 +601,50 @@
       "required": false
     },
     {
+      "id": "integrated_villages:pirate_village",
+      "required": false
+    },
+    {
+      "id": "jvs:blue_house",
+      "required": false
+    },
+    {
+      "id": "jvs:deep_sea_tower",
+      "required": false
+    },
+    {
+      "id": "jvs:desert_market",
+      "required": false
+    },
+    {
+      "id": "jvs:drakkar_skeleton",
+      "required": false
+    },
+    {
+      "id": "jvs:ghost_ship",
+      "required": false
+    },
+    {
+      "id": "jvs:illager_tower_outpost",
+      "required": false
+    },
+    {
+      "id": "jvs:ruined_church",
+      "required": false
+    },
+    {
+      "id": "jvs:safe_house",
+      "required": false
+    },
+    {
+      "id": "jvs:sky_tower_island",
+      "required": false
+    },
+    {
+      "id": "jvs:sunken_boat",
+      "required": false
+    },
+    {
       "id": "kattersstructures:trader_outposts",
       "required": false
     },
@@ -482,22 +654,6 @@
     },
     {
       "id": "kattersstructures:villager_ocean",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:windmill",
-      "required": false
-    },
-    {
-      "id": "loot_n_explore:badlands_inn",
-      "required": false
-    },
-    {
-      "id": "loot_n_explore:desert_inn",
-      "required": false
-    },
-    {
-      "id": "loot_n_explore:plains_inn",
       "required": false
     },
     {
@@ -621,10 +777,6 @@
       "required": false
     },
     {
-      "id": "mvs:big_oak_tree",
-      "required": false
-    },
-    {
       "id": "mvs:birch_log_pile",
       "required": false
     },
@@ -637,19 +789,15 @@
       "required": false
     },
     {
+      "id": "mvs:campsite",
+      "required": false
+    },
+    {
       "id": "mvs:cart",
       "required": false
     },
     {
       "id": "mvs:cartographer_tower",
-      "required": false
-    },
-    {
-      "id": "mvs:cathedral",
-      "required": false
-    },
-    {
-      "id": "mvs:cherry_tree",
       "required": false
     },
     {
@@ -670,10 +818,6 @@
     },
     {
       "id": "mvs:fire_camp",
-      "required": false
-    },
-    {
-      "id": "mvs:flower_hole",
       "required": false
     },
     {
@@ -746,10 +890,6 @@
     },
     {
       "id": "mvs:out_house",
-      "required": false
-    },
-    {
-      "id": "mvs:paths",
       "required": false
     },
     {
@@ -1117,6 +1257,10 @@
       "required": false
     },
     {
+      "id": "snowyspirit:gingerbread_house",
+      "required": false
+    },
+    {
       "id": "structory:boat",
       "required": false
     },
@@ -1161,22 +1305,6 @@
       "required": false
     },
     {
-      "id": "totw_modded:ice",
-      "required": false
-    },
-    {
-      "id": "totw_modded:jungle",
-      "required": false
-    },
-    {
-      "id": "totw_modded:ocean",
-      "required": false
-    },
-    {
-      "id": "totw_modded:regular",
-      "required": false
-    },
-    {
       "id": "towns_and_towers:exclusives/village_wandering_trader_camp",
       "required": false
     },
@@ -1209,11 +1337,11 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/buried_village",
+      "id": "trek:overworld/medium/birch_trade",
       "required": false
     },
     {
-      "id": "trek:overworld/medium/church",
+      "id": "trek:overworld/medium/buried_village",
       "required": false
     },
     {
@@ -1226,10 +1354,6 @@
     },
     {
       "id": "trek:overworld/medium/farm",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/haunted_house",
       "required": false
     },
     {
@@ -1254,10 +1378,6 @@
     },
     {
       "id": "trek:overworld/medium/maison",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/oasis",
       "required": false
     },
     {
@@ -1289,10 +1409,6 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/street_vendor_stall",
-      "required": false
-    },
-    {
       "id": "trek:overworld/medium/wandering_trader_dark_oak",
       "required": false
     },
@@ -1313,6 +1429,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/very_rare/coves",
+      "required": false
+    },
+    {
       "id": "u_desert:desert/ambient/cactus/fork",
       "required": false
     },
@@ -1330,14 +1450,6 @@
     },
     {
       "id": "u_desert:desert/archeology/ruin/well",
-      "required": false
-    },
-    {
-      "id": "u_sea:island/warm/hill",
-      "required": false
-    },
-    {
-      "id": "u_sea:island/warm/tower",
       "required": false
     },
     {
@@ -1370,6 +1482,10 @@
     },
     {
       "id": "u_sea:ship/hopper",
+      "required": false
+    },
+    {
+      "id": "undergroundworlds:jungle_treehouse",
       "required": false
     },
     {
@@ -1413,19 +1529,11 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:ice_shanty",
-      "required": false
-    },
-    {
       "id": "wabi_sabi_structures:lighthouse",
       "required": false
     },
     {
       "id": "wabi_sabi_structures:llama_sanctuary_plateau",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:marine_observation_hub",
       "required": false
     },
     {

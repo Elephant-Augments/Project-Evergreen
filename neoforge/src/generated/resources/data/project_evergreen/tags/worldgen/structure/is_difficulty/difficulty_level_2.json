@@ -41,23 +41,27 @@
       "required": false
     },
     {
-      "id": "alexscaves:underground_cabin",
+      "id": "ancientstructures:german_farm",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:german_town",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:lone_german_farmer",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:lone_german_house",
+      "required": false
+    },
+    {
+      "id": "ancientstructures:lone_priest",
       "required": false
     },
     {
       "id": "ancientstructures:roman_ruined_temple",
-      "required": false
-    },
-    {
-      "id": "ancientstructures:ruined_german_village",
-      "required": false
-    },
-    {
-      "id": "ancientstructures:ruined_japanese_village",
-      "required": false
-    },
-    {
-      "id": "archaeology_ruins:ocean_ruin",
       "required": false
     },
     {
@@ -97,6 +101,14 @@
       "required": false
     },
     {
+      "id": "archeological:ruined_hut_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_hut_small",
+      "required": false
+    },
+    {
       "id": "archeological:ruined_red_camp",
       "required": false
     },
@@ -133,14 +145,6 @@
       "required": false
     },
     {
-      "id": "ati_structures:castillo",
-      "required": false
-    },
-    {
-      "id": "ati_structures:dojo",
-      "required": false
-    },
-    {
       "id": "ati_structures:illager_homestead",
       "required": false
     },
@@ -150,10 +154,6 @@
     },
     {
       "id": "ati_structures:monastery_tower",
-      "required": false
-    },
-    {
-      "id": "ati_structures:nomadic_camp",
       "required": false
     },
     {
@@ -197,6 +197,10 @@
       "required": false
     },
     {
+      "id": "betterarcheology:mott",
+      "required": false
+    },
+    {
       "id": "betterarcheology:stonehenge_grassy",
       "required": false
     },
@@ -210,10 +214,6 @@
     },
     {
       "id": "betterdungeons:small_dungeon",
-      "required": false
-    },
-    {
-      "id": "betterdungeons:small_nether_dungeon",
       "required": false
     },
     {
@@ -233,7 +233,15 @@
       "required": false
     },
     {
-      "id": "block_factorys_bosses:underworld_arena",
+      "id": "betterwitchhuts:witch_circle",
+      "required": false
+    },
+    {
+      "id": "betterwitchhuts:witch_hut",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:grave_mike_and_rory",
       "required": false
     },
     {
@@ -245,19 +253,35 @@
       "required": false
     },
     {
-      "id": "bosses_of_mass_destruction:obsidilith_arena",
+      "id": "butchery:vindicator_butchers_house",
       "required": false
     },
     {
-      "id": "cataclysm:burning_arena",
+      "id": "cataclysm:abandoned_spire",
       "required": false
     },
     {
-      "id": "cataclysm:ruined_citadel",
+      "id": "cataclysm:abandoned_temple",
       "required": false
     },
     {
-      "id": "cataclysm:soul_black_smith",
+      "id": "cataclysm:abandoned_village",
+      "required": false
+    },
+    {
+      "id": "cataclysm:amethyst_nest",
+      "required": false
+    },
+    {
+      "id": "cataclysm:desert_occupied_village",
+      "required": false
+    },
+    {
+      "id": "cataclysm:desert_site",
+      "required": false
+    },
+    {
+      "id": "cataclysm:desert_temple",
       "required": false
     },
     {
@@ -265,27 +289,11 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:basaltobsidianspike",
-      "required": false
-    },
-    {
       "id": "combat_structures_update:birch_cottage",
       "required": false
     },
     {
-      "id": "combat_structures_update:blackstonenetherportal_1",
-      "required": false
-    },
-    {
       "id": "combat_structures_update:dark_oak_illager_ship",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:end_islandhanging_fortress",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:glowsroomobsidianspike",
       "required": false
     },
     {
@@ -301,39 +309,7 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:large_obsidian_spike",
-      "required": false
-    },
-    {
       "id": "combat_structures_update:oak_villager_ship",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:obsidian_end_castle",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:obsidian_spike_feature_2",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:obsidian_spike_feature_3",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:obsidian_spike_feature_4",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:obsidian_spike_feature_5",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:obsidianlootspike",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:obsidianspikefeature_1",
       "required": false
     },
     {
@@ -361,14 +337,6 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:shulker_end_city",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:small_obsidian_spike",
-      "required": false
-    },
-    {
       "id": "combat_structures_update:sprucevillagership",
       "required": false
     },
@@ -385,11 +353,7 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:wither_castle",
-      "required": false
-    },
-    {
-      "id": "companions:companions_tent",
+      "id": "companions:companions_babayaga",
       "required": false
     },
     {
@@ -409,19 +373,19 @@
       "required": false
     },
     {
-      "id": "create_ltab:nether_roof_house",
+      "id": "create_ltab:kings_castle",
       "required": false
     },
     {
-      "id": "create_ltab:the_caretakersbunker",
+      "id": "create_ltab:oil_rig",
       "required": false
     },
     {
-      "id": "create_ltab:water_pre",
+      "id": "create_ltab:quarry",
       "required": false
     },
     {
-      "id": "create_pillagers_arise:cathedral_create",
+      "id": "create_ltab:the_bunker",
       "required": false
     },
     {
@@ -449,10 +413,6 @@
       "required": false
     },
     {
-      "id": "create_rustic_structures:rustic_barn",
-      "required": false
-    },
-    {
       "id": "create_structures_arise:create_bastion",
       "required": false
     },
@@ -473,15 +433,11 @@
       "required": false
     },
     {
-      "id": "create_structures_arise:darkcastle",
+      "id": "create_structures_arise:createwitchhut",
       "required": false
     },
     {
-      "id": "create_structures_arise:deadlordshouse",
-      "required": false
-    },
-    {
-      "id": "create_structures_arise:obsidiantemple",
+      "id": "create_structures_arise:crimsite_tower",
       "required": false
     },
     {
@@ -521,10 +477,6 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:merchant_campsite",
-      "required": false
-    },
-    {
       "id": "dungeons_arise:undead_pirate_ship",
       "required": false
     },
@@ -533,11 +485,31 @@
       "required": false
     },
     {
-      "id": "explorify:black_spiral",
+      "id": "end_villager_trader:end_trader_ship",
       "required": false
     },
     {
-      "id": "explorify:end_shipwreck",
+      "id": "eternal_starlight:portal_ruins_cold",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_common",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_desert",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_forest",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_jungle",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:stranghoul_den",
       "required": false
     },
     {
@@ -546,14 +518,6 @@
     },
     {
       "id": "explorify:supply_cache/forest",
-      "required": false
-    },
-    {
-      "id": "farmers_structures:cooks_nether_1",
-      "required": false
-    },
-    {
-      "id": "farmers_structures:cooks_nether_2",
       "required": false
     },
     {
@@ -569,6 +533,10 @@
       "required": false
     },
     {
+      "id": "farmers_structures:ratatouilles",
+      "required": false
+    },
+    {
       "id": "farmers_structures:squids",
       "required": false
     },
@@ -578,10 +546,6 @@
     },
     {
       "id": "farmers_structures:undergardens_sea",
-      "required": false
-    },
-    {
-      "id": "fdbosses:geburah_arena",
       "required": false
     },
     {
@@ -697,6 +661,34 @@
       "required": false
     },
     {
+      "id": "hexerei:baba_yaga_hut",
+      "required": false
+    },
+    {
+      "id": "hexerei:witch_hut",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:palm_haven",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:pirates_fall",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:raid_camp",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:sultans_bazaar",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:twin_keep",
+      "required": false
+    },
+    {
       "id": "hopo:mineshaft/acacia_mineshaft",
       "required": false
     },
@@ -725,19 +717,7 @@
       "required": false
     },
     {
-      "id": "hopo:portal/nether/piglin_ruin",
-      "required": false
-    },
-    {
-      "id": "hopo:portal/overworld/portal_deepslate",
-      "required": false
-    },
-    {
-      "id": "hopo:portal/overworld/portal_dripstone",
-      "required": false
-    },
-    {
-      "id": "hopo:portal/overworld/portal_lush",
+      "id": "hopo:mineshaft/stone_mineshaft",
       "required": false
     },
     {
@@ -753,6 +733,170 @@
       "required": false
     },
     {
+      "id": "idas:animal_den/forest_den",
+      "required": false
+    },
+    {
+      "id": "idas:animal_den/foxhound_den",
+      "required": false
+    },
+    {
+      "id": "idas:bearclaw_inn",
+      "required": false
+    },
+    {
+      "id": "idas:desert_camp/desert_camp_bygwindswept",
+      "required": false
+    },
+    {
+      "id": "idas:hermits_hollow",
+      "required": false
+    },
+    {
+      "id": "idas:hunters_cabin",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/sirens_cove",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_bopmahogany",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_bopredwood",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_bygmahogany",
+      "required": false
+    },
+    {
+      "id": "idas:lumber_camp/lumber_camp_bygredwood",
+      "required": false
+    },
+    {
+      "id": "idas:necromancers_spire",
+      "required": false
+    },
+    {
+      "id": "idas:ruined_fort",
+      "required": false
+    },
+    {
+      "id": "idas:ruined_well",
+      "required": false
+    },
+    {
+      "id": "idas:sunken_ship/sunken_ship",
+      "required": false
+    },
+    {
+      "id": "idas:sunken_ship/sunken_ship_coral",
+      "required": false
+    },
+    {
+      "id": "idas:the_log",
+      "required": false
+    },
+    {
+      "id": "idas:tinkers_workshop",
+      "required": false
+    },
+    {
+      "id": "idas:train_ruins",
+      "required": false
+    },
+    {
+      "id": "idas:tudor_pub",
+      "required": false
+    },
+    {
+      "id": "idas:wacky_wares",
+      "required": false
+    },
+    {
+      "id": "idas:wizard_tower",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:balloon_tower",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:iceberg",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:iceberg_medium",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:illager_camp",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:illager_stable",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:illager_tipi_camp",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:illager_tower",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:illager_tower2",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:illager_tower3",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:lava_extractor",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:lone_house",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:monastery",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:simple_cart",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:simple_well",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:tipi",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:totem",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:tower_ruin",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:well",
+      "required": false
+    },
+    {
+      "id": "imst:airship",
+      "required": false
+    },
+    {
       "id": "imst:bandit_camp",
       "required": false
     },
@@ -765,6 +909,10 @@
       "required": false
     },
     {
+      "id": "imst:fossil_swamp",
+      "required": false
+    },
+    {
       "id": "imst:lumberjack/birch_hut",
       "required": false
     },
@@ -774,6 +922,106 @@
     },
     {
       "id": "imst:viking_house",
+      "required": false
+    },
+    {
+      "id": "imst:witch_hut",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:cabin_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:clockwork_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:kutcha_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:marketstead_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:mediterranean_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:mossy_mounds",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:oasis_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:tavern_village",
+      "required": false
+    },
+    {
+      "id": "jvs:battle_tower",
+      "required": false
+    },
+    {
+      "id": "jvs:fisherman_raft",
+      "required": false
+    },
+    {
+      "id": "jvs:illager_mushroom",
+      "required": false
+    },
+    {
+      "id": "jvs:illager_ocean_base",
+      "required": false
+    },
+    {
+      "id": "jvs:mushroom_house",
+      "required": false
+    },
+    {
+      "id": "jvs:mushroom_spot",
+      "required": false
+    },
+    {
+      "id": "jvs:mushroom_spot_witch",
+      "required": false
+    },
+    {
+      "id": "jvs:polarbear_iceberg",
+      "required": false
+    },
+    {
+      "id": "jvs:samourai_dojo",
+      "required": false
+    },
+    {
+      "id": "jvs:savanna_tribe",
+      "required": false
+    },
+    {
+      "id": "jvs:ships_collision",
+      "required": false
+    },
+    {
+      "id": "jvs:trader_ship",
+      "required": false
+    },
+    {
+      "id": "jvs:viking_house_grass",
+      "required": false
+    },
+    {
+      "id": "jvs:villager_balloon",
+      "required": false
+    },
+    {
+      "id": "jvs:wolf_den",
       "required": false
     },
     {
@@ -797,10 +1045,6 @@
       "required": false
     },
     {
-      "id": "kattersstructures:graveyard",
-      "required": false
-    },
-    {
       "id": "kattersstructures:mini_dungeon_rugged_shack",
       "required": false
     },
@@ -821,15 +1065,15 @@
       "required": false
     },
     {
+      "id": "kattersstructures:ruined_village",
+      "required": false
+    },
+    {
       "id": "kattersstructures:shroom_cave",
       "required": false
     },
     {
       "id": "kattersstructures:skyrtle",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:spider_den",
       "required": false
     },
     {
@@ -850,6 +1094,22 @@
     },
     {
       "id": "kattersstructures:villager_desert",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:windmill",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:badlands_inn",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:desert_inn",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:plains_inn",
       "required": false
     },
     {
@@ -877,11 +1137,11 @@
       "required": false
     },
     {
-      "id": "medieval_buildings:fort",
+      "id": "luistercorp:fallen_log_swamp",
       "required": false
     },
     {
-      "id": "minecraft:bastion_remnant",
+      "id": "medieval_buildings:fort",
       "required": false
     },
     {
@@ -889,19 +1149,7 @@
       "required": false
     },
     {
-      "id": "minecraft:end_city",
-      "required": false
-    },
-    {
-      "id": "minecraft:fortress",
-      "required": false
-    },
-    {
       "id": "minecraft:monument",
-      "required": false
-    },
-    {
-      "id": "minecraft:nether_fossil",
       "required": false
     },
     {
@@ -917,7 +1165,7 @@
       "required": false
     },
     {
-      "id": "minecraft:ruined_portal_nether",
+      "id": "minecraft:pillager_outpost_swamp",
       "required": false
     },
     {
@@ -925,7 +1173,15 @@
       "required": false
     },
     {
+      "id": "minecraft:ruined_portal_swamp",
+      "required": false
+    },
+    {
       "id": "minecraft:shipwreck",
+      "required": false
+    },
+    {
+      "id": "minecraft:swamp_hut",
       "required": false
     },
     {
@@ -946,6 +1202,198 @@
     },
     {
       "id": "minecraft:village_taiga",
+      "required": false
+    },
+    {
+      "id": "mmr:jungle_mineshaft",
+      "required": false
+    },
+    {
+      "id": "mns:bridge_1",
+      "required": false
+    },
+    {
+      "id": "mns:bridge_2",
+      "required": false
+    },
+    {
+      "id": "mns:bridge_3",
+      "required": false
+    },
+    {
+      "id": "mns:bridge_4",
+      "required": false
+    },
+    {
+      "id": "mns:bridge_5",
+      "required": false
+    },
+    {
+      "id": "mns:bridge_6",
+      "required": false
+    },
+    {
+      "id": "mns:circle_blackstone",
+      "required": false
+    },
+    {
+      "id": "mns:circle_nether_brick",
+      "required": false
+    },
+    {
+      "id": "mns:copper_tower",
+      "required": false
+    },
+    {
+      "id": "mns:crimson_forge",
+      "required": false
+    },
+    {
+      "id": "mns:crimson_lava_well",
+      "required": false
+    },
+    {
+      "id": "mns:giant_skull",
+      "required": false
+    },
+    {
+      "id": "mns:grave_yard",
+      "required": false
+    },
+    {
+      "id": "mns:large_blackstone_pillars",
+      "required": false
+    },
+    {
+      "id": "mns:large_blackstone_walls",
+      "required": false
+    },
+    {
+      "id": "mns:large_house_1",
+      "required": false
+    },
+    {
+      "id": "mns:large_nether_brick",
+      "required": false
+    },
+    {
+      "id": "mns:lava_pool",
+      "required": false
+    },
+    {
+      "id": "mns:leafy_rubble",
+      "required": false
+    },
+    {
+      "id": "mns:medium_blackstone",
+      "required": false
+    },
+    {
+      "id": "mns:medium_crimson_fungus",
+      "required": false
+    },
+    {
+      "id": "mns:medium_crimson_fungus_2",
+      "required": false
+    },
+    {
+      "id": "mns:medium_crimson_well",
+      "required": false
+    },
+    {
+      "id": "mns:medium_house",
+      "required": false
+    },
+    {
+      "id": "mns:medium_house_2",
+      "required": false
+    },
+    {
+      "id": "mns:medium_warped_fungus",
+      "required": false
+    },
+    {
+      "id": "mns:medium_warped_fungus_2",
+      "required": false
+    },
+    {
+      "id": "mns:medium_warped_well",
+      "required": false
+    },
+    {
+      "id": "mns:nether_tower",
+      "required": false
+    },
+    {
+      "id": "mns:nether_wart_farm",
+      "required": false
+    },
+    {
+      "id": "mns:ruined_portal",
+      "required": false
+    },
+    {
+      "id": "mns:sandy_skull",
+      "required": false
+    },
+    {
+      "id": "mns:shrine",
+      "required": false
+    },
+    {
+      "id": "mns:small_nether_brick",
+      "required": false
+    },
+    {
+      "id": "mns:soul_fire",
+      "required": false
+    },
+    {
+      "id": "mns:sword",
+      "required": false
+    },
+    {
+      "id": "mns:train",
+      "required": false
+    },
+    {
+      "id": "mns:very_small_blackstone",
+      "required": false
+    },
+    {
+      "id": "mns:very_small_blackstone_2",
+      "required": false
+    },
+    {
+      "id": "mns:very_small_blackstone_3",
+      "required": false
+    },
+    {
+      "id": "mns:very_small_blackstone_4",
+      "required": false
+    },
+    {
+      "id": "mns:very_small_nether_brick",
+      "required": false
+    },
+    {
+      "id": "mns:very_small_nether_brick_2",
+      "required": false
+    },
+    {
+      "id": "mns:very_small_nether_brick_3",
+      "required": false
+    },
+    {
+      "id": "mns:warped_dome",
+      "required": false
+    },
+    {
+      "id": "mns:warped_house",
+      "required": false
+    },
+    {
+      "id": "mns:warped_pool",
       "required": false
     },
     {
@@ -993,11 +1441,11 @@
       "required": false
     },
     {
-      "id": "mvs:campsite",
+      "id": "mvs:castle_ruins",
       "required": false
     },
     {
-      "id": "mvs:castle_ruins",
+      "id": "mvs:cathedral",
       "required": false
     },
     {
@@ -1033,26 +1481,6 @@
       "required": false
     },
     {
-      "id": "mvs:end_scraps_1",
-      "required": false
-    },
-    {
-      "id": "mvs:end_scraps_2",
-      "required": false
-    },
-    {
-      "id": "mvs:end_scraps_3",
-      "required": false
-    },
-    {
-      "id": "mvs:end_scraps_4",
-      "required": false
-    },
-    {
-      "id": "mvs:end_well",
-      "required": false
-    },
-    {
       "id": "mvs:fox_hut",
       "required": false
     },
@@ -1077,19 +1505,11 @@
       "required": false
     },
     {
-      "id": "mvs:nether_devil",
-      "required": false
-    },
-    {
-      "id": "mvs:nether_well",
-      "required": false
-    },
-    {
-      "id": "mvs:oak_tree",
-      "required": false
-    },
-    {
       "id": "mvs:ruined_beacon",
+      "required": false
+    },
+    {
+      "id": "mvs:small_dark_oak_lantern",
       "required": false
     },
     {
@@ -1101,7 +1521,7 @@
       "required": false
     },
     {
-      "id": "mvs:spruce_tree",
+      "id": "mvs:small_swamp_house",
       "required": false
     },
     {
@@ -1113,11 +1533,23 @@
       "required": false
     },
     {
-      "id": "mythsandlegends:scorched_nest",
+      "id": "mythsandlegends:sepulcrum_ignitum",
       "required": false
     },
     {
-      "id": "mythsandlegends:sepulcrum_ignitum",
+      "id": "natures_spirit:village_adobe",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:village_coconut",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:village_cypress",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:village_wisteria",
       "required": false
     },
     {
@@ -1126,30 +1558,6 @@
     },
     {
       "id": "nordic_structures:specialvikinglongboat_2",
-      "required": false
-    },
-    {
-      "id": "nova_structures:bunker",
-      "required": false
-    },
-    {
-      "id": "nova_structures:conduit_ruin",
-      "required": false
-    },
-    {
-      "id": "nova_structures:creeping_crypt",
-      "required": false
-    },
-    {
-      "id": "nova_structures:end_castle",
-      "required": false
-    },
-    {
-      "id": "nova_structures:end_lighthouse",
-      "required": false
-    },
-    {
-      "id": "nova_structures:end_ship",
       "required": false
     },
     {
@@ -1189,10 +1597,6 @@
       "required": false
     },
     {
-      "id": "nova_structures:hamlet",
-      "required": false
-    },
-    {
       "id": "nova_structures:illager_camp",
       "required": false
     },
@@ -1201,59 +1605,7 @@
       "required": false
     },
     {
-      "id": "nova_structures:nether_keep",
-      "required": false
-    },
-    {
-      "id": "nova_structures:nether_port",
-      "required": false
-    },
-    {
-      "id": "nova_structures:nether_skeleton_tower_crimson",
-      "required": false
-    },
-    {
-      "id": "nova_structures:nether_skeleton_tower_soul",
-      "required": false
-    },
-    {
-      "id": "nova_structures:nether_skeleton_tower_warped",
-      "required": false
-    },
-    {
-      "id": "nova_structures:nether_skeleton_tower_waste",
-      "required": false
-    },
-    {
-      "id": "nova_structures:piglin_camp",
-      "required": false
-    },
-    {
-      "id": "nova_structures:piglin_donjon",
-      "required": false
-    },
-    {
-      "id": "nova_structures:piglin_outstation",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_big_remnant",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_big_remnant_2",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_big_remnant_3",
-      "required": false
-    },
-    {
       "id": "nova_structures:remnant_birch_graveyard",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_bridge_remnant",
       "required": false
     },
     {
@@ -1261,31 +1613,7 @@
       "required": false
     },
     {
-      "id": "nova_structures:remnant_medium_remnant",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_medium_remnant_2",
-      "required": false
-    },
-    {
       "id": "nova_structures:remnant_miner_hut",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_ruin_farmer",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_ruin_smith",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_sawmill",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_school_remnant",
       "required": false
     },
     {
@@ -1322,22 +1650,6 @@
     },
     {
       "id": "nova_structures:shrine_tower",
-      "required": false
-    },
-    {
-      "id": "nova_structures:skeleton_camp_crimson",
-      "required": false
-    },
-    {
-      "id": "nova_structures:skeleton_camp_soul",
-      "required": false
-    },
-    {
-      "id": "nova_structures:skeleton_camp_warped",
-      "required": false
-    },
-    {
-      "id": "nova_structures:skeleton_camp_waste",
       "required": false
     },
     {
@@ -1390,6 +1702,10 @@
     },
     {
       "id": "philipsruins:level_one_ruins",
+      "required": false
+    },
+    {
+      "id": "philipsruins:level_three_ruins",
       "required": false
     },
     {
@@ -1737,11 +2053,19 @@
       "required": false
     },
     {
+      "id": "qrafty:lotussea",
+      "required": false
+    },
+    {
       "id": "qrafty:magenta_shroom_clearing",
       "required": false
     },
     {
       "id": "qrafty:overworld_leak",
+      "required": false
+    },
+    {
+      "id": "qrafty:relict",
       "required": false
     },
     {
@@ -1761,23 +2085,15 @@
       "required": false
     },
     {
+      "id": "qrafty:transilvania",
+      "required": false
+    },
+    {
       "id": "qrafty:well",
       "required": false
     },
     {
-      "id": "repurposed_structures:ancient_city_end",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:ancient_city_nether",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:ancient_city_ocean",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:city_nether",
       "required": false
     },
     {
@@ -1797,47 +2113,11 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:mineshaft_basalt",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:mineshaft_crimson",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:mineshaft_nether",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:mineshaft_ocean",
       "required": false
     },
     {
-      "id": "repurposed_structures:mineshaft_soul",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:mineshaft_warped",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:monument_nether",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:outpost_basalt",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:outpost_birch",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:outpost_crimson",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:outpost_end",
       "required": false
     },
     {
@@ -1846,10 +2126,6 @@
     },
     {
       "id": "repurposed_structures:outpost_mangrove",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:outpost_nether_brick",
       "required": false
     },
     {
@@ -1869,71 +2145,7 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:outpost_warped",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:pyramid_end",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:pyramid_nether",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:ruined_portal_end",
-      "required": false
-    },
-    {
       "id": "repurposed_structures:ruins_land_cold",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:ruins_nether",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:shipwreck_crimson",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:shipwreck_end",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:shipwreck_nether_bricks",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:shipwreck_warped",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:stronghold_end",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:stronghold_nether",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:temple_nether_basalt",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:temple_nether_crimson",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:temple_nether_soul",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:temple_nether_warped",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:temple_nether_wasteland",
       "required": false
     },
     {
@@ -1950,10 +2162,6 @@
     },
     {
       "id": "repurposed_structures:village_birch",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_crimson",
       "required": false
     },
     {
@@ -1974,10 +2182,6 @@
     },
     {
       "id": "repurposed_structures:village_ocean",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:village_warped",
       "required": false
     },
     {
@@ -2017,6 +2221,14 @@
       "required": false
     },
     {
+      "id": "spawn:ant_mount",
+      "required": false
+    },
+    {
+      "id": "spawn:octopolis",
+      "required": false
+    },
+    {
       "id": "structory:abandoned_camp",
       "required": false
     },
@@ -2045,23 +2257,7 @@
       "required": false
     },
     {
-      "id": "structory_towers:end/end_tower",
-      "required": false
-    },
-    {
       "id": "structory_towers:great_toadstool",
-      "required": false
-    },
-    {
-      "id": "structory_towers:nether/fortress_tower",
-      "required": false
-    },
-    {
-      "id": "structory_towers:nether/strange_outpost",
-      "required": false
-    },
-    {
-      "id": "structory_towers:nether/warped_outpost",
       "required": false
     },
     {
@@ -2089,18 +2285,6 @@
       "required": false
     },
     {
-      "id": "totw_modded:derelict",
-      "required": false
-    },
-    {
-      "id": "totw_modded:derelict_grass",
-      "required": false
-    },
-    {
-      "id": "totw_modded:end",
-      "required": false
-    },
-    {
       "id": "totw_modded:everbright",
       "required": false
     },
@@ -2110,6 +2294,14 @@
     },
     {
       "id": "totw_modded:glacio",
+      "required": false
+    },
+    {
+      "id": "totw_modded:ice",
+      "required": false
+    },
+    {
+      "id": "totw_modded:jungle",
       "required": false
     },
     {
@@ -2125,15 +2317,15 @@
       "required": false
     },
     {
-      "id": "totw_modded:nether",
-      "required": false
-    },
-    {
-      "id": "totw_modded:ocean_warm",
+      "id": "totw_modded:ocean",
       "required": false
     },
     {
       "id": "totw_modded:ratlantis",
+      "required": false
+    },
+    {
+      "id": "totw_modded:regular",
       "required": false
     },
     {
@@ -2178,10 +2370,6 @@
     },
     {
       "id": "towns_and_towers:exclusives/village_nilotic",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:exclusives/village_piglin",
       "required": false
     },
     {
@@ -2305,22 +2493,6 @@
       "required": false
     },
     {
-      "id": "trek:end/medium/end_city",
-      "required": false
-    },
-    {
-      "id": "trek:nether/common/nether_pillar",
-      "required": false
-    },
-    {
-      "id": "trek:nether/medium/overworld_leak_1",
-      "required": false
-    },
-    {
-      "id": "trek:nether/medium/overworld_leak_2",
-      "required": false
-    },
-    {
       "id": "trek:overworld/common/cooking_pork",
       "required": false
     },
@@ -2330,6 +2502,10 @@
     },
     {
       "id": "trek:overworld/common/ruins",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/common/small_swamp_ruins",
       "required": false
     },
     {
@@ -2357,10 +2533,6 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/birch_trade",
-      "required": false
-    },
-    {
       "id": "trek:overworld/medium/camp_1",
       "required": false
     },
@@ -2374,6 +2546,10 @@
     },
     {
       "id": "trek:overworld/medium/camp_4",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/church",
       "required": false
     },
     {
@@ -2461,10 +2637,6 @@
       "required": false
     },
     {
-      "id": "trek:overworld/rare/castle",
-      "required": false
-    },
-    {
       "id": "trek:overworld/rare/island_village_1",
       "required": false
     },
@@ -2477,15 +2649,19 @@
       "required": false
     },
     {
-      "id": "trek:overworld/rare/villager_fortress",
-      "required": false
-    },
-    {
       "id": "trek:overworld/very_common/rocks",
       "required": false
     },
     {
       "id": "trek:overworld/very_rare/farm_island",
+      "required": false
+    },
+    {
+      "id": "trek:test_height",
+      "required": false
+    },
+    {
+      "id": "trek:village/cherry",
       "required": false
     },
     {
@@ -2509,7 +2685,11 @@
       "required": false
     },
     {
-      "id": "u_sea:island/cold/glacier",
+      "id": "u_sea:island/warm/hill",
+      "required": false
+    },
+    {
+      "id": "u_sea:island/warm/tower",
       "required": false
     },
     {
@@ -2522,6 +2702,10 @@
     },
     {
       "id": "u_sea:raft/cold/wide_tide_breaker",
+      "required": false
+    },
+    {
+      "id": "undergroundworlds:swamp_house",
       "required": false
     },
     {
@@ -2581,19 +2765,7 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:basalt_castle",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:basalt_factory_ruin",
-      "required": false
-    },
-    {
       "id": "wabi_sabi_structures:birch_mushroom_cave",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:chorus_orchard",
       "required": false
     },
     {
@@ -2609,15 +2781,11 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:ender_claw",
+      "id": "wabi_sabi_structures:effigy_patch_swamp",
       "required": false
     },
     {
       "id": "wabi_sabi_structures:firewatch_tower",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:hellish_orphanage",
       "required": false
     },
     {
@@ -2629,11 +2797,19 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:mushroom_house",
+      "id": "wabi_sabi_structures:marine_observation_hub",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:obsidian_egg",
+      "id": "wabi_sabi_structures:mossy_roof_house",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:mossy_roof_shed",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:mushroom_house",
       "required": false
     },
     {
@@ -2641,23 +2817,15 @@
       "required": false
     },
     {
+      "id": "wabi_sabi_structures:rot_tree",
+      "required": false
+    },
+    {
       "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:strider_stable",
-      "required": false
-    },
-    {
       "id": "wabi_sabi_structures:vigilante_fort",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:warped_ender_claw",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:zen_chair_museum",
       "required": false
     },
     {

@@ -1249,6 +1249,78 @@
       "required": false
     },
     {
+      "id": "endermanoverhaul:badlands_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:cave_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:coral_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:crimson_forest_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:dark_oak_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:desert_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:end_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:end_islands_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:ice_spikes_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:nether_wastes_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:savanna_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:scarab",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:snowy_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:soulsand_valley_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:spirit",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:swamp_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:warped_forest_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:windswept_hills_enderman",
+      "required": false
+    },
+    {
       "id": "fdbosses:chesed",
       "required": false
     },
@@ -1277,11 +1349,67 @@
       "required": false
     },
     {
+      "id": "gravestone:player_ghost",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:alchemist",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:archivist",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:basher",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:firecaller",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:inquisitor",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:invoker",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:marauder",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:necromancer",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:provoker",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:sorcerer",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:surrendered",
+      "required": false
+    },
+    {
       "id": "loot_n_explore:frost_haunt",
       "required": false
     },
     {
+      "id": "loot_n_explore:frost_monarch",
+      "required": false
+    },
+    {
       "id": "loot_n_explore:glaze",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:monarchs_servant",
       "required": false
     },
     {
@@ -1753,6 +1881,14 @@
       "required": false
     },
     {
+      "id": "quark:forgotten",
+      "required": false
+    },
+    {
+      "id": "quark:wraith",
+      "required": false
+    },
+    {
       "id": "raidsenhanced:golem_of_last_resort",
       "required": false
     },
@@ -1786,6 +1922,54 @@
     },
     {
       "id": "remnant_bosses:wraith",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:burned",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:dead_beard",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:frostbitten",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:glacial_hunter",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:immortal",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:mummy",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:scarab",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:skeleton_lackey",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:swampy",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:undead_miner",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:zap",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:zombie_lackey",
       "required": false
     },
     {

@@ -1,7 +1,67 @@
 {
   "values": [
     {
+      "id": "betterfortresses:fortress",
+      "required": false
+    },
+    {
+      "id": "betterjungletemples:jungle_temple",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:dragon_tower",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:underworld_arena",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:aviary",
+      "required": false
+    },
+    {
+      "id": "explorify:black_spiral",
+      "required": false
+    },
+    {
+      "id": "fdbosses:geburah_arena",
+      "required": false
+    },
+    {
       "id": "feur_extension_fossil:fossil_hand",
+      "required": false
+    },
+    {
+      "id": "friendsandfoes:citadel",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:frostmonarch_temple",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:glacial_tomb",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:glaze_tower",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:underground_structures",
+      "required": false
+    },
+    {
+      "id": "minecraft:bastion_remnant",
+      "required": false
+    },
+    {
+      "id": "minecraft:end_city",
+      "required": false
+    },
+    {
+      "id": "minecraft:fortress",
       "required": false
     },
     {
@@ -9,7 +69,31 @@
       "required": false
     },
     {
+      "id": "netherman:mansion_nether",
+      "required": false
+    },
+    {
+      "id": "nova_structures:end_castle",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:outpost_desert",
+      "required": false
+    },
+    {
+      "id": "totw_modded:badlands",
+      "required": false
+    },
+    {
+      "id": "totw_modded:derelict",
+      "required": false
+    },
+    {
+      "id": "totw_modded:derelict_grass",
+      "required": false
+    },
+    {
+      "id": "totw_modded:desert",
       "required": false
     },
     {
@@ -22,6 +106,10 @@
     },
     {
       "id": "trek:overworld/medium/tour_desert",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/castle",
       "required": false
     }
   ]

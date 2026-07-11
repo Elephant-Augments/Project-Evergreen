@@ -1,5 +1,5 @@
 {
   "type": "neoforge:remove_spawns",
   "biomes": "#project_evergreen:is_region/all_wilderness",
-  "entity_types": "#project_evergreen:disabled"
+  "entity_types": "#project_evergreen:is_redistributed/all_wilderness_removals"
 }

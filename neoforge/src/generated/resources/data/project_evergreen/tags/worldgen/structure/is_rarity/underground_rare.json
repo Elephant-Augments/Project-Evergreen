@@ -5,15 +5,19 @@
       "required": false
     },
     {
+      "id": "ati_structures:underground_monument",
+      "required": false
+    },
+    {
+      "id": "ati_structures:warden_monument",
+      "required": false
+    },
+    {
       "id": "betterstrongholds:stronghold",
       "required": false
     },
     {
       "id": "cataclysm:ancient_factory",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:foundry",
       "required": false
     },
     {
@@ -121,6 +125,10 @@
       "required": false
     },
     {
+      "id": "minecraft:ancient_city",
+      "required": false
+    },
+    {
       "id": "minecraft:stronghold",
       "required": false
     },
@@ -130,6 +138,30 @@
     },
     {
       "id": "minecraft:trial_chambers",
+      "required": false
+    },
+    {
+      "id": "mmr:desert_mineshaft",
+      "required": false
+    },
+    {
+      "id": "mmr:jungle_mineshaft",
+      "required": false
+    },
+    {
+      "id": "mmr:mesa_mineshaft",
+      "required": false
+    },
+    {
+      "id": "mmr:mineshaft",
+      "required": false
+    },
+    {
+      "id": "mmr:nether_mineshaft",
+      "required": false
+    },
+    {
+      "id": "mmr:snowy_mineshaft",
       "required": false
     },
     {

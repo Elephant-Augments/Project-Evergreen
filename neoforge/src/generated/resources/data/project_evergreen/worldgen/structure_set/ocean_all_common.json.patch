@@ -5,7 +5,8 @@
       "path": "/temp_properties",
       "value": {
         "id": "project_evergreen:ocean_all_common",
-        "is_loaded": false
+        "is_loaded": false,
+        "is_flat": false
       }
     },
     {

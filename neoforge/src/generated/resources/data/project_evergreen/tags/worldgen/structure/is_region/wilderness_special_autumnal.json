@@ -13,10 +13,6 @@
       "required": false
     },
     {
-      "id": "nova_structures:remnant_birch_graveyard",
-      "required": false
-    },
-    {
       "id": "structory:dense_forest_ruin",
       "required": false
     }

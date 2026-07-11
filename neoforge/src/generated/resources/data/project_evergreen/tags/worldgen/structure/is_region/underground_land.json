@@ -121,6 +121,10 @@
       "required": false
     },
     {
+      "id": "ati_structures:wither_cavern",
+      "required": false
+    },
+    {
       "id": "betterarcheology:catacombs",
       "required": false
     },
@@ -253,6 +257,10 @@
       "required": false
     },
     {
+      "id": "eternal_starlight:golem_forge",
+      "required": false
+    },
+    {
       "id": "farmers_structures:quark_glimer",
       "required": false
     },
@@ -382,6 +390,18 @@
     },
     {
       "id": "hopo:mineshaft/stone_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:portal/overworld/portal_deepslate",
+      "required": false
+    },
+    {
+      "id": "hopo:portal/overworld/portal_dripstone",
+      "required": false
+    },
+    {
+      "id": "hopo:portal/overworld/portal_lush",
       "required": false
     },
     {

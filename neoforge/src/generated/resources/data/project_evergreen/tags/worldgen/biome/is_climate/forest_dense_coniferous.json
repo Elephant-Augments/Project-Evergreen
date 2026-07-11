@@ -9,10 +9,6 @@
       "required": false
     },
     {
-      "id": "dreamwoods:spruce_slopes",
-      "required": false
-    },
-    {
       "id": "minecraft:old_growth_pine_taiga",
       "required": false
     },
@@ -22,10 +18,6 @@
     },
     {
       "id": "minecraft:taiga",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:boreal_taiga",
       "required": false
     },
     {

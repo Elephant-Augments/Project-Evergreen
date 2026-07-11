@@ -59,6 +59,14 @@
     {
       "id": "bettermineshafts:mineshaft_spruce_snowy",
       "required": false
+    },
+    {
+      "id": "create_structures_arise:createmonsterroom",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:village_underground",
+      "required": false
     }
   ]
 }

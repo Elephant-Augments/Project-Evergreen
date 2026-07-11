@@ -17,10 +17,6 @@
       "required": false
     },
     {
-      "id": "dreamwoods:spruce_slopes",
-      "required": false
-    },
-    {
       "id": "dreamwoods:thermal_springs",
       "required": false
     },

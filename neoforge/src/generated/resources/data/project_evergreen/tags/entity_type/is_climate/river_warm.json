@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "koopascritters:agazzis_cichlid",
+      "required": false
+    },
+    {
+      "id": "koopascritters:clown_loach",
+      "required": false
+    },
+    {
+      "id": "koopascritters:marabou_stork",
+      "required": false
+    },
+    {
+      "id": "koopascritters:peacock_bass",
+      "required": false
+    },
+    {
+      "id": "koopascritters:roseate_spoonbill",
+      "required": false
+    }
+  ]
+}

@@ -49,6 +49,22 @@
       "required": false
     },
     {
+      "id": "jvs:illager_mushroom",
+      "required": false
+    },
+    {
+      "id": "jvs:mushroom_house",
+      "required": false
+    },
+    {
+      "id": "jvs:mushroom_spot",
+      "required": false
+    },
+    {
+      "id": "jvs:mushroom_spot_witch",
+      "required": false
+    },
+    {
       "id": "kattersstructures:shroom_cave",
       "required": false
     },

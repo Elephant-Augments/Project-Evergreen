@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "koopascritters:headlight_beetle",
+      "required": false
+    },
+    {
+      "id": "koopascritters:helmeted_guineafowl",
+      "required": false
+    },
+    {
+      "id": "koopascritters:impalla",
+      "required": false
+    },
+    {
+      "id": "koopascritters:serval",
+      "required": false
+    }
+  ]
+}

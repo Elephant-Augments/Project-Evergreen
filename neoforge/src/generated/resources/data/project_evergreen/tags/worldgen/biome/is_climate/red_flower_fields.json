@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:autumnal_hills",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:carnation_fields",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_taiga",
+      "required": false
+    }
+  ]
+}

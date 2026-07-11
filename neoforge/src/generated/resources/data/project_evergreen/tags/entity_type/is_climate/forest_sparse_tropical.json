@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "koopascritters:peacock_bass",
+      "required": false
+    },
+    {
+      "id": "koopascritters:roseate_spoonbill",
+      "required": false
+    },
+    {
+      "id": "koopascritters:tricolor_hognose_snake",
+      "required": false
+    }
+  ]
+}

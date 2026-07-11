@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "crittersandcompanions:dragonfly",
+      "required": false
+    },
+    {
+      "id": "koopascritters:clown_loach",
+      "required": false
+    },
+    {
+      "id": "koopascritters:fly_river_turtle",
+      "required": false
+    },
+    {
+      "id": "koopascritters:ocellate_river_ray",
+      "required": false
+    }
+  ]
+}

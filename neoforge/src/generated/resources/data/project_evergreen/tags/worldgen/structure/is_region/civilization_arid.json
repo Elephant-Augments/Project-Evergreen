@@ -49,6 +49,14 @@
       "required": false
     },
     {
+      "id": "jvs:illager_raid_camp",
+      "required": false
+    },
+    {
+      "id": "jvs:illager_tower_outpost",
+      "required": false
+    },
+    {
       "id": "minecraft:village_savanna",
       "required": false
     },

@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "op": "add",
+      "path": "/temp_properties",
+      "value": {
+        "id": "mushroomquest:mini_mushies_biome_modifier",
+        "is_loaded": false,
+        "is_modifier": true,
+        "biome": "#project_evergreen:is_climate/special_magical",
+        "patchable": true
+      }
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/disabled",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/type",
+      "value": "neoforge:none"
+    }
+  ],
+  [
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/biome"
+      },
+      {
+        "op": "copy",
+        "path": "/biomes",
+        "from": "/temp_properties/biome"
+      }
+    ]
+  ]
+]

@@ -1,5 +1,5 @@
 {
   "type": "neoforge:remove_spawns",
   "biomes": "#project_evergreen:is_region/ocean_shallow_frozen",
-  "entity_types": "#project_evergreen:disabled"
+  "entity_types": "#project_evergreen:is_redistributed/ocean_shallow_frozen_removals"
 }

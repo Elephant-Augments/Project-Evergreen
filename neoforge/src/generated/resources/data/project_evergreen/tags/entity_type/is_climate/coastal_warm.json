@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "hybrid-aquatic:fiddler_crab",
+      "required": false
+    },
+    {
+      "id": "koopascritters:upside_down_jellyfish",
+      "required": false
+    }
+  ]
+}

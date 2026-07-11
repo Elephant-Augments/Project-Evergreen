@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "hybrid-aquatic:sea_urchin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bonnet_head_shark",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bowmouth_guitarfish",
+      "required": false
+    }
+  ]
+}

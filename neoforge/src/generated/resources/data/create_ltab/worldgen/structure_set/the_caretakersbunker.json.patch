@@ -3,5 +3,31 @@
     "op": "replace",
     "path": "/placement/salt",
     "value": 430322094
-  }
+  },
+  {
+    "op": "test",
+    "type": "project_evergreen:performance_friendly_mode",
+    "value": false
+  },
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/is_flat",
+      "value": true
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:config_value",
+      "from": "/placement/spacing",
+      "path": "/placement/spacing",
+      "value": "apply_flatness_offset"
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:config_value",
+      "from": "/placement/spread",
+      "path": "/placement/spread",
+      "value": "apply_flatness_offset"
+    }
+  ]
 ]

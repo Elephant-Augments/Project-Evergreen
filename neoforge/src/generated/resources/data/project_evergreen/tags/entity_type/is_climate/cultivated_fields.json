@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "envelope:pigeon",
+      "required": false
+    },
+    {
+      "id": "koopascritters:burrowing_owl",
+      "required": false
+    },
+    {
+      "id": "koopascritters:california_quail",
+      "required": false
+    },
+    {
+      "id": "koopascritters:clown_loach",
+      "required": false
+    }
+  ]
+}

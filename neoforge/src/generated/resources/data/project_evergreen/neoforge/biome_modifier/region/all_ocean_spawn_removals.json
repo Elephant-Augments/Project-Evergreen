@@ -1,5 +1,5 @@
 {
   "type": "neoforge:remove_spawns",
   "biomes": "#project_evergreen:is_region/all_ocean",
-  "entity_types": "#project_evergreen:is_category/non_water_critter"
+  "entity_types": "#project_evergreen:is_redistributed/all_ocean_removals"
 }

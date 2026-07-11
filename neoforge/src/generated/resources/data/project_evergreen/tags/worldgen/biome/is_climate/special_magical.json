@@ -5,6 +5,10 @@
       "required": false
     },
     {
+      "id": "dreamwoods:autumnal_wood",
+      "required": false
+    },
+    {
       "id": "dreamwoods:elder_woods",
       "required": false
     },
@@ -25,15 +29,7 @@
       "required": false
     },
     {
-      "id": "natures_spirit:wisteria_forest",
-      "required": false
-    },
-    {
       "id": "regions_unexplored:blackwood_taiga",
-      "required": false
-    },
-    {
-      "id": "regions_unexplored:flower_fields",
       "required": false
     },
     {

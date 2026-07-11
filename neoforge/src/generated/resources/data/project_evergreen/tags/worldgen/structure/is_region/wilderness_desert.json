@@ -309,6 +309,10 @@
       "required": false
     },
     {
+      "id": "hollowmarch:desert_obelisk",
+      "required": false
+    },
+    {
       "id": "idas:ancient_statue/ancient_statue_desert",
       "required": false
     },
@@ -333,6 +337,10 @@
       "required": false
     },
     {
+      "id": "jvs:desert_ruins",
+      "required": false
+    },
+    {
       "id": "kattersstructures:desert_dungeon",
       "required": false
     },
@@ -350,6 +358,10 @@
     },
     {
       "id": "minecraft:ruined_portal_desert",
+      "required": false
+    },
+    {
+      "id": "mmr:desert_mineshaft",
       "required": false
     },
     {

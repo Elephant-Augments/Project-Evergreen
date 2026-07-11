@@ -1,0 +1,348 @@
+{
+  "values": [
+    {
+      "id": "born_in_chaos_v1:baby_spider",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:corpse_fish",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_vortex",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:fallen_chaos_knight",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:glutton_fish",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:krampus_henchman",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:lifestealer",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:mother_spider",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:nightmare_stalker",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:pumpkin_bomb",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:pumpkin_bruiser",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:pumpkin_dunce",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:restless_spirit",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:scarlet_persecutor",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:spiritof_chaos",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:zombie_clown",
+      "required": false
+    },
+    {
+      "id": "crittersandcompanions:dragonfly",
+      "required": false
+    },
+    {
+      "id": "crittersandcompanions:koi_fish",
+      "required": false
+    },
+    {
+      "id": "crittersandcompanions:leaf_insect",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:basking_shark",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:crayfish",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:fiddler_crab",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:great_white_shark",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:hammerhead_shark",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:herring",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:lions_mane_jellyfish",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:mackerel",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:manta_ray",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:ocean_sunfish",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:sea_urchin",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:yeti_crab",
+      "required": false
+    },
+    {
+      "id": "koopascritters:agazzis_cichlid",
+      "required": false
+    },
+    {
+      "id": "koopascritters:asian_leopard_cat",
+      "required": false
+    },
+    {
+      "id": "koopascritters:attenboroughs_echidna",
+      "required": false
+    },
+    {
+      "id": "koopascritters:binturong",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bonnet_head_shark",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bowmouth_guitarfish",
+      "required": false
+    },
+    {
+      "id": "koopascritters:burrowing_owl",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bush_dog",
+      "required": false
+    },
+    {
+      "id": "koopascritters:california_quail",
+      "required": false
+    },
+    {
+      "id": "koopascritters:candy_cane_snail",
+      "required": false
+    },
+    {
+      "id": "koopascritters:cape_buffalo",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chacoan_peccary",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chinstrap_penguin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chuckwalla",
+      "required": false
+    },
+    {
+      "id": "koopascritters:clown_loach",
+      "required": false
+    },
+    {
+      "id": "koopascritters:dwarf_sperm_whale",
+      "required": false
+    },
+    {
+      "id": "koopascritters:emerald_toucanet",
+      "required": false
+    },
+    {
+      "id": "koopascritters:fire_salamander",
+      "required": false
+    },
+    {
+      "id": "koopascritters:fly_river_turtle",
+      "required": false
+    },
+    {
+      "id": "koopascritters:gentoo_penguin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:giant_muntjac",
+      "required": false
+    },
+    {
+      "id": "koopascritters:headlight_beetle",
+      "required": false
+    },
+    {
+      "id": "koopascritters:helmeted_guineafowl",
+      "required": false
+    },
+    {
+      "id": "koopascritters:hyrax",
+      "required": false
+    },
+    {
+      "id": "koopascritters:impalla",
+      "required": false
+    },
+    {
+      "id": "koopascritters:indian_bullfrog",
+      "required": false
+    },
+    {
+      "id": "koopascritters:klipspringer",
+      "required": false
+    },
+    {
+      "id": "koopascritters:marabou_stork",
+      "required": false
+    },
+    {
+      "id": "koopascritters:marsupial_mole",
+      "required": false
+    },
+    {
+      "id": "koopascritters:matschies_tree_kangaroo",
+      "required": false
+    },
+    {
+      "id": "koopascritters:mexican_rosy_boa",
+      "required": false
+    },
+    {
+      "id": "koopascritters:mountain_viscacha",
+      "required": false
+    },
+    {
+      "id": "koopascritters:northern_rock_hopper_penguin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:oceanic_manta_ray",
+      "required": false
+    },
+    {
+      "id": "koopascritters:ocellate_river_ray",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pallas_cat",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pancake_tortoise",
+      "required": false
+    },
+    {
+      "id": "koopascritters:peacock_bass",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pink_land_iguana",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pink_velvet_worm",
+      "required": false
+    },
+    {
+      "id": "koopascritters:psychedelic_jelly",
+      "required": false
+    },
+    {
+      "id": "koopascritters:rock_ptarmigan",
+      "required": false
+    },
+    {
+      "id": "koopascritters:roseate_spoonbill",
+      "required": false
+    },
+    {
+      "id": "koopascritters:serval",
+      "required": false
+    },
+    {
+      "id": "koopascritters:south_island_takahe",
+      "required": false
+    },
+    {
+      "id": "koopascritters:southern_patas_monkey",
+      "required": false
+    },
+    {
+      "id": "koopascritters:sumatran_rhino",
+      "required": false
+    },
+    {
+      "id": "koopascritters:tricolor_hognose_snake",
+      "required": false
+    },
+    {
+      "id": "koopascritters:uakari_monkey",
+      "required": false
+    },
+    {
+      "id": "koopascritters:upside_down_jellyfish",
+      "required": false
+    },
+    {
+      "id": "koopascritters:yangtze_giant_softshell_turtle",
+      "required": false
+    },
+    {
+      "id": "koopascritters:yellow_eye_penguin",
+      "required": false
+    },
+    {
+      "id": "minecraft:squid",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:condemned",
+      "required": false
+    },
+    {
+      "id": "quark:shiba",
+      "required": false
+    }
+  ]
+}

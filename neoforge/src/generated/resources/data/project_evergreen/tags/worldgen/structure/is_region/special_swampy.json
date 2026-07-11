@@ -33,6 +33,10 @@
       "required": false
     },
     {
+      "id": "born_in_chaos_v1:grave_mike_and_rory",
+      "required": false
+    },
+    {
       "id": "companions:companions_babayaga",
       "required": false
     },
@@ -90,14 +94,6 @@
     },
     {
       "id": "integrated_minecraft:witches_abode",
-      "required": false
-    },
-    {
-      "id": "integrated_villages:sunken_village",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:village_swamp",
       "required": false
     },
     {
@@ -202,6 +198,10 @@
     },
     {
       "id": "trek:village/swamp",
+      "required": false
+    },
+    {
+      "id": "undergroundworlds:swamp_house",
       "required": false
     },
     {

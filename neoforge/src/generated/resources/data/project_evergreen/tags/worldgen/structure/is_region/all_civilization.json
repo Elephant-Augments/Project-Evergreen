@@ -285,6 +285,10 @@
       "required": false
     },
     {
+      "id": "hopo:mineshaft/stone_mineshaft",
+      "required": false
+    },
+    {
       "id": "humancompanions:acacia_house",
       "required": false
     },
@@ -389,10 +393,6 @@
       "required": false
     },
     {
-      "id": "imst:airship",
-      "required": false
-    },
-    {
       "id": "imst:balloon",
       "required": false
     },
@@ -430,6 +430,10 @@
     },
     {
       "id": "integrated_villages:tavern_village",
+      "required": false
+    },
+    {
+      "id": "jvs:sky_tower_island",
       "required": false
     },
     {

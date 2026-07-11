@@ -81,23 +81,11 @@
       "required": false
     },
     {
+      "id": "illagerstructures:illager_tipi_camp",
+      "required": false
+    },
+    {
       "id": "irons_spellbooks:evoker_fort",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_big_remnant",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_big_remnant_2",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_big_remnant_3",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_bridge_remnant",
       "required": false
     },
     {
@@ -105,35 +93,7 @@
       "required": false
     },
     {
-      "id": "nova_structures:remnant_medium_remnant",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_medium_remnant_2",
-      "required": false
-    },
-    {
       "id": "nova_structures:remnant_miner_hut",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_ruin_farmer",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_ruin_smith",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_sawmill",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_school_remnant",
-      "required": false
-    },
-    {
-      "id": "nova_structures:ruin_town",
       "required": false
     },
     {

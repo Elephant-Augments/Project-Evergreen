@@ -1,0 +1,84 @@
+{
+  "values": [
+    {
+      "id": "#project_evergreen:is_climate/underground",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/desert_dunes_barren",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/desert_red_barren",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/forest_dense_tropical",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/plains_shrubby_tropical",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/forest_dense_coniferous_snow",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/plains_shrubby_snow",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_craggy_snow",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_swampy_snow",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/ocean_deep_frozen",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/ocean_deep_rare",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_icy",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_magical",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/mountains_cold",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_craggy_snow",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/mountains_hot",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_ruined",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_autumnal_forest",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_spooky",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_swampy_warm",
+      "required": false
+    }
+  ]
+}

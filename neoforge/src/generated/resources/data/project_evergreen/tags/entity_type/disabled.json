@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "hybrid-aquatic:manta_ray",
+      "required": false
+    },
+    {
+      "id": "minecraft:squid",
+      "required": false
+    }
+  ]
+}

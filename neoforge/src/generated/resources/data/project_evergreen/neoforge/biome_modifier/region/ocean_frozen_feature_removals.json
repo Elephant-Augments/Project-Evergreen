@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#project_evergreen:is_region/ocean_frozen",
+  "features": "#project_evergreen:disabled",
+  "steps": []
+}

@@ -37,6 +37,10 @@
       "required": false
     },
     {
+      "id": "qrafty:transilvania",
+      "required": false
+    },
+    {
       "id": "wabi_sabi_structures:pumpkin_field",
       "required": false
     },

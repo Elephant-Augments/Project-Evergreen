@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "eternal_starlight:lush_shallow_sea",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:spiral_kelp_forest",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:starlit_sea",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:the_abyss",
+      "required": false
+    }
+  ]
+}

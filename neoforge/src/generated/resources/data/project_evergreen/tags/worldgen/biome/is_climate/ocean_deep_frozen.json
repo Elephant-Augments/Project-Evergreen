@@ -5,6 +5,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:hyacinth_deeps",
+      "required": false
+    },
+    {
       "id": "wythers:deep_icy_ocean",
       "required": false
     }

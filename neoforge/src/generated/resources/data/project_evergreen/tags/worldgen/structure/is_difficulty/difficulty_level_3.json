@@ -1,6 +1,46 @@
 {
   "values": [
     {
+      "id": "ati_structures:castillo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:fortified_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:granite_fort",
+      "required": false
+    },
+    {
+      "id": "ati_structures:manor",
+      "required": false
+    },
+    {
+      "id": "ati_structures:marble_chateau",
+      "required": false
+    },
+    {
+      "id": "ati_structures:old_residence",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ruined_castle",
+      "required": false
+    },
+    {
+      "id": "ati_structures:tavern",
+      "required": false
+    },
+    {
+      "id": "ati_structures:woodland_keep",
+      "required": false
+    },
+    {
       "id": "born_in_chaos_v1:clown_caravan_plains",
       "required": false
     },
@@ -9,7 +49,27 @@
       "required": false
     },
     {
+      "id": "create_ltab:oak_house",
+      "required": false
+    },
+    {
       "id": "explorify:campsite",
+      "required": false
+    },
+    {
+      "id": "idas:pillager_camp",
+      "required": false
+    },
+    {
+      "id": "mvs:oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:spruce_tree",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/wooden_manor",
       "required": false
     },
     {

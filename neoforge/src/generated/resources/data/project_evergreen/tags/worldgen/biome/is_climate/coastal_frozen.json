@@ -9,10 +9,6 @@
       "required": false
     },
     {
-      "id": "wythers:cold_stony_shore",
-      "required": false
-    },
-    {
       "id": "wythers:icy_shore",
       "required": false
     }

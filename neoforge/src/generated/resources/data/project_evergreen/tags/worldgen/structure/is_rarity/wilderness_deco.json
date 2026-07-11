@@ -361,7 +361,23 @@
       "required": false
     },
     {
+      "id": "u_desert:badlands/ambient/skeleton/rib",
+      "required": false
+    },
+    {
+      "id": "u_desert:badlands/ambient/skeleton/spine",
+      "required": false
+    },
+    {
+      "id": "u_desert:badlands/ambient/termite_mound",
+      "required": false
+    },
+    {
       "id": "wabi_sabi_structures:moss_blob",
+      "required": false
+    },
+    {
+      "id": "wythers:giant_fallen_log",
       "required": false
     }
   ]

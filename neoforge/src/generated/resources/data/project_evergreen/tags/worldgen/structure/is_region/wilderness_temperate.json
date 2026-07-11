@@ -57,6 +57,10 @@
       "required": false
     },
     {
+      "id": "ati_structures:ati_stoneworks",
+      "required": false
+    },
+    {
       "id": "ati_structures:castillo",
       "required": false
     },
@@ -70,10 +74,6 @@
     },
     {
       "id": "ati_structures:illager_tower",
-      "required": false
-    },
-    {
-      "id": "ati_structures:marble_chateau",
       "required": false
     },
     {
@@ -169,19 +169,23 @@
       "required": false
     },
     {
+      "id": "create_ltab:kings_castle",
+      "required": false
+    },
+    {
+      "id": "create_ltab:oak_house",
+      "required": false
+    },
+    {
       "id": "create_ltab:ruins",
       "required": false
     },
     {
-      "id": "create_ltab:the_caretakersbunker",
+      "id": "create_ltab:the_bunker",
       "required": false
     },
     {
       "id": "create_ltab:thecastle",
-      "required": false
-    },
-    {
-      "id": "create_pillagers_arise:cathedral_create",
       "required": false
     },
     {
@@ -321,6 +325,10 @@
       "required": false
     },
     {
+      "id": "hollowmarch:twin_keep",
+      "required": false
+    },
+    {
       "id": "idas:apothecary_abode",
       "required": false
     },
@@ -357,11 +365,71 @@
       "required": false
     },
     {
+      "id": "illagerstructures:illager_camp",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:illager_fort",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:illager_stable",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:illager_tower",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:illager_tower2",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:illager_tower3",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:lava_extractor",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:lone_house",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:simple_cart",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:simple_well",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:smeltery",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:totem",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:tower_ruin",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:well",
+      "required": false
+    },
+    {
       "id": "imst:bandit_camp",
       "required": false
     },
     {
       "id": "integrated_minecraft:illusioner_shack",
+      "required": false
+    },
+    {
+      "id": "jvs:wolf_den",
       "required": false
     },
     {
@@ -590,10 +658,6 @@
     },
     {
       "id": "trek:overworld/medium/well_pillager_medium",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/abandoned_castle_pillager",
       "required": false
     },
     {

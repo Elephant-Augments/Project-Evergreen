@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "dreamwoods:roofed_tropical_forest",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:xeric_plains",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:tropics",
+      "required": false
+    },
+    {
+      "id": "wythers:mushroom_island",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_island",
+      "required": false
+    }
+  ]
+}

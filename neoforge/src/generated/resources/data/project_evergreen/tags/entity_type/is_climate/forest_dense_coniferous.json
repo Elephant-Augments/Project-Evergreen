@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "koopascritters:clown_loach",
+      "required": false
+    },
+    {
+      "id": "koopascritters:fire_salamander",
+      "required": false
+    }
+  ]
+}

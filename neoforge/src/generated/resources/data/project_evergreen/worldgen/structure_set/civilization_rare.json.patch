@@ -5,7 +5,8 @@
       "path": "/temp_properties",
       "value": {
         "id": "project_evergreen:civilization_rare",
-        "is_loaded": false
+        "is_loaded": false,
+        "is_flat": true
       }
     },
     {

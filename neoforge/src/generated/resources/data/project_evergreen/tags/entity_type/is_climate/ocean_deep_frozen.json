@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "hybrid-aquatic:lions_mane_jellyfish",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:yeti_crab",
+      "required": false
+    },
+    {
+      "id": "koopascritters:gentoo_penguin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:psychedelic_jelly",
+      "required": false
+    }
+  ]
+}

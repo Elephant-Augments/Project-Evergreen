@@ -17,7 +17,47 @@
       "required": false
     },
     {
+      "id": "feur_extension_fossil:fossil_baby_fish",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_bone_fish",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_fish",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:lighthouse",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:sea_obelisk",
+      "required": false
+    },
+    {
       "id": "idas:sunken_ship/sunken_ship_ruins",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:iceberg",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:iceberg_medium",
+      "required": false
+    },
+    {
+      "id": "jvs:deep_sea_tower",
+      "required": false
+    },
+    {
+      "id": "jvs:sunken_boat",
+      "required": false
+    },
+    {
+      "id": "jvs:trader_ship",
       "required": false
     },
     {

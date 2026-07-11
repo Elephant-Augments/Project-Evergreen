@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "natures_spirit:carnation_fields",
+      "required": false
+    },
+    {
       "id": "natures_spirit:cypress_fields",
       "required": false
     },

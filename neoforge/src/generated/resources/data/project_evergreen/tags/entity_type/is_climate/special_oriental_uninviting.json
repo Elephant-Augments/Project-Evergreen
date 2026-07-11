@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "crittersandcompanions:koi_fish",
+      "required": false
+    },
+    {
+      "id": "koopascritters:asian_leopard_cat",
+      "required": false
+    }
+  ]
+}

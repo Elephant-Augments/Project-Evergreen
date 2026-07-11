@@ -41,6 +41,10 @@
       "required": false
     },
     {
+      "id": "hollowmarch:shell_house",
+      "required": false
+    },
+    {
       "id": "integrated_minecraft:beach_house",
       "required": false
     },
@@ -61,6 +65,10 @@
       "required": false
     },
     {
+      "id": "natures_spirit:village_coconut",
+      "required": false
+    },
+    {
       "id": "structory_towers:lighthouse",
       "required": false
     },
@@ -70,6 +78,10 @@
     },
     {
       "id": "taxtg:giant_palm_tree_1",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/ruine_bateaux",
       "required": false
     },
     {

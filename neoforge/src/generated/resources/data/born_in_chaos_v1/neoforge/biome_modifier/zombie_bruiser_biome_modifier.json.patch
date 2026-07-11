@@ -1,0 +1,39 @@
+[
+  [
+    {
+      "op": "add",
+      "path": "/temp_properties",
+      "value": {
+        "id": "born_in_chaos_v1:zombie_bruiser_biome_modifier",
+        "is_loaded": false,
+        "is_modifier": true,
+        "patchable": true
+      }
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/disabled",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/type",
+      "value": "neoforge:none"
+    }
+  ],
+  [
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/biome"
+      },
+      {
+        "op": "copy",
+        "path": "/biomes",
+        "from": "/temp_properties/biome"
+      }
+    ]
+  ]
+]

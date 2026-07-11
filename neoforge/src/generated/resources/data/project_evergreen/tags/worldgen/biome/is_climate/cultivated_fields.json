@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "minecraft:sunflower_plains",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:barley_fields",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:prairie",
+      "required": false
+    },
+    {
+      "id": "wythers:harvest_fields",
+      "required": false
+    }
+  ]
+}

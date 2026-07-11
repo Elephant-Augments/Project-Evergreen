@@ -354,10 +354,16 @@
         "path": "/temp_properties/is_advanced_type",
         "value": true
       },
-      {
-        "op": "remove",
-        "path": "/terrain_check"
-      },
+      [
+        {
+          "op": "test",
+          "path": "/terrain_check"
+        },
+        {
+          "op": "remove",
+          "path": "/terrain_check"
+        }
+      ],
       [
         {
           "op": "test",

@@ -65,10 +65,6 @@
       "required": false
     },
     {
-      "id": "born_in_chaos_v1:grave_mike_and_rory",
-      "required": false
-    },
-    {
       "id": "born_in_chaos_v1:grave_nino_4416",
       "required": false
     },
@@ -93,6 +89,10 @@
       "required": false
     },
     {
+      "id": "create_pillagers_arise:cathedral_create",
+      "required": false
+    },
+    {
       "id": "dungeons_enhanced:stables",
       "required": false
     },
@@ -110,6 +110,10 @@
     },
     {
       "id": "goety:spider_den",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:cursed_mansion",
       "required": false
     },
     {
@@ -138,14 +142,6 @@
     },
     {
       "id": "mvs:stone_pillars",
-      "required": false
-    },
-    {
-      "id": "mythsandlegends:graveyard",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_graveyard",
       "required": false
     },
     {
@@ -197,10 +193,6 @@
       "required": false
     },
     {
-      "id": "qrafty:transilvania",
-      "required": false
-    },
-    {
       "id": "ssp_gothic_things:stonebarracks",
       "required": false
     },
@@ -226,6 +218,10 @@
     },
     {
       "id": "trek:overworld/medium/graveyard",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/haunted_house",
       "required": false
     },
     {

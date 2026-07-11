@@ -5,7 +5,15 @@
       "required": false
     },
     {
+      "id": "natures_spirit:wisteria_forest",
+      "required": false
+    },
+    {
       "id": "regions_unexplored:rocky_meadow",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:wisteria_grove",
       "required": false
     },
     {

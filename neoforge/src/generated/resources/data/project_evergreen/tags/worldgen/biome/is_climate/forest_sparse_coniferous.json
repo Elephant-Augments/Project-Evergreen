@@ -25,7 +25,11 @@
       "required": false
     },
     {
-      "id": "natures_spirit:tundra",
+      "id": "natures_spirit:heather_fields",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:towering_cliffs",
       "required": false
     },
     {
@@ -49,7 +53,7 @@
       "required": false
     },
     {
-      "id": "wythers:cold_island",
+      "id": "wythers:tundra",
       "required": false
     }
   ]

@@ -13,6 +13,134 @@
       "required": false
     },
     {
+      "id": "aquaculture:arapaima",
+      "required": false
+    },
+    {
+      "id": "aquaculture:arrau_turtle",
+      "required": false
+    },
+    {
+      "id": "aquaculture:atlantic_cod",
+      "required": false
+    },
+    {
+      "id": "aquaculture:atlantic_halibut",
+      "required": false
+    },
+    {
+      "id": "aquaculture:atlantic_herring",
+      "required": false
+    },
+    {
+      "id": "aquaculture:bayad",
+      "required": false
+    },
+    {
+      "id": "aquaculture:blackfish",
+      "required": false
+    },
+    {
+      "id": "aquaculture:bluegill",
+      "required": false
+    },
+    {
+      "id": "aquaculture:boulti",
+      "required": false
+    },
+    {
+      "id": "aquaculture:box_turtle",
+      "required": false
+    },
+    {
+      "id": "aquaculture:brown_shrooma",
+      "required": false
+    },
+    {
+      "id": "aquaculture:brown_trout",
+      "required": false
+    },
+    {
+      "id": "aquaculture:capitaine",
+      "required": false
+    },
+    {
+      "id": "aquaculture:carp",
+      "required": false
+    },
+    {
+      "id": "aquaculture:catfish",
+      "required": false
+    },
+    {
+      "id": "aquaculture:gar",
+      "required": false
+    },
+    {
+      "id": "aquaculture:jellyfish",
+      "required": false
+    },
+    {
+      "id": "aquaculture:minnow",
+      "required": false
+    },
+    {
+      "id": "aquaculture:muskellunge",
+      "required": false
+    },
+    {
+      "id": "aquaculture:pacific_halibut",
+      "required": false
+    },
+    {
+      "id": "aquaculture:perch",
+      "required": false
+    },
+    {
+      "id": "aquaculture:pink_salmon",
+      "required": false
+    },
+    {
+      "id": "aquaculture:piranha",
+      "required": false
+    },
+    {
+      "id": "aquaculture:pollock",
+      "required": false
+    },
+    {
+      "id": "aquaculture:rainbow_trout",
+      "required": false
+    },
+    {
+      "id": "aquaculture:red_grouper",
+      "required": false
+    },
+    {
+      "id": "aquaculture:red_shrooma",
+      "required": false
+    },
+    {
+      "id": "aquaculture:smallmouth_bass",
+      "required": false
+    },
+    {
+      "id": "aquaculture:starshell_turtle",
+      "required": false
+    },
+    {
+      "id": "aquaculture:synodontis",
+      "required": false
+    },
+    {
+      "id": "aquaculture:tambaqui",
+      "required": false
+    },
+    {
+      "id": "aquaculture:tuna",
+      "required": false
+    },
+    {
       "id": "arphex:ai_controller",
       "required": false
     },
@@ -1365,11 +1493,19 @@
       "required": false
     },
     {
+      "id": "crittersandcompanions:dumbo_octopus",
+      "required": false
+    },
+    {
       "id": "crittersandcompanions:ferret",
       "required": false
     },
     {
       "id": "crittersandcompanions:jumping_spider",
+      "required": false
+    },
+    {
+      "id": "crittersandcompanions:koi_fish",
       "required": false
     },
     {
@@ -1382,6 +1518,10 @@
     },
     {
       "id": "crittersandcompanions:red_panda",
+      "required": false
+    },
+    {
+      "id": "crittersandcompanions:sea_bunny",
       "required": false
     },
     {
@@ -1417,6 +1557,106 @@
       "required": false
     },
     {
+      "id": "dustydecorations:nautilus_golem",
+      "required": false
+    },
+    {
+      "id": "elemental_wizards_rpg:earth_golem",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:axolotl_pet_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:badlands_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:cave_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:coral_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:crimson_forest_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:dark_oak_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:desert_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:end_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:end_islands_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:flower_fields_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:hammerhead_pet_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:ice_spikes_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:mushroom_fields_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:nether_wastes_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:pet_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:savanna_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:scarab",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:snowy_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:soulsand_valley_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:spirit",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:swamp_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:warped_forest_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:windswept_hills_enderman",
+      "required": false
+    },
+    {
       "id": "fdbosses:chesed",
       "required": false
     },
@@ -1445,6 +1685,14 @@
       "required": false
     },
     {
+      "id": "gravestone:player_ghost",
+      "required": false
+    },
+    {
+      "id": "guardvillagers:guard",
+      "required": false
+    },
+    {
       "id": "hexerei:crow",
       "required": false
     },
@@ -1453,11 +1701,279 @@
       "required": false
     },
     {
+      "id": "illagerinvasion:alchemist",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:archivist",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:basher",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:firecaller",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:inquisitor",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:invoker",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:marauder",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:necromancer",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:provoker",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:sorcerer",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:surrendered",
+      "required": false
+    },
+    {
+      "id": "koopascritters:aardwolf_kc",
+      "required": false
+    },
+    {
+      "id": "koopascritters:agazzis_cichlid",
+      "required": false
+    },
+    {
+      "id": "koopascritters:asian_leopard_cat",
+      "required": false
+    },
+    {
+      "id": "koopascritters:attenboroughs_echidna",
+      "required": false
+    },
+    {
+      "id": "koopascritters:binturong",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bonnet_head_shark",
+      "required": false
+    },
+    {
+      "id": "koopascritters:burrowing_owl",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bush_dog",
+      "required": false
+    },
+    {
+      "id": "koopascritters:california_quail",
+      "required": false
+    },
+    {
+      "id": "koopascritters:candy_cane_snail",
+      "required": false
+    },
+    {
+      "id": "koopascritters:cape_buffalo",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chacoan_peccary",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chinese_cave_gecko",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chinese_crocodile_lizard_kc",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chinstrap_penguin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chuckwalla",
+      "required": false
+    },
+    {
+      "id": "koopascritters:clouded_leopard_kc",
+      "required": false
+    },
+    {
+      "id": "koopascritters:desert_rain_frog",
+      "required": false
+    },
+    {
+      "id": "koopascritters:emerald_toucanet",
+      "required": false
+    },
+    {
+      "id": "koopascritters:fire_salamander",
+      "required": false
+    },
+    {
+      "id": "koopascritters:gentoo_penguin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:giant_african_land_snail",
+      "required": false
+    },
+    {
+      "id": "koopascritters:giant_muntjac",
+      "required": false
+    },
+    {
+      "id": "koopascritters:headlight_beetle",
+      "required": false
+    },
+    {
+      "id": "koopascritters:helmeted_guineafowl",
+      "required": false
+    },
+    {
+      "id": "koopascritters:hyrax",
+      "required": false
+    },
+    {
+      "id": "koopascritters:impalla",
+      "required": false
+    },
+    {
+      "id": "koopascritters:indian_bullfrog",
+      "required": false
+    },
+    {
+      "id": "koopascritters:klipspringer",
+      "required": false
+    },
+    {
+      "id": "koopascritters:marabou_stork",
+      "required": false
+    },
+    {
+      "id": "koopascritters:marsupial_mole",
+      "required": false
+    },
+    {
+      "id": "koopascritters:matschies_tree_kangaroo",
+      "required": false
+    },
+    {
+      "id": "koopascritters:mexican_rosy_boa",
+      "required": false
+    },
+    {
+      "id": "koopascritters:northern_rock_hopper_penguin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pallas_cat",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pancake_tortoise",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pink_land_iguana",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pink_velvet_worm",
+      "required": false
+    },
+    {
+      "id": "koopascritters:rainbow_rock_lizard",
+      "required": false
+    },
+    {
+      "id": "koopascritters:rock_ptarmigan",
+      "required": false
+    },
+    {
+      "id": "koopascritters:roseate_spoonbill",
+      "required": false
+    },
+    {
+      "id": "koopascritters:sagalla_caecilian",
+      "required": false
+    },
+    {
+      "id": "koopascritters:serval",
+      "required": false
+    },
+    {
+      "id": "koopascritters:south_island_takahe",
+      "required": false
+    },
+    {
+      "id": "koopascritters:southern_patas_monkey",
+      "required": false
+    },
+    {
+      "id": "koopascritters:southern_patas_monkey_female",
+      "required": false
+    },
+    {
+      "id": "koopascritters:sulcata_tortoise_kc",
+      "required": false
+    },
+    {
+      "id": "koopascritters:tibetan_fox",
+      "required": false
+    },
+    {
+      "id": "koopascritters:tree_lobster",
+      "required": false
+    },
+    {
+      "id": "koopascritters:tricolor_hognose_snake",
+      "required": false
+    },
+    {
+      "id": "koopascritters:uakari_monkey",
+      "required": false
+    },
+    {
+      "id": "koopascritters:viscacha",
+      "required": false
+    },
+    {
+      "id": "koopascritters:yellow_eye_penguin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:yellow_footed_tortoise",
+      "required": false
+    },
+    {
       "id": "loot_n_explore:frost_haunt",
       "required": false
     },
     {
+      "id": "loot_n_explore:frost_monarch",
+      "required": false
+    },
+    {
       "id": "loot_n_explore:glaze",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:monarchs_servant",
       "required": false
     },
     {
@@ -1714,6 +2230,10 @@
     },
     {
       "id": "minecraft:vex",
+      "required": false
+    },
+    {
+      "id": "minecraft:villager",
       "required": false
     },
     {
@@ -2137,6 +2657,34 @@
       "required": false
     },
     {
+      "id": "quark:crab",
+      "required": false
+    },
+    {
+      "id": "quark:forgotten",
+      "required": false
+    },
+    {
+      "id": "quark:foxhound",
+      "required": false
+    },
+    {
+      "id": "quark:shiba",
+      "required": false
+    },
+    {
+      "id": "quark:stoneling",
+      "required": false
+    },
+    {
+      "id": "quark:toretoise",
+      "required": false
+    },
+    {
+      "id": "quark:wraith",
+      "required": false
+    },
+    {
       "id": "raidsenhanced:golem_of_last_resort",
       "required": false
     },
@@ -2174,6 +2722,54 @@
     },
     {
       "id": "ribbits:ribbit",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:burned",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:dead_beard",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:frostbitten",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:glacial_hunter",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:immortal",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:mummy",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:scarab",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:skeleton_lackey",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:swampy",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:undead_miner",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:zap",
+      "required": false
+    },
+    {
+      "id": "rottencreatures:zombie_lackey",
       "required": false
     },
     {
@@ -2405,6 +3001,10 @@
       "required": false
     },
     {
+      "id": "starcatcher:fish",
+      "required": false
+    },
+    {
       "id": "supplementaries:plunderer",
       "required": false
     },
@@ -2426,6 +3026,14 @@
     },
     {
       "id": "takesapillage:skirmisher",
+      "required": false
+    },
+    {
+      "id": "vinery:mule",
+      "required": false
+    },
+    {
+      "id": "vinery:wandering_winemaker",
       "required": false
     }
   ]

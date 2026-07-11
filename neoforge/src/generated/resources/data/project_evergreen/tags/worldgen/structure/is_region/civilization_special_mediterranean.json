@@ -21,6 +21,10 @@
       "required": false
     },
     {
+      "id": "kattersstructures:ruined_village",
+      "required": false
+    },
+    {
       "id": "kattersstructures:village_sky",
       "required": false
     },

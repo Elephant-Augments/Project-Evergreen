@@ -1,11 +1,23 @@
 {
   "values": [
     {
+      "id": "hollowmarch:lighthouse",
+      "required": false
+    },
+    {
       "id": "idas:iceandfire/sirens_cove",
       "required": false
     },
     {
       "id": "kattersstructures:village_ocean",
+      "required": false
+    },
+    {
+      "id": "spawn:octopolis",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/jungle_trade",
       "required": false
     },
     {

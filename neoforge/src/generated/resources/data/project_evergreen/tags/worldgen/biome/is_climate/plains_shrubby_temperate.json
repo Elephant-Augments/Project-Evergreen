@@ -17,7 +17,7 @@
       "required": false
     },
     {
-      "id": "natures_spirit:shrubland",
+      "id": "dreamwoods:spruce_slopes",
       "required": false
     },
     {
@@ -33,10 +33,6 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:towering_cliffs",
-      "required": false
-    },
-    {
       "id": "terralith:rocky_shrubland",
       "required": false
     },
@@ -49,11 +45,15 @@
       "required": false
     },
     {
-      "id": "wythers:highlands",
+      "id": "wythers:cold_island",
       "required": false
     },
     {
-      "id": "wythers:huangshan_highlands",
+      "id": "wythers:crimson_tundra",
+      "required": false
+    },
+    {
+      "id": "wythers:highlands",
       "required": false
     }
   ]

@@ -81,6 +81,14 @@
       "required": false
     },
     {
+      "id": "ati_structures:lighthouse",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:kraken_ship",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:acacia_trader_boat",
       "required": false
     },
@@ -193,6 +201,14 @@
       "required": false
     },
     {
+      "id": "hollowmarch:lighthouse",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:sea_obelisk",
+      "required": false
+    },
+    {
       "id": "idas:fishermans_lodge",
       "required": false
     },
@@ -206,6 +222,38 @@
     },
     {
       "id": "joshie:village_ocean",
+      "required": false
+    },
+    {
+      "id": "jvs:aquatic_ancient_artefact",
+      "required": false
+    },
+    {
+      "id": "jvs:deep_sea_tower",
+      "required": false
+    },
+    {
+      "id": "jvs:drakkar_skeleton",
+      "required": false
+    },
+    {
+      "id": "jvs:fisherman_raft",
+      "required": false
+    },
+    {
+      "id": "jvs:ghost_ship",
+      "required": false
+    },
+    {
+      "id": "jvs:illager_ocean_base",
+      "required": false
+    },
+    {
+      "id": "jvs:ships_collision",
+      "required": false
+    },
+    {
+      "id": "jvs:sunken_boat",
       "required": false
     },
     {
@@ -293,6 +341,10 @@
       "required": false
     },
     {
+      "id": "spawn:octopolis",
+      "required": false
+    },
+    {
       "id": "spore:iceberg_mines",
       "required": false
     },
@@ -322,6 +374,10 @@
     },
     {
       "id": "trek:overworld/medium/birch_trade",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/jungle_trade",
       "required": false
     },
     {
@@ -394,10 +450,6 @@
     },
     {
       "id": "wabi_sabi_structures:river_boat",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:sphinx_hidey_hole_icy",
       "required": false
     }
   ]

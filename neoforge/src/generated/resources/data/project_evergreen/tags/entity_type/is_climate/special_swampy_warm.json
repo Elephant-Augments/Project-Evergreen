@@ -1,0 +1,48 @@
+{
+  "values": [
+    {
+      "id": "crittersandcompanions:dragonfly",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:fiddler_crab",
+      "required": false
+    },
+    {
+      "id": "koopascritters:agazzis_cichlid",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bonnet_head_shark",
+      "required": false
+    },
+    {
+      "id": "koopascritters:clown_loach",
+      "required": false
+    },
+    {
+      "id": "koopascritters:indian_bullfrog",
+      "required": false
+    },
+    {
+      "id": "koopascritters:marabou_stork",
+      "required": false
+    },
+    {
+      "id": "koopascritters:ocellate_river_ray",
+      "required": false
+    },
+    {
+      "id": "koopascritters:peacock_bass",
+      "required": false
+    },
+    {
+      "id": "koopascritters:roseate_spoonbill",
+      "required": false
+    },
+    {
+      "id": "koopascritters:upside_down_jellyfish",
+      "required": false
+    }
+  ]
+}

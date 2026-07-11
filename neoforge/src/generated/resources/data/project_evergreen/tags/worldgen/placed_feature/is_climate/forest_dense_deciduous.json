@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "mushroomquest:log_1_feature_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:log_2_feature_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:oak_log_1_feature_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:oak_stump_2_biome_modifier",
+      "required": false
+    }
+  ]
+}

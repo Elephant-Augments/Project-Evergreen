@@ -5,6 +5,10 @@
       "required": false
     },
     {
+      "id": "ancientstructures:ruined_german_village",
+      "required": false
+    },
+    {
       "id": "archeological:ancient_vault_desert_ruins",
       "required": false
     },
@@ -133,15 +137,7 @@
       "required": false
     },
     {
-      "id": "betterjungletemples:jungle_temple",
-      "required": false
-    },
-    {
       "id": "biomemakeover:mansion",
-      "required": false
-    },
-    {
-      "id": "block_factorys_bosses:dragon_tower",
       "required": false
     },
     {
@@ -149,15 +145,11 @@
       "required": false
     },
     {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
       "id": "bosses_of_mass_destruction:gauntlet_arena",
-      "required": false
-    },
-    {
-      "id": "bosses_of_mass_destruction:lich_tower",
-      "required": false
-    },
-    {
-      "id": "bosses_of_mass_destruction:void_blossom",
       "required": false
     },
     {
@@ -186,6 +178,10 @@
     },
     {
       "id": "create_ltab:thecastle",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:cathedral_create",
       "required": false
     },
     {
@@ -249,10 +245,6 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:aviary",
-      "required": false
-    },
-    {
       "id": "dungeons_arise:bandit_towers",
       "required": false
     },
@@ -270,10 +262,6 @@
     },
     {
       "id": "dungeons_arise:desert_hall",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:greenwood_pub",
       "required": false
     },
     {
@@ -369,6 +357,10 @@
       "required": false
     },
     {
+      "id": "grim_kingdoms:glimmervault_fortress",
+      "required": false
+    },
+    {
       "id": "hexerei:dark_coven",
       "required": false
     },
@@ -425,6 +417,10 @@
       "required": false
     },
     {
+      "id": "illagerinvasion:illusioner_tower",
+      "required": false
+    },
+    {
       "id": "integrated_minecraft:ruined_fortress",
       "required": false
     },
@@ -433,15 +429,7 @@
       "required": false
     },
     {
-      "id": "integrated_villages:sunken_village",
-      "required": false
-    },
-    {
       "id": "kattersstructures:ruined_village",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:village_cherry",
       "required": false
     },
     {
@@ -525,7 +513,23 @@
       "required": false
     },
     {
+      "id": "mythsandlegends:old_camp",
+      "required": false
+    },
+    {
+      "id": "netherman:gast_chamber",
+      "required": false
+    },
+    {
+      "id": "netherman:trap",
+      "required": false
+    },
+    {
       "id": "nova_structures:badlands_miner_outpost",
+      "required": false
+    },
+    {
+      "id": "nova_structures:bunker",
       "required": false
     },
     {
@@ -653,6 +657,54 @@
       "required": false
     },
     {
+      "id": "spore:biomass_tower",
+      "required": false
+    },
+    {
+      "id": "spore:cathedral",
+      "required": false
+    },
+    {
+      "id": "spore:cell",
+      "required": false
+    },
+    {
+      "id": "spore:celltower",
+      "required": false
+    },
+    {
+      "id": "spore:church",
+      "required": false
+    },
+    {
+      "id": "spore:hospital",
+      "required": false
+    },
+    {
+      "id": "spore:lab",
+      "required": false
+    },
+    {
+      "id": "spore:lodge",
+      "required": false
+    },
+    {
+      "id": "spore:mass_grave",
+      "required": false
+    },
+    {
+      "id": "spore:military_camp",
+      "required": false
+    },
+    {
+      "id": "spore:mines",
+      "required": false
+    },
+    {
+      "id": "spore:prison",
+      "required": false
+    },
+    {
       "id": "structory:swamp_ruin",
       "required": false
     },
@@ -717,11 +769,23 @@
       "required": false
     },
     {
+      "id": "trek:village/swamp",
+      "required": false
+    },
+    {
+      "id": "trek:village/swamp_vanilla",
+      "required": false
+    },
+    {
       "id": "villagesandpillages:village_witch",
       "required": false
     },
     {
       "id": "windswept:village_frozen",
+      "required": false
+    },
+    {
+      "id": "withershrine:shrines",
       "required": false
     }
   ]

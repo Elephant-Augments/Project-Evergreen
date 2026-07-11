@@ -109,6 +109,10 @@
       "required": false
     },
     {
+      "id": "friendsandfoes:iceologer_cabin",
+      "required": false
+    },
+    {
       "id": "goety:ominous_blacksmith",
       "required": false
     },
@@ -121,6 +125,70 @@
       "required": false
     },
     {
+      "id": "grim_kingdoms:blackridge_watch",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:chill_hallmanor",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:decrown_monolith",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:frostbloom_bastion",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:frozen_onion_fort",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:glacierfall_keep",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:glimmervault_fortress",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:shardspire_castle",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:silentgale_citadel",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:snowgrave_citadel",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:stonyfell_outpost",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:travelers_lodge",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:whitewarden_keep",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:winterhold_citadel",
+      "required": false
+    },
+    {
+      "id": "grim_kingdoms:zweiberg",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:frozen_igloo",
+      "required": false
+    },
+    {
       "id": "idas:animal_den/polar_bear_den",
       "required": false
     },
@@ -130,6 +198,14 @@
     },
     {
       "id": "idas:iceandfire/dread_citadel",
+      "required": false
+    },
+    {
+      "id": "jvs:stray_tombeau",
+      "required": false
+    },
+    {
+      "id": "jvs:viking_house",
       "required": false
     },
     {
@@ -146,6 +222,10 @@
     },
     {
       "id": "minecraft:igloo",
+      "required": false
+    },
+    {
+      "id": "mmr:snowy_mineshaft",
       "required": false
     },
     {
@@ -237,7 +317,11 @@
       "required": false
     },
     {
-      "id": "wabi_sabi_structures:frost_reactor_plant",
+      "id": "trek:overworld/rare/castle",
+      "required": false
+    },
+    {
+      "id": "undergroundworlds:chillager_outpost",
       "required": false
     }
   ]

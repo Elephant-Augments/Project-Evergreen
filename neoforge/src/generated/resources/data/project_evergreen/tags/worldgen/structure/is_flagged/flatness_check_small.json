@@ -1,6 +1,22 @@
 {
   "values": [
     {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:lich_tower",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_forest",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_jungle",
+      "required": false
+    },
+    {
       "id": "feur_extension_desert:cactus_1",
       "required": false
     },
@@ -205,6 +221,18 @@
       "required": false
     },
     {
+      "id": "u_desert:badlands/ambient/skeleton/rib",
+      "required": false
+    },
+    {
+      "id": "u_desert:badlands/ambient/skeleton/spine",
+      "required": false
+    },
+    {
+      "id": "u_desert:badlands/ambient/termite_mound",
+      "required": false
+    },
+    {
       "id": "wabi_sabi_structures:beetroot_patch",
       "required": false
     },
@@ -234,6 +262,10 @@
     },
     {
       "id": "wabi_sabi_structures:wheat_patch",
+      "required": false
+    },
+    {
+      "id": "wythers:giant_fallen_log",
       "required": false
     }
   ]

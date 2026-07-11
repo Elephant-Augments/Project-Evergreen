@@ -1,0 +1,21 @@
+[
+  {
+    "op": "test",
+    "type": "project_evergreen:mob_redistribution",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/entity_types",
+    "value": [
+      "hybrid-aquatic:basking_shark",
+      "hybrid-aquatic:great_white_shark",
+      "hybrid-aquatic:hammerhead_shark",
+      "hybrid-aquatic:lions_mane_jellyfish",
+      "hybrid-aquatic:ocean_sunfish",
+      "hybrid-aquatic:tuna",
+      "koopascritters:dwarf_sperm_whale",
+      "koopascritters:yangtze_giant_softshell_turtle"
+    ]
+  }
+]

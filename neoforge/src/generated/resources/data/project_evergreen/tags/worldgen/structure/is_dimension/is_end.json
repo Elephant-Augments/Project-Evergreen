@@ -1,7 +1,159 @@
 {
   "values": [
     {
+      "id": "additionalstructures:end_building_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_crystal",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_dungeon_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_pillar_ruin_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_pillar_ruin_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_ruin_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_spawn_altar_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_spawn_altar_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_tower_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_tower_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_tower_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_tower_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_wall_ruin_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_wall_ruin_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:end_wall_ruin_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:obsidian_pillar_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:obsidian_pillar_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:obsidian_pillar_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:obsidian_pillar_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:obsidian_pillar_5",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:obsidian_spike_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:obsidian_spike_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:obsidian_spike_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:obsidian_tree_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:obsidian_tree_2",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:obsidian_tree_3",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:obsidian_tree_4",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:shulker_cluster_1",
+      "required": false
+    },
+    {
+      "id": "additionalstructures:shulker_cluster_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:end_islandhanging_fortress",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:end_ruin",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:large_obsidian_spike",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:obsidian_end_castle",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:obsidian_spike_feature_2",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:obsidian_spike_feature_3",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:obsidian_spike_feature_4",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:obsidian_spike_feature_5",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:obsidianlootspike",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:obsidianspikefeature_1",
       "required": false
     },
     {
@@ -10,6 +162,14 @@
     },
     {
       "id": "combat_structures_update:ruinedendship",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:shulker_end_city",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:small_obsidian_spike",
       "required": false
     },
     {
@@ -50,6 +210,142 @@
     },
     {
       "id": "combat_structures_update:smallendislandruin_5",
+      "required": false
+    },
+    {
+      "id": "combat_structures_update:wither_castle",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:aviary",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:end_ruins",
+      "required": false
+    },
+    {
+      "id": "end_villager_outpost:end_villager_outpost",
+      "required": false
+    },
+    {
+      "id": "endersdelight:end_house",
+      "required": false
+    },
+    {
+      "id": "explorify:end_shipwreck",
+      "required": false
+    },
+    {
+      "id": "minecraft:end_city",
+      "required": false
+    },
+    {
+      "id": "mns:smoking_shrine",
+      "required": false
+    },
+    {
+      "id": "mvs:end_scraps_1",
+      "required": false
+    },
+    {
+      "id": "mvs:end_scraps_2",
+      "required": false
+    },
+    {
+      "id": "mvs:end_scraps_3",
+      "required": false
+    },
+    {
+      "id": "mvs:end_scraps_4",
+      "required": false
+    },
+    {
+      "id": "mvs:end_well",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/end_scraps/end_scraps_1",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/end_scraps/end_scraps_2",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/end_scraps/end_scraps_3",
+      "required": false
+    },
+    {
+      "id": "mvs:other_decoration/end_scraps/end_scraps_4",
+      "required": false
+    },
+    {
+      "id": "mvs:well/wells/end_well",
+      "required": false
+    },
+    {
+      "id": "nova_structures:end_castle",
+      "required": false
+    },
+    {
+      "id": "nova_structures:end_lighthouse",
+      "required": false
+    },
+    {
+      "id": "nova_structures:end_ship",
+      "required": false
+    },
+    {
+      "id": "philipsruins:end_gate_fortress",
+      "required": false
+    },
+    {
+      "id": "philipsruins:end_ruins",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:ancient_city_end",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_end",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_end",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:ruined_portal_end",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:shipwreck_end",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:stronghold_end",
+      "required": false
+    },
+    {
+      "id": "structory_towers:end/end_tower",
+      "required": false
+    },
+    {
+      "id": "totw_modded:end",
+      "required": false
+    },
+    {
+      "id": "trek:end/medium/end_city",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:chorus_orchard",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:ender_claw",
       "required": false
     }
   ]

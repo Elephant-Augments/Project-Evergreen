@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "natures_spirit:boreal_taiga",
+      "required": false
+    },
+    {
       "id": "natures_spirit:heather_fields",
       "required": false
     },

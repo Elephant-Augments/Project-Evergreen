@@ -29,6 +29,10 @@
       "required": false
     },
     {
+      "id": "jvs:sunken_boat",
+      "required": false
+    },
+    {
       "id": "lios_outlandish_villages:spiral_tower_village_sea",
       "required": false
     },

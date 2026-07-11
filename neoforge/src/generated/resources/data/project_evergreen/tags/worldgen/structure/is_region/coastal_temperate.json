@@ -5,6 +5,10 @@
       "required": false
     },
     {
+      "id": "hollowmarch:pirates_fall",
+      "required": false
+    },
+    {
       "id": "mostructures:air_balloon",
       "required": false
     },
@@ -22,10 +26,6 @@
     },
     {
       "id": "traveloptics:aqua_mage_tower",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/ruine_bateaux",
       "required": false
     },
     {

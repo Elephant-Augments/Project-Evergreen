@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "fdbosses:chesed_arena",
+      "required": false
+    },
+    {
+      "id": "fdbosses:malkuth_arena",
+      "required": false
+    },
+    {
+      "id": "withershrine:shrines",
+      "required": false
+    }
+  ]
+}

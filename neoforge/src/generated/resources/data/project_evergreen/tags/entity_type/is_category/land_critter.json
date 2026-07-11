@@ -13,6 +13,18 @@
       "required": false
     },
     {
+      "id": "aquaculture:arrau_turtle",
+      "required": false
+    },
+    {
+      "id": "aquaculture:box_turtle",
+      "required": false
+    },
+    {
+      "id": "aquaculture:starshell_turtle",
+      "required": false
+    },
+    {
       "id": "born_in_chaos_v1:baby_spider_controlled",
       "required": false
     },
@@ -125,6 +137,10 @@
       "required": false
     },
     {
+      "id": "creeperoverhaul:mushroom_creeper",
+      "required": false
+    },
+    {
       "id": "crittersandcompanions:dragonfly",
       "required": false
     },
@@ -157,11 +173,251 @@
       "required": false
     },
     {
+      "id": "dustydecorations:nautilus_golem",
+      "required": false
+    },
+    {
+      "id": "elemental_wizards_rpg:earth_golem",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:axolotl_pet_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:flower_fields_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:hammerhead_pet_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:mushroom_fields_enderman",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:pet_enderman",
+      "required": false
+    },
+    {
+      "id": "guardvillagers:guard",
+      "required": false
+    },
+    {
       "id": "hexerei:crow",
       "required": false
     },
     {
       "id": "hexerei:owl",
+      "required": false
+    },
+    {
+      "id": "koopascritters:aardwolf_kc",
+      "required": false
+    },
+    {
+      "id": "koopascritters:asian_leopard_cat",
+      "required": false
+    },
+    {
+      "id": "koopascritters:attenboroughs_echidna",
+      "required": false
+    },
+    {
+      "id": "koopascritters:binturong",
+      "required": false
+    },
+    {
+      "id": "koopascritters:burrowing_owl",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bush_dog",
+      "required": false
+    },
+    {
+      "id": "koopascritters:california_quail",
+      "required": false
+    },
+    {
+      "id": "koopascritters:candy_cane_snail",
+      "required": false
+    },
+    {
+      "id": "koopascritters:cape_buffalo",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chacoan_peccary",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chinese_cave_gecko",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chinese_crocodile_lizard_kc",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chinstrap_penguin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chuckwalla",
+      "required": false
+    },
+    {
+      "id": "koopascritters:clouded_leopard_kc",
+      "required": false
+    },
+    {
+      "id": "koopascritters:desert_rain_frog",
+      "required": false
+    },
+    {
+      "id": "koopascritters:emerald_toucanet",
+      "required": false
+    },
+    {
+      "id": "koopascritters:fire_salamander",
+      "required": false
+    },
+    {
+      "id": "koopascritters:gentoo_penguin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:giant_african_land_snail",
+      "required": false
+    },
+    {
+      "id": "koopascritters:giant_muntjac",
+      "required": false
+    },
+    {
+      "id": "koopascritters:headlight_beetle",
+      "required": false
+    },
+    {
+      "id": "koopascritters:helmeted_guineafowl",
+      "required": false
+    },
+    {
+      "id": "koopascritters:hyrax",
+      "required": false
+    },
+    {
+      "id": "koopascritters:impalla",
+      "required": false
+    },
+    {
+      "id": "koopascritters:indian_bullfrog",
+      "required": false
+    },
+    {
+      "id": "koopascritters:klipspringer",
+      "required": false
+    },
+    {
+      "id": "koopascritters:marabou_stork",
+      "required": false
+    },
+    {
+      "id": "koopascritters:marsupial_mole",
+      "required": false
+    },
+    {
+      "id": "koopascritters:matschies_tree_kangaroo",
+      "required": false
+    },
+    {
+      "id": "koopascritters:mexican_rosy_boa",
+      "required": false
+    },
+    {
+      "id": "koopascritters:northern_rock_hopper_penguin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pallas_cat",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pancake_tortoise",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pink_land_iguana",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pink_velvet_worm",
+      "required": false
+    },
+    {
+      "id": "koopascritters:rainbow_rock_lizard",
+      "required": false
+    },
+    {
+      "id": "koopascritters:rock_ptarmigan",
+      "required": false
+    },
+    {
+      "id": "koopascritters:roseate_spoonbill",
+      "required": false
+    },
+    {
+      "id": "koopascritters:sagalla_caecilian",
+      "required": false
+    },
+    {
+      "id": "koopascritters:serval",
+      "required": false
+    },
+    {
+      "id": "koopascritters:south_island_takahe",
+      "required": false
+    },
+    {
+      "id": "koopascritters:southern_patas_monkey",
+      "required": false
+    },
+    {
+      "id": "koopascritters:southern_patas_monkey_female",
+      "required": false
+    },
+    {
+      "id": "koopascritters:sulcata_tortoise_kc",
+      "required": false
+    },
+    {
+      "id": "koopascritters:tibetan_fox",
+      "required": false
+    },
+    {
+      "id": "koopascritters:tree_lobster",
+      "required": false
+    },
+    {
+      "id": "koopascritters:tricolor_hognose_snake",
+      "required": false
+    },
+    {
+      "id": "koopascritters:uakari_monkey",
+      "required": false
+    },
+    {
+      "id": "koopascritters:viscacha",
+      "required": false
+    },
+    {
+      "id": "koopascritters:yellow_eye_penguin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:yellow_footed_tortoise",
       "required": false
     },
     {
@@ -277,6 +533,10 @@
       "required": false
     },
     {
+      "id": "minecraft:villager",
+      "required": false
+    },
+    {
       "id": "minecraft:wandering_trader",
       "required": false
     },
@@ -293,11 +553,39 @@
       "required": false
     },
     {
+      "id": "quark:crab",
+      "required": false
+    },
+    {
+      "id": "quark:foxhound",
+      "required": false
+    },
+    {
+      "id": "quark:shiba",
+      "required": false
+    },
+    {
+      "id": "quark:stoneling",
+      "required": false
+    },
+    {
+      "id": "quark:toretoise",
+      "required": false
+    },
+    {
       "id": "ribbits:ribbit",
       "required": false
     },
     {
       "id": "supplementaries:red_merchant",
+      "required": false
+    },
+    {
+      "id": "vinery:mule",
+      "required": false
+    },
+    {
+      "id": "vinery:wandering_winemaker",
       "required": false
     }
   ]

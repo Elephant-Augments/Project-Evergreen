@@ -41,7 +41,19 @@
       "required": false
     },
     {
+      "id": "wythers:huangshan_highlands",
+      "required": false
+    },
+    {
       "id": "wythers:jade_highlands",
+      "required": false
+    },
+    {
+      "id": "wythers:maple_mountains",
+      "required": false
+    },
+    {
+      "id": "wythers:waterlily_swamp",
       "required": false
     }
   ]

@@ -93,6 +93,14 @@
       "required": false
     },
     {
+      "id": "hollowmarch:palm_haven",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:sultans_bazaar",
+      "required": false
+    },
+    {
       "id": "humancompanions:sandstone_house",
       "required": false
     },
@@ -146,6 +154,10 @@
     },
     {
       "id": "integrated_villages:oasis_village",
+      "required": false
+    },
+    {
+      "id": "jvs:desert_market",
       "required": false
     },
     {

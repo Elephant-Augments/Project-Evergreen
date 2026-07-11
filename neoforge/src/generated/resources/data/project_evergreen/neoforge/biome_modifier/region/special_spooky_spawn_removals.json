@@ -1,5 +1,5 @@
 {
   "type": "neoforge:remove_spawns",
   "biomes": "#project_evergreen:is_region/special_spooky",
-  "entity_types": "#project_evergreen:is_category/land_critter"
+  "entity_types": "#project_evergreen:is_redistributed/special_spooky_removals"
 }

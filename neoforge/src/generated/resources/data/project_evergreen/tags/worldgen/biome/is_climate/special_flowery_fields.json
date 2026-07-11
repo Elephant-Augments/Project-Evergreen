@@ -17,15 +17,7 @@
       "required": false
     },
     {
-      "id": "minecraft:sunflower_plains",
-      "required": false
-    },
-    {
       "id": "natures_spirit:blooming_highlands",
-      "required": false
-    },
-    {
-      "id": "natures_spirit:carnation_fields",
       "required": false
     },
     {

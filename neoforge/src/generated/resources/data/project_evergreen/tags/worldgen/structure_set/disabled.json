@@ -1,7 +1,51 @@
 {
   "values": [
     {
+      "id": "ancientstructures:german_buildings",
+      "required": false
+    },
+    {
       "id": "archaeology_ruins:ruined_ocean_monument",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_desert_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_frozen_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_rock_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_ruined_hut",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_wasteland_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:desert_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:frozen_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:rock_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_hut_large",
+      "required": false
+    },
+    {
+      "id": "archeological:wasteland_ruins_large",
       "required": false
     },
     {
@@ -53,7 +97,19 @@
       "required": false
     },
     {
+      "id": "block_factorys_bosses:kraken_ship",
+      "required": false
+    },
+    {
       "id": "block_factorys_bosses:sandworm_nest",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:underworld_arena",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
       "required": false
     },
     {
@@ -141,6 +197,14 @@
       "required": false
     },
     {
+      "id": "create_ltab:water_pre",
+      "required": false
+    },
+    {
+      "id": "create_pillagers_arise:cathedral_create",
+      "required": false
+    },
+    {
       "id": "create_pillagers_arise:createpillagervillage",
       "required": false
     },
@@ -161,7 +225,15 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:obsidiantemple",
+      "required": false
+    },
+    {
       "id": "create_structures_arise:pillager_boat",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:windmill",
       "required": false
     },
     {
@@ -177,11 +249,31 @@
       "required": false
     },
     {
+      "id": "eternal_starlight:portal_ruins_forest",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_jungle",
+      "required": false
+    },
+    {
       "id": "explorify:ruins",
       "required": false
     },
     {
+      "id": "explorify:taverns",
+      "required": false
+    },
+    {
+      "id": "explorify:watchtowers",
+      "required": false
+    },
+    {
       "id": "fdbosses:chesed_arena",
+      "required": false
+    },
+    {
+      "id": "fdbosses:geburah_arena",
       "required": false
     },
     {
@@ -233,7 +325,19 @@
       "required": false
     },
     {
+      "id": "feur_extension_fossil:fossil_baby_fish",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_bone_fish",
+      "required": false
+    },
+    {
       "id": "feur_extension_fossil:fossil_chest",
+      "required": false
+    },
+    {
+      "id": "feur_extension_fossil:fossil_fish",
       "required": false
     },
     {
@@ -265,11 +369,43 @@
       "required": false
     },
     {
+      "id": "hollowmarch:air",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:desert",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:ocean",
+      "required": false
+    },
+    {
       "id": "idas:idas_rare",
       "required": false
     },
     {
       "id": "idas:idas_underground_rare",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:illusioner_tower",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:ice",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:pirates",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:ruins",
+      "required": false
+    },
+    {
+      "id": "integrated_stronghold:stronghold",
       "required": false
     },
     {
@@ -281,11 +417,23 @@
       "required": false
     },
     {
+      "id": "jvs:cold_ocean",
+      "required": false
+    },
+    {
+      "id": "jvs:ocean",
+      "required": false
+    },
+    {
       "id": "kattersstructures:grassland",
       "required": false
     },
     {
       "id": "kattersstructures:ocean",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:sky",
       "required": false
     },
     {
@@ -305,7 +453,19 @@
       "required": false
     },
     {
+      "id": "loot_n_explore:dungeons",
+      "required": false
+    },
+    {
       "id": "loot_n_explore:frostmonarch_temple",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:overworld_inns",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:underground_structures",
       "required": false
     },
     {
@@ -505,7 +665,31 @@
       "required": false
     },
     {
+      "id": "mvs:windmill",
+      "required": false
+    },
+    {
       "id": "mythsandlegends:ancient_vestiges",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:graveyard",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:old_camp",
+      "required": false
+    },
+    {
+      "id": "netherman:gast_chamber",
+      "required": false
+    },
+    {
+      "id": "netherman:mansion_nether",
+      "required": false
+    },
+    {
+      "id": "netherman:minor_points",
       "required": false
     },
     {
@@ -522,6 +706,18 @@
     },
     {
       "id": "nova_structures:badlands_miner_outpost",
+      "required": false
+    },
+    {
+      "id": "nova_structures:bunker",
+      "required": false
+    },
+    {
+      "id": "nova_structures:conduit_ruin",
+      "required": false
+    },
+    {
+      "id": "nova_structures:end_castle",
       "required": false
     },
     {
@@ -861,6 +1057,58 @@
       "required": false
     },
     {
+      "id": "spore:biomass_tower",
+      "required": false
+    },
+    {
+      "id": "spore:cathedral",
+      "required": false
+    },
+    {
+      "id": "spore:cell",
+      "required": false
+    },
+    {
+      "id": "spore:celltower",
+      "required": false
+    },
+    {
+      "id": "spore:church",
+      "required": false
+    },
+    {
+      "id": "spore:hospital",
+      "required": false
+    },
+    {
+      "id": "spore:iceberg_mines",
+      "required": false
+    },
+    {
+      "id": "spore:lab",
+      "required": false
+    },
+    {
+      "id": "spore:lodge",
+      "required": false
+    },
+    {
+      "id": "spore:mass_grave",
+      "required": false
+    },
+    {
+      "id": "spore:military_camp",
+      "required": false
+    },
+    {
+      "id": "spore:mines",
+      "required": false
+    },
+    {
+      "id": "spore:prison",
+      "required": false
+    },
+    {
       "id": "structory:ruin_quiet",
       "required": false
     },
@@ -870,6 +1118,10 @@
     },
     {
       "id": "takesapillage:pillager_structure",
+      "required": false
+    },
+    {
+      "id": "totw_modded:overworld",
       "required": false
     },
     {
@@ -909,6 +1161,10 @@
       "required": false
     },
     {
+      "id": "villagesandpillages:village_witch",
+      "required": false
+    },
+    {
       "id": "wabi_sabi_structures:beetroot_patch",
       "required": false
     },
@@ -918,6 +1174,10 @@
     },
     {
       "id": "wabi_sabi_structures:firewatch_tower",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:marine_observation_hub",
       "required": false
     },
     {
@@ -942,6 +1202,10 @@
     },
     {
       "id": "wabi_sabi_structures:wheat_patch",
+      "required": false
+    },
+    {
+      "id": "wythers:features",
       "required": false
     },
     {

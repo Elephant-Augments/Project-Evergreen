@@ -21,10 +21,6 @@
       "required": false
     },
     {
-      "id": "archaeology_ruins:ocean_ruin",
-      "required": false
-    },
-    {
       "id": "archaeology_ruins:warm_ocean_ruin",
       "required": false
     },

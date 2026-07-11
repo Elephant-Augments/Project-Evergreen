@@ -109,6 +109,10 @@
       "required": false
     },
     {
+      "id": "jvs:aquatic_ancient_artefact",
+      "required": false
+    },
+    {
       "id": "minecraft:monument",
       "required": false
     },
@@ -142,14 +146,6 @@
     },
     {
       "id": "towns_and_towers:village_ocean",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/mushroom_island",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/very_rare/coves",
       "required": false
     },
     {

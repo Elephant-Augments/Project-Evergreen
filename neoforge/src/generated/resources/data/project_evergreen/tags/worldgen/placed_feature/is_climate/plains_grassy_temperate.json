@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "mushroomquest:field_trunk_2_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:tiny_brown_shroom_feature_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:tiny_red_shroom_feature_biome_modifier",
+      "required": false
+    }
+  ]
+}

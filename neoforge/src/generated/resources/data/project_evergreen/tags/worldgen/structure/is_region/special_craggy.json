@@ -17,10 +17,6 @@
       "required": false
     },
     {
-      "id": "ati_structures:ati_stoneworks",
-      "required": false
-    },
-    {
       "id": "ati_structures:rotting_temple",
       "required": false
     },
@@ -30,6 +26,10 @@
     },
     {
       "id": "combat_structures_update:stone_library_catacombs",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:crimsite_tower",
       "required": false
     },
     {
@@ -45,7 +45,15 @@
       "required": false
     },
     {
+      "id": "illagerstructures:balloon_tower",
+      "required": false
+    },
+    {
       "id": "integrated_minecraft:firecaller_tower",
+      "required": false
+    },
+    {
+      "id": "jvs:battle_tower",
       "required": false
     },
     {

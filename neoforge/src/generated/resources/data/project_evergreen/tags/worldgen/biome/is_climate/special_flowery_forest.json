@@ -17,6 +17,10 @@
       "required": false
     },
     {
+      "id": "regions_unexplored:wisteria_grove",
+      "required": false
+    },
+    {
       "id": "terralith:lavender_forest",
       "required": false
     },

@@ -41,6 +41,10 @@
       "required": false
     },
     {
+      "id": "jvs:samourai_dojo",
+      "required": false
+    },
+    {
       "id": "mowziesmobs:monastery",
       "required": false
     },

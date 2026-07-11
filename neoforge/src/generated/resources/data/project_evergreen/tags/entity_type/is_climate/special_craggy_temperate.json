@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "koopascritters:mountain_viscacha",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pallas_cat",
+      "required": false
+    }
+  ]
+}

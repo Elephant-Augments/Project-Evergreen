@@ -69,6 +69,10 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:obsidiantemple",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:typhon",
       "required": false
     },

@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "koopascritters:chuckwalla",
+      "required": false
+    },
+    {
+      "id": "koopascritters:mexican_rosy_boa",
+      "required": false
+    }
+  ]
+}

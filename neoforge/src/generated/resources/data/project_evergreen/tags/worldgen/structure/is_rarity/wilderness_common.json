@@ -5,15 +5,7 @@
       "required": false
     },
     {
-      "id": "ati_structures:deepslate_keep",
-      "required": false
-    },
-    {
       "id": "ati_structures:haunted_ruin",
-      "required": false
-    },
-    {
-      "id": "ati_structures:ice_tribe",
       "required": false
     },
     {
@@ -41,15 +33,27 @@
       "required": false
     },
     {
-      "id": "ati_structures:storage_shack",
-      "required": false
-    },
-    {
       "id": "ati_structures:stray_ruins",
       "required": false
     },
     {
+      "id": "bosses_of_mass_destruction:lich_tower",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:void_blossom",
+      "required": false
+    },
+    {
       "id": "dungeons_plus:tower",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_forest",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_jungle",
       "required": false
     },
     {
@@ -101,6 +105,14 @@
       "required": false
     },
     {
+      "id": "hollowmarch:desert_obelisk",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:tower_ruin",
+      "required": false
+    },
+    {
       "id": "kattersstructures:witch_circle",
       "required": false
     },
@@ -149,7 +161,23 @@
       "required": false
     },
     {
+      "id": "mns:smoking_shrine",
+      "required": false
+    },
+    {
       "id": "mvs:small_pillager_tower",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:graveyard",
+      "required": false
+    },
+    {
+      "id": "netherman:eye_columns",
+      "required": false
+    },
+    {
+      "id": "netherman:gehen_statue",
       "required": false
     },
     {
@@ -497,15 +525,15 @@
       "required": false
     },
     {
+      "id": "trek:overworld/medium/fort",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/frozen_tree",
       "required": false
     },
     {
       "id": "trek:overworld/medium/graveyard",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/haunted_house",
       "required": false
     },
     {
@@ -618,10 +646,6 @@
     },
     {
       "id": "trek:overworld/medium/witch_tower",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/elven_tree",
       "required": false
     },
     {

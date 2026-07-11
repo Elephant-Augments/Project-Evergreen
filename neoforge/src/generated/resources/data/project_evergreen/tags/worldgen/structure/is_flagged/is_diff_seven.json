@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "block_factorys_bosses:dragon_tower",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:obsidilith_arena",
+      "required": false
+    },
+    {
+      "id": "cataclysm:burning_arena",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ruined_citadel",
+      "required": false
+    },
+    {
+      "id": "cataclysm:soul_black_smith",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:cursed_garden",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:golem_forge",
+      "required": false
+    },
+    {
+      "id": "integrated_stronghold:stronghold",
+      "required": false
+    },
+    {
+      "id": "minecraft:ancient_city",
+      "required": false
+    }
+  ]
+}

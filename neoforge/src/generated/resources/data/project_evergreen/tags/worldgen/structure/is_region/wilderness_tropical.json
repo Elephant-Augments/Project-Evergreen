@@ -97,10 +97,6 @@
       "required": false
     },
     {
-      "id": "bosses_of_mass_destruction:void_blossom",
-      "required": false
-    },
-    {
       "id": "companions:companions_monkey_temple",
       "required": false
     },
@@ -189,6 +185,14 @@
       "required": false
     },
     {
+      "id": "hollowmarch:jungle_obelisk",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:stone_spire",
+      "required": false
+    },
+    {
       "id": "iceandfire:gorgon_temple",
       "required": false
     },
@@ -201,7 +205,27 @@
       "required": false
     },
     {
+      "id": "illagerstructures:mohai_illager",
+      "required": false
+    },
+    {
       "id": "imst:el_dorado",
+      "required": false
+    },
+    {
+      "id": "jvs:jungle_totem",
+      "required": false
+    },
+    {
+      "id": "jvs:lush_camp",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:sky_dungeon",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:spider_den",
       "required": false
     },
     {

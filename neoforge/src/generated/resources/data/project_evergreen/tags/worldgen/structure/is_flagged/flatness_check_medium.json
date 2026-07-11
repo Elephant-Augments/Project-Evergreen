@@ -1,6 +1,66 @@
 {
   "values": [
     {
+      "id": "ati_structures:ancient_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:castillo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:desert_outpost",
+      "required": false
+    },
+    {
+      "id": "ati_structures:dojo",
+      "required": false
+    },
+    {
+      "id": "ati_structures:fortified_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:granite_fort",
+      "required": false
+    },
+    {
+      "id": "ati_structures:manor",
+      "required": false
+    },
+    {
+      "id": "ati_structures:marble_chateau",
+      "required": false
+    },
+    {
+      "id": "ati_structures:old_fort",
+      "required": false
+    },
+    {
+      "id": "ati_structures:old_residence",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ruined_castle",
+      "required": false
+    },
+    {
+      "id": "ati_structures:sinking_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:tavern",
+      "required": false
+    },
+    {
+      "id": "ati_structures:woodland_keep",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:sandworm_nest",
+      "required": false
+    },
+    {
       "id": "born_in_chaos_v1:clown_caravan_plains",
       "required": false
     },
@@ -18,6 +78,10 @@
     },
     {
       "id": "create_ltab:oak_house",
+      "required": false
+    },
+    {
+      "id": "create_rustic_structures:rustic_barn",
       "required": false
     },
     {
@@ -45,11 +109,35 @@
       "required": false
     },
     {
+      "id": "feur_extension_desert:oasis_big",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:oasis_small",
+      "required": false
+    },
+    {
       "id": "hexerei:owl_post_office",
       "required": false
     },
     {
       "id": "idas:pillager_camp",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:firecaller_hut",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:illager_fort",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:illusioner_tower",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:ruined_church",
       "required": false
     },
     {
@@ -61,7 +149,43 @@
       "required": false
     },
     {
+      "id": "jvs:froglord_lair",
+      "required": false
+    },
+    {
+      "id": "jvs:illager_raid_camp",
+      "required": false
+    },
+    {
+      "id": "mtr:badlands_temple",
+      "required": false
+    },
+    {
+      "id": "mvs:big_oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:dark_oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:flower_hole",
+      "required": false
+    },
+    {
       "id": "mvs:houses/flower_hole",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_palm_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:jungle_tree",
       "required": false
     },
     {
@@ -97,11 +221,63 @@
       "required": false
     },
     {
+      "id": "mvs:oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:paths",
+      "required": false
+    },
+    {
+      "id": "mvs:spruce_tree",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:graveyard",
+      "required": false
+    },
+    {
+      "id": "rpgstructures:mage_guild",
+      "required": false
+    },
+    {
       "id": "species:paleontology_dig_site",
       "required": false
     },
     {
+      "id": "trek:overworld/medium/haunted_house",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/oasis",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/abandoned_castle_pillager",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/portal_sword",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/pyramide_of_anubis",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/villager_fortress",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/wooden_manor",
+      "required": false
+    },
+    {
       "id": "wabi_sabi_structures:abandoned_small_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
       "required": false
     }
   ]

@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "koopascritters:cape_buffalo",
+      "required": false
+    },
+    {
+      "id": "koopascritters:hyrax",
+      "required": false
+    },
+    {
+      "id": "koopascritters:klipspringer",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pancake_tortoise",
+      "required": false
+    },
+    {
+      "id": "koopascritters:southern_patas_monkey",
+      "required": false
+    }
+  ]
+}

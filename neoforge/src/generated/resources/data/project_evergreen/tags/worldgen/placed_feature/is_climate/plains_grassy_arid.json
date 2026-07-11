@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "mushroomquest:acacia_stump_2_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:shrump_biome_modifier",
+      "required": false
+    }
+  ]
+}

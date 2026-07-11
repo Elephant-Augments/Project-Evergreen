@@ -1,0 +1,48 @@
+{
+  "values": [
+    {
+      "id": "dungeons_arise:illager_campsite",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:merchant_campsite",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:cabin_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:clockwork_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:kutcha_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:marketstead_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:mediterranean_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:mossy_mounds",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:oasis_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:quark/minka_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:tavern_village",
+      "required": false
+    }
+  ]
+}

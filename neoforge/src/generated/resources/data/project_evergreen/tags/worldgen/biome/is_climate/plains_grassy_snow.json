@@ -9,19 +9,19 @@
       "required": false
     },
     {
+      "id": "natures_spirit:tundra",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:frozen_tundra",
+      "required": false
+    },
+    {
       "id": "terralith:mountain_steppe",
       "required": false
     },
     {
-      "id": "wythers:frigid_island",
-      "required": false
-    },
-    {
       "id": "wythers:frozen_island",
-      "required": false
-    },
-    {
-      "id": "wythers:tundra",
       "required": false
     }
   ]

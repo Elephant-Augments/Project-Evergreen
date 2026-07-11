@@ -1,5 +1,5 @@
 {
   "type": "neoforge:remove_spawns",
   "biomes": "#project_evergreen:is_region/all_coastal",
-  "entity_types": "#project_evergreen:is_category/uncivilized_monster"
+  "entity_types": "#project_evergreen:is_redistributed/all_coastal_removals"
 }

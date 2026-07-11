@@ -1,0 +1,56 @@
+{
+  "values": [
+    {
+      "id": "create_ltab:water_pre",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_big_remnant",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_big_remnant_2",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_big_remnant_3",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_bridge_remnant",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_graveyard",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_medium_remnant",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_medium_remnant_2",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_ruin_farmer",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_ruin_smith",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_sawmill",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_school_remnant",
+      "required": false
+    },
+    {
+      "id": "nova_structures:ruin_town",
+      "required": false
+    }
+  ]
+}

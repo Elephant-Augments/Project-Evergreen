@@ -21,6 +21,10 @@
       "required": false
     },
     {
+      "id": "wythers:sandy_jungle",
+      "required": false
+    },
+    {
       "id": "wythers:sparse_bamboo_jungle",
       "required": false
     },

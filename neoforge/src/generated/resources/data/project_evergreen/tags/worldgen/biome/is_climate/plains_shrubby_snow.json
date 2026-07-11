@@ -9,7 +9,11 @@
       "required": false
     },
     {
-      "id": "regions_unexplored:frozen_tundra",
+      "id": "natures_spirit:boreal_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:tundra",
       "required": false
     },
     {
@@ -26,10 +30,6 @@
     },
     {
       "id": "windswept:tundra",
-      "required": false
-    },
-    {
-      "id": "wythers:crimson_tundra",
       "required": false
     },
     {

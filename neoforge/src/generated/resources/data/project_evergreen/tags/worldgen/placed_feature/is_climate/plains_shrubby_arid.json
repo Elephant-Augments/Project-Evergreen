@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "koopascritters:termite_mound_1_feature_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:termite_mound_2_feature_biome_modifier",
+      "required": false
+    }
+  ]
+}

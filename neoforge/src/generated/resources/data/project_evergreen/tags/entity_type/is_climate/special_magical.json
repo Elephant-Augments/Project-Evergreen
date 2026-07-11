@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "born_in_chaos_v1:zombie_clown",
+      "required": false
+    },
+    {
+      "id": "koopascritters:matschies_tree_kangaroo",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pink_land_iguana",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pink_velvet_worm",
+      "required": false
+    },
+    {
+      "id": "koopascritters:south_island_takahe",
+      "required": false
+    }
+  ]
+}

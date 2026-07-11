@@ -1,55 +1,15 @@
 {
   "values": [
     {
-      "id": "archaeology_ruins:ruined_desert_pyramid",
-      "required": false
-    },
-    {
-      "id": "archaeology_ruins:ruinedjungletemple",
-      "required": false
-    },
-    {
-      "id": "archeological:ancient_vault_desert_ruins",
-      "required": false
-    },
-    {
-      "id": "archeological:ancient_vault_frozen_ruins",
-      "required": false
-    },
-    {
       "id": "archeological:ancient_vault_ruined_hut",
       "required": false
     },
     {
-      "id": "archeological:ancient_vault_wasteland_ruins",
-      "required": false
-    },
-    {
-      "id": "archeological:desert_ruins_large",
-      "required": false
-    },
-    {
-      "id": "archeological:frozen_ruins_large",
-      "required": false
-    },
-    {
-      "id": "archeological:ruined_hut_large",
-      "required": false
-    },
-    {
-      "id": "archeological:wasteland_ruins_large",
-      "required": false
-    },
-    {
-      "id": "ati_structures:ancient_temple",
+      "id": "ati_structures:ancient_vessel",
       "required": false
     },
     {
       "id": "ati_structures:arachnid_dwelling",
-      "required": false
-    },
-    {
-      "id": "ati_structures:desert_outpost",
       "required": false
     },
     {
@@ -65,19 +25,15 @@
       "required": false
     },
     {
-      "id": "ati_structures:old_fort",
-      "required": false
-    },
-    {
       "id": "ati_structures:rotting_temple_underground",
       "required": false
     },
     {
-      "id": "ati_structures:sinking_temple",
+      "id": "ati_structures:underground_monument",
       "required": false
     },
     {
-      "id": "betterarcheology:temple_jungle",
+      "id": "ati_structures:warden_monument",
       "required": false
     },
     {
@@ -97,6 +53,14 @@
       "required": false
     },
     {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:gauntlet_arena",
+      "required": false
+    },
+    {
       "id": "bosses_of_mass_destruction:void_blossom",
       "required": false
     },
@@ -105,55 +69,15 @@
       "required": false
     },
     {
-      "id": "combat_structures_update:end_ruin",
+      "id": "cataclysm:cursed_pyramid",
       "required": false
     },
     {
-      "id": "combat_structures_update:ruined_end_city",
+      "id": "cataclysm:frosted_prison",
       "required": false
     },
     {
-      "id": "combat_structures_update:ruinedendship",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandbridge_1",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandbridge_2",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandbridge_3",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandhouse_1",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandhouse_2",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandruin_1",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandruin_2",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandruin_3",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandruin_4",
-      "required": false
-    },
-    {
-      "id": "combat_structures_update:smallendislandruin_5",
+      "id": "create_pillagers_arise:cathedral_create",
       "required": false
     },
     {
@@ -173,10 +97,6 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:foundry",
-      "required": false
-    },
-    {
       "id": "dungeons_arise:mining_system",
       "required": false
     },
@@ -193,11 +113,11 @@
       "required": false
     },
     {
-      "id": "explorify:dark_forest_settlement",
+      "id": "dungeons_arise:shiraz_palace",
       "required": false
     },
     {
-      "id": "fdbosses:chesed_arena",
+      "id": "explorify:dark_forest_settlement",
       "required": false
     },
     {
@@ -245,7 +165,11 @@
       "required": false
     },
     {
-      "id": "hexerei:dark_coven",
+      "id": "grim_kingdoms:glimmervault_fortress",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:phantome_nest",
       "required": false
     },
     {
@@ -253,19 +177,43 @@
       "required": false
     },
     {
-      "id": "hopo:mineshaft/deepslate_mineshaft",
-      "required": false
-    },
-    {
       "id": "hopo:mineshaft/mangrove_mineshaft",
       "required": false
     },
     {
-      "id": "hopo:mineshaft/mud_mineshaft",
+      "id": "idas:ancient_portal/ancient_portal",
       "required": false
     },
     {
-      "id": "hopo:mineshaft/stone_mineshaft",
+      "id": "idas:ars_nouveau/archmages_tower",
+      "required": false
+    },
+    {
+      "id": "idas:desert_pyramid",
+      "required": false
+    },
+    {
+      "id": "idas:haunted_manor",
+      "required": false
+    },
+    {
+      "id": "idas:labyrinth",
+      "required": false
+    },
+    {
+      "id": "idas:nexus",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:airship_village",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:sunken_village",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:sky_dungeon",
       "required": false
     },
     {
@@ -281,11 +229,31 @@
       "required": false
     },
     {
+      "id": "loot_n_explore:glacial_tomb",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:glaze_tower",
+      "required": false
+    },
+    {
+      "id": "minecraft:mansion",
+      "required": false
+    },
+    {
       "id": "minecraft:stronghold_big",
       "required": false
     },
     {
-      "id": "minecraft:trial_chambers",
+      "id": "mmr:desert_mineshaft",
+      "required": false
+    },
+    {
+      "id": "mmr:mesa_mineshaft",
+      "required": false
+    },
+    {
+      "id": "mmr:snowy_mineshaft",
       "required": false
     },
     {
@@ -313,7 +281,7 @@
       "required": false
     },
     {
-      "id": "mythsandlegends:graveyard",
+      "id": "nordic_structures:vikinglongboatboss",
       "required": false
     },
     {
@@ -325,27 +293,55 @@
       "required": false
     },
     {
+      "id": "nova_structures:remnant_big_remnant",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_big_remnant_2",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_big_remnant_3",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_bridge_remnant",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_graveyard",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_medium_remnant",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_medium_remnant_2",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_ruin_farmer",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_ruin_smith",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_sawmill",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_school_remnant",
+      "required": false
+    },
+    {
       "id": "nova_structures:stray_fort",
       "required": false
     },
     {
-      "id": "nova_structures:toxic_lair",
-      "required": false
-    },
-    {
-      "id": "nova_structures:village_swamp",
-      "required": false
-    },
-    {
-      "id": "nova_structures:witch_villa",
-      "required": false
-    },
-    {
       "id": "qrafty:bunker",
-      "required": false
-    },
-    {
-      "id": "qrafty:transilvania",
       "required": false
     },
     {
@@ -385,14 +381,6 @@
       "required": false
     },
     {
-      "id": "repurposed_structures:village_swamp",
-      "required": false
-    },
-    {
-      "id": "ribbits:ribbit_village",
-      "required": false
-    },
-    {
       "id": "skyarena:ice_arena",
       "required": false
     },
@@ -401,19 +389,23 @@
       "required": false
     },
     {
+      "id": "spore:iceberg_mines",
+      "required": false
+    },
+    {
       "id": "structory:old_manor",
       "required": false
     },
     {
-      "id": "structory:swamp_ruin",
+      "id": "totw_modded:badlands",
+      "required": false
+    },
+    {
+      "id": "totw_modded:desert",
       "required": false
     },
     {
       "id": "towns_and_towers:pillager_outpost_desert",
-      "required": false
-    },
-    {
-      "id": "towns_and_towers:village_swamp",
       "required": false
     },
     {
@@ -425,19 +417,11 @@
       "required": false
     },
     {
+      "id": "trek:overworld/rare/castle",
+      "required": false
+    },
+    {
       "id": "trek:overworld/rare/maya",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/portal_sword",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/pyramide_of_anubis",
-      "required": false
-    },
-    {
-      "id": "trek:village/swamp",
       "required": false
     },
     {

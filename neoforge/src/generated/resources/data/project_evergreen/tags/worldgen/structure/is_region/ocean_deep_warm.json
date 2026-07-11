@@ -5,6 +5,10 @@
       "required": false
     },
     {
+      "id": "block_factorys_bosses:kraken_ship",
+      "required": false
+    },
+    {
       "id": "cataclysm:acropolis",
       "required": false
     },

@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "id": "crittersandcompanions:leaf_insect",
+      "required": false
+    },
+    {
+      "id": "koopascritters:attenboroughs_echidna",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bush_dog",
+      "required": false
+    },
+    {
+      "id": "koopascritters:emerald_toucanet",
+      "required": false
+    },
+    {
+      "id": "koopascritters:giant_muntjac",
+      "required": false
+    },
+    {
+      "id": "koopascritters:peacock_bass",
+      "required": false
+    },
+    {
+      "id": "koopascritters:sumatran_rhino",
+      "required": false
+    },
+    {
+      "id": "koopascritters:uakari_monkey",
+      "required": false
+    }
+  ]
+}

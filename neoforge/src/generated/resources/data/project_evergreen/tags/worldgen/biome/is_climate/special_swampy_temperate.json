@@ -65,19 +65,11 @@
       "required": false
     },
     {
-      "id": "wythers:flooded_temperate_rainforest",
-      "required": false
-    },
-    {
       "id": "wythers:marsh",
       "required": false
     },
     {
       "id": "wythers:old_growth_taiga_swamp",
-      "required": false
-    },
-    {
-      "id": "wythers:waterlily_swamp",
       "required": false
     }
   ]

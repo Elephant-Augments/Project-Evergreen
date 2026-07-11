@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "op": "add",
+      "path": "/temp_properties",
+      "value": {
+        "id": "hybrid-aquatic:hammerhead_shark_temperate_oceans",
+        "is_loaded": false,
+        "is_modifier": true,
+        "patchable": true,
+        "disabled": true
+      }
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/disabled",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/type",
+      "value": "neoforge:none"
+    }
+  ],
+  [
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/biome"
+      },
+      {
+        "op": "copy",
+        "path": "/biomes",
+        "from": "/temp_properties/biome"
+      }
+    ]
+  ]
+]

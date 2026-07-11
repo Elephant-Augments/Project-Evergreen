@@ -21,6 +21,10 @@
       "required": false
     },
     {
+      "id": "create_ltab:water_pre",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:typhon",
       "required": false
     },
@@ -30,6 +34,14 @@
     },
     {
       "id": "hopo:underwater/underwater_city",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:submarine",
+      "required": false
+    },
+    {
+      "id": "jvs:aquatic_ancient_artefact",
       "required": false
     },
     {
@@ -45,6 +57,10 @@
       "required": false
     },
     {
+      "id": "nova_structures:conduit_ruin",
+      "required": false
+    },
+    {
       "id": "nova_structures:trident_trial_monument",
       "required": false
     },
@@ -54,6 +70,10 @@
     },
     {
       "id": "repurposed_structures:pyramid_ocean",
+      "required": false
+    },
+    {
+      "id": "spawn:octopolis",
       "required": false
     },
     {

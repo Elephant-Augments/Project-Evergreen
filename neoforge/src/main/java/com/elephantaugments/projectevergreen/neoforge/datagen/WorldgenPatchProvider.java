@@ -348,7 +348,10 @@ public class WorldgenPatchProvider extends PatchProvider {
                 //ADVANCED_STRUCTURE_TYPE_PATCH
                     .compound()
                         .test(Constants.JsonProp.IS_ADVANCED_TYPE.jsonPath(), true, false)
-                        .remove("/terrain_check")
+                        .compound()
+                            .test("/terrain_check", null, false)
+                            .remove("/terrain_check")
+                        .end()
                         .compound()
                             .test("patched:mod_loaded", "repurposed_structures")
                             .add("/type", "repurposed_structures:generic_jigsaw_structure")

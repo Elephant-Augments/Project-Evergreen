@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "born_in_chaos_v1:fallen_chaos_knight",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:nightmare_stalker",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:spiritof_chaos",
+      "required": false
+    }
+  ]
+}

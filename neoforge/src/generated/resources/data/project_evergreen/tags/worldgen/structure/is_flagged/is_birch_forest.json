@@ -5,6 +5,10 @@
       "required": false
     },
     {
+      "id": "ati_structures:marble_chateau",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:birch_cottage",
       "required": false
     },
@@ -38,6 +42,10 @@
     },
     {
       "id": "nova_structures:firewatch_tower_birch",
+      "required": false
+    },
+    {
+      "id": "nova_structures:remnant_birch_graveyard",
       "required": false
     },
     {

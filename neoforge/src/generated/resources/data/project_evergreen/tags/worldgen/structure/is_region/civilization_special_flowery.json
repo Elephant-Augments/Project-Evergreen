@@ -77,6 +77,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/medium/plains_cottage",
+      "required": false
+    },
+    {
       "id": "verdantvibes:fairy_circle",
       "required": false
     }

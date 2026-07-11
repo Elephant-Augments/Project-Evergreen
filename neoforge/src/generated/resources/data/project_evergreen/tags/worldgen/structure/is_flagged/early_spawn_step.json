@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "create_structures_arise:obsidiantemple",
+      "required": false
+    },
+    {
+      "id": "hopo:underwater/underwater_city",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "bosses_of_mass_destruction:lich_tower",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:obsidiantemple",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:illager_fort",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:graveyard",
+      "required": false
+    }
+  ]
+}

@@ -11,6 +11,10 @@
     {
       "id": "#project_evergreen:is_climate/special_craggy_snow",
       "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/special_swampy_snow",
+      "required": false
     }
   ]
 }

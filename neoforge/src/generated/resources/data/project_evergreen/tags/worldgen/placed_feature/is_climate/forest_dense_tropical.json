@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "extradelight:patch_wild_chili",
+      "required": false
+    },
+    {
+      "id": "mushroomquest:jungle_trunk_2_biome_modifier",
+      "required": false
+    }
+  ]
+}

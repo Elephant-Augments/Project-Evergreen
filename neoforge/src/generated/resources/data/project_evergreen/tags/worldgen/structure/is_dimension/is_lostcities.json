@@ -1,10 +1,6 @@
 {
   "values": [
     {
-      "id": "create_ltab:water_pre",
-      "required": false
-    },
-    {
       "id": "integrated_minecraft:abandoned_factory",
       "required": false
     },

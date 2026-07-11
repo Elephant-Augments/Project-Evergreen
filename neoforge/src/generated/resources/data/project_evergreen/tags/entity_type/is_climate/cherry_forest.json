@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "crittersandcompanions:koi_fish",
+      "required": false
+    },
+    {
+      "id": "koopascritters:binturong",
+      "required": false
+    },
+    {
+      "id": "quark:shiba",
+      "required": false
+    }
+  ]
+}

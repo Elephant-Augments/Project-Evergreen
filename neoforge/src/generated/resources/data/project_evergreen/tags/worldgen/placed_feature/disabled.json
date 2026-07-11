@@ -1,0 +1,548 @@
+{
+  "values": [
+    {
+      "id": "culturaldelights:add_corn",
+      "required": false
+    },
+    {
+      "id": "culturaldelights:add_cucumber",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/bamboo_jungle_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/birch_forest_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/cherry_grove_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/dark_forest_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/desert_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/flower_forest_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/forest_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/grove_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/jungle_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/mangrove_swamp_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/meadow_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/mushroom_fields_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/old_growth_birch_forest_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/old_growth_pine_taiga_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/old_growth_spruce_taiga_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/plains_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/river_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/savanna_plateau_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/savanna_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/snowy_plains_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/snowy_taiga_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/sparse_jungle_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/sunflower_plains_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/swamp_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/taiga_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/windswept_forest_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/windswept_gravelly_hills_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/windswept_hills_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/windswept_savanna_trees",
+      "required": false
+    },
+    {
+      "id": "dreamwoods:vanilla_biomes_features/wooded_badlands_trees",
+      "required": false
+    },
+    {
+      "id": "extradelight:apple",
+      "required": false
+    },
+    {
+      "id": "extradelight:apple_tree",
+      "required": false
+    },
+    {
+      "id": "extradelight:patch_wild_coffee",
+      "required": false
+    },
+    {
+      "id": "extradelight:patch_wild_garlic",
+      "required": false
+    },
+    {
+      "id": "extradelight:patch_wild_peanut",
+      "required": false
+    },
+    {
+      "id": "extradelight:patch_wild_soybean",
+      "required": false
+    },
+    {
+      "id": "farmerspizzeria:basil_4",
+      "required": false
+    },
+    {
+      "id": "herbalbrews:add_coffee_patch",
+      "required": false
+    },
+    {
+      "id": "herbalbrews:coffee_patch_chance",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:basking_shark_arctic_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:basking_shark_cold_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:basking_shark_deep_temperate_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:crayfish_rivers",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:fiddler_crab_mangroves",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:fiddler_crab_marshes",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:fiddler_crab_swamp",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:great_white_shark_deep_temperate_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:great_white_shark_deep_tropical_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:hammerhead_shark_shallow_tropical_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:hammerhead_shark_temperate_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:hermit_crab_sandy_beaches",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:hermit_crab_shallow_tropical_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:herring_shallow_cold_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:herring_shallow_temperate_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:lions_mane_jellyfish_arctic_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:lions_mane_jellyfish_cold_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:lobster_reef",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:lobster_shallow_tropical_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:ocean_sunfish_deep_temperate_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:ocean_sunfish_deep_tropical_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:yeti_crab_deep_arctic_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:yeti_crab_deep_cold_oceans",
+      "required": false
+    },
+    {
+      "id": "koopascritters:agazzis_cichlid_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:asian_leopard_cat_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:attenboroughs_echidna_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:binturong_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bonnet_head_shark_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bowmouth_guitarfish_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:burrowing_owl_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:bush_dog_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:california_quail_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:candy_cane_snail_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:cape_buffalo_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chacoan_peccary_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chinstrap_penguin_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:chuckwalla_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:clown_loach_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:dwarf_sperm_whale_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:emerald_toucanet_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:fire_salamander_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:fly_river_turtle_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:gentoo_penguin_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:giant_muntjac_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:goblin_shark_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:headlight_beetle_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:helmeted_guineafowl_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:hyrax_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:impalla_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:klipspringer_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:kopje_fig_sapling",
+      "required": false
+    },
+    {
+      "id": "koopascritters:kopje_fig_tree_1_feature",
+      "required": false
+    },
+    {
+      "id": "koopascritters:kopje_fig_tree_2_feature",
+      "required": false
+    },
+    {
+      "id": "koopascritters:marabou_stork_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:marsupial_mole_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:matschies_tree_kangaroo_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:mexican_rosy_boa_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:northern_rock_hopper_penguin_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:oceanic_manta_ray_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:ocellate_river_ray_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pallas_cat_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pancake_tortoise_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pink_land_iguana_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:pink_velvet_worm_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:psychedelic_jelly_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:rock_ptarmigan_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:roseate_spoonbill_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:south_island_takahe_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:southern_patas_monkey_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:termite_mound_1_feature",
+      "required": false
+    },
+    {
+      "id": "koopascritters:termite_mound_2_feature",
+      "required": false
+    },
+    {
+      "id": "koopascritters:tibetan_fox_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:tricolor_hognose_snake_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:uakari_monkey_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:upside_down_jellyfish_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:yangtze_giant_softshell_turtle_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:yellow_eye_penguin_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "ramadandelight:add_tree_palm",
+      "required": false
+    },
+    {
+      "id": "ramadandelight:add_wild_chickpea",
+      "required": false
+    },
+    {
+      "id": "ramadandelight:add_wild_parsley",
+      "required": false
+    },
+    {
+      "id": "ramadandelight:date_palm_tree",
+      "required": false
+    },
+    {
+      "id": "ramadandelight:patch_wild_chickpea",
+      "required": false
+    },
+    {
+      "id": "ramadandelight:patch_wild_parsley",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:add_wild_cotton",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:wild_cotton_placed",
+      "required": false
+    },
+    {
+      "id": "snowyspirit:ginger",
+      "required": false
+    },
+    {
+      "id": "snowyspirit:ginger_dense",
+      "required": false
+    },
+    {
+      "id": "snowyspirit:wild_ginger",
+      "required": false
+    },
+    {
+      "id": "snowyspirit:wild_ginger_dense",
+      "required": false
+    },
+    {
+      "id": "ubesdelight:patch_wild_garlic",
+      "required": false
+    },
+    {
+      "id": "ubesdelight:patch_wild_ginger",
+      "required": false
+    },
+    {
+      "id": "ubesdelight:wild_garlic",
+      "required": false
+    },
+    {
+      "id": "ubesdelight:wild_ginger",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:patch_wild_bellpeppers",
+      "required": false
+    },
+    {
+      "id": "veggiesdelight:wild_bellpeppers",
+      "required": false
+    }
+  ]
+}

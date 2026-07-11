@@ -1065,6 +1065,10 @@
       "required": false
     },
     {
+      "id": "hopo:mineshaft/deepslate_mineshaft",
+      "required": false
+    },
+    {
       "id": "hopo:portal/overworld/portal_ruined",
       "required": false
     },
@@ -1121,10 +1125,6 @@
       "required": false
     },
     {
-      "id": "idas:snifferhenge",
-      "required": false
-    },
-    {
       "id": "idas:tinkers_citadel",
       "required": false
     },
@@ -1158,6 +1158,10 @@
     },
     {
       "id": "illagerinvasion:sorcerer_hut",
+      "required": false
+    },
+    {
+      "id": "imst:airship",
       "required": false
     },
     {
@@ -1365,6 +1369,14 @@
       "required": false
     },
     {
+      "id": "minecraft:trial_chambers",
+      "required": false
+    },
+    {
+      "id": "mmr:mineshaft",
+      "required": false
+    },
+    {
       "id": "moresnifferflowers:dessert_sniffer_temple",
       "required": false
     },
@@ -1398,10 +1410,6 @@
     },
     {
       "id": "mvs:boulder",
-      "required": false
-    },
-    {
-      "id": "mvs:campsite",
       "required": false
     },
     {
@@ -1618,30 +1626,6 @@
     },
     {
       "id": "mythsandlegends:sepulcrum_ignitum",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_big_remnant",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_big_remnant_2",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_big_remnant_3",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_bridge_remnant",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_medium_remnant",
-      "required": false
-    },
-    {
-      "id": "nova_structures:remnant_medium_remnant_2",
       "required": false
     },
     {

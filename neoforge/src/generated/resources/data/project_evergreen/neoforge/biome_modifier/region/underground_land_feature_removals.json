@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#project_evergreen:is_region/underground_land",
+  "features": "#project_evergreen:disabled",
+  "steps": []
+}

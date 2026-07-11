@@ -1,6 +1,90 @@
 {
   "values": [
     {
+      "id": "ati_structures:warden_monument",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:mining_system",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:plague_asylum",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:scorched_mines",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/acacia_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/bamboo_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/biomes/dripstone_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/biomes/lush_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/birch_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/dark_oak_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/deepslate_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/jungle_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/mangrove_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/mud_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/oak_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/spruce_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/stone_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:portal/overworld/portal_deepslate",
+      "required": false
+    },
+    {
+      "id": "hopo:portal/overworld/portal_dripstone",
+      "required": false
+    },
+    {
+      "id": "hopo:portal/overworld/portal_lush",
+      "required": false
+    },
+    {
       "id": "mtr:stronghold",
       "required": false
     }

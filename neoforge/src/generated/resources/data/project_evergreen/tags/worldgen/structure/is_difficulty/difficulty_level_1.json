@@ -1,11 +1,7 @@
 {
   "values": [
     {
-      "id": "betterarcheology:catacombs",
-      "required": false
-    },
-    {
-      "id": "create_ltab:oak_house",
+      "id": "create_rustic_structures:rustic_barn",
       "required": false
     },
     {
@@ -25,11 +21,51 @@
       "required": false
     },
     {
+      "id": "feur_extension_desert:oasis_big",
+      "required": false
+    },
+    {
+      "id": "feur_extension_desert:oasis_small",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:ruined_church",
+      "required": false
+    },
+    {
       "id": "imst:sunflower_farm",
       "required": false
     },
     {
-      "id": "kattersstructures:village_mesa",
+      "id": "jvs:illager_raid_camp",
+      "required": false
+    },
+    {
+      "id": "mvs:big_oak_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:cherry_tree",
+      "required": false
+    },
+    {
+      "id": "mvs:flower_hole",
+      "required": false
+    },
+    {
+      "id": "mvs:paths",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/oasis",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/villager_fortress",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:zen_chair_museum",
       "required": false
     }
   ]

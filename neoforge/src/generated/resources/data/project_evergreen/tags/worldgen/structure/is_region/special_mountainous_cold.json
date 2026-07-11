@@ -13,6 +13,10 @@
       "required": false
     },
     {
+      "id": "bosses_of_mass_destruction:lich_tower",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:bunker",
       "required": false
     },
@@ -29,11 +33,19 @@
       "required": false
     },
     {
+      "id": "hollowmarch:phantome_nest",
+      "required": false
+    },
+    {
       "id": "imst:alpine_house",
       "required": false
     },
     {
       "id": "imst:mountain_camp",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:airship_village",
       "required": false
     },
     {

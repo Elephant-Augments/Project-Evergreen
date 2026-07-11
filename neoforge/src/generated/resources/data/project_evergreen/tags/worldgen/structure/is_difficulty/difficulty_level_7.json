@@ -1,87 +1,91 @@
 {
   "values": [
     {
-      "id": "bosses_of_mass_destruction:lich_tower",
+      "id": "block_factorys_bosses:dragon_tower",
       "required": false
     },
     {
-      "id": "cataclysm:cursed_pyramid",
+      "id": "block_factorys_bosses:underworld_arena",
       "required": false
     },
     {
-      "id": "cataclysm:frosted_prison",
+      "id": "bosses_of_mass_destruction:obsidilith_arena",
       "required": false
     },
     {
-      "id": "dungeons_arise:shiraz_palace",
+      "id": "cataclysm:burning_arena",
       "required": false
     },
     {
-      "id": "epic:witch_hut",
+      "id": "cataclysm:ruined_citadel",
+      "required": false
+    },
+    {
+      "id": "cataclysm:soul_black_smith",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:aviary",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:cursed_garden",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:golem_forge",
+      "required": false
+    },
+    {
+      "id": "explorify:black_spiral",
+      "required": false
+    },
+    {
+      "id": "idas:iceandfire/dread_citadel",
+      "required": false
+    },
+    {
+      "id": "integrated_stronghold:stronghold",
+      "required": false
+    },
+    {
+      "id": "minecraft:ancient_city",
+      "required": false
+    },
+    {
+      "id": "minecraft:bastion_remnant",
+      "required": false
+    },
+    {
+      "id": "minecraft:end_city",
+      "required": false
+    },
+    {
+      "id": "minecraft:fortress",
+      "required": false
+    },
+    {
+      "id": "mmr:nether_mineshaft",
+      "required": false
+    },
+    {
+      "id": "netherman:gast_chamber",
+      "required": false
+    },
+    {
+      "id": "netherman:mansion_nether",
+      "required": false
+    },
+    {
+      "id": "netherman:trap",
+      "required": false
+    },
+    {
+      "id": "nova_structures:end_castle",
       "required": false
     },
     {
       "id": "qrafty:mangrove_village",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:mansion_desert",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:mansion_jungle",
-      "required": false
-    },
-    {
-      "id": "repurposed_structures:mansion_snowy",
-      "required": false
-    },
-    {
-      "id": "spore:biomass_tower",
-      "required": false
-    },
-    {
-      "id": "spore:cathedral",
-      "required": false
-    },
-    {
-      "id": "spore:cell",
-      "required": false
-    },
-    {
-      "id": "spore:celltower",
-      "required": false
-    },
-    {
-      "id": "spore:church",
-      "required": false
-    },
-    {
-      "id": "spore:hospital",
-      "required": false
-    },
-    {
-      "id": "spore:lab",
-      "required": false
-    },
-    {
-      "id": "spore:lodge",
-      "required": false
-    },
-    {
-      "id": "spore:mass_grave",
-      "required": false
-    },
-    {
-      "id": "spore:military_camp",
-      "required": false
-    },
-    {
-      "id": "spore:mines",
-      "required": false
-    },
-    {
-      "id": "spore:prison",
       "required": false
     }
   ]

@@ -93,6 +93,10 @@
       "required": false
     },
     {
+      "id": "illagerstructures:ruined_church",
+      "required": false
+    },
+    {
       "id": "imst:berry_house",
       "required": false
     },
@@ -102,6 +106,14 @@
     },
     {
       "id": "imst:oak_hut",
+      "required": false
+    },
+    {
+      "id": "jvs:ruined_church",
+      "required": false
+    },
+    {
+      "id": "jvs:safe_house",
       "required": false
     },
     {

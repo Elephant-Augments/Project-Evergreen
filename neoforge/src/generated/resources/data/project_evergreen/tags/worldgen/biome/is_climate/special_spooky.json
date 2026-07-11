@@ -37,6 +37,10 @@
       "required": false
     },
     {
+      "id": "wythers:frigid_island",
+      "required": false
+    },
+    {
       "id": "wythers:phantasmal_forest",
       "required": false
     },

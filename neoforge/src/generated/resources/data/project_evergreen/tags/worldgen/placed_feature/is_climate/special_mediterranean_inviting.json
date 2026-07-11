@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "koopascritters:kopje_fig_sapling_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:kopje_fig_tree_1_feature_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "koopascritters:kopje_fig_tree_2_feature_biome_modifier",
+      "required": false
+    }
+  ]
+}

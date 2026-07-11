@@ -1,11 +1,27 @@
 {
   "values": [
     {
+      "id": "ati_structures:lighthouse",
+      "required": false
+    },
+    {
       "id": "create_ltab:oil_rig",
       "required": false
     },
     {
+      "id": "jvs:fisherman_raft",
+      "required": false
+    },
+    {
+      "id": "jvs:illager_ocean_base",
+      "required": false
+    },
+    {
       "id": "qrafty:oilrig",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/birch_trade",
       "required": false
     },
     {

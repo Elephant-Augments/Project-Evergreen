@@ -3,6 +3,10 @@
     {
       "id": "minecraft:deep_lukewarm_ocean",
       "required": false
+    },
+    {
+      "id": "spawn:deep_warm_ocean",
+      "required": false
     }
   ]
 }

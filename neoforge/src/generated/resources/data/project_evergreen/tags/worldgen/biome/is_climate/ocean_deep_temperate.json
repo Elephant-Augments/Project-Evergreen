@@ -7,10 +7,6 @@
     {
       "id": "minecraft:deep_ocean",
       "required": false
-    },
-    {
-      "id": "regions_unexplored:hyacinth_deeps",
-      "required": false
     }
   ]
 }

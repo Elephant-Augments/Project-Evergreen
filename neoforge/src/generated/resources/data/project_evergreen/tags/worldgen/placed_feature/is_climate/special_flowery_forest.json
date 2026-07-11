@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "mushroomquest:mossy_log_feature_biome_modifier",
+      "required": false
+    }
+  ]
+}

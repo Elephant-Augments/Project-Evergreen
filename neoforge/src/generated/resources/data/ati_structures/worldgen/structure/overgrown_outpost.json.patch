@@ -5,6 +5,7 @@
       "path": "/temp_properties",
       "value": {
         "id": "ati_structures:overgrown_outpost",
+        "difficulty": 2,
         "size": "SMALL",
         "heightmap": "GROUNDLEVEL",
         "dimension": "#minecraft:is_overworld",
@@ -14,12 +15,13 @@
         "is_flat": false,
         "is_massive": false,
         "is_inland": true,
-        "is_ocean": false,
         "is_radius_bound": false,
         "is_water_bound": false,
         "is_water_restricted": true,
+        "spawn_overrides": {},
         "patchable": true,
-        "adjusted_terrain_adaptation": true
+        "add_beard_thin_adaptation": true,
+        "is_wilderness": true
       }
     },
     [
@@ -99,6 +101,42 @@
     [
       {
         "op": "test",
+        "path": "/temp_properties/is_volcanic_crater",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_climate/volcanic_crater"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_cultivated_fields",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_climate/cultivated_fields"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_tropical_island",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_climate/tropical_island"
+      }
+    ],
+    [
+      {
+        "op": "test",
         "path": "/temp_properties/is_birch_forest",
         "value": true
       },
@@ -124,13 +162,84 @@
   [
     {
       "op": "test",
-      "path": "/temp_properties/adjusted_terrain_adaptation",
+      "type": "project_evergreen:mob_redistribution",
+      "value": true
+    },
+    {
+      "op": "test",
+      "path": "/temp_properties/has_spawn_overrides",
+      "value": true
+    },
+    {
+      "op": "move",
+      "path": "/spawn_overrides",
+      "from": "/temp_properties/spawn_overrides"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/add_beard_thin_adaptation",
       "value": true
     },
     {
       "op": "add",
       "path": "/terrain_adaptation",
       "value": "beard_thin"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/add_bury_adaptation",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/terrain_adaptation",
+      "value": "bury"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/adjusted_ocean_heightmap",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/project_start_to_heightmap",
+      "value": "OCEAN_FLOOR_WG"
+    },
+    {
+      "op": "add",
+      "path": "/start_height",
+      "value": {
+        "absolute": -3
+      }
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/add_waterlogging",
+      "value": true
+    },
+    {
+      "op": "remove",
+      "path": "/liquid_settings"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/remove_waterlogging",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/liquid_settings",
+      "value": "ignore_waterlogging"
     }
   ],
   [
@@ -184,8 +293,36 @@
   [
     {
       "op": "test",
-      "path": "/temp_properties/heightmap",
-      "value": "UNDERGROUND"
+      "path": "/temp_properties/has_village_fix",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/terrain_adaptation",
+      "value": "beard_thin"
+    },
+    {
+      "op": "test",
+      "path": "/enhanced_terrain_adaptation"
+    },
+    {
+      "op": "remove",
+      "path": "/enhanced_terrain_adaptation"
+    },
+    {
+      "op": "remove",
+      "path": "/valid_biome_radius_check"
+    },
+    {
+      "op": "remove",
+      "path": "/use_bounding_box_hack"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/early_spawn_step",
+      "value": true
     },
     {
       "op": "add",
@@ -202,157 +339,184 @@
     {
       "op": "add",
       "path": "/step",
-      "value": "vegetal_decoration"
+      "value": "fluid_springs"
     }
   ],
   [
     {
       "op": "test",
-      "path": "/temp_properties/adjusted_ocean_heightmap",
-      "value": true
-    },
-    {
-      "op": "add",
-      "path": "/project_start_to_heightmap",
-      "value": "OCEAN_FLOOR_WG"
-    },
-    {
-      "op": "add",
-      "path": "/start_height",
-      "value": {
-        "absolute": -3
-      }
-    }
-  ],
-  {
-    "op": "test",
-    "path": "/temp_properties/ignored_placement_tweaks",
-    "inverse": true
-  },
-  [
-    {
-      "op": "test",
-      "path": "/temp_properties/is_advanced_type",
-      "value": true
-    },
-    [
-      {
-        "op": "test",
-        "type": "patched:mod_loaded",
-        "value": "repurposed_structures"
-      },
-      {
-        "op": "add",
-        "path": "/type",
-        "value": "repurposed_structures:generic_jigsaw_structure"
-      }
-    ],
-    [
-      {
-        "op": "test",
-        "type": "patched:mod_loaded",
-        "value": "mvs"
-      },
-      {
-        "op": "add",
-        "path": "/type",
-        "value": "moogs_structures:moogs_structures_generic_jigsaw_structure"
-      }
-    ],
-    [
-      {
-        "op": "test",
-        "type": "patched:mod_loaded",
-        "value": "integrated_api"
-      },
-      {
-        "op": "add",
-        "path": "/type",
-        "value": "integrated_api:generic_structure"
-      }
-    ]
-  ],
-  [
-    {
-      "op": "test",
-      "path": "/temp_properties/is_water_restricted",
-      "value": true
-    },
-    {
-      "op": "add",
-      "path": "/cannot_spawn_in_liquid",
-      "value": true
-    }
-  ],
-  {
-    "op": "test",
-    "type": "project_evergreen:performance_friendly_mode",
-    "value": false
-  },
-  [
-    {
-      "op": "test",
-      "path": "/temp_properties/ignored_biome_radius_check",
+      "path": "/temp_properties/ignored_placement_tweaks",
       "inverse": true
     },
-    {
-      "op": "test",
-      "path": "/temp_properties/is_radius_bound",
-      "value": true
-    },
-    {
-      "op": "add",
-      "path": "/valid_biome_radius_check",
-      "value": 1
-    },
     [
       {
         "op": "test",
-        "path": "/temp_properties/size",
-        "value": "SPRAWLING"
+        "path": "/temp_properties/is_advanced_type",
+        "value": true
+      },
+      [
+        {
+          "op": "test",
+          "path": "/terrain_check"
+        },
+        {
+          "op": "remove",
+          "path": "/terrain_check"
+        }
+      ],
+      [
+        {
+          "op": "test",
+          "type": "patched:mod_loaded",
+          "value": "repurposed_structures"
+        },
+        {
+          "op": "add",
+          "path": "/type",
+          "value": "repurposed_structures:generic_jigsaw_structure"
+        }
+      ],
+      [
+        {
+          "op": "test",
+          "type": "patched:mod_loaded",
+          "value": "moogs_structures"
+        },
+        {
+          "op": "add",
+          "path": "/type",
+          "value": "moogs_structures:moogs_structures_generic_jigsaw_structure"
+        }
+      ]
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/heightmap",
+        "value": "UNDERGROUND"
       },
       {
         "op": "add",
-        "path": "/valid_biome_radius_check",
-        "value": 2
+        "path": "/step",
+        "value": "underground_structures"
       }
     ],
     [
       {
         "op": "test",
-        "type": "project_evergreen:structure_rarity_redistribution",
+        "path": "/temp_properties/heightmap",
+        "value": "GROUNDLEVEL"
+      },
+      {
+        "op": "add",
+        "path": "/step",
+        "value": "surface_structures"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_water_restricted",
         "value": true
       },
       {
+        "op": "add",
+        "path": "/cannot_spawn_in_liquid",
+        "value": true
+      }
+    ],
+    {
+      "op": "test",
+      "type": "project_evergreen:performance_friendly_mode",
+      "value": false
+    },
+    [
+      {
         "op": "test",
-        "type": "project_evergreen:population_bias",
-        "value": "ati_structures:overgrown_outpost"
+        "path": "/temp_properties/is_flat",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/terrain_height_radius_check",
+        "value": 1
       },
       {
         "op": "paste",
         "type": "project_evergreen:config_value",
-        "path": "/valid_biome_radius_check",
-        "value": "population_bias"
+        "from": "/temp_properties/size",
+        "path": "/allowed_terrain_height_range",
+        "value": "flatness_allowed_elevation"
       }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/ignored_biome_radius_check",
+        "inverse": true
+      },
+      {
+        "op": "test",
+        "path": "/temp_properties/is_radius_bound",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/valid_biome_radius_check",
+        "value": 1
+      },
+      [
+        {
+          "op": "test",
+          "path": "/temp_properties/size",
+          "value": "SPRAWLING"
+        },
+        {
+          "op": "add",
+          "path": "/valid_biome_radius_check",
+          "value": 2
+        }
+      ],
+      [
+        {
+          "op": "test",
+          "path": "/temp_properties/is_massive",
+          "value": true
+        },
+        {
+          "op": "test",
+          "path": "/temp_properties/is_water_bound",
+          "value": true
+        },
+        {
+          "op": "add",
+          "path": "/valid_biome_radius_check",
+          "value": 3
+        }
+      ],
+      [
+        {
+          "op": "test",
+          "type": "project_evergreen:structure_rarity_redistribution",
+          "value": true
+        },
+        {
+          "op": "test",
+          "type": "project_evergreen:population_bias",
+          "value": "ati_structures:overgrown_outpost"
+        },
+        {
+          "op": "test",
+          "path": "/valid_biome_radius_check",
+          "inverse": true
+        },
+        {
+          "op": "paste",
+          "type": "project_evergreen:config_value",
+          "path": "/valid_biome_radius_check",
+          "value": "population_bias"
+        }
+      ]
     ]
-  ],
-  [
-    {
-      "op": "test",
-      "path": "/temp_properties/is_flat",
-      "value": true
-    },
-    {
-      "op": "add",
-      "path": "/terrain_height_radius_check",
-      "value": 1
-    },
-    {
-      "op": "paste",
-      "type": "project_evergreen:config_value",
-      "from": "/temp_properties/size",
-      "path": "/allowed_terrain_height_range",
-      "value": "flatness_allowed_elevation"
-    }
   ]
 ]

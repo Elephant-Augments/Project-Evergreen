@@ -1,5 +1,5 @@
 {
   "type": "neoforge:remove_spawns",
   "biomes": "#project_evergreen:is_region/river_or_coast_not_frozen",
-  "entity_types": "#project_evergreen:disabled"
+  "entity_types": "#project_evergreen:is_redistributed/river_or_coast_not_frozen_removals"
 }

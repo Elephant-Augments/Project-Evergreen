@@ -69,6 +69,130 @@
       "required": false
     },
     {
+      "id": "archeological:ancient_vault_deep_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_desert_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_frozen_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_rock_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_ruined_hut",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_underground_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:ancient_vault_wasteland_ruins",
+      "required": false
+    },
+    {
+      "id": "archeological:deep_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:deep_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:deep_ruins_small",
+      "required": false
+    },
+    {
+      "id": "archeological:desert_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:desert_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:desert_ruins_small",
+      "required": false
+    },
+    {
+      "id": "archeological:frozen_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:frozen_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:frozen_ruins_small",
+      "required": false
+    },
+    {
+      "id": "archeological:rock_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:rock_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:rock_ruins_small",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_blue_camp",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_green_camp",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_hut_large",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_hut_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_hut_small",
+      "required": false
+    },
+    {
+      "id": "archeological:ruined_red_camp",
+      "required": false
+    },
+    {
+      "id": "archeological:underground_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:underground_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:underground_ruins_small",
+      "required": false
+    },
+    {
+      "id": "archeological:wasteland_ruins_large",
+      "required": false
+    },
+    {
+      "id": "archeological:wasteland_ruins_medium",
+      "required": false
+    },
+    {
+      "id": "archeological:wasteland_ruins_small",
+      "required": false
+    },
+    {
       "id": "arphex:altar_spawn",
       "required": false
     },
@@ -206,6 +330,10 @@
     },
     {
       "id": "block_factorys_bosses:dragon_tower",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:kraken_ship",
       "required": false
     },
     {
@@ -361,7 +489,15 @@
       "required": false
     },
     {
+      "id": "cataclysm:abandoned_structures",
+      "required": false
+    },
+    {
       "id": "cataclysm:acropolis",
+      "required": false
+    },
+    {
+      "id": "cataclysm:amethyst_nest",
       "required": false
     },
     {
@@ -374,6 +510,10 @@
     },
     {
       "id": "cataclysm:cursed_pyramid",
+      "required": false
+    },
+    {
+      "id": "cataclysm:desert_structures",
       "required": false
     },
     {
@@ -949,6 +1089,10 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:crimsite_tower",
+      "required": false
+    },
+    {
       "id": "create_structures_arise:darkcastle",
       "required": false
     },
@@ -1010,6 +1154,38 @@
     },
     {
       "id": "epic:witch_hut",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:cursed_garden",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:golem_forge",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_cold",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_common",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_desert",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_forest",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:portal_ruins_jungle",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:stranghoul_den",
       "required": false
     },
     {
@@ -1373,6 +1549,10 @@
       "required": false
     },
     {
+      "id": "grim_kingdoms:snowy",
+      "required": false
+    },
+    {
       "id": "hexerei:baba_yaga_hut",
       "required": false
     },
@@ -1390,6 +1570,38 @@
     },
     {
       "id": "hexerei:witch_hut",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:air",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:beach",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:common_land",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:dark_forest_taiga",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:desert",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:jungle",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:ocean",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:winter",
       "required": false
     },
     {
@@ -1437,11 +1649,95 @@
       "required": false
     },
     {
+      "id": "idas:idas_common",
+      "required": false
+    },
+    {
+      "id": "idas:idas_nether",
+      "required": false
+    },
+    {
+      "id": "idas:idas_ocean",
+      "required": false
+    },
+    {
+      "id": "idas:idas_rare",
+      "required": false
+    },
+    {
+      "id": "idas:idas_small",
+      "required": false
+    },
+    {
+      "id": "idas:idas_small_nether",
+      "required": false
+    },
+    {
+      "id": "idas:idas_underground",
+      "required": false
+    },
+    {
+      "id": "idas:idas_underground_rare",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:firecaller_hut",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:illager_fort",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:illusioner_tower",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:labyrinth",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:sorcerer_hut",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:grounds",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:ice",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:monks",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:pirates",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:ruins",
+      "required": false
+    },
+    {
       "id": "imst:common",
       "required": false
     },
     {
       "id": "imst:rare",
+      "required": false
+    },
+    {
+      "id": "integrated_stronghold:stronghold",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:air_villages",
+      "required": false
+    },
+    {
+      "id": "integrated_villages:regular_villages",
       "required": false
     },
     {
@@ -2385,6 +2681,18 @@
       "required": false
     },
     {
+      "id": "netherman:gast_chamber",
+      "required": false
+    },
+    {
+      "id": "netherman:mansion_nether",
+      "required": false
+    },
+    {
+      "id": "netherman:minor_points",
+      "required": false
+    },
+    {
       "id": "nordic_structures:bigvikingeatinghouse",
       "required": false
     },
@@ -3109,6 +3417,10 @@
       "required": false
     },
     {
+      "id": "rpgstructures:mage_guild",
+      "required": false
+    },
+    {
       "id": "sky_whale_ship:frozen_whale",
       "required": false
     },
@@ -3190,6 +3502,18 @@
     },
     {
       "id": "spore:prison",
+      "required": false
+    },
+    {
+      "id": "ssp_gothic_things:stonebarracks",
+      "required": false
+    },
+    {
+      "id": "ssp_gothic_things:stonechurch",
+      "required": false
+    },
+    {
+      "id": "ssp_gothic_things:stonegates",
       "required": false
     },
     {
@@ -3373,6 +3697,10 @@
       "required": false
     },
     {
+      "id": "trek:test",
+      "required": false
+    },
+    {
       "id": "u_desert:badlands/ambient/medium",
       "required": false
     },
@@ -3482,6 +3810,10 @@
     },
     {
       "id": "underwater_village:warm_gate",
+      "required": false
+    },
+    {
+      "id": "villagesandpillages:village_witch",
       "required": false
     },
     {

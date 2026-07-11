@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "koopascritters:chinstrap_penguin",
+      "required": false
+    },
+    {
+      "id": "koopascritters:northern_rock_hopper_penguin",
+      "required": false
+    }
+  ]
+}

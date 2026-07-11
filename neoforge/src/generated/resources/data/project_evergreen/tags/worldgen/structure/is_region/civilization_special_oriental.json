@@ -33,6 +33,18 @@
       "required": false
     },
     {
+      "id": "illagerstructures:herbalist_house",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:monastery",
+      "required": false
+    },
+    {
+      "id": "illagerstructures:monk_tower",
+      "required": false
+    },
+    {
       "id": "integrated_minecraft:torii_gate",
       "required": false
     },
@@ -70,6 +82,10 @@
     },
     {
       "id": "towns_and_towers:village_flower_forest",
+      "required": false
+    },
+    {
+      "id": "trek:village/cherry",
       "required": false
     },
     {

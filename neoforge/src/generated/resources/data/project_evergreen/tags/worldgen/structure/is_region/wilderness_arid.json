@@ -45,6 +45,10 @@
       "required": false
     },
     {
+      "id": "jvs:savanna_tribe",
+      "required": false
+    },
+    {
       "id": "kattersstructures:mini_dungeon_rugged_shack",
       "required": false
     },

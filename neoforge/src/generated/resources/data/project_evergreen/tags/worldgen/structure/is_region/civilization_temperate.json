@@ -49,10 +49,6 @@
       "required": false
     },
     {
-      "id": "create_ltab:oak_house",
-      "required": false
-    },
-    {
       "id": "create_ltab:plains_big",
       "required": false
     },
@@ -161,6 +157,10 @@
       "required": false
     },
     {
+      "id": "hollowmarch:traveler_obelisk",
+      "required": false
+    },
+    {
       "id": "hopo:mineshaft/birch_mineshaft",
       "required": false
     },
@@ -221,15 +221,15 @@
       "required": false
     },
     {
-      "id": "integrated_villages:cabin_village",
-      "required": false
-    },
-    {
       "id": "integrated_villages:marketstead_village",
       "required": false
     },
     {
       "id": "integrated_villages:mossy_mounds",
+      "required": false
+    },
+    {
+      "id": "jvs:blue_house",
       "required": false
     },
     {
@@ -274,6 +274,10 @@
     },
     {
       "id": "mvs:bench",
+      "required": false
+    },
+    {
+      "id": "mvs:campsite",
       "required": false
     },
     {
@@ -430,14 +434,6 @@
     },
     {
       "id": "trek:overworld/medium/dirt_hut",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/plains_cottage",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/street_vendor_stall",
       "required": false
     },
     {

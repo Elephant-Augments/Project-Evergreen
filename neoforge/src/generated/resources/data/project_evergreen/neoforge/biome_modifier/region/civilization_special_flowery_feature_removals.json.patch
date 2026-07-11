@@ -1,0 +1,39 @@
+[
+  [
+    {
+      "op": "add",
+      "path": "/temp_properties",
+      "value": {
+        "id": "project_evergreen:region/civilization_special_flowery_feature_removals",
+        "is_loaded": false,
+        "is_modifier": true,
+        "patchable": true
+      }
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/disabled",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/type",
+      "value": "neoforge:none"
+    }
+  ],
+  [
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/biome"
+      },
+      {
+        "op": "copy",
+        "path": "/biomes",
+        "from": "/temp_properties/biome"
+      }
+    ]
+  ]
+]

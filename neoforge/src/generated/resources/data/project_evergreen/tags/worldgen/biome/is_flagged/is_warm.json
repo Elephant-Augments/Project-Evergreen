@@ -37,6 +37,10 @@
       "required": false
     },
     {
+      "id": "eternal_starlight:crystallized_desert",
+      "required": false
+    },
+    {
       "id": "minecraft:badlands",
       "required": false
     },
@@ -210,6 +214,10 @@
     },
     {
       "id": "regions_unexplored:tropics",
+      "required": false
+    },
+    {
+      "id": "spawn:deep_warm_ocean",
       "required": false
     },
     {
@@ -469,6 +477,10 @@
       "required": false
     },
     {
+      "id": "wythers:mushroom_island",
+      "required": false
+    },
+    {
       "id": "wythers:outback",
       "required": false
     },
@@ -558,6 +570,10 @@
     },
     {
       "id": "wythers:tropical_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:tropical_volcano",
       "required": false
     },
     {

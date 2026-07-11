@@ -5,16 +5,41 @@
       "path": "/temp_properties",
       "value": {
         "id": "regions_unexplored:pine_taiga",
+        "spawners": {},
         "patchable": true,
         "is_meadow_blue": true
       }
     },
+    [
+      {
+        "op": "copy",
+        "path": "/temp_properties/spawners",
+        "from": "/spawners"
+      }
+    ],
     {
       "op": "paste",
       "type": "project_evergreen:pe_object",
       "from": "/temp_properties",
       "path": "/temp_properties",
       "value": "patchable_biome"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:mob_redistribution",
+      "value": true
+    },
+    {
+      "op": "test",
+      "path": "/temp_properties/has_spawn_overrides",
+      "value": true
+    },
+    {
+      "op": "move",
+      "path": "/spawners",
+      "from": "/temp_properties/spawners"
     }
   ],
   [
@@ -49,6 +74,18 @@
       "type": "project_evergreen:config_value",
       "path": "/effects/water_color",
       "value": "temperate_climate_water_color"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/remove_snow",
+      "value": true
+    },
+    {
+      "op": "add",
+      "path": "/temperature",
+      "value": 0.5
     }
   ],
   [

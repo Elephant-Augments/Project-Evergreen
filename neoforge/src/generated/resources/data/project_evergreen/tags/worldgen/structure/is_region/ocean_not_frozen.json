@@ -57,6 +57,18 @@
       "required": false
     },
     {
+      "id": "jvs:drakkar_skeleton",
+      "required": false
+    },
+    {
+      "id": "jvs:ghost_ship",
+      "required": false
+    },
+    {
+      "id": "jvs:ships_collision",
+      "required": false
+    },
+    {
       "id": "kattersstructures:ocean_ships",
       "required": false
     },

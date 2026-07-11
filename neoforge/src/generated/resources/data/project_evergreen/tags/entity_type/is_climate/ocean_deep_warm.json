@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "hybrid-aquatic:hammerhead_shark",
+      "required": false
+    },
+    {
+      "id": "koopascritters:oceanic_manta_ray",
+      "required": false
+    }
+  ]
+}
