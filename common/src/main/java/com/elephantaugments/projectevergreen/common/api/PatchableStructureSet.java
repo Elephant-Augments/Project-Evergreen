@@ -9,6 +9,7 @@ import com.mojang.datafixers.kinds.Const;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -99,7 +100,10 @@ public class PatchableStructureSet extends IPatchable {
         return (PlatformHooks.PLATFORM_HELPER.isModLoaded("integrated_api") ||
                 PlatformHooks.PLATFORM_HELPER.isModLoaded("moogs_structures") ||
                 PlatformHooks.PLATFORM_HELPER.isModLoaded("repurposed_structures")) &&
-                (this.getId().contains("civilization") || this.getId().contains("wilderness"));
+                ((this.getId().contains("civilization") || this.getId().contains("wilderness") ||
+                    WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                        .filter(PatchableStructure::isFlat)
+                            .anyMatch(s -> Objects.equals(s.getId(), this.getId()))));
     }
 
     public boolean hasPopulationBias(int populationBias) {
@@ -136,6 +140,7 @@ public class PatchableStructureSet extends IPatchable {
 
         json.addProperty(Constants.JsonProp.ID.jsonKey(), this.getId());
         json.addProperty(Constants.JsonProp.IS_LOADED.jsonKey(), this.is_loaded);
+        json.addProperty(Constants.JsonProp.IS_FLAT.jsonKey(), this.hasFlatStructures());
 
         return ProjectEvergreen.GSON.toJsonTree(json);
     }

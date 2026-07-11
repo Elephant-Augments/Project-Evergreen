@@ -10,6 +10,7 @@ import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.biome.Biome;
+import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.structure.StructureSet;
 import net.minecraft.world.level.levelgen.structure.Structure;
 import net.minecraft.core.HolderLookup;
@@ -18,6 +19,7 @@ import net.minecraft.tags.TagKey;
 
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public final class WorldgenDataManager {
 
@@ -71,6 +73,7 @@ public final class WorldgenDataManager {
 
     public static void loadDynamicWorldgenData(RegistryAccess registryAccess) {
         loadPatchableEntities(registryAccess.asGetterLookup().lookup(Registries.ENTITY_TYPE));
+        loadPatchableFeatures(registryAccess.asGetterLookup().lookup(Registries.PLACED_FEATURE));
         loadPatchableStructures(registryAccess.asGetterLookup().lookup(Registries.STRUCTURE));
         loadPatchableStructureSets(registryAccess.asGetterLookup().lookup(Registries.STRUCTURE_SET));
         loadPatchableBiomes(registryAccess.asGetterLookup().lookup(Registries.BIOME));
@@ -78,6 +81,7 @@ public final class WorldgenDataManager {
 
     public static void loadDefaultWorldgenData() {
         loadPatchableEntities(Optional.empty());
+        loadPatchableFeatures(Optional.empty());
         loadPatchableStructures(Optional.empty());
         loadPatchableStructureSets(Optional.empty());
         loadPatchableBiomes(Optional.empty());
@@ -92,6 +96,7 @@ public final class WorldgenDataManager {
         for (PEStructure struct_override : PEStructure.values()) {
             Optional.ofNullable(PATCHABLE_STRUCTURES.get(struct_override.location().toString())).ifPresent(t -> {
                 if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Mapping structure override..." + t.id); }
+
                 t.setData(struct_override);
             });
         }
@@ -136,20 +141,43 @@ public final class WorldgenDataManager {
     }
 
     /**
-     * Will initialize all Patchable biome data passed in via tags if a registry lookup is provided,
+     * Will initialize all Patchable entity data passed in via tags if a registry lookup is provided,
      * otherwise initializes our default data.
      * @param registryLookup - Optional registry lookup
      */
     public static void loadPatchableEntities(Optional<HolderGetter<EntityType<?>>> registryLookup) {
-        //loadMobsByCategory();
+        loadMobsByBiomeClimate(registryLookup);
         loadMobsByFlag(registryLookup);
     }
 
-//    public static void loadMobsByCategory() {
-//        for (PEMob mobCategory : PEMob.values()) {
-//            mapMobToCategory(mobCategory);
-//        }
-//    }
+    /**
+     * Will initialize all Patchable placed_feature/biome_modifier data passed in via tags if a registry lookup is provided,
+     * otherwise initializes our default data.
+     * @param registryLookup - Optional registry lookup
+     */
+    public static void loadPatchableFeatures(Optional<HolderGetter<PlacedFeature>> registryLookup) {
+        loadFeaturesByBiomeClimate(registryLookup);
+        loadFeaturesByFlag(registryLookup);
+    }
+
+    public static void loadFeaturesByBiomeClimate(Optional<HolderGetter<PlacedFeature>> registryLookup) {
+        for (PEBiome biome : PEBiome.values()) {
+            mapBiomesToFeature(biome, registryLookup);
+            mapBiomesToModifier(biome);
+        }
+    }
+
+    public static void loadFeaturesByFlag(Optional<HolderGetter<PlacedFeature>> registryLookup) {
+        for (PEFeature.Flag flag : PEFeature.Flag.values()) {
+            mapFlagToFeature(flag, registryLookup);
+        }
+    }
+
+    public static void loadMobsByBiomeClimate(Optional<HolderGetter<EntityType<?>>> registryLookup) {
+        for (PEBiome biome : PEBiome.values()) {
+            mapMobsToBiome(biome, registryLookup);
+        }
+    }
 
     public static void loadMobsByFlag(Optional<HolderGetter<EntityType<?>>> registryLookup) {
         for (PEMob.Flag flag : PEMob.Flag.values()) {
@@ -176,7 +204,7 @@ public final class WorldgenDataManager {
     }
 
     public static void loadStructuresByFlag(Optional<HolderGetter<Structure>> registryLookup) {
-        PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.initIDs(PEStructure.Heightmap.UNDERGROUND.defaultIDs());
+        PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.initIDs(PEStructure.Heightmap.nonSurfaceStructures());
         PEStructure.Flag.IGNORED_BIOME_RADIUS_CHECK.initIDs(PEStructure.Flag.isBiasIgnored());
         for (PEStructure.Flag flag : PEStructure.Flag.values()) {
             mapFlagToStructure(flag, registryLookup);
@@ -189,6 +217,9 @@ public final class WorldgenDataManager {
         PEStructure.Flag.FLATNESS_CHECK_SPRAWLING.initIDs(PEStructure.Flag.isSprawlingFlat());
         PEStructure.Flag.FLATNESS_CHECK_LARGE.initIDs(PEStructure.Flag.isLargeFlat());
         PEStructure.Flag.FLATNESS_CHECK_SMALL.initIDs(PEStructure.Flag.isSmallFlat());
+        //PEStructure.Flag.LATE_SPAWN_STEP.initIDs(PEStructure.Size.nonMassiveStructures());
+        PEStructure.Flag.IS_CIVILIZATION.initIDs(PEStructure.Flag.isCivilization());
+        PEStructure.Flag.IS_WILDERNESS.initIDs(PEStructure.Flag.isWilderness());
         for (PEStructure.Flag flag : PEStructure.Flag.values()) {
             mapFlagToStructure(flag, registryLookup);
         }
@@ -202,7 +233,77 @@ public final class WorldgenDataManager {
         }
     }
 
+    private static void mapBiomesToFeature(PEBiome biome, Optional<HolderGetter<PlacedFeature>> registryLookup) {
+        List<String> feature_ids = registryLookup
+                .map(featureRegistryLookup ->
+                        getTaggedData(featureRegistryLookup, biome.featureTag()))
+                .orElseGet(biome::featureAdditions);
+        feature_ids.forEach(s -> {
+            Optional.ofNullable(PATCHABLE_FEATURES.get(s)).ifPresent(t -> {
+                if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Mapping feature to biome climate..." + t.id); }
+                if (!t.isModifier()) {
+                    t.setBiomes(biome);
+                }
+            });
+        });
+    }
+
+    private static void mapBiomesToModifier(PEBiome biome) {
+//        List<String> feature_ids = registryLookup
+//                .map(featureRegistryLookup ->
+//                        getTaggedData(featureRegistryLookup, biome.featureTag()))
+//                .orElseGet(biome::featureAdditions);
+        biome.featureAdditions().forEach(s -> {
+            Optional.ofNullable(PATCHABLE_FEATURES.get(s)).ifPresent(t -> {
+                if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Mapping biome modifier to biome climate..." + t.id); }
+                if (t.isModifier()) {
+                    t.setBiomes(biome);
+                }
+            });
+        });
+    }
+
+    public static void mapFlagToFeature(PEFeature.Flag flag, Optional<HolderGetter<PlacedFeature>> registryLookup) {
+        PEFeature.Flag.DISABLED.initIDs(PEFeature.Flag.disabledModifiers());
+        //PEFeature.Flag.DISABLED.initIDs(PEBiome.redistributedFeatures());
+        //PEFeature.Flag.DISABLED.initIDs(PEBiome.redistributedModifiers());
+        List<String> features = registryLookup
+                .map(featureRegistryLookup ->
+                        getTaggedData(featureRegistryLookup, flag.tag()))
+                .orElseGet(flag::defaultIDs);
+        features.forEach(s -> {
+            Optional.ofNullable(PATCHABLE_FEATURES.get(s)).ifPresent(t -> {
+                if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Mapping flag to feature..." + t.id); }
+                t.appendFlag(flag);
+            });
+        });
+    }
+
+    private static void mapMobsToBiome(PEBiome biome, Optional<HolderGetter<EntityType<?>>> registryLookup) {
+        HashSet<PatchableEntity> mobs = new HashSet<>();
+        List<String> mob_ids = registryLookup
+                .map(entityRegistryLookup ->
+                        getTaggedData(entityRegistryLookup, biome.entityTag()))
+                .orElseGet(biome::entityAdditions);
+        ArrayList<PatchableBiome> biomes = biome.defaultBiomes().stream()
+                .filter(e -> !(PATCHABLE_BIOMES.get(e) == null))
+                .map(e -> PATCHABLE_BIOMES.get(e))
+                .collect(Collectors.toCollection(ArrayList::new));
+
+        mob_ids.forEach(s -> {
+            Optional.ofNullable(PATCHABLE_ENTITIES.get(s)).ifPresent(e -> {
+                e.appendFlag(PEMob.Flag.IS_REDISTRIBUTED);
+                mobs.add(e);
+            });
+        });
+        biomes.forEach(b -> {
+            if(PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) { ProjectEvergreen.LOGGER.info("Mapping mob to biome climate..." + b.id); }
+            b.setMobs(mobs);
+        });
+    }
+
     public static void mapFlagToMob(PEMob.Flag flag, Optional<HolderGetter<EntityType<?>>> registryLookup) {
+        //PEMob.Flag.DISABLED.initIDs(PEMob.isRedistributed());
         PEMob.NON_WATER_CRITTER.initIDs(PEMob.allNonWaterMobs());
         PEMob.UNCIVILIZED_MONSTER.initIDs(PEMob.uncivilizedMonsters());
         List<String> mobs = registryLookup

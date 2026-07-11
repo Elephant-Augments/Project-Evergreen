@@ -33,6 +33,11 @@ public enum PEDimension {
         DefaultStructureDimensions.aetherStructures,
         Constants.AETHER_DIFFICULTY_OFFSET
     ),
+    IS_ETERNAL_STARLIGHT(
+        SupportedMods.ETERNAL_STARLIGHT.name(),
+        DefaultStructureDimensions.eternalStarlightStructures,
+        Constants.ETERNAL_STARLIGHT_DIFFICULTY_OFFSET
+    ),
     AFTERDARK_BIOMES(
         SupportedMods.THE_AFTERDARK.name(),
         DefaultStructureDimensions.afterdarkStructures,

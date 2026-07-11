@@ -17,9 +17,114 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public enum PEStructure {
+    PIRATE_VILLAGE(
+        SupportedMods.INTEGRATED_VILLAGES.name(),
+        PEBiome.TROPICAL_ISLAND.tagKey(),
+        Constants.EMPTY_LIST
+    ),
+    WHALE(
+        SupportedMods.SKY_WHALE_SHIP.name(),
+        PEBiome.TROPICAL_ISLAND.tagKey(),
+        ImmutableList.of(
+            "minecraft:villager"
+        )
+    ),
     DRAGON_TOWER(
         SupportedMods.BLOCK_FACTORYS_BOSSES.name(),
         PEBiome.VOLCANIC_CRATER.tagKey(),
+        ImmutableList.of(
+            "born_in_chaos_v1:missioner",
+            "born_in_chaos_v1:fallen_chaos_knight"
+        )
+    ),
+    LICH_TOWER(
+        SupportedMods.BOSSES_OF_MASS_DESTRUCTION.name(),
+        PEBiome.SPECIAL_ICY.tagKey(),
+        Constants.EMPTY_LIST
+    ),
+    YETI_HIDEOUT(
+        SupportedMods.BLOCK_FACTORYS_BOSSES.name(),
+        PEBiome.ICY_VOLCANO.tagKey(),
+        Constants.EMPTY_LIST
+    ),
+    UNDERWORLD_ARENA(
+        SupportedMods.BLOCK_FACTORYS_BOSSES.name(),
+        PEDimension.IS_NETHER.biomeTagKey(),
+        ImmutableList.of(
+            "born_in_chaos_v1:missioner",
+            "born_in_chaos_v1:fallen_chaos_knight"
+        )
+    ),
+    INFERNAL_PUMPKIN(
+        SupportedMods.BORN_IN_CHAOS_V1.name(),
+        PEBiome.SOUL_VALLEY.tagKey(),
+        ImmutableList.of(
+            "born_in_chaos_v1:missioner",
+            "born_in_chaos_v1:missioner"
+        )
+    ),
+    OBSIDIANTEMPLE(
+        SupportedMods.CREATE_STRUCTURES_ARISE.name(),
+        PEBiome.OCEAN_DEEP_FROZEN.tagKey(),
+        ImmutableList.of(
+            "born_in_chaos_v1:corpse_fish",
+            "born_in_chaos_v1:corpse_fish",
+            "born_in_chaos_v1:corpse_fish",
+            "born_in_chaos_v1:glutton_fish"
+        )
+    ),
+    MANSION(
+        SupportedMods.MINECRAFT.name(),
+        PEBiome.FOREST_DENSE_CONIFEROUS.tagKey(),
+        ImmutableList.of(
+            "born_in_chaos_v1:missioner"
+        )
+    ),
+    GRAVEYARD(
+        SupportedMods.MYTHSANDLEGENDS.name(),
+        PEBiome.RED_FLOWER_FIELDS.tagKey(),
+        Constants.EMPTY_LIST
+    ),
+    END_VILLAGER_OUTPOST(
+        SupportedMods.END_VILLAGER_OUTPOST.name(),
+        PEBiome.STARLIT_PERMAFROST.tagKey(),
+        Constants.EMPTY_LIST
+    ),
+    PORTAL_RUINS_FOREST(
+        SupportedMods.ETERNAL_STARLIGHT.name(),
+        PEBiome.TROPICAL_VOLCANO.tagKey(),
+        Constants.EMPTY_LIST
+    ),
+    OBSIDILITH_ARENA(
+        SupportedMods.BOSSES_OF_MASS_DESTRUCTION.name(),
+        PEBiome.STARLIT_SWAMP.tagKey(),
+        Constants.EMPTY_LIST
+    ),
+    GOLEM_FORGE(
+        SupportedMods.ETERNAL_STARLIGHT.name(),
+        PEBiome.STARLIT_PERMAFROST.tagKey(),
+        Constants.EMPTY_LIST
+    ),
+    CHESED_ARENA(
+        SupportedMods.FDBOSSES.name(),
+        PEBiome.STARLIT_DESERT.tagKey(),
+        Constants.EMPTY_LIST
+    ),
+    MALKUTH_ARENA(
+        SupportedMods.FDBOSSES.name(),
+        PEBiome.STARLIT_LUSH_SEA.tagKey(),
+        Constants.EMPTY_LIST
+    ),
+    SHRINES(
+        SupportedMods.WITHERSHRINE.name(),
+        PEBiome.STARLIT_PERMAFROST.tagKey(),
+        ImmutableList.of(
+            "born_in_chaos_v1:missioner"
+        )
+    ),
+    STRONGHOLD(
+        SupportedMods.INTEGRATED_STRONGHOLD.name(),
+        PEBiome.STARLIT_PERMAFROST.tagKey(),
         Constants.EMPTY_LIST
     );
 
@@ -67,6 +172,7 @@ public enum PEStructure {
     public final static List<String> SupportedTypes = ImmutableList.of(
         "minecraft:jigsaw",
         "integrated_api:generic_structure",
+        "friendsandfoes:iceologer_cabin_structure",
         "betterarcheology:betterarcheology_structures",
         "repurposed_structures:generic_jigsaw_structure",
         "moogs_structures:moogs_structures_generic_jigsaw_structure",
@@ -114,6 +220,12 @@ public enum PEStructure {
                 case LARGE -> Constants.LARGE_DIFFICULTY_OFFSET;
                 case SPRAWLING -> Constants.SPRAWLING_DIFFICULTY_OFFSET;
             };
+        }
+        public static List<String> nonMassiveStructures() {
+            return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                    .filter(s -> !s.isMassive())
+                    .map(PatchableStructure::getId)
+                    .toList();
         }
     }
 
@@ -179,7 +291,7 @@ public enum PEStructure {
             };
         }
 
-        public static List<String> nonGroundLevelStructures() {
+        public static List<String> nonFlatStructures() {
             HashSet<String> notAboveground = Arrays.stream(Heightmap.values())
                     .filter(h -> h != Heightmap.GROUNDLEVEL)
                     .map(Heightmap::defaultIDs)
@@ -189,11 +301,20 @@ public enum PEStructure {
         }
 
         public static List<String> allGroundLevelStructures() {
-            List<String> notAboveground = nonGroundLevelStructures();
+            List<String> notAboveground = nonFlatStructures();
             return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
                     .filter(s -> !notAboveground.contains(s.id))
                     .map(PatchableStructure::getId)
                     .toList();
+        }
+
+        public static List<String> nonSurfaceStructures() {
+            HashSet<String> notOnSurface = Arrays.stream(Heightmap.values())
+                    .filter(h -> (h == Heightmap.UNDERGROUND) || (h == Heightmap.AIRBORN))
+                    .map(Heightmap::defaultIDs)
+                    .flatMap(Collection::stream)
+                    .collect(Collectors.toCollection(HashSet::new));
+            return notOnSurface.stream().toList();
         }
 
         public static List<String> allOceanSurfaceStructures() {
@@ -208,7 +329,7 @@ public enum PEStructure {
                     .toList();
         }
 
-        public static JsonObject buildStartHeight(int min, int max) {
+        public static JsonObject buildScaledStartHeight(int min, int max) {
             JsonObject start_height = new JsonObject();
             start_height.addProperty("type", "minecraft:uniform");
 
@@ -219,6 +340,12 @@ public enum PEStructure {
 
             start_height.add("min_inclusive", min_inclusive);
             start_height.add("max_inclusive", max_inclusive);
+            return start_height;
+        }
+
+        public static JsonObject buildAbsoluteStartHeight(int constant) {
+            JsonObject start_height = new JsonObject();
+            start_height.addProperty("absolute", constant);
             return start_height;
         }
     }
@@ -271,6 +398,62 @@ public enum PEStructure {
         public TagKey<Structure> tag() {
             return this.tag;
         }
+
+        public static List<String> allDungeonLevelOneStructures() {
+            return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                .filter(s -> s.isWilderness() && (
+                    s.getDifficulty().isPresent() && (
+                        (s.getDifficulty().get() == 0) ||
+                        (s.getDifficulty().get() == 1) ||
+                        (s.getDifficulty().get() == 2)
+                )))
+                .map(PatchableStructure::getId)
+                .toList();
+        }
+
+        public static List<String> allDungeonLevelTwoStructures() {
+            return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                .filter(s -> s.isWilderness() && (
+                    s.getDifficulty().isPresent() && (
+                        (s.getDifficulty().get() == 3) ||
+                        (s.getDifficulty().get() == 4)
+                )))
+                .map(PatchableStructure::getId)
+                .toList();
+        }
+
+        public static List<String> allDungeonLevelThreeStructures() {
+            return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                .filter(s -> s.isWilderness() && (
+                    s.getDifficulty().isPresent() && (
+                        (s.getDifficulty().get() == 5) ||
+                        (s.getDifficulty().get() == 6)
+                )))
+                .map(PatchableStructure::getId)
+                .toList();
+        }
+
+        public static List<String> allDungeonLevelFourStructures() {
+            return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                .filter(s -> s.isWilderness() && (
+                    s.getDifficulty().isPresent() && (
+                        (s.getDifficulty().get() == 7) ||
+                        (s.getDifficulty().get() == 8)
+                )))
+                .map(PatchableStructure::getId)
+                .toList();
+        }
+
+        public static List<String> allDungeonLevelFiveStructures() {
+            return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                .filter(s -> s.isWilderness() && (
+                    s.getDifficulty().isPresent() && (
+                        (s.getDifficulty().get() == 9) ||
+                        (s.getDifficulty().get() == 10)
+                )))
+                .map(PatchableStructure::getId)
+                .toList();
+        }
     }
 
     public enum Flag {
@@ -279,19 +462,40 @@ public enum PEStructure {
         IGNORED(DefaultFlags.ignoredStructureIDs),
         IGNORED_BIOME_REDISTRIBUTION(DefaultFlags.ignoreBiomeRedistribution),
         IGNORED_BIOME_RADIUS_CHECK(DefaultFlags.ignoreBiomeRadiusCheck),
-        IGNORED_PLACEMENT_TWEAKS(DefaultFlags.ignoreStructureType),
-        ADJUSTED_TERRAIN_ADAPTATION(DefaultFlags.adjustedTerrainAdaptation),
+        IGNORED_PLACEMENT_TWEAKS(DefaultFlags.ignorePlacementTweaks),
+        ADD_BEARD_THIN_ADAPTATION(DefaultFlags.addBeardThinAdaptation),
+        ADD_BURY_ADAPTATION(DefaultFlags.addBuryAdaptation),
+        ADD_WATERLOGGING(DefaultFlags.addWaterlogging),
+        REMOVE_WATERLOGGING(DefaultFlags.removeWaterlogging),
         ADJUSTED_OCEAN_HEIGHTMAP(DefaultStructureHeightmaps.oceanfloor),
         ADJUSTED_UNDERGROUND_Y_LEVEL_SHALLOW(DefaultFlags.adjustedYLevelShallow),
         ADJUSTED_UNDERGROUND_Y_LEVEL_DEEP(DefaultFlags.adjustedYLevelDeep),
+        EARLY_SPAWN_STEP(DefaultFlags.earlySpawnStep),
         LATE_SPAWN_STEP(DefaultFlags.lateSpawnStep),
         FLATNESS_CHECK_SMALL(DefaultFlags.flatnessCheckSmall),
         FLATNESS_CHECK_MEDIUM(DefaultFlags.flatnessCheckMedium),
         FLATNESS_CHECK_LARGE(DefaultFlags.flatnessCheckLarge),
         FLATNESS_CHECK_SPRAWLING(DefaultFlags.flatnessCheckSprawling),
+        IS_FROZEN_CAVES(DefaultFlags.forceFrozenCaves),
+        IS_SANDY_CAVES(DefaultFlags.forceSandyCaves),
         IS_DEEP_DARK(DefaultFlags.forceDeepDark),
+        IS_VOLCANIC_CRATER(DefaultFlags.forceVolcanicCrater),
         IS_BIRCH_FOREST(DefaultFlags.forceBirchForest),
-        IS_CHERRY_FOREST(DefaultFlags.forceCherryForest);
+        IS_CULTIVATED_FIELDS(DefaultFlags.forceCultivatedFields),
+        IS_TROPICAL_ISLAND(DefaultFlags.forceTropicalIsland),
+        IS_CHERRY_FOREST(DefaultFlags.forceCherryForest),
+        IS_DIFF_FOUR(DefaultFlags.forceDifficultyFour),
+        IS_DIFF_FIVE(DefaultFlags.forceDifficultyFive),
+        IS_DIFF_SIX(DefaultFlags.forceDifficultySix),
+        IS_DIFF_SEVEN(DefaultFlags.forceDifficultySeven),
+        IS_DIFF_EIGHT(DefaultFlags.forceDifficultyEight),
+        IS_DIFF_NINE(DefaultFlags.forceDifficultyNine),
+        IS_DIFF_TEN(DefaultFlags.forceDifficultyTen),
+        IS_BOSS_STRUCTURE(DefaultFlags.bossStructures),
+        HAS_VILLAGE_FIX(DefaultFlags.hasVillageFix),
+        HAS_SPAWN_OVERRIDES(Constants.EMPTY_LIST),
+        IS_CIVILIZATION(Constants.EMPTY_LIST),
+        IS_WILDERNESS(Constants.EMPTY_LIST);
 
         private List<String> defaultIDs = new ArrayList<>();
 
@@ -343,6 +547,7 @@ public enum PEStructure {
                         r.name().contains("COASTAL") ||
                         r.name().contains("RIVER") ||
                         r.name().contains("RARE") ||
+                        r.name().contains("SPOOKY") ||
                         r.name().contains("ORIENTAL")))
                 .map(PERegion::defaultStructures)
                 .flatMap(Collection::stream)
@@ -379,6 +584,20 @@ public enum PEStructure {
             return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
                     .filter(s -> s.getFlags().contains(Flag.FLATNESS_CHECK_SMALL) ||
                             (s.getStructureSet().isPresent() && s.getStructureSet().get().name().contains("DECO")))
+                    .map(PatchableStructure::getId)
+                    .toList();
+        }
+
+        public static List<String> isCivilization() {
+            return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                    .filter(PatchableStructure::isCivilization)
+                    .map(PatchableStructure::getId)
+                    .toList();
+        }
+
+        public static List<String> isWilderness() {
+            return WorldgenDataManager.PATCHABLE_STRUCTURES.values().stream()
+                    .filter(s -> s.isWilderness() || s.isSpecial())
                     .map(PatchableStructure::getId)
                     .toList();
         }

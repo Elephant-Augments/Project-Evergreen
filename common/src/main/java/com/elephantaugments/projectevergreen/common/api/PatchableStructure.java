@@ -5,12 +5,14 @@ import com.elephantaugments.projectevergreen.common.api.PEStructure.Size;
 import com.elephantaugments.projectevergreen.common.api.PEStructure.Heightmap;
 import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
+import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 public class PatchableStructure extends IPatchable {
 
@@ -63,12 +65,16 @@ public class PatchableStructure extends IPatchable {
     }
 
     public boolean isAdvancedType() {
-        return (PlatformHooks.PLATFORM_HELPER.isModLoaded("integrated_api") ||
+        boolean advancedModLoaded = (PlatformHooks.PLATFORM_HELPER.isModLoaded("integrated_api") ||
                 PlatformHooks.PLATFORM_HELPER.isModLoaded("moogs_structures") ||
-                PlatformHooks.PLATFORM_HELPER.isModLoaded("repurposed_structures")) &&
-                    (getType().isPresent() &&
-                    PEStructure.SupportedTypes.contains(type) &&
-                    !flags.contains(PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS));
+                PlatformHooks.PLATFORM_HELPER.isModLoaded("repurposed_structures"));
+        boolean isSupportedType = (getType().isPresent() &&
+                PEStructure.SupportedTypes.contains(type) &&
+                !flags.contains(PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS));
+        boolean isIDA = (PlatformHooks.PLATFORM_HELPER.isModLoaded("integrated_dungeons_arise") &&
+                getId().contains("dungeons_arise"));
+
+        return advancedModLoaded && isSupportedType && !isIDA;
     }
 
     public boolean isFlat() {
@@ -103,13 +109,13 @@ public class PatchableStructure extends IPatchable {
             heightmap == Heightmap.UNDERGROUND;
     }
 
+    public boolean isDeepUnderground() {
+        return PlatformHooks.PLATFORM_HELPER.isModLoaded("expanded_ecosphere") && isUnderground();
+    }
+
     public boolean isInland() {
         return getHeightmap().isPresent() &&
             heightmap == Heightmap.GROUNDLEVEL;
-    }
-
-    public boolean isOcean() {
-        return !isInland() && !isWaterBound();
     }
 
     public boolean isWaterBound() {
@@ -123,9 +129,8 @@ public class PatchableStructure extends IPatchable {
 
 
     public boolean isRadiusBound() {
-        return isAdvancedType() &&
-                !(flags.contains(PEStructure.Flag.IGNORED_BIOME_RADIUS_CHECK) &&
-                        (getSize().isPresent() && size != Size.SMALL));
+        return isAdvancedType() && (!isSmall() || isWaterBound()) &&
+                !(flags.contains(PEStructure.Flag.IGNORED_BIOME_RADIUS_CHECK));
     }
 
     public boolean hasPopulationBias(int populationBias) {
@@ -260,12 +265,71 @@ public class PatchableStructure extends IPatchable {
         if (getSize().isPresent()) {
             if (size == Size.SPRAWLING &&
                     (reg.isPresent() && region.name().contains("CIVILIZATION"))) {
-                return;
+                diffLevel = diffLevel - size.diffOffset();
             } else {
                 diffLevel = diffLevel + size.diffOffset();
             }
         }
+        //Flag overrides
+        if (this.flags.contains(PEStructure.Flag.IS_DIFF_FOUR)) { diffLevel = 4; }
+        if (this.flags.contains(PEStructure.Flag.IS_DIFF_FIVE)) { diffLevel = 5; }
+        if (this.flags.contains(PEStructure.Flag.IS_DIFF_SIX)) { diffLevel = 6; }
+        if (this.flags.contains(PEStructure.Flag.IS_DIFF_SEVEN)) { diffLevel = 7; }
+        if (this.flags.contains(PEStructure.Flag.IS_DIFF_EIGHT)) { diffLevel = 8; }
+        if (this.flags.contains(PEStructure.Flag.IS_DIFF_NINE)) { diffLevel = 9; }
+        if (this.flags.contains(PEStructure.Flag.IS_DIFF_TEN)) { diffLevel = 10; }
         difficulty = diffLevel;
+    }
+
+    public JsonElement buildSpawnOverrides() {
+        JsonObject overrides = new JsonObject();
+
+        Optional<PEStructure> sdata = this.getData();
+        if (sdata.isEmpty()) return overrides;
+
+        List<String> monsters = sdata.get().defaultSpawns().stream()
+                .filter(e -> PEMob.MONSTER.defaultMobs().contains(e))
+                .toList();
+        List<String> creatures = sdata.get().defaultSpawns().stream()
+                .filter(e -> PEMob.LAND_CRITTER.defaultMobs().contains(e))
+                .toList();
+        List<String> water_creatures = sdata.get().defaultSpawns().stream()
+                .filter(e -> PEMob.WATER_CRITTER.defaultMobs().contains(e))
+                .toList();
+        List<String> misc = sdata.get().defaultSpawns().stream()
+                .filter(e -> PEMob.MISC.defaultMobs().contains(e))
+                .toList();
+
+        if (!monsters.isEmpty()) { overrides.add("monster", buildSpawnEntry(monsters)); }
+        if (!creatures.isEmpty()) { overrides.add("creature", buildSpawnEntry(creatures)); }
+        if (!water_creatures.isEmpty()) { overrides.add("water_creature", buildSpawnEntry(water_creatures)); }
+        if (!misc.isEmpty()) { overrides.add("misc", buildSpawnEntry(misc)); }
+
+        return ProjectEvergreen.GSON.toJsonTree(overrides);
+    }
+
+    private JsonObject buildSpawnEntry(List<String> entities) {
+        if (PlatformHooks.PLATFORM_HELPER.isDevelopmentEnvironment()) {
+            ProjectEvergreen.LOGGER.info("Building dynamic structure spawn override... ");
+        }
+        JsonObject json = new JsonObject();
+        json.addProperty("bounding_box", "full");
+        JsonArray spawns = new JsonArray();
+        entities.forEach(id -> {
+            Optional<PatchableEntity> edata = Optional.ofNullable(WorldgenDataManager.PATCHABLE_ENTITIES.get(id));
+            edata.ifPresent((e) -> {
+                if (!e.isLoaded()) return;
+                this.flags.add(PEStructure.Flag.HAS_SPAWN_OVERRIDES);
+                JsonObject entry = new JsonObject();
+                entry.addProperty("type", e.getId());
+                entry.addProperty("maxCount", 1);
+                entry.addProperty("minCount", 1);
+                entry.addProperty("weight", 1);
+                spawns.add(entry);
+            });
+        });
+        json.add("spawns", spawns);
+        return json;
     }
     
     public void initJsonData(String type, String step, JsonElement heightmap) {
@@ -294,6 +358,7 @@ public class PatchableStructure extends IPatchable {
     public JsonElement toJson() {
         JsonObject json = new JsonObject();
         json.addProperty(Constants.JsonProp.ID.jsonKey(), this.getId());
+        json.addProperty(Constants.JsonProp.DIFFICULTY.jsonKey(), this.difficulty);
 
         getSize().ifPresent((size) -> {
             json.addProperty(size.jsonKey(), size.name());
@@ -310,7 +375,6 @@ public class PatchableStructure extends IPatchable {
         getStructureSet().ifPresent((sset) -> {
             json.addProperty(sset.jsonKey(), sset.location().toString());
         });
-
         getData().ifPresent((sdata) -> {
             json.addProperty(Constants.JsonProp.REGION.jsonKey(), sdata.biomeTag());
         });
@@ -320,13 +384,14 @@ public class PatchableStructure extends IPatchable {
         json.addProperty(Constants.JsonProp.IS_FLAT.jsonKey(), this.isFlat());
         json.addProperty(Constants.JsonProp.IS_MASSIVE.jsonKey(), this.isMassive());
         json.addProperty(Constants.JsonProp.IS_INLAND.jsonKey(), this.isInland());
-        json.addProperty(Constants.JsonProp.IS_OCEAN.jsonKey(), this.isOcean());
         json.addProperty(Constants.JsonProp.IS_RADIUS_BOUND.jsonKey(), this.isRadiusBound());
         json.addProperty(Constants.JsonProp.IS_WATER_BOUND.jsonKey(), this.isWaterBound());
         json.addProperty(Constants.JsonProp.IS_WATER_RESTRICTED.jsonKey(), this.isWaterRestricted());
+        json.add(Constants.JsonProp.SPAWN_OVERRIDES.jsonKey(), this.buildSpawnOverrides());
         this.flags.forEach(flag -> {
             json.addProperty(flag.jsonKey(), true);
         });
+
         return ProjectEvergreen.GSON.toJsonTree(json);
     }
 }
