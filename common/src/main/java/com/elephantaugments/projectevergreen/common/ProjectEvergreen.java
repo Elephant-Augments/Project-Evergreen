@@ -1,5 +1,8 @@
 package com.elephantaugments.projectevergreen.common;
 
+import com.elephantaugments.projectevergreen.common.data.defaults.DefaultFlags;
+import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
+import com.google.common.collect.ImmutableList;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.mojang.logging.LogUtils;
@@ -21,5 +24,9 @@ public class ProjectEvergreen {
 
     public static <T> TagKey<T> createTag(ResourceKey<Registry<T>> registry, ResourceLocation location) {
         return TagKey.create(registry, location);
+    }
+
+    public static void initCompat() {
+
     }
 }

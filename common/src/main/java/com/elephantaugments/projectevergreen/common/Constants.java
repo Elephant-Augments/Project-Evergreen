@@ -1,5 +1,9 @@
 package com.elephantaugments.projectevergreen.common;
 
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+
 import java.util.*;
 
 public class Constants {
@@ -16,6 +20,9 @@ public class Constants {
 		STRUCTURE_SET,
 		HEIGHTMAP,
 		DIFFICULTY,
+		SPAWN_OVERRIDES,
+		SPAWNERS,
+		SPAWN_COSTS,
 		IS_LOADED,
 		IS_MODIFIER,
 		IS_ADVANCED_TYPE,
@@ -36,6 +43,20 @@ public class Constants {
 		}
 	}
 
+	public enum SpawnSteps {
+		RAW_GENERATION,
+		LAKES,
+		LOCAL_MODIFICATIONS,
+		UNDERGROUND_STRUCTURES,
+		SURFACE_STRUCTURES,
+		STRONGHOLDS,
+		UNDERGROUND_ORES,
+		UNDERGROUND_DECORATION,
+		FLUID_SPRINGS,
+		VEGETAL_DECORATION,
+		TOP_LAYER_MODIFICATION
+	}
+
 	public static final String PROPERTIES_KEY = "temp_properties";
 	public static final String PE_OBJECT_KEY = "pe_object";
 	public static final String PE_VALUE_KEY = "pe_value";
@@ -47,6 +68,7 @@ public class Constants {
 	public static final String PATCHABLE_FEATURE_KEY = "patchable_feature";
 	public static final String PATCHABLE_ENTITY_KEY = "patchable_entity";
 	public static final String DYNAMIC_STRUCTURE_SET_KEY = "structure_set_builder";
+	public static final String DYNAMIC_BIOME_SPAWNS_KEY = "biome_spawn_builder";
 
 	public static final String STRUCTURE_TYPE_KEY = "type";
 	public static final String STRUCTURE_STEP_KEY = "step";
@@ -57,10 +79,11 @@ public class Constants {
 	public static final int OVERWORLD_DIFFICULTY = 3;
 	public static final int OTHERWORLD_DIFFICULTY = 4;
 
-	public static final int NETHER_DIFFICULTY_OFFSET = 1;
 	public static final int AETHER_DIFFICULTY_OFFSET = 1;
-	public static final int END_DIFFICULTY_OFFSET = 3;
+	public static final int NETHER_DIFFICULTY_OFFSET = 2;
+	public static final int END_DIFFICULTY_OFFSET = 2;
 	public static final int AFTERDARK_DIFFICULTY_OFFSET = 2;
+	public static final int ETERNAL_STARLIGHT_DIFFICULTY_OFFSET = 3;
 	public static final int LOSTCITIES_DIFFICULTY_OFFSET = 4;
 
 	public static final int SAFE_DIFFICULTY_OFFSET = -2;
@@ -86,9 +109,9 @@ public class Constants {
 	public static final int DEFAULT_EXTRA_RARE_SPACING = 68;
 	public static final int DEFAULT_EXTRA_RARE_SEPARATION = 58;
 	public static final Double CIVILIZATION_SPREAD_OFFSET = 0.9;
-	public static final Double WILDERNESS_SPREAD_OFFSET = 1.15;
+	public static final Double WILDERNESS_SPREAD_OFFSET = 1.05;
 	public static final Double SPECIAL_SPREAD_OFFSET = 1.35;
-	public static final Double FLATNESS_SPREAD_OFFSET = 0.55;
+	public static final Double FLATNESS_SPREAD_OFFSET = 0.5;
 
 	public static final int DEFAULT_COLD_WATER_COLOR = 3570859;
 	public static final int DEFAULT_TEMPERATE_WATER_COLOR = 3570859;
@@ -111,5 +134,13 @@ public class Constants {
 
 	public static String getPath(String location) {
 		return location.split(":")[1];
+	}
+
+	public static JsonElement neoforge_1_21_1_disable() {
+		JsonArray array = new JsonArray();
+		JsonObject disabled = new JsonObject();
+		disabled.addProperty("type", "neoforge:false");
+		array.add(disabled);
+		return ProjectEvergreen.GSON.toJsonTree(array);
 	}
 }
