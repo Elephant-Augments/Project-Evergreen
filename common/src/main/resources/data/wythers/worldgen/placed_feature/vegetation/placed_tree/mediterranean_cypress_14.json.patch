@@ -1,0 +1,44 @@
+[
+    {
+        "op": "test",
+        "type": "project_evergreen:fix_tree_redundancy",
+        "value": true
+    },
+    [
+        {
+            "op": "test",
+            "type": "patched:mod_loaded",
+            "value": "natures_spirit"
+        },
+        {
+            "op": "replace",
+            "path": "/feature/config/features/0/feature/feature/config/trunk_provider/state/Name",
+            "value": "natures_spirit:cypress_log"
+        },
+        {
+            "op": "replace",
+            "path": "/feature/config/features/0/feature/feature/config/foliage_provider/state/Name",
+            "value": "natures_spirit:cypress_leaves"
+        },
+        {
+            "op": "replace",
+            "path": "/feature/config/features/1/feature/feature/config/trunk_provider/state/Name",
+            "value": "natures_spirit:cypress_log"
+        },
+        {
+            "op": "replace",
+            "path": "/feature/config/features/1/feature/feature/config/foliage_provider/state/Name",
+            "value": "natures_spirit:cypress_leaves"
+        },
+        {
+            "op": "replace",
+            "path": "/feature/config/default/feature/config/trunk_provider/state/Name",
+            "value": "natures_spirit:cypress_log"
+        },
+        {
+            "op": "replace",
+            "path": "/feature/config/default/feature/config/foliage_provider/state/Name",
+            "value": "natures_spirit:cypress_leaves"
+        }
+    ]
+]

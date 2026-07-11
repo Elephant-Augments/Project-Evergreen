@@ -3,8 +3,7 @@
   "fabric:load_conditions": {
     "condition": "fabric:all_mods_loaded",
     "values": [
-      "veggiesdelight",
-      "trek"
+      "waystones"
     ]
   },
   "neoforge:conditions": [
@@ -16,26 +15,26 @@
         },
         {
           "type": "neoforge:mod_loaded",
-          "modid": "veggiesdelight"
+          "modid": "kattersstructures"
         },
         {
           "type": "neoforge:mod_loaded",
-          "modid": "trek"
+          "modid": "waystones"
         }
       ]
     }
   ],
-  "template_pools": [ "trek:village/plains/houses" ],
+  "template_pools": [ "kattersstructures:village_mesa/house_a" ],
   "elements": [
     {
-      "weight": 5,
+      "weight": 20,
       "element": {
         "element_type": "lithostitched:limited",
         "delegate": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "processors": "minecraft:empty",
-          "location": "veggiesdelight:village/houses/plains_depot_house"
+          "location": "waystones:village/common/waystone"
         },
         "limit": 1
       }

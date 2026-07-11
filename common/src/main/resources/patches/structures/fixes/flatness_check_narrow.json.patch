@@ -1,7 +1,0 @@
-[
-  {
-    "op": "add",
-    "path": "/flatness_check_narrow",
-    "value": true
-  }
-]

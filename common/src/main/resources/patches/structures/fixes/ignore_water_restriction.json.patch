@@ -1,7 +1,0 @@
-[
-  {
-    "op": "add",
-    "path": "/ignore_water_restriction",
-    "value": true
-  }
-]

@@ -1,8 +1,0 @@
-[
-  {
-    "op": "paste",
-    "type": "project_evergreen:config_value",
-    "path": "/default_fluid/Name",
-    "value": "lost_cities_liquid"
-  }
-]

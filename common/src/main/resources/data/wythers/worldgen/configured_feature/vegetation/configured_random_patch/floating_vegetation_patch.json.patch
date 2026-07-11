@@ -1,0 +1,19 @@
+[
+    {
+        "op": "test",
+        "type": "project_evergreen:fix_tree_redundancy",
+        "value": true
+    },
+    [
+        {
+            "op": "test",
+            "type": "patched:mod_loaded",
+            "value": "hybrid-aquatic"
+        },
+        {
+            "op": "replace",
+            "path": "/config/feature/feature/config/to_place/entries/0/data/Name",
+            "value": "hybrid-aquatic:floating_sargassum"
+        }
+    ]
+]

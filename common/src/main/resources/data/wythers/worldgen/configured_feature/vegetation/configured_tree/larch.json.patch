@@ -1,0 +1,29 @@
+[
+    {
+        "op": "test",
+        "type": "project_evergreen:fix_tree_redundancy",
+        "value": true
+    },
+    [
+        {
+            "op": "test",
+            "type": "patched:mod_loaded",
+            "value": "regions_unexplored"
+        },
+        {
+            "op": "replace",
+            "path": "/config/dirt_provider/state/Name",
+            "value": "regions_unexplored:larch_log"
+        },
+        {
+            "op": "replace",
+            "path": "/config/trunk_provider/state/Name",
+            "value": "regions_unexplored:larch_log"
+        },
+        {
+            "op": "replace",
+            "path": "/config/foliage_provider/state/Name",
+            "value": "regions_unexplored:golden_larch_leaves"
+        }
+    ]
+]

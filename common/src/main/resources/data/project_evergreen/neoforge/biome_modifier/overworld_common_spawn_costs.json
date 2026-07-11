@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#minecraft:is_overworld",
+  "entity_types": [],
+  "spawn_cost": {
+    "charge": 0.7,
+    "energy_budget": 0.15
+  }
+}

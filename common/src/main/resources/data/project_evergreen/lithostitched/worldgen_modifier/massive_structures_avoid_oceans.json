@@ -3,7 +3,7 @@
   "structures": "#project_evergreen:is_rarity/wilderness_rare",
   "spawn_condition": {
     "type": "lithostitched:grid",
-    "radius": 48,
+    "radius": 32,
     "distance_between_points": 16,
     "condition": {
       "type": "lithostitched:in_biome",

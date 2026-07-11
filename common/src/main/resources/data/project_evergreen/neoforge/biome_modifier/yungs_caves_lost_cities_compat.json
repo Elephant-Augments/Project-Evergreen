@@ -1,5 +1,16 @@
 {
   "type": "neoforge:remove_carvers",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "bettercaves"
+        }
+      ]
+    }
+  ],
   "biomes": "#project_evergreen:is_lostcities",
   "carvers": [
     "bettercaves:better_cave",

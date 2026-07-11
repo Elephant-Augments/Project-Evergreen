@@ -1,5 +1,0 @@
-{
-    "op": "replace",
-    "path": "/feature/config/tries",
-    "value": 224
-}
