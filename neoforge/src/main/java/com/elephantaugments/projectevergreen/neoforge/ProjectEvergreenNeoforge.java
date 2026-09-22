@@ -10,6 +10,9 @@ import com.elephantaugments.projectevergreen.neoforge.world.PEBiomePlacement;
 
 import com.elephantaugments.projectevergreen.common.command.WorldgenDataDumpCommand;
 import com.elephantaugments.projectevergreen.neoforge.config.PEConfig;
+import com.elephantaugments.projectevergreen.neoforge.api.LimitedSpawnHandler;
+import com.elephantaugments.projectevergreen.neoforge.api.LimitedSpawnRules;
+import com.elephantaugments.projectevergreen.neoforge.api.StructureModifierSerializers;
 import com.elephantaugments.projectevergreen.neoforge.datagen.DataSources;
 import com.elephantaugments.projectevergreen.neoforge.datagen.TestConditions;
 
@@ -60,9 +63,12 @@ public class ProjectEvergreenNeoforge {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
         NeoForge.EVENT_BUS.addListener(this::registerCommands);
+        NeoForge.EVENT_BUS.addListener(LimitedSpawnHandler::onPositionCheck);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, PEConfig.COMMON_CONFIG, MODID + "_common.toml");
+
+        StructureModifierSerializers.REGISTER.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -76,7 +82,7 @@ public class ProjectEvergreenNeoforge {
 
     @SubscribeEvent
     public void onServerAboutToStart(ServerAboutToStartEvent event) {
-        //initBiolith();
+        LimitedSpawnHandler.rebuildFromRegistry(event.getServer());
     }
 
     @SubscribeEvent
@@ -87,6 +93,7 @@ public class ProjectEvergreenNeoforge {
         ENTITY_REGISTRY = null;
         BIOME_MODIFIER_REGISTRY = null;
         PLACED_FEATURE_REGISTRY = null;
+        LimitedSpawnRules.clear();
     }
 
     @SubscribeEvent
