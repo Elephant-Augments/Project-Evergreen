@@ -12,7 +12,8 @@ public class DefaultMobBiomes {
     );
 
     public static final List<String> desertDunesBarren = ImmutableList.of(
-        "koopascritters:mexican_rosy_boa"
+        "koopascritters:mexican_rosy_boa",
+        "naturalist:desert_scorpion"
     );
     
     public static final List<String> desertRedAlive = ImmutableList.of(
@@ -26,17 +27,29 @@ public class DefaultMobBiomes {
     );
     
     public static final List<String> forestDenseConiferousSnow = ImmutableList.of(
-        
+        "naturalist:bird",
+        "naturalist:bird"
     );
     
     public static final List<String> forestDenseConiferous = ImmutableList.of(
         "koopascritters:clown_loach",
-        "koopascritters:fire_salamander"
+        "koopascritters:fire_salamander",
+        "naturalist:bear",
+        "naturalist:deer",
+        "naturalist:bird",
+        "naturalist:bird",
+        "naturalist:bird"
     );
     
     public static final List<String> forestDenseDeciduous = ImmutableList.of(
         "koopascritters:clown_loach",
-        "koopascritters:california_quail"
+        "koopascritters:california_quail",
+        "naturalist:black_bear",
+        "naturalist:deer",
+        "naturalist:boar",
+        "naturalist:bird",
+        "naturalist:bird",
+        "naturalist:bird"
     );
     
     public static final List<String> forestDenseTropical = ImmutableList.of(
@@ -47,20 +60,29 @@ public class DefaultMobBiomes {
         "koopascritters:peacock_bass",
         "koopascritters:giant_muntjac",
         "koopascritters:emerald_toucanet",
-        "koopascritters:bush_dog"
+        "koopascritters:bush_dog",
+        "naturalist:jungle_scorpion"
     );
     
     public static final List<String> forestSparseConiferousSnow = ImmutableList.of(
-        
+        "naturalist:bird",
+        "naturalist:bird"
     );
     
     public static final List<String> forestSparseConiferous = ImmutableList.of(
-
+        "naturalist:deer",
+        "naturalist:boar",
+        "naturalist:bird",
+        "naturalist:bird"
     );
     
     public static final List<String> forestSparseDeciduous = ImmutableList.of(
         "koopascritters:clown_loach",
-        "koopascritters:california_quail"
+        "koopascritters:california_quail",
+        "naturalist:deer",
+        "naturalist:boar",
+        "naturalist:bird",
+        "naturalist:bird"
     );
     
     public static final List<String> forestSparseTropical = ImmutableList.of(
@@ -100,12 +122,14 @@ public class DefaultMobBiomes {
         "hybrid-aquatic:basking_shark",
         "hybrid-aquatic:ocean_sunfish",
         "hybrid-aquatic:yeti_crab",
-        "koopascritters:dwarf_sperm_whale"
+        "koopascritters:dwarf_sperm_whale",
+        "naturalist:whale"
     );
     
     public static final List<String> oceanDeepWarm = ImmutableList.of(
         "hybrid-aquatic:hammerhead_shark",
-        "koopascritters:oceanic_manta_ray"
+        "koopascritters:oceanic_manta_ray",
+        "naturalist:whale"
     );
 
     public static final List<String> oceanDeepRare = ImmutableList.of(
@@ -127,7 +151,7 @@ public class DefaultMobBiomes {
     );
 
     public static final List<String> oceanShallowRare = ImmutableList.of(
-        
+        "naturalist:jellyfish"
     );
     
     public static final List<String> coastalFrozen = ImmutableList.of(
@@ -141,7 +165,8 @@ public class DefaultMobBiomes {
     
     public static final List<String> coastalWarm = ImmutableList.of(
         "koopascritters:upside_down_jellyfish",
-        "hybrid-aquatic:fiddler_crab"
+        "hybrid-aquatic:fiddler_crab",
+        "naturalist:crab"
     );
     
     public static final List<String> coastalAlive = ImmutableList.of(
@@ -161,7 +186,10 @@ public class DefaultMobBiomes {
         "hybrid-aquatic:crayfish",
         "koopascritters:clown_loach",
         "koopascritters:clown_loach",
-        "koopascritters:yangtze_giant_softshell_turtle"
+        "koopascritters:yangtze_giant_softshell_turtle",
+        "naturalist:bass",
+        "naturalist:catfish",
+        "naturalist:duck"
     );
     
     public static final List<String> riverWarm = ImmutableList.of(
@@ -176,7 +204,10 @@ public class DefaultMobBiomes {
         "koopascritters:headlight_beetle",
         "koopascritters:helmeted_guineafowl",
         "koopascritters:serval",
-        "koopascritters:impalla"
+        "koopascritters:impalla",
+        "naturalist:ostrich",
+        "naturalist:giraffe",
+        "naturalist:zebra"
     );
     
     public static final List<String> plainsGrassySnow = ImmutableList.of(
@@ -187,6 +218,8 @@ public class DefaultMobBiomes {
         "koopascritters:clown_loach",
         "koopascritters:burrowing_owl",
         "koopascritters:california_quail",
+        "naturalist:firefly",
+        "naturalist:duck",
         "envelope:pigeon"
     );
     
@@ -199,30 +232,36 @@ public class DefaultMobBiomes {
         "koopascritters:klipspringer",
         "koopascritters:pancake_tortoise",
         "koopascritters:southern_patas_monkey",
-        "koopascritters:hyrax"
+        "koopascritters:hyrax",
+        "naturalist:elephant",
+        "naturalist:lion"
     );
     
     public static final List<String> plainsShrubbySnow = ImmutableList.of(
-        
+        "naturalist:mammoth"
     );
     
     public static final List<String> plainsShrubbyTemperate = ImmutableList.of(
         "koopascritters:clown_loach",
         "koopascritters:burrowing_owl",
-        "koopascritters:california_quail"
+        "koopascritters:california_quail",
+        "naturalist:firefly"
     );
     
     public static final List<String> plainsShrubbyTropical = ImmutableList.of(
-        
+
     );
     
     public static final List<String> specialAutumnalFields = ImmutableList.of(
-        
+        "naturalist:turkey"
     );
     
     public static final List<String> specialAutumnalForest = ImmutableList.of(
         "born_in_chaos_v1:restless_spirit",
-        "mythsandlegends:condemned"
+        "mythsandlegends:condemned",
+        "naturalist:turkey",
+        "naturalist:bear",
+        "naturalist:boar"
     );
     
     public static final List<String> specialCraggySnow = ImmutableList.of(
@@ -239,11 +278,11 @@ public class DefaultMobBiomes {
     );
     
     public static final List<String> specialFloweryFields = ImmutableList.of(
-        
+        "naturalist:butterfly"
     );
     
     public static final List<String> specialFloweryForest = ImmutableList.of(
-        
+        "naturalist:butterfly"
     );
     
     public static final List<String> specialMediterraneanInviting = ImmutableList.of(
@@ -301,7 +340,9 @@ public class DefaultMobBiomes {
         "koopascritters:clown_loach",
         "koopascritters:fly_river_turtle",
         "koopascritters:ocellate_river_ray",
-        "crittersandcompanions:dragonfly"
+        "crittersandcompanions:dragonfly",
+        "naturalist:alligator",
+        "naturalist:firefly"
     );
     
     public static final List<String> specialSwampyWarm = ImmutableList.of(
@@ -315,11 +356,28 @@ public class DefaultMobBiomes {
         "koopascritters:ocellate_river_ray",
         "koopascritters:roseate_spoonbill",
         "koopascritters:marabou_stork",
-        "crittersandcompanions:dragonfly"
+        "crittersandcompanions:dragonfly",
+        "naturalist:alligator",
+        "naturalist:firefly",
+        "naturalist:piranha"
+    );
+
+    public static final List<String> crimsonNether = ImmutableList.of(
+        
+    );
+
+    public static final List<String> warpedNether = ImmutableList.of(
+
+    );
+
+    public static final List<String> ashenNether = ImmutableList.of(
+        "born_in_chaos_v1:pumpkin_bomb",
+        "born_in_chaos_v1:pumpkin_bruiser",
+        "born_in_chaos_v1:pumpkin_dunce"
     );
 
     public static final List<String> underground = ImmutableList.of(
-        
+
     );
 
     public static final List<String> birchForest = ImmutableList.of(

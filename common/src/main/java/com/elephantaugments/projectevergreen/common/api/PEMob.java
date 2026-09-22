@@ -6,6 +6,7 @@ import com.elephantaugments.projectevergreen.common.data.defaults.DefaultFlags;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultMobCategories;
 import com.elephantaugments.projectevergreen.common.data.patchable.PatchableEntities;
 import com.google.common.collect.ImmutableList;
+import com.google.gson.JsonArray;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
@@ -179,6 +180,15 @@ public enum PEMob {
         public void initIDs(List<String> ids) {
             defaultIDs.addAll(ids);
         }
+    }
+
+    public static JsonArray buildCostArray(List<String> loadedEntities, PEMob.Flag costFlag) {
+        JsonArray spawns = new JsonArray();
+        costFlag.defaultIDs().forEach(e -> {
+            if (!loadedEntities.contains(e)) return;
+            spawns.add(e);
+        });
+        return spawns;
     }
 
     public final static List<String> VanillaMonsters = ImmutableList.of(

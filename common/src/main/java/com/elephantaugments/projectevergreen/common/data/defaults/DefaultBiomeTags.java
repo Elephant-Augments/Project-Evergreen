@@ -303,6 +303,8 @@ public class DefaultBiomeTags {
     public static final List<String> oceanDeepTemperate = ImmutableList.of(
         "minecraft:deep_ocean",
         "minecraft:deep_cold_ocean",
+        "spawn:cold_island",
+        "spawn:tide_pool",
         "spawn:dodo_island",
         "spawn:rocky_shore"
     );
@@ -310,7 +312,6 @@ public class DefaultBiomeTags {
     public static final List<String> oceanDeepWarm = ImmutableList.of(
         "minecraft:deep_lukewarm_ocean",
         "spawn:sandy_island",
-        "spawn:seagrass_meadow",
         "spawn:deep_warm_ocean",
         "spawn:tropical_island",
         "spawn:volcanic_island"
@@ -336,11 +337,13 @@ public class DefaultBiomeTags {
         "minecraft:warm_ocean",
         "minecraft:lukewarm_ocean",
         "regions_unexplored:rocky_reef",
+        "spawn:seagrass_meadow",
         "wythers:coastal_mangroves"
     );
 
     public static final List<String> oceanShallowRare = ImmutableList.of(
-        "jellyfishing:jellyfish_fields"
+        "jellyfishing:jellyfish_fields",
+        "spawn:seagrass_meadow"
     );
     
     public static final List<String> coastalFrozen = ImmutableList.of(
@@ -365,7 +368,6 @@ public class DefaultBiomeTags {
     public static final List<String> coastalWarm = ImmutableList.of(
         "dreamwoods:azure_cove",
         "natures_spirit:tropical_shores",
-        "wythers:black_beach",
         "wythers:deepslate_shore",
         "wythers:desert_beach",
         "wythers:tropical_beach"
@@ -405,6 +407,7 @@ public class DefaultBiomeTags {
         "terralith:warm_river",
         "regions_unexplored:tropical_river",
         "dreamwoods:tropical_river",
+        "wythers:billabong",
         "wythers:badlands_river",
         "wythers:black_river",
         "wythers:deep_desert_river",
@@ -481,8 +484,9 @@ public class DefaultBiomeTags {
         "natures_spirit:woody_highlands",
         "natures_spirit:chaparral",
         "natures_spirit:xeric_plains",
+        "spawn:ant_gardens",
         "wythers:chaparral",
-        "wythers:dry_tropical_forest",
+        "wythers:desert_island",
         "wythers:dry_savanna",
         "wythers:savanna_badlands",
 		"wythers:savanna_basaltic_incursions",
@@ -524,7 +528,7 @@ public class DefaultBiomeTags {
     public static final List<String> plainsShrubbyTropical = ImmutableList.of(
         "terralith:brushland",
         "dreamwoods:jungle_bushland",
-        "wythers:desert_island"
+        "wythers:dry_tropical_forest"
     );
     
     public static final List<String> specialAutumnalFields = ImmutableList.of(
@@ -636,14 +640,14 @@ public class DefaultBiomeTags {
         "natures_spirit:lavender_fields",
         "natures_spirit:carnation_fields",
         "windswept:flowering_savanna",
-        "wythers:mediterranean_island",
-        "wythers:mediterranean_island_thermal_springs"
+        "wythers:mediterranean_island"
     );
     
     public static final List<String> specialMediterraneanUninviting = ImmutableList.of(
         "natures_spirit:shrubby_highlands",
         "natures_spirit:woody_highlands",
-        "natures_spirit:xeric_plains"
+        "natures_spirit:xeric_plains",
+        "wythers:desert_island"
     );
     
     public static final List<String> specialOrientalInviting = ImmutableList.of(
@@ -765,7 +769,6 @@ public class DefaultBiomeTags {
 		"wythers:ancient_oak_swamp",
         "wythers:autumnal_swamp",
         "wythers:berry_bog",
-		"wythers:billabong",
 		"wythers:birch_swamp",
         "wythers:fen",
         "wythers:marsh",
@@ -842,11 +845,19 @@ public class DefaultBiomeTags {
     );
 
     public static final List<String> tropicalIsland = ImmutableList.of(
-        "regions_unexplored:tropics",
+        //"regions_unexplored:tropics",
         "dreamwoods:roofed_tropical_forest",
-        "natures_spirit:xeric_plains",
+        //"natures_spirit:xeric_plains",
         "wythers:tropical_island",
         "wythers:mushroom_island"
+    );
+
+    public static final List<String> smallIslands = ImmutableList.of(
+        "spawn:cold_island",
+        "spawn:dodo_island",
+        "spawn:sandy_island",
+        "spawn:tide_pool",
+        "spawn:tropical_island"
     );
 
     public static final List<String> volcanicCrater = ImmutableList.of(
@@ -858,8 +869,44 @@ public class DefaultBiomeTags {
         "minecraft:pale_garden"
     );
 
-    public static final List<String> soulValley = ImmutableList.of(
-        "minecraft:soul_sand_valley"
+    public static final List<String> crimsonNether = ImmutableList.of(
+        "minecraft:crimson_forest",
+        "minecraft:nether_wastes",
+        "betternether:crimson_glowing_woods",
+        "betternether:crimson_pinewood",
+        "betternether:wart_forest",
+        "betternether:wart_forest_edge",
+        "betternether:old_swampland",
+        "betternether:nether_swampland",
+        "betternether:nether_swampland_terraces",
+        "gardens_of_the_dead:whistling_woods",
+        "regions_unexplored:mycotoxic_undergrowth"
+    );
+
+    public static final List<String> warpedNether = ImmutableList.of(
+        "minecraft:warped_forest",
+        "betternether:nether_jungle",
+        "betternether:nether_mushroom_forest",
+        "betternether:nether_mushroom_forest_edge",
+        "betternether:upside_down_forest",
+        "betternether:upside_down_forest_cleared",
+        "betternether:old_fungiwoods",
+        "betternether:old_warped_woods",
+        "betternether:bone_reef",
+        "betternether:sulfuric_bone_reef",
+        "regions_unexplored:blackstone_basin",
+        "regions_unexplored:glistering_meadow"
+    );
+
+    public static final List<String> ashenNether = ImmutableList.of(
+        "minecraft:soul_sand_valley",
+        "betternether:gravel_desert",
+        "betternether:soul_plain",
+        "betternether:gloomwood",
+        "betternether:nether_grasslands",
+        "betternether:poor_nether_grasslands",
+        "gardens_of_the_dead:soulblight_forest",
+        "regions_unexplored:infernal_holt"
     );
 
     public static final List<String> starlitGrassy = ImmutableList.of(
