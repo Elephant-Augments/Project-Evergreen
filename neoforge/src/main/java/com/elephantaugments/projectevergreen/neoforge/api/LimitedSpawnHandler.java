@@ -1,8 +1,5 @@
 package com.elephantaugments.projectevergreen.neoforge.api;
 
-import java.util.Set;
-import java.util.stream.Collectors;
-
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;
 import net.minecraft.resources.ResourceKey;
@@ -28,12 +25,10 @@ public final class LimitedSpawnHandler {
                 if (!(modifier instanceof AddLimitedSpawnsStructureModifier limited)) {
                     continue;
                 }
-                Set<EntityType<?>> types = limited.spawners().stream()
-                        .map(spawner -> spawner.type)
-                        .collect(Collectors.toUnmodifiableSet());
                 for (Holder<Structure> structure : limited.structures()) {
                     structure.unwrapKey().ifPresent(key ->
-                            LimitedSpawnRules.register(key, limited.limit(), limited.centerFactor(), types));
+                            LimitedSpawnRules.register(
+                                    key, limited.limit(), limited.centerFactor(), limited.spawnerTypes()));
                 }
             }
         });
@@ -75,7 +70,8 @@ public final class LimitedSpawnHandler {
             }
 
             AABB aabb = AABB.of(box);
-            int living = level.getEntities(type, aabb, Entity::isAlive).size();
+            int living = level.getEntities((Entity) null, aabb, candidate ->
+                    candidate.isAlive() && rule.appliesTo(candidate.getType())).size();
             if (living >= rule.limit()) {
                 event.setResult(MobSpawnEvent.PositionCheck.Result.FAIL);
                 return;

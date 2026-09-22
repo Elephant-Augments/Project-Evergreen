@@ -46,6 +46,14 @@ public record AddLimitedSpawnsStructureModifier(
                     .forGetter(AddLimitedSpawnsStructureModifier::centerFactor)
     ).apply(instance, AddLimitedSpawnsStructureModifier::new));
 
+    public Set<EntityType<?>> spawnerTypes() {
+        Set<EntityType<?>> types = new HashSet<>();
+        for (SpawnerData spawner : this.spawners) {
+            types.add(spawner.type);
+        }
+        return types;
+    }
+
     @Override
     public void modify(Holder<Structure> structure, Phase phase, ModifiableStructureInfo.StructureInfo.Builder builder) {
         if (phase != Phase.ADD || !this.structures.contains(structure)) {
@@ -53,11 +61,10 @@ public record AddLimitedSpawnsStructureModifier(
         }
 
         StructureSettingsBuilder settingsBuilder = builder.getStructureSettings();
-        Set<EntityType<?>> entityTypes = new HashSet<>();
+        Set<EntityType<?>> entityTypes = spawnerTypes();
 
         for (SpawnerData spawner : this.spawners) {
             EntityType<?> type = spawner.type;
-            entityTypes.add(type);
             var overrides = settingsBuilder.getOrAddSpawnOverrides(type.getCategory());
             overrides.setBoundingBox(StructureSpawnOverride.BoundingBoxType.STRUCTURE);
             overrides.addSpawn(spawner);
