@@ -329,6 +329,10 @@
       "required": false
     },
     {
+      "id": "immersiveenchanting:ancient_library_desert",
+      "required": false
+    },
+    {
       "id": "imst:pyramid",
       "required": false
     },
@@ -358,10 +362,6 @@
     },
     {
       "id": "minecraft:ruined_portal_desert",
-      "required": false
-    },
-    {
-      "id": "mmr:desert_mineshaft",
       "required": false
     },
     {
@@ -486,6 +486,10 @@
     },
     {
       "id": "u_desert:desert/adventure/pillager_outpost/standard",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/ambient/oasis/dried_up",
       "required": false
     },
     {

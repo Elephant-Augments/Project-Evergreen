@@ -11,6 +11,18 @@
     {
       "id": "koopascritters:yangtze_giant_softshell_turtle",
       "required": false
+    },
+    {
+      "id": "naturalist:bass",
+      "required": false
+    },
+    {
+      "id": "naturalist:catfish",
+      "required": false
+    },
+    {
+      "id": "naturalist:duck",
+      "required": false
     }
   ]
 }

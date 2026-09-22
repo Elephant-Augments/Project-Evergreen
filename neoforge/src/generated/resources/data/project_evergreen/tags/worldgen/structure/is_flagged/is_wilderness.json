@@ -845,6 +845,10 @@
       "required": false
     },
     {
+      "id": "dungeons_arise:desert_hall",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:giant_mushroom",
       "required": false
     },
@@ -913,15 +917,15 @@
       "required": false
     },
     {
+      "id": "envelope:collapsed_mail_hub",
+      "required": false
+    },
+    {
       "id": "epic:witch_hut",
       "required": false
     },
     {
       "id": "explorify:badlands_pyramid",
-      "required": false
-    },
-    {
-      "id": "explorify:campsite",
       "required": false
     },
     {
@@ -1273,15 +1277,15 @@
       "required": false
     },
     {
+      "id": "hollowmarch:cloudbreaker",
+      "required": false
+    },
+    {
       "id": "hollowmarch:cursed_mansion",
       "required": false
     },
     {
       "id": "hollowmarch:desert_obelisk",
-      "required": false
-    },
-    {
-      "id": "hollowmarch:frozen_igloo",
       "required": false
     },
     {
@@ -1401,10 +1405,6 @@
       "required": false
     },
     {
-      "id": "idas:the_log",
-      "required": false
-    },
-    {
       "id": "idas:tinkers_citadel",
       "required": false
     },
@@ -1514,6 +1514,14 @@
     },
     {
       "id": "illagerstructures:well",
+      "required": false
+    },
+    {
+      "id": "immersiveenchanting:ancient_library_desert",
+      "required": false
+    },
+    {
+      "id": "immersiveenchanting:ancient_library_jungle",
       "required": false
     },
     {
@@ -1701,6 +1709,30 @@
       "required": false
     },
     {
+      "id": "legendary_monsters:ancient_stronghold",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:cloudy_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:collapsed_kingdom",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:frostbitten_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:mossy_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:ruined_pyramid",
+      "required": false
+    },
+    {
       "id": "loot_n_explore:cold_monster_rooms",
       "required": false
     },
@@ -1822,18 +1854,6 @@
     },
     {
       "id": "minecraft:trial_chambers",
-      "required": false
-    },
-    {
-      "id": "mmr:desert_mineshaft",
-      "required": false
-    },
-    {
-      "id": "mmr:mesa_mineshaft",
-      "required": false
-    },
-    {
-      "id": "mmr:mineshaft",
       "required": false
     },
     {
@@ -2202,6 +2222,10 @@
     },
     {
       "id": "mythsandlegends:sepulcrum_ignitum",
+      "required": false
+    },
+    {
+      "id": "netherman:monument",
       "required": false
     },
     {
@@ -3005,10 +3029,6 @@
       "required": false
     },
     {
-      "id": "trek:overworld/common/well_pillager_small",
-      "required": false
-    },
-    {
       "id": "trek:overworld/medium/all_abandoned",
       "required": false
     },
@@ -3169,19 +3189,11 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/tower",
-      "required": false
-    },
-    {
       "id": "trek:overworld/medium/tower_of_ice",
       "required": false
     },
     {
       "id": "trek:overworld/medium/water_reservoir_pillager",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/well_pillager_medium",
       "required": false
     },
     {
@@ -3254,6 +3266,10 @@
     },
     {
       "id": "u_desert:desert/adventure/pillager_outpost/standard",
+      "required": false
+    },
+    {
+      "id": "u_desert:desert/ambient/oasis/dried_up",
       "required": false
     },
     {

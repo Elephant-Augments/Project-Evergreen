@@ -593,6 +593,46 @@
       "required": false
     },
     {
+      "id": "betternether:altars",
+      "required": false
+    },
+    {
+      "id": "betternether:gardens",
+      "required": false
+    },
+    {
+      "id": "betternether:ghast_hive",
+      "required": false
+    },
+    {
+      "id": "betternether:jungle_temples",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_city",
+      "required": false
+    },
+    {
+      "id": "betternether:pillars",
+      "required": false
+    },
+    {
+      "id": "betternether:portals",
+      "required": false
+    },
+    {
+      "id": "betternether:pyramid",
+      "required": false
+    },
+    {
+      "id": "betternether:respawn_points",
+      "required": false
+    },
+    {
+      "id": "betternether:spawn_altar_ladder",
+      "required": false
+    },
+    {
       "id": "betterwitchhuts:witch_circle",
       "required": false
     },
@@ -1389,6 +1429,10 @@
       "required": false
     },
     {
+      "id": "dungeons_arise:desert_hall",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:fishing_hut",
       "required": false
     },
@@ -1474,6 +1518,26 @@
     },
     {
       "id": "endersdelight:end_house",
+      "required": false
+    },
+    {
+      "id": "envelope:collapsed_mail_hub",
+      "required": false
+    },
+    {
+      "id": "envelope:dovecote_desert",
+      "required": false
+    },
+    {
+      "id": "envelope:dovecote_plains",
+      "required": false
+    },
+    {
+      "id": "envelope:dovecote_savanna",
+      "required": false
+    },
+    {
+      "id": "envelope:dovecote_taiga",
       "required": false
     },
     {
@@ -2161,10 +2225,6 @@
       "required": false
     },
     {
-      "id": "idas:ancient_mines",
-      "required": false
-    },
-    {
       "id": "idas:ancient_portal/nether_ancient_portal",
       "required": false
     },
@@ -2366,6 +2426,10 @@
     },
     {
       "id": "idas:pillager_fortress",
+      "required": false
+    },
+    {
+      "id": "idas:pumpkin_cafe",
       "required": false
     },
     {
@@ -2593,6 +2657,18 @@
       "required": false
     },
     {
+      "id": "immersiveenchanting:ancient_library_desert",
+      "required": false
+    },
+    {
+      "id": "immersiveenchanting:ancient_library_end",
+      "required": false
+    },
+    {
+      "id": "immersiveenchanting:ancient_library_jungle",
+      "required": false
+    },
+    {
       "id": "imst:alpine_house",
       "required": false
     },
@@ -2706,6 +2782,42 @@
     },
     {
       "id": "imst:witch_hut",
+      "required": false
+    },
+    {
+      "id": "incendium:abandoned_tower",
+      "required": false
+    },
+    {
+      "id": "incendium:forbidden_castle",
+      "required": false
+    },
+    {
+      "id": "incendium:infernal_altar",
+      "required": false
+    },
+    {
+      "id": "incendium:nether_reactor",
+      "required": false
+    },
+    {
+      "id": "incendium:piglin_village",
+      "required": false
+    },
+    {
+      "id": "incendium:pipeline",
+      "required": false
+    },
+    {
+      "id": "incendium:quartz_kitchen",
+      "required": false
+    },
+    {
+      "id": "incendium:ruined_lab",
+      "required": false
+    },
+    {
+      "id": "incendium:sanctum",
       "required": false
     },
     {
@@ -2978,6 +3090,58 @@
     },
     {
       "id": "kattersstructures:witch_circle",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:ancient_stronghold",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:ancient_tower_remains",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:cloudy_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:collapsed_kingdom",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:frostbitten_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:lava_eater_spawn",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:mossy_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:ruined_pyramid",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:shulker_tower",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:skeletosaurus_nest",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:soul_fortress_remains",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:space_station",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:warped_fungussus_nest",
       "required": false
     },
     {
@@ -4053,6 +4217,10 @@
       "required": false
     },
     {
+      "id": "netherman:believer_house",
+      "required": false
+    },
+    {
       "id": "netherman:eye_columns",
       "required": false
     },
@@ -4065,11 +4233,35 @@
       "required": false
     },
     {
+      "id": "netherman:head_altar",
+      "required": false
+    },
+    {
       "id": "netherman:mansion_nether",
       "required": false
     },
     {
+      "id": "netherman:maze",
+      "required": false
+    },
+    {
+      "id": "netherman:monument",
+      "required": false
+    },
+    {
+      "id": "netherman:nether_geyser",
+      "required": false
+    },
+    {
+      "id": "netherman:pipes",
+      "required": false
+    },
+    {
       "id": "netherman:trap",
+      "required": false
+    },
+    {
+      "id": "nethervillagertrader:nether_trader_mansion",
       "required": false
     },
     {

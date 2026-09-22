@@ -125,10 +125,6 @@
       "required": false
     },
     {
-      "id": "mmr:mesa_mineshaft",
-      "required": false
-    },
-    {
       "id": "mtr:badlands_temple",
       "required": false
     },

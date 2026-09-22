@@ -349,7 +349,15 @@
       "required": false
     },
     {
-      "id": "philipsruins:field_stone_ruins",
+      "id": "netherman:eye_columns",
+      "required": false
+    },
+    {
+      "id": "netherman:nether_geyser",
+      "required": false
+    },
+    {
+      "id": "netherman:pipes",
       "required": false
     },
     {

@@ -7,6 +7,10 @@
     {
       "id": "koopascritters:upside_down_jellyfish",
       "required": false
+    },
+    {
+      "id": "naturalist:crab",
+      "required": false
     }
   ]
 }

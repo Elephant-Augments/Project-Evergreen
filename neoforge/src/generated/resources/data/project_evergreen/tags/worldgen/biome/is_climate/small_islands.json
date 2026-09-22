@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "spawn:cold_island",
+      "required": false
+    },
+    {
+      "id": "spawn:dodo_island",
+      "required": false
+    },
+    {
+      "id": "spawn:sandy_island",
+      "required": false
+    },
+    {
+      "id": "spawn:tide_pool",
+      "required": false
+    },
+    {
+      "id": "spawn:tropical_island",
+      "required": false
+    }
+  ]
+}

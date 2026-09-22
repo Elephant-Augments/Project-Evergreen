@@ -1369,6 +1369,26 @@
       "required": false
     },
     {
+      "id": "hollowmarch:cannon",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:corsair",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:frozen_zombie",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:gearsmith",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:reaver",
+      "required": false
+    },
+    {
       "id": "hybrid-aquatic:basking_shark",
       "required": false
     },
@@ -1929,6 +1949,102 @@
       "required": false
     },
     {
+      "id": "naturalist:alligator",
+      "required": false
+    },
+    {
+      "id": "naturalist:bass",
+      "required": false
+    },
+    {
+      "id": "naturalist:bear",
+      "required": false
+    },
+    {
+      "id": "naturalist:black_bear",
+      "required": false
+    },
+    {
+      "id": "naturalist:catfish",
+      "required": false
+    },
+    {
+      "id": "naturalist:crab",
+      "required": false
+    },
+    {
+      "id": "naturalist:desert_scorpion",
+      "required": false
+    },
+    {
+      "id": "naturalist:elephant",
+      "required": false
+    },
+    {
+      "id": "naturalist:jellyfish",
+      "required": false
+    },
+    {
+      "id": "naturalist:jungle_scorpion",
+      "required": false
+    },
+    {
+      "id": "naturalist:lion",
+      "required": false
+    },
+    {
+      "id": "naturalist:mammoth",
+      "required": false
+    },
+    {
+      "id": "naturalist:piranha",
+      "required": false
+    },
+    {
+      "id": "naturalist:whale",
+      "required": false
+    },
+    {
+      "id": "netherman:azazel",
+      "required": false
+    },
+    {
+      "id": "netherman:believer",
+      "required": false
+    },
+    {
+      "id": "netherman:blacksmith",
+      "required": false
+    },
+    {
+      "id": "netherman:doctor",
+      "required": false
+    },
+    {
+      "id": "netherman:gilded_golem",
+      "required": false
+    },
+    {
+      "id": "netherman:guardian",
+      "required": false
+    },
+    {
+      "id": "netherman:laser",
+      "required": false
+    },
+    {
+      "id": "netherman:manipulator",
+      "required": false
+    },
+    {
+      "id": "netherman:statue_bossunit",
+      "required": false
+    },
+    {
+      "id": "netherman:statue_entity",
+      "required": false
+    },
+    {
       "id": "piglet_structures:ancient_forest_spirit",
       "required": false
     },
@@ -2182,6 +2298,18 @@
     },
     {
       "id": "rottencreatures:zombie_lackey",
+      "required": false
+    },
+    {
+      "id": "spawn:barbed",
+      "required": false
+    },
+    {
+      "id": "spawn:firekeeper",
+      "required": false
+    },
+    {
+      "id": "spawn:stranded",
       "required": false
     },
     {

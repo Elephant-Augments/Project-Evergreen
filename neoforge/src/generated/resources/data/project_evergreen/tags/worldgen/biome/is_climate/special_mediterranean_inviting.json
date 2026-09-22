@@ -19,10 +19,6 @@
     {
       "id": "wythers:mediterranean_island",
       "required": false
-    },
-    {
-      "id": "wythers:mediterranean_island_thermal_springs",
-      "required": false
     }
   ]
 }

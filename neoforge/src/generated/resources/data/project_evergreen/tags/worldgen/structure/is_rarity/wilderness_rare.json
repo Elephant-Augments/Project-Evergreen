@@ -53,86 +53,6 @@
       "required": false
     },
     {
-      "id": "ati_structures:ancient_temple",
-      "required": false
-    },
-    {
-      "id": "ati_structures:arachnid_dwelling",
-      "required": false
-    },
-    {
-      "id": "ati_structures:ati_stoneworks",
-      "required": false
-    },
-    {
-      "id": "ati_structures:catalonian_castle",
-      "required": false
-    },
-    {
-      "id": "ati_structures:desert_outpost",
-      "required": false
-    },
-    {
-      "id": "ati_structures:fortified_temple",
-      "required": false
-    },
-    {
-      "id": "ati_structures:granite_fort",
-      "required": false
-    },
-    {
-      "id": "ati_structures:herobrine_stronghold",
-      "required": false
-    },
-    {
-      "id": "ati_structures:jungle_grotto",
-      "required": false
-    },
-    {
-      "id": "ati_structures:jungle_settlement",
-      "required": false
-    },
-    {
-      "id": "ati_structures:manor",
-      "required": false
-    },
-    {
-      "id": "ati_structures:marble_chateau",
-      "required": false
-    },
-    {
-      "id": "ati_structures:old_fort",
-      "required": false
-    },
-    {
-      "id": "ati_structures:old_residence",
-      "required": false
-    },
-    {
-      "id": "ati_structures:quarry",
-      "required": false
-    },
-    {
-      "id": "ati_structures:ruined_castle",
-      "required": false
-    },
-    {
-      "id": "ati_structures:sinking_temple",
-      "required": false
-    },
-    {
-      "id": "ati_structures:steam_house",
-      "required": false
-    },
-    {
-      "id": "ati_structures:tavern",
-      "required": false
-    },
-    {
-      "id": "ati_structures:woodland_keep",
-      "required": false
-    },
-    {
       "id": "betterdeserttemples:desert_temple",
       "required": false
     },
@@ -146,10 +66,6 @@
     },
     {
       "id": "block_factorys_bosses:yeti_hideout",
-      "required": false
-    },
-    {
-      "id": "bosses_of_mass_destruction:gauntlet_arena",
       "required": false
     },
     {
@@ -309,10 +225,6 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:thornborn_towers",
-      "required": false
-    },
-    {
       "id": "epic:witch_hut",
       "required": false
     },
@@ -369,7 +281,15 @@
       "required": false
     },
     {
+      "id": "idas:abandonedhouse",
+      "required": false
+    },
+    {
       "id": "idas:ancient_mines",
+      "required": false
+    },
+    {
+      "id": "idas:apothecary_abode",
       "required": false
     },
     {
@@ -386,6 +306,10 @@
     },
     {
       "id": "idas:haunted_manor",
+      "required": false
+    },
+    {
+      "id": "idas:hunters_cabin",
       "required": false
     },
     {
@@ -417,7 +341,39 @@
       "required": false
     },
     {
+      "id": "idas:witches_treestump",
+      "required": false
+    },
+    {
+      "id": "idas:wizard_tower",
+      "required": false
+    },
+    {
       "id": "illagerinvasion:illusioner_tower",
+      "required": false
+    },
+    {
+      "id": "incendium:abandoned_tower",
+      "required": false
+    },
+    {
+      "id": "incendium:infernal_altar",
+      "required": false
+    },
+    {
+      "id": "incendium:piglin_village",
+      "required": false
+    },
+    {
+      "id": "incendium:pipeline",
+      "required": false
+    },
+    {
+      "id": "incendium:quartz_kitchen",
+      "required": false
+    },
+    {
+      "id": "incendium:ruined_lab",
       "required": false
     },
     {
@@ -445,7 +401,7 @@
       "required": false
     },
     {
-      "id": "legendary_monsters:cloudy_temple",
+      "id": "legendary_monsters:collapsed_kingdom",
       "required": false
     },
     {
@@ -522,6 +478,10 @@
     },
     {
       "id": "netherman:trap",
+      "required": false
+    },
+    {
+      "id": "nethervillagertrader:nether_trader_mansion",
       "required": false
     },
     {
@@ -782,10 +742,6 @@
     },
     {
       "id": "windswept:village_frozen",
-      "required": false
-    },
-    {
-      "id": "withershrine:shrines",
       "required": false
     }
   ]

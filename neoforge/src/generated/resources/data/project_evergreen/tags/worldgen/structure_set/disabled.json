@@ -49,14 +49,6 @@
       "required": false
     },
     {
-      "id": "ati_structures:aboveground_large",
-      "required": false
-    },
-    {
-      "id": "ati_structures:aboveground_small",
-      "required": false
-    },
-    {
       "id": "beautify:botanist_house_desert",
       "required": false
     },
@@ -245,6 +237,10 @@
       "required": false
     },
     {
+      "id": "envelope:dovecote",
+      "required": false
+    },
+    {
       "id": "epic:witch_hut",
       "required": false
     },
@@ -381,6 +377,10 @@
       "required": false
     },
     {
+      "id": "idas:idas_common",
+      "required": false
+    },
+    {
       "id": "idas:idas_rare",
       "required": false
     },
@@ -402,6 +402,10 @@
     },
     {
       "id": "illagerstructures:ruins",
+      "required": false
+    },
+    {
+      "id": "incendium:lesser_structures",
       "required": false
     },
     {
@@ -445,6 +449,30 @@
       "required": false
     },
     {
+      "id": "legendary_monsters:ancient_stronghold",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:cloudy_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:collapsed_kingdom",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:frostbitten_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:mossy_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:ruined_pyramid",
+      "required": false
+    },
+    {
       "id": "lios_outlandish_villages:spiral_tower_village",
       "required": false
     },
@@ -466,6 +494,10 @@
     },
     {
       "id": "loot_n_explore:underground_structures",
+      "required": false
+    },
+    {
+      "id": "minecraft:nether_complexes",
       "required": false
     },
     {
@@ -690,6 +722,18 @@
     },
     {
       "id": "netherman:minor_points",
+      "required": false
+    },
+    {
+      "id": "netherman:monument",
+      "required": false
+    },
+    {
+      "id": "netherman:nether_geyser",
+      "required": false
+    },
+    {
+      "id": "netherman:pipes",
       "required": false
     },
     {
@@ -1054,6 +1098,14 @@
     },
     {
       "id": "skyvillages:skyvillage",
+      "required": false
+    },
+    {
+      "id": "spawn:cold_island",
+      "required": false
+    },
+    {
+      "id": "spawn:tide_pool",
       "required": false
     },
     {

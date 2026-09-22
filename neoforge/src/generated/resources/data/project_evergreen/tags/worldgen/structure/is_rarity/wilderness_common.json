@@ -1,42 +1,6 @@
 {
   "values": [
     {
-      "id": "ati_structures:castillo",
-      "required": false
-    },
-    {
-      "id": "ati_structures:haunted_ruin",
-      "required": false
-    },
-    {
-      "id": "ati_structures:illager_homestead",
-      "required": false
-    },
-    {
-      "id": "ati_structures:mud_tower",
-      "required": false
-    },
-    {
-      "id": "ati_structures:nomadic_camp",
-      "required": false
-    },
-    {
-      "id": "ati_structures:rotten_log",
-      "required": false
-    },
-    {
-      "id": "ati_structures:rotting_temple",
-      "required": false
-    },
-    {
-      "id": "ati_structures:storage_house",
-      "required": false
-    },
-    {
-      "id": "ati_structures:stray_ruins",
-      "required": false
-    },
-    {
       "id": "bosses_of_mass_destruction:lich_tower",
       "required": false
     },
@@ -109,6 +73,18 @@
       "required": false
     },
     {
+      "id": "idas:desert_ruins",
+      "required": false
+    },
+    {
+      "id": "idas:ruined_fort",
+      "required": false
+    },
+    {
+      "id": "idas:ruined_well",
+      "required": false
+    },
+    {
       "id": "illagerstructures:tower_ruin",
       "required": false
     },
@@ -169,15 +145,23 @@
       "required": false
     },
     {
-      "id": "mythsandlegends:graveyard",
-      "required": false
-    },
-    {
       "id": "netherman:eye_columns",
       "required": false
     },
     {
+      "id": "netherman:gast_chamber",
+      "required": false
+    },
+    {
       "id": "netherman:gehen_statue",
+      "required": false
+    },
+    {
+      "id": "netherman:monument",
+      "required": false
+    },
+    {
+      "id": "netherman:trap",
       "required": false
     },
     {
@@ -214,6 +198,10 @@
     },
     {
       "id": "nova_structures:firewatch_tower_taiga",
+      "required": false
+    },
+    {
+      "id": "philipsruins:field_stone_ruins",
       "required": false
     },
     {
@@ -625,19 +613,11 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/tower",
-      "required": false
-    },
-    {
       "id": "trek:overworld/medium/tower_of_ice",
       "required": false
     },
     {
       "id": "trek:overworld/medium/water_reservoir_pillager",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/well_pillager_medium",
       "required": false
     },
     {

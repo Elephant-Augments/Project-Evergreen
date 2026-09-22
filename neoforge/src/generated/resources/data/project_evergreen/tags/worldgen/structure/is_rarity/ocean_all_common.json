@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "block_factorys_bosses:kraken_ship",
+      "required": false
+    },
+    {
       "id": "combat_structures_update:flyingboat",
       "required": false
     },
@@ -61,6 +65,10 @@
       "required": false
     },
     {
+      "id": "legendary_monsters:cloudy_temple",
+      "required": false
+    },
+    {
       "id": "minecraft:brig",
       "required": false
     },
@@ -74,6 +82,22 @@
     },
     {
       "id": "nordic_structures:specialvikinglongboat_2",
+      "required": false
+    },
+    {
+      "id": "spawn:cold_island",
+      "required": false
+    },
+    {
+      "id": "spawn:sandy_island",
+      "required": false
+    },
+    {
+      "id": "spawn:tide_pool",
+      "required": false
+    },
+    {
+      "id": "spawn:tropical_island",
       "required": false
     },
     {

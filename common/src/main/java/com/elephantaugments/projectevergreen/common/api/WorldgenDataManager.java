@@ -204,6 +204,7 @@ public final class WorldgenDataManager {
     }
 
     public static void loadStructuresByFlag(Optional<HolderGetter<Structure>> registryLookup) {
+        PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.initIDs(PEDimension.allNetherStructures());
         PEStructure.Flag.IGNORED_PLACEMENT_TWEAKS.initIDs(PEStructure.Heightmap.nonSurfaceStructures());
         PEStructure.Flag.IGNORED_BIOME_RADIUS_CHECK.initIDs(PEStructure.Flag.isBiasIgnored());
         for (PEStructure.Flag flag : PEStructure.Flag.values()) {

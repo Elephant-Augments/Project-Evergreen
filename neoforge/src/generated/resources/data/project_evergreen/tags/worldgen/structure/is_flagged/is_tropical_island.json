@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "mss:volcano",
+      "required": false
+    },
+    {
       "id": "natures_spirit:village_coconut",
       "required": false
     }

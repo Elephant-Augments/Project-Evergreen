@@ -13,6 +13,10 @@
       "required": false
     },
     {
+      "id": "spawn:seagrass_meadow",
+      "required": false
+    },
+    {
       "id": "wythers:coastal_mangroves",
       "required": false
     }

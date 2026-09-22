@@ -19,6 +19,14 @@
     {
       "id": "koopascritters:southern_patas_monkey",
       "required": false
+    },
+    {
+      "id": "naturalist:elephant",
+      "required": false
+    },
+    {
+      "id": "naturalist:lion",
+      "required": false
     }
   ]
 }

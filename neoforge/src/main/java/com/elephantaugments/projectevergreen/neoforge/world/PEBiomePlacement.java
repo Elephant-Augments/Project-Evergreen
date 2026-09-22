@@ -1,5 +1,6 @@
 package com.elephantaugments.projectevergreen.neoforge.world;
 
+import com.elephantaugments.projectevergreen.common.integration.SupportedMods;
 import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
 import com.terraformersmc.biolith.api.biome.BiomePlacement;
 import com.terraformersmc.biolith.api.biome.sub.BiomeParameterTargets;
@@ -217,6 +218,8 @@ public class PEBiomePlacement {
                     .orElseGet(() -> deepFrozenOcean);
             ResourceKey<Biome> warmOceanTransition = REGIONS_UNEXPLORED.getBiome("rocky_reef")
                     .orElseGet(() -> Biomes.WARM_OCEAN);
+            ResourceKey<Biome> lukewarmClearing = SPAWN.getBiome("seagrass_meadow")
+                    .orElseGet(() -> Biomes.LUKEWARM_OCEAN);
             ResourceKey<Biome> deepWarmOceanTransition = SPAWN.getBiome("deep_warm_ocean")
                     .orElseGet(() -> Biomes.WARM_OCEAN);
 
@@ -229,9 +232,11 @@ public class PEBiomePlacement {
             //clearingBiome(deepIcyOcean, iceCaps, 0.5F);
             //transitionalBiome(Biomes.WARM_OCEAN, WYTHERS.getBiome("desert_beach").get(), warmOceanTransition);
             transitionalBiome(Biomes.WARM_OCEAN, WYTHERS.getBiome("tropical_beach").get(), warmOceanTransition);
-            transitionalBiome(Biomes.DEEP_LUKEWARM_OCEAN, Biomes.WARM_OCEAN, deepWarmOceanTransition);
+            //transitionalBiome(Biomes.WARM_OCEAN, REGIONS_UNEXPLORED.getBiome("tropics").get(), deepWarmOceanTransition);
+            //transitionalBiome(Biomes.WARM_OCEAN, WYTHERS.getBiome("tropical_island").get(), deepWarmOceanTransition);
             transitionalBiome(Biomes.MUSHROOM_FIELDS, deepIcyOcean, Biomes.MUSHROOM_FIELDS);
             transitionalBiome(frigidIsland, Biomes.DEEP_FROZEN_OCEAN, Biomes.ICE_SPIKES);
+            clearingBiome(Biomes.LUKEWARM_OCEAN, lukewarmClearing, 0.25F);
             clearingBiome(Biomes.WARM_OCEAN, warmOceanTransition, 0.25F);
 
 
@@ -280,7 +285,7 @@ public class PEBiomePlacement {
 
             BiomePlacement.replaceOverworld(WYTHERS.getBiome("autumnal_plains").get(), autumnalFieldsReplacement);
             BiomePlacement.replaceOverworld(WYTHERS.getBiome("autumnal_crags").get(), autumnalCragsReplacement);
-            BiomePlacement.replaceOverworld(WYTHERS.getBiome("autumnal_swamp").get(), autumnalSwampReplacement);
+            BiomePlacement.replaceOverworld(WYTHERS.getBiome("autumnal_swamp").get(), fen);
             BiomePlacement.replaceOverworld(WYTHERS.getBiome("autumnal_birch_forest").get(), autumnBirchForestReplacement);
             BiomePlacement.replaceOverworld(WYTHERS.getBiome("autumnal_forest_edge").get(), autumnalFieldsReplacement);
             BiomePlacement.replaceOverworld(WYTHERS.getBiome("autumnal_forest").get(), autumnForestReplacement);
@@ -312,6 +317,9 @@ public class PEBiomePlacement {
             transitionalBiome(Biomes.OLD_GROWTH_BIRCH_FOREST, coolForestEdgeReplacement, coldAutumnalTransition);
             transitionalBiome(forestedHighlandsReplacement, coolForestReplacement, coldAutumnalTransition);
             transitionalBiome(forestedHighlandsReplacement, autumnForestReplacement, coldAutumnalTransition);
+            transitionalBiome(autumnForestReplacement, WYTHERS.getBiome("autumnal_swamp").get(), autumnalSwampReplacement);
+            transitionalBiome(autumnForestReplacement, fen, autumnalSwampReplacement);
+            transitionalBiome(autumnForestReplacement, borealForestYellow, autumnalSwampReplacement);
 
 
             //<------------------------------TUNDRA ECOSYSTEMS------------------------------>
@@ -470,6 +478,7 @@ public class PEBiomePlacement {
             transitionalBiome(coolPlains,  spookyForestEdge, Biomes.SWAMP);
             //transitionalBiome(autumnalPlains, spookyForestEdge, autumnalSpookyForestEdge);
             transitionalEdgeBiome(spookyForestEdge, Biomes.SWAMP, marshReplacement);
+            transitionalEdgeBiome(spookyForestEdge, WYTHERS.getBiome("autumnal_swamp").get(), birchSwamp);
             clearingBiome(spookyForestEdge, spookyForest, 0.8F);
 
 
@@ -553,6 +562,8 @@ public class PEBiomePlacement {
             ResourceKey<Biome> mountainSavannaTransition = REGIONS_UNEXPLORED.getBiome("arid_mountains")
                     .orElseGet(() -> NATURES_SPIRIT.getBiome("arid_highlands")
                             .orElseGet(() -> WYTHERS.getBiome("cool_stony_peaks").get()));
+            ResourceKey<Biome> antClearing = SPAWN.getBiome("ant_gardens")
+                    .orElseGet(() -> WYTHERS.getBiome("subtropical_grassland").get());
             ResourceKey<Biome> volcanoSavannaTransition = WYTHERS.getBiome("savanna_badlands").get();
 
             BiomePlacement.replaceOverworld(WYTHERS.getBiome("bamboo_jungle_highlands").get(), bambooJungleHighlandsReplacement);
@@ -567,6 +578,8 @@ public class PEBiomePlacement {
             //transitionalEdgeBiome(Biomes.SAVANNA, WYTHERS.getBiome("scrubland").get(), scrublandSavannaTransition);
             transitionalEdgeBiome(woodedSavanna, lapachoPlains, jacarandaSavannaReplacement);
             clearingBiome(lapachoPlains, jacarandaSavannaReplacement, 0.35F);
+            clearingBiome(WYTHERS.getBiome("subtropical_grassland").get(), antClearing, 0.35F);
+            clearingBiome(Biomes.SAVANNA, antClearing, 0.2F);
             clearingBiome(Biomes.SAVANNA, savannaThicket, 0.2F);
 
 
@@ -736,8 +749,6 @@ public class PEBiomePlacement {
             ResourceKey<Biome> lushCaveClearing = UNDERGROUNDWORLDS.getBiome("underground_jungle")
                     .orElseGet(() -> REGIONS_UNEXPLORED.getBiome("ancient_delta")
                             .orElseGet(() -> underground));
-            ResourceKey<Biome> aridCaveClearing = SPAWN.getBiome("ant_gardens")
-                            .orElseGet(() -> underground);
             ResourceKey<Biome> spookyCaveClearing = UNDERGROUNDWORLDS.getBiome("spider_cave")
                             .orElseGet(() -> underground);
 
@@ -765,6 +776,50 @@ public class PEBiomePlacement {
             transitionalBiome(WYTHERS.getBiome("lush_shroom_caves").get(), underground, rareShroomyCave);
             transitionalBiome(WYTHERS.getBiome("mushroom_caves").get(), underground, shroomCaveClearing);
             clearingBiome(undergroundDeep, gemCaveClearing, 0.5F);
+
+
+            //<------------------------------Nether ECOSYSTEM------------------------------>
+            ResourceKey<Biome> wastesReplacement = INCENDIUM.getBiome("ash_barrens")
+                    .orElseGet(() -> BETTERNETHER.getBiome("nether_grasslands")
+                            .orElseGet(() -> Biomes.NETHER_WASTES));
+            ResourceKey<Biome> soulValleyReplacement = INCENDIUM.getBiome("weeping_valley")
+                            .orElseGet(() -> Biomes.SOUL_SAND_VALLEY);
+            ResourceKey<Biome> floodedDeltaReplacement = BETTERNETHER.getBiome("upside_down_forest_cleared")
+                                .orElseGet(() -> Biomes.NETHER_WASTES);
+            ResourceKey<Biome> ashBarrensReplacement = BETTERNETHER.getBiome("flooded_deltas")
+                            .orElseGet(() -> INCENDIUM.getBiome("ash_barrens")
+                                .orElseGet(() -> Biomes.BASALT_DELTAS));
+            ResourceKey<Biome> toxicHeapReplacement = INCENDIUM.getBiome("quartz_flats")
+                            .orElseGet(() -> INCENDIUM.getBiome("toxic_heap")
+                                .orElseGet(() -> Biomes.BASALT_DELTAS));
+            ResourceKey<Biome> infernalDunesReplacement = REGIONS_UNEXPLORED.getBiome("inferno")
+                            .orElseGet(() -> INCENDIUM.getBiome("infernal_dunes")
+                                .orElseGet(() -> Biomes.BASALT_DELTAS));
+            ResourceKey<Biome> invertedForestReplacement = BETTERNETHER.getBiome("upside_down_forest")
+                            .orElseGet(() -> INCENDIUM.getBiome("inverted_forest")
+                                .orElseGet(() -> Biomes.WARPED_FOREST));
+            ResourceKey<Biome> crimsonWoods = GARDENS_OF_THE_DEAD.getBiome("whistling_woods")
+                            .orElseGet(() -> Biomes.CRIMSON_FOREST);
+            ResourceKey<Biome> crimsonClearing = REGIONS_UNEXPLORED.getBiome("glistering_meadow")
+                            .orElseGet(() -> GARDENS_OF_THE_DEAD.getBiome("whistling_woods")
+                                    .orElseGet(() -> Biomes.CRIMSON_FOREST));
+            ResourceKey<Biome> basaltClearing = REGIONS_UNEXPLORED.getBiome("inferno")
+                    .orElseGet(() -> REGIONS_UNEXPLORED.getBiome("infernal_holt")
+                            .orElseGet(() -> Biomes.BASALT_DELTAS));
+
+            //clearingBiome(Biomes.BASALT_DELTAS, basaltClearing, 0.3F);
+            //clearingBiome(crimsonWoods, crimsonClearing, 0.3F);
+            //BiomePlacement.replaceNether(Biomes.SOUL_SAND_VALLEY, soulValleyReplacement);
+            //BiomePlacement.replaceNether(Biomes.NETHER_WASTES, wastesReplacement);
+            if (INCENDIUM.isLoaded()) {
+                BiomePlacement.removeNether(INCENDIUM.getBiome("toxic_heap").get());
+                BiomePlacement.removeNether(INCENDIUM.getBiome("infernal_dunes").get());
+                //BiomePlacement.replaceNether(INCENDIUM.getBiome("toxic_heap").get(), toxicHeapReplacement);
+                //BiomePlacement.replaceNether(INCENDIUM.getBiome("infernal_dunes").get(), infernalDunesReplacement);
+                //BiomePlacement.replaceNether(INCENDIUM.getBiome("inverted_forest").get(), invertedForestReplacement);
+                //BiomePlacement.replaceNether(INCENDIUM.getBiome("ash_barrens").get(), ashBarrensReplacement);
+                //if (BETTERNETHER.isLoaded()) { BiomePlacement.replaceNether(BETTERNETHER.getBiome("magma_land").get(), basaltClearing); }
+            }
 
 
             //<------------------------------END ECOSYSTEM------------------------------>

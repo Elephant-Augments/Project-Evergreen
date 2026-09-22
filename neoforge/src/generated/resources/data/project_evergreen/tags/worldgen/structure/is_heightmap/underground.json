@@ -405,6 +405,10 @@
       "required": false
     },
     {
+      "id": "idas:ancient_mines",
+      "required": false
+    },
+    {
       "id": "idas:ancient_portal/ancient_portal",
       "required": false
     },

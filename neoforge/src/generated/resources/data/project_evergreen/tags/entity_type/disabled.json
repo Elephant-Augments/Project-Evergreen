@@ -1,11 +1,43 @@
 {
   "values": [
     {
-      "id": "hybrid-aquatic:manta_ray",
+      "id": "aquaculture:piranha",
+      "required": false
+    },
+    {
+      "id": "crittersandcompanions:snail",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:anglerfish",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:barracuda",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:giant_isopod",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:herring",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:tuna",
       "required": false
     },
     {
       "id": "minecraft:squid",
+      "required": false
+    },
+    {
+      "id": "spawn:spider_crab",
+      "required": false
+    },
+    {
+      "id": "spawn:stickbug",
       "required": false
     }
   ]

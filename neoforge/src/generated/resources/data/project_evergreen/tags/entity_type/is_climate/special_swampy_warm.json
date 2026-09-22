@@ -43,6 +43,18 @@
     {
       "id": "koopascritters:upside_down_jellyfish",
       "required": false
+    },
+    {
+      "id": "naturalist:alligator",
+      "required": false
+    },
+    {
+      "id": "naturalist:firefly",
+      "required": false
+    },
+    {
+      "id": "naturalist:piranha",
+      "required": false
     }
   ]
 }

@@ -133,6 +133,10 @@
       "required": false
     },
     {
+      "id": "legendary_monsters:abandoned_crypt",
+      "required": false
+    },
+    {
       "id": "mvs:gallows",
       "required": false
     },

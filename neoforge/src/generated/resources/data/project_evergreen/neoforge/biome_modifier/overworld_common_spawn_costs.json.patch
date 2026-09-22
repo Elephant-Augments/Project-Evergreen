@@ -5,19 +5,9 @@
     "value": true
   },
   {
-    "op": "add",
+    "op": "paste",
+    "type": "project_evergreen:config_value",
     "path": "/entity_types",
-    "value": [
-      "crittersandcompanions:koi_fish",
-      "envelope:pigeon",
-      "hybrid-aquatic:yeti_crab",
-      "koopascritters:agazzis_cichlid",
-      "koopascritters:bush_dog",
-      "koopascritters:candy_cane_snail",
-      "koopascritters:california_quail",
-      "koopascritters:clown_loach",
-      "koopascritters:peacock_bass",
-      "mythsandlegends:condemned"
-    ]
+    "value": "common_spawn_costs"
   }
 ]

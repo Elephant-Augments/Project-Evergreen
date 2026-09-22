@@ -889,10 +889,6 @@
       "required": false
     },
     {
-      "id": "explorify:campsite",
-      "required": false
-    },
-    {
       "id": "explorify:desert_shrine",
       "required": false
     },
@@ -1062,6 +1058,10 @@
     },
     {
       "id": "hexerei:witch_hut",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:cloudbreaker",
       "required": false
     },
     {
@@ -1370,10 +1370,6 @@
     },
     {
       "id": "minecraft:trial_chambers",
-      "required": false
-    },
-    {
-      "id": "mmr:mineshaft",
       "required": false
     },
     {

@@ -1,0 +1,52 @@
+{
+  "values": [
+    {
+      "id": "betternether:bone_reef",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_jungle",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_mushroom_forest",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_mushroom_forest_edge",
+      "required": false
+    },
+    {
+      "id": "betternether:old_fungiwoods",
+      "required": false
+    },
+    {
+      "id": "betternether:old_warped_woods",
+      "required": false
+    },
+    {
+      "id": "betternether:sulfuric_bone_reef",
+      "required": false
+    },
+    {
+      "id": "betternether:upside_down_forest",
+      "required": false
+    },
+    {
+      "id": "betternether:upside_down_forest_cleared",
+      "required": false
+    },
+    {
+      "id": "minecraft:warped_forest",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackstone_basin",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:glistering_meadow",
+      "required": false
+    }
+  ]
+}

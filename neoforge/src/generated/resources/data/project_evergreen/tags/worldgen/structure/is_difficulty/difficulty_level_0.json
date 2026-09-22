@@ -73,6 +73,10 @@
       "required": false
     },
     {
+      "id": "ati_structures:villager_inn",
+      "required": false
+    },
+    {
       "id": "beautify:botanist_house_plains",
       "required": false
     },
@@ -285,6 +289,22 @@
       "required": false
     },
     {
+      "id": "envelope:dovecote_desert",
+      "required": false
+    },
+    {
+      "id": "envelope:dovecote_plains",
+      "required": false
+    },
+    {
+      "id": "envelope:dovecote_savanna",
+      "required": false
+    },
+    {
+      "id": "envelope:dovecote_taiga",
+      "required": false
+    },
+    {
       "id": "explorify:mausoleum",
       "required": false
     },
@@ -373,6 +393,10 @@
       "required": false
     },
     {
+      "id": "hollowmarch:frozen_igloo",
+      "required": false
+    },
+    {
       "id": "hollowmarch:lighthouse",
       "required": false
     },
@@ -393,14 +417,6 @@
       "required": false
     },
     {
-      "id": "idas:abandoned_vineyard",
-      "required": false
-    },
-    {
-      "id": "idas:abandonedhouse",
-      "required": false
-    },
-    {
       "id": "idas:ancient_statue/ancient_statue_jungle",
       "required": false
     },
@@ -409,19 +425,11 @@
       "required": false
     },
     {
-      "id": "idas:beekeepers_house",
-      "required": false
-    },
-    {
       "id": "idas:botanist",
       "required": false
     },
     {
       "id": "idas:brickhouse",
-      "required": false
-    },
-    {
-      "id": "idas:castle",
       "required": false
     },
     {
@@ -453,19 +461,7 @@
       "required": false
     },
     {
-      "id": "idas:dig_site/dig_site",
-      "required": false
-    },
-    {
-      "id": "idas:dig_site/dig_site_desert",
-      "required": false
-    },
-    {
       "id": "idas:enchantingtower",
-      "required": false
-    },
-    {
-      "id": "idas:farmhouse",
       "required": false
     },
     {
@@ -501,14 +497,6 @@
       "required": false
     },
     {
-      "id": "idas:redhorn_guild",
-      "required": false
-    },
-    {
-      "id": "idas:ruined_church",
-      "required": false
-    },
-    {
       "id": "idas:snifferhenge",
       "required": false
     },
@@ -517,15 +505,7 @@
       "required": false
     },
     {
-      "id": "idas:treetop_tavern",
-      "required": false
-    },
-    {
       "id": "idas:washing_camp",
-      "required": false
-    },
-    {
-      "id": "idas:winter_wagon",
       "required": false
     },
     {
@@ -1325,6 +1305,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/common/well_pillager_small",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/base_1",
       "required": false
     },
@@ -1409,6 +1393,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/medium/tower",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/wandering_trader_dark_oak",
       "required": false
     },
@@ -1418,6 +1406,10 @@
     },
     {
       "id": "trek:overworld/medium/wandering_trader_spruce",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/well_pillager_medium",
       "required": false
     },
     {
@@ -1438,10 +1430,6 @@
     },
     {
       "id": "u_desert:desert/ambient/cactus/patch",
-      "required": false
-    },
-    {
-      "id": "u_desert:desert/ambient/oasis/dried_up",
       "required": false
     },
     {
@@ -1530,10 +1518,6 @@
     },
     {
       "id": "wabi_sabi_structures:lighthouse",
-      "required": false
-    },
-    {
-      "id": "wabi_sabi_structures:llama_sanctuary_plateau",
       "required": false
     },
     {

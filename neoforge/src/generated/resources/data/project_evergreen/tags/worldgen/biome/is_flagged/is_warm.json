@@ -217,6 +217,10 @@
       "required": false
     },
     {
+      "id": "spawn:ant_gardens",
+      "required": false
+    },
+    {
       "id": "spawn:deep_warm_ocean",
       "required": false
     },
@@ -353,7 +357,7 @@
       "required": false
     },
     {
-      "id": "wythers:black_beach",
+      "id": "wythers:billabong",
       "required": false
     },
     {

@@ -24,6 +24,10 @@ public class PEConfig {
     public static final String MOB_REDISTRIBUTION_KEY = "mob_redistribution";
     public static final String MOB_REDISTRIBUTION_TEST = ProjectEvergreen.MODID + ":" + MOB_REDISTRIBUTION_KEY;
 
+    public static final String MOB_COSTS_COMMON_KEY = "common_spawn_costs";
+    public static final String MOB_COSTS_RARE_KEY = "rare_spawn_costs";
+    public static final String MOB_COSTS_EXTRA_RARE_KEY = "extra_rare_spawn_costs";
+
     public static final String POPULATION_BIAS_KEY = "population_bias";
     public static final String POPULATION_BIAS_TEST = ProjectEvergreen.MODID + ":" + POPULATION_BIAS_KEY;
     public static final String POPULATION_BIAS_OFFSET_KEY = "population_bias_offset";

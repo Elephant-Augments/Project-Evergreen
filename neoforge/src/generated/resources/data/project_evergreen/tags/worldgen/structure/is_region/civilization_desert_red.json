@@ -97,6 +97,10 @@
       "required": false
     },
     {
+      "id": "mmr:mesa_mineshaft",
+      "required": false
+    },
+    {
       "id": "more_critters:collector_wagon_badlands",
       "required": false
     },

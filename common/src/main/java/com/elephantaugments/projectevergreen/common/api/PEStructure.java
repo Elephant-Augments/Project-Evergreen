@@ -33,8 +33,17 @@ public enum PEStructure {
         SupportedMods.BLOCK_FACTORYS_BOSSES.name(),
         PEBiome.VOLCANIC_CRATER.tagKey(),
         ImmutableList.of(
-            "born_in_chaos_v1:missioner",
-            "born_in_chaos_v1:fallen_chaos_knight"
+            "netherman:manipulator",
+            "netherman:manipulator",
+            "netherman:manipulator"
+        )
+    ),
+    KRAKEN_SHIP(
+        SupportedMods.BLOCK_FACTORYS_BOSSES.name(),
+        PEBiome.OCEAN_SHALLOW_RARE.tagKey(),
+        ImmutableList.of(
+            "born_in_chaos_v1:missionary_raider",
+            "netherman:manipulator"
         )
     ),
     LICH_TOWER(
@@ -49,18 +58,18 @@ public enum PEStructure {
     ),
     UNDERWORLD_ARENA(
         SupportedMods.BLOCK_FACTORYS_BOSSES.name(),
-        PEDimension.IS_NETHER.biomeTagKey(),
+        PEBiome.ASHEN_NETHER.tagKey(),
         ImmutableList.of(
-            "born_in_chaos_v1:missioner",
-            "born_in_chaos_v1:fallen_chaos_knight"
+            "netherman:manipulator",
+            "netherman:manipulator",
+            "netherman:manipulator"
         )
     ),
-    INFERNAL_PUMPKIN(
-        SupportedMods.BORN_IN_CHAOS_V1.name(),
-        PEBiome.SOUL_VALLEY.tagKey(),
+    RUINED_LAB(
+        SupportedMods.INCENDIUM.name(),
+        PEBiome.CRIMSON_NETHER.tagKey(),
         ImmutableList.of(
-            "born_in_chaos_v1:missioner",
-            "born_in_chaos_v1:missioner"
+            "netherman:manipulator"
         )
     ),
     OBSIDIANTEMPLE(
@@ -77,7 +86,7 @@ public enum PEStructure {
         SupportedMods.MINECRAFT.name(),
         PEBiome.FOREST_DENSE_CONIFEROUS.tagKey(),
         ImmutableList.of(
-            "born_in_chaos_v1:missioner"
+            "born_in_chaos_v1:missionary_raider"
         )
     ),
     GRAVEYARD(
@@ -119,7 +128,9 @@ public enum PEStructure {
         SupportedMods.WITHERSHRINE.name(),
         PEBiome.STARLIT_PERMAFROST.tagKey(),
         ImmutableList.of(
-            "born_in_chaos_v1:missioner"
+            "netherman:manipulator",
+            "netherman:manipulator",
+            "netherman:manipulator"
         )
     ),
     STRONGHOLD(
@@ -170,6 +181,7 @@ public enum PEStructure {
     }
 
     public final static List<String> SupportedTypes = ImmutableList.of(
+        "jigsaw",
         "minecraft:jigsaw",
         "integrated_api:generic_structure",
         "friendsandfoes:iceologer_cabin_structure",
@@ -484,6 +496,9 @@ public enum PEStructure {
         IS_CULTIVATED_FIELDS(DefaultFlags.forceCultivatedFields),
         IS_TROPICAL_ISLAND(DefaultFlags.forceTropicalIsland),
         IS_CHERRY_FOREST(DefaultFlags.forceCherryForest),
+        IS_CRIMSON_NETHER(DefaultFlags.forceCrimsonNether),
+        IS_WARPED_NETHER(DefaultFlags.forceWarpedNether),
+        IS_ASHEN_NETHER(DefaultFlags.forceAshenNether),
         IS_DIFF_FOUR(DefaultFlags.forceDifficultyFour),
         IS_DIFF_FIVE(DefaultFlags.forceDifficultyFive),
         IS_DIFF_SIX(DefaultFlags.forceDifficultySix),
@@ -493,6 +508,7 @@ public enum PEStructure {
         IS_DIFF_TEN(DefaultFlags.forceDifficultyTen),
         IS_BOSS_STRUCTURE(DefaultFlags.bossStructures),
         HAS_VILLAGE_FIX(DefaultFlags.hasVillageFix),
+        HAS_NETHER_FIX(DefaultFlags.hasNetherFix),
         HAS_SPAWN_OVERRIDES(Constants.EMPTY_LIST),
         IS_CIVILIZATION(Constants.EMPTY_LIST),
         IS_WILDERNESS(Constants.EMPTY_LIST);

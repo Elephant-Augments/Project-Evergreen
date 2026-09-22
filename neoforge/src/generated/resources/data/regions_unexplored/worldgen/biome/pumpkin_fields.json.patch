@@ -7,7 +7,8 @@
         "id": "regions_unexplored:pumpkin_fields",
         "spawners": {},
         "patchable": true,
-        "is_steppe_brown": true
+        "is_steppe_brown": true,
+        "is_cold": true
       }
     },
     [
@@ -73,7 +74,24 @@
       "op": "paste",
       "type": "project_evergreen:config_value",
       "path": "/effects/water_color",
-      "value": "temperate_climate_water_color"
+      "value": "warm_climate_water_color"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "type": "project_evergreen:cold_climate_color_normalization",
+      "value": true
+    },
+    {
+      "op": "test",
+      "path": "/temp_properties/is_cold"
+    },
+    {
+      "op": "paste",
+      "type": "project_evergreen:config_value",
+      "path": "/effects/water_color",
+      "value": "cold_climate_water_color"
     }
   ],
   [

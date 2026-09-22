@@ -193,6 +193,10 @@
       "required": false
     },
     {
+      "id": "hybrid-aquatic:giant_clam_patch",
+      "required": false
+    },
+    {
       "id": "hybrid-aquatic:great_white_shark_deep_temperate_oceans",
       "required": false
     },
@@ -241,11 +245,35 @@
       "required": false
     },
     {
+      "id": "hybrid-aquatic:message_in_a_bottle",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:message_in_a_bottle_bottle_spawn_biomes",
+      "required": false
+    },
+    {
       "id": "hybrid-aquatic:ocean_sunfish_deep_temperate_oceans",
       "required": false
     },
     {
       "id": "hybrid-aquatic:ocean_sunfish_deep_tropical_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:sea_urchin_is_deep_ocean",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:sea_urchin_is_ocean",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:tuna_deep_temperate_oceans",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:tuna_deep_tropical_oceans",
       "required": false
     },
     {
@@ -470,6 +498,10 @@
     },
     {
       "id": "koopascritters:yellow_eye_penguin_biome_modifier",
+      "required": false
+    },
+    {
+      "id": "minecraft:basalt_pillar",
       "required": false
     },
     {

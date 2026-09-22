@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "hollowmarch:sultans_bazaar",
+      "required": false
+    },
+    {
       "id": "illagerstructures:submarine",
       "required": false
     }

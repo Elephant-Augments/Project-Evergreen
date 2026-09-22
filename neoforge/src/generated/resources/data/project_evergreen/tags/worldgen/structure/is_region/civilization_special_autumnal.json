@@ -21,6 +21,10 @@
       "required": false
     },
     {
+      "id": "idas:pumpkin_cafe",
+      "required": false
+    },
+    {
       "id": "integrated_minecraft:farm",
       "required": false
     },

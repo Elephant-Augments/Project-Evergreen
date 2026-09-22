@@ -104,4 +104,13 @@ public enum PEDimension {
                 .collect(Collectors.toCollection(HashSet::new));
         return otherworldStructures.stream().toList();
     }
+
+    public static List<String> allNetherStructures() {
+        HashSet<String> otherworldStructures = Arrays.stream(PEDimension.values())
+                .filter(d -> d == PEDimension.IS_NETHER)
+                .map(PEDimension::defaultStructures)
+                .flatMap(Collection::stream)
+                .collect(Collectors.toCollection(HashSet::new));
+        return otherworldStructures.stream().toList();
+    }
 }

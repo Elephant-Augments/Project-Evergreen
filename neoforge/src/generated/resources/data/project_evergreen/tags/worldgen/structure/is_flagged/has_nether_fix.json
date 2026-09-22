@@ -1,0 +1,224 @@
+{
+  "values": [
+    {
+      "id": "ati_structures:wither_keep",
+      "required": false
+    },
+    {
+      "id": "companions:companions_tent",
+      "required": false
+    },
+    {
+      "id": "create_ltab:nether_roof_house",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:crimsite_tower",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:darkcastle",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:deadlordshouse",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:obsidiantemple",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:cook_nether_1",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:cook_nether_2",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:cooks_nether_1",
+      "required": false
+    },
+    {
+      "id": "farmers_structures:cooks_nether_2",
+      "required": false
+    },
+    {
+      "id": "hopo:portal/nether/piglin_ruin",
+      "required": false
+    },
+    {
+      "id": "incendium:abandoned_tower",
+      "required": false
+    },
+    {
+      "id": "incendium:infernal_altar",
+      "required": false
+    },
+    {
+      "id": "incendium:piglin_village",
+      "required": false
+    },
+    {
+      "id": "incendium:quartz_kitchen",
+      "required": false
+    },
+    {
+      "id": "incendium:sanctum",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:lava_eater_spawn",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:skeletosaurus_nest",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:soul_fortress_remains",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:warped_fungussus_nest",
+      "required": false
+    },
+    {
+      "id": "letsdoaddon-structures:crimson_vinery",
+      "required": false
+    },
+    {
+      "id": "letsdoaddon-structures:warped_vinery",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:scorched_nest",
+      "required": false
+    },
+    {
+      "id": "netherman:eye_columns",
+      "required": false
+    },
+    {
+      "id": "netherman:gehen_statue",
+      "required": false
+    },
+    {
+      "id": "netherman:nether_geyser",
+      "required": false
+    },
+    {
+      "id": "netherman:pipes",
+      "required": false
+    },
+    {
+      "id": "netherman:trap",
+      "required": false
+    },
+    {
+      "id": "nova_structures:donjon",
+      "required": false
+    },
+    {
+      "id": "nova_structures:hamlet",
+      "required": false
+    },
+    {
+      "id": "nova_structures:nether_keep",
+      "required": false
+    },
+    {
+      "id": "nova_structures:nether_port",
+      "required": false
+    },
+    {
+      "id": "nova_structures:nether_skeleton_tower_basalt",
+      "required": false
+    },
+    {
+      "id": "nova_structures:nether_skeleton_tower_crimson",
+      "required": false
+    },
+    {
+      "id": "nova_structures:nether_skeleton_tower_soul",
+      "required": false
+    },
+    {
+      "id": "nova_structures:nether_skeleton_tower_warped",
+      "required": false
+    },
+    {
+      "id": "nova_structures:nether_skeleton_tower_waste",
+      "required": false
+    },
+    {
+      "id": "nova_structures:piglin_camp",
+      "required": false
+    },
+    {
+      "id": "nova_structures:piglin_donjon",
+      "required": false
+    },
+    {
+      "id": "nova_structures:piglin_outstation",
+      "required": false
+    },
+    {
+      "id": "nova_structures:skeleton_camp_crimson",
+      "required": false
+    },
+    {
+      "id": "nova_structures:skeleton_camp_soul",
+      "required": false
+    },
+    {
+      "id": "nova_structures:skeleton_camp_warped",
+      "required": false
+    },
+    {
+      "id": "nova_structures:skeleton_camp_waste",
+      "required": false
+    },
+    {
+      "id": "structory_towers:nether/fortress_tower",
+      "required": false
+    },
+    {
+      "id": "structory_towers:nether/strange_outpost",
+      "required": false
+    },
+    {
+      "id": "structory_towers:nether/warped_outpost",
+      "required": false
+    },
+    {
+      "id": "totw_modded:nether",
+      "required": false
+    },
+    {
+      "id": "trek:nether/common/nether_pillar",
+      "required": false
+    },
+    {
+      "id": "trek:nether/medium/overworld_leak_1",
+      "required": false
+    },
+    {
+      "id": "trek:nether/medium/overworld_leak_2",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:basalt_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:basalt_factory_ruin",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:hellish_orphanage",
+      "required": false
+    }
+  ]
+}

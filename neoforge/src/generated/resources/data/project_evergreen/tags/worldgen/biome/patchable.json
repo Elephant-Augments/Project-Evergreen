@@ -1,6 +1,98 @@
 {
   "values": [
     {
+      "id": "betternether:bone_reef",
+      "required": false
+    },
+    {
+      "id": "betternether:crimson_glowing_woods",
+      "required": false
+    },
+    {
+      "id": "betternether:crimson_pinewood",
+      "required": false
+    },
+    {
+      "id": "betternether:flooded_deltas",
+      "required": false
+    },
+    {
+      "id": "betternether:gloomwood",
+      "required": false
+    },
+    {
+      "id": "betternether:gravel_desert",
+      "required": false
+    },
+    {
+      "id": "betternether:magma_land",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_grasslands",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_jungle",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_mushroom_forest",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_mushroom_forest_edge",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_swampland",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_swampland_terraces",
+      "required": false
+    },
+    {
+      "id": "betternether:old_fungiwoods",
+      "required": false
+    },
+    {
+      "id": "betternether:old_swampland",
+      "required": false
+    },
+    {
+      "id": "betternether:old_warped_woods",
+      "required": false
+    },
+    {
+      "id": "betternether:poor_nether_grasslands",
+      "required": false
+    },
+    {
+      "id": "betternether:soul_plain",
+      "required": false
+    },
+    {
+      "id": "betternether:sulfuric_bone_reef",
+      "required": false
+    },
+    {
+      "id": "betternether:upside_down_forest",
+      "required": false
+    },
+    {
+      "id": "betternether:upside_down_forest_cleared",
+      "required": false
+    },
+    {
+      "id": "betternether:wart_forest",
+      "required": false
+    },
+    {
+      "id": "betternether:wart_forest_edge",
+      "required": false
+    },
+    {
       "id": "darkerdepths:glowshroom_forest",
       "required": false
     },
@@ -321,7 +413,47 @@
       "required": false
     },
     {
+      "id": "gardens_of_the_dead:soulblight_forest",
+      "required": false
+    },
+    {
+      "id": "gardens_of_the_dead:whistling_woods",
+      "required": false
+    },
+    {
       "id": "hexerei:willow_swamp",
+      "required": false
+    },
+    {
+      "id": "incendium:ash_barrens",
+      "required": false
+    },
+    {
+      "id": "incendium:infernal_dunes",
+      "required": false
+    },
+    {
+      "id": "incendium:inverted_forest",
+      "required": false
+    },
+    {
+      "id": "incendium:quartz_flats",
+      "required": false
+    },
+    {
+      "id": "incendium:toxic_heap",
+      "required": false
+    },
+    {
+      "id": "incendium:volcanic_deltas",
+      "required": false
+    },
+    {
+      "id": "incendium:weeping_valley",
+      "required": false
+    },
+    {
+      "id": "incendium:withered_forest",
       "required": false
     },
     {

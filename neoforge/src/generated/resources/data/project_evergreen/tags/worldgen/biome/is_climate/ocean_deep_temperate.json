@@ -9,11 +9,19 @@
       "required": false
     },
     {
+      "id": "spawn:cold_island",
+      "required": false
+    },
+    {
       "id": "spawn:dodo_island",
       "required": false
     },
     {
       "id": "spawn:rocky_shore",
+      "required": false
+    },
+    {
+      "id": "spawn:tide_pool",
       "required": false
     }
   ]

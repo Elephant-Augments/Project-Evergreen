@@ -13,6 +13,10 @@
       "required": false
     },
     {
+      "id": "legendary_monsters:cloudy_temple",
+      "required": false
+    },
+    {
       "id": "qrafty:roman_ruins_1",
       "required": false
     }

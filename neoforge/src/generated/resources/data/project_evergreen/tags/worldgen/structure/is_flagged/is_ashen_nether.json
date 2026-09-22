@@ -1,0 +1,96 @@
+{
+  "values": [
+    {
+      "id": "ati_structures:wither_keep",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:underworld_arena",
+      "required": false
+    },
+    {
+      "id": "cataclysm:soul_black_smith",
+      "required": false
+    },
+    {
+      "id": "dungeons_plus:soul_prison",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:lava_eater_spawn",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:soul_fortress_remains",
+      "required": false
+    },
+    {
+      "id": "mns:circle_blackstone",
+      "required": false
+    },
+    {
+      "id": "mns:grave_yard",
+      "required": false
+    },
+    {
+      "id": "mns:soul_fire",
+      "required": false
+    },
+    {
+      "id": "mns:very_small_blackstone",
+      "required": false
+    },
+    {
+      "id": "mns:very_small_blackstone_2",
+      "required": false
+    },
+    {
+      "id": "mns:very_small_blackstone_3",
+      "required": false
+    },
+    {
+      "id": "mns:very_small_blackstone_4",
+      "required": false
+    },
+    {
+      "id": "nova_structures:nether_skeleton_tower_basalt",
+      "required": false
+    },
+    {
+      "id": "nova_structures:nether_skeleton_tower_soul",
+      "required": false
+    },
+    {
+      "id": "nova_structures:skeleton_camp_soul",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_basalt",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_soul",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_basalt",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:temple_nether_basalt",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:temple_nether_soul",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:basalt_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:basalt_factory_ruin",
+      "required": false
+    }
+  ]
+}

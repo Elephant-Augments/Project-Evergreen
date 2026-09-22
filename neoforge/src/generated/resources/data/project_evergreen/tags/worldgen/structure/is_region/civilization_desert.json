@@ -65,6 +65,10 @@
       "required": false
     },
     {
+      "id": "envelope:dovecote_desert",
+      "required": false
+    },
+    {
       "id": "feur_extension_desert:oasis_big",
       "required": false
     },
@@ -170,6 +174,10 @@
     },
     {
       "id": "minecraft:village_desert",
+      "required": false
+    },
+    {
+      "id": "mmr:desert_mineshaft",
       "required": false
     },
     {
@@ -282,10 +290,6 @@
     },
     {
       "id": "u_desert:desert/ambient/cactus/patch",
-      "required": false
-    },
-    {
-      "id": "u_desert:desert/ambient/oasis/dried_up",
       "required": false
     },
     {

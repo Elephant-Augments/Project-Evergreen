@@ -17,6 +17,10 @@
       "required": false
     },
     {
+      "id": "envelope:dovecote_savanna",
+      "required": false
+    },
+    {
       "id": "explorify:watchtower/savanna",
       "required": false
     },

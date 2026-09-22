@@ -37,6 +37,10 @@
       "required": false
     },
     {
+      "id": "hollowmarch:frozen_igloo",
+      "required": false
+    },
+    {
       "id": "humancompanions:dark_oak_house",
       "required": false
     },

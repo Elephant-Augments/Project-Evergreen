@@ -5,16 +5,15 @@
       "path": "/temp_properties",
       "value": {
         "id": "ati_structures:villager_inn",
-        "difficulty": 2,
-        "size": "LARGE",
+        "difficulty": 0,
+        "size": "SMALL",
         "heightmap": "GROUNDLEVEL",
         "dimension": "#minecraft:is_overworld",
         "region": "#project_evergreen:is_region/civilization_deciduous",
-        "structure_set": "project_evergreen:civilization_extra_rare",
         "is_loaded": false,
         "is_advanced_type": false,
         "is_flat": false,
-        "is_massive": true,
+        "is_massive": false,
         "is_inland": true,
         "is_radius_bound": false,
         "is_water_bound": false,
@@ -22,7 +21,6 @@
         "spawn_overrides": {},
         "patchable": true,
         "add_beard_thin_adaptation": true,
-        "flatness_check_large": true,
         "is_civilization": true
       }
     },
@@ -158,6 +156,42 @@
         "op": "add",
         "path": "/biomes",
         "value": "#project_evergreen:is_climate/cherry_forest"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_crimson_nether",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_climate/crimson_nether"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_warped_nether",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_climate/warped_nether"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_ashen_nether",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_climate/ashen_nether"
       }
     ]
   ],
@@ -323,6 +357,40 @@
   [
     {
       "op": "test",
+      "path": "/temp_properties/has_nether_fix",
+      "value": true
+    },
+    [
+      {
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "moogs_structures"
+      },
+      {
+        "op": "add",
+        "path": "/type",
+        "value": "moogs_structures:moogs_structures_generic_nether_jigsaw_structure"
+      },
+      {
+        "op": "add",
+        "path": "/land_search_direction",
+        "value": "HIGHEST_LAND"
+      },
+      {
+        "op": "add",
+        "path": "/step",
+        "value": "surface_structures"
+      },
+      {
+        "op": "add",
+        "path": "/cannot_spawn_in_liquid",
+        "value": true
+      }
+    ]
+  ],
+  [
+    {
+      "op": "test",
       "path": "/temp_properties/early_spawn_step",
       "value": true
     },
@@ -441,7 +509,7 @@
       {
         "op": "add",
         "path": "/terrain_height_radius_check",
-        "value": 3
+        "value": 1
       },
       {
         "op": "paste",

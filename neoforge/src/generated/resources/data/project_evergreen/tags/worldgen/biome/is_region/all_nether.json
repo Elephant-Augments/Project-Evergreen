@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "#project_evergreen:is_climate/ashen_nether",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/crimson_nether",
+      "required": false
+    },
+    {
+      "id": "#project_evergreen:is_climate/warped_nether",
+      "required": false
+    }
+  ]
+}

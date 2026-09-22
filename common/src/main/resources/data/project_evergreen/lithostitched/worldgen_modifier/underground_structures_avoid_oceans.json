@@ -1,0 +1,25 @@
+{
+  "type": "lithostitched:set_structure_spawn_condition",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "deeper_oceans"
+        }
+      ]
+    }
+  ],
+  "structures": "#project_evergreen:is_region/underground_land",
+  "spawn_condition": {
+    "type": "lithostitched:grid",
+    "radius": 120,
+    "distance_between_points": 24,
+    "condition": {
+      "type": "lithostitched:in_biome",
+      "biomes": "#minecraft:is_ocean"
+    },
+    "allowed_count": 0
+  }
+}

@@ -5,6 +5,7 @@ import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
 import com.elephantaugments.projectevergreen.common.api.*;
 import com.elephantaugments.projectevergreen.common.platform.PlatformHooks;
 import com.elephantaugments.projectevergreen.neoforge.config.PEConfig;
+import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import net.enderturret.patchedmod.Patched;
@@ -12,6 +13,7 @@ import net.enderturret.patchedmod.SingleDataSource;
 import net.minecraft.resources.ResourceLocation;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.List;
 import java.util.Optional;
 
 
@@ -55,6 +57,10 @@ public class DataSources {
                 case PEConfig.COLD_WATER_COLOR_KEY -> DataSources.getJsonInt(PEConfig.coldWaterColor);
                 case PEConfig.TEMPERATE_WATER_COLOR_KEY -> DataSources.getJsonInt(PEConfig.temperateWaterColor);
                 case PEConfig.WARM_WATER_COLOR_KEY -> DataSources.getJsonInt(PEConfig.warmWaterColor);
+
+                case PEConfig.MOB_COSTS_COMMON_KEY -> DataSources.getSpawnCosts(PEConfig.MOB_COSTS_COMMON_KEY);
+                case PEConfig.MOB_COSTS_RARE_KEY -> DataSources.getSpawnCosts(PEConfig.MOB_COSTS_RARE_KEY);
+                case PEConfig.MOB_COSTS_EXTRA_RARE_KEY -> DataSources.getSpawnCosts(PEConfig.MOB_COSTS_EXTRA_RARE_KEY);
 
                 case PEConfig.LOST_CITIES_FIXED_BIOME_KEY -> DataSources.getJsonBool(PEConfig.useLostCitiesFixedBiome);
                 case PEConfig.LOST_CITIES_BIOME_KEY -> DataSources.getJsonString(PEConfig.lostCitiesBiome);
@@ -187,6 +193,19 @@ public class DataSources {
         JsonObject json = new JsonObject();
         json.addProperty("absolute", height);
         return ProjectEvergreen.GSON.toJsonTree(json);
+    }
+
+    private static JsonElement getSpawnCosts(String key) {
+        List<String> loadedEntities = WorldgenDataManager.PATCHABLE_ENTITIES.values().stream()
+                .filter(IPatchable::isLoaded)
+                .map(IPatchable::getId)
+                .toList();
+        return switch (key) {
+            case PEConfig.MOB_COSTS_COMMON_KEY -> ProjectEvergreen.GSON.toJsonTree(PEMob.buildCostArray(loadedEntities, PEMob.Flag.IS_COMMON_SPAWN));
+            case PEConfig.MOB_COSTS_RARE_KEY -> ProjectEvergreen.GSON.toJsonTree(PEMob.buildCostArray(loadedEntities, PEMob.Flag.IS_RARE_SPAWN));
+            case PEConfig.MOB_COSTS_EXTRA_RARE_KEY -> ProjectEvergreen.GSON.toJsonTree(PEMob.buildCostArray(loadedEntities, PEMob.Flag.IS_EXTRA_RARE_SPAWN));
+            default -> ProjectEvergreen.GSON.toJsonTree(new JsonArray());
+        };
     }
 
 

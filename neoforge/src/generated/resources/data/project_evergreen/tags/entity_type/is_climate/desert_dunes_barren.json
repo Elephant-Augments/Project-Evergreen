@@ -3,6 +3,10 @@
     {
       "id": "koopascritters:mexican_rosy_boa",
       "required": false
+    },
+    {
+      "id": "naturalist:desert_scorpion",
+      "required": false
     }
   ]
 }

@@ -5,6 +5,14 @@
       "required": false
     },
     {
+      "id": "netherman:head_altar",
+      "required": false
+    },
+    {
+      "id": "netherman:maze",
+      "required": false
+    },
+    {
       "id": "nova_structures:remnant_big_remnant",
       "required": false
     },

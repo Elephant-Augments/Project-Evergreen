@@ -5,12 +5,12 @@
       "path": "/temp_properties",
       "value": {
         "id": "create_structures_arise:obsidiantemple",
-        "difficulty": 5,
+        "difficulty": 6,
         "size": "LARGE",
         "heightmap": "OCEANFLOOR",
         "dimension": "#minecraft:is_nether",
-        "structure_set": "project_evergreen:sky_rare",
         "region": "#project_evergreen:is_climate/ocean_deep_frozen",
+        "structure_set": "project_evergreen:sky_rare",
         "is_loaded": false,
         "is_advanced_type": false,
         "is_flat": false,
@@ -31,7 +31,10 @@
         "add_waterlogging": true,
         "adjusted_ocean_heightmap": true,
         "early_spawn_step": true,
+        "is_crimson_nether": true,
         "is_diff_five": true,
+        "is_diff_six": true,
+        "has_nether_fix": true,
         "ignored_biome_radius_check": true,
         "flatness_check_large": true
       }
@@ -168,6 +171,42 @@
         "op": "add",
         "path": "/biomes",
         "value": "#project_evergreen:is_climate/cherry_forest"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_crimson_nether",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_climate/crimson_nether"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_warped_nether",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_climate/warped_nether"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_ashen_nether",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_climate/ashen_nether"
       }
     ]
   ],
@@ -329,6 +368,40 @@
       "op": "remove",
       "path": "/use_bounding_box_hack"
     }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/has_nether_fix",
+      "value": true
+    },
+    [
+      {
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "moogs_structures"
+      },
+      {
+        "op": "add",
+        "path": "/type",
+        "value": "moogs_structures:moogs_structures_generic_nether_jigsaw_structure"
+      },
+      {
+        "op": "add",
+        "path": "/land_search_direction",
+        "value": "HIGHEST_LAND"
+      },
+      {
+        "op": "add",
+        "path": "/step",
+        "value": "surface_structures"
+      },
+      {
+        "op": "add",
+        "path": "/cannot_spawn_in_liquid",
+        "value": true
+      }
+    ]
   ],
   [
     {

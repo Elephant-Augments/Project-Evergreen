@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "aquaculture:piranha",
+      "required": false
+    },
+    {
       "id": "born_in_chaos_v1:baby_spider",
       "required": false
     },
@@ -77,6 +81,22 @@
       "required": false
     },
     {
+      "id": "crittersandcompanions:snail",
+      "required": false
+    },
+    {
+      "id": "envelope:pigeon",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:anglerfish",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:barracuda",
+      "required": false
+    },
+    {
       "id": "hybrid-aquatic:basking_shark",
       "required": false
     },
@@ -86,6 +106,10 @@
     },
     {
       "id": "hybrid-aquatic:fiddler_crab",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:giant_isopod",
       "required": false
     },
     {
@@ -109,15 +133,15 @@
       "required": false
     },
     {
-      "id": "hybrid-aquatic:manta_ray",
-      "required": false
-    },
-    {
       "id": "hybrid-aquatic:ocean_sunfish",
       "required": false
     },
     {
       "id": "hybrid-aquatic:sea_urchin",
+      "required": false
+    },
+    {
+      "id": "hybrid-aquatic:tuna",
       "required": false
     },
     {
@@ -345,7 +369,107 @@
       "required": false
     },
     {
+      "id": "naturalist:alligator",
+      "required": false
+    },
+    {
+      "id": "naturalist:bass",
+      "required": false
+    },
+    {
+      "id": "naturalist:bear",
+      "required": false
+    },
+    {
+      "id": "naturalist:bird",
+      "required": false
+    },
+    {
+      "id": "naturalist:black_bear",
+      "required": false
+    },
+    {
+      "id": "naturalist:boar",
+      "required": false
+    },
+    {
+      "id": "naturalist:butterfly",
+      "required": false
+    },
+    {
+      "id": "naturalist:catfish",
+      "required": false
+    },
+    {
+      "id": "naturalist:crab",
+      "required": false
+    },
+    {
+      "id": "naturalist:deer",
+      "required": false
+    },
+    {
+      "id": "naturalist:desert_scorpion",
+      "required": false
+    },
+    {
+      "id": "naturalist:duck",
+      "required": false
+    },
+    {
+      "id": "naturalist:elephant",
+      "required": false
+    },
+    {
+      "id": "naturalist:firefly",
+      "required": false
+    },
+    {
+      "id": "naturalist:giraffe",
+      "required": false
+    },
+    {
+      "id": "naturalist:jungle_scorpion",
+      "required": false
+    },
+    {
+      "id": "naturalist:lion",
+      "required": false
+    },
+    {
+      "id": "naturalist:mammoth",
+      "required": false
+    },
+    {
+      "id": "naturalist:ostrich",
+      "required": false
+    },
+    {
+      "id": "naturalist:piranha",
+      "required": false
+    },
+    {
+      "id": "naturalist:turkey",
+      "required": false
+    },
+    {
+      "id": "naturalist:whale",
+      "required": false
+    },
+    {
+      "id": "naturalist:zebra",
+      "required": false
+    },
+    {
       "id": "quark:shiba",
+      "required": false
+    },
+    {
+      "id": "spawn:spider_crab",
+      "required": false
+    },
+    {
+      "id": "spawn:stickbug",
       "required": false
     }
   ]

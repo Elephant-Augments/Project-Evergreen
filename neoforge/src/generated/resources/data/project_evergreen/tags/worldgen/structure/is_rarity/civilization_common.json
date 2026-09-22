@@ -5,18 +5,6 @@
       "required": false
     },
     {
-      "id": "ati_structures:deepslate_keep",
-      "required": false
-    },
-    {
-      "id": "ati_structures:old_home",
-      "required": false
-    },
-    {
-      "id": "ati_structures:storage_shack",
-      "required": false
-    },
-    {
       "id": "beautify:botanist_house_plains",
       "required": false
     },
@@ -53,6 +41,22 @@
       "required": false
     },
     {
+      "id": "envelope:dovecote_desert",
+      "required": false
+    },
+    {
+      "id": "envelope:dovecote_plains",
+      "required": false
+    },
+    {
+      "id": "envelope:dovecote_savanna",
+      "required": false
+    },
+    {
+      "id": "envelope:dovecote_taiga",
+      "required": false
+    },
+    {
       "id": "explorify:watchtower/plains",
       "required": false
     },
@@ -66,6 +70,26 @@
     },
     {
       "id": "formationsoverworld:wagon",
+      "required": false
+    },
+    {
+      "id": "idas:botanist",
+      "required": false
+    },
+    {
+      "id": "idas:brickhouse",
+      "required": false
+    },
+    {
+      "id": "idas:enchantingtower",
+      "required": false
+    },
+    {
+      "id": "idas:fishermans_lodge",
+      "required": false
+    },
+    {
+      "id": "idas:mason_house",
       "required": false
     },
     {
@@ -86,6 +110,10 @@
     },
     {
       "id": "mvs:windmill",
+      "required": false
+    },
+    {
+      "id": "mythsandlegends:graveyard",
       "required": false
     },
     {
@@ -285,6 +313,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/medium/tower",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/wandering_trader_dark_oak",
       "required": false
     },
@@ -294,6 +326,10 @@
     },
     {
       "id": "trek:overworld/medium/wandering_trader_spruce",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/well_pillager_medium",
       "required": false
     }
   ]

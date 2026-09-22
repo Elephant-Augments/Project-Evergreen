@@ -11,6 +11,10 @@
     {
       "id": "koopascritters:clown_loach",
       "required": false
+    },
+    {
+      "id": "naturalist:firefly",
+      "required": false
     }
   ]
 }

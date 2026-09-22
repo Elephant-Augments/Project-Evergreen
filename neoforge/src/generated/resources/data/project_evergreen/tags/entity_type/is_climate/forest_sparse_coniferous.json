@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "naturalist:bird",
+      "required": false
+    },
+    {
+      "id": "naturalist:boar",
+      "required": false
+    },
+    {
+      "id": "naturalist:deer",
+      "required": false
+    }
+  ]
+}

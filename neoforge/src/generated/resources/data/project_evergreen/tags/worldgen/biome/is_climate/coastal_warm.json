@@ -9,10 +9,6 @@
       "required": false
     },
     {
-      "id": "wythers:black_beach",
-      "required": false
-    },
-    {
       "id": "wythers:deepslate_shore",
       "required": false
     },

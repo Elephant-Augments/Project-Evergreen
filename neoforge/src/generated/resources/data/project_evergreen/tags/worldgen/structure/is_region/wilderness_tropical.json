@@ -209,6 +209,10 @@
       "required": false
     },
     {
+      "id": "immersiveenchanting:ancient_library_jungle",
+      "required": false
+    },
+    {
       "id": "imst:el_dorado",
       "required": false
     },
@@ -361,11 +365,11 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/orbital",
+      "id": "trek:overworld/medium/farm_pillager",
       "required": false
     },
     {
-      "id": "trek:overworld/medium/tower",
+      "id": "trek:overworld/medium/orbital",
       "required": false
     },
     {

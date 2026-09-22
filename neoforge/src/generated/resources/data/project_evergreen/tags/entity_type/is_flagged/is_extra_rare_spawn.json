@@ -31,6 +31,10 @@
     {
       "id": "koopascritters:yangtze_giant_softshell_turtle",
       "required": false
+    },
+    {
+      "id": "mythsandlegends:condemned",
+      "required": false
     }
   ]
 }

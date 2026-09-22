@@ -269,11 +269,11 @@
       "required": false
     },
     {
-      "id": "eugene:pillager_loot_carriage",
+      "id": "envelope:collapsed_mail_hub",
       "required": false
     },
     {
-      "id": "explorify:campsite",
+      "id": "eugene:pillager_loot_carriage",
       "required": false
     },
     {
@@ -322,10 +322,6 @@
     },
     {
       "id": "goety:dark_manor",
-      "required": false
-    },
-    {
-      "id": "hollowmarch:twin_keep",
       "required": false
     },
     {
@@ -513,6 +509,10 @@
       "required": false
     },
     {
+      "id": "netherman:monument",
+      "required": false
+    },
+    {
       "id": "nova_structures:illager_camp",
       "required": false
     },
@@ -625,10 +625,6 @@
       "required": false
     },
     {
-      "id": "trek:overworld/common/well_pillager_small",
-      "required": false
-    },
-    {
       "id": "trek:overworld/medium/base_pillager",
       "required": false
     },
@@ -654,10 +650,6 @@
     },
     {
       "id": "trek:overworld/medium/tour",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/medium/well_pillager_medium",
       "required": false
     },
     {

@@ -11,6 +11,10 @@
     {
       "id": "natures_spirit:xeric_plains",
       "required": false
+    },
+    {
+      "id": "wythers:desert_island",
+      "required": false
     }
   ]
 }

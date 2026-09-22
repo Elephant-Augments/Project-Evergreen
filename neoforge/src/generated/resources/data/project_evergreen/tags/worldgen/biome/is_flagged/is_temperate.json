@@ -385,11 +385,19 @@
       "required": false
     },
     {
+      "id": "spawn:cold_island",
+      "required": false
+    },
+    {
       "id": "spawn:dodo_island",
       "required": false
     },
     {
       "id": "spawn:rocky_shore",
+      "required": false
+    },
+    {
+      "id": "spawn:tide_pool",
       "required": false
     },
     {
@@ -549,10 +557,6 @@
       "required": false
     },
     {
-      "id": "wythers:billabong",
-      "required": false
-    },
-    {
       "id": "wythers:birch_swamp",
       "required": false
     },
@@ -590,6 +594,10 @@
     },
     {
       "id": "wythers:crimson_tundra",
+      "required": false
+    },
+    {
+      "id": "wythers:desert_island",
       "required": false
     },
     {
@@ -662,10 +670,6 @@
     },
     {
       "id": "wythers:mediterranean_island",
-      "required": false
-    },
-    {
-      "id": "wythers:mediterranean_island_thermal_springs",
       "required": false
     },
     {

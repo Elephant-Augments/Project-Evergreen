@@ -13,10 +13,6 @@
       "required": false
     },
     {
-      "id": "spawn:seagrass_meadow",
-      "required": false
-    },
-    {
       "id": "spawn:tropical_island",
       "required": false
     },

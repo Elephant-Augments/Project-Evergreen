@@ -41,6 +41,10 @@
       "required": false
     },
     {
+      "id": "spawn:ant_gardens",
+      "required": false
+    },
+    {
       "id": "terralith:hot_shrubland",
       "required": false
     },
@@ -49,11 +53,11 @@
       "required": false
     },
     {
-      "id": "wythers:dry_savanna",
+      "id": "wythers:desert_island",
       "required": false
     },
     {
-      "id": "wythers:dry_tropical_forest",
+      "id": "wythers:dry_savanna",
       "required": false
     },
     {

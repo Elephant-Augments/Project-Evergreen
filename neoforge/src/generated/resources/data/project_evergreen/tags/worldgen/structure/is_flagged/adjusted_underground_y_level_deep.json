@@ -85,6 +85,10 @@
       "required": false
     },
     {
+      "id": "kattersstructures:better_vanilla_dungeon",
+      "required": false
+    },
+    {
       "id": "mtr:stronghold",
       "required": false
     }

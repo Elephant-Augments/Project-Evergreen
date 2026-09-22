@@ -120,6 +120,7 @@ public class DefaultStructureHeightmaps {
         "hopo:portal/overworld/portal_lush",
         "idas:ancient_portal/ancient_portal",
         "idas:nexus",
+        "idas:ancient_mines",
         "idas:underground_camp/underground_camp",
         "idas:underground_camp/underground_camp_deep",
         "integrated_stronghold:stronghold",

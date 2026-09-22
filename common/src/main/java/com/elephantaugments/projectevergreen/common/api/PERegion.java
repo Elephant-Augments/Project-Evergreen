@@ -2,6 +2,7 @@ package com.elephantaugments.projectevergreen.common.api;
 
 import com.elephantaugments.projectevergreen.common.Constants;
 import com.elephantaugments.projectevergreen.common.ProjectEvergreen;
+import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureDimensions;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureHeightmaps;
 import com.elephantaugments.projectevergreen.common.data.defaults.DefaultStructureRegions;
 import net.minecraft.core.registries.Registries;
@@ -22,6 +23,17 @@ public enum PERegion {
         PEMob.Flag.DISABLED.defaultIDs(),
         List.of(PEBiome.NO_BIOMES),
         DangerLevel.SAFE
+    ),
+    ALL_NETHER(
+        DefaultStructureDimensions.netherStructures,
+        PEFeature.Flag.DISABLED.tag(),
+        PEMob.Flag.DISABLED.defaultIDs(),
+        List.of(
+            PEBiome.CRIMSON_NETHER,
+            PEBiome.WARPED_NETHER,
+            PEBiome.ASHEN_NETHER
+        ),
+        DangerLevel.DANGEROUS
     ),
     UNDERGROUND_LAND(
         DefaultStructureHeightmaps.underground,
@@ -283,7 +295,6 @@ public enum PERegion {
             PEBiome.FOREST_DENSE_CONIFEROUS,
             PEBiome.FOREST_DENSE_DECIDUOUS,
             PEBiome.SPECIAL_AUTUMNAL_FOREST,
-            PEBiome.SPECIAL_MEDITERRANEAN_UNINVITING,
             PEBiome.SPECIAL_CRAGGY_TEMPERATE
         ),
         DangerLevel.NEUTRAL

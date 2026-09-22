@@ -53,6 +53,10 @@
       "required": false
     },
     {
+      "id": "qrafty:mangrove_village",
+      "required": false
+    },
+    {
       "id": "repurposed_structures:mansion_desert",
       "required": false
     },

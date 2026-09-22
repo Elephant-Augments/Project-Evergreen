@@ -58,7 +58,12 @@ public class WorldgenPatchProvider extends PatchProvider {
                     .compound()
                         .test(PEConfig.WARM_CLIMATE_WATER_NORMALIZATION_TEST, true)
                         .test(PEBiome.Flag.IS_WARM.jsonPath(), null, false)
-                        .paste("/effects/water_color", DataSources.CONFIG_VALUE, JsonParser.parseString(PEConfig.TEMPERATE_WATER_COLOR_KEY))
+                        .paste("/effects/water_color", DataSources.CONFIG_VALUE, JsonParser.parseString(PEConfig.WARM_WATER_COLOR_KEY))
+                    .end()
+                    .compound()
+                        .test(PEConfig.COLD_CLIMATE_WATER_NORMALIZATION_TEST, true)
+                        .test(PEBiome.Flag.IS_COLD.jsonPath(), null, false)
+                        .paste("/effects/water_color", DataSources.CONFIG_VALUE, JsonParser.parseString(PEConfig.COLD_WATER_COLOR_KEY))
                     .end()
                 //REMOVE_SNOW_ACCUMULATION_PATCH
                     .compound()
@@ -277,6 +282,21 @@ public class WorldgenPatchProvider extends PatchProvider {
                         .test(PEStructure.Flag.IS_CHERRY_FOREST.jsonPath(), true, false)
                         .add("/biomes", PEBiome.CHERRY_FOREST.tagKey())
                     .end()
+                    //FORCE_CRIMSON_NETHER
+                    .compound()
+                        .test(PEStructure.Flag.IS_CRIMSON_NETHER.jsonPath(), true, false)
+                        .add("/biomes", PEBiome.CRIMSON_NETHER.tagKey())
+                    .end()
+                    //FORCE_WARPED_NETHER
+                    .compound()
+                        .test(PEStructure.Flag.IS_WARPED_NETHER.jsonPath(), true, false)
+                        .add("/biomes", PEBiome.WARPED_NETHER.tagKey())
+                    .end()
+                    //FORCE_ASHEN_NETHER
+                    .compound()
+                        .test(PEStructure.Flag.IS_ASHEN_NETHER.jsonPath(), true, false)
+                        .add("/biomes", PEBiome.ASHEN_NETHER.tagKey())
+                    .end()
                 .end()
             //MOB_SPAWN_OVERRIDES
                 .compound()
@@ -332,6 +352,17 @@ public class WorldgenPatchProvider extends PatchProvider {
                     .remove("/enhanced_terrain_adaptation")
                     .remove("/valid_biome_radius_check")
                     .remove("/use_bounding_box_hack")
+                .end()
+            //AMPLIFIED_NETHER_PATCH
+                .compound()
+                    .test(PEStructure.Flag.HAS_NETHER_FIX.jsonPath(), true, false)
+                    .compound()
+                        .test("patched:mod_loaded", "moogs_structures")
+                        .add("/type", "moogs_structures:moogs_structures_generic_nether_jigsaw_structure")
+                        .add("/land_search_direction", "HIGHEST_LAND")
+                        .add("/step", "surface_structures")
+                        .add("/cannot_spawn_in_liquid", true)
+                    .end()
                 .end()
             //IS_EARLY_SPAWN_STEP
                 .compound()
@@ -454,26 +485,23 @@ public class WorldgenPatchProvider extends PatchProvider {
             //This is a global catch-all for certain buggy spawns that don't play well with the biome spawner code.
             //In particular this fixes crazy mob spawns at the borders between two biomes with different spawn costs.
             //TODO: Add isLoaded() check on removed entities
-            JsonArray common_costs = new JsonArray();
-            DefaultFlags.commonSpawn.forEach(common_costs::add);
             patch(id(ProjectEvergreen.MODID, "neoforge/biome_modifier/overworld_common_spawn_costs"))
                 .compound()
                     .test(PEConfig.MOB_REDISTRIBUTION_TEST, true)
-                    .add("/entity_types", common_costs)
+                    .paste("/entity_types", DataSources.CONFIG_VALUE, JsonParser.parseString(PEConfig.MOB_COSTS_COMMON_KEY))
+                    //.add("/entity_types", common_costs)
                 .end();
-            JsonArray rare_costs = new JsonArray();
-            DefaultFlags.rareSpawn.forEach(rare_costs::add);
             patch(id(ProjectEvergreen.MODID, "neoforge/biome_modifier/overworld_rare_spawn_costs"))
                 .compound()
                     .test(PEConfig.MOB_REDISTRIBUTION_TEST, true)
-                    .add("/entity_types", rare_costs)
+                    .paste("/entity_types", DataSources.CONFIG_VALUE, JsonParser.parseString(PEConfig.MOB_COSTS_RARE_KEY))
+                    //.add("/entity_types", rare_costs)
                 .end();
-            JsonArray extra_rare_costs = new JsonArray();
-            DefaultFlags.extraRareSpawn.forEach(extra_rare_costs::add);
             patch(id(ProjectEvergreen.MODID, "neoforge/biome_modifier/overworld_extra_rare_spawn_costs"))
                 .compound()
                     .test(PEConfig.MOB_REDISTRIBUTION_TEST, true)
-                    .add("/entity_types", extra_rare_costs)
+                    .paste("/entity_types", DataSources.CONFIG_VALUE, JsonParser.parseString(PEConfig.MOB_COSTS_EXTRA_RARE_KEY))
+                    //.add("/entity_types", extra_rare_costs)
                 .end();
 
 //        ProjectEvergreen.LOGGER.info("Patching all Mobs...");
@@ -531,6 +559,9 @@ public class WorldgenPatchProvider extends PatchProvider {
         List<String> modsWithBrokenSigns = ImmutableList.of(
             "minecraft",
             "create_pillagers_arise",
+            "dungeons_arise",
+            //"idas",
+            //"integrated_villages",
             "kattersstructures",
             "mostructures",
             "nordic_structures",

@@ -17,7 +17,15 @@
       "required": false
     },
     {
+      "id": "bosses_of_mass_destruction:gauntlet_arena",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:aviary",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:thornborn_towers",
       "required": false
     },
     {
@@ -110,6 +118,10 @@
     },
     {
       "id": "trek:overworld/rare/castle",
+      "required": false
+    },
+    {
+      "id": "withershrine:shrines",
       "required": false
     }
   ]

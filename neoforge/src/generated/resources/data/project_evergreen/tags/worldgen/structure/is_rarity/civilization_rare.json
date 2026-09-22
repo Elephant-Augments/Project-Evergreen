@@ -1,6 +1,14 @@
 {
   "values": [
     {
+      "id": "dungeons_arise:merchant_campsite",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:sultans_bazaar",
+      "required": false
+    },
+    {
       "id": "integrated_villages:cabin_village",
       "required": false
     },
@@ -54,6 +62,10 @@
     },
     {
       "id": "kattersstructures:village_mesa",
+      "required": false
+    },
+    {
+      "id": "kattersstructures:windmill",
       "required": false
     },
     {
@@ -234,6 +246,10 @@
     },
     {
       "id": "towns_and_towers:village_wooded_badlands",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/rare/villager_castle",
       "required": false
     },
     {

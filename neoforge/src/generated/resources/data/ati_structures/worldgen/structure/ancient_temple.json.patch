@@ -10,7 +10,6 @@
         "heightmap": "GROUNDLEVEL",
         "dimension": "#minecraft:is_overworld",
         "region": "#project_evergreen:is_region/wilderness_tropical",
-        "structure_set": "project_evergreen:wilderness_rare",
         "is_loaded": false,
         "is_advanced_type": false,
         "is_flat": false,
@@ -159,6 +158,42 @@
         "op": "add",
         "path": "/biomes",
         "value": "#project_evergreen:is_climate/cherry_forest"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_crimson_nether",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_climate/crimson_nether"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_warped_nether",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_climate/warped_nether"
+      }
+    ],
+    [
+      {
+        "op": "test",
+        "path": "/temp_properties/is_ashen_nether",
+        "value": true
+      },
+      {
+        "op": "add",
+        "path": "/biomes",
+        "value": "#project_evergreen:is_climate/ashen_nether"
       }
     ]
   ],
@@ -320,6 +355,40 @@
       "op": "remove",
       "path": "/use_bounding_box_hack"
     }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/temp_properties/has_nether_fix",
+      "value": true
+    },
+    [
+      {
+        "op": "test",
+        "type": "patched:mod_loaded",
+        "value": "moogs_structures"
+      },
+      {
+        "op": "add",
+        "path": "/type",
+        "value": "moogs_structures:moogs_structures_generic_nether_jigsaw_structure"
+      },
+      {
+        "op": "add",
+        "path": "/land_search_direction",
+        "value": "HIGHEST_LAND"
+      },
+      {
+        "op": "add",
+        "path": "/step",
+        "value": "surface_structures"
+      },
+      {
+        "op": "add",
+        "path": "/cannot_spawn_in_liquid",
+        "value": true
+      }
+    ]
   ],
   [
     {

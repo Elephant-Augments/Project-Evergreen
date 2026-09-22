@@ -31,6 +31,10 @@
     {
       "id": "koopascritters:uakari_monkey",
       "required": false
+    },
+    {
+      "id": "naturalist:jungle_scorpion",
+      "required": false
     }
   ]
 }

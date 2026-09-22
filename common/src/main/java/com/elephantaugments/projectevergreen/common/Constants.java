@@ -80,9 +80,9 @@ public class Constants {
 	public static final int OTHERWORLD_DIFFICULTY = 4;
 
 	public static final int AETHER_DIFFICULTY_OFFSET = 1;
-	public static final int NETHER_DIFFICULTY_OFFSET = 2;
-	public static final int END_DIFFICULTY_OFFSET = 2;
 	public static final int AFTERDARK_DIFFICULTY_OFFSET = 2;
+	public static final int NETHER_DIFFICULTY_OFFSET = 3;
+	public static final int END_DIFFICULTY_OFFSET = 4;
 	public static final int ETERNAL_STARLIGHT_DIFFICULTY_OFFSET = 3;
 	public static final int LOSTCITIES_DIFFICULTY_OFFSET = 4;
 
@@ -102,15 +102,17 @@ public class Constants {
 
 	public static final int DEFAULT_DECO_SPACING = 12;
 	public static final int DEFAULT_DECO_SEPARATION = 6;
-	public static final int DEFAULT_COMMON_SPACING = 38;
-	public static final int DEFAULT_COMMON_SEPARATION = 32;
+	public static final int DEFAULT_COMMON_SPACING = 40;
+	public static final int DEFAULT_COMMON_SEPARATION = 34;
 	public static final int DEFAULT_RARE_SPACING = 52;
 	public static final int DEFAULT_RARE_SEPARATION = 44;
-	public static final int DEFAULT_EXTRA_RARE_SPACING = 68;
-	public static final int DEFAULT_EXTRA_RARE_SEPARATION = 58;
+	public static final int DEFAULT_EXTRA_RARE_SPACING = 80;
+	public static final int DEFAULT_EXTRA_RARE_SEPARATION = 72;
 	public static final Double CIVILIZATION_SPREAD_OFFSET = 0.9;
 	public static final Double WILDERNESS_SPREAD_OFFSET = 1.05;
 	public static final Double SPECIAL_SPREAD_OFFSET = 1.35;
+	/* An extra modifier applied on top of everything else to combat
+	 *  harsh flatness checks (when enabled). */
 	public static final Double FLATNESS_SPREAD_OFFSET = 0.5;
 
 	public static final int DEFAULT_COLD_WATER_COLOR = 3570859;

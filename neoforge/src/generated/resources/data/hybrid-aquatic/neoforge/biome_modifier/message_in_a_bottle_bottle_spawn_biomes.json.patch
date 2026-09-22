@@ -7,7 +7,8 @@
         "id": "hybrid-aquatic:message_in_a_bottle_bottle_spawn_biomes",
         "is_loaded": false,
         "is_modifier": true,
-        "patchable": true
+        "patchable": true,
+        "disabled": true
       }
     }
   ],

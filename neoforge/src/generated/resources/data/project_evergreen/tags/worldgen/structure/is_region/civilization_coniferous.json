@@ -25,6 +25,10 @@
       "required": false
     },
     {
+      "id": "envelope:dovecote_taiga",
+      "required": false
+    },
+    {
       "id": "farmers_structures:fishs_stew",
       "required": false
     },

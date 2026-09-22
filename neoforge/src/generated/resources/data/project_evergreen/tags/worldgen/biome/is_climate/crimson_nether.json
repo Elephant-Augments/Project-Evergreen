@@ -1,0 +1,48 @@
+{
+  "values": [
+    {
+      "id": "betternether:crimson_glowing_woods",
+      "required": false
+    },
+    {
+      "id": "betternether:crimson_pinewood",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_swampland",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_swampland_terraces",
+      "required": false
+    },
+    {
+      "id": "betternether:old_swampland",
+      "required": false
+    },
+    {
+      "id": "betternether:wart_forest",
+      "required": false
+    },
+    {
+      "id": "betternether:wart_forest_edge",
+      "required": false
+    },
+    {
+      "id": "gardens_of_the_dead:whistling_woods",
+      "required": false
+    },
+    {
+      "id": "minecraft:crimson_forest",
+      "required": false
+    },
+    {
+      "id": "minecraft:nether_wastes",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mycotoxic_undergrowth",
+      "required": false
+    }
+  ]
+}

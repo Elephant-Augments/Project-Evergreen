@@ -307,7 +307,15 @@ public class DefaultFeatureBiomes {
 
     );
 
-    public static final List<String> soulValley = ImmutableList.of(
+    public static final List<String> crimsonNether = ImmutableList.of(
+
+    );
+
+    public static final List<String> warpedNether = ImmutableList.of(
+
+    );
+
+    public static final List<String> ashenNether = ImmutableList.of(
 
     );
 

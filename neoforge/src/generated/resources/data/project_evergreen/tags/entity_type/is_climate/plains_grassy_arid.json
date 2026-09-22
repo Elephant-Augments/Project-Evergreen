@@ -15,6 +15,18 @@
     {
       "id": "koopascritters:serval",
       "required": false
+    },
+    {
+      "id": "naturalist:giraffe",
+      "required": false
+    },
+    {
+      "id": "naturalist:ostrich",
+      "required": false
+    },
+    {
+      "id": "naturalist:zebra",
+      "required": false
     }
   ]
 }

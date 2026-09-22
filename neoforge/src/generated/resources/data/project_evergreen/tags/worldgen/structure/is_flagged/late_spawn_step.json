@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "hopo:underwater_small_ruins",
+      "required": false
+    },
+    {
       "id": "kattersstructures:village_birch",
       "required": false
     },

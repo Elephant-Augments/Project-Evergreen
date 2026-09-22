@@ -185,6 +185,10 @@
       "required": false
     },
     {
+      "id": "farmers_structures:aquacultures_cod",
+      "required": false
+    },
+    {
       "id": "imst:train_station",
       "required": false
     },
@@ -218,6 +222,10 @@
     },
     {
       "id": "trek:overworld/medium/spruce_cottage",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/strange_house",
       "required": false
     },
     {

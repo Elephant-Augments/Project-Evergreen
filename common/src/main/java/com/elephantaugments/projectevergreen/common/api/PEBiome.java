@@ -364,6 +364,11 @@ public enum PEBiome {
         DefaultMobBiomes.plainsShrubbyTropical,
         DefaultFeatureBiomes.tropicalCove
     ),
+    SMALL_ISLANDS(
+        DefaultBiomeTags.smallIslands,
+        DefaultMobBiomes.coastalTemperate,
+        DefaultFeatureBiomes.coastalTemperate
+    ),
     VOLCANIC_CRATER(
         DefaultBiomeTags.volcanicCrater,
         DefaultMobBiomes.mountainsHot,
@@ -379,14 +384,20 @@ public enum PEBiome {
         DefaultMobBiomes.specialSpooky,
         DefaultFeatureBiomes.paleGarden
     ),
-    SOUL_VALLEY(
-        DefaultBiomeTags.soulValley,
-        ImmutableList.of(
-            "born_in_chaos_v1:pumpkin_bomb",
-            "born_in_chaos_v1:pumpkin_bruiser",
-            "born_in_chaos_v1:pumpkin_dunce"
-        ),
-        DefaultFeatureBiomes.soulValley
+    CRIMSON_NETHER(
+        DefaultBiomeTags.crimsonNether,
+        DefaultMobBiomes.crimsonNether,
+        DefaultFeatureBiomes.crimsonNether
+    ),
+    WARPED_NETHER(
+        DefaultBiomeTags.warpedNether,
+        DefaultMobBiomes.warpedNether,
+        DefaultFeatureBiomes.warpedNether
+    ),
+    ASHEN_NETHER(
+        DefaultBiomeTags.ashenNether,
+        DefaultMobBiomes.ashenNether,
+        DefaultFeatureBiomes.ashenNether
     ),
     STARLIT_GRASSY(
         DefaultBiomeTags.starlitGrassy,
@@ -554,6 +565,20 @@ public enum PEBiome {
         return warmBiomes.stream().toList();
     }
 
+    public static List<String> allCold() {
+        HashSet<String> warmBiomes = Arrays.stream(PEBiome.values())
+                .filter(r -> r.name().contains("SNOW") ||
+                        r.name().contains("COLD") ||
+                        r.name().contains("FROZEN") ||
+                        r.name().contains("AUTUMNAL") ||
+                        r.name().contains("CONIFEROUS") ||
+                        r.name().contains("ICY"))
+                .map(PEBiome::defaultBiomes)
+                .flatMap(Collection::stream)
+                .collect(Collectors.toCollection(HashSet::new));
+        return warmBiomes.stream().toList();
+    }
+
     public static List<String> redistributedFeatures() {
         HashSet<String> redistributedFeatures = Arrays.stream(PEBiome.values())
                 .map(PEBiome::featureAdditions)
@@ -592,7 +617,8 @@ public enum PEBiome {
         IS_PRAIRIE_YELLOW(DefaultFlags.addPrairieGrassColor),
         IS_SAVANNA_BROWN(DefaultFlags.addSavannaVegetationColor),
         IS_TEMPERATE(PEBiome.allTemperate()),
-        IS_WARM(PEBiome.allWarm());
+        IS_WARM(PEBiome.allWarm()),
+        IS_COLD(PEBiome.allCold());
 
         private final String jsonKey;
         private final String jsonPath;

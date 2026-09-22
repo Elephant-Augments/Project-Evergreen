@@ -53,10 +53,6 @@
       "required": false
     },
     {
-      "id": "wythers:billabong",
-      "required": false
-    },
-    {
       "id": "wythers:birch_swamp",
       "required": false
     },

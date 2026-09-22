@@ -1,7 +1,6 @@
 package com.elephantaugments.projectevergreen.common.data.defaults;
 
 import com.google.common.collect.ImmutableList;
-import net.minecraft.advancements.critereon.EntityPredicate;
 
 import java.util.List;
 
@@ -14,7 +13,15 @@ public class DefaultFlags {
     //<--- Entities to disable individually --->
     public static final List<String> disabledMobs = ImmutableList.of(
 		"minecraft:squid",
-		"hybrid-aquatic:manta_ray"
+		"aquaculture:piranha",
+		"crittersandcompanions:snail",
+		"hybrid-aquatic:herring",
+		"hybrid-aquatic:anglerfish",
+		"hybrid-aquatic:giant_isopod",
+		"hybrid-aquatic:barracuda",
+		"hybrid-aquatic:tuna",
+		"spawn:spider_crab",
+		"spawn:stickbug"
 	);
 
 //<-----------------------------------------------------FEATURES----------------------------------------------------->
@@ -31,6 +38,7 @@ public class DefaultFlags {
     //DISABLED
     //<--- Biome features to disable individually --->
     public static final List<String> disabledFeatures = ImmutableList.of(
+		"minecraft:basalt_pillar",
 		"culturaldelights:add_corn",
 		"culturaldelights:add_cucumber",
 		"dreamwoods:vanilla_biomes_features/bamboo_jungle_trees",
@@ -72,6 +80,7 @@ public class DefaultFlags {
 		"farmerspizzeria:basil_4",
 		"herbalbrews:add_coffee_patch",
 		"herbalbrews:coffee_patch_chance",
+		"hybrid-aquatic:giant_clam_patch",
 		"hybrid-aquatic:basking_shark_arctic_oceans",
 		"hybrid-aquatic:basking_shark_cold_oceans",
 		"hybrid-aquatic:basking_shark_deep_temperate_oceans",
@@ -93,10 +102,14 @@ public class DefaultFlags {
 		"hybrid-aquatic:lobster_shallow_tropical_oceans",
 		"hybrid-aquatic:ocean_sunfish_deep_temperate_oceans",
 		"hybrid-aquatic:ocean_sunfish_deep_tropical_oceans",
-		//"hybrid-aquatic:tuna_deep_temperate_oceans",
-		//"hybrid-aquatic:tuna_deep_tropical_oceans",
+		"hybrid-aquatic:tuna_deep_temperate_oceans",
+		"hybrid-aquatic:tuna_deep_tropical_oceans",
+		"hybrid-aquatic:sea_urchin_is_deep_ocean",
+		"hybrid-aquatic:sea_urchin_is_ocean",
 		"hybrid-aquatic:yeti_crab_deep_arctic_oceans",
 		"hybrid-aquatic:yeti_crab_deep_cold_oceans",
+		"hybrid-aquatic:message_in_a_bottle",
+		"hybrid-aquatic:message_in_a_bottle_bottle_spawn_biomes",
 		"koopascritters:agazzis_cichlid_biome_modifier",
 		"koopascritters:asian_leopard_cat_biome_modifier",
 		"koopascritters:attenboroughs_echidna_biome_modifier",
@@ -175,15 +188,18 @@ public class DefaultFlags {
 	//<--- Common spawns, as determined by the spawn cost system --->
 	public static final List<String> commonSpawn = ImmutableList.of(
 		"crittersandcompanions:koi_fish",
-		"envelope:pigeon",
+		"hybrid-aquatic:crayfish",
+		"hybrid-aquatic:fiddler_crab",
+		"hybrid-aquatic:sea_urchin",
+		"hybrid-aquatic:mackerel",
+		"hybrid-aquatic:herring",
 		"hybrid-aquatic:yeti_crab",
 		"koopascritters:agazzis_cichlid",
 		"koopascritters:bush_dog",
 		"koopascritters:candy_cane_snail",
 		"koopascritters:california_quail",
 		"koopascritters:clown_loach",
-		"koopascritters:peacock_bass",
-		"mythsandlegends:condemned"
+		"koopascritters:peacock_bass"
 	);
 
 	//IS_RARE_SPAWN
@@ -191,11 +207,7 @@ public class DefaultFlags {
 	public static final List<String> rareSpawn = ImmutableList.of(
 		"crittersandcompanions:dragonfly",
 		"crittersandcompanions:leaf_insect",
-		"hybrid-aquatic:crayfish",
-		"hybrid-aquatic:fiddler_crab",
-		"hybrid-aquatic:sea_urchin",
-		"hybrid-aquatic:mackerel",
-		"hybrid-aquatic:herring",
+		"envelope:pigeon",
 		"koopascritters:asian_leopard_cat",
 		"koopascritters:attenboroughs_echidna",
 		"koopascritters:binturong",
@@ -242,7 +254,8 @@ public class DefaultFlags {
 		"koopascritters:uakari_monkey",
 		"koopascritters:upside_down_jellyfish",
 		"koopascritters:yellow_eye_penguin",
-		"quark:shiba"
+		"quark:shiba",
+		"spawn:sunfish"
 	);
 
 	//IS_EXTRA_RARE_SPAWN
@@ -255,7 +268,8 @@ public class DefaultFlags {
 		"hybrid-aquatic:ocean_sunfish",
 		"hybrid-aquatic:tuna",
 		"koopascritters:dwarf_sperm_whale",
-		"koopascritters:yangtze_giant_softshell_turtle"
+		"koopascritters:yangtze_giant_softshell_turtle",
+		"mythsandlegends:condemned"
 	);
 
 	//IS_BROKEN_SPAWN
@@ -275,13 +289,15 @@ public class DefaultFlags {
         "minecraft:ocean_monuments",
         "minecraft:pillager_outposts",
 		"minecraft:ruined_portals",
+		"minecraft:nether_complexes",
 		"minecraft:woodland_mansions",
 		"ancientstructures:german_buildings",
-        "ati_structures:aboveground_large",
-		"ati_structures:aboveground_small",
+        //"ati_structures:aboveground_large",
+		//"ati_structures:aboveground_small",
 		"create_ltab:water_pre",
         "dungeons_arise:major_structures",
         "dungeons_arise_seven_seas:minor_structures",
+		"envelope:dovecote",
 		"explorify:taverns",
 		"explorify:watchtowers",
 		"formationsoverworld:uncommon",
@@ -289,8 +305,10 @@ public class DefaultFlags {
 		"hollowmarch:desert",
 		"hollowmarch:ocean",
 		"hollowmarch:air",
+		"incendium:lesser_structures",
         "integrated_villages:air_villages",
 		"integrated_villages:regular_villages",
+		"idas:idas_common",
         "idas:idas_rare",
         "idas:idas_underground_rare",
 		"illagerstructures:ice",
@@ -412,6 +430,16 @@ public class DefaultFlags {
 		"minecraft:nether_city",
 		"minecraft:nether_fossil",
 		"minecraft:ruined_portal_nether",
+		"betternether:altars",
+		"betternether:gardens",
+		"betternether:ghast_hive",
+		"betternether:jungle_temples",
+		"betternether:nether_city",
+		"betternether:pillars",
+		"betternether:portals",
+		"betternether:pyramid",
+		"betternether:respawn_points",
+		"betternether:spawn_altar_ladder",
 		"block_factorys_bosses:underworld_arena",
 		"bosses_of_mass_destruction:gauntlet_arena",
 		"combat_structures_update:netherlargewarpedtree_1",
@@ -484,38 +512,37 @@ public class DefaultFlags {
 		"fdbosses:chesed_arena",
 		"fdbosses:malkuth_arena",
 		"hopo:portal/overworld/portal_ruined",
-		"idas:abandoned_lighthouse",
+		/*"idas:abandoned_lighthouse",
 		"idas:abandoned_vineyard",
-		"idas:abandonedhouse",
+		"idas:abandonedhouse",*/
 		"idas:ancient_mines",
 		"idas:ancient_portal/ancient_portal",
-		"idas:ancient_portal/nether_ancient_portal",
-		"idas:ancient_statue/ancient_statue_desert",
+		/*"idas:ancient_statue/ancient_statue_desert",
 		"idas:ancient_statue/ancient_statue_jungle",
 		"idas:ancient_statue/ancient_statue_plains",
 		"idas:animal_den/forest_den",
 		"idas:animal_den/foxhound_den",
 		"idas:animal_den/polar_bear_den",
-		"idas:apothecary_abode",
+		"idas:apothecary_abode",*/
 		"idas:ars_nouveau/archmages_tower",
 		"idas:bazaar",
-		"idas:bearclaw_inn",
+		/*"idas:bearclaw_inn",
 		"idas:beekeepers_house",
 		"idas:botanist",
-		"idas:brickhouse",
+		"idas:brickhouse",*/
 		"idas:castle",
 		"idas:collectors_museum",
-		"idas:cottage",
+		/*"idas:cottage",
 		"idas:desert_camp/desert_camp",
 		"idas:desert_camp/desert_camp_bygwindswept",
 		"idas:desert_camp/desert_camp_orange",
 		"idas:desert_camp/desert_camp_red",
 		"idas:desert_market/desert_market",
 		"idas:desert_market/desert_market_orange",
-		"idas:desert_market/desert_market_red",
+		"idas:desert_market/desert_market_red",*/
 		"idas:desert_pyramid",
 		"idas:desert_ruins",
-		"idas:dig_site/dig_site",
+		/*"idas:dig_site/dig_site",
 		"idas:dig_site/dig_site_desert",
 		"idas:enchantingtower",
 		"idas:farmhouse",
@@ -523,11 +550,11 @@ public class DefaultFlags {
 		"idas:frozen_crypt",
 		"idas:haunted_manor",
 		"idas:hermits_hollow",
-		"idas:hunters_cabin",
+		"idas:hunters_cabin",*/
 		"idas:iceandfire/dread_citadel",
 		"idas:iceandfire/sirens_cove",
 		"idas:labyrinth",
-		"idas:lumber_camp/lumber_camp_acacia",
+		/*"idas:lumber_camp/lumber_camp_acacia",
 		"idas:lumber_camp/lumber_camp_birch",
 		"idas:lumber_camp/lumber_camp_bopmahogany",
 		"idas:lumber_camp/lumber_camp_bopredwood",
@@ -537,36 +564,35 @@ public class DefaultFlags {
 		"idas:lumber_camp/lumber_camp_jungle",
 		"idas:lumber_camp/lumber_camp_oak",
 		"idas:lumber_camp/lumber_camp_spruce",
-		"idas:mason_house",
-		"idas:necromancers_spire",
-		"idas:nether_pump_camp",
+		"idas:mason_house",*/
 		"idas:nexus",
 		"idas:pillager_camp",
 		"idas:pillager_fortress",
+		/*"idas:pumpkin_cafe",
 		"idas:redhorn_guild",
 		"idas:ruined_church",
 		"idas:ruined_fort",
-		"idas:ruined_well",
+		"idas:ruined_well",*/
 		"idas:ruins_of_the_deep",
 		"idas:snifferhenge",
 		"idas:sunken_ship/sunken_ship",
 		"idas:sunken_ship/sunken_ship_coral",
 		"idas:sunken_ship/sunken_ship_ruins",
-		"idas:the_log",
+		//"idas:the_log",
 		"idas:tinkers_citadel",
 		"idas:tinkers_workshop",
-		"idas:train_ruins",
+		//"idas:train_ruins",
 		"idas:tree_of_wisdom",
-		"idas:treetop_tavern",
-		"idas:tudor_pub",
+		/*"idas:treetop_tavern",
+		"idas:tudor_pub",*/
 		"idas:underground_camp/underground_camp",
 		"idas:underground_camp/underground_camp_deep",
-		"idas:wacky_wares",
-		"idas:washing_camp",
+		/*"idas:wacky_wares",
+		"idas:washing_camp",*/
 		"idas:windswept_shrine",
 		"idas:winter_wagon",
 		"idas:witches_treestump",
-		"idas:wizard_tower",
+		//"idas:wizard_tower",
 		"integrated_villages:airship_village",
 		"integrated_villages:cabin_village",
 		"integrated_villages:clockwork_village",
@@ -586,6 +612,12 @@ public class DefaultFlags {
 		"kattersstructures:village_ocean",
 		"kattersstructures:village_sky",
 		"kattersstructures:village_swamp",
+		"spawn:cold_island",
+		"spawn:dodo_island",
+		"spawn:sandy_island",
+		"spawn:tide_pool",
+		"spawn:tropical_island",
+		"spawn:volcanic_island",
 		"structory_towers:ocean_pillar",
 		"supplementaries:road_sign",
 		"towns_and_towers:exclusives/pillager_outpost_classic",
@@ -668,12 +700,13 @@ public class DefaultFlags {
 		"ati_structures:old_fort",
 		"bosses_of_mass_destruction:lich_tower",
 		"block_factorys_bosses:yeti_hideout",
-		"block_factorys_bosses:sandworm_nest",
+		//"block_factorys_bosses:sandworm_nest",
 		"eternal_starlight:portal_ruins_jungle",
 		"eternal_starlight:portal_ruins_forest",
 		"illagerinvasion:firecaller_hut",
 		"illagerinvasion:illager_fort",
 		"illagerinvasion:illusioner_tower",
+		//"legendary_monsters:cloudy_temple",
 		"loot_n_explore:glaze_tower",
 		"medieval_buildings:fort",
 		"medieval_buildings:tower",
@@ -748,6 +781,7 @@ public class DefaultFlags {
         "dungeons_arise:shiraz_palace",
 		"dungeons_arise:mushroom_mines",
 		"epic:witch_hut",
+		"hollowmarch:sultans_bazaar",
 		"integrated_minecraft:ruined_fortress",
 		"integrated_minecraft:scarlet_citadel",
 		"idas:iceandfire/dread_citadel",
@@ -785,6 +819,26 @@ public class DefaultFlags {
         "ars_nouveau:stalker_wilden_den",
 		"ati_structures:arachnid_dwelling",
 		"ati_structures:nomadic_camp",
+		"ati_structures:tavern",
+		"ati_structures:ancient_temple",
+		"ati_structures:desert_outpost",
+		"ati_structures:fortified_temple",
+		"ati_structures:granite_fort",
+		"ati_structures:herobrine_stronghold",
+		"ati_structures:jungle_settlement",
+		"ati_structures:manor",
+		"ati_structures:old_fort",
+		"ati_structures:ati_stoneworks",
+		"ati_structures:arachnid_dwelling",
+		"ati_structures:catalonian_castle",
+		"ati_structures:steam_house",
+		"ati_structures:old_residence",
+		"ati_structures:jungle_grotto",
+		"ati_structures:marble_chateau",
+		"ati_structures:sinking_temple",
+		"ati_structures:woodland_keep",
+		"ati_structures:ruined_castle",
+		"ati_structures:quarry",
         "idas:train_ruins",
         "idas:apothecary_abode",
         "idas:pillager_fortress",
@@ -818,13 +872,13 @@ public class DefaultFlags {
 		"hollowmarch:palm_haven",
 		"hollowmarch:phantome_nest",
 		"hollowmarch:pirates_fall",
-		"hollowmarch:sultans_bazaar",
         "imst:caravan",
 		"illagerstructures:illager_fort",
 		"illagerstructures:monastery",
 		"illagerstructures:smeltery",
 		"kattersstructures:graveyard",
 		"kattersstructures:windmill",
+		"legendary_monsters:cloudy_temple",
         "legendary_monsters:ancient_stronghold",
         "legendary_monsters:abandoned_crypt",
         "medieval_buildings:fort",
@@ -868,6 +922,7 @@ public class DefaultFlags {
 		"born_in_chaos_v1:clown_caravan_taiga",
 		"block_factorys_bosses:sandworm_nest",
 		"create_ltab:oak_house",
+		"create_ltab:big_windmill",
         "create_structures_arise:createlosttrainstation",
         "create_structures_arise:createcushercrane",
 		//"create_structures_arise:obsidiantemple",
@@ -880,6 +935,7 @@ public class DefaultFlags {
 		"feur_extension_desert:oasis_small",
         "hexerei:owl_post_office",
         "idas:pillager_camp",
+		"idas:apothecary_abode",
 		"illagerinvasion:firecaller_hut",
 		"illagerinvasion:illager_fort",
 		"illagerinvasion:illusioner_tower",
@@ -917,6 +973,8 @@ public class DefaultFlags {
 		"trek:overworld/rare/pyramide_of_anubis",
 		"trek:overworld/rare/wooden_manor",
 		"trek:overworld/rare/villager_fortress",
+		"wabi_sabi_structures:llama_sanctuary_hills",
+		"wabi_sabi_structures:llama_sanctuary_plateau",
         "wabi_sabi_structures:abandoned_small_castle",
 		"wabi_sabi_structures:zen_chair_museum"
     );
@@ -980,6 +1038,7 @@ public class DefaultFlags {
 		"ati_structures:woodland_keep",
         "create_structures_arise:create_ruined_castle",
 		"create_structures_arise:obsidiantemple",
+		"farmers_structures:aquacultures_cod",
 		"imst:train_station",
 		"mushroomquest:witch_cottage_redone",
         "mythsandlegends:ancient_vestiges",
@@ -989,6 +1048,7 @@ public class DefaultFlags {
 		"species:paleontology_dig_site",
 		"trek:overworld/medium/oasis",
 		"trek:overworld/medium/spruce_cottage",
+		"trek:overworld/medium/strange_house",
         "wabi_sabi_structures:frost_reactor_plant"
     );
 
@@ -1007,6 +1067,7 @@ public class DefaultFlags {
     //REMOVE_WATERLOGGING
     //<--- Add ignore_waterlogging to structures, making them immune to waterlogging --->
     public static final List<String> removeWaterlogging = ImmutableList.of(
+		"hollowmarch:sultans_bazaar",
 		"illagerstructures:submarine"
     );
 
@@ -1056,6 +1117,7 @@ public class DefaultFlags {
 		"hopo:portal/overworld/portal_deepslate",
 		"hopo:portal/overworld/portal_dripstone",
 		"hopo:portal/overworld/portal_lush",
+		"kattersstructures:better_vanilla_dungeon",
 		"mtr:stronghold"
     );
 
@@ -1069,6 +1131,7 @@ public class DefaultFlags {
     //IS_LATE_SPAWN_STEP
     //<--- Change the spawn step to "fluid_springs" to place it later than all other structures --->
     public static final List<String> lateSpawnStep = ImmutableList.of(
+		"hopo:underwater_small_ruins",
 		"kattersstructures:village_birch",
 		"kattersstructures:village_cherry",
 		"kattersstructures:village_jungle",
@@ -1082,6 +1145,7 @@ public class DefaultFlags {
     //HAS_VILLAGE_FIX
     //<--- Flag specific to integrated villages - fixes start height and terrain adaptation --->
     public static final List<String> hasVillageFix = ImmutableList.of(
+		"idas:tinkers_citadel",
 		"integrated_villages:cabin_village",
 		"integrated_villages:clockwork_village",
 		"integrated_villages:kutcha_village",
@@ -1094,6 +1158,190 @@ public class DefaultFlags {
 		"dungeons_arise:merchant_campsite",
 		"dungeons_arise:illager_campsite"
     );
+
+    //HAS_NETHER_FIX
+    //<--- Flag specific to nether structures - helps them spawn on terrain --->
+    public static final List<String> hasNetherFix = ImmutableList.of(
+		"ati_structures:wither_keep",
+		"companions:companions_tent",
+		"create_ltab:nether_roof_house",
+		"create_structures_arise:darkcastle",
+		"create_structures_arise:obsidiantemple",
+		"create_structures_arise:deadlordshouse",
+		"create_structures_arise:crimsite_tower",
+		"farmers_structures:cook_nether_1",
+		"farmers_structures:cooks_nether_1",
+		"farmers_structures:cook_nether_2",
+		"farmers_structures:cooks_nether_2",
+		"hopo:portal/nether/piglin_ruin",
+		"incendium:abandoned_tower",
+		"incendium:infernal_altar",
+		"incendium:piglin_village",
+		"incendium:quartz_kitchen",
+		"incendium:sanctum",
+		"legendary_monsters:lava_eater_spawn",
+		"legendary_monsters:soul_fortress_remains",
+		"legendary_monsters:warped_fungussus_nest",
+		"legendary_monsters:skeletosaurus_nest",
+		"letsdoaddon-structures:crimson_vinery",
+		"letsdoaddon-structures:warped_vinery",
+		"mythsandlegends:scorched_nest",
+		"netherman:eye_columns",
+		"netherman:gehen_statue",
+		"netherman:trap",
+		"netherman:pipes",
+		"netherman:nether_geyser",
+		"nova_structures:nether_keep",
+		"nova_structures:nether_port",
+		"nova_structures:nether_skeleton_tower_basalt",
+		"nova_structures:nether_skeleton_tower_crimson",
+		"nova_structures:nether_skeleton_tower_soul",
+		"nova_structures:nether_skeleton_tower_warped",
+		"nova_structures:nether_skeleton_tower_waste",
+		"nova_structures:piglin_camp",
+		"nova_structures:piglin_donjon",
+		"nova_structures:piglin_outstation",
+		"nova_structures:skeleton_camp_crimson",
+		"nova_structures:skeleton_camp_soul",
+		"nova_structures:skeleton_camp_warped",
+		"nova_structures:skeleton_camp_waste",
+		"nova_structures:donjon",
+		"nova_structures:hamlet",
+		"structory_towers:nether/fortress_tower",
+		"structory_towers:nether/strange_outpost",
+		"structory_towers:nether/warped_outpost",
+		"totw_modded:nether",
+		"trek:nether/common/nether_pillar",
+		"trek:nether/medium/overworld_leak_1",
+		"trek:nether/medium/overworld_leak_2",
+		"wabi_sabi_structures:basalt_castle",
+		"wabi_sabi_structures:basalt_factory_ruin",
+		"wabi_sabi_structures:hellish_orphanage"
+    );
+
+	//IS_CRIMSON_NETHER
+	//<--- Forces structures to spawn exclusively in crimson nether biomes --->
+	public static final List<String> forceCrimsonNether = ImmutableList.of(
+		"minecraft:ruined_portal_nether",
+		"betterfortresses:fortress",
+		"bosses_of_mass_destruction:gauntlet_arena",
+		"cataclysm:burning_arena",
+		"cataclysm:ruined_citadel",
+		"create_ltab:nether_roof_house",
+		"create_structures_arise:darkcastle",
+		"create_structures_arise:obsidiantemple",
+		"create_structures_arise:deadlordshouse",
+		"create_structures_arise:crimsite_tower",
+		"dungeons_arise:foundry",
+		"dungeons_revival:hell_arena",
+		"eugene:piglin_camp",
+		"farmers_structures:cook_nether_1",
+		"farmers_structures:cooks_nether_1",
+		"farmers_structures:cook_nether_2",
+		"farmers_structures:cooks_nether_2",
+		"incendium:nether_reactor",
+		"incendium:infernal_altar",
+		"legendary_monsters:lava_eater_spawn",
+		"legendary_monsters:skeletosaurus_nest",
+		"letsdoaddon-structures:crimson_vinery",
+		"mns:medium_crimson_fungus",
+		"mns:medium_crimson_fungus_2",
+		"mns:medium_crimson_well",
+		"mns:nether_wart_farm",
+		"mns:very_small_nether_brick",
+		"mns:very_small_nether_brick_2",
+		"mns:very_small_nether_brick_3",
+		"mythsandlegends:scorched_nest",
+		"netherman:eye_columns",
+		"netherman:gast_chamber",
+		"netherman:gehen_statue",
+		"netherman:trap",
+		"netherman:pipes",
+		"nova_structures:nether_keep",
+		"nova_structures:nether_port",
+		"nova_structures:nether_skeleton_tower_waste",
+		"nova_structures:piglin_camp",
+		"nova_structures:piglin_donjon",
+		"nova_structures:piglin_outstation",
+		"nova_structures:skeleton_camp_crimson",
+		"nova_structures:skeleton_camp_waste",
+		"nova_structures:donjon",
+		"nova_structures:hamlet",
+		"philipsruins:nether_lava_ruins",
+		"philipsruins:sealedruinedghaststatue1",
+		"philipsruins:start_nether_dungeon",
+		"philipsruins:start_nether_ruin",
+		"species:wraptor_coop",
+		"structory_towers:nether/fortress_tower",
+		"structory_towers:nether/strange_outpost",
+		"totw_modded:nether",
+		"trek:nether/common/nether_pillar",
+		"trek:nether/medium/overworld_leak_1",
+		"trek:nether/medium/overworld_leak_2",
+		"towns_and_towers:exclusives/village_piglin",
+		"wabi_sabi_structures:hellish_orphanage",
+		"wabi_sabi_structures:obsidian_egg",
+		"wabi_sabi_structures:strider_stable"
+	);
+
+	//IS_WARPED_NETHER
+	//<--- Forces structures to spawn exclusively in warped nether biomes --->
+	public static final List<String> forceWarpedNether = ImmutableList.of(
+		"incendium:abandoned_tower",
+		"incendium:sanctum",
+		"incendium:quartz_kitchen",
+		"legendary_monsters:warped_fungussus_nest",
+		"letsdoaddon-structures:warped_vinery",
+		"mns:medium_warped_fungus",
+		"mns:medium_warped_fungus_2",
+		"mns:medium_warped_well",
+		"mns:warped_dome",
+		"mns:warped_house",
+		"mns:warped_pool",
+		"mns:nether_tower",
+		"mns:large_house_1",
+		"mns:medium_house",
+		"mns:medium_house_2",
+		"netherman:mansion_nether",
+		"nethervillagertrader:nether_trader_mansion",
+		"nova_structures:nether_skeleton_tower_warped",
+		"nova_structures:skeleton_camp_warped",
+		"repurposed_structures:outpost_warped",
+		"repurposed_structures:shipwreck_warped",
+		"repurposed_structures:temple_nether_warped",
+		"repurposed_structures:mineshaft_warped",
+		"repurposed_structures:village_warped",
+		"structory_towers:nether/warped_outpost",
+		"wabi_sabi_structures:warped_ender_claw"
+	);
+
+	//IS_ASHEN_NETHER
+	//<--- Forces structures to spawn exclusively in ashen(soul) nether biomes --->
+	public static final List<String> forceAshenNether = ImmutableList.of(
+		"ati_structures:wither_keep",
+		"block_factorys_bosses:underworld_arena",
+		"cataclysm:soul_black_smith",
+		"dungeons_plus:soul_prison",
+		"legendary_monsters:lava_eater_spawn",
+		"legendary_monsters:soul_fortress_remains",
+		"mns:soul_fire",
+		"mns:grave_yard",
+		"mns:very_small_blackstone",
+		"mns:very_small_blackstone_2",
+		"mns:very_small_blackstone_3",
+		"mns:very_small_blackstone_4",
+		"mns:circle_blackstone",
+		"nova_structures:nether_skeleton_tower_basalt",
+		"nova_structures:nether_skeleton_tower_soul",
+		"nova_structures:skeleton_camp_soul",
+		"repurposed_structures:outpost_basalt",
+		"repurposed_structures:temple_nether_basalt",
+		"repurposed_structures:temple_nether_soul",
+		"repurposed_structures:mineshaft_soul",
+		"repurposed_structures:mineshaft_basalt",
+		"wabi_sabi_structures:basalt_castle",
+		"wabi_sabi_structures:basalt_factory_ruin"
+	);
 
 	//IS_RARE_FROZEN_CAVES
 	//<--- Forces structures to spawn exclusively in frozen cave biomes --->
@@ -1133,7 +1381,8 @@ public class DefaultFlags {
 	//IS_CULTIVATED_FIELDS
 	//<--- Forces structures to spawn exclusively in the deep dark --->
 	public static final List<String> forceTropicalIsland = ImmutableList.of(
-		"natures_spirit:village_coconut"
+		"natures_spirit:village_coconut",
+		"mss:volcano"
 	);
 
 	//IS_BIRCH_FOREST
@@ -1198,6 +1447,7 @@ public class DefaultFlags {
 		"illagerinvasion:illusioner_tower",
 		"illagerinvasion:illager_fort",
 		"nova_structures:creeping_crypt",
+		"qrafty:mangrove_village",
 		"repurposed_structures:mansion_desert",
 		"repurposed_structures:mansion_jungle",
 		"repurposed_structures:mansion_snowy",
@@ -1217,13 +1467,19 @@ public class DefaultFlags {
 	//<--- Override built-in difficulty calculation for individual structures --->
 	public static final List<String> forceDifficultySix = ImmutableList.of(
 		"minecraft:mansion",
+		"block_factorys_bosses:dragon_tower",
+		"block_factorys_bosses:kraken_ship",
+		"block_factorys_bosses:underworld_arena",
 		"bosses_of_mass_destruction:void_blossom",
 		"bosses_of_mass_destruction:gauntlet_arena",
 		"block_factorys_bosses:sandworm_nest",
 		"block_factorys_bosses:yeti_hideout",
 		"cataclysm:cursed_pyramid",
 		"cataclysm:frosted_prison",
+		"create_structures_arise:obsidiantemple",
+		"create_structures_arise:deadlordshouse",
 		"dungeons_arise:shiraz_palace",
+		"netherman:mansion_nether",
 		"nova_structures:lone_citadel"
 	);
 
@@ -1231,14 +1487,27 @@ public class DefaultFlags {
 	//<--- Override built-in difficulty calculation for individual structures --->
 	public static final List<String> forceDifficultySeven = ImmutableList.of(
 		"minecraft:ancient_city",
-		"block_factorys_bosses:dragon_tower",
+		"betterfortresses:fortress",
 		"bosses_of_mass_destruction:obsidilith_arena",
 		"cataclysm:burning_arena",
 		"cataclysm:ruined_citadel",
 		"cataclysm:soul_black_smith",
+		"create_structures_arise:darkcastle",
+		"create_structures_arise:crimsite_tower",
+		"dungeons_arise:aviary",
+		"dungeons_arise:heavenly_challenger",
+		"dungeons_arise:heavenly_conqueror",
+		"dungeons_arise:heavenly_rider",
+		"dungeons_arise:mechanical_nest",
+		"dungeons_arise:plague_asylum",
+		"dungeons_arise:scorched_mines",
+		"dungeons_arise:shiraz_palace",
 		"eternal_starlight:golem_forge",
 		"eternal_starlight:cursed_garden",
-		"integrated_stronghold:stronghold"
+		"integrated_stronghold:stronghold",
+		"mtr:nether_temple",
+		"nova_structures:nether_keep",
+		"nova_structures:nether_port"
 	);
 
 	//IS_DIFFICULTY_EIGHT
@@ -1267,6 +1536,7 @@ public class DefaultFlags {
 		"block_factorys_bosses:sandworm_nest",
 		"block_factorys_bosses:yeti_hideout",
 		"block_factorys_bosses:dragon_tower",
+		"block_factorys_bosses:kraken_ship",
 		"block_factorys_bosses:underworld_arena",
 		"bosses_of_mass_destruction:lich_tower",
 		"bosses_of_mass_destruction:obsidilith_arena",
@@ -1277,13 +1547,20 @@ public class DefaultFlags {
 		"fdbosses:chesed_arena",
 		"fdbosses:malkuth_arena",
 		"mythsandlegends:graveyard",
+		"netherman:mansion_nether",
 		"withershrine:shrines"
 	);
 
 
 //<------------------------------------------------------BIOMES------------------------------------------------------>
 //<------------------------------------------------------------------------------------------------------------------>
-    //REMOVE_SNOW
+    //IGNORE_SPAWN_REDISTRIBUTION
+    //<--- Simply ignores spawn overrides from mod redistribution --->
+    public static final List<String> ignoreSpawnRedistribution = ImmutableList.of(
+
+    );
+
+	//REMOVE_SNOW
     //<--- Simply removes any foliage/grass color overrides to leave coloration up to the climate values --->
     public static final List<String> removeSnow = ImmutableList.of(
 		"wythers:jade_highlands"

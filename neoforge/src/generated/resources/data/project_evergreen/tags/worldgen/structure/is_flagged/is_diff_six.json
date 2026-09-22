@@ -1,7 +1,19 @@
 {
   "values": [
     {
+      "id": "block_factorys_bosses:dragon_tower",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:kraken_ship",
+      "required": false
+    },
+    {
       "id": "block_factorys_bosses:sandworm_nest",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:underworld_arena",
       "required": false
     },
     {
@@ -25,11 +37,23 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:deadlordshouse",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:obsidiantemple",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:shiraz_palace",
       "required": false
     },
     {
       "id": "minecraft:mansion",
+      "required": false
+    },
+    {
+      "id": "netherman:mansion_nether",
       "required": false
     },
     {

@@ -27,6 +27,10 @@
     {
       "id": "koopascritters:dwarf_sperm_whale",
       "required": false
+    },
+    {
+      "id": "naturalist:whale",
+      "required": false
     }
   ]
 }

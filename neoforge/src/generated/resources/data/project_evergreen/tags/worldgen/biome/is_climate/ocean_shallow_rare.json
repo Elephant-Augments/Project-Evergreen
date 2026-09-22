@@ -3,6 +3,10 @@
     {
       "id": "jellyfishing:jellyfish_fields",
       "required": false
+    },
+    {
+      "id": "spawn:seagrass_meadow",
+      "required": false
     }
   ]
 }

@@ -15,6 +15,14 @@
     {
       "id": "koopascritters:ocellate_river_ray",
       "required": false
+    },
+    {
+      "id": "naturalist:alligator",
+      "required": false
+    },
+    {
+      "id": "naturalist:firefly",
+      "required": false
     }
   ]
 }

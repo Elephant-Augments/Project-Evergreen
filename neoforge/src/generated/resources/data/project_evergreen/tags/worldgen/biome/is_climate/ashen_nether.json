@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "id": "betternether:gloomwood",
+      "required": false
+    },
+    {
+      "id": "betternether:gravel_desert",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_grasslands",
+      "required": false
+    },
+    {
+      "id": "betternether:poor_nether_grasslands",
+      "required": false
+    },
+    {
+      "id": "betternether:soul_plain",
+      "required": false
+    },
+    {
+      "id": "gardens_of_the_dead:soulblight_forest",
+      "required": false
+    },
+    {
+      "id": "minecraft:soul_sand_valley",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:infernal_holt",
+      "required": false
+    }
+  ]
+}

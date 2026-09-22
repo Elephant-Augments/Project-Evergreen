@@ -49,7 +49,19 @@
       "required": false
     },
     {
+      "id": "block_factorys_bosses:dragon_tower",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:kraken_ship",
+      "required": false
+    },
+    {
       "id": "block_factorys_bosses:sandworm_nest",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:underworld_arena",
       "required": false
     },
     {
@@ -81,6 +93,14 @@
       "required": false
     },
     {
+      "id": "create_structures_arise:deadlordshouse",
+      "required": false
+    },
+    {
+      "id": "create_structures_arise:obsidiantemple",
+      "required": false
+    },
+    {
       "id": "dungeons_arise:bandit_towers",
       "required": false
     },
@@ -105,15 +125,7 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:plague_asylum",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:scorched_mines",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:shiraz_palace",
+      "id": "explorify:black_spiral",
       "required": false
     },
     {
@@ -205,6 +217,34 @@
       "required": false
     },
     {
+      "id": "idas:witches_treestump",
+      "required": false
+    },
+    {
+      "id": "incendium:abandoned_tower",
+      "required": false
+    },
+    {
+      "id": "incendium:infernal_altar",
+      "required": false
+    },
+    {
+      "id": "incendium:piglin_village",
+      "required": false
+    },
+    {
+      "id": "incendium:pipeline",
+      "required": false
+    },
+    {
+      "id": "incendium:quartz_kitchen",
+      "required": false
+    },
+    {
+      "id": "incendium:ruined_lab",
+      "required": false
+    },
+    {
       "id": "integrated_villages:airship_village",
       "required": false
     },
@@ -225,6 +265,22 @@
       "required": false
     },
     {
+      "id": "legendary_monsters:collapsed_kingdom",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:frostbitten_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:mossy_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:ruined_pyramid",
+      "required": false
+    },
+    {
       "id": "loot_n_explore:frostmonarch_temple",
       "required": false
     },
@@ -237,6 +293,14 @@
       "required": false
     },
     {
+      "id": "minecraft:bastion_remnant",
+      "required": false
+    },
+    {
+      "id": "minecraft:fortress",
+      "required": false
+    },
+    {
       "id": "minecraft:mansion",
       "required": false
     },
@@ -245,11 +309,7 @@
       "required": false
     },
     {
-      "id": "mmr:desert_mineshaft",
-      "required": false
-    },
-    {
-      "id": "mmr:mesa_mineshaft",
+      "id": "mmr:nether_mineshaft",
       "required": false
     },
     {
@@ -278,6 +338,22 @@
     },
     {
       "id": "mtr:stronghold",
+      "required": false
+    },
+    {
+      "id": "netherman:head_altar",
+      "required": false
+    },
+    {
+      "id": "netherman:mansion_nether",
+      "required": false
+    },
+    {
+      "id": "netherman:maze",
+      "required": false
+    },
+    {
+      "id": "nethervillagertrader:nether_trader_mansion",
       "required": false
     },
     {

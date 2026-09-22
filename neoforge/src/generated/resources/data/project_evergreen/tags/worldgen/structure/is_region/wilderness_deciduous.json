@@ -69,10 +69,6 @@
       "required": false
     },
     {
-      "id": "idas:the_log",
-      "required": false
-    },
-    {
       "id": "idas:tree_of_wisdom",
       "required": false
     },

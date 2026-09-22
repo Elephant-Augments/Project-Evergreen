@@ -9,23 +9,7 @@
       "required": false
     },
     {
-      "id": "hybrid-aquatic:crayfish",
-      "required": false
-    },
-    {
-      "id": "hybrid-aquatic:fiddler_crab",
-      "required": false
-    },
-    {
-      "id": "hybrid-aquatic:herring",
-      "required": false
-    },
-    {
-      "id": "hybrid-aquatic:mackerel",
-      "required": false
-    },
-    {
-      "id": "hybrid-aquatic:sea_urchin",
+      "id": "envelope:pigeon",
       "required": false
     },
     {
@@ -214,6 +198,10 @@
     },
     {
       "id": "quark:shiba",
+      "required": false
+    },
+    {
+      "id": "spawn:sunfish",
       "required": false
     }
   ]

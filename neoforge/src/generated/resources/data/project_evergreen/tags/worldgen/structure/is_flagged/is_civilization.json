@@ -265,6 +265,26 @@
       "required": false
     },
     {
+      "id": "envelope:dovecote_desert",
+      "required": false
+    },
+    {
+      "id": "envelope:dovecote_plains",
+      "required": false
+    },
+    {
+      "id": "envelope:dovecote_savanna",
+      "required": false
+    },
+    {
+      "id": "envelope:dovecote_taiga",
+      "required": false
+    },
+    {
+      "id": "explorify:campsite",
+      "required": false
+    },
+    {
       "id": "explorify:farmstead",
       "required": false
     },
@@ -410,6 +430,10 @@
     },
     {
       "id": "formationsoverworld:wagon",
+      "required": false
+    },
+    {
+      "id": "hollowmarch:frozen_igloo",
       "required": false
     },
     {
@@ -569,6 +593,10 @@
       "required": false
     },
     {
+      "id": "idas:pumpkin_cafe",
+      "required": false
+    },
+    {
       "id": "idas:redhorn_guild",
       "required": false
     },
@@ -581,6 +609,10 @@
       "required": false
     },
     {
+      "id": "idas:the_log",
+      "required": false
+    },
+    {
       "id": "idas:tinkers_workshop",
       "required": false
     },
@@ -590,6 +622,14 @@
     },
     {
       "id": "idas:treetop_tavern",
+      "required": false
+    },
+    {
+      "id": "idas:tudor_pub",
+      "required": false
+    },
+    {
+      "id": "idas:wacky_wares",
       "required": false
     },
     {
@@ -853,7 +893,19 @@
       "required": false
     },
     {
+      "id": "mmr:desert_mineshaft",
+      "required": false
+    },
+    {
       "id": "mmr:jungle_mineshaft",
+      "required": false
+    },
+    {
+      "id": "mmr:mesa_mineshaft",
+      "required": false
+    },
+    {
+      "id": "mmr:mineshaft",
       "required": false
     },
     {
@@ -1613,6 +1665,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/common/well_pillager_small",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/base_1",
       "required": false
     },
@@ -1693,6 +1749,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/medium/tower",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/wandering_trader_dark_oak",
       "required": false
     },
@@ -1702,6 +1762,10 @@
     },
     {
       "id": "trek:overworld/medium/wandering_trader_spruce",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/well_pillager_medium",
       "required": false
     },
     {
@@ -1754,10 +1818,6 @@
     },
     {
       "id": "u_desert:desert/ambient/cactus/patch",
-      "required": false
-    },
-    {
-      "id": "u_desert:desert/ambient/oasis/dried_up",
       "required": false
     },
     {

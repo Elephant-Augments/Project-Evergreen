@@ -77,6 +77,10 @@
       "required": false
     },
     {
+      "id": "create_ltab:big_windmill",
+      "required": false
+    },
+    {
       "id": "create_ltab:oak_house",
       "required": false
     },
@@ -118,6 +122,10 @@
     },
     {
       "id": "hexerei:owl_post_office",
+      "required": false
+    },
+    {
+      "id": "idas:apothecary_abode",
       "required": false
     },
     {
@@ -274,6 +282,14 @@
     },
     {
       "id": "wabi_sabi_structures:abandoned_small_castle",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:llama_sanctuary_hills",
+      "required": false
+    },
+    {
+      "id": "wabi_sabi_structures:llama_sanctuary_plateau",
       "required": false
     },
     {

@@ -93,6 +93,10 @@
       "required": false
     },
     {
+      "id": "envelope:dovecote_plains",
+      "required": false
+    },
+    {
       "id": "eugene:castle",
       "required": false
     },
@@ -213,6 +217,14 @@
       "required": false
     },
     {
+      "id": "idas:tudor_pub",
+      "required": false
+    },
+    {
+      "id": "idas:wacky_wares",
+      "required": false
+    },
+    {
       "id": "idas:washing_camp",
       "required": false
     },
@@ -254,6 +266,10 @@
     },
     {
       "id": "medieval_buildings:tower",
+      "required": false
+    },
+    {
+      "id": "mmr:mineshaft",
       "required": false
     },
     {
@@ -425,6 +441,10 @@
       "required": false
     },
     {
+      "id": "trek:overworld/common/well_pillager_small",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/church",
       "required": false
     },
@@ -437,7 +457,15 @@
       "required": false
     },
     {
+      "id": "trek:overworld/medium/tower",
+      "required": false
+    },
+    {
       "id": "trek:overworld/medium/wandering_trader_oak",
+      "required": false
+    },
+    {
+      "id": "trek:overworld/medium/well_pillager_medium",
       "required": false
     },
     {

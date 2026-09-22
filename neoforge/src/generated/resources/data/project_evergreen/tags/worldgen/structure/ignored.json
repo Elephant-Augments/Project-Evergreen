@@ -57,10 +57,6 @@
       "required": false
     },
     {
-      "id": "betterfortresses:fortress",
-      "required": false
-    },
-    {
       "id": "cataclysm:abandoned_spire",
       "required": false
     },
@@ -146,10 +142,6 @@
     },
     {
       "id": "goety:final_terminal",
-      "required": false
-    },
-    {
-      "id": "hollowmarch:cloudbreaker",
       "required": false
     },
     {
@@ -273,199 +265,7 @@
       "required": false
     },
     {
-      "id": "mns:bridge_1",
-      "required": false
-    },
-    {
-      "id": "mns:bridge_2",
-      "required": false
-    },
-    {
-      "id": "mns:bridge_3",
-      "required": false
-    },
-    {
-      "id": "mns:bridge_4",
-      "required": false
-    },
-    {
-      "id": "mns:bridge_5",
-      "required": false
-    },
-    {
-      "id": "mns:bridge_6",
-      "required": false
-    },
-    {
-      "id": "mns:circle_blackstone",
-      "required": false
-    },
-    {
-      "id": "mns:circle_nether_brick",
-      "required": false
-    },
-    {
-      "id": "mns:copper_tower",
-      "required": false
-    },
-    {
-      "id": "mns:crimson_forge",
-      "required": false
-    },
-    {
-      "id": "mns:crimson_lava_well",
-      "required": false
-    },
-    {
-      "id": "mns:giant_skull",
-      "required": false
-    },
-    {
-      "id": "mns:grave_yard",
-      "required": false
-    },
-    {
-      "id": "mns:large_blackstone_pillars",
-      "required": false
-    },
-    {
-      "id": "mns:large_blackstone_walls",
-      "required": false
-    },
-    {
-      "id": "mns:large_house_1",
-      "required": false
-    },
-    {
-      "id": "mns:large_nether_brick",
-      "required": false
-    },
-    {
-      "id": "mns:lava_pool",
-      "required": false
-    },
-    {
-      "id": "mns:leafy_rubble",
-      "required": false
-    },
-    {
-      "id": "mns:medium_blackstone",
-      "required": false
-    },
-    {
-      "id": "mns:medium_crimson_fungus",
-      "required": false
-    },
-    {
-      "id": "mns:medium_crimson_fungus_2",
-      "required": false
-    },
-    {
-      "id": "mns:medium_crimson_well",
-      "required": false
-    },
-    {
-      "id": "mns:medium_house",
-      "required": false
-    },
-    {
-      "id": "mns:medium_house_2",
-      "required": false
-    },
-    {
-      "id": "mns:medium_warped_fungus",
-      "required": false
-    },
-    {
-      "id": "mns:medium_warped_fungus_2",
-      "required": false
-    },
-    {
-      "id": "mns:medium_warped_well",
-      "required": false
-    },
-    {
-      "id": "mns:nether_tower",
-      "required": false
-    },
-    {
-      "id": "mns:nether_wart_farm",
-      "required": false
-    },
-    {
-      "id": "mns:ruined_portal",
-      "required": false
-    },
-    {
-      "id": "mns:sandy_skull",
-      "required": false
-    },
-    {
-      "id": "mns:shrine",
-      "required": false
-    },
-    {
-      "id": "mns:small_nether_brick",
-      "required": false
-    },
-    {
-      "id": "mns:soul_fire",
-      "required": false
-    },
-    {
-      "id": "mns:sword",
-      "required": false
-    },
-    {
-      "id": "mns:train",
-      "required": false
-    },
-    {
-      "id": "mns:very_small_blackstone",
-      "required": false
-    },
-    {
-      "id": "mns:very_small_blackstone_2",
-      "required": false
-    },
-    {
-      "id": "mns:very_small_blackstone_3",
-      "required": false
-    },
-    {
-      "id": "mns:very_small_blackstone_4",
-      "required": false
-    },
-    {
-      "id": "mns:very_small_nether_brick",
-      "required": false
-    },
-    {
-      "id": "mns:very_small_nether_brick_2",
-      "required": false
-    },
-    {
-      "id": "mns:very_small_nether_brick_3",
-      "required": false
-    },
-    {
-      "id": "mns:warped_dome",
-      "required": false
-    },
-    {
-      "id": "mns:warped_house",
-      "required": false
-    },
-    {
-      "id": "mns:warped_pool",
-      "required": false
-    },
-    {
       "id": "mss:red_sand",
-      "required": false
-    },
-    {
-      "id": "mtr:nether_temple",
       "required": false
     },
     {
@@ -478,6 +278,10 @@
     },
     {
       "id": "mvs:dead_tree_spruce",
+      "required": false
+    },
+    {
+      "id": "netherman:believer_house",
       "required": false
     },
     {

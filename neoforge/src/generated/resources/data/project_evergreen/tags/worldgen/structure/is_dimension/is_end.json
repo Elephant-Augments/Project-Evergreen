@@ -237,6 +237,18 @@
       "required": false
     },
     {
+      "id": "immersiveenchanting:ancient_library_end",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:ancient_tower_remains",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:space_station",
+      "required": false
+    },
+    {
       "id": "minecraft:end_city",
       "required": false
     },
@@ -314,6 +326,10 @@
     },
     {
       "id": "repurposed_structures:outpost_end",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:pyramid_end",
       "required": false
     },
     {

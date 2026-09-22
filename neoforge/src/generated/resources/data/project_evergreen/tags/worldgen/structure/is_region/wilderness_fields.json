@@ -125,10 +125,6 @@
       "required": false
     },
     {
-      "id": "trek:overworld/medium/farm_pillager",
-      "required": false
-    },
-    {
       "id": "trek:overworld/medium/stonehedge",
       "required": false
     }

@@ -21,15 +21,7 @@
       "required": false
     },
     {
-      "id": "ati_structures:villager_inn",
-      "required": false
-    },
-    {
       "id": "beautify:botanist_house_desert",
-      "required": false
-    },
-    {
-      "id": "create_ltab:plains_big",
       "required": false
     },
     {
@@ -38,10 +30,6 @@
     },
     {
       "id": "dungeons_arise:greenwood_pub",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:merchant_campsite",
       "required": false
     },
     {
@@ -97,7 +85,7 @@
       "required": false
     },
     {
-      "id": "hollowmarch:sultans_bazaar",
+      "id": "idas:abandoned_vineyard",
       "required": false
     },
     {
@@ -109,7 +97,63 @@
       "required": false
     },
     {
+      "id": "idas:beekeepers_house",
+      "required": false
+    },
+    {
+      "id": "idas:castle",
+      "required": false
+    },
+    {
+      "id": "idas:dig_site/dig_site",
+      "required": false
+    },
+    {
+      "id": "idas:dig_site/dig_site_desert",
+      "required": false
+    },
+    {
+      "id": "idas:farmhouse",
+      "required": false
+    },
+    {
+      "id": "idas:hermits_hollow",
+      "required": false
+    },
+    {
+      "id": "idas:pumpkin_cafe",
+      "required": false
+    },
+    {
+      "id": "idas:redhorn_guild",
+      "required": false
+    },
+    {
+      "id": "idas:ruined_church",
+      "required": false
+    },
+    {
+      "id": "idas:the_log",
+      "required": false
+    },
+    {
       "id": "idas:tinkers_workshop",
+      "required": false
+    },
+    {
+      "id": "idas:treetop_tavern",
+      "required": false
+    },
+    {
+      "id": "idas:tudor_pub",
+      "required": false
+    },
+    {
+      "id": "idas:wacky_wares",
+      "required": false
+    },
+    {
+      "id": "idas:winter_wagon",
       "required": false
     },
     {
@@ -118,10 +162,6 @@
     },
     {
       "id": "kattersstructures:villager_desert",
-      "required": false
-    },
-    {
-      "id": "kattersstructures:windmill",
       "required": false
     },
     {
@@ -226,10 +266,6 @@
     },
     {
       "id": "trek:overworld/medium/desert_ranch",
-      "required": false
-    },
-    {
-      "id": "trek:overworld/rare/villager_castle",
       "required": false
     },
     {

@@ -653,6 +653,114 @@
       "required": false
     },
     {
+      "id": "naturalist:anglerfish",
+      "required": false
+    },
+    {
+      "id": "naturalist:bass",
+      "required": false
+    },
+    {
+      "id": "naturalist:blobfish",
+      "required": false
+    },
+    {
+      "id": "naturalist:catfish",
+      "required": false
+    },
+    {
+      "id": "naturalist:clam",
+      "required": false
+    },
+    {
+      "id": "naturalist:giant_isopod",
+      "required": false
+    },
+    {
+      "id": "naturalist:great_white_shark",
+      "required": false
+    },
+    {
+      "id": "naturalist:jellyfish",
+      "required": false
+    },
+    {
+      "id": "naturalist:piranha",
+      "required": false
+    },
+    {
+      "id": "naturalist:ray",
+      "required": false
+    },
+    {
+      "id": "naturalist:starfish",
+      "required": false
+    },
+    {
+      "id": "naturalist:whale",
+      "required": false
+    },
+    {
+      "id": "spawn:angler_fish",
+      "required": false
+    },
+    {
+      "id": "spawn:barracuda",
+      "required": false
+    },
+    {
+      "id": "spawn:blenny",
+      "required": false
+    },
+    {
+      "id": "spawn:bluefish",
+      "required": false
+    },
+    {
+      "id": "spawn:clam",
+      "required": false
+    },
+    {
+      "id": "spawn:herring",
+      "required": false
+    },
+    {
+      "id": "spawn:marine_iguana",
+      "required": false
+    },
+    {
+      "id": "spawn:octopus",
+      "required": false
+    },
+    {
+      "id": "spawn:pilot_fish",
+      "required": false
+    },
+    {
+      "id": "spawn:sea_cow",
+      "required": false
+    },
+    {
+      "id": "spawn:seahorse",
+      "required": false
+    },
+    {
+      "id": "spawn:seal",
+      "required": false
+    },
+    {
+      "id": "spawn:spider_crab",
+      "required": false
+    },
+    {
+      "id": "spawn:sunfish",
+      "required": false
+    },
+    {
+      "id": "spawn:tuna",
+      "required": false
+    },
+    {
       "id": "starcatcher:fish",
       "required": false
     }

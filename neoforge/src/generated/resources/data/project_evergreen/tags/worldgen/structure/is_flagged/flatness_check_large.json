@@ -185,10 +185,6 @@
       "required": false
     },
     {
-      "id": "ati_structures:villager_inn",
-      "required": false
-    },
-    {
       "id": "ati_structures:warden_monument",
       "required": false
     },
@@ -234,10 +230,6 @@
     },
     {
       "id": "block_factorys_bosses:dragon_tower",
-      "required": false
-    },
-    {
-      "id": "block_factorys_bosses:kraken_ship",
       "required": false
     },
     {
@@ -382,6 +374,10 @@
     },
     {
       "id": "dungeons_arise:coliseum",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise:desert_hall",
       "required": false
     },
     {
@@ -733,6 +729,14 @@
       "required": false
     },
     {
+      "id": "idas:abandoned_vineyard",
+      "required": false
+    },
+    {
+      "id": "idas:abandonedhouse",
+      "required": false
+    },
+    {
       "id": "idas:ancient_mines",
       "required": false
     },
@@ -757,11 +761,39 @@
       "required": false
     },
     {
+      "id": "idas:beekeepers_house",
+      "required": false
+    },
+    {
+      "id": "idas:castle",
+      "required": false
+    },
+    {
       "id": "idas:desert_pyramid",
       "required": false
     },
     {
+      "id": "idas:dig_site/dig_site",
+      "required": false
+    },
+    {
+      "id": "idas:dig_site/dig_site_desert",
+      "required": false
+    },
+    {
+      "id": "idas:farmhouse",
+      "required": false
+    },
+    {
       "id": "idas:haunted_manor",
+      "required": false
+    },
+    {
+      "id": "idas:hermits_hollow",
+      "required": false
+    },
+    {
+      "id": "idas:hunters_cabin",
       "required": false
     },
     {
@@ -781,7 +813,23 @@
       "required": false
     },
     {
+      "id": "idas:pumpkin_cafe",
+      "required": false
+    },
+    {
+      "id": "idas:redhorn_guild",
+      "required": false
+    },
+    {
+      "id": "idas:ruined_church",
+      "required": false
+    },
+    {
       "id": "idas:ruins_of_the_deep",
+      "required": false
+    },
+    {
+      "id": "idas:the_log",
       "required": false
     },
     {
@@ -801,7 +849,31 @@
       "required": false
     },
     {
+      "id": "idas:treetop_tavern",
+      "required": false
+    },
+    {
+      "id": "idas:tudor_pub",
+      "required": false
+    },
+    {
+      "id": "idas:wacky_wares",
+      "required": false
+    },
+    {
       "id": "idas:windswept_shrine",
+      "required": false
+    },
+    {
+      "id": "idas:winter_wagon",
+      "required": false
+    },
+    {
+      "id": "idas:witches_treestump",
+      "required": false
+    },
+    {
+      "id": "idas:wizard_tower",
       "required": false
     },
     {
@@ -858,6 +930,30 @@
     },
     {
       "id": "imst:caravan",
+      "required": false
+    },
+    {
+      "id": "incendium:abandoned_tower",
+      "required": false
+    },
+    {
+      "id": "incendium:infernal_altar",
+      "required": false
+    },
+    {
+      "id": "incendium:piglin_village",
+      "required": false
+    },
+    {
+      "id": "incendium:pipeline",
+      "required": false
+    },
+    {
+      "id": "incendium:quartz_kitchen",
+      "required": false
+    },
+    {
+      "id": "incendium:ruined_lab",
       "required": false
     },
     {
@@ -1002,6 +1098,26 @@
     },
     {
       "id": "legendary_monsters:ancient_stronghold",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:cloudy_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:collapsed_kingdom",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:frostbitten_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:mossy_temple",
+      "required": false
+    },
+    {
+      "id": "legendary_monsters:ruined_pyramid",
       "required": false
     },
     {
@@ -1201,15 +1317,11 @@
       "required": false
     },
     {
-      "id": "netherman:gast_chamber",
-      "required": false
-    },
-    {
       "id": "netherman:mansion_nether",
       "required": false
     },
     {
-      "id": "netherman:trap",
+      "id": "nethervillagertrader:nether_trader_mansion",
       "required": false
     },
     {
@@ -1477,7 +1589,15 @@
       "required": false
     },
     {
+      "id": "spawn:dodo_island",
+      "required": false
+    },
+    {
       "id": "spawn:octopolis",
+      "required": false
+    },
+    {
+      "id": "spawn:volcanic_island",
       "required": false
     },
     {
