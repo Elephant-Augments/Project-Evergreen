@@ -153,7 +153,8 @@ public enum PEStructure {
         String path = name().toLowerCase();
         location = ResourceLocation.fromNamespaceAndPath(namespace.toLowerCase(), path);
         this.biomeTag = biomeTag;
-        initIDs(spawnOverrides);
+        //TODO Update old structure override method to new structure modifiers
+        //initIDs(spawnOverrides);
     }
 
     public ResourceLocation location() {

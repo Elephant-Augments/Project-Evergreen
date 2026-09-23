@@ -19,12 +19,7 @@
         "is_radius_bound": false,
         "is_water_bound": false,
         "is_water_restricted": true,
-        "spawn_overrides": {
-          "monster": {
-            "bounding_box": "full",
-            "spawns": []
-          }
-        },
+        "spawn_overrides": {},
         "patchable": true,
         "is_diff_six": true,
         "is_boss_structure": true,

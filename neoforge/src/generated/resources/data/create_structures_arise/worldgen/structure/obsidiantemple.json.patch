@@ -19,12 +19,7 @@
         "is_radius_bound": false,
         "is_water_bound": false,
         "is_water_restricted": false,
-        "spawn_overrides": {
-          "water_creature": {
-            "bounding_box": "full",
-            "spawns": []
-          }
-        },
+        "spawn_overrides": {},
         "patchable": true,
         "ignored_placement_tweaks": true,
         "add_beard_thin_adaptation": true,
