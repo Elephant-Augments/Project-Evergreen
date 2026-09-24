@@ -2313,6 +2313,58 @@
       "required": false
     },
     {
+      "id": "spider_overhaul:birch_spider",
+      "required": false
+    },
+    {
+      "id": "spider_overhaul:cactus_spine",
+      "required": false
+    },
+    {
+      "id": "spider_overhaul:cavern_spider",
+      "required": false
+    },
+    {
+      "id": "spider_overhaul:desert_spider",
+      "required": false
+    },
+    {
+      "id": "spider_overhaul:ice_snowball",
+      "required": false
+    },
+    {
+      "id": "spider_overhaul:ice_spider",
+      "required": false
+    },
+    {
+      "id": "spider_overhaul:jungle_spider",
+      "required": false
+    },
+    {
+      "id": "spider_overhaul:mushroom_spider",
+      "required": false
+    },
+    {
+      "id": "spider_overhaul:ocean_spider",
+      "required": false
+    },
+    {
+      "id": "spider_overhaul:savanna_spider",
+      "required": false
+    },
+    {
+      "id": "spider_overhaul:sculk_spider",
+      "required": false
+    },
+    {
+      "id": "spider_overhaul:swamp_spider",
+      "required": false
+    },
+    {
+      "id": "spider_overhaul:taiga_spider",
+      "required": false
+    },
+    {
       "id": "spore:bairn",
       "required": false
     },
