@@ -2413,18 +2413,6 @@
       "required": false
     },
     {
-      "id": "dungeons_arise:heavenly_challenger",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:heavenly_conqueror",
-      "required": false
-    },
-    {
-      "id": "dungeons_arise:heavenly_rider",
-      "required": false
-    },
-    {
       "id": "dungeons_arise:illager_campsite",
       "required": false
     },

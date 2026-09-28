@@ -85,6 +85,10 @@
       "required": false
     },
     {
+      "id": "legendary_monsters:collapsed_kingdom",
+      "required": false
+    },
+    {
       "id": "letsdoaddon-structures:illager_mine",
       "required": false
     },

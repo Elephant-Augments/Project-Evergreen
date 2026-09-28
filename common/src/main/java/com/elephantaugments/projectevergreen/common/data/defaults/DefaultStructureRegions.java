@@ -585,6 +585,7 @@ public class DefaultStructureRegions {
         "bettermineshafts:mineshaft_spruce_snowy",
         "explorify:watchtower/taiga",
         "formationsoverworld:igloo",
+		"grim_kingdoms:winterhold_citadel",
 		"hollowmarch:frozen_igloo",
         "humancompanions:dark_oak_house",
         "idas:winter_wagon",
@@ -1437,7 +1438,6 @@ public class DefaultStructureRegions {
 		"grim_kingdoms:stonyfell_outpost",
 		"grim_kingdoms:travelers_lodge",
 		"grim_kingdoms:whitewarden_keep",
-		"grim_kingdoms:winterhold_citadel",
 		"grim_kingdoms:zweiberg",
         "goety:ominous_blacksmith",
         "goety:secluded_igloo",
@@ -2363,9 +2363,7 @@ public class DefaultStructureRegions {
 
     //ALL_RIVERS
     public static final List<String> allRivers = ImmutableList.of(
-        "dungeons_arise:heavenly_rider",
-        "dungeons_arise:heavenly_conqueror",
-        "dungeons_arise:heavenly_challenger"
+
 	);
 
     //ALL_CIVILIZATION

@@ -649,6 +649,10 @@
       "required": false
     },
     {
+      "id": "grim_kingdoms:winterhold_citadel",
+      "required": false
+    },
+    {
       "id": "hexerei:dark_coven",
       "required": false
     },

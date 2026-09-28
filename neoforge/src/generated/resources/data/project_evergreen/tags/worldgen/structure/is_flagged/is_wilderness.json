@@ -1249,10 +1249,6 @@
       "required": false
     },
     {
-      "id": "grim_kingdoms:winterhold_citadel",
-      "required": false
-    },
-    {
       "id": "grim_kingdoms:zweiberg",
       "required": false
     },

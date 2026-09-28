@@ -5,6 +5,10 @@
       "required": false
     },
     {
+      "id": "crittersandcompanions:jumping_spider",
+      "required": false
+    },
+    {
       "id": "crittersandcompanions:leaf_insect",
       "required": false
     },

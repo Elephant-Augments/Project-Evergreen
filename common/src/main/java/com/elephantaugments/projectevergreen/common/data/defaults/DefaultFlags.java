@@ -207,6 +207,7 @@ public class DefaultFlags {
 	public static final List<String> rareSpawn = ImmutableList.of(
 		"crittersandcompanions:dragonfly",
 		"crittersandcompanions:leaf_insect",
+		"crittersandcompanions:jumping_spider",
 		"envelope:pigeon",
 		"koopascritters:asian_leopard_cat",
 		"koopascritters:attenboroughs_echidna",
@@ -789,6 +790,7 @@ public class DefaultFlags {
         "idas:tinkers_citadel",
         "idas:bazaar",
 		"kattersstructures:village_mesa",
+		"legendary_monsters:collapsed_kingdom",
         "letsdoaddon-structures:illager_mine",
 		"qrafty:mushroom_village",
 		"qrafty:mangrove_village",
@@ -868,6 +870,7 @@ public class DefaultFlags {
         "feur_extension_jungle:tree_old",
         "feur_extension_jungle:tree_spline",
         "feur_extension_jungle:tree_stump",
+		"grim_kingdoms:winterhold_citadel",
         "goety:dark_manor",
 		"hollowmarch:palm_haven",
 		"hollowmarch:phantome_nest",

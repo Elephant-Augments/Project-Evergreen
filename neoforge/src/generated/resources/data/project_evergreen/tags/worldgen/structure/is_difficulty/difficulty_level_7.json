@@ -201,6 +201,10 @@
       "required": false
     },
     {
+      "id": "legendary_monsters:collapsed_kingdom",
+      "required": false
+    },
+    {
       "id": "legendary_monsters:space_station",
       "required": false
     },

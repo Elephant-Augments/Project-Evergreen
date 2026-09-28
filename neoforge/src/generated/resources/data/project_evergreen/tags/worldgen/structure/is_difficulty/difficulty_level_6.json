@@ -265,10 +265,6 @@
       "required": false
     },
     {
-      "id": "legendary_monsters:collapsed_kingdom",
-      "required": false
-    },
-    {
       "id": "legendary_monsters:frostbitten_temple",
       "required": false
     },

@@ -5,8 +5,8 @@
       "path": "/temp_properties",
       "value": {
         "id": "legendary_monsters:collapsed_kingdom",
-        "difficulty": 6,
-        "size": "LARGE",
+        "difficulty": 7,
+        "size": "SPRAWLING",
         "heightmap": "GROUNDLEVEL",
         "dimension": "#minecraft:is_overworld",
         "region": "#project_evergreen:is_region/wilderness_snow",
@@ -21,6 +21,7 @@
         "is_water_restricted": true,
         "spawn_overrides": {},
         "patchable": true,
+        "flatness_check_sprawling": true,
         "flatness_check_large": true,
         "is_wilderness": true
       }
@@ -510,7 +511,7 @@
       {
         "op": "add",
         "path": "/terrain_height_radius_check",
-        "value": 3
+        "value": 5
       },
       {
         "op": "paste",

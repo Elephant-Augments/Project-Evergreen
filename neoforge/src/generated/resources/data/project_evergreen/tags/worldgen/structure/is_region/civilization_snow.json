@@ -37,6 +37,10 @@
       "required": false
     },
     {
+      "id": "grim_kingdoms:winterhold_citadel",
+      "required": false
+    },
+    {
       "id": "hollowmarch:frozen_igloo",
       "required": false
     },

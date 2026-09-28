@@ -641,6 +641,10 @@
       "required": false
     },
     {
+      "id": "grim_kingdoms:winterhold_citadel",
+      "required": false
+    },
+    {
       "id": "hexerei:baba_yaga_hut",
       "required": false
     },
